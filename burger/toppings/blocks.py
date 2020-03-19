@@ -27,6 +27,7 @@ from jawa.constants import *
 from jawa.util.descriptor import method_descriptor
 
 from burger.util import WalkerCallback, walk_method, try_eval_lambda
+import traceback
 
 import six.moves
 
@@ -271,9 +272,10 @@ class BlocksTopping(Topping):
                     try:
                         args.append(object()) # The state that the lambda gets
                         return try_eval_lambda(ins, args, lcf)
-                    except Exception as ex:
+                    except:
                         if verbose:
-                            print("Failed to call lambda for light data:", ex)
+                            print("Failed to call lambda")
+                            traceback.print_exc()
                         return None
                 else:
                     return object()
