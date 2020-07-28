@@ -62,13 +62,6 @@ MAYBE_MATCHES = (
     (['Skipping Entity with id'], 'entity.list'),
 )
 
-# Enforce a lower priority on some matches, since some classes may match both
-# these and other strings, which we want to be grouped with the other string
-# if it exists, and with this if it doesn't
-MAYBE_MATCHES = (
-    (['Skipping Entity with id'], 'entity.list'),
-)
-
 # In some cases there really isn't a good way to verify that it's a specific
 # class and we need to just depend on it coming first (bad!)
 # The biome class specifically is an issue because in 18w06a, the old name is
@@ -78,22 +71,6 @@ MAYBE_MATCHES = (
 # Similarly, in 1.13, "bubble" is ambiguous between the particle class and
 # particle list, but the particletypes topping works with the first result in that case.
 IGNORE_DUPLICATES = [ "biome.register", "particletypes" ]
-
-def check_match(value, match_list):
-    exact = False
-    if isinstance(match_list, tuple):
-        match_list, exact = match_list
-
-    for match in match_list:
-        if exact:
-            if value != match:
-                continue
-        else:
-            if match not in value:
-                continue
-
-        return True
-    return False
 
 def check_match(value, match_list):
     exact = False
