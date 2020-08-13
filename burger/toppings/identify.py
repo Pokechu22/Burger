@@ -52,7 +52,8 @@ MATCHES = (
     ),
     (['has invalidly named property'], 'blockstatecontainer'),
     ((['HORIZONTAL'], True), 'enumfacing.plane'),
-    ((['bubble'], True), 'particletypes')
+    ((['bubble'], True), 'particletypes'),
+    ((['fire_protection'], True), 'enchantments')
 )
 
 # Enforce a lower priority on some matches, since some classes may match both
@@ -70,7 +71,11 @@ MAYBE_MATCHES = (
 
 # Similarly, in 1.13, "bubble" is ambiguous between the particle class and
 # particle list, but the particletypes topping works with the first result in that case.
-IGNORE_DUPLICATES = [ "biome.register", "particletypes" ]
+
+# The "fire_protection" string is duplicated in the same way, but in that case
+# the enchantments topping will work with either class so we don't care which
+# is returned.
+IGNORE_DUPLICATES = [ "biome.register", "particletypes", "enchantments" ]
 
 def check_match(value, match_list):
     exact = False
@@ -264,6 +269,7 @@ class IdentifyTopping(Topping):
         "identify.blockstatecontainer",
         "identify.blockstate",
         "identify.chatcomponent",
+        "identify.enchantments",
         "identify.entity.list",
         "identify.entity.trackerentry",
         "identify.enumfacing.plane",
