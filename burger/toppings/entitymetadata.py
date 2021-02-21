@@ -26,15 +26,14 @@ class EntityMetadataTopping(Topping):
 
     @staticmethod
     def act(aggregate, classloader, verbose=False):
+        # This approach works in 1.9 and later; before then metadata was different.
         entities = aggregate["entities"]["entity"]
 
         datamanager_class = aggregate["classes"]["metadata"]
         datamanager_cf = classloader[datamanager_class]
 
         create_key_method = datamanager_cf.methods.find_one(f=lambda m: len(m.args) == 2 and m.args[0].name == "java/lang/Class")
-
         dataparameter_class = create_key_method.returns.name
-
         dataserializer_class = create_key_method.args[1].name
 
         register_method = datamanager_cf.methods.find_one(f=lambda m: len(m.args) == 2 and m.args[0].name == dataparameter_class)
