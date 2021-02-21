@@ -266,8 +266,28 @@ class EntityMetadataTopping(Topping):
                         # the method calls getField() or getSharedField()
                         if ins.mnemonic in ("invokevirtual", "invokespecial", "invokeinterface", "invokestatic"):
                             calling_method = ins.operands[0].name_and_type.name.value
-                            is_getflag_method = calling_method == get_flag_method or calling_method == shared_get_flag_method
-                            if is_getflag_method == 1 and stack:
+
+                            has_correct_arguments = ins.operands[0].name_and_type.descriptor.value == '(I)Z'
+
+                            is_getflag_method = has_correct_arguments and calling_method == get_flag_method
+                            is_shared_getflag_method = has_correct_arguments and calling_method == shared_get_flag_method
+
+                            # if its a shared flag, update the bitfields_by_class for abstract_entity
+                            if is_shared_getflag_method and stack:
+                                bitmask_value = stack.pop()
+                                if bitmask_value is not None:
+                                    base_entity_cls = base_entity_cf.this.name.value
+                                    if base_entity_cls not in bitfields_by_class:
+                                        bitfields_by_class[base_entity_cls] = []
+                                    bitfields_by_class[base_entity_cls].append({
+                                        # we include the class here so it can be easily figured out from the mappings
+                                        "class": cls,
+                                        "method": method.name.value,
+                                        "value": 1 << bitmask_value
+                                    })
+                                bitmask_value = None
+                                # bitfields_by_class[cls] = bitfields
+                            elif is_getflag_method and stack:
                                 bitmask_value = stack.pop()
                                 break
                         elif ins.mnemonic == "iand":
@@ -284,7 +304,10 @@ class EntityMetadataTopping(Topping):
 
 
             metadata_by_class[cls] = metadata
-            bitfields_by_class[cls] = bitfields
+            if cls not in bitfields_by_class:
+                bitfields_by_class[cls] = bitfields
+            else:
+                bitfields_by_class[cls].extend(bitfields)
             return index
 
         for cls in six.iterkeys(entity_classes):
