@@ -266,7 +266,7 @@ class EntityMetadataTopping(Topping):
                         if ins.mnemonic in ("invokevirtual", "invokespecial", "invokeinterface", "invokestatic"):
                             calling_method = ins.operands[0].name_and_type.name.value
 
-                            has_correct_arguments = ins.operands[0].name_and_type.descriptor.value == '(I)Z'
+                            has_correct_arguments = ins.operands[0].name_and_type.descriptor.value == "(I)Z"
 
                             is_getflag_method = has_correct_arguments and calling_method == get_flag_method
                             is_shared_getflag_method = has_correct_arguments and calling_method == shared_get_flag_method
