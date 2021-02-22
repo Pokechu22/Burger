@@ -282,10 +282,9 @@ class EntityMetadataTopping(Topping):
                                         # we include the class here so it can be easily figured out from the mappings
                                         "class": cls,
                                         "method": method.name.value,
-                                        "value": 1 << bitmask_value
+                                        "mask": 1 << bitmask_value
                                     })
                                 bitmask_value = None
-                                # bitfields_by_class[cls] = bitfields
                             elif is_getflag_method and stack:
                                 bitmask_value = stack.pop()
                                 break
@@ -298,7 +297,7 @@ class EntityMetadataTopping(Topping):
                     if bitmask_value:
                         bitfields.append({
                             "method": method.name.value,
-                            "value": bitmask_value
+                            "mask": bitmask_value
                         })
 
 
