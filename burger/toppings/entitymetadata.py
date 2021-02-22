@@ -232,7 +232,7 @@ class EntityMetadataTopping(Topping):
 
             register = cf.methods.find_one(name=register_data_method_name, f=lambda m: m.descriptor == register_data_method_desc)
             if register and not register.access_flags.acc_abstract:
-                walk_method(cf, register, MetadataDefaultsContext(), verbose) 
+                walk_method(cf, register, MetadataDefaultsContext(), verbose)
             elif cls == base_entity_class:
                 walk_method(cf, cf.methods.find_one(name="<init>"), MetadataDefaultsContext(True), verbose)
 
