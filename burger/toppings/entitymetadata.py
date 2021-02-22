@@ -271,7 +271,7 @@ class EntityMetadataTopping(Topping):
                             is_getflag_method = has_correct_arguments and calling_method == get_flag_method
                             is_shared_getflag_method = has_correct_arguments and calling_method == shared_get_flag_method
 
-                            # if its a shared flag, update the bitfields_by_class for abstract_entity
+                            # if it's a shared flag, update the bitfields_by_class for abstract_entity
                             if is_shared_getflag_method and stack:
                                 bitmask_value = stack.pop()
                                 if bitmask_value is not None:
