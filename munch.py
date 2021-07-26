@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
 """
-Copyright (c) 2011 Tyler Kenendy <tk@tkte.ch>
+Copyright (c) 2021 Tyler Kenendy <tk@tkte.ch> and contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,81 +21,43 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 """
+
 import os
 import sys
 import getopt
 import urllib
 import traceback
+import json
+import importlib
+from importlib import resources
 
-try:
-    import json
-except ImportError:
-    import simplejson as json
-
-from collections import deque
-
-from jawa.classloader import ClassLoader
-from jawa.transforms import simple_swap, expand_constants
+from lawu.classloader import ClassLoader
 
 from burger import website
-from burger.roundedfloats import transform_floats
+from burger.util import transform_floats
+from burger.toppings.topping import Topping
 
 
-def import_toppings():
-    """
-    Attempts to imports either a list of toppings or, if none were
-    given, attempts to load all available toppings.
-    """
-    this_dir = os.path.dirname(__file__)
-    toppings_dir = os.path.join(this_dir, "burger", "toppings")
-    from_list = []
+def get_toppings():
+    files = resources.contents('burger.toppings')
+    toppings = [f[:-3] for f in files if f.endswith('.py') and f[0] != '_']
+    for topping in toppings:
+        importlib.import_module(f'burger.toppings.{topping}')
+    return {k: v for k, v in zip(Topping.__subclasses__(), toppings)}
 
-    # Traverse the toppings directory and import everything.
-    for root, dirs, files in os.walk(toppings_dir):
-        for file_ in files:
-            if not file_.endswith(".py"):
-                continue
-            elif file_.startswith("__"):
-                continue
-            elif file_ == "topping.py":
-                continue
-
-            from_list.append(file_[:-3])
-
-    from burger.toppings.topping import Topping
-    toppings = {}
-    last = Topping.__subclasses__()
-
-    for topping in from_list:
-        __import__("burger.toppings.%s" % topping)
-        current = Topping.__subclasses__()
-        subclasses = list([o for o in current if o not in last])
-        last = Topping.__subclasses__()
-        if len(subclasses) == 0:
-            print("Topping '%s' contains no topping" % topping)
-        elif len(subclasses) >= 2:
-            print("Topping '%s' contains more than one topping" % topping)
-        else:
-            toppings[topping] = subclasses[0]
-
-    return toppings
 
 if __name__ == "__main__":
     try:
-        opts, args = getopt.gnu_getopt(
-            sys.argv[1:],
-            "t:o:vd:Dlc",
-            [
-                "toppings=",
-                "output=",
-                "verbose",
-                "download=",
-                "download-latest",
-                "list",
-                "compact",
-                "url="
-            ]
-        )
+        opts, args = getopt.gnu_getopt(sys.argv[1:], 't:o:vd:Dlc', [
+            'toppings=',
+            'output=',
+            'verbose',
+            'download=',
+            'download-lates',
+            'list',
+            'compact',
+            'url=',
+        ])
     except getopt.GetoptError as err:
         print(str(err))
         sys.exit(1)
@@ -111,48 +73,44 @@ if __name__ == "__main__":
     url = None
 
     for o, a in opts:
-        if o in ("-t", "--toppings"):
-            toppings = a.split(",")
-        elif o in ("-o", "--output"):
-            output = open(a, "w")
-        elif o in ("-v", "--verbose"):
+        if o in ('-t', '--toppings'):
+            toppings = a.split(',')
+        elif o in ('-o', '--output'):
+            output = open(a, 'w')
+        elif o in ('-v', '--verbose'):
             verbose = True
-        elif o in ("-c", "--compact"):
+        elif o in ('-c', '--compact'):
             compact = True
-        elif o in ("-d", "--download"):
+        elif o in ('-d', '--download'):
             download_jars.append(a)
-        elif o in ("-D", "--download-latest"):
+        elif o in ('-D', '--download-latest'):
             download_latest = True
-        elif o in ("-l", "--list"):
+        elif o in ('-l', '--list'):
             list_toppings = True
-        elif o in ("-s", "--url"):
+        elif o in ('-s', '--url'):
             url = a
 
     # Load all toppings
-    all_toppings = import_toppings()
+    all_toppings = get_toppings()
 
     # List all of the available toppings,
     # as well as their docstring if available.
     if list_toppings:
-        for topping in all_toppings:
-            print("%s" % topping)
-            if all_toppings[topping].__doc__:
-                print(" -- %s\n" % all_toppings[topping].__doc__)
+        for name, _class in all_toppings.items():
+            print(f'{name}')
+            print(f' -- {_class.__doc__}\n' if _class.__doc__ else '\n')
         sys.exit(0)
 
     # Get the toppings we want
     if toppings is None:
         loaded_toppings = all_toppings.values()
     else:
-        loaded_toppings = []
-        for topping in toppings:
-            if topping not in all_toppings:
-                print("Topping '%s' doesn't exist" % topping)
-            else:
-                loaded_toppings.append(all_toppings[topping])
+        loaded_toppings = [top for top in toppings if top in all_toppings]
+        for top in [top for top in toppings if top not in all_toppings]:
+            print(f'Topping {top} doesn\'t exist')
 
     class DependencyNode:
-        def  __init__(self, topping):
+        def __init__(self, topping):
             self.topping = topping
             self.provides = topping.PROVIDES
             self.depends = topping.DEPENDS
@@ -185,7 +143,7 @@ if __name__ == "__main__":
     for topping in topping_nodes:
         for dependency in topping.depends:
             if not dependency in topping_provides:
-                print("(%s) requires (%s)" % (topping, dependency))
+                print(f'({topping}) requires ({dependency})')
                 sys.exit(1)
             if not topping_provides[dependency] in topping.childs:
                 topping.childs.append(topping_provides[dependency])
@@ -203,7 +161,7 @@ if __name__ == "__main__":
                 to_be_run.append(topping.topping)
                 topping_nodes.remove(topping)
         if stuck:
-            print("Can't resolve dependencies")
+            print('Can\'t resolve dependencies')
             sys.exit(1)
 
     jarlist = args
@@ -226,16 +184,16 @@ if __name__ == "__main__":
     summary = []
 
     for path in jarlist:
-        classloader = ClassLoader(path, max_cache=0, bytecode_transforms=[simple_swap, expand_constants])
+        classloader = ClassLoader(path, max_cache=0)
         names = classloader.path_map.keys()
-        num_classes = sum(1 for name in names if name.endswith(".class"))
+        num_classes = sum(1 for name in names if name.endswith('.class'))
 
         aggregate = {
-            "source": {
-                "file": path,
-                "classes": num_classes,
-                "other": len(names),
-                "size": os.path.getsize(path)
+            'source': {
+                'file': path,
+                'classes': num_classes,
+                'other': len(names),
+                'size': os.path.getsize(path)
             }
         }
 
@@ -244,7 +202,9 @@ if __name__ == "__main__":
             missing = [dep for dep in topping.DEPENDS if dep not in available]
             if len(missing) != 0:
                 if verbose:
-                    print("Dependencies failed for %s: Missing %s" % (topping, missing))
+                    print(
+                        f'Dependencies failed for {topping}: Missing {missing}'
+                    )
                 continue
 
             orig_aggregate = aggregate.copy()
@@ -252,9 +212,9 @@ if __name__ == "__main__":
                 topping.act(aggregate, classloader, verbose)
                 available.extend(topping.PROVIDES)
             except:
-                aggregate = orig_aggregate # If the topping failed, don't leave things in an incomplete state
+                aggregate = orig_aggregate  # If the topping failed, don't leave things in an incomplete state
                 if verbose:
-                    print("Failed to run %s" % topping)
+                    print(f'Failed to run {topping}')
                     traceback.print_exc()
 
         summary.append(aggregate)
