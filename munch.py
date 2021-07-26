@@ -41,9 +41,10 @@ from burger.toppings.topping import Topping
 def get_toppings():
     files = resources.contents('burger.toppings')
     toppings = [f[:-3] for f in files if f.endswith('.py') and f[0] != '_']
+    toppings.remove('topping')
     for topping in toppings:
         importlib.import_module(f'burger.toppings.{topping}')
-    return {k: v for k, v in zip(Topping.__subclasses__(), toppings)}
+    return {k: v for k, v in zip(toppings, Topping.__subclasses__())}
 
 
 if __name__ == "__main__":
@@ -91,22 +92,22 @@ if __name__ == "__main__":
             url = a
 
     # Load all toppings
-    all_toppings = get_toppings()
+    all_tops = get_toppings()
 
     # List all of the available toppings,
     # as well as their docstring if available.
     if list_toppings:
-        for name, _class in all_toppings.items():
+        for name, _class in all_tops.items():
             print(f'{name}')
             print(f' -- {_class.__doc__}\n' if _class.__doc__ else '\n')
         sys.exit(0)
 
     # Get the toppings we want
     if toppings is None:
-        loaded_toppings = all_toppings.values()
+        loaded_tops = all_tops.values()
     else:
-        loaded_toppings = [top for top in toppings if top in all_toppings]
-        for top in [top for top in toppings if top not in all_toppings]:
+        loaded_tops = [all_tops[top] for top in toppings if top in all_tops]
+        for top in [top for top in toppings if top not in all_tops]:
             print(f'Topping {top} doesn\'t exist')
 
     class DependencyNode:
@@ -122,7 +123,7 @@ if __name__ == "__main__":
     # Order topping execution by building dependency tree
     topping_nodes = []
     topping_provides = {}
-    for topping in loaded_toppings:
+    for topping in loaded_tops:
         topping_node = DependencyNode(topping)
         topping_nodes.append(topping_node)
         for provides in topping_node.provides:
@@ -132,7 +133,7 @@ if __name__ == "__main__":
     for topping in topping_nodes:
         for dependency in topping.depends:
             if not dependency in topping_provides:
-                for other_topping in all_toppings.values():
+                for other_topping in all_tops.values():
                     if dependency in other_topping.PROVIDES:
                         topping_node = DependencyNode(other_topping)
                         topping_nodes.append(topping_node)
@@ -208,14 +209,20 @@ if __name__ == "__main__":
                 continue
 
             orig_aggregate = aggregate.copy()
-            try:
-                topping.act(aggregate, classloader, verbose)
-                available.extend(topping.PROVIDES)
-            except:
-                aggregate = orig_aggregate  # If the topping failed, don't leave things in an incomplete state
-                if verbose:
-                    print(f'Failed to run {topping}')
-                    traceback.print_exc()
+
+
+            topping.act(aggregate, classloader, verbose)
+            available.extend(topping.PROVIDES)
+
+
+#             try:
+#                 topping.act(aggregate, classloader, verbose)
+#                 available.extend(topping.PROVIDES)
+#             except:
+#                 aggregate = orig_aggregate  # If the topping failed, don't leave things in an incomplete state
+#                 if verbose:
+#                     print(f'Failed to run {topping}')
+#                     traceback.print_exc()
 
         summary.append(aggregate)
 

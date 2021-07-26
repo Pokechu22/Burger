@@ -1,32 +1,6 @@
-#!/usr/bin/env python
-# -*- coding: utf8 -*-
-"""
-Copyright (c) 2011 Tyler Kenendy <tk@tkte.ch>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-"""
-
+from lawu.constants import String
+from lawu import ast
 from .topping import Topping
-
-from jawa.constants import String
-
-import traceback
 
 # We can identify almost every class we need just by
 # looking for consistent strings.
@@ -52,15 +26,13 @@ MATCHES = (
     ),
     (['has invalidly named property'], 'blockstatecontainer'),
     ((['HORIZONTAL'], True), 'enumfacing.plane'),
-    ((['bubble'], True), 'particletypes')
+    ((['bubble'], True), 'particletypes'),
 )
 
 # Enforce a lower priority on some matches, since some classes may match both
 # these and other strings, which we want to be grouped with the other string
 # if it exists, and with this if it doesn't
-MAYBE_MATCHES = (
-    (['Skipping Entity with id'], 'entity.list'),
-)
+MAYBE_MATCHES = ((['Skipping Entity with id'], 'entity.list'), )
 
 # In some cases there really isn't a good way to verify that it's a specific
 # class and we need to just depend on it coming first (bad!)
@@ -70,23 +42,19 @@ MAYBE_MATCHES = (
 
 # Similarly, in 1.13, "bubble" is ambiguous between the particle class and
 # particle list, but the particletypes topping works with the first result in that case.
-IGNORE_DUPLICATES = [ "biome.register", "particletypes" ]
+IGNORE_DUPLICATES = ["biome.register", "particletypes"]
+
 
 def check_match(value, match_list):
     exact = False
     if isinstance(match_list, tuple):
         match_list, exact = match_list
 
-    for match in match_list:
-        if exact:
-            if value != match:
-                continue
-        else:
-            if match not in value:
-                continue
+    if exact:
+        return any(match == value for match in match_list)
 
-        return True
-    return False
+    return any(match in value for match in match_list)
+
 
 def identify(classloader, path, verbose):
     """
@@ -104,16 +72,17 @@ def identify(classloader, path, verbose):
         for match_list, match_name in MATCHES:
             if check_match(value, match_list):
                 class_file = classloader[path]
-                return match_name, class_file.this.name.value
+                return match_name, class_file.this
 
         for match_list, match_name in MAYBE_MATCHES:
             if check_match(value, match_list):
                 class_file = classloader[path]
-                possible_match = (match_name, class_file.this.name.value)
+                possible_match = (match_name, class_file.this)
                 # Continue searching through the other constants in the class
 
         if 'BaseComponent' in value:
             class_file = classloader[path]
+            interfaces = list(class_file.node.find(name='implements'))
             # We want the interface for chat components, but it has no
             # string constants, so we need to use the abstract class and then
             # get its first implemented interface.
@@ -122,18 +91,22 @@ def identify(classloader, path, verbose):
             # want, but the interface we do want extends Brigadier's Message interface.
             # So, loop up until a good-looking interface is present.
             # In other versions, the interface extends Iterable.  In some versions, it extends both.
-            while len(class_file.interfaces) in (1, 2):
-                parent = class_file.interfaces[0].name.value
+            while len(interfaces) in (1, 2):
+                parent = interfaces[0].descriptor
                 if "com/mojang/brigadier" in parent or "java/lang/Iterable" == parent:
                     break
                 class_file = classloader[parent]
+                interfaces = list(class_file.node.find(name='implements'))
             else:
                 # There wasn't the same number of interfaces, can't do anything really
                 if verbose:
-                    print(class_file, "(parent of " + path + ", BaseComponent) has an unexpected number of interfaces:", class_file.interfaces)
+                    print(
+                        class_file, "(parent of " + path +
+                        ", BaseComponent) has an unexpected number of interfaces:",
+                        class_file.interfaces)
                 # Just hope for the best with the current class file
 
-            return 'chatcomponent', class_file.this.name.value
+            return 'chatcomponent', class_file.this
 
         if value == 'ambient.cave':
             # This is found in both the sounds list class and sounds event class.
@@ -143,9 +116,9 @@ def identify(classloader, path, verbose):
 
             for c2 in class_file.constants.find(type_=String):
                 if c2 == 'Accessed Sounds before Bootstrap!':
-                    return 'sounds.list', class_file.this.name.value
+                    return 'sounds.list', class_file.this
             else:
-                return 'sounds.event', class_file.this.name.value
+                return 'sounds.event', class_file.this
 
         if value == 'piston_head':
             # piston_head is a technical block, which is important as that means it has no item form.
@@ -154,9 +127,9 @@ def identify(classloader, path, verbose):
 
             for c2 in class_file.constants.find(type_=String):
                 if c2 == 'Accessed Blocks before Bootstrap!':
-                    return 'block.list', class_file.this.name.value
+                    return 'block.list', class_file.this
             else:
-                return 'block.register', class_file.this.name.value
+                return 'block.register', class_file.this
 
         if value == 'diamond_pickaxe':
             # Similarly, diamond_pickaxe is only an item.  This exists in 3 classes, though:
@@ -171,9 +144,9 @@ def identify(classloader, path, verbose):
                     return
 
                 if c2 == 'Accessed Items before Bootstrap!':
-                    return 'item.list', class_file.this.name.value
+                    return 'item.list', class_file.this
             else:
-                return 'item.register', class_file.this.name.value
+                return 'item.register', class_file.this
 
         if value in ('Ice Plains', 'mutated_ice_flats', 'ice_spikes'):
             # Finally, biomes.  There's several different names that were used for this one biome
@@ -182,16 +155,16 @@ def identify(classloader, path, verbose):
 
             for c2 in class_file.constants.find(type_=String):
                 if c2 == 'Accessed Biomes before Bootstrap!':
-                    return 'biome.list', class_file.this.name.value
+                    return 'biome.list', class_file.this
             else:
-                return 'biome.register', class_file.this.name.value
+                return 'biome.register', class_file.this
 
         if value == 'minecraft':
             class_file = classloader[path]
 
             # Look for two protected final strings
             def is_protected_final(m):
-                return m.access_flags.acc_protected and m.access_flags.acc_final
+                return m.access_flags.PROTECTED and m.access_flags.FINAL
 
             find_args = {
                 "type_": "Ljava/lang/String;",
@@ -200,7 +173,7 @@ def identify(classloader, path, verbose):
             fields = class_file.fields.find(**find_args)
 
             if len(list(fields)) == 2:
-                return 'identifier', class_file.this.name.value
+                return 'identifier', class_file.this
 
         if value == 'PooledMutableBlockPosition modified after it was released.':
             # Keep on going up the class hierarchy until we find a logger,
@@ -219,7 +192,7 @@ def identify(classloader, path, verbose):
                     break
                 cf = classloader[cf.super_.name.value]
             if cf:
-                return 'position', cf.this.name.value
+                return 'position', cf.this
 
         if value == 'Getting block state':
             # This message is found in Chunk, in the method getBlockState.
@@ -227,26 +200,36 @@ def identify(classloader, path, verbose):
             # but currently identify only allows marking one class at a time.
             class_file = classloader[path]
 
-            for method in class_file.methods:
-                for ins in method.code.disassemble():
-                    if ins.mnemonic in ("ldc", "ldc_w"):
-                        if ins.operands[0] == 'Getting block state':
+            for method in class_file.methods.find():
+                for ins in method.code:
+                    if not isinstance(ins, ast.Instruction):
+                        continue
+                    if ins.name in ("ldc", "ldc_w"):
+                        o = ins.operands[0]
+                        if isinstance(o, ast.String) and o.value == 'Getting block state':
                             return 'blockstate', method.returns.name
             else:
                 if verbose:
-                    print("Found chunk as %s, but didn't find the method that returns blockstate" % path)
+                    print(
+                        "Found chunk as %s, but didn't find the method that returns blockstate"
+                        % path)
 
         if value == 'particle.notFound':
             # This is in ParticleArgument, which is used for commands and
             # implements brigadier's ArgumentType<IParticleData>.
             class_file = classloader[path]
+            interfaces = tuple(class_file.node.find(name='implements'))
 
-            if len(class_file.interfaces) == 1 and class_file.interfaces[0].name == "com/mojang/brigadier/arguments/ArgumentType":
-                sig = class_file.attributes.find_one(name="Signature").signature.value
-                inner_type = sig[sig.index("<") + 1 : sig.rindex(">")][1:-1]
+            if (len(interfaces) == 1 and interfaces[0].descriptor
+                    == 'com/mojang/brigadier/arguments/ArgumentType'):
+                sig = class_file.attributes.find_one(
+                    type_="signature").signature.as_ast.value
+                inner_type = sig[sig.index("<") + 1:sig.rindex(">")][1:-1]
                 return "particle", inner_type
             elif verbose:
-                print("Found ParticleArgument as %s, but it didn't implement the expected interface" % path)
+                print(
+                    "Found ParticleArgument as %s, but it didn't implement the expected interface"
+                    % path)
 
     # May (will usually) be None
     return possible_match
@@ -284,7 +267,7 @@ class IdentifyTopping(Topping):
         "identify.resourcelocation",
         "identify.sounds.event",
         "identify.sounds.list",
-        "identify.tileentity.superclass"
+        "identify.tileentity.superclass",
     ]
 
     DEPENDS = []
@@ -302,12 +285,12 @@ class IdentifyTopping(Topping):
                     if result[0] in IGNORE_DUPLICATES:
                         continue
                     raise Exception(
-                            "Already registered %(value)s to %(old_class)s! "
-                            "Can't overwrite it with %(new_class)s" % {
-                                "value": result[0],
-                                "old_class": classes[result[0]],
-                                "new_class": result[1]
-                            })
+                        "Already registered %(value)s to %(old_class)s! "
+                        "Can't overwrite it with %(new_class)s" % {
+                            "value": result[0],
+                            "old_class": classes[result[0]],
+                            "new_class": result[1]
+                        })
                 classes[result[0]] = result[1]
                 if len(classes) == len(IdentifyTopping.PROVIDES):
                     # If everything has been found, we don't need to keep
