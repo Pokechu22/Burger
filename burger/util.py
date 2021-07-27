@@ -12,7 +12,10 @@ def transform_floats(o):
   return o
 
 
-def yield_inst(code, find_ins: List[str] = None) -> Iterator[ast.Instruction]:
+def yield_inst(code, find_ins=None) -> Iterator[ast.Instruction]:
+  if isinstance(find_ins, str):
+    find_ins = [find_ins]
+
   for ins in code:
     if isinstance(ins, ast.Instruction):
       if find_ins is None or ins.name in find_ins:
