@@ -82,7 +82,7 @@ def identify(classloader, path, verbose):
 
     if 'BaseComponent' in value:
       class_file = classloader[path]
-      interfaces = list(class_file.node.find(name='implements'))
+      interfaces = list(class_file.interfaces)
       # We want the interface for chat components, but it has no
       # string constants, so we need to use the abstract class and then
       # get its first implemented interface.
@@ -96,14 +96,14 @@ def identify(classloader, path, verbose):
         if "com/mojang/brigadier" in parent or "java/lang/Iterable" == parent:
           break
         class_file = classloader[parent]
-        interfaces = list(class_file.node.find(name='implements'))
+        interfaces = list(class_file.interfaces)
       else:
         # There wasn't the same number of interfaces, can't do anything really
         if verbose:
           print(
               class_file, "(parent of " + path +
               ", BaseComponent) has an unexpected number of interfaces:",
-              class_file.interfaces)
+              interfaces)
         # Just hope for the best with the current class file
 
       return 'chatcomponent', class_file.this
@@ -167,9 +167,9 @@ def identify(classloader, path, verbose):
         return m.access_flags.PROTECTED and m.access_flags.FINAL
 
       find_args = {"type_": "Ljava/lang/String;", "f": is_protected_final}
-      fields = class_file.fields.find(**find_args)
+      fields = list(class_file.fields.find(**find_args))
 
-      if len(list(fields)) == 2:
+      if len(fields) == 2:
         return 'identifier', class_file.this
 
     if value == 'PooledMutableBlockPosition modified after it was released.':
@@ -182,12 +182,11 @@ def identify(classloader, path, verbose):
       # Finally, note that PooledMutableBlockPos was introduced in 1.9.
       # This technique will not work in 1.8.
       cf = classloader[path]
-      logger_type = "Lorg/apache/logging/log4j/Logger;"
-      while not cf.fields.find_one(type_=logger_type):
-        if cf.super_.name == "java/lang/Object":
+      while not cf.fields.find_one(type_='Lorg/apache/logging/log4j/Logger;'):
+        if cf.super_ == "java/lang/Object":
           cf = None
           break
-        cf = classloader[cf.super_.name.value]
+        cf = classloader[cf.super_]
       if cf:
         return 'position', cf.this
 
@@ -197,7 +196,7 @@ def identify(classloader, path, verbose):
       # but currently identify only allows marking one class at a time.
       class_file = classloader[path]
 
-      for method in class_file.methods.find():
+      for method in class_file.methods:
         for ins in method.code:
           if not isinstance(ins, ast.Instruction):
             continue
@@ -207,26 +206,24 @@ def identify(classloader, path, verbose):
               return 'blockstate', method.returns.name
       else:
         if verbose:
-          print(
-              "Found chunk as %s, but didn't find the method that returns blockstate"
-              % path)
+          print(f'Found chunk as {path}, but didn\'t find the method that '
+                'returns blockstate')
 
     if value == 'particle.notFound':
       # This is in ParticleArgument, which is used for commands and
       # implements brigadier's ArgumentType<IParticleData>.
       class_file = classloader[path]
-      interfaces = tuple(class_file.node.find(name='implements'))
+      interfaces = list(class_file.interfaces)
 
       if (len(interfaces) == 1 and interfaces[0].descriptor
           == 'com/mojang/brigadier/arguments/ArgumentType'):
         sig = class_file.attributes.find_one(
-            type_='signature').signature.as_ast.value
+            type_=ast.Signature).signature.value
         inner_type = sig[sig.index('<') + 1:sig.rindex('>')][1:-1]
-        return "particle", inner_type
+        return 'particle', inner_type
       elif verbose:
-        print(
-            "Found ParticleArgument as %s, but it didn't implement the expected interface"
-            % path)
+        print('Found ParticleArgument as {path}, but it didn\'t implement the '
+              'expected interface')
 
   # May (will usually) be None
   return possible_match
