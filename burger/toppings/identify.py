@@ -1,5 +1,6 @@
 from lawu.constants import String
 from lawu import ast
+from burger.util import yield_inst
 from .topping import Topping
 
 # We can identify almost every class we need just by
@@ -197,13 +198,10 @@ def identify(classloader, path, verbose):
       class_file = classloader[path]
 
       for method in class_file.methods:
-        for ins in method.code:
-          if not isinstance(ins, ast.Instruction):
-            continue
-          if ins.name in ("ldc", "ldc_w"):
-            o = ins.operands[0]
-            if isinstance(o, ast.String) and o.value == 'Getting block state':
-              return 'blockstate', method.returns.name
+        for ins in yield_inst(method.code, ('ldc', 'ldc_w')):
+          o = ins.operands[0]
+          if isinstance(o, ast.String) and o.value == 'Getting block state':
+            return 'blockstate', method.returns.name
       else:
         if verbose:
           print(f'Found chunk as {path}, but didn\'t find the method that '
