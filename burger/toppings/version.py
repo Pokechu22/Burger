@@ -1,8 +1,6 @@
 import json
 
 from lawu.ast import String, Number
-
-from burger.util import yield_inst
 from .topping import Topping
 
 
@@ -78,7 +76,7 @@ class VersionTopping(Topping):
       looking_for_version_name = False
 
       for method in cf.methods:
-        for ins in yield_inst(method.code, ('bipush', 'sipush')):
+        for ins in method.code.find_ins('bipush', 'sipush'):
           version = ins.operands[0].value
 
       if version is None:
@@ -87,7 +85,7 @@ class VersionTopping(Topping):
         return
 
       for method in cf.methods:
-        for ins in yield_inst(method.code, 'ldc'):
+        for ins in method.code.find_ins('ldc'):
           opr = ins.operands[0]
           if isinstance(opr, String):
             if 'multiplayer.disconnect.outdated_client' in opr.value:
@@ -122,15 +120,17 @@ class VersionTopping(Topping):
         # if 'hasLegacyStructureData' is present then we're in the
         # querying one so break and try the next method
         def f(ins):
+          if ins.name not in ('ldc', 'ldc_w'):
+            return False
           o = ins.operands[0]
           return isinstance(o, String) and o.value == 'hasLegacyStructureData'
 
-        if any(f(ins) for ins in yield_inst(method.code, ('ldc', 'ldc_w'))):
+        if next(method.code.find(name='instruction', f=f), False):
           continue
 
         found_version = None
 
-        ins_gen = yield_inst(method.code, ('ldc', 'ldc_w', 'bipush', 'sipush'))
+        ins_gen = method.code.find_ins('ldc', 'ldc_w', 'bipush', 'sipush')
         for ins in ins_gen:
           opr = ins.operands[0]
           if isinstance(opr, String) and opr.value == 'DataVersion':
