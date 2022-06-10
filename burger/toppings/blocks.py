@@ -153,7 +153,17 @@ class BlocksTopping(Topping):
 
             def on_new(self, ins, const):
                 class_name = const.name.value
-                return {"class": class_name}
+
+                super_classes = []
+                this_super_class = classloader[class_name].super_.name.value
+                while this_super_class != superclass:
+                    super_classes.append(this_super_class)
+                    try:
+                        this_super_class = classloader[this_super_class].super_.name.value
+                    except FileNotFoundError:
+                        break
+
+                return {"class": class_name, "super": super_classes}
 
             def on_invoke(self, ins, const, obj, args):
                 method_name = const.name_and_type.name.value
@@ -337,7 +347,17 @@ class BlocksTopping(Topping):
 
             def on_new(self, ins, const):
                 class_name = const.name.value
-                return {"class": class_name}
+
+                super_classes = []
+                this_super_class = classloader[class_name].super_.name.value
+                while this_super_class != superclass:
+                    super_classes.append(this_super_class)
+                    try:
+                        this_super_class = classloader[this_super_class].super_.name.value
+                    except FileNotFoundError:
+                        break
+
+                return {"class": class_name, "super": super_classes}
 
             def on_invoke(self, ins, const, obj, args):
                 method_name = const.name_and_type.name.value
@@ -444,8 +464,19 @@ class BlocksTopping(Topping):
                 # The beginning of a new block definition
                 const = ins.operands[0]
                 class_name = const.name.value
+                
+                super_classes = []
+                this_super_class = classloader[class_name].super_.name.value
+                while this_super_class != superclass:
+                    super_classes.append(this_super_class)
+                    try:
+                        this_super_class = classloader[this_super_class].super_.name.value
+                    except FileNotFoundError:
+                        break
+                
                 current_block = {
                     "class": class_name,
+                    "super": super_classes,
                     "calls": {}
                 }
 
@@ -630,6 +661,7 @@ class BlocksTopping(Topping):
                 final["text_id"] = blk["text_id"]
 
             final["class"] = blk["class"]
+            final["super"] = blk["super"]
 
             if name_setter in blk["calls"]:
                 final["name"] = blk["calls"][name_setter][0]
