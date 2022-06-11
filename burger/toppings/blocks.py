@@ -48,6 +48,18 @@ class BlocksTopping(Topping):
     ]
 
     @staticmethod
+    def list_super_classes(class_name, superclass, classloader):
+        super_classes = []
+        this_super_class = class_name
+        while this_super_class != superclass:
+            try:
+                this_super_class = classloader[this_super_class].super_.name.value
+            except FileNotFoundError:
+                break
+            super_classes.append(this_super_class)
+        return super_classes
+
+    @staticmethod
     def act(aggregate, classloader, verbose=False):
         data_version = aggregate["version"]["data"] if "data" in aggregate["version"] else -1
         if data_version >= 1901: # 18w43a
@@ -154,14 +166,7 @@ class BlocksTopping(Topping):
             def on_new(self, ins, const):
                 class_name = const.name.value
 
-                super_classes = []
-                this_super_class = classloader[class_name].super_.name.value
-                while this_super_class != superclass:
-                    super_classes.append(this_super_class)
-                    try:
-                        this_super_class = classloader[this_super_class].super_.name.value
-                    except FileNotFoundError:
-                        break
+                super_classes = BlocksTopping.list_super_classes(class_name, superclass, classloader)
 
                 return {"class": class_name, "super": super_classes}
 
@@ -348,14 +353,7 @@ class BlocksTopping(Topping):
             def on_new(self, ins, const):
                 class_name = const.name.value
 
-                super_classes = []
-                this_super_class = classloader[class_name].super_.name.value
-                while this_super_class != superclass:
-                    super_classes.append(this_super_class)
-                    try:
-                        this_super_class = classloader[this_super_class].super_.name.value
-                    except FileNotFoundError:
-                        break
+                super_classes = BlocksTopping.list_super_classes(class_name, superclass, classloader)
 
                 return {"class": class_name, "super": super_classes}
 
@@ -465,14 +463,7 @@ class BlocksTopping(Topping):
                 const = ins.operands[0]
                 class_name = const.name.value
                 
-                super_classes = []
-                this_super_class = classloader[class_name].super_.name.value
-                while this_super_class != superclass:
-                    super_classes.append(this_super_class)
-                    try:
-                        this_super_class = classloader[this_super_class].super_.name.value
-                    except FileNotFoundError:
-                        break
+                super_classes = BlocksTopping.list_super_classes(class_name, superclass, classloader)
                 
                 current_block = {
                     "class": class_name,
