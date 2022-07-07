@@ -392,7 +392,7 @@ class PacketInstructionsTopping(Topping):
                     stack.insert(
                         -3 if stack[-3].category == 2 else -4, stack[-1]
                     )
-            elif mnemonic in ("return", "lreturn", "freturn", "dreturn", "areturn"):
+            elif mnemonic in ("return", "ireturn", "lreturn", "freturn", "dreturn", "areturn"):
                 # Don't attempt to lookup the instruction in the handler
                 pass
 
