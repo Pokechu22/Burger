@@ -155,10 +155,11 @@ def identify(classloader, path, verbose):
             class_file = classloader[path]
 
             for c2 in class_file.constants.find(type_=String):
-                if c2 == 'Accessed Blocks before Bootstrap!':
-                    return 'block.list', class_file.this.name.value
+                if c2 == 'doTileDrops':
+                    # not in the list, only in registry
+                    return 'block.register', class_file.this.name.value
             else:
-                return 'block.register', class_file.this.name.value
+                return 'block.list', class_file.this.name.value
 
         if value == 'diamond_pickaxe':
             # Similarly, diamond_pickaxe is only an item.  This exists in 3 classes, though:
@@ -172,10 +173,12 @@ def identify(classloader, path, verbose):
                     # Item renderer, which we don't care about
                     return
 
-                if c2 == 'Accessed Items before Bootstrap!':
-                    return 'item.list', class_file.this.name.value
+                if c2 == 'CB3F55D3-645C-4F38-A497-9C13A33DB5CF':
+                    # Item registry always contains this uuid for
+                    # "BASE_ATTACK_DAMAGE_UUID"
+                    return 'item.register', class_file.this.name.value
             else:
-                return 'item.register', class_file.this.name.value
+                return 'item.list', class_file.this.name.value
 
         if value in ('Ice Plains', 'mutated_ice_flats', 'ice_spikes'):
             # Finally, biomes.  There's several different names that were used for this one biome
