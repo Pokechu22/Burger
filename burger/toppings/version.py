@@ -104,7 +104,7 @@ class VersionTopping(Topping):
                 for instr in method.code.disassemble():
                     if instr in ("bipush", "sipush"):
                         version = instr.operands[0].value
-                    elif instr == "ldc" and version is not None:
+                    elif instr == "ldc":
                         constant = instr.operands[0]
                         if isinstance(constant, String):
                             str = constant.string.value
@@ -118,6 +118,10 @@ class VersionTopping(Topping):
                                 versions["id"] = versions["name"]
                                 return
                             elif "Outdated server!" in str:
+                                if version is None:
+                                    # 13w41a and 13w41b (protocol version 0)
+                                    # don't explicitly set the variable
+                                    version = 0
                                 versions["protocol"] = version
                                 versions["name"] = \
                                     str[len("Outdated server! I'm still on "):]
