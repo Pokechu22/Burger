@@ -643,7 +643,7 @@ class PacketInstructionsTopping(Topping):
             return [Operation(instruction.pos, "write", type="itemstack", field=arg)]
         elif arg_type == classes["chatcomponent"]:
             return [Operation(instruction.pos, "write", type="chatcomponent", field=arg)]
-        elif arg_type == classes["identifier"]:
+        elif arg_type == classes.get("identifier"):
             return [Operation(instruction.pos, "write", type="identifier", field=arg)]
         elif "position" not in classes or arg_type == classes["position"]:
             if "position" not in classes:
