@@ -161,7 +161,8 @@ def identify(classloader, path, verbose):
             else:
                 for c2 in class_file.constants.find(type_=String):
                     if c2 == 'Tesselating block in world':
-                        break
+                        # Rendering code, which we don't care about
+                        return
                 else:
                     return 'block.list', class_file.this.name.value
 
