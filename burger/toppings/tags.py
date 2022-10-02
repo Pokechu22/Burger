@@ -50,6 +50,8 @@ class TagsTopping(Topping):
                 if entry.startswith("#"):
                     assert entry.startswith("#minecraft:")
                     referenced_tag_name = tag["type"] + "/" + entry[len("#minecraft:"):]
+                    if "worldgen" in referenced_tag_name:
+                        continue
                     flatten_tag(referenced_tag_name)
                     new_values.extend(tags[referenced_tag_name]["values"])
                 else:
