@@ -213,7 +213,6 @@ def identify(classloader, path, verbose):
             if len(list(fields)) == 2:
                 return 'identifier', class_file.this.name.value
 
-
         if value == 'PooledMutableBlockPosition modified after it was released.':
             # Keep on going up the class hierarchy until we find a logger,
             # which is declared in the main BlockPos class
