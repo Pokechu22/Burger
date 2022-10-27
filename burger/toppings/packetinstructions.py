@@ -673,7 +673,7 @@ class PacketInstructionsTopping(Topping):
     def _handle_2_arg_buffer_call(classloader, classes, instruction, verbose,
                                   cls, name, desc, instance, args):
         if desc.args[0].name == "java/lang/String" and desc.args[1].name == "int":
-            max_length = args[1]
+            max_length = int(args[1].value, 0) # the 0 makes it handle the 0x prefix if it's there
             return [Operation(instruction.pos, "write", type="string", field=args[0], length=max_length)]
         elif desc.args[0].name == "com/mojang/serialization/Codec":
             codec = args[0]
@@ -771,7 +771,7 @@ class PacketInstructionsTopping(Topping):
         elif desc.args[0].name == classes.get("idmap"):
             return [Operation(instruction.pos, "write", type="varint", field="%s.getId(%s)" % (args[0], args[1]))]
         elif desc.args[0].name == "java/util/BitSet":
-            max_length = args[1]
+            max_length = int(args[1].value, 0) # the 0 makes it handle the 0x prefix if it's there
             return [Operation(instruction.pos, "write", type="bitset", field=args[0], length=max_length)]
         elif desc.args[0].name == "java/util/EnumSet":
             # bitset with a max length of the enum's constant count
