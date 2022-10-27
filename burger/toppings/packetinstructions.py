@@ -35,7 +35,7 @@ from jawa.constants import *
 from jawa.transforms import simple_swap
 
 from .topping import Topping
-from burger.util import InvokeDynamicInfo, REF_invokeStatic
+from burger.util import InvokeDynamicInfo, REF_invokeStatic, get_enum_constants
 
 SUB_INS_EPSILON = .01
 PACKETBUF_NAME = "packetbuffer" # Used to specially identify the PacketBuffer we care about
@@ -420,6 +420,15 @@ class PacketInstructionsTopping(Topping):
                                             var=array,
                                             value=value))
 
+            elif instruction == 'putfield':
+                # Set a field in an object
+                value = stack.pop()
+                obj = stack.pop()
+                operations.append(Operation(instruction.pos, "putfield",
+                                            field=operands[0].name,
+                                            obj=obj,
+                                            value=value))
+
             # Default handlers
             else:
                 if mnemonic not in _PIT.OPCODES:
@@ -546,7 +555,7 @@ class PacketInstructionsTopping(Topping):
 
             # This is used for special field handling by entitymetadata.
             return _PIT._lambda_operations(
-                classloader, classes, instruction, verbose, obj, arguments
+                classloader, classes, instruction.pos, verbose, obj, arguments
             )
         else:
             if desc.returns.name != "void":
@@ -664,8 +673,8 @@ class PacketInstructionsTopping(Topping):
     def _handle_2_arg_buffer_call(classloader, classes, instruction, verbose,
                                   cls, name, desc, instance, args):
         if desc.args[0].name == "java/lang/String" and desc.args[1].name == "int":
-            max_length = args[1] # not using this at this time
-            return [Operation(instruction.pos, "write", type="string", field=args[0])]
+            max_length = args[1]
+            return [Operation(instruction.pos, "write", type="string", field=args[0], length=max_length)]
         elif desc.args[0].name == "com/mojang/serialization/Codec":
             codec = args[0]
             value = args[1]
@@ -702,7 +711,7 @@ class PacketInstructionsTopping(Topping):
                                         type=info.method_desc.args[-1].name.replace("/", "."),
                                         var="itv", value="it.next()"))
             operations += _PIT._lambda_operations(
-                classloader, classes, instruction, verbose,
+                classloader, classes, instruction.pos, verbose,
                 info, [instance, "itv"]
             )
             # Jank: the part of the program that converts loop+endloop
@@ -729,7 +738,7 @@ class PacketInstructionsTopping(Topping):
             info = args[1]
             assert isinstance(info, InvokeDynamicInfo)
             operations += _PIT._lambda_operations(
-                classloader, classes, instruction, verbose,
+                classloader, classes, instruction.pos, verbose,
                 info, [instance, field.value + ".get()"]
             )
             # Jank: the part of the program that converts loop+endloop
@@ -754,13 +763,22 @@ class PacketInstructionsTopping(Topping):
             info = args[1]
             assert isinstance(info, InvokeDynamicInfo)
             operations += _PIT._lambda_operations(
-                classloader, classes, instruction, verbose,
+                classloader, classes, instruction.pos, verbose,
                 info, [instance, field.value]
             )
             operations.append(Operation(instruction.pos + 1 - SUB_INS_EPSILON, "endif"))
             return operations
         elif desc.args[0].name == classes.get("idmap"):
             return [Operation(instruction.pos, "write", type="varint", field="%s.getId(%s)" % (args[0], args[1]))]
+        elif desc.args[0].name == "java/util/BitSet":
+            max_length = args[1]
+            return [Operation(instruction.pos, "write", type="bitset", field=args[0], length=max_length)]
+        elif desc.args[0].name == "java/util/EnumSet":
+            # bitset with a max length of the enum's constant count
+            enum_class = classloader[args[1]]
+            enum_constants = get_enum_constants(enum_class, verbose)
+            max_length = len(enum_constants)
+            return [Operation(instruction.pos, "write", type="bitset", field=args[0], length=max_length)]
         else:
             raise Exception("Unexpected descriptor " + desc.descriptor)
 
@@ -794,18 +812,43 @@ class PacketInstructionsTopping(Topping):
                                         type="Map.Entry<" + key_type + ", " + val_type + ">",
                                         var="itv", value="it.next()"))
             operations += _PIT._lambda_operations(
-                classloader, classes, instruction, verbose,
+                classloader, classes, instruction.pos, verbose,
                 key_info, [instance, "itv.getKey()"]
             )
             # TODO: Does the SUB_INS_EPSILON work correctly here?
             # I think this will lead to [1.01, 1.02, 1.03, 1.01, 1.02, 1.03]
             # which would get sorted wrongly, but I'm not sure
             operations += _PIT._lambda_operations(
-                classloader, classes, instruction, verbose,
+                classloader, classes, instruction.pos, verbose,
                 val_info, [instance, "itv.getValue()"]
             )
             # Same jank as with the one in _handle_2_arg_buffer_call
             operations.append(Operation(instruction.pos + 1 - SUB_INS_EPSILON, "endloop"))
+            return operations
+        elif desc.args[0].name == "com/mojang/datafixers/util/Either":
+            # Write a boolean indicating whether it's left, and then call the correct consumer
+            # with the packetbuffer and value.
+            operations = []
+            field = args[0]
+            left_consumer = args[1]
+            right_consumer = args[2]
+            assert isinstance(field, StackOperand)
+            assert isinstance(left_consumer, InvokeDynamicInfo)
+            assert isinstance(right_consumer, InvokeDynamicInfo)
+            operations.append(Operation(instruction.pos, "write", type="boolean",
+                                        field=field.value + ".isLeft()"))
+            operations.append(Operation(instruction.pos, "if",
+                                        condition=field.value + ".isLeft()"))
+            operations += _PIT._lambda_operations(
+                classloader, classes, instruction.pos, verbose,
+                left_consumer, [instance, field.value + ".left()"]
+            )
+            operations.append(Operation(instruction.pos + 1 - SUB_INS_EPSILON, "else"))
+            operations += _PIT._lambda_operations(
+                classloader, classes, instruction.pos + 1, verbose,
+                right_consumer, [instance, field.value + ".right()"]
+            )
+            operations.append(Operation(instruction.pos + 2 - SUB_INS_EPSILON, "endif"))
             return operations
         else:
             raise Exception("Unexpected descriptor " + desc.descriptor)
@@ -826,7 +869,7 @@ class PacketInstructionsTopping(Topping):
                                     type=consumer.method_desc.args[-1].name.replace("/", "."),
                                     var="itv", value="it.next()"))
         operations += _PIT._lambda_operations(
-            classloader, classes, instruction, verbose, consumer, ["itv"]
+            classloader, classes, instruction.pos, verbose, consumer, ["itv"]
         )
         # See comment in _handle_1_arg_buffer_call
         operations.append(Operation(instruction.pos + 1 - SUB_INS_EPSILON, "endloop"))
@@ -914,7 +957,7 @@ class PacketInstructionsTopping(Topping):
         return operations
 
     @staticmethod
-    def _lambda_operations(classloader, classes, instruction, verbose, info, args):
+    def _lambda_operations(classloader, classes, instruction_pos, verbose, info, args):
         assert isinstance(info, InvokeDynamicInfo)
         assert len(args) == len(info.instantiated_desc.args)
 
@@ -942,7 +985,7 @@ class PacketInstructionsTopping(Topping):
         for operation in _PIT.ordered_operations(operations):
             position += SUB_INS_EPSILON
             assert(position < 1)
-            operation.position = instruction.pos + (position)
+            operation.position = instruction_pos + (position)
 
         return operations
 
