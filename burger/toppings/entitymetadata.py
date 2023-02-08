@@ -168,6 +168,12 @@ class EntityMetadataTopping(Topping):
                     elif const.name_and_type.name == "<init>":
                         if const.class_.name == self.textcomponentstring:
                             obj["text"] = args[0]
+                        if const.class_.name == 'org/joml/Vector3f':
+                            if len(args) > 0:
+                                obj["x"], obj["y"], obj["z"] = args
+                        if const.class_.name == 'org/joml/Quaternionf':
+                            if len(args) > 0:
+                                obj["x"], obj["y"], obj["z"], obj["w"] = args
 
                         return
                     elif const.class_.name == datamanager_class:
@@ -221,6 +227,11 @@ class EntityMetadataTopping(Topping):
                 def on_new(self, ins, const):
                     if self.waiting_for_putfield:
                         return
+
+                    if const.name.value == "org/joml/Quaternionf":
+                        return {"x": 0, "y": 0, "z": 0, "w": 1}
+                    elif const.name.value == "org/joml/Vector3f":
+                        return {"x": 0, "y": 0, "z": 0}
 
                     if self.textcomponentstring == None:
                         # Check if this is TextComponentString
