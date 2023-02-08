@@ -168,10 +168,10 @@ class EntityMetadataTopping(Topping):
                     elif const.name_and_type.name == "<init>":
                         if const.class_.name == self.textcomponentstring:
                             obj["text"] = args[0]
-                        if const.class_.name == 'org/joml/Vector3f':
+                        elif const.class_.name == 'org/joml/Vector3f':
                             if len(args) > 0:
                                 obj["x"], obj["y"], obj["z"] = args
-                        if const.class_.name == 'org/joml/Quaternionf':
+                        elif const.class_.name == 'org/joml/Quaternionf':
                             if len(args) > 0:
                                 obj["x"], obj["y"], obj["z"], obj["w"] = args
 
@@ -233,7 +233,7 @@ class EntityMetadataTopping(Topping):
                     elif const.name.value == "org/joml/Vector3f":
                         return {"x": 0, "y": 0, "z": 0}
 
-                    if self.textcomponentstring == None:
+                    elif self.textcomponentstring == None:
                         # Check if this is TextComponentString
                         temp_cf = classloader[const.name.value]
                         for str in temp_cf.constants.find(type_=String):
