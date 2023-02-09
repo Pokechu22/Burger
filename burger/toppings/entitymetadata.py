@@ -509,6 +509,8 @@ class EntityMetadataTopping(Topping):
             name = inner_type[len("java/lang/"):]
             if name == "Integer":
                 name = "VarInt"
+        elif inner_type.startswith("org/joml/"):
+            name = inner_type[len("org/joml/"):]
         elif inner_type == "java/util/UUID":
             name = "UUID"
         elif inner_type == "java/util/OptionalInt":
