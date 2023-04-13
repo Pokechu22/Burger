@@ -61,7 +61,7 @@ class PluginChannelsTopping(Topping):
 
             if protocol >= 443:
                 # After 18w43c, channels are not explicitly defined with the "minecraft" namespace
-                # Semanticas don't change, so let's add it back for consistency between versions
+                # Semantics don't change, so let's add it back for consistency between versions
                 all_channels = [[f"minecraft:{channel}" for channel in channels] for channels in all_channels]
         else:
             # Before and during 1.13-pre2, the channels are strings declared in the two play packet handlers
