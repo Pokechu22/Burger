@@ -39,7 +39,8 @@ class VersionTopping(Topping):
         "version.data",
         "version.is_flattened",
         "version.entity_format",
-        "version.distribution"
+        "version.distribution",
+        "version.netty_rewrite"
     ]
 
     DEPENDS = [
@@ -94,6 +95,23 @@ class VersionTopping(Topping):
         else:
             aggregate["version"]["is_flattened"] = False
             aggregate["version"]["entity_format"] = "1.10"
+
+        if "protocol" in aggregate["version"] and aggregate["version"]["protocol"] > 92:
+            # Although 13w39b (80) was the last version before the rewrite, the highest protocol version belongs to 2.0 Purple (92)
+            # If the current one is any higher, it's guaranteed to be a post netty-rewrite version
+            # This will cover versions 15w51a (93) and onwards
+            aggregate["version"]["netty_rewrite"] = True
+        elif aggregate["version"]["distribution"] == "server":
+            # If it's a server-specific file, we can just look for any netty class
+            # Any version prior to 15w51a (93) is guaranteed to have their dependencies shaded directly on the jar file
+            aggregate["version"]["netty_rewrite"] = "io/netty/buffer/ByteBuf" in classloader.classes
+        elif "nethandler.client" in aggregate["classes"]:
+            # If it's anything else, it's likely to be the client, and have the client nethandler available
+            # In this case, we can just check if it imports Unpooled
+            aggregate["version"]["netty_rewrite"] = "io/netty/buffer/Unpooled" in classloader.dependencies(aggregate["classes"]["nethandler.client"])
+        elif verbose:
+            # This SHOULD never happen
+            print("Unable to determine if this version is pre/post netty rewrite")
 
     @staticmethod
     def get_distribution(classloader, verbose):
