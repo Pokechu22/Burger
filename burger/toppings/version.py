@@ -174,7 +174,38 @@ class VersionTopping(Topping):
                                     str[len("Outdated server! I'm still on "):]
                                 versions["id"] = versions["name"]
                                 return
-        elif verbose:
+        elif versions["distribution"] == "client" and "nethandler.client" in aggregate["classes"]:
+            # If we know this is the client, and there's no nethandler.server, this is a version prior to the codebase merge (12w17a or prior)
+            # We need to look for the protocol name and version elsewhere
+
+            # We can get the name from the startup class
+            for constant in classloader.search_constant_pool(path="net/minecraft/client/Minecraft", type_=String):
+                if "Minecraft Minecraft " in constant.string.value:
+                    versions["id"] = versions["name"] = constant.string.value[len("Minecraft Minecraft "):]
+                    break
+
+            # This is the final version before the codebase merge, and it alters the logic of sending the protocol number compared to the previous ones
+            # It's too much of a hassle to duplicate the verification below just to handle a single version, so, let's just return the hardcoded value
+            if versions["name"] == "12w17a":
+                versions["protocol"] = 31
+                return
+
+            # We can get the protocol from the client nethandler
+            nethandler = aggregate["classes"]["nethandler.client"]
+            cf = classloader[nethandler]
+            for method in cf.methods:
+                looking_for_version = False
+                for instr in method.code.disassemble():
+                    if not looking_for_version and instr == "ldc":
+                        constant = instr.operands[0]
+                        if isinstance(constant, String) and constant.string.value == "The server responded with an invalid server key":
+                            looking_for_version = True
+                            continue
+                    elif looking_for_version and instr == "bipush":
+                        versions["protocol"] = instr.operands[0].value
+                        return
+        
+        if verbose:
             print("Unable to determine protocol version")
 
     @staticmethod
