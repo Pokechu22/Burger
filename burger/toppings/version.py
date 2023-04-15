@@ -38,7 +38,8 @@ class VersionTopping(Topping):
         "version.name",
         "version.data",
         "version.is_flattened",
-        "version.entity_format"
+        "version.entity_format",
+        "version.distribution"
     ]
 
     DEPENDS = [
@@ -49,6 +50,8 @@ class VersionTopping(Topping):
     @staticmethod
     def act(aggregate, classloader, verbose=False):
         aggregate.setdefault("version", {})
+
+        aggregate["version"]["distribution"] = VersionTopping.get_distribution(classloader, verbose)
 
         try:
             # 18w47b+ has a file that just directly includes this info
@@ -91,6 +94,32 @@ class VersionTopping(Topping):
         else:
             aggregate["version"]["is_flattened"] = False
             aggregate["version"]["entity_format"] = "1.10"
+
+    @staticmethod
+    def get_distribution(classloader, verbose):
+        found_client = False
+        found_server = False
+
+        for class_name in classloader.classes:
+            if class_name == "net/minecraft/server/MinecraftServer":
+                # Since 12w17a, the codebases have been merged, and the client has both client and server related information
+                # If we find the server startup class, we need to keep looking for the possibility of finding the client one too
+                found_server = True
+            elif class_name == "net/minecraft/client/Minecraft" or class_name == "net/minecraft/client/main/Main":
+                # If we happen to find the client startup class, it's guaranteed to be the client distribution, so we can stop looking
+                found_client = True
+                break
+
+        # Since both client/server can possibly have the server startup class, the client class check takes precendence
+        if found_client:
+            return "client"
+        elif found_server:
+            return "server"
+        else:
+            # This SHOULD never happen
+            if verbose:
+                print("Unable to determine the distribution of the jar file")
+            return "unknown"
 
     @staticmethod
     def get_protocol_version(aggregate, classloader, verbose):
