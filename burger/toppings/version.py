@@ -164,7 +164,7 @@ class VersionTopping(Topping):
                                 versions["name"] = str
                                 versions["id"] = versions["name"]
                                 return
-                            elif "Outdated server!" in str:
+                            elif "Outdated server! I'm still on " in str:
                                 if version is None:
                                     # 13w41a and 13w41b (protocol version 0)
                                     # don't explicitly set the variable
@@ -174,6 +174,19 @@ class VersionTopping(Topping):
                                     str[len("Outdated server! I'm still on "):]
                                 versions["id"] = versions["name"]
                                 return
+                            elif str == "Outdated server!":
+                                for class_name in classloader.classes:
+                                    for const in classloader.search_constant_pool(path=class_name, type_=String):
+                                        value = const.string.value
+                                        if "Starting integrated minecraft server version " in value:
+                                            versions["name"] = value[len("Starting integrated minecraft server version "):]
+                                            versions["id"] = versions["name"]
+                                            return
+                                        elif "Starting minecraft server version " in value:
+                                            versions["name"] = value[len("Starting minecraft server version "):]
+                                            versions["id"] = versions["name"]
+                                            return
+
         elif versions["distribution"] == "client" and "nethandler.client" in aggregate["classes"]:
             # If we know this is the client, and there's no nethandler.server, this is a version prior to the codebase merge (12w17a or prior)
             # We need to look for the protocol name and version elsewhere
