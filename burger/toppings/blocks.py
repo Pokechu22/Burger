@@ -202,7 +202,7 @@ class BlocksTopping(Topping):
                             sub_method = lcf.methods.find_one(name=method_name, args=desc.args_descriptor, returns=desc.returns_descriptor)
                             return walk_method(lcf, sub_method, self, verbose, args)
                     elif const.class_.name.value == builder_class:
-                        if desc.args[0].name == superclass: # Copy constructor
+                        if len(desc.args) == 1 and desc.args[0].name == superclass: # Copy constructor
                             copy = dict(args[0])
                             del copy["text_id"]
                             del copy["numeric_id"]
