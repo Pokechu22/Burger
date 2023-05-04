@@ -129,7 +129,8 @@ def identify(classloader, path, verbose):
                             # The chatcomponent type is its first parameter.
                             return 'chatcomponent', method.args[0][2]
                     elif ins.mnemonic == "invokedynamic":
-                        if 'as a Component' in string_from_invokedymanic(ins, class_file):
+                        const = string_from_invokedymanic(ins, class_file)
+                        if const is not None and 'as a Component' in const:
                             return 'chatcomponent', method.args[0][2]
             else:
                 if verbose:
