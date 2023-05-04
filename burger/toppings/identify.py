@@ -36,7 +36,7 @@ MATCHES = (
     (['#%04d/%d%s', 'attribute.modifier.equals.'], 'itemstack'),
     (['disconnect.lost'], 'nethandler.client'),
     (['Outdated server!', 'multiplayer.disconnect.outdated_client'],
-        'nethandler.server'),
+        'nethandler.handshake'),
     (['Corrupt NBT tag'], 'nbtcompound'),
     ([' is already assigned to protocol '], 'packet.connectionstate'),
     (
@@ -308,7 +308,7 @@ class IdentifyTopping(Topping):
         "identify.metadata",
         "identify.nbtcompound",
         "identify.nethandler.client",
-        "identify.nethandler.server",
+        "identify.nethandler.handshake",
         "identify.packet.connectionstate",
         "identify.packet.packetbuffer",
         "identify.particle",

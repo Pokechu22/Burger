@@ -44,7 +44,7 @@ class VersionTopping(Topping):
     ]
 
     DEPENDS = [
-        "identify.nethandler.server",
+        "identify.nethandler.handshake",
         "identify.anvilchunkloader"
     ]
 
@@ -142,8 +142,8 @@ class VersionTopping(Topping):
     @staticmethod
     def get_protocol_version(aggregate, classloader, verbose):
         versions = aggregate["version"]
-        if "nethandler.server" in aggregate["classes"]:
-            nethandler = aggregate["classes"]["nethandler.server"]
+        if "nethandler.handshake" in aggregate["classes"]:
+            nethandler = aggregate["classes"]["nethandler.handshake"]
             cf = classloader[nethandler]
             version = None
             looking_for_version_name = False
@@ -188,7 +188,7 @@ class VersionTopping(Topping):
                                             return
 
         elif versions["distribution"] == "client" and "nethandler.client" in aggregate["classes"]:
-            # If we know this is the client, and there's no nethandler.server, this is a version prior to the codebase merge (12w17a or prior)
+            # If we know this is the client, and there's no nethandler.handshake, this is a version prior to the codebase merge (12w17a or prior)
             # We need to look for the protocol name and version elsewhere
 
             # We can get the name from the startup class
