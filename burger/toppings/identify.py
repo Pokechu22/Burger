@@ -35,6 +35,7 @@ MATCHES = (
     (['Fetching addPacket for removed entity', 'Fetching packet for removed entity'], 'entity.trackerentry'),
     (['#%04d/%d%s', 'attribute.modifier.equals.'], 'itemstack'),
     (['disconnect.lost'], 'nethandler.client'),
+    ([' just tried to change non-editable sign'], 'nethandler.server'),
     (['Outdated server!', 'multiplayer.disconnect.outdated_client'],
         'nethandler.handshake'),
     (['Corrupt NBT tag'], 'nbtcompound'),
