@@ -36,8 +36,6 @@ MATCHES = (
     (['#%04d/%d%s', 'attribute.modifier.equals.'], 'itemstack'),
     (['disconnect.lost'], 'nethandler.client'),
     ([' just tried to change non-editable sign'], 'nethandler.server'),
-    (['Outdated server!', 'multiplayer.disconnect.outdated_client'],
-        'nethandler.handshake'),
     (['Corrupt NBT tag'], 'nbtcompound'),
     ([' is already assigned to protocol '], 'packet.connectionstate'),
     (
@@ -281,6 +279,13 @@ def identify(classloader, path, verbose):
             for c2 in class_file.constants.find(type_=String):
                 if c2 == "Someone's been tampering with the universe!":
                     return "enumfacing.plane", class_file.this.name.value
+                
+        if 'Outdated server!' in value or 'multiplayer.disconnect.outdated_client' in value:
+            # 1.7.7 and 1.7.8 both have a similar message on the client nethandler, which we are not interested in
+            if "to be 1.7." in value:
+                continue
+
+            return "nethandler.handshake", classloader[path].this.name.value
 
     # May (will usually) be None
     return possible_match
