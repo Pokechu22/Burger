@@ -316,6 +316,7 @@ class IdentifyTopping(Topping):
         "identify.nbtcompound",
         "identify.nethandler.client",
         "identify.nethandler.handshake",
+        "identify.nethandler.server",
         "identify.packet.connectionstate",
         "identify.packet.packetbuffer",
         "identify.particle",
