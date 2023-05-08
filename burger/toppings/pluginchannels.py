@@ -25,7 +25,6 @@ THE SOFTWARE.
 from .topping import Topping
 
 from jawa.constants import String
-from jawa.classloader import ClassLoader
 
 import re
 
@@ -44,6 +43,7 @@ class PluginChannelsTopping(Topping):
     ]
     DEPENDS = [
         "identify.nethandler.client",
+        "identify.nethandler.server",
         "version.id",
         "version.protocol"
     ]
@@ -70,7 +70,7 @@ class PluginChannelsTopping(Topping):
                 serverbound += ["MC|BEdit", "MC|BSign"]
                 return
             
-        _require_fields(aggregate, { "classes": ["nethandler.client"] })
+        _require_fields(aggregate, { "classes": ["nethandler.client", "nethandler.server"] })
 
         if protocol > 385:
             # After 1.13-pre3 (385), the channels are identifiers declared in the two custom payload packet classes
@@ -80,15 +80,16 @@ class PluginChannelsTopping(Topping):
         elif protocol < 385:
             # Before 1.13-pre3 (385), the channels are strings declared in the two play packet handlers
             # The internal channels use the format "MC|<channel>"
-            channel_declaration_classes = _get_nethandlers(aggregate, classloader)
+            classes = aggregate["classes"]
+            channel_declaration_classes = [classes["nethandler.client"], classes["nethandler.server"]]
             filters = [_is_channel_string, _is_channel_string]
         else:
             # During 1.13-pre3 (385), a mixture of both systems is used
             # Clientbound channels are declared the new way, while serverbound channels use the old way
             payload_packets = _get_custom_payload_packets(classloader, ignore_serverbound=True)
-            nethandlers = _get_nethandlers(aggregate, classloader)
+            nethandler = aggregate["classes"]["nethandler.server"]
 
-            channel_declaration_classes = [payload_packets[0], nethandlers[1]]
+            channel_declaration_classes = [payload_packets[0], nethandler]
             filters = [_is_channel_identifier, _is_channel_string]
 
         all_channels = [_get_class_constants(classloader, channel_declaration_classes[i], filters[i]) for i in range(2)]
@@ -141,22 +142,6 @@ def _get_custom_payload_packets(classloader, ignore_clientbound=False, ignore_se
         f"Unable to find required custom payload packets (client: {clientbound_packet}, server: {serverbound_packet})"
     
     return [clientbound_packet, serverbound_packet]
-
-def _get_nethandlers(aggregate, classloader):
-    client_nethandler = aggregate["classes"]["nethandler.client"]
-    server_nethandler = None
-
-    for class_name in classloader.classes:
-     
-        constants = _get_class_constants(classloader, class_name, lambda c: c == " just tried to change non-editable sign")
-        if len(constants) > 0:
-            server_nethandler = class_name
-            break
-
-    assert client_nethandler is not None and server_nethandler is not None,\
-        f"Unable to find both net handlers (client: {client_nethandler}, server: {server_nethandler})"
-
-    return [client_nethandler, server_nethandler]
 
 def _get_class_constants(classloader, class_name, filter_function = lambda c: True):
     constants = [constant.string.value for constant in classloader.search_constant_pool(path=class_name, type_=String)]
