@@ -105,7 +105,7 @@ def check_match(value, match_list):
 def identify(classloader, path, verbose):
     """
     The first pass across the jar will identify all possible classes it
-    can, maping them by the 'type' it implements.
+    can, mapping them by the 'type' it implements.
 
     We have limited information available to us on this pass. We can only
     check for known signatures and predictable constants. In the next pass,
@@ -113,28 +113,27 @@ def identify(classloader, path, verbose):
     """
     possible_match = None
 
+    class_file = classloader[path]
+
     for c in classloader.search_constant_pool(path=path, type_=String):
         value = c.string.value
         for match_list, match_name in MATCHES:
             if check_match(value, match_list):
-                class_file = classloader[path]
                 return match_name, class_file.this.name.value
 
         for match_list, match_name in MAYBE_MATCHES:
             if check_match(value, match_list):
-                class_file = classloader[path]
                 possible_match = (match_name, class_file.this.name.value)
                 # Continue searching through the other constants in the class
 
-        if "as a Component" in value or "Couldn't get field 'lineStart' for JsonReader" in value:
+        if "as a Component" in value:
             # This class is the JSON serializer/deserializer for the chat component.
-            # (The "as a Component" String exists starting in 13w36a (1.7.2), but
-            # was removed in 23w40a. The "Couldn't get field 'lineStart' for JsonReader"
-            # string exists in at least 1.20.2 (before 23w40a), and still exists in 23w40a).
+            # (The "as a Component" String exists starting in 13w36a (1.7.2), but was removed in
+            # 23w40a. In newer versions there's no string constants in the class, so we search for
+            # it by signatures later (after the search_constant_pool loop).
 
             # Look for a method that returns a String, and assume that it takes a component as its
             # sole parameter.
-            class_file = classloader[path]
 
             def is_serialize_method(m):
                 return m.access_flags.acc_public and m.access_flags.acc_static and \
@@ -147,7 +146,6 @@ def identify(classloader, path, verbose):
             # This is found in both the sounds list class and sounds event class.
             # However, the sounds list class also has a constant specific to it.
             # Note that this method will not work in 1.8, but the list class doesn't exist then either.
-            class_file = classloader[path]
 
             for c2 in class_file.constants.find(type_=String):
                 if c2 == 'Accessed Sounds before Bootstrap!':
@@ -158,7 +156,6 @@ def identify(classloader, path, verbose):
         if value == 'piston_head':
             # piston_head is a technical block, which is important as that means it has no item form.
             # This constant is found in both the block list class and the class containing block registrations.
-            class_file = classloader[path]
 
             for c2 in class_file.constants.find(type_=String):
                 if c2 == 'doTileDrops':
@@ -182,7 +179,6 @@ def identify(classloader, path, verbose):
             # - The actual item registration code
             # - The item list class
             # - The item renderer class (until 1.13), which we don't care about
-            class_file = classloader[path]
 
             for c2 in class_file.constants.find(type_=String):
                 if c2 == 'textures/misc/enchanted_item_glint.png':
@@ -199,7 +195,6 @@ def identify(classloader, path, verbose):
         if value in ('Ice Plains', 'mutated_ice_flats', 'ice_spikes'):
             # Finally, biomes.  There's several different names that were used for this one biome
             # Only classes are the list class and the one with registration.  Note that the list didn't exist in 1.8.
-            class_file = classloader[path]
 
             for c2 in class_file.constants.find(type_=String):
                 if c2 == 'Accessed Biomes before Bootstrap!':
@@ -208,8 +203,6 @@ def identify(classloader, path, verbose):
                 return 'biome.register', class_file.this.name.value
 
         if value == 'minecraft':
-            class_file = classloader[path]
-
             # Look for two protected/private final strings
             def is_protected_final_or_private_final(m):
                 # 22w42a/1.19.3+ makes it private instead of protected
@@ -233,7 +226,6 @@ def identify(classloader, path, verbose):
             # Also, this is the _only_ string constant available to us.
             # Finally, note that PooledMutableBlockPos was introduced in 1.9.
             # This technique will not work in 1.8.
-            cf = classloader[path]
             logger_type = "Lorg/apache/logging/log4j/Logger;"
             while not cf.fields.find_one(type_=logger_type):
                 if cf.super_.name == "java/lang/Object":
@@ -247,7 +239,6 @@ def identify(classloader, path, verbose):
             # This message is found in Chunk, in the method getBlockState.
             # We could also theoretically identify BlockPos from this method,
             # but currently identify only allows marking one class at a time.
-            class_file = classloader[path]
 
             for method in class_file.methods:
                 for ins in method.code.disassemble():
@@ -261,7 +252,6 @@ def identify(classloader, path, verbose):
         if value == 'particle.notFound':
             # This is in ParticleArgument, which is used for commands and
             # implements brigadier's ArgumentType<IParticleData>.
-            class_file = classloader[path]
 
             if len(class_file.interfaces) == 1 and class_file.interfaces[0].name == "com/mojang/brigadier/arguments/ArgumentType":
                 sig = class_file.attributes.find_one(name="Signature").signature.value
@@ -279,7 +269,6 @@ def identify(classloader, path, verbose):
             # a matching constructor, check for that string constant instead. That string constant
             # was removed entirely in 1.18 (it existed in 1.17). I'm not sure of which specific
             # snapshots this was changed in.
-            class_file = classloader[path]
 
             def is_enumfacing_plane_constructor(m):
                 # We're looking for EnumFacing$Plane(EnumFacing[], EnumFacing$Axis[]).
@@ -298,7 +287,23 @@ def identify(classloader, path, verbose):
             if "to be 1.7." in value:
                 continue
 
-            return "nethandler.handshake", classloader[path].this.name.value
+            return "nethandler.handshake", class_file.this.name.value
+
+    # chatcomponent doesn't have any constant strings after 23w46a, so identify it by field and method signatures
+
+    # the class should have one `private static final Gson GSON`
+    def is_gson_field(f):
+        return f.access_flags.acc_private and f.access_flags.acc_static \
+            and f.access_flags.acc_final and f.descriptor == 'Lcom/google/gson/Gson;'
+    gson_fields = list(class_file.fields.find(f=is_gson_field))
+    if gson_fields != []:
+        # and also a method that looks like `public static JsonElement toJson(Component)`
+        def is_serialize_method(m):
+            return m.access_flags.acc_public and m.access_flags.acc_static and \
+                    len(m.args) == 1 and m.returns.name == "java/lang/String"
+        serialize_methods = list(class_file.methods.find(f=is_serialize_method))
+        if len(serialize_methods) == 1:
+            return "chatcomponent", serialize_methods[0].args[0].name
 
     # May (will usually) be None
     return possible_match
