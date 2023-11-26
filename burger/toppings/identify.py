@@ -27,8 +27,6 @@ from burger.util import string_from_invokedymanic
 
 from jawa.constants import String, ConstantClass
 
-import traceback
-
 # We can identify almost every class we need just by
 # looking for consistent strings.
 MATCHES = (
@@ -116,7 +114,8 @@ def identify(classloader, path, verbose):
 
     class_file = classloader[path]
 
-    for c in classloader.search_constant_pool(path=path, type_=String):
+    string_constants = classloader.search_constant_pool(path=path, type_=String)
+    for c in string_constants:
         value = c.string.value
         for match_list, match_name in MATCHES:
             if check_match(value, match_list):
@@ -127,11 +126,12 @@ def identify(classloader, path, verbose):
                 possible_match = (match_name, class_file.this.name.value)
                 # Continue searching through the other constants in the class
 
-        if "as a Component" in value:
+        if "as a Component" in value or "Couldn't get field 'lineStart' for JsonReader" in value:
             # This class is the JSON serializer/deserializer for the chat component.
-            # (The "as a Component" String exists starting in 13w36a (1.7.2), but was removed in
-            # 23w40a (1.20.3). In newer versions there's no string constants in the class, so we search for
-            # it by signatures later (after the search_constant_pool loop).
+            # (The "as a Component" String exists starting in 13w36a (1.7.2), but
+            # was removed in 23w40a. The "Couldn't get field 'lineStart' for JsonReader"
+            # string exists since at least 1.20.2 and was removed in 1.20.3. We have another check
+            # after the string constants loop to handle 1.20.3+.)
 
             # Look for a method that returns a String, and assume that it takes a component as its
             # sole parameter.
@@ -315,21 +315,22 @@ def identify(classloader, path, verbose):
 
             return "nethandler.handshake", class_file.this.name.value
 
-    # chatcomponent doesn't have any constant strings after 23w46a, so identify it by field and method signatures
-
-    # the class should have one `private static final Gson GSON`
-    def is_gson_field(f):
-        return f.access_flags.acc_private and f.access_flags.acc_static \
-            and f.access_flags.acc_final and f.descriptor == 'Lcom/google/gson/Gson;'
-    gson_fields = list(class_file.fields.find(f=is_gson_field))
-    if gson_fields != []:
-        # and also a method that looks like `public static JsonElement toJson(Component)`
-        def is_serialize_method(m):
-            return m.access_flags.acc_public and m.access_flags.acc_static and \
-                    len(m.args) == 1 and m.returns.name == "java/lang/String"
-        serialize_methods = list(class_file.methods.find(f=is_serialize_method))
-        if len(serialize_methods) == 1:
-            return "chatcomponent", serialize_methods[0].args[0].name
+    # chatcomponent doesn't have any constant strings after 23w46a (1.20.3), so identify it by field and method signatures
+    if string_constants == []:
+        # the class should have one `private static final Gson GSON`
+        def is_gson_field(f):
+            return f.access_flags.acc_private and f.access_flags.acc_static \
+                and f.access_flags.acc_final and f.descriptor == 'Lcom/google/gson/Gson;'
+        gson_fields = list(class_file.fields.find(f=is_gson_field))
+        if gson_fields != []:
+            # and also a method that looks like `public static String toJson(Component)`
+            def is_serialize_method(m):
+                return m.access_flags.acc_public and m.access_flags.acc_static and \
+                        len(m.args) == 1 and m.returns.name == "java/lang/String"
+            serialize_methods = list(class_file.methods.find(f=is_serialize_method))
+            if len(serialize_methods) == 1:
+                print('found chatcomponent', class_file.this.name.value, serialize_methods)
+                return "chatcomponent", serialize_methods[0].args[0].name
 
     # May (will usually) be None
     return possible_match

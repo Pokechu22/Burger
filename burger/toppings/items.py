@@ -200,7 +200,7 @@ class ItemsTopping(Topping):
                                 text_id = current_item["text_id"]
                             elif arg.name == "java/lang/String":
                                 text_id = args[idx]
-                            elif arg.name == aggregate["classes"]["resourcekey"]:
+                            elif arg.name == aggregate["classes"].get("resourcekey"):
                                 text_id = args[idx]
 
                         if current_item == {} and not text_id:

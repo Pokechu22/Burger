@@ -202,7 +202,7 @@ class BlocksTopping(Topping):
                             # string so it can be handled the same.
                             and (
                                 desc.args[0].name == "java/lang/String"
-                                or desc.args[0].name == aggregate["classes"]["resourcekey"]
+                                or desc.args[0].name == aggregate["classes"].get("resourcekey")
                             )
                             and desc.args[1].name == superclass
                         ):
