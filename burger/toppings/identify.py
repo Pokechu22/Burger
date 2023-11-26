@@ -329,7 +329,6 @@ def identify(classloader, path, verbose):
                         len(m.args) == 1 and m.returns.name == "java/lang/String"
             serialize_methods = list(class_file.methods.find(f=is_serialize_method))
             if len(serialize_methods) == 1:
-                print('found chatcomponent', class_file.this.name.value, serialize_methods)
                 return "chatcomponent", serialize_methods[0].args[0].name
 
     # May (will usually) be None
