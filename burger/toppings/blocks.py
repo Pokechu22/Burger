@@ -114,6 +114,21 @@ class BlocksTopping(Topping):
         else:
             language = None
 
+        # 23w40a+ (1.20.3) has a references class that defines the IDs for some blocks
+        references_class = aggregate["classes"].get("block.references")
+        references_class_fields_to_block_ids = {}
+        if references_class:
+            # process the references class
+            references_cf = classloader[references_class]
+            for method in references_cf.methods.find(name='<clinit>'):
+                block_id = None
+                for ins in method.code.disassemble():
+                    if ins.mnemonic == 'ldc':
+                        block_id = ins.operands[0].string.value
+                    if ins.mnemonic == 'putstatic':
+                        field = ins.operands[0].name_and_type.name.value
+                        references_class_fields_to_block_ids[field] = block_id
+
         # Figure out what the builder class is
         ctor = cf.methods.find_one(name="<init>")
         builder_class = ctor.args[0].name
@@ -179,7 +194,18 @@ class BlocksTopping(Topping):
 
                 if ins.mnemonic == "invokestatic":
                     if const.class_.name.value == listclass:
-                        if len(desc.args) == 2 and desc.args[0].name == "java/lang/String" and desc.args[1].name == superclass:
+                        if (
+                            len(desc.args) == 2
+                            # In 23w40a+ (1.20.3) the first argument can also be a reference to a
+                            # ResourceKey<Block> in the block references class. We have a check in
+                            # on_get_field that makes the argument get converted to a block ID
+                            # string so it can be handled the same.
+                            and (
+                                desc.args[0].name == "java/lang/String"
+                                or desc.args[0].name == aggregate["classes"]["resourcekey"]
+                            )
+                            and desc.args[1].name == superclass
+                        ):
                             # Call to the static register method.
                             text_id = args[0]
                             current_block = args[1]
@@ -256,6 +282,13 @@ class BlocksTopping(Topping):
                 if const.class_.name.value == superclass:
                     # Probably getting the static AIR resource location
                     return "air"
+                elif const.class_.name.value == references_class:
+                    # get the block key from the references.Block class
+                    if const.name_and_type.name.value in references_class_fields_to_block_ids:
+                        return references_class_fields_to_block_ids[const.name_and_type.name.value]
+                    else:
+                        print("Unknown field", const.name_and_type.name.value, "in references class", references_class)
+                        return None
                 elif const.class_.name.value == listclass:
                     if const.name_and_type.name.value in block_fields:
                         return block[block_fields[const.name_and_type.name.value]]

@@ -53,7 +53,8 @@ MATCHES = (
     ),
     (['has invalidly named property'], 'blockstatecontainer'),
     ((['bubble'], True), 'particletypes'),
-    (['No value with id '], 'idmap')
+    (['No value with id '], 'idmap'),
+    (['ResourceKey['], 'resourcekey'),
 )
 
 # Enforce a lower priority on some matches, since some classes may match both
@@ -129,7 +130,7 @@ def identify(classloader, path, verbose):
         if "as a Component" in value:
             # This class is the JSON serializer/deserializer for the chat component.
             # (The "as a Component" String exists starting in 13w36a (1.7.2), but was removed in
-            # 23w40a. In newer versions there's no string constants in the class, so we search for
+            # 23w40a (1.20.3). In newer versions there's no string constants in the class, so we search for
             # it by signatures later (after the search_constant_pool loop).
 
             # Look for a method that returns a String, and assume that it takes a component as its
@@ -167,7 +168,7 @@ def identify(classloader, path, verbose):
                     return
             for c2 in class_file.constants.find(type_=ConstantClass):
                 if c2.name == 'com/mojang/serialization/MapCodec':
-                    # In 23w40a, a BlockTypes class was added that handles the codec for blocks,
+                    # In 23w40a (1.20.3), a BlockTypes class was added that handles the codec for blocks,
                     # which duplicates all of the block identifier strings. As a pretty awful
                     # heuristic, ignore classes that reference the codec. Note that the codec
                     # system isn't obfuscated.
@@ -191,6 +192,31 @@ def identify(classloader, path, verbose):
                     return 'item.register', class_file.this.name.value
             else:
                 return 'item.list', class_file.this.name.value
+
+        if value == 'attached_pumpkin_stem':
+            # 23w40a (1.20.3) adds a references/Blocks class with entries that look like:
+            # public static final ResourceKey<Block> ATTACHED_PUMPKIN_STEM = createKey("attached_pumpkin_stem");
+
+            for c2 in class_file.constants.find(type_=String):
+                # make sure it's not the normal block list class
+                if c2 == 'air':
+                    return
+
+            return 'block.references', class_file.this.name.value
+
+        if value == 'pumpkin_seeds':
+            # the items list is similar, but with items instead of blocks:
+            # public static final ResourceKey<Item> PUMPKIN_SEEDS = createKey("pumpkin_seeds");
+
+            for c2 in class_file.constants.find(type_=String):
+                # again, this is to make sure it's not the normal item list class
+
+                # note that this might break in the future if the "diamond_pickaxe" string is moved
+                # to the references class
+                if c2 == 'diamond_pickaxe':
+                    return
+
+            return 'item.references', class_file.this.name.value
 
         if value in ('Ice Plains', 'mutated_ice_flats', 'ice_spikes'):
             # Finally, biomes.  There's several different names that were used for this one biome

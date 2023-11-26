@@ -102,6 +102,21 @@ class ItemsTopping(Topping):
         else:
             language = None
 
+        # 23w40a+ (1.20.3) has a references class that defines the IDs for some items
+        references_class = aggregate["classes"].get("item.references")
+        references_class_fields_to_item_ids = {}
+        if references_class:
+            # process the references class
+            references_cf = classloader[references_class]
+            for method in references_cf.methods.find(name='<clinit>'):
+                item_id = None
+                for ins in method.code.disassemble():
+                    if ins.mnemonic == 'ldc':
+                        item_id = ins.operands[0].string.value
+                    if ins.mnemonic == 'putstatic':
+                        field = ins.operands[0].name_and_type.name.value
+                        references_class_fields_to_item_ids[field] = item_id
+
         # Figure out what the builder class is
         ctor = cf.methods.find_one(name="<init>")
         builder_class = ctor.args[0].name
@@ -185,6 +200,8 @@ class ItemsTopping(Topping):
                                 text_id = current_item["text_id"]
                             elif arg.name == "java/lang/String":
                                 text_id = args[idx]
+                            elif arg.name == aggregate["classes"]["resourcekey"]:
+                                text_id = args[idx]
 
                         if current_item == {} and not text_id:
                             if verbose:
@@ -259,6 +276,14 @@ class ItemsTopping(Topping):
                         return {}
                     else:
                         return aggregate["blocks"]["block"][block_name]
+                elif const.class_.name.value == references_class:
+                    # get the block key from the references.Item class
+                    if const.name_and_type.name.value in references_class_fields_to_item_ids:
+                        return references_class_fields_to_item_ids[const.name_and_type.name.value]
+                    else:
+                        print("Unknown field", const.name_and_type.name.value, "in references class", references_class)
+                        return None
+
                 elif const.class_.name.value == listclass:
                     return item_list[item_fields[const.name_and_type.name.value]]
                 else:
