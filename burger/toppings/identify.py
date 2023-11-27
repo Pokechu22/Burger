@@ -112,7 +112,7 @@ def identify(classloader, path, verbose):
     """
     possible_match = None
 
-    for c in classloader.search_constant_pool(path=path):
+    for c in classloader.search_constant_pool(path=path, type_=(String, ConstantClass)):
         if isinstance(c, String):
             value = c.string.value
             for match_list, match_name in MATCHES:
@@ -329,15 +329,15 @@ def identify(classloader, path, verbose):
                 class_file = classloader[path]
 
                 return "nethandler.handshake", class_file.this.name.value
-        if isinstance(c, ConstantClass):
+        elif isinstance(c, ConstantClass):
             if c.name == 'com/google/gson/Gson':
                 class_file = classloader[path]
                 # the class should have one `private static final Gson GSON`
                 def is_gson_field(f):
                     return f.access_flags.acc_private and f.access_flags.acc_static \
                         and f.access_flags.acc_final and f.descriptor == 'Lcom/google/gson/Gson;'
-                gson_fields = list(class_file.fields.find(f=is_gson_field))
-                if gson_fields != []:
+                gson_fields = class_file.fields.find(f=is_gson_field)
+                if next(gson_fields, None) is not None:
                     # and also a method that looks like `public static String toJson(Component)`
                     def is_serialize_method(m):
                         return m.access_flags.acc_public and m.access_flags.acc_static and \
@@ -348,7 +348,6 @@ def identify(classloader, path, verbose):
                         for c2 in class_file.constants.find(type_=String):
                             return
                         return "chatcomponent", serialize_methods[0].args[0].name
-                break
 
     # May (will usually) be None
     return possible_match
