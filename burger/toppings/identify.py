@@ -114,8 +114,10 @@ def identify(classloader, path, verbose):
 
     class_file = classloader[path]
 
-    string_constants = classloader.search_constant_pool(path=path, type_=String)
-    for c in string_constants:
+    has_string_constants = False
+
+    for c in classloader.search_constant_pool(path=path, type_=String):
+        has_string_constants = True
         value = c.string.value
         for match_list, match_name in MATCHES:
             if check_match(value, match_list):
@@ -317,7 +319,7 @@ def identify(classloader, path, verbose):
             return "nethandler.handshake", class_file.this.name.value
 
     # chatcomponent doesn't have any constant strings after 23w46a (1.20.3), so identify it by field and method signatures
-    if string_constants == []:
+    if not has_string_constants:
         # the class should have one `private static final Gson GSON`
         def is_gson_field(f):
             return f.access_flags.acc_private and f.access_flags.acc_static \

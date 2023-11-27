@@ -287,7 +287,8 @@ class BlocksTopping(Topping):
                     if const.name_and_type.name.value in references_class_fields_to_block_ids:
                         return references_class_fields_to_block_ids[const.name_and_type.name.value]
                     else:
-                        print("Unknown field", const.name_and_type.name.value, "in references class", references_class)
+                        if verbose:
+                            print("Unknown field", const.name_and_type.name.value, "in references class", references_class)
                         return None
                 elif const.class_.name.value == listclass:
                     if const.name_and_type.name.value in block_fields:
