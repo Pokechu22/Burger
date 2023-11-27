@@ -141,7 +141,8 @@ def identify(classloader, path, verbose):
                        len(m.args) == 1 and m.returns.name == "java/lang/String"
 
             methods = list(class_file.methods.find(f=is_serialize_method))
-            return "chatcomponent", methods[0].args[0].name
+            if len(methods) == 1:
+                return "chatcomponent", methods[0].args[0].name
 
         if value == 'ambient.cave':
             # This is found in both the sounds list class and sounds event class.
