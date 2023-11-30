@@ -142,7 +142,7 @@ def identify(classloader, path, verbose):
                         len(m.args) == 1 and m.returns.name == "java/lang/String"
 
                 methods = list(class_file.methods.find(f=is_serialize_method))
-                if len(methods) == 1:
+                if len(methods) > 0:
                     return "chatcomponent", methods[0].args[0].name
 
             if value == 'ambient.cave':
@@ -262,6 +262,7 @@ def identify(classloader, path, verbose):
                 # Also, this is the _only_ string constant available to us.
                 # Finally, note that PooledMutableBlockPos was introduced in 1.9.
                 # This technique will not work in 1.8.
+                cf = classloader[path]
                 logger_type = "Lorg/apache/logging/log4j/Logger;"
                 while not cf.fields.find_one(type_=logger_type):
                     if cf.super_.name == "java/lang/Object":
@@ -320,7 +321,7 @@ def identify(classloader, path, verbose):
                 for c2 in class_file.constants.find(type_=String):
                     if c2 == "Someone's been tampering with the universe!":
                         return "enumfacing.plane", class_file.this.name.value
-                    
+
             if 'Outdated server!' in value or 'multiplayer.disconnect.outdated_client' in value:
                 # 1.7.7 and 1.7.8 both have a similar message on the client nethandler, which we are not interested in
                 if "to be 1.7." in value:
