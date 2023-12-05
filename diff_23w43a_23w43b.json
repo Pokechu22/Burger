@@ -4,8 +4,10 @@
         "block": {}
     },
     "entities": {
-        "dataserializers": {},
         "entity": {}
+    },
+    "items": {
+        "item": {}
     },
     "language": {
         "mco": {
@@ -23,6 +25,7 @@
         "packet": {}
     },
     "pluginchannels": {},
+    "recipes": {},
     "sounds": {},
     "stats": {},
     "tags": {},

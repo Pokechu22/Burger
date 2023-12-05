@@ -26081,6 +26081,43 @@
             ]
         }
     },
+    "pluginchannels": {
+        "clientbound": [
+            [
+                "MC|BOpen",
+                "MC|Brand",
+                "MC|TrList"
+            ],
+            [
+                "MC|BOpen",
+                "MC|Brand",
+                "MC|DebugPath",
+                "MC|StopSound",
+                "MC|TrList"
+            ]
+        ],
+        "serverbound": [
+            [
+                "MC|AdvCdm",
+                "MC|BEdit",
+                "MC|BSign",
+                "MC|Beacon",
+                "MC|ItemName",
+                "MC|TrSel"
+            ],
+            [
+                "MC|AdvCmd",
+                "MC|AutoCmd",
+                "MC|BEdit",
+                "MC|BSign",
+                "MC|Beacon",
+                "MC|ItemName",
+                "MC|PickItem",
+                "MC|Struct",
+                "MC|TrSel"
+            ]
+        ]
+    },
     "sounds": {
         "ambient.cave": [
             null,

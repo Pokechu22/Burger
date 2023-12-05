@@ -1087,7 +1087,8 @@
             "metadata": "te",
             "nbtcompound": "dh",
             "nethandler.client": "bjb",
-            "nethandler.server": "nl",
+            "nethandler.handshake": "nl",
+            "nethandler.server": "nh",
             "packet.connectionstate": "eo",
             "packet.packetbuffer": "et",
             "particletypes": "bma",
@@ -6671,6 +6672,21 @@
                 }
             }
         },
+        "pluginchannels": {
+            "clientbound": [
+                "MC|Brand",
+                "MC|RPack",
+                "MC|TrList"
+            ],
+            "serverbound": [
+                "MC|AdvCdm",
+                "MC|BEdit",
+                "MC|BSign",
+                "MC|Beacon",
+                "MC|ItemName",
+                "MC|TrSel"
+            ]
+        },
         "sounds": {},
         "source": {
             "classes": 1803,
@@ -6811,10 +6827,12 @@
         },
         "tags": {},
         "version": {
+            "distribution": "client",
             "entity_format": "1.10",
             "id": "1.7.10",
             "is_flattened": false,
             "name": "1.7.10",
+            "netty_rewrite": true,
             "protocol": 5
         }
     }

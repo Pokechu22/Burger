@@ -19753,7 +19753,8 @@
             "metadata": "ou",
             "nbtcompound": "gy",
             "nethandler.client": "crd",
-            "nethandler.server": "ud",
+            "nethandler.handshake": "ud",
+            "nethandler.server": "uc",
             "packet.connectionstate": "hx",
             "packet.packetbuffer": "hy",
             "particle": "fk",
@@ -39578,6 +39579,21 @@
             "nautilus",
             "dolphin"
         ],
+        "pluginchannels": {
+            "clientbound": [
+                "minecraft:book_open",
+                "minecraft:brand",
+                "minecraft:debug/caves",
+                "minecraft:debug/neighbors_update",
+                "minecraft:debug/path",
+                "minecraft:debug/structures",
+                "minecraft:debug/worldgen_attempt",
+                "minecraft:trader_list"
+            ],
+            "serverbound": [
+                "minecraft:brand"
+            ]
+        },
         "recipes": {
             "acacia_boat": [
                 {
@@ -88953,10 +88969,12 @@
         },
         "version": {
             "data": 1631,
+            "distribution": "client",
             "entity_format": "1.13",
             "id": "1.13.2",
             "is_flattened": true,
             "name": "1.13.2",
+            "netty_rewrite": true,
             "protocol": 404
         }
     }

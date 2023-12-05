@@ -10381,7 +10381,8 @@
             "metadata": "na",
             "nbtcompound": "fy",
             "nethandler.client": "brx",
-            "nethandler.server": "oz",
+            "nethandler.handshake": "oz",
+            "nethandler.server": "oy",
             "packet.connectionstate": "gx",
             "packet.packetbuffer": "gy",
             "particletypes": "fj",
@@ -25808,6 +25809,27 @@
             "totem",
             "spit"
         ],
+        "pluginchannels": {
+            "clientbound": [
+                "MC|BOpen",
+                "MC|Brand",
+                "MC|DebugNeighborsUpdate",
+                "MC|DebugPath",
+                "MC|StopSound",
+                "MC|TrList"
+            ],
+            "serverbound": [
+                "MC|AdvCmd",
+                "MC|AutoCmd",
+                "MC|BEdit",
+                "MC|BSign",
+                "MC|Beacon",
+                "MC|ItemName",
+                "MC|PickItem",
+                "MC|Struct",
+                "MC|TrSel"
+            ]
+        },
         "recipes": {
             "acacia_boat": [
                 {
@@ -72747,10 +72769,12 @@
         },
         "version": {
             "data": 1139,
+            "distribution": "client",
             "entity_format": "1.11",
             "id": "1.12",
             "is_flattened": false,
             "name": "1.12",
+            "netty_rewrite": true,
             "protocol": 335
         }
     }

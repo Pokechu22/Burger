@@ -9183,7 +9183,8 @@
             "metadata": "kh",
             "nbtcompound": "dn",
             "nethandler.client": "bks",
-            "nethandler.server": "mc",
+            "nethandler.handshake": "mc",
+            "nethandler.server": "mb",
             "packet.connectionstate": "el",
             "packet.packetbuffer": "em",
             "particletypes": "cy",
@@ -22308,6 +22309,25 @@
             "damageIndicator",
             "sweepAttack"
         ],
+        "pluginchannels": {
+            "clientbound": [
+                "MC|BOpen",
+                "MC|Brand",
+                "MC|DebugPath",
+                "MC|TrList"
+            ],
+            "serverbound": [
+                "MC|AdvCmd",
+                "MC|AutoCmd",
+                "MC|BEdit",
+                "MC|BSign",
+                "MC|Beacon",
+                "MC|ItemName",
+                "MC|PickItem",
+                "MC|Struct",
+                "MC|TrSel"
+            ]
+        },
         "sounds": {
             "ambient.cave": {
                 "field": "a",
@@ -31895,10 +31915,12 @@
         },
         "version": {
             "data": 169,
+            "distribution": "client",
             "entity_format": "1.10",
             "id": "1.9",
             "is_flattened": false,
             "name": "1.9",
+            "netty_rewrite": true,
             "protocol": 107
         }
     }

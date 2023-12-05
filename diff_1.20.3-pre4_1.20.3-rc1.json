@@ -1,6 +1,374 @@
 {
     "achievements": {},
+    "blocks": {
+        "block": {}
+    },
+    "entities": {
+        "dataserializers": {},
+        "entity": {}
+    },
+    "items": {
+        "item": {}
+    },
     "language": {},
+    "packets": {
+        "packet": {
+            "PLAY_CLIENTBOUND_1E": [
+                {
+                    "class": "aad.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": 30,
+                    "instructions": [
+                        {
+                            "field": "a",
+                            "operation": "write",
+                            "type": "position"
+                        },
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "position"
+                        },
+                        {
+                            "field": "c",
+                            "operation": "write",
+                            "type": "position"
+                        },
+                        {
+                            "field": "d",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "int",
+                            "value": "auo.a(this.a)",
+                            "var": "var2"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "int",
+                            "value": "auo.a(this.b)",
+                            "var": "var3"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "int",
+                            "value": "auo.a(this.c)",
+                            "var": "var4"
+                        },
+                        {
+                            "field": "e.size()",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "Iterator",
+                            "value": "this.e.iterator()",
+                            "var": "it"
+                        },
+                        {
+                            "condition": "it.hasNext()",
+                            "instructions": [
+                                {
+                                    "operation": "store",
+                                    "type": "hx",
+                                    "value": "it.next()",
+                                    "var": "itv"
+                                },
+                                {
+                                    "operation": "store",
+                                    "type": "int",
+                                    "value": "(itv.u() - var2)",
+                                    "var": "var5"
+                                },
+                                {
+                                    "operation": "store",
+                                    "type": "int",
+                                    "value": "(itv.v() - var3)",
+                                    "var": "var6"
+                                },
+                                {
+                                    "operation": "store",
+                                    "type": "int",
+                                    "value": "(itv.w() - var4)",
+                                    "var": "var7"
+                                },
+                                {
+                                    "field": "var5",
+                                    "operation": "write",
+                                    "type": "varint"
+                                },
+                                {
+                                    "field": "var6",
+                                    "operation": "write",
+                                    "type": "varint"
+                                },
+                                {
+                                    "field": "var7",
+                                    "operation": "write",
+                                    "type": "varint"
+                                }
+                            ],
+                            "operation": "loop"
+                        },
+                        {
+                            "field": "f",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "field": "g",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "field": "h",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "field": "k",
+                            "operation": "write",
+                            "type": "enum"
+                        },
+                        {
+                            "field": "kd.j.getId(i.b())",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "kd.j.getId(j.b())",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "l.d",
+                            "operation": "write",
+                            "type": "identifier"
+                        },
+                        {
+                            "field": "l.b().isPresent()",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "l.b().isPresent()",
+                            "instructions": [
+                                {
+                                    "field": "l.b().get()",
+                                    "operation": "write",
+                                    "type": "float"
+                                }
+                            ],
+                            "operation": "if"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "aad.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": 30,
+                    "instructions": [
+                        {
+                            "field": "a",
+                            "operation": "write",
+                            "type": "position"
+                        },
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "position"
+                        },
+                        {
+                            "field": "c",
+                            "operation": "write",
+                            "type": "position"
+                        },
+                        {
+                            "field": "d",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "int",
+                            "value": "auo.a(this.a)",
+                            "var": "var2"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "int",
+                            "value": "auo.a(this.b)",
+                            "var": "var3"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "int",
+                            "value": "auo.a(this.c)",
+                            "var": "var4"
+                        },
+                        {
+                            "field": "e.size()",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "Iterator",
+                            "value": "this.e.iterator()",
+                            "var": "it"
+                        },
+                        {
+                            "condition": "it.hasNext()",
+                            "instructions": [
+                                {
+                                    "operation": "store",
+                                    "type": "hx",
+                                    "value": "it.next()",
+                                    "var": "itv"
+                                },
+                                {
+                                    "operation": "store",
+                                    "type": "int",
+                                    "value": "(itv.u() - var2)",
+                                    "var": "var5"
+                                },
+                                {
+                                    "operation": "store",
+                                    "type": "int",
+                                    "value": "(itv.v() - var3)",
+                                    "var": "var6"
+                                },
+                                {
+                                    "operation": "store",
+                                    "type": "int",
+                                    "value": "(itv.w() - var4)",
+                                    "var": "var7"
+                                },
+                                {
+                                    "field": "var5",
+                                    "operation": "write",
+                                    "type": "varint"
+                                },
+                                {
+                                    "field": "var6",
+                                    "operation": "write",
+                                    "type": "varint"
+                                },
+                                {
+                                    "field": "var7",
+                                    "operation": "write",
+                                    "type": "varint"
+                                }
+                            ],
+                            "operation": "loop"
+                        },
+                        {
+                            "field": "f",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "field": "g",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "field": "h",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "field": "k",
+                            "operation": "write",
+                            "type": "enum"
+                        },
+                        {
+                            "field": "kd.j.getId(i.b())",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "args": "packetbuffer",
+                            "field": "i",
+                            "method": "a(Lui;)V",
+                            "name": "a",
+                            "operation": "interfacecall",
+                            "target": "jv",
+                            "type": "interface"
+                        },
+                        {
+                            "field": "kd.j.getId(j.b())",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "args": "packetbuffer",
+                            "field": "j",
+                            "method": "a(Lui;)V",
+                            "name": "a",
+                            "operation": "interfacecall",
+                            "target": "jv",
+                            "type": "interface"
+                        },
+                        {
+                            "field": "l.d",
+                            "operation": "write",
+                            "type": "identifier"
+                        },
+                        {
+                            "field": "l.b().isPresent()",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "l.b().isPresent()",
+                            "instructions": [
+                                {
+                                    "field": "l.b().get()",
+                                    "operation": "write",
+                                    "type": "float"
+                                }
+                            ],
+                            "operation": "if"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ]
+        }
+    },
+    "pluginchannels": {},
+    "recipes": {},
+    "sounds": {},
     "stats": {},
-    "tags": {}
+    "tags": {},
+    "tileentity": {
+        "tileentities": {}
+    },
+    "version": {
+        "data": [
+            3696,
+            3697
+        ],
+        "id": [
+            "1.20.3-pre4",
+            "1.20.3-rc1"
+        ],
+        "name": [
+            "1.20.3 Pre-Release 4",
+            "1.20.3 Release Candidate 1"
+        ],
+        "protocol": [
+            1073741991,
+            1073741992
+        ]
+    }
 }

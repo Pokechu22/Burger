@@ -8,10 +8,10 @@
                     "display_name": "Exposed Copper",
                     "field": "qY",
                     "hardness": 3.0,
-                    "max_state_id": 22650,
-                    "min_state_id": 22650,
+                    "max_state_id": 22676,
+                    "min_state_id": 22676,
                     "num_states": 1,
-                    "numeric_id": 928,
+                    "numeric_id": 934,
                     "resistance": 6.0,
                     "states": [],
                     "super": [
@@ -23,10 +23,10 @@
                     "class": "dfe",
                     "display_name": "Exposed Copper",
                     "field": "qX",
-                    "max_state_id": 22649,
-                    "min_state_id": 22649,
+                    "max_state_id": 22675,
+                    "min_state_id": 22675,
                     "num_states": 1,
-                    "numeric_id": 927,
+                    "numeric_id": 933,
                     "states": [],
                     "super": [
                         "cvz"
@@ -40,10 +40,10 @@
                     "display_name": "Oxidized Copper",
                     "field": "qW",
                     "hardness": 3.0,
-                    "max_state_id": 22648,
-                    "min_state_id": 22648,
+                    "max_state_id": 22674,
+                    "min_state_id": 22674,
                     "num_states": 1,
-                    "numeric_id": 926,
+                    "numeric_id": 932,
                     "resistance": 6.0,
                     "states": [],
                     "super": [
@@ -55,10 +55,10 @@
                     "class": "dfe",
                     "display_name": "Oxidized Copper",
                     "field": "qZ",
-                    "max_state_id": 22651,
-                    "min_state_id": 22651,
+                    "max_state_id": 22677,
+                    "min_state_id": 22677,
                     "num_states": 1,
-                    "numeric_id": 929,
+                    "numeric_id": 935,
                     "states": [],
                     "super": [
                         "cvz"
@@ -74,10 +74,10 @@
                     "display_name": "Trial Spawner",
                     "field": "tr",
                     "hardness": 50.0,
-                    "max_state_id": 26345,
-                    "min_state_id": 26340,
+                    "max_state_id": 26371,
+                    "min_state_id": 26366,
                     "num_states": 6,
-                    "numeric_id": 1051,
+                    "numeric_id": 1057,
                     "resistance": 50.0,
                     "states": [
                         {
@@ -110,10 +110,10 @@
                     "display_name": "Weathered Copper",
                     "field": "qX",
                     "hardness": 3.0,
-                    "max_state_id": 22649,
-                    "min_state_id": 22649,
+                    "max_state_id": 22675,
+                    "min_state_id": 22675,
                     "num_states": 1,
-                    "numeric_id": 927,
+                    "numeric_id": 933,
                     "resistance": 6.0,
                     "states": [],
                     "super": [
@@ -125,10 +125,10 @@
                     "class": "dfe",
                     "display_name": "Weathered Copper",
                     "field": "qY",
-                    "max_state_id": 22650,
-                    "min_state_id": 22650,
+                    "max_state_id": 22676,
+                    "min_state_id": 22676,
                     "num_states": 1,
-                    "numeric_id": 928,
+                    "numeric_id": 934,
                     "states": [],
                     "super": [
                         "cvz"
@@ -139,7 +139,6 @@
         }
     },
     "entities": {
-        "dataserializers": {},
         "entity": {
             "breeze": [
                 null,
@@ -149,12 +148,6 @@
                     "field": "l",
                     "height": 1.7,
                     "id": 10,
-                    "metadata": [
-                        {
-                            "class": "cbz",
-                            "entity": "~abstract_monster"
-                        }
-                    ],
                     "name": "breeze",
                     "width": 0.6
                 }
@@ -167,14 +160,44 @@
                     "field": "bk",
                     "height": 0.3125,
                     "id": 113,
-                    "metadata": [
-                        {
-                            "class": "blf",
-                            "entity": "~abstract_entity"
-                        }
-                    ],
                     "name": "wind_charge",
                     "width": 0.3125
+                }
+            ]
+        }
+    },
+    "items": {
+        "item": {
+            "breeze_spawn_egg": [
+                null,
+                {
+                    "class": "cnm",
+                    "display_name": "Breeze Spawn Egg",
+                    "field": "sw",
+                    "max_stack_size": 64,
+                    "numeric_id": 1010,
+                    "text_id": "breeze_spawn_egg"
+                }
+            ],
+            "trial_key": [
+                null,
+                {
+                    "class": "cmc",
+                    "display_name": "Trial Key",
+                    "field": "yl",
+                    "max_stack_size": 64,
+                    "numeric_id": 1311,
+                    "text_id": "trial_key"
+                }
+            ],
+            "trial_spawner": [
+                null,
+                {
+                    "display_name": "Trial Spawner",
+                    "field": "yk",
+                    "max_stack_size": 64,
+                    "numeric_id": 1310,
+                    "text_id": "trial_spawner"
                 }
             ]
         }
@@ -284,940 +307,355 @@
         }
     },
     "packets": {
-        "packet": {
-            "PLAY_CLIENTBOUND_1E": [
-                {
-                    "class": "zk.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 30,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "int",
-                            "value": "atq.a(this.a)",
-                            "var": "var2"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "int",
-                            "value": "atq.a(this.b)",
-                            "var": "var3"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "int",
-                            "value": "atq.a(this.c)",
-                            "var": "var4"
-                        },
-                        {
-                            "field": "e.size()",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "Iterator",
-                            "value": "this.e.iterator()",
-                            "var": "it"
-                        },
-                        {
-                            "condition": "it.hasNext()",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "hx",
-                                    "value": "it.next()",
-                                    "var": "itv"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "(itv.u() - var2)",
-                                    "var": "var5"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "(itv.v() - var3)",
-                                    "var": "var6"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "(itv.w() - var4)",
-                                    "var": "var7"
-                                },
-                                {
-                                    "field": "var5",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "field": "var6",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "field": "var7",
-                                    "operation": "write",
-                                    "type": "varint"
-                                }
-                            ],
-                            "operation": "loop"
-                        },
-                        {
-                            "field": "f",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "g",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "h",
-                            "operation": "write",
-                            "type": "float"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "zr.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 30,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "int",
-                            "value": "aty.a(this.a)",
-                            "var": "var2"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "int",
-                            "value": "aty.a(this.b)",
-                            "var": "var3"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "int",
-                            "value": "aty.a(this.c)",
-                            "var": "var4"
-                        },
-                        {
-                            "field": "e.size()",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "Iterator",
-                            "value": "this.e.iterator()",
-                            "var": "it"
-                        },
-                        {
-                            "condition": "it.hasNext()",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "hv",
-                                    "value": "it.next()",
-                                    "var": "itv"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "(itv.u() - var2)",
-                                    "var": "var5"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "(itv.v() - var3)",
-                                    "var": "var6"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "(itv.w() - var4)",
-                                    "var": "var7"
-                                },
-                                {
-                                    "field": "var5",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "field": "var6",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "field": "var7",
-                                    "operation": "write",
-                                    "type": "varint"
-                                }
-                            ],
-                            "operation": "loop"
-                        },
-                        {
-                            "field": "f",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "g",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "h",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "k",
-                            "operation": "write",
-                            "type": "enum"
-                        },
-                        {
-                            "field": "kb.j.getId(i.b())",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "kb.j.getId(j.b())",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "l.d",
-                            "operation": "write",
-                            "type": "identifier"
-                        },
-                        {
-                            "field": "l.b().isPresent()",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "condition": "l.b().isPresent()",
-                            "instructions": [
-                                {
-                                    "field": "l.b().get()",
-                                    "operation": "write",
-                                    "type": "float"
-                                }
-                            ],
-                            "operation": "if"
-                        }
-                    ],
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_6E": [
-                {
-                    "class": "aci.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 110,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "field": "b.size()",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "Iterator",
-                            "value": "this.b.iterator()",
-                            "var": "it"
-                        },
-                        {
-                            "condition": "it.hasNext()",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "af",
-                                    "value": "it.next()",
-                                    "var": "itv"
-                                },
-                                {
-                                    "field": "itv.a",
-                                    "operation": "write",
-                                    "type": "identifier"
-                                },
-                                {
-                                    "field": "itv.b.a.isPresent()",
-                                    "operation": "write",
-                                    "type": "boolean"
-                                },
-                                {
-                                    "condition": "itv.b.a.isPresent()",
-                                    "instructions": [
-                                        {
-                                            "field": "itv.b.a.get()",
-                                            "operation": "write",
-                                            "type": "identifier"
-                                        }
-                                    ],
-                                    "operation": "if"
-                                },
-                                {
-                                    "field": "itv.b.b.isPresent()",
-                                    "operation": "write",
-                                    "type": "boolean"
-                                },
-                                {
-                                    "condition": "itv.b.b.isPresent()",
-                                    "instructions": [
-                                        {
-                                            "field": "itv.b.b.get().a",
-                                            "operation": "write",
-                                            "type": "chatcomponent"
-                                        },
-                                        {
-                                            "field": "itv.b.b.get().b",
-                                            "operation": "write",
-                                            "type": "chatcomponent"
-                                        },
-                                        {
-                                            "field": "itv.b.b.get().c",
-                                            "operation": "write",
-                                            "type": "itemstack"
-                                        },
-                                        {
-                                            "field": "itv.b.b.get().e",
-                                            "operation": "write",
-                                            "type": "enum"
-                                        },
-                                        {
-                                            "operation": "store",
-                                            "type": "int",
-                                            "value": "0",
-                                            "var": "var2"
-                                        },
-                                        {
-                                            "condition": "itv.b.b.get().d != null",
-                                            "instructions": [
-                                                {
-                                                    "operation": "store",
-                                                    "type": "int",
-                                                    "value": "(var2 | 1)",
-                                                    "var": "var2"
-                                                }
-                                            ],
-                                            "operation": "if"
-                                        },
-                                        {
-                                            "condition": "itv.b.b.get().f",
-                                            "instructions": [
-                                                {
-                                                    "operation": "store",
-                                                    "type": "int",
-                                                    "value": "(var2 | 2)",
-                                                    "var": "var2"
-                                                }
-                                            ],
-                                            "operation": "if"
-                                        },
-                                        {
-                                            "condition": "itv.b.b.get().h",
-                                            "instructions": [
-                                                {
-                                                    "operation": "store",
-                                                    "type": "int",
-                                                    "value": "(var2 | 4)",
-                                                    "var": "var2"
-                                                }
-                                            ],
-                                            "operation": "if"
-                                        },
-                                        {
-                                            "field": "var2",
-                                            "operation": "write",
-                                            "type": "varint"
-                                        },
-                                        {
-                                            "condition": "itv.b.b.get().d != null",
-                                            "instructions": [
-                                                {
-                                                    "field": "itv.b.b.get().d",
-                                                    "operation": "write",
-                                                    "type": "identifier"
-                                                }
-                                            ],
-                                            "operation": "if"
-                                        },
-                                        {
-                                            "field": "itv.b.b.get().i",
-                                            "operation": "write",
-                                            "type": "float"
-                                        },
-                                        {
-                                            "field": "itv.b.b.get().j",
-                                            "operation": "write",
-                                            "type": "float"
-                                        }
-                                    ],
-                                    "operation": "if"
-                                },
-                                {
-                                    "field": "itv.b.e.b.length",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "Object",
-                                    "value": "itv.b.e.b",
-                                    "var": "var2"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "var2.length",
-                                    "var": "var3"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "0",
-                                    "var": "var4"
-                                },
-                                {
-                                    "condition": "var4 < var3",
-                                    "instructions": [
-                                        {
-                                            "operation": "store",
-                                            "type": "Object",
-                                            "value": "var2[var4]",
-                                            "var": "var5"
-                                        },
-                                        {
-                                            "field": "var5.length",
-                                            "operation": "write",
-                                            "type": "varint"
-                                        },
-                                        {
-                                            "operation": "store",
-                                            "type": "Object",
-                                            "value": "var5",
-                                            "var": "var6"
-                                        },
-                                        {
-                                            "operation": "store",
-                                            "type": "int",
-                                            "value": "var6.length",
-                                            "var": "var7"
-                                        },
-                                        {
-                                            "operation": "store",
-                                            "type": "int",
-                                            "value": "0",
-                                            "var": "var8"
-                                        },
-                                        {
-                                            "condition": "var8 < var7",
-                                            "instructions": [
-                                                {
-                                                    "operation": "store",
-                                                    "type": "Object",
-                                                    "value": "var6[var8]",
-                                                    "var": "var9"
-                                                },
-                                                {
-                                                    "field": "var9",
-                                                    "operation": "write",
-                                                    "type": "string"
-                                                },
-                                                {
-                                                    "amount": "1",
-                                                    "field": "var8",
-                                                    "operation": "increment"
-                                                }
-                                            ],
-                                            "operation": "loop"
-                                        },
-                                        {
-                                            "amount": "1",
-                                            "field": "var4",
-                                            "operation": "increment"
-                                        }
-                                    ],
-                                    "operation": "loop"
-                                },
-                                {
-                                    "field": "itv.b.f",
-                                    "operation": "write",
-                                    "type": "boolean"
-                                }
-                            ],
-                            "operation": "loop"
-                        },
-                        {
-                            "field": "c.size()",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "Iterator",
-                            "value": "this.c.iterator()",
-                            "var": "it"
-                        },
-                        {
-                            "condition": "it.hasNext()",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "agm",
-                                    "value": "it.next()",
-                                    "var": "itv"
-                                },
-                                {
-                                    "field": "itv",
-                                    "operation": "write",
-                                    "type": "identifier"
-                                }
-                            ],
-                            "operation": "loop"
-                        },
-                        {
-                            "field": "d.size()",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "Iterator",
-                            "value": "this.d.iterator()",
-                            "var": "it"
-                        },
-                        {
-                            "condition": "it.hasNext()",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "Map.Entry<agm, ah>",
-                                    "value": "it.next()",
-                                    "var": "itv"
-                                },
-                                {
-                                    "field": "itv.getKey()",
-                                    "operation": "write",
-                                    "type": "identifier"
-                                },
-                                {
-                                    "field": "itv.getValue().e.size()",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "Iterator",
-                                    "value": "itv.getValue().e.iterator()",
-                                    "var": "it"
-                                },
-                                {
-                                    "condition": "it.hasNext()",
-                                    "instructions": [
-                                        {
-                                            "operation": "store",
-                                            "type": "Map.Entry<java.lang.String, an>",
-                                            "value": "it.next()",
-                                            "var": "itv"
-                                        },
-                                        {
-                                            "field": "itv.getKey()",
-                                            "operation": "write",
-                                            "type": "string"
-                                        },
-                                        {
-                                            "field": "itv.getValue().a != null",
-                                            "operation": "write",
-                                            "type": "boolean"
-                                        },
-                                        {
-                                            "condition": "itv.getValue().a != null",
-                                            "instructions": [
-                                                {
-                                                    "field": "itv.getValue().a.toEpochMilli()",
-                                                    "operation": "write",
-                                                    "type": "varlong"
-                                                }
-                                            ],
-                                            "operation": "if"
-                                        }
-                                    ],
-                                    "operation": "loop"
-                                }
-                            ],
-                            "operation": "loop"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "acp.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 110,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "field": "b.size()",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "Iterator",
-                            "value": "this.b.iterator()",
-                            "var": "it"
-                        },
-                        {
-                            "condition": "it.hasNext()",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "af",
-                                    "value": "it.next()",
-                                    "var": "itv"
-                                },
-                                {
-                                    "field": "itv.a",
-                                    "operation": "write",
-                                    "type": "identifier"
-                                },
-                                {
-                                    "field": "itv.b.b.isPresent()",
-                                    "operation": "write",
-                                    "type": "boolean"
-                                },
-                                {
-                                    "condition": "itv.b.b.isPresent()",
-                                    "instructions": [
-                                        {
-                                            "field": "itv.b.b.get()",
-                                            "operation": "write",
-                                            "type": "identifier"
-                                        }
-                                    ],
-                                    "operation": "if"
-                                },
-                                {
-                                    "field": "itv.b.c.isPresent()",
-                                    "operation": "write",
-                                    "type": "boolean"
-                                },
-                                {
-                                    "condition": "itv.b.c.isPresent()",
-                                    "instructions": [
-                                        {
-                                            "field": "itv.b.c.get().b",
-                                            "operation": "write",
-                                            "type": "chatcomponent"
-                                        },
-                                        {
-                                            "field": "itv.b.c.get().c",
-                                            "operation": "write",
-                                            "type": "chatcomponent"
-                                        },
-                                        {
-                                            "field": "itv.b.c.get().d",
-                                            "operation": "write",
-                                            "type": "itemstack"
-                                        },
-                                        {
-                                            "field": "itv.b.c.get().f",
-                                            "operation": "write",
-                                            "type": "enum"
-                                        },
-                                        {
-                                            "operation": "store",
-                                            "type": "int",
-                                            "value": "0",
-                                            "var": "var2"
-                                        },
-                                        {
-                                            "condition": "itv.b.c.get().e.isPresent()",
-                                            "instructions": [
-                                                {
-                                                    "operation": "store",
-                                                    "type": "int",
-                                                    "value": "(var2 | 1)",
-                                                    "var": "var2"
-                                                }
-                                            ],
-                                            "operation": "if"
-                                        },
-                                        {
-                                            "condition": "itv.b.c.get().g",
-                                            "instructions": [
-                                                {
-                                                    "operation": "store",
-                                                    "type": "int",
-                                                    "value": "(var2 | 2)",
-                                                    "var": "var2"
-                                                }
-                                            ],
-                                            "operation": "if"
-                                        },
-                                        {
-                                            "condition": "itv.b.c.get().i",
-                                            "instructions": [
-                                                {
-                                                    "operation": "store",
-                                                    "type": "int",
-                                                    "value": "(var2 | 4)",
-                                                    "var": "var2"
-                                                }
-                                            ],
-                                            "operation": "if"
-                                        },
-                                        {
-                                            "field": "var2",
-                                            "operation": "write",
-                                            "type": "varint"
-                                        },
-                                        {
-                                            "field": "itv.b.c.get().j",
-                                            "operation": "write",
-                                            "type": "float"
-                                        },
-                                        {
-                                            "field": "itv.b.c.get().k",
-                                            "operation": "write",
-                                            "type": "float"
-                                        }
-                                    ],
-                                    "operation": "if"
-                                },
-                                {
-                                    "field": "itv.b.f.c.size()",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "Iterator",
-                                    "value": "itv.b.f.c.iterator()",
-                                    "var": "it"
-                                },
-                                {
-                                    "condition": "it.hasNext()",
-                                    "instructions": [
-                                        {
-                                            "operation": "store",
-                                            "type": "java.util.List",
-                                            "value": "it.next()",
-                                            "var": "itv"
-                                        },
-                                        {
-                                            "field": "itv.size()",
-                                            "operation": "write",
-                                            "type": "varint"
-                                        },
-                                        {
-                                            "operation": "store",
-                                            "type": "Iterator",
-                                            "value": "itv.iterator()",
-                                            "var": "it"
-                                        },
-                                        {
-                                            "condition": "it.hasNext()",
-                                            "instructions": [
-                                                {
-                                                    "operation": "store",
-                                                    "type": "java.lang.String",
-                                                    "value": "it.next()",
-                                                    "var": "itv"
-                                                },
-                                                {
-                                                    "field": "itv",
-                                                    "operation": "write",
-                                                    "type": "string"
-                                                }
-                                            ],
-                                            "operation": "loop"
-                                        }
-                                    ],
-                                    "operation": "loop"
-                                },
-                                {
-                                    "field": "itv.b.g",
-                                    "operation": "write",
-                                    "type": "boolean"
-                                }
-                            ],
-                            "operation": "loop"
-                        },
-                        {
-                            "field": "c.size()",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "Iterator",
-                            "value": "this.c.iterator()",
-                            "var": "it"
-                        },
-                        {
-                            "condition": "it.hasNext()",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "agt",
-                                    "value": "it.next()",
-                                    "var": "itv"
-                                },
-                                {
-                                    "field": "itv",
-                                    "operation": "write",
-                                    "type": "identifier"
-                                }
-                            ],
-                            "operation": "loop"
-                        },
-                        {
-                            "field": "d.size()",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "Iterator",
-                            "value": "this.d.iterator()",
-                            "var": "it"
-                        },
-                        {
-                            "condition": "it.hasNext()",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "Map.Entry<agt, ah>",
-                                    "value": "it.next()",
-                                    "var": "itv"
-                                },
-                                {
-                                    "field": "itv.getKey()",
-                                    "operation": "write",
-                                    "type": "identifier"
-                                },
-                                {
-                                    "field": "itv.getValue().e.size()",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "Iterator",
-                                    "value": "itv.getValue().e.iterator()",
-                                    "var": "it"
-                                },
-                                {
-                                    "condition": "it.hasNext()",
-                                    "instructions": [
-                                        {
-                                            "operation": "store",
-                                            "type": "Map.Entry<java.lang.String, ao>",
-                                            "value": "it.next()",
-                                            "var": "itv"
-                                        },
-                                        {
-                                            "field": "itv.getKey()",
-                                            "operation": "write",
-                                            "type": "string"
-                                        },
-                                        {
-                                            "field": "itv.getValue().a != null",
-                                            "operation": "write",
-                                            "type": "boolean"
-                                        },
-                                        {
-                                            "condition": "itv.getValue().a != null",
-                                            "instructions": [
-                                                {
-                                                    "field": "itv.getValue().a.toEpochMilli()",
-                                                    "operation": "write",
-                                                    "type": "varlong"
-                                                }
-                                            ],
-                                            "operation": "if"
-                                        }
-                                    ],
-                                    "operation": "loop"
-                                }
-                            ],
-                            "operation": "loop"
-                        }
-                    ],
-                    "state": "PLAY"
-                }
-            ]
-        }
+        "packet": {}
     },
     "pluginchannels": {},
+    "recipes": {},
     "sounds": {
+        "block.decorated_pot.break": [
+            {
+                "field": "fJ",
+                "id": 347,
+                "name": "block.decorated_pot.break",
+                "sounds": [
+                    {
+                        "hash": "5c84f54276722bea66088e2774e0fcd00929ae58",
+                        "name": "block/decorated_pot/break1"
+                    },
+                    {
+                        "hash": "98fe2b2b0c6bcc3f921c1ae8ec0686b719569e70",
+                        "name": "block/decorated_pot/break2"
+                    },
+                    {
+                        "hash": "1e37a7e44e34d5a0e338c2d57424eaab4ba8eb46",
+                        "name": "block/decorated_pot/break3"
+                    },
+                    {
+                        "hash": "af6b7387f6d3140d630060c8efe5d25493d9e69c",
+                        "name": "block/decorated_pot/break4"
+                    }
+                ],
+                "subtitle": "Block broken",
+                "subtitle_key": "subtitles.block.generic.break"
+            },
+            {
+                "field": "fS",
+                "id": 356,
+                "name": "block.decorated_pot.break",
+                "sounds": [
+                    {
+                        "hash": "0b1b76e9d84bc193ec7d9aa11027a3b1e40f4d24",
+                        "name": "block/decorated_pot/break1"
+                    },
+                    {
+                        "hash": "a7c7b14d8c561a8ebeb04b9becd5bf9b8e587c51",
+                        "name": "block/decorated_pot/break2"
+                    },
+                    {
+                        "hash": "c2d3d32316d7692a54cc7a72b0dff6f668cef4c1",
+                        "name": "block/decorated_pot/break3"
+                    },
+                    {
+                        "hash": "eb04db6e76530e39f99d9a8b56dcf0cdc51933a9",
+                        "name": "block/decorated_pot/break4"
+                    }
+                ],
+                "subtitle": "Block broken",
+                "subtitle_key": "subtitles.block.generic.break"
+            }
+        ],
+        "block.decorated_pot.fall": [
+            {
+                "field": "fK",
+                "id": 348,
+                "name": "block.decorated_pot.fall",
+                "sounds": [
+                    {
+                        "hash": "3074b4ae157b43321c2310de6e930b6584e1caac",
+                        "name": "block/decorated_pot/step1"
+                    },
+                    {
+                        "hash": "5985e73faa571a80ce67ea3ced8f90483bf942d6",
+                        "name": "block/decorated_pot/step2"
+                    },
+                    {
+                        "hash": "6994b2d54e4ce1e6b65efefac0200faffa7386d0",
+                        "name": "block/decorated_pot/step3"
+                    },
+                    {
+                        "hash": "9be5bd79cec57751d647b70d2502ef7ea23a4791",
+                        "name": "block/decorated_pot/step4"
+                    },
+                    {
+                        "hash": "ed1727e71588360e17a9ec891e448e2dc7cfe4ea",
+                        "name": "block/decorated_pot/step5"
+                    }
+                ]
+            },
+            {
+                "field": "fT",
+                "id": 357,
+                "name": "block.decorated_pot.fall",
+                "sounds": [
+                    {
+                        "hash": "49aaa18e07b554c4760aa82ed3b87fcd8bc000fb",
+                        "name": "block/decorated_pot/step1"
+                    },
+                    {
+                        "hash": "1c6a079997bb8f67a55378e1917c23e45c08b055",
+                        "name": "block/decorated_pot/step2"
+                    },
+                    {
+                        "hash": "2e14fecfe60ce332a014da7508c59b8f05710532",
+                        "name": "block/decorated_pot/step3"
+                    },
+                    {
+                        "hash": "ff5aa6b98b27f989cf147d518303e335ef405e15",
+                        "name": "block/decorated_pot/step4"
+                    },
+                    {
+                        "hash": "ff5a345dc979cc817c1ac87221abb372a3b87a5c",
+                        "name": "block/decorated_pot/step5"
+                    }
+                ]
+            }
+        ],
+        "block.decorated_pot.hit": [
+            {
+                "field": "fL",
+                "id": 349,
+                "name": "block.decorated_pot.hit",
+                "sounds": [
+                    {
+                        "hash": "3074b4ae157b43321c2310de6e930b6584e1caac",
+                        "name": "block/decorated_pot/step1"
+                    },
+                    {
+                        "hash": "5985e73faa571a80ce67ea3ced8f90483bf942d6",
+                        "name": "block/decorated_pot/step2"
+                    },
+                    {
+                        "hash": "6994b2d54e4ce1e6b65efefac0200faffa7386d0",
+                        "name": "block/decorated_pot/step3"
+                    },
+                    {
+                        "hash": "9be5bd79cec57751d647b70d2502ef7ea23a4791",
+                        "name": "block/decorated_pot/step4"
+                    },
+                    {
+                        "hash": "ed1727e71588360e17a9ec891e448e2dc7cfe4ea",
+                        "name": "block/decorated_pot/step5"
+                    }
+                ],
+                "subtitle": "Block breaking",
+                "subtitle_key": "subtitles.block.generic.hit"
+            },
+            {
+                "field": "fU",
+                "id": 358,
+                "name": "block.decorated_pot.hit",
+                "sounds": [
+                    {
+                        "hash": "49aaa18e07b554c4760aa82ed3b87fcd8bc000fb",
+                        "name": "block/decorated_pot/step1"
+                    },
+                    {
+                        "hash": "1c6a079997bb8f67a55378e1917c23e45c08b055",
+                        "name": "block/decorated_pot/step2"
+                    },
+                    {
+                        "hash": "2e14fecfe60ce332a014da7508c59b8f05710532",
+                        "name": "block/decorated_pot/step3"
+                    },
+                    {
+                        "hash": "ff5aa6b98b27f989cf147d518303e335ef405e15",
+                        "name": "block/decorated_pot/step4"
+                    },
+                    {
+                        "hash": "ff5a345dc979cc817c1ac87221abb372a3b87a5c",
+                        "name": "block/decorated_pot/step5"
+                    }
+                ],
+                "subtitle": "Block breaking",
+                "subtitle_key": "subtitles.block.generic.hit"
+            }
+        ],
+        "block.decorated_pot.place": [
+            {
+                "field": "fP",
+                "id": 353,
+                "name": "block.decorated_pot.place",
+                "sounds": [
+                    {
+                        "hash": "5c84f54276722bea66088e2774e0fcd00929ae58",
+                        "name": "block/decorated_pot/break1"
+                    },
+                    {
+                        "hash": "98fe2b2b0c6bcc3f921c1ae8ec0686b719569e70",
+                        "name": "block/decorated_pot/break2"
+                    },
+                    {
+                        "hash": "1e37a7e44e34d5a0e338c2d57424eaab4ba8eb46",
+                        "name": "block/decorated_pot/break3"
+                    },
+                    {
+                        "hash": "af6b7387f6d3140d630060c8efe5d25493d9e69c",
+                        "name": "block/decorated_pot/break4"
+                    }
+                ],
+                "subtitle": "Block placed",
+                "subtitle_key": "subtitles.block.generic.place"
+            },
+            {
+                "field": "fY",
+                "id": 362,
+                "name": "block.decorated_pot.place",
+                "sounds": [
+                    {
+                        "hash": "0b1b76e9d84bc193ec7d9aa11027a3b1e40f4d24",
+                        "name": "block/decorated_pot/break1"
+                    },
+                    {
+                        "hash": "a7c7b14d8c561a8ebeb04b9becd5bf9b8e587c51",
+                        "name": "block/decorated_pot/break2"
+                    },
+                    {
+                        "hash": "c2d3d32316d7692a54cc7a72b0dff6f668cef4c1",
+                        "name": "block/decorated_pot/break3"
+                    },
+                    {
+                        "hash": "eb04db6e76530e39f99d9a8b56dcf0cdc51933a9",
+                        "name": "block/decorated_pot/break4"
+                    }
+                ],
+                "subtitle": "Block placed",
+                "subtitle_key": "subtitles.block.generic.place"
+            }
+        ],
+        "block.decorated_pot.shatter": [
+            {
+                "field": "fQ",
+                "id": 354,
+                "name": "block.decorated_pot.shatter",
+                "sounds": [
+                    {
+                        "hash": "aab5cf806b0948e7cf0b858fa36385913a2e486f",
+                        "name": "block/decorated_pot/shatter1"
+                    },
+                    {
+                        "hash": "21d4ebdf82249ccdcda3f01b23bb783490fe57d7",
+                        "name": "block/decorated_pot/shatter2"
+                    },
+                    {
+                        "hash": "7cd3d8225fa509ad313cbf622341b90d0b641e7b",
+                        "name": "block/decorated_pot/shatter3"
+                    },
+                    {
+                        "hash": "c2511ffc48374a7b05f83e0718bba9875a1ecfa7",
+                        "name": "block/decorated_pot/shatter4"
+                    },
+                    {
+                        "hash": "162e1406a22bda7483ad1b643a4277bec636c26f",
+                        "name": "block/decorated_pot/shatter5"
+                    },
+                    {
+                        "hash": "5716954e6041e0ec81b8d13b18b31b576d0067ee",
+                        "name": "block/decorated_pot/shatter6"
+                    }
+                ],
+                "subtitle": "Decorated Pot shatters",
+                "subtitle_key": "subtitles.block.decorated_pot.shatter"
+            },
+            {
+                "field": "fZ",
+                "id": 363,
+                "name": "block.decorated_pot.shatter",
+                "sounds": [
+                    {
+                        "hash": "62d22654ef2de2e990eec0871030e41ea0ea41d9",
+                        "name": "block/decorated_pot/shatter1"
+                    },
+                    {
+                        "hash": "d2fcc19ba39f8cc7ca4e780c1b6a8a500d9e8862",
+                        "name": "block/decorated_pot/shatter2"
+                    },
+                    {
+                        "hash": "cda36c2c0cc4428cb7c8fd3857f1597ae906c35b",
+                        "name": "block/decorated_pot/shatter3"
+                    },
+                    {
+                        "hash": "5faa68db1a4b77ed66a0a7e412d6b26156fba2b7",
+                        "name": "block/decorated_pot/shatter4"
+                    },
+                    {
+                        "hash": "da34d96320ca548f68ccb08b8b6fead88f678184",
+                        "name": "block/decorated_pot/shatter5"
+                    }
+                ],
+                "subtitle": "Decorated Pot shatters",
+                "subtitle_key": "subtitles.block.decorated_pot.shatter"
+            }
+        ],
+        "block.decorated_pot.step": [
+            {
+                "field": "fO",
+                "id": 352,
+                "name": "block.decorated_pot.step",
+                "sounds": [
+                    {
+                        "hash": "3074b4ae157b43321c2310de6e930b6584e1caac",
+                        "name": "block/decorated_pot/step1"
+                    },
+                    {
+                        "hash": "5985e73faa571a80ce67ea3ced8f90483bf942d6",
+                        "name": "block/decorated_pot/step2"
+                    },
+                    {
+                        "hash": "6994b2d54e4ce1e6b65efefac0200faffa7386d0",
+                        "name": "block/decorated_pot/step3"
+                    },
+                    {
+                        "hash": "9be5bd79cec57751d647b70d2502ef7ea23a4791",
+                        "name": "block/decorated_pot/step4"
+                    },
+                    {
+                        "hash": "ed1727e71588360e17a9ec891e448e2dc7cfe4ea",
+                        "name": "block/decorated_pot/step5"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            },
+            {
+                "field": "fX",
+                "id": 361,
+                "name": "block.decorated_pot.step",
+                "sounds": [
+                    {
+                        "hash": "49aaa18e07b554c4760aa82ed3b87fcd8bc000fb",
+                        "name": "block/decorated_pot/step1"
+                    },
+                    {
+                        "hash": "1c6a079997bb8f67a55378e1917c23e45c08b055",
+                        "name": "block/decorated_pot/step2"
+                    },
+                    {
+                        "hash": "2e14fecfe60ce332a014da7508c59b8f05710532",
+                        "name": "block/decorated_pot/step3"
+                    },
+                    {
+                        "hash": "ff5aa6b98b27f989cf147d518303e335ef405e15",
+                        "name": "block/decorated_pot/step4"
+                    },
+                    {
+                        "hash": "ff5a345dc979cc817c1ac87221abb372a3b87a5c",
+                        "name": "block/decorated_pot/step5"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
         "block.trial_spawner.ambient": [
             null,
             {

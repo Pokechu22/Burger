@@ -4,274 +4,25 @@
         "block": {}
     },
     "entities": {
-        "dataserializers": {},
-        "entity": {
-            "boat": [
+        "entity": {}
+    },
+    "items": {
+        "item": {
+            "decorated_pot": [
                 {
-                    "class": "cdt",
-                    "display_name": "Boat",
-                    "field": "k",
-                    "height": 0.5625,
-                    "id": 9,
-                    "metadata": [
-                        {
-                            "class": "biw",
-                            "entity": "~abstract_entity"
-                        },
-                        {
-                            "bitfields": [],
-                            "class": "cdt",
-                            "data": [
-                                {
-                                    "default": 0,
-                                    "field": "f",
-                                    "index": 8,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": 1,
-                                    "field": "g",
-                                    "index": 9,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": 0.0,
-                                    "field": "h",
-                                    "index": 10,
-                                    "serializer": "Float",
-                                    "serializer_id": 3
-                                },
-                                {
-                                    "field": "i",
-                                    "index": 11,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": false,
-                                    "field": "j",
-                                    "index": 12,
-                                    "serializer": "Boolean",
-                                    "serializer_id": 8
-                                },
-                                {
-                                    "default": false,
-                                    "field": "k",
-                                    "index": 13,
-                                    "serializer": "Boolean",
-                                    "serializer_id": 8
-                                },
-                                {
-                                    "default": 0,
-                                    "field": "l",
-                                    "index": 14,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                }
-                            ]
-                        }
-                    ],
-                    "name": "boat",
-                    "width": 1.375
+                    "class": "che",
+                    "display_name": "Decorated Pot",
+                    "field": "eg",
+                    "max_stack_size": 1,
+                    "numeric_id": 266,
+                    "text_id": "decorated_pot"
                 },
                 {
-                    "class": "ceq",
-                    "display_name": "Boat",
-                    "field": "k",
-                    "height": 0.5625,
-                    "id": 9,
-                    "metadata": [
-                        {
-                            "class": "bjt",
-                            "entity": "~abstract_entity"
-                        },
-                        {
-                            "bitfields": [],
-                            "class": "cfb",
-                            "data": [
-                                {
-                                    "default": 0,
-                                    "field": "f",
-                                    "index": 8,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": 1,
-                                    "field": "g",
-                                    "index": 9,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": 0.0,
-                                    "field": "h",
-                                    "index": 10,
-                                    "serializer": "Float",
-                                    "serializer_id": 3
-                                }
-                            ]
-                        },
-                        {
-                            "bitfields": [],
-                            "class": "ceq",
-                            "data": [
-                                {
-                                    "field": "i",
-                                    "index": 11,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": false,
-                                    "field": "j",
-                                    "index": 12,
-                                    "serializer": "Boolean",
-                                    "serializer_id": 8
-                                },
-                                {
-                                    "default": false,
-                                    "field": "k",
-                                    "index": 13,
-                                    "serializer": "Boolean",
-                                    "serializer_id": 8
-                                },
-                                {
-                                    "default": 0,
-                                    "field": "l",
-                                    "index": 14,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                }
-                            ]
-                        }
-                    ],
-                    "name": "boat",
-                    "width": 1.375
-                }
-            ],
-            "~abstract_minecart": [
-                {
-                    "class": "cdr",
-                    "metadata": [
-                        {
-                            "class": "biw",
-                            "entity": "~abstract_entity"
-                        },
-                        {
-                            "bitfields": [],
-                            "class": "cdr",
-                            "data": [
-                                {
-                                    "default": 0,
-                                    "field": "e",
-                                    "index": 8,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": 1,
-                                    "field": "f",
-                                    "index": 9,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": 0.0,
-                                    "field": "g",
-                                    "index": 10,
-                                    "serializer": "Float",
-                                    "serializer_id": 3
-                                },
-                                {
-                                    "field": "h",
-                                    "index": 11,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": 6,
-                                    "field": "i",
-                                    "index": 12,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": false,
-                                    "field": "j",
-                                    "index": 13,
-                                    "serializer": "Boolean",
-                                    "serializer_id": 8
-                                }
-                            ]
-                        }
-                    ],
-                    "name": "~abstract_minecart"
-                },
-                {
-                    "class": "ceo",
-                    "metadata": [
-                        {
-                            "class": "bjt",
-                            "entity": "~abstract_entity"
-                        },
-                        {
-                            "bitfields": [],
-                            "class": "cfb",
-                            "data": [
-                                {
-                                    "default": 0,
-                                    "field": "f",
-                                    "index": 8,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": 1,
-                                    "field": "g",
-                                    "index": 9,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": 0.0,
-                                    "field": "h",
-                                    "index": 10,
-                                    "serializer": "Float",
-                                    "serializer_id": 3
-                                }
-                            ]
-                        },
-                        {
-                            "bitfields": [],
-                            "class": "ceo",
-                            "data": [
-                                {
-                                    "field": "e",
-                                    "index": 11,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": 6,
-                                    "field": "i",
-                                    "index": 12,
-                                    "serializer": "VarInt",
-                                    "serializer_id": 1
-                                },
-                                {
-                                    "default": false,
-                                    "field": "j",
-                                    "index": 13,
-                                    "serializer": "Boolean",
-                                    "serializer_id": 8
-                                }
-                            ]
-                        }
-                    ],
-                    "name": "~abstract_minecart"
+                    "display_name": "Decorated Pot",
+                    "field": "eg",
+                    "max_stack_size": 64,
+                    "numeric_id": 266,
+                    "text_id": "decorated_pot"
                 }
             ]
         }
@@ -438,6 +189,7 @@
         "packet": {}
     },
     "pluginchannels": {},
+    "recipes": {},
     "sounds": {
         "block.decorated_pot.insert": [
             null,

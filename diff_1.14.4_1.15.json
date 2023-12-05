@@ -10993,6 +10993,44 @@
             ]
         }
     },
+    "pluginchannels": {
+        "clientbound": [
+            [
+                "minecraft:brand",
+                "minecraft:debug/brain",
+                "minecraft:debug/caves",
+                "minecraft:debug/goal_selector",
+                "minecraft:debug/neighbors_update",
+                "minecraft:debug/path",
+                "minecraft:debug/poi_added",
+                "minecraft:debug/poi_removed",
+                "minecraft:debug/poi_ticket_count",
+                "minecraft:debug/raids",
+                "minecraft:debug/structures",
+                "minecraft:debug/village_sections",
+                "minecraft:debug/worldgen_attempt"
+            ],
+            [
+                "minecraft:brand",
+                "minecraft:debug/bee",
+                "minecraft:debug/brain",
+                "minecraft:debug/caves",
+                "minecraft:debug/game_test_add_marker",
+                "minecraft:debug/game_test_clear",
+                "minecraft:debug/goal_selector",
+                "minecraft:debug/hive",
+                "minecraft:debug/neighbors_update",
+                "minecraft:debug/path",
+                "minecraft:debug/poi_added",
+                "minecraft:debug/poi_removed",
+                "minecraft:debug/poi_ticket_count",
+                "minecraft:debug/raids",
+                "minecraft:debug/structures",
+                "minecraft:debug/village_sections",
+                "minecraft:debug/worldgen_attempt"
+            ]
+        ]
+    },
     "recipes": {
         "beehive": [
             null,

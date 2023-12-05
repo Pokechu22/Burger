@@ -19869,6 +19869,34 @@
             ]
         }
     },
+    "pluginchannels": {
+        "clientbound": [
+            [
+                "minecraft:book_open",
+                "minecraft:brand",
+                "minecraft:debug/caves",
+                "minecraft:debug/neighbors_update",
+                "minecraft:debug/path",
+                "minecraft:debug/structures",
+                "minecraft:debug/worldgen_attempt",
+                "minecraft:trader_list"
+            ],
+            [
+                "minecraft:brand",
+                "minecraft:debug/brain",
+                "minecraft:debug/caves",
+                "minecraft:debug/goal_selector",
+                "minecraft:debug/neighbors_update",
+                "minecraft:debug/path",
+                "minecraft:debug/poi_added",
+                "minecraft:debug/poi_removed",
+                "minecraft:debug/poi_ticket_count",
+                "minecraft:debug/structures",
+                "minecraft:debug/village_sections",
+                "minecraft:debug/worldgen_attempt"
+            ]
+        ]
+    },
     "recipes": {
         "acacia_sign": [
             null,

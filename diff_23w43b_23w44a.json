@@ -4,8 +4,10 @@
         "block": {}
     },
     "entities": {
-        "dataserializers": {},
         "entity": {}
+    },
+    "items": {
+        "item": {}
     },
     "language": {
         "commands": {
@@ -37,6 +39,7 @@
         "packet": {}
     },
     "pluginchannels": {},
+    "recipes": {},
     "sounds": {
         "block.copper_bulb.turn_off": [
             {

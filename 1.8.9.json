@@ -4020,7 +4020,8 @@
             "metadata": "pz",
             "nbtcompound": "dn",
             "nethandler.client": "bcy",
-            "nethandler.server": "ln",
+            "nethandler.handshake": "ln",
+            "nethandler.server": "lm",
             "packet.connectionstate": "el",
             "packet.packetbuffer": "em",
             "particletypes": "cy",
@@ -14355,6 +14356,21 @@
             "take",
             "mobappearance"
         ],
+        "pluginchannels": {
+            "clientbound": [
+                "MC|BOpen",
+                "MC|Brand",
+                "MC|TrList"
+            ],
+            "serverbound": [
+                "MC|AdvCdm",
+                "MC|BEdit",
+                "MC|BSign",
+                "MC|Beacon",
+                "MC|ItemName",
+                "MC|TrSel"
+            ]
+        },
         "sounds": {},
         "source": {
             "classes": 2507,
@@ -14779,10 +14795,12 @@
             }
         },
         "version": {
+            "distribution": "client",
             "entity_format": "1.10",
             "id": "1.8.9",
             "is_flattened": false,
             "name": "1.8.9",
+            "netty_rewrite": true,
             "protocol": 47
         }
     }

@@ -1,5 +1,288 @@
 {
     "achievements": {},
+    "blocks": {
+        "block": {
+            "copper_door": [
+                {
+                    "class": "dfu",
+                    "display_name": "Copper Door",
+                    "field": "rM",
+                    "hardness": 3.0,
+                    "max_state_id": 23451,
+                    "min_state_id": 23388,
+                    "num_states": 64,
+                    "numeric_id": 974,
+                    "resistance": 3.0,
+                    "states": [
+                        {
+                            "declared_in": "djw",
+                            "enum_class": "dkc",
+                            "field_name": "f",
+                            "name": "half",
+                            "num_values": 2,
+                            "type": "enum",
+                            "values": [
+                                "UPPER",
+                                "LOWER"
+                            ]
+                        },
+                        {
+                            "declared_in": "djw",
+                            "field_name": "b",
+                            "name": "facing",
+                            "num_values": 4,
+                            "type": "direction",
+                            "values": [
+                                "NORTH",
+                                "EAST",
+                                "SOUTH",
+                                "WEST"
+                            ]
+                        },
+                        {
+                            "declared_in": "djw",
+                            "field_name": "c",
+                            "name": "open",
+                            "num_values": 2,
+                            "type": "bool"
+                        },
+                        {
+                            "declared_in": "djw",
+                            "enum_class": "dkb",
+                            "field_name": "d",
+                            "name": "hinge",
+                            "num_values": 2,
+                            "type": "enum",
+                            "values": [
+                                "LEFT",
+                                "RIGHT"
+                            ]
+                        },
+                        {
+                            "declared_in": "djw",
+                            "field_name": "e",
+                            "name": "powered",
+                            "num_values": 2,
+                            "type": "bool"
+                        }
+                    ],
+                    "super": [
+                        "cyv",
+                        "cwp"
+                    ],
+                    "text_id": "copper_door"
+                },
+                {
+                    "class": "dfv",
+                    "display_name": "Copper Door",
+                    "field": "rM",
+                    "hardness": 3.0,
+                    "max_state_id": 23451,
+                    "min_state_id": 23388,
+                    "num_states": 64,
+                    "numeric_id": 974,
+                    "resistance": 6.0,
+                    "states": [
+                        {
+                            "declared_in": "djx",
+                            "enum_class": "dkd",
+                            "field_name": "f",
+                            "name": "half",
+                            "num_values": 2,
+                            "type": "enum",
+                            "values": [
+                                "UPPER",
+                                "LOWER"
+                            ]
+                        },
+                        {
+                            "declared_in": "djx",
+                            "field_name": "b",
+                            "name": "facing",
+                            "num_values": 4,
+                            "type": "direction",
+                            "values": [
+                                "NORTH",
+                                "EAST",
+                                "SOUTH",
+                                "WEST"
+                            ]
+                        },
+                        {
+                            "declared_in": "djx",
+                            "field_name": "c",
+                            "name": "open",
+                            "num_values": 2,
+                            "type": "bool"
+                        },
+                        {
+                            "declared_in": "djx",
+                            "enum_class": "dkc",
+                            "field_name": "d",
+                            "name": "hinge",
+                            "num_values": 2,
+                            "type": "enum",
+                            "values": [
+                                "LEFT",
+                                "RIGHT"
+                            ]
+                        },
+                        {
+                            "declared_in": "djx",
+                            "field_name": "e",
+                            "name": "powered",
+                            "num_values": 2,
+                            "type": "bool"
+                        }
+                    ],
+                    "super": [
+                        "cyw",
+                        "cwq"
+                    ],
+                    "text_id": "copper_door"
+                }
+            ],
+            "copper_trapdoor": [
+                {
+                    "class": "dfz",
+                    "display_name": "Copper Trapdoor",
+                    "field": "rU",
+                    "hardness": 3.0,
+                    "max_state_id": 23963,
+                    "min_state_id": 23900,
+                    "num_states": 64,
+                    "numeric_id": 982,
+                    "resistance": 3.0,
+                    "states": [
+                        {
+                            "declared_in": "djw",
+                            "field_name": "aE",
+                            "name": "facing",
+                            "num_values": 4,
+                            "type": "direction",
+                            "values": [
+                                "NORTH",
+                                "EAST",
+                                "SOUTH",
+                                "WEST"
+                            ]
+                        },
+                        {
+                            "declared_in": "djw",
+                            "field_name": "b",
+                            "name": "open",
+                            "num_values": 2,
+                            "type": "bool"
+                        },
+                        {
+                            "declared_in": "djw",
+                            "enum_class": "dkf",
+                            "field_name": "c",
+                            "name": "half",
+                            "num_values": 2,
+                            "type": "enum",
+                            "values": [
+                                "TOP",
+                                "BOTTOM"
+                            ]
+                        },
+                        {
+                            "declared_in": "djw",
+                            "field_name": "d",
+                            "name": "powered",
+                            "num_values": 2,
+                            "type": "bool"
+                        },
+                        {
+                            "declared_in": "djw",
+                            "field_name": "e",
+                            "name": "waterlogged",
+                            "num_values": 2,
+                            "type": "bool"
+                        }
+                    ],
+                    "super": [
+                        "dfb",
+                        "dak",
+                        "cwp"
+                    ],
+                    "text_id": "copper_trapdoor"
+                },
+                {
+                    "class": "dga",
+                    "display_name": "Copper Trapdoor",
+                    "field": "rU",
+                    "hardness": 3.0,
+                    "max_state_id": 23963,
+                    "min_state_id": 23900,
+                    "num_states": 64,
+                    "numeric_id": 982,
+                    "resistance": 6.0,
+                    "states": [
+                        {
+                            "declared_in": "djx",
+                            "field_name": "aE",
+                            "name": "facing",
+                            "num_values": 4,
+                            "type": "direction",
+                            "values": [
+                                "NORTH",
+                                "EAST",
+                                "SOUTH",
+                                "WEST"
+                            ]
+                        },
+                        {
+                            "declared_in": "djx",
+                            "field_name": "b",
+                            "name": "open",
+                            "num_values": 2,
+                            "type": "bool"
+                        },
+                        {
+                            "declared_in": "djx",
+                            "enum_class": "dkg",
+                            "field_name": "c",
+                            "name": "half",
+                            "num_values": 2,
+                            "type": "enum",
+                            "values": [
+                                "TOP",
+                                "BOTTOM"
+                            ]
+                        },
+                        {
+                            "declared_in": "djx",
+                            "field_name": "d",
+                            "name": "powered",
+                            "num_values": 2,
+                            "type": "bool"
+                        },
+                        {
+                            "declared_in": "djx",
+                            "field_name": "e",
+                            "name": "waterlogged",
+                            "num_values": 2,
+                            "type": "bool"
+                        }
+                    ],
+                    "super": [
+                        "dfc",
+                        "dal",
+                        "cwq"
+                    ],
+                    "text_id": "copper_trapdoor"
+                }
+            ]
+        }
+    },
+    "entities": {
+        "dataserializers": {},
+        "entity": {}
+    },
+    "items": {
+        "item": {}
+    },
     "language": {
         "commands": {
             "tick.query.rate.sprinting": [
@@ -18,6 +301,33 @@
             ]
         }
     },
+    "packets": {
+        "packet": {}
+    },
+    "pluginchannels": {},
+    "recipes": {},
+    "sounds": {},
     "stats": {},
-    "tags": {}
+    "tags": {},
+    "tileentity": {
+        "tileentities": {}
+    },
+    "version": {
+        "data": [
+            3694,
+            3695
+        ],
+        "id": [
+            "1.20.3-pre2",
+            "1.20.3-pre3"
+        ],
+        "name": [
+            "1.20.3 Pre-Release 2",
+            "1.20.3 Pre-Release 3"
+        ],
+        "protocol": [
+            1073741989,
+            1073741990
+        ]
+    }
 }

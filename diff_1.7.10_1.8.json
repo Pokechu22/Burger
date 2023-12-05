@@ -12854,6 +12854,20 @@
             ]
         }
     },
+    "pluginchannels": {
+        "clientbound": [
+            [
+                "MC|Brand",
+                "MC|RPack",
+                "MC|TrList"
+            ],
+            [
+                "MC|BOpen",
+                "MC|Brand",
+                "MC|TrList"
+            ]
+        ]
+    },
     "sounds": {},
     "stats": {
         "crouchOneCm": [

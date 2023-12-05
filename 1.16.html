@@ -4835,7 +4835,7 @@
 <span class="hl_n">writeVarIntEnum</span><span class="hl_o">(</span><span class="hl_n">f</span><span class="hl_o">);</span>
 </pre></div></div>
 <div class="entry"><a href="#packets:play_serverbound_06"><h3 id="packets:play_serverbound_06">PLAY_SERVERBOUND_06</h3></a><div><dl><dt>Direction</dt><dd>Client to server</dd><dt>ID</dt><dd>6</dd></dl><pre><span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">a</span><span class="hl_o">);</span>
-<span class="hl_n">writeString</span><span class="hl_o">(</span><span class="hl_n">b</span><span class="hl_o">);</span>
+<span class="hl_n">writeString</span><span class="hl_o">(</span><span class="hl_n">b</span><span class="hl_o">,</span> <span class="hl_mi">32500</span><span class="hl_o">);</span>
 </pre></div></div>
 <div class="entry"><a href="#packets:play_serverbound_07"><h3 id="packets:play_serverbound_07">PLAY_SERVERBOUND_07</h3></a><div><dl><dt>Direction</dt><dd>Client to server</dd><dt>ID</dt><dd>7</dd></dl><pre><span class="hl_n">writeByte</span><span class="hl_o">(</span><span class="hl_n">a</span><span class="hl_o">);</span>
 <span class="hl_n">writeShort</span><span class="hl_o">(</span><span class="hl_n">b</span><span class="hl_o">);</span>
@@ -5120,11 +5120,16 @@
 <span class="hl_n">writeVarInt</span><span class="hl_o">(((</span><span class="hl_n">bdq</span><span class="hl_o">)</span><span class="hl_n">value</span><span class="hl_o">).</span><span class="hl_na">c</span><span class="hl_o">());</span>
 </pre></div></div>
 
+<a href="#plugin_channels"><h2 id="plugin_channels">Plugin Channels</h2></a><div class="entry"><a href="#plugin_channels:clientbound"><h3 id="plugin_channels:clientbound">Clientbound</h3></a><div>minecraft:brand<br/>minecraft:debug/bee<br/>minecraft:debug/brain<br/>minecraft:debug/caves<br/>minecraft:debug/game_test_add_marker<br/>minecraft:debug/game_test_clear<br/>minecraft:debug/goal_selector<br/>minecraft:debug/hive<br/>minecraft:debug/neighbors_update<br/>minecraft:debug/path<br/>minecraft:debug/poi_added<br/>minecraft:debug/poi_removed<br/>minecraft:debug/poi_ticket_count<br/>minecraft:debug/raids<br/>minecraft:debug/structures<br/>minecraft:debug/village_sections<br/>minecraft:debug/worldgen_attempt</div></div>
+<div class="entry"><a href="#plugin_channels:serverbound"><h3 id="plugin_channels:serverbound">Serverbound</h3></a><div>minecraft:brand</div></div>
+
 <a href="#versions"><h2 id="versions">Versions</h2></a><div class="entry"><a href="#versions:data"><h3 id="versions:data">data</h3></a><div>2566</div></div>
+<div class="entry"><a href="#versions:distribution"><h3 id="versions:distribution">distribution</h3></a><div>client</div></div>
 <div class="entry"><a href="#versions:entity_format"><h3 id="versions:entity_format">entity_format</h3></a><div>1.13</div></div>
 <div class="entry"><a href="#versions:id"><h3 id="versions:id">id</h3></a><div>1.16</div></div>
 <div class="entry"><a href="#versions:is_flattened"><h3 id="versions:is_flattened">is_flattened</h3></a><div>True</div></div>
 <div class="entry"><a href="#versions:name"><h3 id="versions:name">name</h3></a><div>1.16</div></div>
+<div class="entry"><a href="#versions:netty_rewrite"><h3 id="versions:netty_rewrite">netty_rewrite</h3></a><div>True</div></div>
 <div class="entry"><a href="#versions:protocol"><h3 id="versions:protocol">protocol</h3></a><div>735</div></div>
 
 <a href="#stats"><h2 id="stats">Stats</h2></a><div class="entry"><a href="#stats:generalbutton"><h3 id="stats:generalbutton">generalButton</h3></a><div><dl></dl>General</div></div>

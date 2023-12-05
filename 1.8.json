@@ -4026,7 +4026,8 @@
             "metadata": "xv",
             "nbtcompound": "fn",
             "nethandler.client": "cee",
-            "nethandler.server": "ro",
+            "nethandler.handshake": "ro",
+            "nethandler.server": "rj",
             "packet.connectionstate": "gy",
             "packet.packetbuffer": "hd",
             "particletypes": "ew",
@@ -14308,6 +14309,21 @@
             "take",
             "mobappearance"
         ],
+        "pluginchannels": {
+            "clientbound": [
+                "MC|BOpen",
+                "MC|Brand",
+                "MC|TrList"
+            ],
+            "serverbound": [
+                "MC|AdvCdm",
+                "MC|BEdit",
+                "MC|BSign",
+                "MC|Beacon",
+                "MC|ItemName",
+                "MC|TrSel"
+            ]
+        },
         "sounds": {},
         "source": {
             "classes": 2497,
@@ -14672,10 +14688,12 @@
             }
         },
         "version": {
+            "distribution": "client",
             "entity_format": "1.10",
             "id": "1.8",
             "is_flattened": false,
             "name": "1.8",
+            "netty_rewrite": true,
             "protocol": 47
         }
     }
