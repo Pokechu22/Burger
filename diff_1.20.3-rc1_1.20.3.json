@@ -1,0 +1,43 @@
+{
+    "achievements": {},
+    "blocks": {
+        "block": {}
+    },
+    "entities": {
+        "dataserializers": {},
+        "entity": {}
+    },
+    "items": {
+        "item": {}
+    },
+    "language": {},
+    "packets": {
+        "packet": {}
+    },
+    "pluginchannels": {},
+    "recipes": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "tileentity": {
+        "tileentities": {}
+    },
+    "version": {
+        "data": [
+            3697,
+            3698
+        ],
+        "id": [
+            "1.20.3-rc1",
+            "1.20.3"
+        ],
+        "name": [
+            "1.20.3 Release Candidate 1",
+            "1.20.3"
+        ],
+        "protocol": [
+            1073741992,
+            765
+        ]
+    }
+}
