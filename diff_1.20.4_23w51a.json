@@ -1,0 +1,1573 @@
+{
+    "achievements": {},
+    "blocks": {
+        "block": {}
+    },
+    "items": {
+        "item": {
+            "armadillo_scute": [
+                null,
+                {
+                    "class": "cnb",
+                    "display_name": "Armadillo Scute",
+                    "field": "op",
+                    "max_stack_size": 64,
+                    "numeric_id": 795,
+                    "text_id": "armadillo_scute"
+                }
+            ],
+            "armadillo_spawn_egg": [
+                null,
+                {
+                    "class": "col",
+                    "display_name": "Armadillo Spawn Egg",
+                    "field": "st",
+                    "max_stack_size": 64,
+                    "numeric_id": 1007,
+                    "text_id": "armadillo_spawn_egg"
+                }
+            ],
+            "scute": [
+                {
+                    "class": "cmt",
+                    "display_name": "Scute",
+                    "field": "oo",
+                    "max_stack_size": 64,
+                    "numeric_id": 794,
+                    "text_id": "scute"
+                },
+                null
+            ],
+            "turtle_scute": [
+                null,
+                {
+                    "class": "cnb",
+                    "display_name": "Turtle Scute",
+                    "field": "oo",
+                    "max_stack_size": 64,
+                    "numeric_id": 794,
+                    "text_id": "turtle_scute"
+                }
+            ],
+            "wolf_armor": [
+                null,
+                {
+                    "class": "ckq",
+                    "display_name": "Wolf Armor",
+                    "field": "oq",
+                    "max_stack_size": 1,
+                    "numeric_id": 796,
+                    "text_id": "wolf_armor"
+                }
+            ]
+        }
+    },
+    "language": {
+        "attribute": {
+            "name.generic.block_interaction_range": [
+                null,
+                "Block Interaction Range"
+            ],
+            "name.generic.entity_interaction_range": [
+                null,
+                "Entity Interaction Range"
+            ],
+            "name.generic.scale": [
+                null,
+                "Scale"
+            ],
+            "name.generic.step_height": [
+                null,
+                "Step Height"
+            ]
+        },
+        "entity": {
+            "minecraft.armadillo": [
+                null,
+                "Armadillo"
+            ]
+        },
+        "item": {
+            "minecraft.armadillo_scute": [
+                null,
+                "Armadillo Scute"
+            ],
+            "minecraft.armadillo_spawn_egg": [
+                null,
+                "Armadillo Spawn Egg"
+            ],
+            "minecraft.scute": [
+                "Scute",
+                null
+            ],
+            "minecraft.turtle_scute": [
+                null,
+                "Turtle Scute"
+            ],
+            "minecraft.wolf_armor": [
+                null,
+                "Wolf Armor"
+            ]
+        },
+        "subtitles": {
+            "block.respawn_anchor.ambient": [
+                "Portal whooshes",
+                "Respawn Anchor whooshes"
+            ],
+            "block.trial_spawner.spawn_mob": [
+                "Mob spawns",
+                "Trial Spawner spawns a mob"
+            ],
+            "entity.armadillo.ambient": [
+                null,
+                "Armadillo grunts"
+            ],
+            "entity.armadillo.brush": [
+                null,
+                "Armadillo brushes"
+            ],
+            "entity.armadillo.death": [
+                null,
+                "Armadillo dies"
+            ],
+            "entity.armadillo.eat": [
+                null,
+                "Armadillo eats"
+            ],
+            "entity.armadillo.hurt": [
+                null,
+                "Armadillo hurts"
+            ],
+            "entity.armadillo.land": [
+                null,
+                "Armadillo lands"
+            ],
+            "entity.armadillo.roll": [
+                null,
+                "Armadillo rolls up"
+            ],
+            "entity.armadillo.scute_drop": [
+                null,
+                "Scute drops"
+            ],
+            "entity.armadillo.unroll": [
+                null,
+                "Armadillo unrolls"
+            ],
+            "entity.breeze.charge": [
+                null,
+                "Breeze charges"
+            ],
+            "entity.breeze.deflect": [
+                null,
+                "Breeze deflects"
+            ],
+            "entity.breeze.whirl": [
+                null,
+                "Breeze whirls"
+            ],
+            "entity.glow_item_frame.break": [
+                "Glow Item Frame breaks",
+                "Glow Item Frame broken"
+            ],
+            "entity.item_frame.break": [
+                "Item Frame breaks",
+                "Item Frame broken"
+            ],
+            "entity.leash_knot.break": [
+                "Leash Knot breaks",
+                "Leash Knot broken"
+            ],
+            "entity.painting.break": [
+                "Painting breaks",
+                "Painting broken"
+            ],
+            "entity.polar_bear.ambient_baby": [
+                "Polar Bear hums",
+                "Baby Polar Bear hums"
+            ],
+            "entity.turtle.death_baby": [
+                "Turtle baby dies",
+                "Baby Turtle dies"
+            ],
+            "entity.turtle.hurt_baby": [
+                "Turtle baby hurts",
+                "Baby Turtle hurts"
+            ],
+            "entity.turtle.shamble_baby": [
+                "Turtle baby shambles",
+                "Baby Turtle shambles"
+            ],
+            "item.armor.equip_wolf": [
+                null,
+                "Wolf armor straps"
+            ],
+            "item.armor.unequip_wolf": [
+                null,
+                "Wolf armor slips off"
+            ]
+        }
+    },
+    "packets": {
+        "packet": {
+            "PLAY_CLIENTBOUND_71": [
+                {
+                    "class": "add.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": 113,
+                    "instructions": [
+                        {
+                            "field": "a",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "b.size()",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "Iterator",
+                            "value": "this.b.iterator()",
+                            "var": "it"
+                        },
+                        {
+                            "condition": "it.hasNext()",
+                            "instructions": [
+                                {
+                                    "operation": "store",
+                                    "type": "add$a",
+                                    "value": "it.next()",
+                                    "var": "itv"
+                                },
+                                {
+                                    "field": "kd.u.b(itv.a())",
+                                    "operation": "write",
+                                    "type": "identifier"
+                                },
+                                {
+                                    "field": "itv.b()",
+                                    "operation": "write",
+                                    "type": "position"
+                                },
+                                {
+                                    "field": "itv.c().size()",
+                                    "operation": "write",
+                                    "type": "varint"
+                                },
+                                {
+                                    "operation": "store",
+                                    "type": "Iterator",
+                                    "value": "itv.c().iterator()",
+                                    "var": "it"
+                                },
+                                {
+                                    "condition": "it.hasNext()",
+                                    "instructions": [
+                                        {
+                                            "operation": "store",
+                                            "type": "bnp",
+                                            "value": "it.next()",
+                                            "var": "itv"
+                                        },
+                                        {
+                                            "field": "itv.a()",
+                                            "operation": "write",
+                                            "type": "uuid"
+                                        },
+                                        {
+                                            "field": "itv.c()",
+                                            "operation": "write",
+                                            "type": "position"
+                                        },
+                                        {
+                                            "field": "itv.b().a()",
+                                            "operation": "write",
+                                            "type": "varint"
+                                        }
+                                    ],
+                                    "operation": "loop"
+                                }
+                            ],
+                            "operation": "loop"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "ade.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": 113,
+                    "instructions": [
+                        {
+                            "field": "a",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "b.size()",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "Iterator",
+                            "value": "this.b.iterator()",
+                            "var": "it"
+                        },
+                        {
+                            "condition": "it.hasNext()",
+                            "instructions": [
+                                {
+                                    "operation": "store",
+                                    "type": "ade$a",
+                                    "value": "it.next()",
+                                    "var": "itv"
+                                },
+                                {
+                                    "field": "kd.u.t().getId(itv.a())",
+                                    "operation": "write",
+                                    "type": "varint"
+                                },
+                                {
+                                    "field": "itv.b()",
+                                    "operation": "write",
+                                    "type": "position"
+                                },
+                                {
+                                    "field": "itv.c().size()",
+                                    "operation": "write",
+                                    "type": "varint"
+                                },
+                                {
+                                    "operation": "store",
+                                    "type": "Iterator",
+                                    "value": "itv.c().iterator()",
+                                    "var": "it"
+                                },
+                                {
+                                    "condition": "it.hasNext()",
+                                    "instructions": [
+                                        {
+                                            "operation": "store",
+                                            "type": "bns",
+                                            "value": "it.next()",
+                                            "var": "itv"
+                                        },
+                                        {
+                                            "field": "itv.a()",
+                                            "operation": "write",
+                                            "type": "uuid"
+                                        },
+                                        {
+                                            "field": "itv.c()",
+                                            "operation": "write",
+                                            "type": "position"
+                                        },
+                                        {
+                                            "field": "itv.b().a()",
+                                            "operation": "write",
+                                            "type": "varint"
+                                        }
+                                    ],
+                                    "operation": "loop"
+                                }
+                            ],
+                            "operation": "loop"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ],
+            "PLAY_CLIENTBOUND_72": [
+                {
+                    "class": "ade.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": 114,
+                    "instructions": [
+                        {
+                            "field": "d",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "kd.d.getId(e)",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "f",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "g",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "h",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "i != null",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "i != null",
+                            "instructions": [
+                                {
+                                    "field": "bli$a.a.encode(tb.a, i)",
+                                    "operation": "write",
+                                    "type": "nbtcompound"
+                                }
+                            ],
+                            "operation": "if"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "adf.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": 114,
+                    "instructions": [
+                        {
+                            "field": "e",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "kd.d.t().getId(f)",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "g",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "h",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "i",
+                            "operation": "write",
+                            "type": "varint"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ]
+        }
+    },
+    "pluginchannels": {},
+    "recipes": {
+        "turtle_helmet": [
+            [
+                {
+                    "id": "minecraft:turtle_helmet",
+                    "makes": {
+                        "count": 1,
+                        "name": "turtle_helmet",
+                        "type": "item"
+                    },
+                    "raw": {
+                        "rows": [
+                            "XXX",
+                            "X X"
+                        ],
+                        "subs": {
+                            "X": {
+                                "name": "scute",
+                                "type": "item"
+                            }
+                        }
+                    },
+                    "shape": [
+                        [
+                            {
+                                "name": "scute",
+                                "type": "item"
+                            },
+                            {
+                                "name": "scute",
+                                "type": "item"
+                            },
+                            {
+                                "name": "scute",
+                                "type": "item"
+                            }
+                        ],
+                        [
+                            {
+                                "name": "scute",
+                                "type": "item"
+                            },
+                            null,
+                            {
+                                "name": "scute",
+                                "type": "item"
+                            }
+                        ]
+                    ],
+                    "type": "shape"
+                }
+            ],
+            [
+                {
+                    "id": "minecraft:turtle_helmet",
+                    "makes": {
+                        "count": 1,
+                        "name": "turtle_helmet",
+                        "type": "item"
+                    },
+                    "raw": {
+                        "rows": [
+                            "XXX",
+                            "X X"
+                        ],
+                        "subs": {
+                            "X": {
+                                "name": "turtle_scute",
+                                "type": "item"
+                            }
+                        }
+                    },
+                    "shape": [
+                        [
+                            {
+                                "name": "turtle_scute",
+                                "type": "item"
+                            },
+                            {
+                                "name": "turtle_scute",
+                                "type": "item"
+                            },
+                            {
+                                "name": "turtle_scute",
+                                "type": "item"
+                            }
+                        ],
+                        [
+                            {
+                                "name": "turtle_scute",
+                                "type": "item"
+                            },
+                            null,
+                            {
+                                "name": "turtle_scute",
+                                "type": "item"
+                            }
+                        ]
+                    ],
+                    "type": "shape"
+                }
+            ]
+        ],
+        "wolf_armor": [
+            null,
+            [
+                {
+                    "id": "minecraft:wolf_armor",
+                    "makes": {
+                        "count": 1,
+                        "name": "wolf_armor",
+                        "type": "item"
+                    },
+                    "raw": {
+                        "rows": [
+                            "X  ",
+                            "XXX",
+                            "X X"
+                        ],
+                        "subs": {
+                            "X": {
+                                "name": "armadillo_scute",
+                                "type": "item"
+                            }
+                        }
+                    },
+                    "shape": [
+                        [
+                            {
+                                "name": "armadillo_scute",
+                                "type": "item"
+                            },
+                            null,
+                            null
+                        ],
+                        [
+                            {
+                                "name": "armadillo_scute",
+                                "type": "item"
+                            },
+                            {
+                                "name": "armadillo_scute",
+                                "type": "item"
+                            },
+                            {
+                                "name": "armadillo_scute",
+                                "type": "item"
+                            }
+                        ],
+                        [
+                            {
+                                "name": "armadillo_scute",
+                                "type": "item"
+                            },
+                            null,
+                            {
+                                "name": "armadillo_scute",
+                                "type": "item"
+                            }
+                        ]
+                    ],
+                    "type": "shape"
+                }
+            ]
+        ]
+    },
+    "sounds": {
+        "block.respawn_anchor.ambient": [
+            {
+                "field": "uz",
+                "id": 1116,
+                "name": "block.respawn_anchor.ambient",
+                "sounds": [
+                    {
+                        "attenuation_distance": 7,
+                        "hash": "c24afd676ea823e441da80b2a0eb937fefccba82",
+                        "name": "block/respawn_anchor/ambient1"
+                    },
+                    {
+                        "attenuation_distance": 7,
+                        "hash": "88c545f683cdf403c61ac3d317375480e497262f",
+                        "name": "block/respawn_anchor/ambient2"
+                    },
+                    {
+                        "attenuation_distance": 7,
+                        "hash": "ac48cfdad236451851816dcc507d024197b49355",
+                        "name": "block/respawn_anchor/ambient3"
+                    }
+                ],
+                "subtitle": "Portal whooshes",
+                "subtitle_key": "subtitles.block.respawn_anchor.ambient"
+            },
+            {
+                "field": "uO",
+                "id": 1131,
+                "name": "block.respawn_anchor.ambient",
+                "sounds": [
+                    {
+                        "attenuation_distance": 7,
+                        "hash": "c24afd676ea823e441da80b2a0eb937fefccba82",
+                        "name": "block/respawn_anchor/ambient1"
+                    },
+                    {
+                        "attenuation_distance": 7,
+                        "hash": "88c545f683cdf403c61ac3d317375480e497262f",
+                        "name": "block/respawn_anchor/ambient2"
+                    },
+                    {
+                        "attenuation_distance": 7,
+                        "hash": "ac48cfdad236451851816dcc507d024197b49355",
+                        "name": "block/respawn_anchor/ambient3"
+                    }
+                ],
+                "subtitle": "Respawn Anchor whooshes",
+                "subtitle_key": "subtitles.block.respawn_anchor.ambient"
+            }
+        ],
+        "block.trial_spawner.spawn_mob": [
+            {
+                "field": "lt",
+                "id": 643,
+                "name": "block.trial_spawner.spawn_mob",
+                "sounds": [
+                    {
+                        "hash": "3608722543847655288247fa525a1fa049a5aa08",
+                        "name": "block/trial_spawner/spawn1"
+                    },
+                    {
+                        "hash": "59f4b7fc2d26a2c35125c97c6c535f545ea92fd8",
+                        "name": "block/trial_spawner/spawn2"
+                    },
+                    {
+                        "hash": "58fdda424b9be880eca4a9da0d0aaf6ede10b4d2",
+                        "name": "block/trial_spawner/spawn3"
+                    },
+                    {
+                        "hash": "4c6ef668e5a68fec125882632b143a5ffc3f4438",
+                        "name": "block/trial_spawner/spawn4"
+                    }
+                ],
+                "subtitle": "Mob spawns",
+                "subtitle_key": "subtitles.block.trial_spawner.spawn_mob"
+            },
+            {
+                "field": "lI",
+                "id": 658,
+                "name": "block.trial_spawner.spawn_mob",
+                "sounds": [
+                    {
+                        "hash": "3608722543847655288247fa525a1fa049a5aa08",
+                        "name": "block/trial_spawner/spawn1"
+                    },
+                    {
+                        "hash": "59f4b7fc2d26a2c35125c97c6c535f545ea92fd8",
+                        "name": "block/trial_spawner/spawn2"
+                    },
+                    {
+                        "hash": "58fdda424b9be880eca4a9da0d0aaf6ede10b4d2",
+                        "name": "block/trial_spawner/spawn3"
+                    },
+                    {
+                        "hash": "4c6ef668e5a68fec125882632b143a5ffc3f4438",
+                        "name": "block/trial_spawner/spawn4"
+                    }
+                ],
+                "subtitle": "Trial Spawner spawns a mob",
+                "subtitle_key": "subtitles.block.trial_spawner.spawn_mob"
+            }
+        ],
+        "entity.armadillo.ambient": [
+            null,
+            {
+                "field": "ae",
+                "id": 56,
+                "name": "entity.armadillo.ambient",
+                "sounds": [
+                    {
+                        "hash": "cb6f7ae2f8d10f2df7724d6296d6fcce03d7f63e",
+                        "name": "mob/armadillo/ambient1"
+                    },
+                    {
+                        "hash": "fc89adb60b61d2fe8b9bfd66a980a4e07494e761",
+                        "name": "mob/armadillo/ambient2"
+                    },
+                    {
+                        "hash": "744cbff6c19c4ed15fbde1d0b1c7c0667857598b",
+                        "name": "mob/armadillo/ambient3"
+                    },
+                    {
+                        "hash": "42be5a4ca8d53cd5042ba64adc4f7ea23427d717",
+                        "name": "mob/armadillo/ambient4"
+                    },
+                    {
+                        "hash": "466b85bdf9e58b35b744ec87d7732c57d07f4063",
+                        "name": "mob/armadillo/ambient5"
+                    },
+                    {
+                        "hash": "49ed3b28fccda37cbebd2d34de7353acb6acd2c6",
+                        "name": "mob/armadillo/ambient6"
+                    },
+                    {
+                        "hash": "ce94135832b9f1b004747fdce6239861e3188a54",
+                        "name": "mob/armadillo/ambient7"
+                    },
+                    {
+                        "hash": "d14c1527c122d12d5640ede441f64c71c6dad958",
+                        "name": "mob/armadillo/ambient8"
+                    }
+                ],
+                "subtitle": "Armadillo grunts",
+                "subtitle_key": "subtitles.entity.armadillo.ambient"
+            }
+        ],
+        "entity.armadillo.brush": [
+            null,
+            {
+                "field": "al",
+                "id": 63,
+                "name": "entity.armadillo.brush",
+                "sounds": [
+                    {
+                        "hash": "9269e0fab5e813e809ad962e4ece7a302973231f",
+                        "name": "mob/armadillo/brush_armadillo1",
+                        "volume": 0.9
+                    },
+                    {
+                        "hash": "9269e0fab5e813e809ad962e4ece7a302973231f",
+                        "name": "mob/armadillo/brush_armadillo1",
+                        "pitch": 0.8,
+                        "volume": 0.9
+                    },
+                    {
+                        "hash": "9269e0fab5e813e809ad962e4ece7a302973231f",
+                        "name": "mob/armadillo/brush_armadillo1",
+                        "pitch": 0.9,
+                        "volume": 0.9
+                    },
+                    {
+                        "hash": "4b02fc032a7414ef45a1a1e545b9469791b25224",
+                        "name": "mob/armadillo/brush_armadillo2",
+                        "volume": 0.9
+                    },
+                    {
+                        "hash": "4b02fc032a7414ef45a1a1e545b9469791b25224",
+                        "name": "mob/armadillo/brush_armadillo2",
+                        "pitch": 0.8,
+                        "volume": 0.9
+                    },
+                    {
+                        "hash": "4b02fc032a7414ef45a1a1e545b9469791b25224",
+                        "name": "mob/armadillo/brush_armadillo2",
+                        "pitch": 0.9,
+                        "volume": 0.9
+                    }
+                ],
+                "subtitle": "Armadillo brushes",
+                "subtitle_key": "subtitles.entity.armadillo.brush"
+            }
+        ],
+        "entity.armadillo.death": [
+            null,
+            {
+                "field": "ag",
+                "id": 58,
+                "name": "entity.armadillo.death",
+                "sounds": [
+                    {
+                        "hash": "cf49a8ee96f115fa39086722a7220b15c120b6b7",
+                        "name": "mob/armadillo/death1"
+                    },
+                    {
+                        "hash": "a872475442b2944eda22d845e71e30d43dff1e0b",
+                        "name": "mob/armadillo/death2"
+                    },
+                    {
+                        "hash": "4178494fd182b540929b0c1f52233d6089fa5ca2",
+                        "name": "mob/armadillo/death3"
+                    },
+                    {
+                        "hash": "20a8f42ea5b8b2bc2f7b3f6b2d57cfc8fbf8bfbd",
+                        "name": "mob/armadillo/death4"
+                    }
+                ],
+                "subtitle": "Armadillo dies",
+                "subtitle_key": "subtitles.entity.armadillo.death"
+            }
+        ],
+        "entity.armadillo.eat": [
+            null,
+            {
+                "field": "ac",
+                "id": 54,
+                "name": "entity.armadillo.eat",
+                "sounds": [
+                    {
+                        "hash": "71743ea879b9903f74680ba036810922619997e6",
+                        "name": "mob/armadillo/eat1"
+                    },
+                    {
+                        "hash": "6dc446eabf8a8b4fe73b96bf6bd324fa457d30cb",
+                        "name": "mob/armadillo/eat2"
+                    },
+                    {
+                        "hash": "c32215798440d20d3a1abe7184982bc7de7b8018",
+                        "name": "mob/armadillo/eat3"
+                    }
+                ],
+                "subtitle": "Armadillo eats",
+                "subtitle_key": "subtitles.entity.armadillo.eat"
+            }
+        ],
+        "entity.armadillo.hurt": [
+            null,
+            {
+                "field": "ad",
+                "id": 55,
+                "name": "entity.armadillo.hurt",
+                "sounds": [
+                    {
+                        "hash": "bff154e44b79ae76fde450ec3dd000ee29660157",
+                        "name": "mob/armadillo/hurt1"
+                    },
+                    {
+                        "hash": "f1e592cd54b7c88dcd8d62d0612199be25c2b64d",
+                        "name": "mob/armadillo/hurt2"
+                    },
+                    {
+                        "hash": "fd9548fef82e6ec8e254e46becf76d5d40419757",
+                        "name": "mob/armadillo/hurt3"
+                    },
+                    {
+                        "hash": "c9a965f9f2a6db5f68cd46015985e7a2190a74be",
+                        "name": "mob/armadillo/hurt4"
+                    },
+                    {
+                        "hash": "7a09d71409eff220fc9d48053e7faa2d315f9de8",
+                        "name": "mob/armadillo/hurt5"
+                    }
+                ],
+                "subtitle": "Armadillo hurts",
+                "subtitle_key": "subtitles.entity.armadillo.hurt"
+            }
+        ],
+        "entity.armadillo.land": [
+            null,
+            {
+                "field": "ai",
+                "id": 60,
+                "name": "entity.armadillo.land",
+                "sounds": [
+                    {
+                        "hash": "eb187a91ae4ea9efb383b9ee15bc74ce4d5631c1",
+                        "name": "mob/armadillo/land1"
+                    },
+                    {
+                        "hash": "b238154dc455d7b96a654d2d88df7a5d9f1f1c5a",
+                        "name": "mob/armadillo/land2"
+                    },
+                    {
+                        "hash": "f3e6ddd0a1388cc27a92668bd7501c1b880fcd43",
+                        "name": "mob/armadillo/land3"
+                    },
+                    {
+                        "hash": "167e7bc7da370415d4a3f40aa6614fca472b71a0",
+                        "name": "mob/armadillo/land4"
+                    }
+                ],
+                "subtitle": "Armadillo lands",
+                "subtitle_key": "subtitles.entity.armadillo.land"
+            }
+        ],
+        "entity.armadillo.roll": [
+            null,
+            {
+                "field": "ah",
+                "id": 59,
+                "name": "entity.armadillo.roll",
+                "sounds": [
+                    {
+                        "hash": "56b9f15306b40fe0e6b6eff83a41d38184b27592",
+                        "name": "mob/armadillo/roll1"
+                    },
+                    {
+                        "hash": "bc891bcf154019454a9833a328f9a5d3c9f9ac78",
+                        "name": "mob/armadillo/roll2"
+                    },
+                    {
+                        "hash": "79081e734887536ff42c30187ee83aa8d7aad176",
+                        "name": "mob/armadillo/roll3"
+                    },
+                    {
+                        "hash": "1500e817ce7e100b5bfd06553d50bf740f8ee86d",
+                        "name": "mob/armadillo/roll4"
+                    }
+                ],
+                "subtitle": "Armadillo rolls up",
+                "subtitle_key": "subtitles.entity.armadillo.roll"
+            }
+        ],
+        "entity.armadillo.scute_drop": [
+            null,
+            {
+                "field": "aj",
+                "id": 61,
+                "name": "entity.armadillo.scute_drop",
+                "sounds": [
+                    {
+                        "hash": "ab106a4d5ebb591dd998cd021bd53a446800ff34",
+                        "name": "mob/armadillo/scute_drop1"
+                    },
+                    {
+                        "hash": "ab106a4d5ebb591dd998cd021bd53a446800ff34",
+                        "name": "mob/armadillo/scute_drop1",
+                        "pitch": 0.9
+                    },
+                    {
+                        "hash": "64c7611a394b9adf8a532156cdc168fba9ef28eb",
+                        "name": "mob/armadillo/scute_drop2"
+                    },
+                    {
+                        "hash": "64c7611a394b9adf8a532156cdc168fba9ef28eb",
+                        "name": "mob/armadillo/scute_drop2",
+                        "pitch": 0.9
+                    }
+                ],
+                "subtitle": "Scute drops",
+                "subtitle_key": "subtitles.entity.armadillo.scute_drop"
+            }
+        ],
+        "entity.armadillo.step": [
+            null,
+            {
+                "field": "af",
+                "id": 57,
+                "name": "entity.armadillo.step",
+                "sounds": [
+                    {
+                        "hash": "1c6cfea5aa5815286558703e21c03abfb92b33ca",
+                        "name": "mob/armadillo/step1"
+                    },
+                    {
+                        "hash": "9462062c536bb648c41c31872ff147bd6fce2eda",
+                        "name": "mob/armadillo/step2"
+                    },
+                    {
+                        "hash": "a1aca3fc5ecde937748c1d701b4f726b03ed4f27",
+                        "name": "mob/armadillo/step3"
+                    },
+                    {
+                        "hash": "49fad98686f1972b15ce93d10ff3b71a58758408",
+                        "name": "mob/armadillo/step4"
+                    },
+                    {
+                        "hash": "85937b1b39be6a3817a6ebb5e8f6505be7ddfbd7",
+                        "name": "mob/armadillo/step5"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.armadillo.unroll": [
+            null,
+            {
+                "field": "ak",
+                "id": 62,
+                "name": "entity.armadillo.unroll",
+                "sounds": [
+                    {
+                        "hash": "0e985cabe00eef63c117bfba48a7ae6552fe4fe0",
+                        "name": "mob/armadillo/unroll1"
+                    },
+                    {
+                        "hash": "5bb6ff790e44bd2cedb0929fd040f0b847fbcd14",
+                        "name": "mob/armadillo/unroll2"
+                    }
+                ],
+                "subtitle": "Armadillo unrolls",
+                "subtitle_key": "subtitles.entity.armadillo.unroll"
+            }
+        ],
+        "entity.breeze.charge": [
+            null,
+            {
+                "field": "cw",
+                "id": 178,
+                "name": "entity.breeze.charge",
+                "sounds": [
+                    {
+                        "hash": "90680b63399e258ac5607825debc615acf92151a",
+                        "name": "mob/breeze/charge1"
+                    },
+                    {
+                        "hash": "964d9e3ac555a4e5b204e8e1b25f35588709d7ff",
+                        "name": "mob/breeze/charge2"
+                    },
+                    {
+                        "hash": "38f948ad20d82b0b9126ab77fee485bb9e4dc6ef",
+                        "name": "mob/breeze/charge3"
+                    }
+                ],
+                "subtitle": "Breeze charges",
+                "subtitle_key": "subtitles.entity.breeze.charge"
+            }
+        ],
+        "entity.breeze.deflect": [
+            null,
+            {
+                "field": "cx",
+                "id": 179,
+                "name": "entity.breeze.deflect",
+                "sounds": [
+                    {
+                        "hash": "808408bef5a97f889e851ef7f51db5206beb691d",
+                        "name": "mob/breeze/deflect1"
+                    },
+                    {
+                        "hash": "444f7b9560d44cfd5901d5a0e803c382138342ff",
+                        "name": "mob/breeze/deflect2"
+                    },
+                    {
+                        "hash": "4b2d403365d008c2de04205429c57134a6238948",
+                        "name": "mob/breeze/deflect3"
+                    }
+                ],
+                "subtitle": "Breeze deflects",
+                "subtitle_key": "subtitles.entity.breeze.deflect"
+            }
+        ],
+        "entity.breeze.whirl": [
+            null,
+            {
+                "field": "cH",
+                "id": 189,
+                "name": "entity.breeze.whirl",
+                "sounds": [
+                    {
+                        "hash": "b4ee736f5c053aad10a62731c82c5f19dc751aa2",
+                        "name": "mob/breeze/whirl"
+                    }
+                ],
+                "subtitle": "Breeze whirls",
+                "subtitle_key": "subtitles.entity.breeze.whirl"
+            }
+        ],
+        "entity.glow_item_frame.break": [
+            {
+                "field": "jY",
+                "id": 570,
+                "name": "entity.glow_item_frame.break",
+                "sounds": [
+                    {
+                        "hash": "36adcbb0553274272777667992b363d857b80af9",
+                        "name": "entity/itemframe/break1"
+                    },
+                    {
+                        "hash": "c756f26f5a702fca021795d9ae15b5dadba1cf07",
+                        "name": "entity/itemframe/break2"
+                    },
+                    {
+                        "hash": "1d15957378b747a2daad165dd14acc5689310e9a",
+                        "name": "entity/itemframe/break3"
+                    }
+                ],
+                "subtitle": "Glow Item Frame breaks",
+                "subtitle_key": "subtitles.entity.glow_item_frame.break"
+            },
+            {
+                "field": "kn",
+                "id": 585,
+                "name": "entity.glow_item_frame.break",
+                "sounds": [
+                    {
+                        "hash": "36adcbb0553274272777667992b363d857b80af9",
+                        "name": "entity/itemframe/break1"
+                    },
+                    {
+                        "hash": "c756f26f5a702fca021795d9ae15b5dadba1cf07",
+                        "name": "entity/itemframe/break2"
+                    },
+                    {
+                        "hash": "1d15957378b747a2daad165dd14acc5689310e9a",
+                        "name": "entity/itemframe/break3"
+                    }
+                ],
+                "subtitle": "Glow Item Frame broken",
+                "subtitle_key": "subtitles.entity.glow_item_frame.break"
+            }
+        ],
+        "entity.item_frame.break": [
+            {
+                "field": "mJ",
+                "id": 710,
+                "name": "entity.item_frame.break",
+                "sounds": [
+                    {
+                        "hash": "36adcbb0553274272777667992b363d857b80af9",
+                        "name": "entity/itemframe/break1"
+                    },
+                    {
+                        "hash": "c756f26f5a702fca021795d9ae15b5dadba1cf07",
+                        "name": "entity/itemframe/break2"
+                    },
+                    {
+                        "hash": "1d15957378b747a2daad165dd14acc5689310e9a",
+                        "name": "entity/itemframe/break3"
+                    }
+                ],
+                "subtitle": "Item Frame breaks",
+                "subtitle_key": "subtitles.entity.item_frame.break"
+            },
+            {
+                "field": "mY",
+                "id": 725,
+                "name": "entity.item_frame.break",
+                "sounds": [
+                    {
+                        "hash": "36adcbb0553274272777667992b363d857b80af9",
+                        "name": "entity/itemframe/break1"
+                    },
+                    {
+                        "hash": "c756f26f5a702fca021795d9ae15b5dadba1cf07",
+                        "name": "entity/itemframe/break2"
+                    },
+                    {
+                        "hash": "1d15957378b747a2daad165dd14acc5689310e9a",
+                        "name": "entity/itemframe/break3"
+                    }
+                ],
+                "subtitle": "Item Frame broken",
+                "subtitle_key": "subtitles.entity.item_frame.break"
+            }
+        ],
+        "entity.leash_knot.break": [
+            {
+                "field": "ne",
+                "id": 731,
+                "name": "entity.leash_knot.break",
+                "sounds": [
+                    {
+                        "hash": "63c22eb984e3406f33bd3fc474b1d76f2c395f1a",
+                        "name": "entity/leashknot/break1"
+                    },
+                    {
+                        "hash": "48f9931bef7d3a07c7ea40126eb2bd9c71c4a0e7",
+                        "name": "entity/leashknot/break2"
+                    },
+                    {
+                        "hash": "1f411b36057067939b1aa1b0354ebb8eaa1e980d",
+                        "name": "entity/leashknot/break3"
+                    }
+                ],
+                "subtitle": "Leash Knot breaks",
+                "subtitle_key": "subtitles.entity.leash_knot.break"
+            },
+            {
+                "field": "nt",
+                "id": 746,
+                "name": "entity.leash_knot.break",
+                "sounds": [
+                    {
+                        "hash": "63c22eb984e3406f33bd3fc474b1d76f2c395f1a",
+                        "name": "entity/leashknot/break1"
+                    },
+                    {
+                        "hash": "48f9931bef7d3a07c7ea40126eb2bd9c71c4a0e7",
+                        "name": "entity/leashknot/break2"
+                    },
+                    {
+                        "hash": "1f411b36057067939b1aa1b0354ebb8eaa1e980d",
+                        "name": "entity/leashknot/break3"
+                    }
+                ],
+                "subtitle": "Leash Knot broken",
+                "subtitle_key": "subtitles.entity.leash_knot.break"
+            }
+        ],
+        "entity.painting.break": [
+            {
+                "field": "rw",
+                "id": 957,
+                "name": "entity.painting.break",
+                "sounds": [
+                    {
+                        "hash": "a1aaacc760df41853a7c02e741b81bfc51c5e93c",
+                        "name": "entity/painting/break1"
+                    },
+                    {
+                        "hash": "330a29f4ac0f178bb2d5855b29ad1b262ef14604",
+                        "name": "entity/painting/break2"
+                    },
+                    {
+                        "hash": "7a4f2566e6d1ff536a9c6d7f9a0d804d15a3ce62",
+                        "name": "entity/painting/break3"
+                    }
+                ],
+                "subtitle": "Painting breaks",
+                "subtitle_key": "subtitles.entity.painting.break"
+            },
+            {
+                "field": "rL",
+                "id": 972,
+                "name": "entity.painting.break",
+                "sounds": [
+                    {
+                        "hash": "a1aaacc760df41853a7c02e741b81bfc51c5e93c",
+                        "name": "entity/painting/break1"
+                    },
+                    {
+                        "hash": "330a29f4ac0f178bb2d5855b29ad1b262ef14604",
+                        "name": "entity/painting/break2"
+                    },
+                    {
+                        "hash": "7a4f2566e6d1ff536a9c6d7f9a0d804d15a3ce62",
+                        "name": "entity/painting/break3"
+                    }
+                ],
+                "subtitle": "Painting broken",
+                "subtitle_key": "subtitles.entity.painting.break"
+            }
+        ],
+        "entity.polar_bear.ambient_baby": [
+            {
+                "field": "tA",
+                "id": 1065,
+                "name": "entity.polar_bear.ambient_baby",
+                "sounds": [
+                    {
+                        "hash": "8e3b07adf3b09ea60e82062277fe301205d03421",
+                        "name": "mob/polarbear_baby/idle1"
+                    },
+                    {
+                        "hash": "db682892da4e2e4214ff3233bf719c7609d95477",
+                        "name": "mob/polarbear_baby/idle2"
+                    },
+                    {
+                        "hash": "4a1cd5bb70f5177dd5b0aeb03fe0a2c6e37fca4a",
+                        "name": "mob/polarbear_baby/idle3"
+                    },
+                    {
+                        "hash": "954f82c6da9670f1383b4d0002061ebc1536c35a",
+                        "name": "mob/polarbear_baby/idle4"
+                    }
+                ],
+                "subtitle": "Polar Bear hums",
+                "subtitle_key": "subtitles.entity.polar_bear.ambient_baby"
+            },
+            {
+                "field": "tP",
+                "id": 1080,
+                "name": "entity.polar_bear.ambient_baby",
+                "sounds": [
+                    {
+                        "hash": "8e3b07adf3b09ea60e82062277fe301205d03421",
+                        "name": "mob/polarbear_baby/idle1"
+                    },
+                    {
+                        "hash": "db682892da4e2e4214ff3233bf719c7609d95477",
+                        "name": "mob/polarbear_baby/idle2"
+                    },
+                    {
+                        "hash": "4a1cd5bb70f5177dd5b0aeb03fe0a2c6e37fca4a",
+                        "name": "mob/polarbear_baby/idle3"
+                    },
+                    {
+                        "hash": "954f82c6da9670f1383b4d0002061ebc1536c35a",
+                        "name": "mob/polarbear_baby/idle4"
+                    }
+                ],
+                "subtitle": "Baby Polar Bear hums",
+                "subtitle_key": "subtitles.entity.polar_bear.ambient_baby"
+            }
+        ],
+        "entity.turtle.death_baby": [
+            {
+                "field": "zk",
+                "id": 1361,
+                "name": "entity.turtle.death_baby",
+                "sounds": [
+                    {
+                        "hash": "15bf6085c54dba88f19119618f639119f0bc1098",
+                        "name": "mob/turtle/baby/death1"
+                    },
+                    {
+                        "hash": "225ea910feacca1194576deab74cb468f5b45f47",
+                        "name": "mob/turtle/baby/death2"
+                    }
+                ],
+                "subtitle": "Turtle baby dies",
+                "subtitle_key": "subtitles.entity.turtle.death_baby"
+            },
+            {
+                "field": "zz",
+                "id": 1376,
+                "name": "entity.turtle.death_baby",
+                "sounds": [
+                    {
+                        "hash": "15bf6085c54dba88f19119618f639119f0bc1098",
+                        "name": "mob/turtle/baby/death1"
+                    },
+                    {
+                        "hash": "225ea910feacca1194576deab74cb468f5b45f47",
+                        "name": "mob/turtle/baby/death2"
+                    }
+                ],
+                "subtitle": "Baby Turtle dies",
+                "subtitle_key": "subtitles.entity.turtle.death_baby"
+            }
+        ],
+        "entity.turtle.hurt_baby": [
+            {
+                "field": "zp",
+                "id": 1366,
+                "name": "entity.turtle.hurt_baby",
+                "sounds": [
+                    {
+                        "hash": "df520e00ad65242c93b8649530c9dedd9bc89ebb",
+                        "name": "mob/turtle/baby/hurt1"
+                    },
+                    {
+                        "hash": "d28a73bcc2d9f7c47dc2050e7abbc81ac8fd843d",
+                        "name": "mob/turtle/baby/hurt2"
+                    }
+                ],
+                "subtitle": "Turtle baby hurts",
+                "subtitle_key": "subtitles.entity.turtle.hurt_baby"
+            },
+            {
+                "field": "zE",
+                "id": 1381,
+                "name": "entity.turtle.hurt_baby",
+                "sounds": [
+                    {
+                        "hash": "df520e00ad65242c93b8649530c9dedd9bc89ebb",
+                        "name": "mob/turtle/baby/hurt1"
+                    },
+                    {
+                        "hash": "d28a73bcc2d9f7c47dc2050e7abbc81ac8fd843d",
+                        "name": "mob/turtle/baby/hurt2"
+                    }
+                ],
+                "subtitle": "Baby Turtle hurts",
+                "subtitle_key": "subtitles.entity.turtle.hurt_baby"
+            }
+        ],
+        "entity.turtle.shamble_baby": [
+            {
+                "field": "zs",
+                "id": 1369,
+                "name": "entity.turtle.shamble_baby",
+                "sounds": [
+                    {
+                        "hash": "2e97d4147624266321e3be5e2ded7eb4b7514025",
+                        "name": "mob/turtle/baby/shamble1"
+                    },
+                    {
+                        "hash": "36aff1e2ff86ad050db76e1e9228e39e5e4ccda8",
+                        "name": "mob/turtle/baby/shamble2"
+                    },
+                    {
+                        "hash": "8ef7ca34cdf88dc0fceae66e6a4ea11a5bbd933a",
+                        "name": "mob/turtle/baby/shamble3"
+                    },
+                    {
+                        "hash": "1ea3cadc41a5f02efb49b0ade81eb4224c7b92a9",
+                        "name": "mob/turtle/baby/shamble4"
+                    }
+                ],
+                "subtitle": "Turtle baby shambles",
+                "subtitle_key": "subtitles.entity.turtle.shamble_baby"
+            },
+            {
+                "field": "zH",
+                "id": 1384,
+                "name": "entity.turtle.shamble_baby",
+                "sounds": [
+                    {
+                        "hash": "2e97d4147624266321e3be5e2ded7eb4b7514025",
+                        "name": "mob/turtle/baby/shamble1"
+                    },
+                    {
+                        "hash": "36aff1e2ff86ad050db76e1e9228e39e5e4ccda8",
+                        "name": "mob/turtle/baby/shamble2"
+                    },
+                    {
+                        "hash": "8ef7ca34cdf88dc0fceae66e6a4ea11a5bbd933a",
+                        "name": "mob/turtle/baby/shamble3"
+                    },
+                    {
+                        "hash": "1ea3cadc41a5f02efb49b0ade81eb4224c7b92a9",
+                        "name": "mob/turtle/baby/shamble4"
+                    }
+                ],
+                "subtitle": "Baby Turtle shambles",
+                "subtitle_key": "subtitles.entity.turtle.shamble_baby"
+            }
+        ],
+        "item.armor.equip_wolf": [
+            null,
+            {
+                "field": "av",
+                "id": 73,
+                "name": "item.armor.equip_wolf",
+                "sounds": [
+                    {
+                        "hash": "ba4916e608ac3a1edecf471b2a94585535c4e5ca",
+                        "name": "item/armor/equip_wolf1"
+                    },
+                    {
+                        "hash": "ba4916e608ac3a1edecf471b2a94585535c4e5ca",
+                        "name": "item/armor/equip_wolf1",
+                        "pitch": 1.1
+                    },
+                    {
+                        "hash": "aaa44c84e33fbf7f1f12cf365fe29963f92fc849",
+                        "name": "item/armor/equip_wolf2"
+                    },
+                    {
+                        "hash": "aaa44c84e33fbf7f1f12cf365fe29963f92fc849",
+                        "name": "item/armor/equip_wolf2",
+                        "pitch": 1.1
+                    }
+                ],
+                "subtitle": "Wolf armor straps",
+                "subtitle_key": "subtitles.item.armor.equip_wolf"
+            }
+        ],
+        "item.armor.unequip_wolf": [
+            null,
+            {
+                "field": "aw",
+                "id": 74,
+                "name": "item.armor.unequip_wolf",
+                "sounds": [
+                    {
+                        "hash": "e3f04a632629e09c2d016ec81cbb5e611946a008",
+                        "name": "item/armor/unequip_wolf1"
+                    },
+                    {
+                        "hash": "e24a2cac0ddc2f27cd6e74181ad0719b2cda33c6",
+                        "name": "item/armor/unequip_wolf2"
+                    }
+                ],
+                "subtitle": "Wolf armor slips off",
+                "subtitle_key": "subtitles.item.armor.unequip_wolf"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "damage_type/always_kills_armor_stands": [
+            {
+                "name": "always_kills_armor_stands",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:arrow",
+                    "minecraft:trident",
+                    "minecraft:mob_projectile",
+                    "minecraft:fireball",
+                    "minecraft:wither_skull"
+                ]
+            },
+            {
+                "name": "always_kills_armor_stands",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:arrow",
+                    "minecraft:trident",
+                    "minecraft:fireball",
+                    "minecraft:wither_skull"
+                ]
+            }
+        ]
+    },
+    "tileentity": {
+        "tileentities": {}
+    },
+    "version": {
+        "data": [
+            3700,
+            3801
+        ],
+        "id": [
+            "1.20.4",
+            "23w51a"
+        ],
+        "name": [
+            "1.20.4",
+            "23w51a"
+        ],
+        "protocol": [
+            765,
+            1073741993
+        ]
+    }
+}
