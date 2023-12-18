@@ -1,0 +1,46 @@
+{
+    "achievements": {},
+    "blocks": {
+        "block": {}
+    },
+    "items": {
+        "item": {}
+    },
+    "language": {
+        "item": {
+            "minecraft.scute": [
+                null,
+                "Scute"
+            ]
+        }
+    },
+    "packets": {
+        "packet": {}
+    },
+    "pluginchannels": {},
+    "recipes": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "tileentity": {
+        "tileentities": {}
+    },
+    "version": {
+        "data": [
+            3801,
+            3802
+        ],
+        "id": [
+            "23w51a",
+            "23w51b"
+        ],
+        "name": [
+            "23w51a",
+            "23w51b"
+        ],
+        "protocol": [
+            1073741993,
+            1073741994
+        ]
+    }
+}
