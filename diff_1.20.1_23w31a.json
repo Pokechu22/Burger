@@ -16319,6 +16319,802 @@
                 "subtitle": "Sponge sucks",
                 "subtitle_key": "subtitles.block.sponge.absorb"
             }
+        ],
+        "entity.camel.step": [
+            {
+                "field": "cZ",
+                "id": 207,
+                "name": "entity.camel.step",
+                "sounds": [
+                    {
+                        "hash": "0eaf63e114fdc307e318b31a43e228c1f4387c81",
+                        "name": "mob/camel/step1",
+                        "volume": 0.5
+                    },
+                    {
+                        "hash": "ce94d4fa54ef9de2b8b3e88683093bf177ca8278",
+                        "name": "mob/camel/step2",
+                        "volume": 0.5
+                    },
+                    {
+                        "hash": "b692f6c77f84bd887a79ab519c33e7532fc25dea",
+                        "name": "mob/camel/step3",
+                        "volume": 0.5
+                    },
+                    {
+                        "hash": "a4857d4c844d07c4fcb9f06f74339900745eec6a",
+                        "name": "mob/camel/step4",
+                        "volume": 0.5
+                    },
+                    {
+                        "hash": "233b338e13c17aec1048de3b17f8574ce8ea8049",
+                        "name": "mob/camel/step5",
+                        "volume": 0.5
+                    },
+                    {
+                        "hash": "4debec9dc62d068117353faa457d79cbbc91c82e",
+                        "name": "mob/camel/step6",
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle": "Camel steps",
+                "subtitle_key": "subtitles.entity.camel.step"
+            },
+            {
+                "field": "cZ",
+                "id": 207,
+                "name": "entity.camel.step",
+                "sounds": [
+                    {
+                        "hash": "0eaf63e114fdc307e318b31a43e228c1f4387c81",
+                        "name": "mob/camel/step1",
+                        "volume": 0.5
+                    },
+                    {
+                        "hash": "ce94d4fa54ef9de2b8b3e88683093bf177ca8278",
+                        "name": "mob/camel/step2",
+                        "volume": 0.5
+                    },
+                    {
+                        "hash": "b692f6c77f84bd887a79ab519c33e7532fc25dea",
+                        "name": "mob/camel/step3",
+                        "volume": 0.5
+                    },
+                    {
+                        "hash": "a4857d4c844d07c4fcb9f06f74339900745eec6a",
+                        "name": "mob/camel/step4",
+                        "volume": 0.5
+                    },
+                    {
+                        "hash": "233b338e13c17aec1048de3b17f8574ce8ea8049",
+                        "name": "mob/camel/step5",
+                        "volume": 0.5
+                    },
+                    {
+                        "hash": "4debec9dc62d068117353faa457d79cbbc91c82e",
+                        "name": "mob/camel/step6",
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.camel.step_sand": [
+            {
+                "field": "da",
+                "id": 208,
+                "name": "entity.camel.step_sand",
+                "sounds": [
+                    {
+                        "hash": "c38dfc112c6762daa315afde3f059e8c9ec4e48f",
+                        "name": "mob/camel/step_sand1",
+                        "volume": 0.45
+                    },
+                    {
+                        "hash": "5214b44cbc6aa25d07f9fe146d92a68abfc967ca",
+                        "name": "mob/camel/step_sand2",
+                        "volume": 0.45
+                    },
+                    {
+                        "hash": "8dfcec9ada0d6b48585ad2749d62526c26ea7bfd",
+                        "name": "mob/camel/step_sand3",
+                        "volume": 0.45
+                    },
+                    {
+                        "hash": "fdf4c26863c42c647bc7e674e82d231ca54a95ba",
+                        "name": "mob/camel/step_sand4",
+                        "volume": 0.45
+                    },
+                    {
+                        "hash": "e016ace48566d631c1508f4ba6acdfc759b07773",
+                        "name": "mob/camel/step_sand5",
+                        "volume": 0.45
+                    },
+                    {
+                        "hash": "5ec5275e38f39507062fbb17d8c6b253fbfc5963",
+                        "name": "mob/camel/step_sand6",
+                        "volume": 0.45
+                    }
+                ],
+                "subtitle": "Camel sands",
+                "subtitle_key": "subtitles.entity.camel.step_sand"
+            },
+            {
+                "field": "da",
+                "id": 208,
+                "name": "entity.camel.step_sand",
+                "sounds": [
+                    {
+                        "hash": "c38dfc112c6762daa315afde3f059e8c9ec4e48f",
+                        "name": "mob/camel/step_sand1",
+                        "volume": 0.45
+                    },
+                    {
+                        "hash": "5214b44cbc6aa25d07f9fe146d92a68abfc967ca",
+                        "name": "mob/camel/step_sand2",
+                        "volume": 0.45
+                    },
+                    {
+                        "hash": "8dfcec9ada0d6b48585ad2749d62526c26ea7bfd",
+                        "name": "mob/camel/step_sand3",
+                        "volume": 0.45
+                    },
+                    {
+                        "hash": "fdf4c26863c42c647bc7e674e82d231ca54a95ba",
+                        "name": "mob/camel/step_sand4",
+                        "volume": 0.45
+                    },
+                    {
+                        "hash": "e016ace48566d631c1508f4ba6acdfc759b07773",
+                        "name": "mob/camel/step_sand5",
+                        "volume": 0.45
+                    },
+                    {
+                        "hash": "5ec5275e38f39507062fbb17d8c6b253fbfc5963",
+                        "name": "mob/camel/step_sand6",
+                        "volume": 0.45
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.drowned.step": [
+            {
+                "field": "gD",
+                "id": 393,
+                "name": "entity.drowned.step",
+                "sounds": [
+                    {
+                        "hash": "4e650cb9e5ab7c6095eb2248c4deb475cae26e6a",
+                        "name": "mob/drowned/step1"
+                    },
+                    {
+                        "hash": "543a126bcca9c482b75f61adec9aa2f60e146e2d",
+                        "name": "mob/drowned/step2"
+                    },
+                    {
+                        "hash": "04d00bc852751498fad759fe473fef917b51c55d",
+                        "name": "mob/drowned/step3"
+                    },
+                    {
+                        "hash": "ae405dda6f73b5439b1fa575aad1d73a748099ce",
+                        "name": "mob/drowned/step4"
+                    },
+                    {
+                        "hash": "ba0d0f797b9092bbe3028f01099091fb184bc4a9",
+                        "name": "mob/drowned/step5"
+                    }
+                ],
+                "subtitle": "Drowned steps",
+                "subtitle_key": "subtitles.entity.drowned.step"
+            },
+            {
+                "field": "gD",
+                "id": 393,
+                "name": "entity.drowned.step",
+                "sounds": [
+                    {
+                        "hash": "4e650cb9e5ab7c6095eb2248c4deb475cae26e6a",
+                        "name": "mob/drowned/step1"
+                    },
+                    {
+                        "hash": "543a126bcca9c482b75f61adec9aa2f60e146e2d",
+                        "name": "mob/drowned/step2"
+                    },
+                    {
+                        "hash": "04d00bc852751498fad759fe473fef917b51c55d",
+                        "name": "mob/drowned/step3"
+                    },
+                    {
+                        "hash": "ae405dda6f73b5439b1fa575aad1d73a748099ce",
+                        "name": "mob/drowned/step4"
+                    },
+                    {
+                        "hash": "ba0d0f797b9092bbe3028f01099091fb184bc4a9",
+                        "name": "mob/drowned/step5"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.hoglin.step": [
+            {
+                "field": "kT",
+                "id": 617,
+                "name": "entity.hoglin.step",
+                "sounds": [
+                    {
+                        "hash": "e74778a70471c5a17eeb91e8dd1e566461d9e03b",
+                        "name": "mob/hoglin/step1"
+                    },
+                    {
+                        "hash": "97b52210f12181c96547f94dda806a9a3ff838a5",
+                        "name": "mob/hoglin/step2"
+                    },
+                    {
+                        "hash": "52a7472cf6668455a36ba0f983ae5a6070d281d3",
+                        "name": "mob/hoglin/step3"
+                    },
+                    {
+                        "hash": "cf9bf7b67bd70c059ed47e1d3b083164c9a3fe3b",
+                        "name": "mob/hoglin/step4"
+                    },
+                    {
+                        "hash": "e23c92855842c24e7739658088781e8f279fb955",
+                        "name": "mob/hoglin/step5"
+                    },
+                    {
+                        "hash": "83feec79544d5776e39509b943917b3c021a052e",
+                        "name": "mob/hoglin/step6"
+                    }
+                ],
+                "subtitle": "Hoglin steps",
+                "subtitle_key": "subtitles.entity.hoglin.step"
+            },
+            {
+                "field": "kT",
+                "id": 617,
+                "name": "entity.hoglin.step",
+                "sounds": [
+                    {
+                        "hash": "e74778a70471c5a17eeb91e8dd1e566461d9e03b",
+                        "name": "mob/hoglin/step1"
+                    },
+                    {
+                        "hash": "97b52210f12181c96547f94dda806a9a3ff838a5",
+                        "name": "mob/hoglin/step2"
+                    },
+                    {
+                        "hash": "52a7472cf6668455a36ba0f983ae5a6070d281d3",
+                        "name": "mob/hoglin/step3"
+                    },
+                    {
+                        "hash": "cf9bf7b67bd70c059ed47e1d3b083164c9a3fe3b",
+                        "name": "mob/hoglin/step4"
+                    },
+                    {
+                        "hash": "e23c92855842c24e7739658088781e8f279fb955",
+                        "name": "mob/hoglin/step5"
+                    },
+                    {
+                        "hash": "83feec79544d5776e39509b943917b3c021a052e",
+                        "name": "mob/hoglin/step6"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.llama.step": [
+            {
+                "field": "mD",
+                "id": 704,
+                "name": "entity.llama.step",
+                "sounds": [
+                    {
+                        "hash": "7584883d3969a771716a29f55a695acad068c9c8",
+                        "name": "mob/llama/step1"
+                    },
+                    {
+                        "hash": "20ddc6a5fec1f7be2d92c73ffed513855fe7a906",
+                        "name": "mob/llama/step2"
+                    },
+                    {
+                        "hash": "d380b144db2faf356520919d646ab95863cbf51e",
+                        "name": "mob/llama/step3"
+                    },
+                    {
+                        "hash": "7c8f2ffac9470cbd75cb668797714c3602bc3ebe",
+                        "name": "mob/llama/step4"
+                    },
+                    {
+                        "hash": "6aef9bad980e39643edb9154457da314357ed1f1",
+                        "name": "mob/llama/step5"
+                    }
+                ],
+                "subtitle": "Llama steps",
+                "subtitle_key": "subtitles.entity.llama.step"
+            },
+            {
+                "field": "mD",
+                "id": 704,
+                "name": "entity.llama.step",
+                "sounds": [
+                    {
+                        "hash": "7584883d3969a771716a29f55a695acad068c9c8",
+                        "name": "mob/llama/step1"
+                    },
+                    {
+                        "hash": "20ddc6a5fec1f7be2d92c73ffed513855fe7a906",
+                        "name": "mob/llama/step2"
+                    },
+                    {
+                        "hash": "d380b144db2faf356520919d646ab95863cbf51e",
+                        "name": "mob/llama/step3"
+                    },
+                    {
+                        "hash": "7c8f2ffac9470cbd75cb668797714c3602bc3ebe",
+                        "name": "mob/llama/step4"
+                    },
+                    {
+                        "hash": "6aef9bad980e39643edb9154457da314357ed1f1",
+                        "name": "mob/llama/step5"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.panda.step": [
+            {
+                "field": "qP",
+                "id": 924,
+                "name": "entity.panda.step",
+                "sounds": [
+                    {
+                        "hash": "72e37a7fd294aedfc51e0263c6c537546c6deb95",
+                        "name": "mob/panda/step1"
+                    },
+                    {
+                        "hash": "69d128e741956899750edb40ed742e225a838c5a",
+                        "name": "mob/panda/step2"
+                    },
+                    {
+                        "hash": "80b44a271d273b3cdf7c4854c707bde64fa572a8",
+                        "name": "mob/panda/step3"
+                    },
+                    {
+                        "hash": "e81e2941f3f5e74239a333cf39df92825cd916f8",
+                        "name": "mob/panda/step4"
+                    },
+                    {
+                        "hash": "4bcc89bcd50c84f794a65ff740a4783b130281d4",
+                        "name": "mob/panda/step5"
+                    }
+                ],
+                "subtitle": "Panda steps",
+                "subtitle_key": "subtitles.entity.panda.step"
+            },
+            {
+                "field": "qP",
+                "id": 924,
+                "name": "entity.panda.step",
+                "sounds": [
+                    {
+                        "hash": "72e37a7fd294aedfc51e0263c6c537546c6deb95",
+                        "name": "mob/panda/step1"
+                    },
+                    {
+                        "hash": "69d128e741956899750edb40ed742e225a838c5a",
+                        "name": "mob/panda/step2"
+                    },
+                    {
+                        "hash": "80b44a271d273b3cdf7c4854c707bde64fa572a8",
+                        "name": "mob/panda/step3"
+                    },
+                    {
+                        "hash": "e81e2941f3f5e74239a333cf39df92825cd916f8",
+                        "name": "mob/panda/step4"
+                    },
+                    {
+                        "hash": "4bcc89bcd50c84f794a65ff740a4783b130281d4",
+                        "name": "mob/panda/step5"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.piglin.step": [
+            {
+                "field": "sb",
+                "id": 988,
+                "name": "entity.piglin.step",
+                "sounds": [
+                    {
+                        "hash": "bdcf0eaebc0b0e9e2651e263606c677ff41e8e4b",
+                        "name": "mob/piglin/step1",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "f1453221fbd91bec20ab3e608739b8fc9a17a9a2",
+                        "name": "mob/piglin/step2",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "bb5d472d24c5e21caa0076c50c01635af389c52c",
+                        "name": "mob/piglin/step3",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "abd8c7ef2b1e12c01ff5c9ec3af5b74a891a48f6",
+                        "name": "mob/piglin/step4",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "f128009d1cfde892ffa1c8138fb22f6679391f45",
+                        "name": "mob/piglin/step5",
+                        "volume": 0.75
+                    }
+                ],
+                "subtitle": "Piglin steps",
+                "subtitle_key": "subtitles.entity.piglin.step"
+            },
+            {
+                "field": "sb",
+                "id": 988,
+                "name": "entity.piglin.step",
+                "sounds": [
+                    {
+                        "hash": "bdcf0eaebc0b0e9e2651e263606c677ff41e8e4b",
+                        "name": "mob/piglin/step1",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "f1453221fbd91bec20ab3e608739b8fc9a17a9a2",
+                        "name": "mob/piglin/step2",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "bb5d472d24c5e21caa0076c50c01635af389c52c",
+                        "name": "mob/piglin/step3",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "abd8c7ef2b1e12c01ff5c9ec3af5b74a891a48f6",
+                        "name": "mob/piglin/step4",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "f128009d1cfde892ffa1c8138fb22f6679391f45",
+                        "name": "mob/piglin/step5",
+                        "volume": 0.75
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.piglin_brute.step": [
+            {
+                "field": "sh",
+                "id": 994,
+                "name": "entity.piglin_brute.step",
+                "sounds": [
+                    {
+                        "hash": "39d403cce416fb8a33bb3f618feb0c35b7e4a50f",
+                        "name": "mob/piglin_brute/step1",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "09bb6e40c4df7096906b3fe7c6ff1e2b1c264cce",
+                        "name": "mob/piglin_brute/step2",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "09d87f230a611dbea1f270176c7b263f6c3fe674",
+                        "name": "mob/piglin_brute/step3",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "ad645926282faa862f27ebda44549e265cc91694",
+                        "name": "mob/piglin_brute/step4",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "97fac4dcf3ff1e2fe2e43072a2cadb0a2a5aa99a",
+                        "name": "mob/piglin_brute/step5",
+                        "volume": 0.75
+                    }
+                ],
+                "subtitle": "Piglin Brute steps",
+                "subtitle_key": "subtitles.entity.piglin_brute.step"
+            },
+            {
+                "field": "sh",
+                "id": 994,
+                "name": "entity.piglin_brute.step",
+                "sounds": [
+                    {
+                        "hash": "39d403cce416fb8a33bb3f618feb0c35b7e4a50f",
+                        "name": "mob/piglin_brute/step1",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "09bb6e40c4df7096906b3fe7c6ff1e2b1c264cce",
+                        "name": "mob/piglin_brute/step2",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "09d87f230a611dbea1f270176c7b263f6c3fe674",
+                        "name": "mob/piglin_brute/step3",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "ad645926282faa862f27ebda44549e265cc91694",
+                        "name": "mob/piglin_brute/step4",
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "97fac4dcf3ff1e2fe2e43072a2cadb0a2a5aa99a",
+                        "name": "mob/piglin_brute/step5",
+                        "volume": 0.75
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.ravager.step": [
+            {
+                "field": "tv",
+                "id": 1060,
+                "name": "entity.ravager.step",
+                "sounds": [
+                    {
+                        "hash": "3b27142409aa1b667a967117b49b960b3fe797fb",
+                        "name": "mob/ravager/step1"
+                    },
+                    {
+                        "hash": "a52569d5616b47e9c299e8e3b9f25fd346cf9d83",
+                        "name": "mob/ravager/step2"
+                    },
+                    {
+                        "hash": "d2128874ccc2863022cb864f4cce7b90df592c9a",
+                        "name": "mob/ravager/step3"
+                    },
+                    {
+                        "hash": "0e137e530e9228da1af0d0e6377a7c46a115e246",
+                        "name": "mob/ravager/step4"
+                    },
+                    {
+                        "hash": "1b429890e72f1e901bcb989de0d2f1845016936f",
+                        "name": "mob/ravager/step5"
+                    }
+                ],
+                "subtitle": "Ravager steps",
+                "subtitle_key": "subtitles.entity.ravager.step"
+            },
+            {
+                "field": "tv",
+                "id": 1060,
+                "name": "entity.ravager.step",
+                "sounds": [
+                    {
+                        "hash": "3b27142409aa1b667a967117b49b960b3fe797fb",
+                        "name": "mob/ravager/step1"
+                    },
+                    {
+                        "hash": "a52569d5616b47e9c299e8e3b9f25fd346cf9d83",
+                        "name": "mob/ravager/step2"
+                    },
+                    {
+                        "hash": "d2128874ccc2863022cb864f4cce7b90df592c9a",
+                        "name": "mob/ravager/step3"
+                    },
+                    {
+                        "hash": "0e137e530e9228da1af0d0e6377a7c46a115e246",
+                        "name": "mob/ravager/step4"
+                    },
+                    {
+                        "hash": "1b429890e72f1e901bcb989de0d2f1845016936f",
+                        "name": "mob/ravager/step5"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.sniffer.step": [
+            {
+                "field": "wy",
+                "id": 1219,
+                "name": "entity.sniffer.step",
+                "sounds": [
+                    {
+                        "hash": "4d56986efbd9f0c9f6c8a2c4916f17d863456d06",
+                        "name": "mob/sniffer/step1"
+                    },
+                    {
+                        "hash": "44361b4a737ed88adf39ed223388c2e5fa1d5e5c",
+                        "name": "mob/sniffer/step2"
+                    },
+                    {
+                        "hash": "8d83fef778b1c4a7df04355ced9638f4216a48c7",
+                        "name": "mob/sniffer/step3"
+                    },
+                    {
+                        "hash": "d47f18a67f2765ba4930469266429f1440b94772",
+                        "name": "mob/sniffer/step4"
+                    },
+                    {
+                        "hash": "ef3675766e2bfba3b8de4fb707d2d12baba6cb18",
+                        "name": "mob/sniffer/step5"
+                    },
+                    {
+                        "hash": "179bdc9c9436143f297d1338744bbe7d751c898a",
+                        "name": "mob/sniffer/step6"
+                    }
+                ],
+                "subtitle": "Sniffer steps",
+                "subtitle_key": "subtitles.entity.sniffer.step"
+            },
+            {
+                "field": "wy",
+                "id": 1219,
+                "name": "entity.sniffer.step",
+                "sounds": [
+                    {
+                        "hash": "4d56986efbd9f0c9f6c8a2c4916f17d863456d06",
+                        "name": "mob/sniffer/step1"
+                    },
+                    {
+                        "hash": "44361b4a737ed88adf39ed223388c2e5fa1d5e5c",
+                        "name": "mob/sniffer/step2"
+                    },
+                    {
+                        "hash": "8d83fef778b1c4a7df04355ced9638f4216a48c7",
+                        "name": "mob/sniffer/step3"
+                    },
+                    {
+                        "hash": "d47f18a67f2765ba4930469266429f1440b94772",
+                        "name": "mob/sniffer/step4"
+                    },
+                    {
+                        "hash": "ef3675766e2bfba3b8de4fb707d2d12baba6cb18",
+                        "name": "mob/sniffer/step5"
+                    },
+                    {
+                        "hash": "179bdc9c9436143f297d1338744bbe7d751c898a",
+                        "name": "mob/sniffer/step6"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.warden.step": [
+            {
+                "field": "zH",
+                "id": 1384,
+                "name": "entity.warden.step",
+                "sounds": [
+                    {
+                        "hash": "c4add1a44e9e94af623c44c9a2193cb3586ced49",
+                        "name": "mob/warden/step_1",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "20e4e615ef22d60605f624f75f10fdab41f81389",
+                        "name": "mob/warden/step_2",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "989283b4fc32be9f9372af936087898736522f5e",
+                        "name": "mob/warden/step_3",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "045fb18cd4b3481dea67e008a34e688fff8afc98",
+                        "name": "mob/warden/step_4",
+                        "volume": 0.3
+                    }
+                ],
+                "subtitle": "Warden steps",
+                "subtitle_key": "subtitles.entity.warden.step"
+            },
+            {
+                "field": "zI",
+                "id": 1385,
+                "name": "entity.warden.step",
+                "sounds": [
+                    {
+                        "hash": "c4add1a44e9e94af623c44c9a2193cb3586ced49",
+                        "name": "mob/warden/step_1",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "20e4e615ef22d60605f624f75f10fdab41f81389",
+                        "name": "mob/warden/step_2",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "989283b4fc32be9f9372af936087898736522f5e",
+                        "name": "mob/warden/step_3",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "045fb18cd4b3481dea67e008a34e688fff8afc98",
+                        "name": "mob/warden/step_4",
+                        "volume": 0.3
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.zoglin.step": [
+            {
+                "field": "AO",
+                "id": 1443,
+                "name": "entity.zoglin.step",
+                "sounds": [
+                    {
+                        "hash": "757a1663baf4c967a03bb402e52db06b65e81528",
+                        "name": "mob/zoglin/step1"
+                    },
+                    {
+                        "hash": "9a3b96d3a81e9f6a9e4dad64c198924358f603cc",
+                        "name": "mob/zoglin/step2"
+                    },
+                    {
+                        "hash": "297dbb5a085c18120b11ef7596c72c6b6177e6c0",
+                        "name": "mob/zoglin/step3"
+                    },
+                    {
+                        "hash": "22bac75c94ddf2d843e383b2e7289cacb579d6cb",
+                        "name": "mob/zoglin/step4"
+                    },
+                    {
+                        "hash": "c96319a5a45b1ab23fa9ba9c68d303f37d3624d3",
+                        "name": "mob/zoglin/step5"
+                    }
+                ],
+                "subtitle": "Zoglin steps",
+                "subtitle_key": "subtitles.entity.zoglin.step"
+            },
+            {
+                "field": "AP",
+                "id": 1444,
+                "name": "entity.zoglin.step",
+                "sounds": [
+                    {
+                        "hash": "757a1663baf4c967a03bb402e52db06b65e81528",
+                        "name": "mob/zoglin/step1"
+                    },
+                    {
+                        "hash": "9a3b96d3a81e9f6a9e4dad64c198924358f603cc",
+                        "name": "mob/zoglin/step2"
+                    },
+                    {
+                        "hash": "297dbb5a085c18120b11ef7596c72c6b6177e6c0",
+                        "name": "mob/zoglin/step3"
+                    },
+                    {
+                        "hash": "22bac75c94ddf2d843e383b2e7289cacb579d6cb",
+                        "name": "mob/zoglin/step4"
+                    },
+                    {
+                        "hash": "c96319a5a45b1ab23fa9ba9c68d303f37d3624d3",
+                        "name": "mob/zoglin/step5"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
         ]
     },
     "stats": {},

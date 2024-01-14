@@ -1,0 +1,39 @@
+{
+    "achievements": {},
+    "blocks": {
+        "block": {}
+    },
+    "entities": {
+        "dataserializers": {},
+        "entity": {}
+    },
+    "items": {
+        "item": {}
+    },
+    "language": {},
+    "packets": {
+        "packet": {}
+    },
+    "pluginchannels": {},
+    "recipes": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "tileentity": {
+        "tileentities": {}
+    },
+    "version": {
+        "data": [
+            3698,
+            3700
+        ],
+        "id": [
+            "1.20.3",
+            "1.20.4"
+        ],
+        "name": [
+            "1.20.3",
+            "1.20.4"
+        ]
+    }
+}

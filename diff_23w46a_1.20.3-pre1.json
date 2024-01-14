@@ -4710,7 +4710,298 @@
     },
     "pluginchannels": {},
     "recipes": {},
-    "sounds": {},
+    "sounds": {
+        "block.copper_bulb.turn_off": [
+            {
+                "field": "fe",
+                "id": 316,
+                "name": "block.copper_bulb.turn_off",
+                "sounds": [
+                    {
+                        "attenuation_distance": 6,
+                        "hash": "0d32a999e36b54b3d1ff2e6c8f9e7d7cb0db4cc4",
+                        "name": "block/copper_bulb/turn_on",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Copper Bulb turns off",
+                "subtitle_key": "subtitles.block.copper_bulb.turn_off"
+            },
+            {
+                "field": "fe",
+                "id": 316,
+                "name": "block.copper_bulb.turn_off",
+                "sounds": [
+                    {
+                        "attenuation_distance": 6,
+                        "hash": "a64ee4fd95ca44a571480e0a586e43ad5d23b66e",
+                        "name": "block/copper_bulb/turn_off",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Copper Bulb turns off",
+                "subtitle_key": "subtitles.block.copper_bulb.turn_off"
+            }
+        ],
+        "block.portal.travel": [
+            {
+                "field": "tL",
+                "id": 1076,
+                "name": "block.portal.travel",
+                "sounds": [
+                    {
+                        "hash": "43388701fac432a567fe9fec421521e6348ad780",
+                        "name": "portal/travel"
+                    }
+                ]
+            },
+            {
+                "field": "tL",
+                "id": 1076,
+                "name": "block.portal.travel",
+                "sounds": [
+                    {
+                        "hash": "43388701fac432a567fe9fec421521e6348ad780",
+                        "name": "portal/travel"
+                    }
+                ],
+                "subtitle": "Portal noise fades",
+                "subtitle_key": "subtitles.block.portal.travel"
+            }
+        ],
+        "entity.breeze.death": [
+            {
+                "field": "cr",
+                "id": 173,
+                "name": "entity.breeze.death",
+                "sounds": [
+                    {
+                        "hash": "281c1fcea8953decef64b367705913c8b3921e5b",
+                        "name": "mob/breeze/death1"
+                    },
+                    {
+                        "hash": "7c8ba566c4fbe410bc610ce6cce2ff0a75bced30",
+                        "name": "mob/breeze/death2"
+                    }
+                ],
+                "subtitle": "Breeze dies",
+                "subtitle_key": "subtitles.entity.breeze.death"
+            },
+            {
+                "field": "cr",
+                "id": 173,
+                "name": "entity.breeze.death",
+                "sounds": [
+                    {
+                        "hash": "c202f0860b6138c0ac79054b6f36fd1addc9aa56",
+                        "name": "mob/breeze/death1"
+                    },
+                    {
+                        "hash": "43ab5177a7851f3306d991b907eb7c49b7a6a7ff",
+                        "name": "mob/breeze/death2"
+                    }
+                ],
+                "subtitle": "Breeze dies",
+                "subtitle_key": "subtitles.entity.breeze.death"
+            }
+        ],
+        "entity.breeze.idle_air": [
+            {
+                "field": "cm",
+                "id": 168,
+                "name": "entity.breeze.idle_air",
+                "sounds": [
+                    {
+                        "hash": "c9f380ab51cd09044b0e9a5a616db4cd23d2ee7c",
+                        "name": "mob/breeze/idle_air1"
+                    },
+                    {
+                        "hash": "eff9aeaffb86d18f6a393eeb64ecdf2148b4317f",
+                        "name": "mob/breeze/idle_air2"
+                    },
+                    {
+                        "hash": "50c4bee5ed07eac669f7e7610bc7a18c06c11394",
+                        "name": "mob/breeze/idle_air3"
+                    },
+                    {
+                        "hash": "dcba310663183c4e536c89a1eb17f6abb109d024",
+                        "name": "mob/breeze/idle_air4"
+                    }
+                ],
+                "subtitle": "Breeze flies",
+                "subtitle_key": "subtitles.entity.breeze.idle_air"
+            },
+            {
+                "field": "cm",
+                "id": 168,
+                "name": "entity.breeze.idle_air",
+                "sounds": [
+                    {
+                        "hash": "fb444b48bc2d5cf6960de7d5d4e6a0be91dc9321",
+                        "name": "mob/breeze/idle_air1"
+                    },
+                    {
+                        "hash": "edbb18c9026dd2d40b9446400463c3d5b662c0a0",
+                        "name": "mob/breeze/idle_air2"
+                    },
+                    {
+                        "hash": "286f6b96458622474fc03f5152603e811b9d3887",
+                        "name": "mob/breeze/idle_air3"
+                    },
+                    {
+                        "hash": "ae4ffd746ff417111f7b7a2ba6eba2aa01645a6b",
+                        "name": "mob/breeze/idle_air4"
+                    }
+                ],
+                "subtitle": "Breeze flies",
+                "subtitle_key": "subtitles.entity.breeze.idle_air"
+            }
+        ],
+        "entity.breeze.idle_ground": [
+            {
+                "field": "cl",
+                "id": 167,
+                "name": "entity.breeze.idle_ground",
+                "sounds": [
+                    {
+                        "hash": "09a77e9e2047a161c9140e9c0ba57278491f2e54",
+                        "name": "mob/breeze/idle1"
+                    },
+                    {
+                        "hash": "809c6d3e279ea8520e6cde8c1b596cd10976a590",
+                        "name": "mob/breeze/idle2"
+                    },
+                    {
+                        "hash": "a28f9d998f07b309c048a93bddb2b63ebbef1104",
+                        "name": "mob/breeze/idle3"
+                    },
+                    {
+                        "hash": "48dae1357812de51817e71a7603fd8ebe6641c09",
+                        "name": "mob/breeze/idle4"
+                    },
+                    {
+                        "hash": "eab660079bc67581cbfd501db8ed8b1cb982c00f",
+                        "name": "mob/breeze/idle5"
+                    }
+                ],
+                "subtitle": "Breeze whirs",
+                "subtitle_key": "subtitles.entity.breeze.idle_ground"
+            },
+            {
+                "field": "cl",
+                "id": 167,
+                "name": "entity.breeze.idle_ground",
+                "sounds": [
+                    {
+                        "hash": "cbed5f15a05b3a662adf264509699df2891e5154",
+                        "name": "mob/breeze/idle1"
+                    },
+                    {
+                        "hash": "0d889b4e0e441244f74ae65a66b340d19055cf24",
+                        "name": "mob/breeze/idle2"
+                    },
+                    {
+                        "hash": "8bff765dad4eff48f8c6aa6e994da65910bf0ad1",
+                        "name": "mob/breeze/idle3"
+                    },
+                    {
+                        "hash": "b47c126e90c1e3f77f7adb2da485825b3b5a8cbc",
+                        "name": "mob/breeze/idle4"
+                    }
+                ],
+                "subtitle": "Breeze whirs",
+                "subtitle_key": "subtitles.entity.breeze.idle_ground"
+            }
+        ],
+        "entity.breeze.jump": [
+            {
+                "field": "co",
+                "id": 170,
+                "name": "entity.breeze.jump",
+                "sounds": [
+                    {
+                        "hash": "82ed8952929824e7c437f45a5267c7117714c8d7",
+                        "name": "mob/breeze/jump1"
+                    },
+                    {
+                        "hash": "e6f335c95e1fe48c3a3965f639b7f3471eaa1988",
+                        "name": "mob/breeze/jump2"
+                    }
+                ],
+                "subtitle": "Breeze jumps",
+                "subtitle_key": "subtitles.entity.breeze.jump"
+            },
+            {
+                "field": "co",
+                "id": 170,
+                "name": "entity.breeze.jump",
+                "sounds": [
+                    {
+                        "hash": "38ae67559dd3d1b390f3bd9bbed3a258d9b2038a",
+                        "name": "mob/breeze/jump1"
+                    },
+                    {
+                        "hash": "3497fd1c0597325bb3226c53fd9f076609f89c7e",
+                        "name": "mob/breeze/jump2"
+                    }
+                ],
+                "subtitle": "Breeze jumps",
+                "subtitle_key": "subtitles.entity.breeze.jump"
+            }
+        ],
+        "entity.breeze.slide": [
+            {
+                "field": "cq",
+                "id": 172,
+                "name": "entity.breeze.slide",
+                "sounds": [
+                    {
+                        "hash": "edac834e7beb67601c751e771222e039ae093ecf",
+                        "name": "mob/breeze/slide1"
+                    },
+                    {
+                        "hash": "555529ac12a4eac2cadbae7563a88e51399cee84",
+                        "name": "mob/breeze/slide2"
+                    },
+                    {
+                        "hash": "f5729ac135474feea304d77121e4806814a959ba",
+                        "name": "mob/breeze/slide3"
+                    },
+                    {
+                        "hash": "9461754ee0bc00d4486a44627fc147e172001d26",
+                        "name": "mob/breeze/slide4"
+                    }
+                ],
+                "subtitle": "Breeze slides",
+                "subtitle_key": "subtitles.entity.breeze.slide"
+            },
+            {
+                "field": "cq",
+                "id": 172,
+                "name": "entity.breeze.slide",
+                "sounds": [
+                    {
+                        "hash": "a907555ea42c3ca4b7aba304b18041b48ac37980",
+                        "name": "mob/breeze/slide1"
+                    },
+                    {
+                        "hash": "b962dd713e13158e086b741329c88ef1d2aa506b",
+                        "name": "mob/breeze/slide2"
+                    },
+                    {
+                        "hash": "01b562613c6fb2500fd94ac821912ce82c4e7d83",
+                        "name": "mob/breeze/slide3"
+                    },
+                    {
+                        "hash": "f72a443da00bf94c598ea1e7db346a7db9384afc",
+                        "name": "mob/breeze/slide4"
+                    }
+                ],
+                "subtitle": "Breeze slides",
+                "subtitle_key": "subtitles.entity.breeze.slide"
+            }
+        ]
+    },
     "stats": {},
     "tags": {
         "blocks/enchantment_power_transmitter": [
