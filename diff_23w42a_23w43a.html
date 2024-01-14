@@ -373,14 +373,18 @@
 </div></div>
 <a href="#entities"><h2 id="entities">Entities</h2></a><span class="info">No entries</span>
 <a href="#block_entities"><h2 id="block_entities">Block entities</h2></a><span class="info">No entries</span>
-<a href="#packets"><h2 id="packets">Packets</h2></a><div class="split"><div class="left"><div class="entry"><a href="#packets:play_clientbound_6d"><h3 id="packets:play_clientbound_6d">PLAY_CLIENTBOUND_6D</h3></a><div><dl><dt>Direction</dt><dd>Server to client</dd><dt>ID</dt><dd>109</dd></dl>(no instruction data - did the packet fail to parse?)</div></div>
+<a href="#packets"><h2 id="packets">Packets</h2></a><div class="split"><div class="left"><div class="entry"><a href="#packets:play_clientbound_6c"><h3 id="packets:play_clientbound_6c">PLAY_CLIENTBOUND_6C</h3></a><div><dl><dt>Direction</dt><dd>Server to client</dd><dt>ID</dt><dd>108</dd></dl>(no instruction data - did the packet fail to parse?)</div></div>
+</div><div class="right"><div class="entry"><a href="#packets:play_clientbound_6c"><h3 id="packets:play_clientbound_6c">PLAY_CLIENTBOUND_6C</h3></a><div><dl><dt>Direction</dt><dd>Server to client</dd><dt>ID</dt><dd>108</dd></dl><pre><span class="hl_n">writeFloat</span><span class="hl_o">(</span><span class="hl_n">a</span><span class="hl_o">);</span>
+<span class="hl_n">writeBoolean</span><span class="hl_o">(</span><span class="hl_n">b</span><span class="hl_o">);</span>
+</pre></div></div>
+</div></div><div class="split"><div class="left"><div class="entry"><a href="#packets:play_clientbound_6d"><h3 id="packets:play_clientbound_6d">PLAY_CLIENTBOUND_6D</h3></a><div><dl><dt>Direction</dt><dd>Server to client</dd><dt>ID</dt><dd>109</dd></dl>(no instruction data - did the packet fail to parse?)</div></div>
 </div><div class="right"><div class="entry"><a href="#packets:play_clientbound_6d"><h3 id="packets:play_clientbound_6d">PLAY_CLIENTBOUND_6D</h3></a><div><dl><dt>Direction</dt><dd>Server to client</dd><dt>ID</dt><dd>109</dd></dl><pre><span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">a</span><span class="hl_o">);</span>
 </pre></div></div>
 </div></div><div class="split"><div class="left"><div class="entry"><a href="#packets:play_clientbound_6e"><h3 id="packets:play_clientbound_6e">PLAY_CLIENTBOUND_6E</h3></a><div><dl><dt>Direction</dt><dd>Server to client</dd><dt>ID</dt><dd>110</dd></dl><pre><span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">d</span><span class="hl_o">);</span>
 <span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">jy</span><span class="hl_o">.</span><span class="hl_na">e</span><span class="hl_o">.</span><span class="hl_na">getId</span><span class="hl_o">(</span><span class="hl_n">e</span><span class="hl_o">));</span>
-<span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">f</span><span class="hl_o">);</span>
+<span class="hl_n">writeByte</span><span class="hl_o">(</span><span class="hl_n">f</span><span class="hl_o">);</span>
 <span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">g</span><span class="hl_o">);</span>
-<span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">h</span><span class="hl_o">);</span>
+<span class="hl_n">writeByte</span><span class="hl_o">(</span><span class="hl_n">h</span><span class="hl_o">);</span>
 <span class="hl_n">writeBoolean</span><span class="hl_o">(</span><span class="hl_n">i</span> <span class="hl_o">!=</span> <span class="hl_kc">null</span><span class="hl_o">);</span>
 <span class="hl_k">if</span><span class="hl_o">(</span><span class="hl_n">i</span> <span class="hl_o">!=</span> <span class="hl_kc">null</span><span class="hl_o">)</span> <span class="hl_o">{</span>
   <span class="hl_n">writeNBTCompound</span><span class="hl_o">(</span><span class="hl_n">bjv$a</span><span class="hl_o">.</span><span class="hl_na">a</span><span class="hl_o">.</span><span class="hl_na">encode</span><span class="hl_o">(</span><span class="hl_n">sn</span><span class="hl_o">.</span><span class="hl_na">a</span><span class="hl_o">,</span> <span class="hl_n">i</span><span class="hl_o">));</span>
@@ -390,9 +394,9 @@
 </div></div><div class="split"><div class="left"><div class="entry"><a href="#packets:play_clientbound_70"><h3 id="packets:play_clientbound_70">PLAY_CLIENTBOUND_70</h3></a><div><dl><dt>Direction</dt><dd>Server to client</dd><dt>ID</dt><dd>112</dd></dl>(no instruction data - did the packet fail to parse?)</div></div>
 </div><div class="right"><div class="entry"><a href="#packets:play_clientbound_70"><h3 id="packets:play_clientbound_70">PLAY_CLIENTBOUND_70</h3></a><div><dl><dt>Direction</dt><dd>Server to client</dd><dt>ID</dt><dd>112</dd></dl><pre><span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">d</span><span class="hl_o">);</span>
 <span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">jy</span><span class="hl_o">.</span><span class="hl_na">e</span><span class="hl_o">.</span><span class="hl_na">getId</span><span class="hl_o">(</span><span class="hl_n">e</span><span class="hl_o">));</span>
-<span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">f</span><span class="hl_o">);</span>
+<span class="hl_n">writeByte</span><span class="hl_o">(</span><span class="hl_n">f</span><span class="hl_o">);</span>
 <span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">g</span><span class="hl_o">);</span>
-<span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">h</span><span class="hl_o">);</span>
+<span class="hl_n">writeByte</span><span class="hl_o">(</span><span class="hl_n">h</span><span class="hl_o">);</span>
 <span class="hl_n">writeBoolean</span><span class="hl_o">(</span><span class="hl_n">i</span> <span class="hl_o">!=</span> <span class="hl_kc">null</span><span class="hl_o">);</span>
 <span class="hl_k">if</span><span class="hl_o">(</span><span class="hl_n">i</span> <span class="hl_o">!=</span> <span class="hl_kc">null</span><span class="hl_o">)</span> <span class="hl_o">{</span>
   <span class="hl_n">writeNBTCompound</span><span class="hl_o">(</span><span class="hl_n">bkd$a</span><span class="hl_o">.</span><span class="hl_na">a</span><span class="hl_o">.</span><span class="hl_na">encode</span><span class="hl_o">(</span><span class="hl_n">sn</span><span class="hl_o">.</span><span class="hl_na">a</span><span class="hl_o">,</span> <span class="hl_n">i</span><span class="hl_o">));</span>

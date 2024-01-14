@@ -307,7 +307,137 @@
         }
     },
     "packets": {
-        "packet": {}
+        "packet": {
+            "PLAY_CLIENTBOUND_1E": [
+                {
+                    "class": "zk.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": 30,
+                    "instructions": [
+                        {
+                            "field": "a",
+                            "operation": "write",
+                            "type": "double"
+                        },
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "double"
+                        },
+                        {
+                            "field": "c",
+                            "operation": "write",
+                            "type": "double"
+                        },
+                        {
+                            "field": "d",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "int",
+                            "value": "atq.a(this.a)",
+                            "var": "var2"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "int",
+                            "value": "atq.a(this.b)",
+                            "var": "var3"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "int",
+                            "value": "atq.a(this.c)",
+                            "var": "var4"
+                        },
+                        {
+                            "field": "e.size()",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "Iterator",
+                            "value": "this.e.iterator()",
+                            "var": "it"
+                        },
+                        {
+                            "condition": "it.hasNext()",
+                            "instructions": [
+                                {
+                                    "operation": "store",
+                                    "type": "hx",
+                                    "value": "it.next()",
+                                    "var": "itv"
+                                },
+                                {
+                                    "operation": "store",
+                                    "type": "int",
+                                    "value": "(itv.u() - var2)",
+                                    "var": "var5"
+                                },
+                                {
+                                    "operation": "store",
+                                    "type": "int",
+                                    "value": "(itv.v() - var3)",
+                                    "var": "var6"
+                                },
+                                {
+                                    "operation": "store",
+                                    "type": "int",
+                                    "value": "(itv.w() - var4)",
+                                    "var": "var7"
+                                },
+                                {
+                                    "field": "var5",
+                                    "operation": "write",
+                                    "type": "byte"
+                                },
+                                {
+                                    "field": "var6",
+                                    "operation": "write",
+                                    "type": "byte"
+                                },
+                                {
+                                    "field": "var7",
+                                    "operation": "write",
+                                    "type": "byte"
+                                }
+                            ],
+                            "operation": "loop"
+                        },
+                        {
+                            "field": "f",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "field": "g",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "field": "h",
+                            "operation": "write",
+                            "type": "float"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "zr.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": 30,
+                    "state": "PLAY"
+                }
+            ]
+        }
     },
     "pluginchannels": {},
     "recipes": {},

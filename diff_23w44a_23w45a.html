@@ -34,7 +34,30 @@
 <a href="#block_entities"><h2 id="block_entities">Block entities</h2></a><div class="split"><div class="left"><div class="no entry"></div>
 </div><div class="right"><div class="entry"><a href="#block_entities:trial_spawner"><h3 id="block_entities:trial_spawner">trial_spawner</h3></a><div><dl><dt>Name</dt><dd>trial_spawner</dd><dt>Network ID</dt><dd>N/A</dd><dt>Blocks</dt><dd>trial_spawner</dd></dl></div></div>
 </div></div>
-<a href="#packets"><h2 id="packets">Packets</h2></a><span class="info">No entries</span>
+<a href="#packets"><h2 id="packets">Packets</h2></a><div class="split"><div class="left"><div class="entry"><a href="#packets:play_clientbound_1e"><h3 id="packets:play_clientbound_1e">PLAY_CLIENTBOUND_1E</h3></a><div><dl><dt>Direction</dt><dd>Server to client</dd><dt>ID</dt><dd>30</dd></dl><pre><span class="hl_n">writeDouble</span><span class="hl_o">(</span><span class="hl_n">a</span><span class="hl_o">);</span>
+<span class="hl_n">writeDouble</span><span class="hl_o">(</span><span class="hl_n">b</span><span class="hl_o">);</span>
+<span class="hl_n">writeDouble</span><span class="hl_o">(</span><span class="hl_n">c</span><span class="hl_o">);</span>
+<span class="hl_n">writeFloat</span><span class="hl_o">(</span><span class="hl_n">d</span><span class="hl_o">);</span>
+<span class="hl_kt">int</span> <span class="hl_n">var2</span> <span class="hl_o">=</span> <span class="hl_n">atq</span><span class="hl_o">.</span><span class="hl_na">a</span><span class="hl_o">(</span><span class="hl_k">this</span><span class="hl_o">.</span><span class="hl_na">a</span><span class="hl_o">);</span>
+<span class="hl_kt">int</span> <span class="hl_n">var3</span> <span class="hl_o">=</span> <span class="hl_n">atq</span><span class="hl_o">.</span><span class="hl_na">a</span><span class="hl_o">(</span><span class="hl_k">this</span><span class="hl_o">.</span><span class="hl_na">b</span><span class="hl_o">);</span>
+<span class="hl_kt">int</span> <span class="hl_n">var4</span> <span class="hl_o">=</span> <span class="hl_n">atq</span><span class="hl_o">.</span><span class="hl_na">a</span><span class="hl_o">(</span><span class="hl_k">this</span><span class="hl_o">.</span><span class="hl_na">c</span><span class="hl_o">);</span>
+<span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">e</span><span class="hl_o">.</span><span class="hl_na">size</span><span class="hl_o">());</span>
+<span class="hl_n">Iterator</span> <span class="hl_n">it</span> <span class="hl_o">=</span> <span class="hl_k">this</span><span class="hl_o">.</span><span class="hl_na">e</span><span class="hl_o">.</span><span class="hl_na">iterator</span><span class="hl_o">();</span>
+<span class="hl_k">while</span><span class="hl_o">(</span><span class="hl_n">it</span><span class="hl_o">.</span><span class="hl_na">hasNext</span><span class="hl_o">())</span> <span class="hl_o">{</span>
+  <span class="hl_n">hx</span> <span class="hl_n">itv</span> <span class="hl_o">=</span> <span class="hl_n">it</span><span class="hl_o">.</span><span class="hl_na">next</span><span class="hl_o">();</span>
+  <span class="hl_kt">int</span> <span class="hl_n">var5</span> <span class="hl_o">=</span> <span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">u</span><span class="hl_o">()</span> <span class="hl_o">-</span> <span class="hl_n">var2</span><span class="hl_o">);</span>
+  <span class="hl_kt">int</span> <span class="hl_n">var6</span> <span class="hl_o">=</span> <span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">v</span><span class="hl_o">()</span> <span class="hl_o">-</span> <span class="hl_n">var3</span><span class="hl_o">);</span>
+  <span class="hl_kt">int</span> <span class="hl_n">var7</span> <span class="hl_o">=</span> <span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">w</span><span class="hl_o">()</span> <span class="hl_o">-</span> <span class="hl_n">var4</span><span class="hl_o">);</span>
+  <span class="hl_n">writeByte</span><span class="hl_o">(</span><span class="hl_n">var5</span><span class="hl_o">);</span>
+  <span class="hl_n">writeByte</span><span class="hl_o">(</span><span class="hl_n">var6</span><span class="hl_o">);</span>
+  <span class="hl_n">writeByte</span><span class="hl_o">(</span><span class="hl_n">var7</span><span class="hl_o">);</span>
+<span class="hl_o">}</span>
+<span class="hl_n">writeFloat</span><span class="hl_o">(</span><span class="hl_n">f</span><span class="hl_o">);</span>
+<span class="hl_n">writeFloat</span><span class="hl_o">(</span><span class="hl_n">g</span><span class="hl_o">);</span>
+<span class="hl_n">writeFloat</span><span class="hl_o">(</span><span class="hl_n">h</span><span class="hl_o">);</span>
+</pre></div></div>
+</div><div class="right"><div class="entry"><a href="#packets:play_clientbound_1e"><h3 id="packets:play_clientbound_1e">PLAY_CLIENTBOUND_1E</h3></a><div><dl><dt>Direction</dt><dd>Server to client</dd><dt>ID</dt><dd>30</dd></dl>(no instruction data - did the packet fail to parse?)</div></div>
+</div></div>
 <a href="#plugin_channels"><h2 id="plugin_channels">Plugin Channels</h2></a><span class="info">No entries</span>
 <a href="#versions"><h2 id="versions">Versions</h2></a><div class="split"><div class="left"><div class="entry"><a href="#versions:data"><h3 id="versions:data">data</h3></a><div>3688</div></div>
 </div><div class="right"><div class="entry"><a href="#versions:data"><h3 id="versions:data">data</h3></a><div>3690</div></div>

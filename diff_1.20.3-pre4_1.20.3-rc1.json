@@ -24,17 +24,17 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "d",
@@ -100,17 +100,17 @@
                                 {
                                     "field": "var5",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "var6",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "var7",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 }
                             ],
                             "operation": "loop"
@@ -179,17 +179,17 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "d",
@@ -255,17 +255,17 @@
                                 {
                                     "field": "var5",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "var6",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "var7",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 }
                             ],
                             "operation": "loop"

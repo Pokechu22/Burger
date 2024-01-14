@@ -3162,6 +3162,36 @@
     },
     "packets": {
         "packet": {
+            "PLAY_CLIENTBOUND_6C": [
+                {
+                    "class": "acc.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": 108,
+                    "state": "PLAY"
+                },
+                {
+                    "class": "acc.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": 108,
+                    "instructions": [
+                        {
+                            "field": "a",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "boolean"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ],
             "PLAY_CLIENTBOUND_6D": [
                 {
                     "class": "acd.class",
@@ -3208,7 +3238,7 @@
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "g",
@@ -3218,7 +3248,7 @@
                         {
                             "field": "h",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "i != null",
@@ -3277,7 +3307,7 @@
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "g",
@@ -3287,7 +3317,7 @@
                         {
                             "field": "h",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "i != null",

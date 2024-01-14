@@ -1237,9 +1237,10 @@
                             "class": "buz",
                             "data": [
                                 {
+                                    "default": "(0, 0, 0)",
                                     "field": "d",
                                     "index": 16,
-                                    "serializer": 10,
+                                    "serializer": "BlockPos",
                                     "serializer_id": 10
                                 },
                                 {
@@ -1482,7 +1483,7 @@
                                     "default": "Empty",
                                     "field": "c",
                                     "index": 8,
-                                    "serializer": 11,
+                                    "serializer": "OptBlockPos",
                                     "serializer_id": 11
                                 },
                                 {
@@ -1863,9 +1864,10 @@
                             "class": "bym",
                             "data": [
                                 {
+                                    "default": "(0, 0, 0)",
                                     "field": "e",
                                     "index": 8,
-                                    "serializer": 10,
+                                    "serializer": "BlockPos",
                                     "serializer_id": 10
                                 }
                             ]
@@ -5282,9 +5284,10 @@
                             "class": "bvs",
                             "data": [
                                 {
+                                    "default": "(0, 0, 0)",
                                     "field": "bW",
                                     "index": 17,
-                                    "serializer": 10,
+                                    "serializer": "BlockPos",
                                     "serializer_id": 10
                                 },
                                 {
@@ -5302,9 +5305,10 @@
                                     "serializer_id": 8
                                 },
                                 {
+                                    "default": "(0, 0, 0)",
                                     "field": "bZ",
                                     "index": 20,
-                                    "serializer": 10,
+                                    "serializer": "BlockPos",
                                     "serializer_id": 10
                                 },
                                 {
@@ -6274,7 +6278,7 @@
                                     "default": "Empty",
                                     "field": "bM",
                                     "index": 14,
-                                    "serializer": 11,
+                                    "serializer": "OptBlockPos",
                                     "serializer_id": 11
                                 }
                             ]
@@ -6708,66 +6712,6 @@
                     "state": "CONFIGURATION"
                 }
             ],
-            "CONFIGURATION_SERVERBOUND_00": [
-                {
-                    "class": "vo.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 0,
-                    "instructions": [
-                        {
-                            "field": "a.b",
-                            "operation": "write",
-                            "type": "string"
-                        },
-                        {
-                            "field": "a.c",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "a.d",
-                            "operation": "write",
-                            "type": "enum"
-                        },
-                        {
-                            "field": "a.e",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "field": "a.f",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "a.g",
-                            "operation": "write",
-                            "type": "enum"
-                        },
-                        {
-                            "field": "a.h",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "field": "a.i",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "CONFIGURATION"
-                },
-                {
-                    "class": "vp.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 0,
-                    "state": "CONFIGURATION"
-                }
-            ],
             "CONFIGURATION_SERVERBOUND_01": [
                 {
                     "class": "vp.class",
@@ -6945,136 +6889,6 @@
                     "state": "LOGIN"
                 }
             ],
-            "PLAY_CLIENTBOUND_01": [
-                {
-                    "class": "wx.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 1,
-                    "instructions": [
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "uuid"
-                        },
-                        {
-                            "field": "jb.h.getId(e)",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "f",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "g",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "h",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "l",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "m",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "n",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "o",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "i",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "j",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "k",
-                            "operation": "write",
-                            "type": "varint"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "wy.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 1,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_02": [
-                {
-                    "class": "wy.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 2,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "varint"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "wz.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 2,
-                    "state": "PLAY"
-                }
-            ],
             "PLAY_CLIENTBOUND_06": [
                 {
                     "class": "xc.class",
@@ -7089,14 +6903,14 @@
                             "type": "varint"
                         },
                         {
-                            "field": "b.a()",
+                            "field": "b",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         }
                     ],
                     "state": "PLAY"
@@ -7119,9 +6933,9 @@
                     "id": 7,
                     "instructions": [
                         {
-                            "field": "a.a()",
+                            "field": "a",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "jb.l.getId(b)",
@@ -7161,19 +6975,19 @@
                     "id": 8,
                     "instructions": [
                         {
-                            "field": "a.a()",
+                            "field": "a",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "jb.f.getId(d)",
@@ -7201,9 +7015,9 @@
                     "id": 9,
                     "instructions": [
                         {
-                            "field": "a.a()",
+                            "field": "a",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "csv.o.getId(b)",
@@ -7219,36 +7033,6 @@
                     "from_client": false,
                     "from_server": true,
                     "id": 9,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_0B": [
-                {
-                    "class": "xi.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 11,
-                    "instructions": [
-                        {
-                            "field": "a.a()",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "xj.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 11,
                     "state": "PLAY"
                 }
             ],
@@ -7283,7 +7067,7 @@
                                 {
                                     "field": "itv.a.a()",
                                     "operation": "write",
-                                    "type": "varlong"
+                                    "type": "long"
                                 },
                                 {
                                     "field": "itv.b.length",
@@ -7307,31 +7091,6 @@
                     "from_client": false,
                     "from_server": true,
                     "id": 14,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_0F": [
-                {
-                    "class": "xm.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 15,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "xn.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 15,
                     "state": "PLAY"
                 }
             ],
@@ -7448,72 +7207,6 @@
                     "state": "PLAY"
                 }
             ],
-            "PLAY_CLIENTBOUND_19": [
-                {
-                    "class": "xv.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 25,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "c + 1",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "d + 1",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "e.isPresent()",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "condition": "e.isPresent()",
-                            "instructions": [
-                                {
-                                    "field": "e.get().a()",
-                                    "operation": "write",
-                                    "type": "position"
-                                },
-                                {
-                                    "field": "e.get().b()",
-                                    "operation": "write",
-                                    "type": "position"
-                                },
-                                {
-                                    "field": "e.get().c()",
-                                    "operation": "write",
-                                    "type": "position"
-                                }
-                            ],
-                            "operation": "if"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "xw.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 25,
-                    "state": "PLAY"
-                }
-            ],
             "PLAY_CLIENTBOUND_1B": [
                 {
                     "class": "vi.class",
@@ -7590,135 +7283,6 @@
                     "state": "PLAY"
                 }
             ],
-            "PLAY_CLIENTBOUND_1E": [
-                {
-                    "class": "xz.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 30,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "int",
-                            "value": "arw.a(this.a)",
-                            "var": "var2"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "int",
-                            "value": "arw.a(this.b)",
-                            "var": "var3"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "int",
-                            "value": "arw.a(this.c)",
-                            "var": "var4"
-                        },
-                        {
-                            "field": "e.size()",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "Iterator",
-                            "value": "this.e.iterator()",
-                            "var": "it"
-                        },
-                        {
-                            "condition": "it.hasNext()",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "gw",
-                                    "value": "it.next()",
-                                    "var": "itv"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "(itv.u() - var2)",
-                                    "var": "var5"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "(itv.v() - var3)",
-                                    "var": "var6"
-                                },
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "(itv.w() - var4)",
-                                    "var": "var7"
-                                },
-                                {
-                                    "field": "var5",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "field": "var6",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "field": "var7",
-                                    "operation": "write",
-                                    "type": "varint"
-                                }
-                            ],
-                            "operation": "loop"
-                        },
-                        {
-                            "field": "f",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "g",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "h",
-                            "operation": "write",
-                            "type": "float"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "ya.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 30,
-                    "state": "PLAY"
-                }
-            ],
             "PLAY_CLIENTBOUND_1F": [
                 {
                     "class": "ya.class",
@@ -7730,7 +7294,7 @@
                         {
                             "field": "a.a()",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         }
                     ],
                     "state": "PLAY"
@@ -7741,126 +7305,6 @@
                     "from_client": false,
                     "from_server": true,
                     "id": 31,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_20": [
-                {
-                    "class": "yb.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 32,
-                    "instructions": [
-                        {
-                            "field": "s.b",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "t",
-                            "operation": "write",
-                            "type": "float"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "yc.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 32,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_22": [
-                {
-                    "class": "yd.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 34,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "float"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "ye.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 34,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_23": [
-                {
-                    "class": "ye.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 35,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "varlong"
-                        },
-                        {
-                            "field": "f",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "g",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "h",
-                            "operation": "write",
-                            "type": "varint"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "yf.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 35,
                     "state": "PLAY"
                 }
             ],
@@ -7875,12 +7319,12 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "condition": "c.b == null",
@@ -7893,11 +7337,6 @@
                                 }
                             ],
                             "operation": "if"
-                        },
-                        {
-                            "field": "c.c.length",
-                            "operation": "write",
-                            "type": "varint"
                         },
                         {
                             "field": "c.c.length",
@@ -7932,12 +7371,12 @@
                                 {
                                     "field": "itv.a",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "itv.b",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "short"
                                 },
                                 {
                                     "field": "jb.l.getId(itv.c)",
@@ -8088,17 +7527,17 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
-                            "field": "b.a()",
+                            "field": "b",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "d",
@@ -8114,85 +7553,6 @@
                     "from_client": false,
                     "from_server": true,
                     "id": 38,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_27": [
-                {
-                    "class": "yi.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 39,
-                    "instructions": [
-                        {
-                            "field": "jb.k.getId(j.b())",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "i",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "f",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "g",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "h",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "args": "packetbuffer",
-                            "field": "j",
-                            "method": "a(Lso;)V",
-                            "name": "a",
-                            "operation": "interfacecall",
-                            "target": "it",
-                            "type": "interface"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "yj.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 39,
                     "state": "PLAY"
                 }
             ],
@@ -8343,7 +7703,7 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "b",
@@ -8421,17 +7781,17 @@
                         {
                             "field": "j.c",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "j.d.a()",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "cps.a(j.e)",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "j.f",
@@ -8457,9 +7817,9 @@
                                     "type": "identifier"
                                 },
                                 {
-                                    "field": "j.h.get().b().a()",
+                                    "field": "j.h.get().b()",
                                     "operation": "write",
-                                    "type": "varlong"
+                                    "type": "position"
                                 }
                             ],
                             "operation": "if"
@@ -8497,7 +7857,7 @@
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "c",
@@ -8540,17 +7900,17 @@
                                         {
                                             "field": "itv.d()",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         },
                                         {
                                             "field": "itv.e()",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         },
                                         {
                                             "field": "itv.f() & 0xf",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         },
                                         {
                                             "field": "itv.g() != null",
@@ -8580,22 +7940,22 @@
                                 {
                                     "field": "e.c",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "e.d",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "e.a",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "e.b",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "e.e.length",
@@ -8615,7 +7975,7 @@
                                 {
                                     "field": "0",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 }
                             ],
                             "operation": "else"
@@ -8629,309 +7989,6 @@
                     "from_client": false,
                     "from_server": true,
                     "id": 42,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_2B": [
-                {
-                    "class": "yn.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 43,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "b.size()",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "Iterator",
-                            "value": "this.b.iterator()",
-                            "var": "it"
-                        },
-                        {
-                            "condition": "it.hasNext()",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "cot",
-                                    "value": "it.next()",
-                                    "var": "itv"
-                                },
-                                {
-                                    "field": "itv.a()",
-                                    "operation": "write",
-                                    "type": "itemstack"
-                                },
-                                {
-                                    "field": "itv.d()",
-                                    "operation": "write",
-                                    "type": "itemstack"
-                                },
-                                {
-                                    "field": "itv.c()",
-                                    "operation": "write",
-                                    "type": "itemstack"
-                                },
-                                {
-                                    "field": "itv.p()",
-                                    "operation": "write",
-                                    "type": "boolean"
-                                },
-                                {
-                                    "field": "itv.g()",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "field": "itv.i()",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "field": "itv.o()",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "field": "itv.m()",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "field": "itv.n()",
-                                    "operation": "write",
-                                    "type": "float"
-                                },
-                                {
-                                    "field": "itv.k()",
-                                    "operation": "write",
-                                    "type": "varint"
-                                }
-                            ],
-                            "operation": "loop"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "field": "f",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "yo.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 43,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_2C": [
-                {
-                    "class": "yo$a.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 44,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "g",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "yp$a.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 44,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_2D": [
-                {
-                    "class": "yo$b.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 45,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "f",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "g",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "yp$b.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 45,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_2E": [
-                {
-                    "class": "yo$c.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 46,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "f",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "g",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "yp$c.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 46,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_2F": [
-                {
-                    "class": "yp.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 47,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "float"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "yq.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 47,
                     "state": "PLAY"
                 }
             ],
@@ -8979,9 +8036,9 @@
                     "id": 50,
                     "instructions": [
                         {
-                            "field": "a.a()",
+                            "field": "a",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "b",
@@ -9011,7 +8068,7 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "b",
@@ -9027,95 +8084,6 @@
                     "from_client": false,
                     "from_server": true,
                     "id": 53,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_36": [
-                {
-                    "class": "yu.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 54,
-                    "instructions": [
-                        {
-                            "operation": "store",
-                            "type": "int",
-                            "value": "0",
-                            "var": "var2"
-                        },
-                        {
-                            "condition": "e",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "((byte)(var2 | 1))",
-                                    "var": "var2"
-                                }
-                            ],
-                            "operation": "if"
-                        },
-                        {
-                            "condition": "f",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "((byte)(var2 | 2))",
-                                    "var": "var2"
-                                }
-                            ],
-                            "operation": "if"
-                        },
-                        {
-                            "condition": "g",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "((byte)(var2 | 4))",
-                                    "var": "var2"
-                                }
-                            ],
-                            "operation": "if"
-                        },
-                        {
-                            "condition": "h",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "((byte)(var2 | 0x8))",
-                                    "var": "var2"
-                                }
-                            ],
-                            "operation": "if"
-                        },
-                        {
-                            "field": "var2",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "i",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "j",
-                            "operation": "write",
-                            "type": "float"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "yv.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 54,
                     "state": "PLAY"
                 }
             ],
@@ -9146,11 +8114,6 @@
                             "condition": "c != null",
                             "instructions": [
                                 {
-                                    "field": "c.c.length",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
                                     "field": "c.c",
                                     "operation": "write",
                                     "type": "byte[]"
@@ -9167,12 +8130,12 @@
                         {
                             "field": "d.b.toEpochMilli()",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "d.c",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "d.d.b.size()",
@@ -9202,11 +8165,6 @@
                                 {
                                     "condition": "itv.b() != null",
                                     "instructions": [
-                                        {
-                                            "field": "itv.b().c.length",
-                                            "operation": "write",
-                                            "type": "varint"
-                                        },
                                         {
                                             "field": "itv.b().c",
                                             "operation": "write",
@@ -9320,122 +8278,6 @@
                     "from_client": false,
                     "from_server": true,
                     "id": 58,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_3D": [
-                {
-                    "class": "zb.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 61,
-                    "instructions": [
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "enum"
-                        },
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "g",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "condition": "g",
-                            "instructions": [
-                                {
-                                    "field": "d",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
-                                {
-                                    "field": "f",
-                                    "operation": "write",
-                                    "type": "enum"
-                                }
-                            ],
-                            "operation": "if"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "zc.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 61,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_3E": [
-                {
-                    "class": "zc.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 62,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "bju.a(f)",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "g",
-                            "operation": "write",
-                            "type": "varint"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "zd.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 62,
                     "state": "PLAY"
                 }
             ],
@@ -9718,17 +8560,17 @@
                         {
                             "field": "d.c",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "d.d.a()",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "cps.a(d.e)",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "d.f",
@@ -9754,9 +8596,9 @@
                                     "type": "identifier"
                                 },
                                 {
-                                    "field": "d.h.get().b().a()",
+                                    "field": "d.h.get().b()",
                                     "operation": "write",
-                                    "type": "varlong"
+                                    "type": "position"
                                 }
                             ],
                             "operation": "if"
@@ -9769,7 +8611,7 @@
                         {
                             "field": "e",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         }
                     ],
                     "state": "PLAY"
@@ -9895,96 +8737,6 @@
                     "state": "PLAY"
                 }
             ],
-            "PLAY_CLIENTBOUND_49": [
-                {
-                    "class": "zm.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 73,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "zn.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 73,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_4A": [
-                {
-                    "class": "zn.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 74,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "varlong"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "zo.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 74,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_4B": [
-                {
-                    "class": "zo.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 75,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "zp.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 75,
-                    "state": "PLAY"
-                }
-            ],
             "PLAY_CLIENTBOUND_52": [
                 {
                     "class": "zv.class",
@@ -9994,9 +8746,9 @@
                     "id": 82,
                     "instructions": [
                         {
-                            "field": "a.a()",
+                            "field": "a",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "b",
@@ -10012,76 +8764,6 @@
                     "from_client": false,
                     "from_server": true,
                     "id": 82,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_58": [
-                {
-                    "class": "aab.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 88,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "varint"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "aac.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 88,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_59": [
-                {
-                    "class": "aac.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 89,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "float"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "aad.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 89,
                     "state": "PLAY"
                 }
             ],
@@ -10101,7 +8783,7 @@
                         {
                             "field": "g",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "condition": "g",
@@ -10147,7 +8829,7 @@
                         {
                             "field": "h",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "condition": "aaf.b(h)",
@@ -10160,7 +8842,7 @@
                                 {
                                     "field": "((aaf$b)k.orElseThrow(aaf::h)).g",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "((aaf$b)k.orElseThrow(aaf::h)).d",
@@ -10368,7 +9050,7 @@
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         }
                     ],
                     "state": "PLAY"
@@ -10449,17 +9131,17 @@
                         {
                             "field": "d",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "e",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "g",
@@ -10474,7 +9156,7 @@
                         {
                             "field": "i",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         }
                     ],
                     "state": "PLAY"
@@ -10505,7 +9187,7 @@
                                         {
                                             "field": "3",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         },
                                         {
                                             "field": "d",
@@ -10525,7 +9207,7 @@
                                         {
                                             "field": "1",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         },
                                         {
                                             "field": "d",
@@ -10543,7 +9225,7 @@
                                                 {
                                                     "field": "2",
                                                     "operation": "write",
-                                                    "type": "varint"
+                                                    "type": "byte"
                                                 },
                                                 {
                                                     "field": "c",
@@ -10558,7 +9240,7 @@
                                                 {
                                                     "field": "0",
                                                     "operation": "write",
-                                                    "type": "varint"
+                                                    "type": "byte"
                                                 }
                                             ],
                                             "operation": "else"
@@ -10675,61 +9357,6 @@
                     "from_client": false,
                     "from_server": true,
                     "id": 105,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_CLIENTBOUND_6B": [
-                {
-                    "class": "aau.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 107,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "f",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "g",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "aav.class",
-                    "direction": "CLIENTBOUND",
-                    "from_client": false,
-                    "from_server": true,
-                    "id": 107,
                     "state": "PLAY"
                 }
             ],
@@ -10860,7 +9487,7 @@
                                         {
                                             "field": "var2",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "int"
                                         },
                                         {
                                             "condition": "itv.b.b.get().d != null",
@@ -11068,7 +9695,7 @@
                                                 {
                                                     "field": "itv.getValue().a.toEpochMilli()",
                                                     "operation": "write",
-                                                    "type": "varlong"
+                                                    "type": "long"
                                                 }
                                             ],
                                             "operation": "if"
@@ -11132,7 +9759,7 @@
                                 {
                                     "field": "itv.b()",
                                     "operation": "write",
-                                    "type": "position"
+                                    "type": "double"
                                 },
                                 {
                                     "field": "itv.c().size()",
@@ -11162,12 +9789,12 @@
                                         {
                                             "field": "itv.d()",
                                             "operation": "write",
-                                            "type": "position"
+                                            "type": "double"
                                         },
                                         {
                                             "field": "itv.c().a()",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         }
                                     ],
                                     "operation": "loop"
@@ -11367,9 +9994,9 @@
                             "type": "varint"
                         },
                         {
-                            "field": "b.a()",
+                            "field": "b",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         }
                     ],
                     "state": "PLAY"
@@ -11400,12 +10027,12 @@
                         {
                             "field": "b.toEpochMilli()",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "d.b.size()",
@@ -11432,11 +10059,6 @@
                                     "length": "16",
                                     "operation": "write",
                                     "type": "string"
-                                },
-                                {
-                                    "field": "itv.b.c.length",
-                                    "operation": "write",
-                                    "type": "varint"
                                 },
                                 {
                                     "field": "itv.b.c",
@@ -11486,12 +10108,12 @@
                         {
                             "field": "b.toEpochMilli()",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "d != null",
@@ -11501,11 +10123,6 @@
                         {
                             "condition": "d != null",
                             "instructions": [
-                                {
-                                    "field": "d.c.length",
-                                    "operation": "write",
-                                    "type": "varint"
-                                },
                                 {
                                     "field": "d.c",
                                     "operation": "write",
@@ -11553,7 +10170,7 @@
                         {
                             "field": "a.b.b.toEpochMilli()",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "a.b.c.getEncoded().length",
@@ -11584,91 +10201,6 @@
                     "from_client": true,
                     "from_server": false,
                     "id": 6,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_SERVERBOUND_07": [
-                {
-                    "class": "abm.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 7,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "float"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "abn.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 7,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_SERVERBOUND_09": [
-                {
-                    "class": "vo.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 9,
-                    "instructions": [
-                        {
-                            "field": "a.b",
-                            "operation": "write",
-                            "type": "string"
-                        },
-                        {
-                            "field": "a.c",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "a.d",
-                            "operation": "write",
-                            "type": "enum"
-                        },
-                        {
-                            "field": "a.e",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "field": "a.f",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "a.g",
-                            "operation": "write",
-                            "type": "enum"
-                        },
-                        {
-                            "field": "a.h",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "field": "a.i",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "vp.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 9,
                     "state": "PLAY"
                 }
             ],
@@ -11706,50 +10238,6 @@
                     "state": "PLAY"
                 }
             ],
-            "PLAY_SERVERBOUND_12": [
-                {
-                    "class": "abv.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 18,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "b.a()",
-                            "operation": "write",
-                            "type": "enum"
-                        },
-                        {
-                            "args": "packetbuffer",
-                            "field": "b",
-                            "method": "a(Lso;)V",
-                            "name": "a",
-                            "operation": "interfacecall",
-                            "target": "abv$a",
-                            "type": "interface"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "abw.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 18,
-                    "state": "PLAY"
-                }
-            ],
             "PLAY_SERVERBOUND_13": [
                 {
                     "class": "abw.class",
@@ -11759,9 +10247,9 @@
                     "id": 19,
                     "instructions": [
                         {
-                            "field": "a.a()",
+                            "field": "a",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "b",
@@ -11782,231 +10270,6 @@
                     "from_client": true,
                     "from_server": false,
                     "id": 19,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_SERVERBOUND_15": [
-                {
-                    "class": "abx.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 21,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "aby.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 21,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_SERVERBOUND_16": [
-                {
-                    "class": "aby$a.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 22,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "(f) ? 1 : 0",
-                            "operation": "write",
-                            "type": "varint"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "abz$a.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 22,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_SERVERBOUND_17": [
-                {
-                    "class": "aby$b.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 23,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "(f) ? 1 : 0",
-                            "operation": "write",
-                            "type": "varint"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "abz$b.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 23,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_SERVERBOUND_18": [
-                {
-                    "class": "aby$c.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 24,
-                    "instructions": [
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "(f) ? 1 : 0",
-                            "operation": "write",
-                            "type": "varint"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "abz$c.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 24,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_SERVERBOUND_1A": [
-                {
-                    "class": "abz.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 26,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "position"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "e",
-                            "operation": "write",
-                            "type": "float"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "aca.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 26,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_SERVERBOUND_1B": [
-                {
-                    "class": "aca.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 27,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "acb.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 27,
                     "state": "PLAY"
                 }
             ],
@@ -12021,7 +10284,7 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "b",
@@ -12059,14 +10322,14 @@
                             "type": "enum"
                         },
                         {
-                            "field": "a.a()",
+                            "field": "a",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "b.d()",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "d",
@@ -12082,106 +10345,6 @@
                     "from_client": true,
                     "from_server": false,
                     "id": 32,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_SERVERBOUND_22": [
-                {
-                    "class": "acg.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 34,
-                    "instructions": [
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "field": "d",
-                            "operation": "write",
-                            "type": "float"
-                        },
-                        {
-                            "operation": "store",
-                            "type": "int",
-                            "value": "0",
-                            "var": "var2"
-                        },
-                        {
-                            "condition": "e",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "((byte)(var2 | 1))",
-                                    "var": "var2"
-                                }
-                            ],
-                            "operation": "if"
-                        },
-                        {
-                            "condition": "f",
-                            "instructions": [
-                                {
-                                    "operation": "store",
-                                    "type": "int",
-                                    "value": "((byte)(var2 | 2))",
-                                    "var": "var2"
-                                }
-                            ],
-                            "operation": "if"
-                        },
-                        {
-                            "field": "var2",
-                            "operation": "write",
-                            "type": "varint"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "ach.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 34,
-                    "state": "PLAY"
-                }
-            ],
-            "PLAY_SERVERBOUND_24": [
-                {
-                    "class": "ach.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 36,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "enum"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "boolean"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "aci.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 36,
                     "state": "PLAY"
                 }
             ],
@@ -12255,9 +10418,9 @@
                     "id": 44,
                     "instructions": [
                         {
-                            "field": "d.a()",
+                            "field": "d",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "e",
@@ -12314,7 +10477,7 @@
                         {
                             "field": "var2",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         }
                     ],
                     "state": "PLAY"
@@ -12328,41 +10491,6 @@
                     "state": "PLAY"
                 }
             ],
-            "PLAY_SERVERBOUND_2D": [
-                {
-                    "class": "acp.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 45,
-                    "instructions": [
-                        {
-                            "field": "a",
-                            "operation": "write",
-                            "type": "varint"
-                        },
-                        {
-                            "field": "b",
-                            "operation": "write",
-                            "type": "string"
-                        },
-                        {
-                            "field": "c",
-                            "operation": "write",
-                            "type": "boolean"
-                        }
-                    ],
-                    "state": "PLAY"
-                },
-                {
-                    "class": "acq.class",
-                    "direction": "SERVERBOUND",
-                    "from_client": true,
-                    "from_server": false,
-                    "id": 45,
-                    "state": "PLAY"
-                }
-            ],
             "PLAY_SERVERBOUND_2F": [
                 {
                     "class": "acr.class",
@@ -12372,9 +10500,9 @@
                     "id": 47,
                     "instructions": [
                         {
-                            "field": "a.a()",
+                            "field": "a",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "b",
@@ -12422,9 +10550,9 @@
                     "id": 48,
                     "instructions": [
                         {
-                            "field": "d.a()",
+                            "field": "d",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "e",
@@ -12444,32 +10572,32 @@
                         {
                             "field": "h.u()",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "h.v()",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "h.w()",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "i.u()",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "i.v()",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "i.w()",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "j",
@@ -12541,7 +10669,7 @@
                         {
                             "field": "var2",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         }
                     ],
                     "state": "PLAY"
@@ -12564,9 +10692,9 @@
                     "id": 49,
                     "instructions": [
                         {
-                            "field": "b.a()",
+                            "field": "b",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "d",
@@ -12627,9 +10755,9 @@
                             "var": "var2"
                         },
                         {
-                            "field": "var2.a()",
+                            "field": "var2",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "a.b()",

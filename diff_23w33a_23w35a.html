@@ -71,7 +71,7 @@
     <span class="hl_k">if</span><span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">getValue</span><span class="hl_o">().</span><span class="hl_na">c</span><span class="hl_o">.</span><span class="hl_na">h</span><span class="hl_o">)</span> <span class="hl_o">{</span>
       <span class="hl_kt">int</span> <span class="hl_n">var2</span> <span class="hl_o">=</span> <span class="hl_o">(</span><span class="hl_n">var2</span> <span class="hl_o">|</span> <span class="hl_mi">4</span><span class="hl_o">);</span>
     <span class="hl_o">}</span>
-    <span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">var2</span><span class="hl_o">);</span>
+    <span class="hl_n">writeInt</span><span class="hl_o">(</span><span class="hl_n">var2</span><span class="hl_o">);</span>
     <span class="hl_k">if</span><span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">getValue</span><span class="hl_o">().</span><span class="hl_na">c</span><span class="hl_o">.</span><span class="hl_na">d</span> <span class="hl_o">!=</span> <span class="hl_kc">null</span><span class="hl_o">)</span> <span class="hl_o">{</span>
       <span class="hl_n">writeIdentifier</span><span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">getValue</span><span class="hl_o">().</span><span class="hl_na">c</span><span class="hl_o">.</span><span class="hl_na">d</span><span class="hl_o">);</span>
     <span class="hl_o">}</span>
@@ -152,7 +152,7 @@
     <span class="hl_k">if</span><span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">b</span><span class="hl_o">.</span><span class="hl_na">b</span><span class="hl_o">.</span><span class="hl_na">get</span><span class="hl_o">().</span><span class="hl_na">h</span><span class="hl_o">)</span> <span class="hl_o">{</span>
       <span class="hl_kt">int</span> <span class="hl_n">var2</span> <span class="hl_o">=</span> <span class="hl_o">(</span><span class="hl_n">var2</span> <span class="hl_o">|</span> <span class="hl_mi">4</span><span class="hl_o">);</span>
     <span class="hl_o">}</span>
-    <span class="hl_n">writeVarInt</span><span class="hl_o">(</span><span class="hl_n">var2</span><span class="hl_o">);</span>
+    <span class="hl_n">writeInt</span><span class="hl_o">(</span><span class="hl_n">var2</span><span class="hl_o">);</span>
     <span class="hl_k">if</span><span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">b</span><span class="hl_o">.</span><span class="hl_na">b</span><span class="hl_o">.</span><span class="hl_na">get</span><span class="hl_o">().</span><span class="hl_na">d</span> <span class="hl_o">!=</span> <span class="hl_kc">null</span><span class="hl_o">)</span> <span class="hl_o">{</span>
       <span class="hl_n">writeIdentifier</span><span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">b</span><span class="hl_o">.</span><span class="hl_na">b</span><span class="hl_o">.</span><span class="hl_na">get</span><span class="hl_o">().</span><span class="hl_na">d</span><span class="hl_o">);</span>
     <span class="hl_o">}</span>
@@ -196,7 +196,7 @@
     <span class="hl_n">writeString</span><span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">getKey</span><span class="hl_o">());</span>
     <span class="hl_n">writeBoolean</span><span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">getValue</span><span class="hl_o">().</span><span class="hl_na">a</span> <span class="hl_o">!=</span> <span class="hl_kc">null</span><span class="hl_o">);</span>
     <span class="hl_k">if</span><span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">getValue</span><span class="hl_o">().</span><span class="hl_na">a</span> <span class="hl_o">!=</span> <span class="hl_kc">null</span><span class="hl_o">)</span> <span class="hl_o">{</span>
-      <span class="hl_n">writeVarLong</span><span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">getValue</span><span class="hl_o">().</span><span class="hl_na">a</span><span class="hl_o">.</span><span class="hl_na">toEpochMilli</span><span class="hl_o">());</span>
+      <span class="hl_n">writeLong</span><span class="hl_o">(</span><span class="hl_n">itv</span><span class="hl_o">.</span><span class="hl_na">getValue</span><span class="hl_o">().</span><span class="hl_na">a</span><span class="hl_o">.</span><span class="hl_na">toEpochMilli</span><span class="hl_o">());</span>
     <span class="hl_o">}</span>
   <span class="hl_o">}</span>
 <span class="hl_o">}</span>

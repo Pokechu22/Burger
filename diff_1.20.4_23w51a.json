@@ -251,7 +251,7 @@
                                 {
                                     "field": "itv.b()",
                                     "operation": "write",
-                                    "type": "position"
+                                    "type": "double"
                                 },
                                 {
                                     "field": "itv.c().size()",
@@ -281,12 +281,12 @@
                                         {
                                             "field": "itv.c()",
                                             "operation": "write",
-                                            "type": "position"
+                                            "type": "double"
                                         },
                                         {
                                             "field": "itv.b().a()",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         }
                                     ],
                                     "operation": "loop"
@@ -337,7 +337,7 @@
                                 {
                                     "field": "itv.b()",
                                     "operation": "write",
-                                    "type": "position"
+                                    "type": "double"
                                 },
                                 {
                                     "field": "itv.c().size()",
@@ -367,12 +367,12 @@
                                         {
                                             "field": "itv.c()",
                                             "operation": "write",
-                                            "type": "position"
+                                            "type": "double"
                                         },
                                         {
                                             "field": "itv.b().a()",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         }
                                     ],
                                     "operation": "loop"
@@ -405,7 +405,7 @@
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "g",
@@ -415,7 +415,7 @@
                         {
                             "field": "h",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "i != null",
@@ -456,7 +456,7 @@
                         {
                             "field": "g",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "h",
@@ -466,7 +466,7 @@
                         {
                             "field": "i",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         }
                     ],
                     "state": "PLAY"

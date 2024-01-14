@@ -603,17 +603,17 @@
                         {
                             "field": "d.c",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "d.d.a()",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "ctf.a(d.e)",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "d.f",
@@ -639,9 +639,9 @@
                                     "type": "identifier"
                                 },
                                 {
-                                    "field": "d.h.get().b().a()",
+                                    "field": "d.h.get().b()",
                                     "operation": "write",
-                                    "type": "varlong"
+                                    "type": "position"
                                 }
                             ],
                             "operation": "if"
@@ -654,7 +654,7 @@
                         {
                             "field": "e",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         }
                     ],
                     "state": "PLAY"
@@ -722,7 +722,7 @@
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         }
                     ],
                     "state": "PLAY"
@@ -747,17 +747,17 @@
                         {
                             "field": "d.c",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "d.d.a()",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "ctl.a(d.e)",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "d.f",
@@ -783,9 +783,9 @@
                                     "type": "identifier"
                                 },
                                 {
-                                    "field": "d.h.get().b().a()",
+                                    "field": "d.h.get().b()",
                                     "operation": "write",
-                                    "type": "varlong"
+                                    "type": "position"
                                 }
                             ],
                             "operation": "if"
@@ -798,7 +798,7 @@
                         {
                             "field": "e",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         }
                     ],
                     "state": "PLAY"
@@ -815,7 +815,7 @@
                         {
                             "field": "b.s()",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "c.length",
@@ -862,7 +862,7 @@
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         }
                     ],
                     "state": "PLAY"
@@ -905,7 +905,7 @@
                         {
                             "field": "b.s()",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "c.length",
@@ -1076,12 +1076,12 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         }
                     ],
                     "state": "PLAY"
@@ -1113,12 +1113,12 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "c",
@@ -1138,12 +1138,12 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         }
                     ],
                     "state": "PLAY"
@@ -1160,7 +1160,7 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         }
                     ],
                     "state": "PLAY"
@@ -1175,12 +1175,12 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "c",
@@ -1217,7 +1217,39 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ],
+            "PLAY_CLIENTBOUND_50": [
+                {
+                    "class": "abu.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": 80,
+                    "instructions": [
+                        {
+                            "field": "a",
+                            "operation": "write",
+                            "type": "byte"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "abw.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": 80,
+                    "instructions": [
+                        {
+                            "field": "a",
+                            "operation": "write",
+                            "type": "varint"
                         }
                     ],
                     "state": "PLAY"
@@ -1254,7 +1286,7 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         }
                     ],
                     "state": "PLAY"
@@ -1306,9 +1338,9 @@
                     "id": 83,
                     "instructions": [
                         {
-                            "field": "a.a()",
+                            "field": "a",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "b",
@@ -1351,9 +1383,9 @@
                     "id": 84,
                     "instructions": [
                         {
-                            "field": "a.a()",
+                            "field": "a",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "position"
                         },
                         {
                             "field": "b",
@@ -1401,7 +1433,7 @@
                                 {
                                     "field": "var3.a",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "var2",
@@ -1423,7 +1455,7 @@
                         {
                             "field": "0xff",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         }
                     ],
                     "state": "PLAY"
@@ -1448,12 +1480,12 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         }
                     ],
                     "state": "PLAY"
@@ -1494,7 +1526,7 @@
                                 {
                                     "field": "var3.a",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "var2",
@@ -1516,7 +1548,7 @@
                         {
                             "field": "0xff",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         }
                     ],
                     "state": "PLAY"
@@ -1538,17 +1570,17 @@
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "short"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "short"
                         },
                         {
                             "field": "d",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "short"
                         }
                     ],
                     "state": "PLAY"
@@ -1563,12 +1595,12 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         }
                     ],
                     "state": "PLAY"
@@ -1629,7 +1661,7 @@
                                 {
                                     "field": "(var6) ? (var7 | -128) : var7",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "(cmr)var4.getSecond()",
@@ -1662,17 +1694,17 @@
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "short"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "short"
                         },
                         {
                             "field": "d",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "short"
                         }
                     ],
                     "state": "PLAY"
@@ -1758,7 +1790,7 @@
                                 {
                                     "field": "(var6) ? (var7 | -128) : var7",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "(cmx)var4.getSecond()",
@@ -1845,7 +1877,7 @@
                         {
                             "field": "h",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "condition": "h",
@@ -1964,7 +1996,7 @@
                         {
                             "field": "h",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "condition": "h",
@@ -2033,7 +2065,7 @@
                         {
                             "field": "h",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "condition": "ach.b(h)",
@@ -2046,7 +2078,7 @@
                                 {
                                     "field": "((ach$b)k.orElseThrow(ach::h)).g",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "((ach$b)k.orElseThrow(ach::h)).d",
@@ -2227,7 +2259,7 @@
                         {
                             "field": "h",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "condition": "ack.b(h)",
@@ -2240,7 +2272,7 @@
                                 {
                                     "field": "((ack$b)k.orElseThrow(ack::h)).g",
                                     "operation": "write",
-                                    "type": "varint"
+                                    "type": "byte"
                                 },
                                 {
                                     "field": "((ack$b)k.orElseThrow(ack::h)).d",
@@ -2440,12 +2472,12 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         }
                     ],
                     "state": "PLAY"
@@ -2492,12 +2524,12 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         }
                     ],
                     "state": "PLAY"
@@ -2514,17 +2546,17 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         }
                     ],
                     "state": "PLAY"
@@ -2627,7 +2659,7 @@
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         }
                     ],
                     "state": "PLAY"
@@ -2642,17 +2674,17 @@
                         {
                             "field": "a",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         }
                     ],
                     "state": "PLAY"
@@ -2725,17 +2757,17 @@
                         {
                             "field": "d",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "e",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "g",
@@ -2750,7 +2782,7 @@
                         {
                             "field": "i",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         }
                     ],
                     "state": "PLAY"
@@ -2836,7 +2868,7 @@
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         }
                     ],
                     "state": "PLAY"
@@ -2918,17 +2950,17 @@
                         {
                             "field": "d",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "e",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "int"
                         },
                         {
                             "field": "g",
@@ -2943,7 +2975,7 @@
                         {
                             "field": "i",
                             "operation": "write",
-                            "type": "varlong"
+                            "type": "long"
                         }
                     ],
                     "state": "PLAY"
@@ -2966,7 +2998,7 @@
                                         {
                                             "field": "3",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         },
                                         {
                                             "field": "d",
@@ -2986,7 +3018,7 @@
                                         {
                                             "field": "1",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         },
                                         {
                                             "field": "d",
@@ -3004,7 +3036,7 @@
                                                 {
                                                     "field": "2",
                                                     "operation": "write",
-                                                    "type": "varint"
+                                                    "type": "byte"
                                                 },
                                                 {
                                                     "field": "c",
@@ -3019,7 +3051,7 @@
                                                 {
                                                     "field": "0",
                                                     "operation": "write",
-                                                    "type": "varint"
+                                                    "type": "byte"
                                                 }
                                             ],
                                             "operation": "else"
@@ -3080,7 +3112,7 @@
                                         {
                                             "field": "3",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         },
                                         {
                                             "field": "d",
@@ -3100,7 +3132,7 @@
                                         {
                                             "field": "1",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         },
                                         {
                                             "field": "d",
@@ -3118,7 +3150,7 @@
                                                 {
                                                     "field": "2",
                                                     "operation": "write",
-                                                    "type": "varint"
+                                                    "type": "byte"
                                                 },
                                                 {
                                                     "field": "c",
@@ -3133,7 +3165,7 @@
                                                 {
                                                     "field": "0",
                                                     "operation": "write",
-                                                    "type": "varint"
+                                                    "type": "byte"
                                                 }
                                             ],
                                             "operation": "else"
@@ -3309,27 +3341,27 @@
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "d",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "e",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "g",
@@ -3401,27 +3433,27 @@
                         {
                             "field": "b",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "c",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "d",
                             "operation": "write",
-                            "type": "position"
+                            "type": "double"
                         },
                         {
                             "field": "e",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "g",
@@ -3596,7 +3628,7 @@
                                         {
                                             "field": "var2",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "int"
                                         },
                                         {
                                             "field": "itv.b.c.get().j",
@@ -3759,7 +3791,7 @@
                                                 {
                                                     "field": "itv.getValue().a.toEpochMilli()",
                                                     "operation": "write",
-                                                    "type": "varlong"
+                                                    "type": "long"
                                                 }
                                             ],
                                             "operation": "if"
@@ -3830,7 +3862,7 @@
                                 {
                                     "field": "itv.b()",
                                     "operation": "write",
-                                    "type": "position"
+                                    "type": "double"
                                 },
                                 {
                                     "field": "itv.c().size()",
@@ -3860,12 +3892,12 @@
                                         {
                                             "field": "itv.c()",
                                             "operation": "write",
-                                            "type": "position"
+                                            "type": "double"
                                         },
                                         {
                                             "field": "itv.b().a()",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         }
                                     ],
                                     "operation": "loop"
@@ -4002,7 +4034,7 @@
                                         {
                                             "field": "var2",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "int"
                                         },
                                         {
                                             "field": "itv.b.c.get().j",
@@ -4165,7 +4197,7 @@
                                                 {
                                                     "field": "itv.getValue().a.toEpochMilli()",
                                                     "operation": "write",
-                                                    "type": "varlong"
+                                                    "type": "long"
                                                 }
                                             ],
                                             "operation": "if"
@@ -4201,7 +4233,7 @@
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "g",
@@ -4211,7 +4243,7 @@
                         {
                             "field": "h",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "i != null",
@@ -4272,7 +4304,7 @@
                                 {
                                     "field": "itv.b()",
                                     "operation": "write",
-                                    "type": "position"
+                                    "type": "double"
                                 },
                                 {
                                     "field": "itv.c().size()",
@@ -4302,12 +4334,12 @@
                                         {
                                             "field": "itv.c()",
                                             "operation": "write",
-                                            "type": "position"
+                                            "type": "double"
                                         },
                                         {
                                             "field": "itv.b().a()",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "byte"
                                         }
                                     ],
                                     "operation": "loop"
@@ -4392,7 +4424,7 @@
                         {
                             "field": "f",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "g",
@@ -4402,7 +4434,7 @@
                         {
                             "field": "h",
                             "operation": "write",
-                            "type": "varint"
+                            "type": "byte"
                         },
                         {
                             "field": "i != null",

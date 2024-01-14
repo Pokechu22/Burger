@@ -1226,7 +1226,7 @@
                                         {
                                             "field": "var2",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "int"
                                         },
                                         {
                                             "condition": "itv.getValue().c.d != null",
@@ -1602,7 +1602,7 @@
                                         {
                                             "field": "var2",
                                             "operation": "write",
-                                            "type": "varint"
+                                            "type": "int"
                                         },
                                         {
                                             "condition": "itv.b.b.get().d != null",
@@ -1810,7 +1810,7 @@
                                                 {
                                                     "field": "itv.getValue().a.toEpochMilli()",
                                                     "operation": "write",
-                                                    "type": "varlong"
+                                                    "type": "long"
                                                 }
                                             ],
                                             "operation": "if"
