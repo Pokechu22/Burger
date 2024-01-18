@@ -1,0 +1,32 @@
+{
+    "achievements": {},
+    "blocks": {
+        "block": {}
+    },
+    "items": {
+        "item": {}
+    },
+    "language": {},
+    "recipes": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            3804,
+            3805
+        ],
+        "id": [
+            "24w03a",
+            "24w03b"
+        ],
+        "name": [
+            "24w03a",
+            "24w03b"
+        ],
+        "protocol": [
+            1073741995,
+            1073741996
+        ]
+    }
+}
