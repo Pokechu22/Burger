@@ -1,0 +1,132 @@
+{
+    "achievements": {},
+    "blocks": {
+        "block": {}
+    },
+    "items": {
+        "item": {}
+    },
+    "language": {
+        "commands": {
+            "transfer.error.no_players": [
+                null,
+                "Must specify at least one player to transfer"
+            ],
+            "transfer.success.multiple": [
+                null,
+                "Transferring %s players to %s:%s"
+            ],
+            "transfer.success.single": [
+                null,
+                "Transferring %s to %s:%s"
+            ]
+        },
+        "mco": {
+            "upload.entry.commands": [
+                null,
+                "%1$s, %2$s"
+            ]
+        },
+        "optimizeWorld": {
+            "stage.finished": [
+                "Finishing up...",
+                null
+            ],
+            "stage.finished.chunks": [
+                null,
+                "Finishing up upgrading chunks..."
+            ],
+            "stage.finished.entities": [
+                null,
+                "Finishing up upgrading entities..."
+            ],
+            "stage.finished.poi": [
+                null,
+                "Finishing up upgrading points of interest..."
+            ],
+            "stage.upgrading": [
+                "Upgrading all chunks...",
+                null
+            ],
+            "stage.upgrading.chunks": [
+                null,
+                "Upgrading all chunks..."
+            ],
+            "stage.upgrading.entities": [
+                null,
+                "Upgrading all entities..."
+            ],
+            "stage.upgrading.poi": [
+                null,
+                "Upgrading all points of interest..."
+            ]
+        },
+        "selectWorld": {
+            "allowCommands.new": [
+                null,
+                "Allow Commands"
+            ],
+            "commands": [
+                null,
+                "Commands"
+            ]
+        },
+        "subtitles": {
+            "entity.armadillo.hurt_reduced": [
+                null,
+                "Armadillo shields itself"
+            ]
+        }
+    },
+    "recipes": {},
+    "sounds": {
+        "entity.armadillo.hurt_reduced": [
+            null,
+            {
+                "field": "ae",
+                "id": 56,
+                "name": "entity.armadillo.hurt_reduced",
+                "sounds": [
+                    {
+                        "hash": "4feea37a3f783e2c9ea844ef2b4ee9f3cc20698d",
+                        "name": "mob/armadillo/hurt_reduced1"
+                    },
+                    {
+                        "hash": "f29746a1c78de0e7e75adeac1d605c4f0e4da73e",
+                        "name": "mob/armadillo/hurt_reduced2"
+                    },
+                    {
+                        "hash": "e8b4ff9971ce75716227605ae62da465a632c5d5",
+                        "name": "mob/armadillo/hurt_reduced3"
+                    },
+                    {
+                        "hash": "a4a4553b144aea8b4fa63778cf900b909b1c4d30",
+                        "name": "mob/armadillo/hurt_reduced4"
+                    }
+                ],
+                "subtitle": "Armadillo shields itself",
+                "subtitle_key": "subtitles.entity.armadillo.hurt_reduced"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            3805,
+            3806
+        ],
+        "id": [
+            "24w03b",
+            "24w04a"
+        ],
+        "name": [
+            "24w03b",
+            "24w04a"
+        ],
+        "protocol": [
+            1073741996,
+            1073741997
+        ]
+    }
+}
