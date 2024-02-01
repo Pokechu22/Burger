@@ -1,0 +1,28 @@
+{
+    "achievements": {},
+    "blocks": {
+        "block": {}
+    },
+    "language": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            3809,
+            3811
+        ],
+        "id": [
+            "24w05a",
+            "24w05b"
+        ],
+        "name": [
+            "24w05a",
+            "24w05b"
+        ],
+        "protocol": [
+            1073741997,
+            1073741999
+        ]
+    }
+}
