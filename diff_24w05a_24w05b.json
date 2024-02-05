@@ -1,9 +1,9 @@
 {
     "achievements": {},
-    "blocks": {
-        "block": {}
-    },
     "language": {},
+    "packets": {
+        "packet": {}
+    },
     "sounds": {},
     "stats": {},
     "tags": {},

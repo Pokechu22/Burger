@@ -1,11 +1,5 @@
 {
     "achievements": {},
-    "blocks": {
-        "block": {}
-    },
-    "items": {
-        "item": {}
-    },
     "language": {
         "commands": {
             "transfer.error.no_players": [
@@ -78,7 +72,776 @@
             ]
         }
     },
-    "recipes": {},
+    "packets": {
+        "packet": {
+            "PLAY_CLIENTBOUND_damage_event": [
+                {
+                    "class": "abg.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "c",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "d + 1",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "e + 1",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "f.isPresent()",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "f.isPresent()",
+                            "instructions": [
+                                {
+                                    "field": "f.get().a()",
+                                    "operation": "write",
+                                    "type": "double"
+                                },
+                                {
+                                    "field": "f.get().b()",
+                                    "operation": "write",
+                                    "type": "double"
+                                },
+                                {
+                                    "field": "f.get().c()",
+                                    "operation": "write",
+                                    "type": "double"
+                                }
+                            ],
+                            "operation": "if"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "abg.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "d + 1",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "e + 1",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "f.isPresent()",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "f.isPresent()",
+                            "instructions": [
+                                {
+                                    "field": "f.get().a()",
+                                    "operation": "write",
+                                    "type": "double"
+                                },
+                                {
+                                    "field": "f.get().b()",
+                                    "operation": "write",
+                                    "type": "double"
+                                },
+                                {
+                                    "field": "f.get().c()",
+                                    "operation": "write",
+                                    "type": "double"
+                                }
+                            ],
+                            "operation": "if"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ],
+            "PLAY_CLIENTBOUND_disguised_chat": [
+                {
+                    "class": "abi.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "chatcomponent"
+                        },
+                        {
+                            "field": "c.a",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "c.b",
+                            "operation": "write",
+                            "type": "chatcomponent"
+                        },
+                        {
+                            "field": "c.c != null",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "c.c != null",
+                            "instructions": [
+                                {
+                                    "field": "c.c",
+                                    "operation": "write",
+                                    "type": "chatcomponent"
+                                }
+                            ],
+                            "operation": "if"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "abi.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": -1,
+                    "state": "PLAY"
+                }
+            ],
+            "PLAY_CLIENTBOUND_login": [
+                {
+                    "class": "abw.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "int"
+                        },
+                        {
+                            "field": "c",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "field": "d.size()",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "Iterator",
+                            "value": "this.d.iterator()",
+                            "var": "it"
+                        },
+                        {
+                            "condition": "it.hasNext()",
+                            "instructions": [
+                                {
+                                    "operation": "store",
+                                    "type": "aix",
+                                    "value": "it.next()",
+                                    "var": "itv"
+                                },
+                                {
+                                    "field": "itv.a()",
+                                    "operation": "write",
+                                    "type": "identifier"
+                                }
+                            ],
+                            "operation": "loop"
+                        },
+                        {
+                            "field": "e",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "f",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "g",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "h",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "field": "i",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "field": "j",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "field": "k.a.a()",
+                            "operation": "write",
+                            "type": "identifier"
+                        },
+                        {
+                            "field": "k.b.a()",
+                            "operation": "write",
+                            "type": "identifier"
+                        },
+                        {
+                            "field": "k.c",
+                            "operation": "write",
+                            "type": "long"
+                        },
+                        {
+                            "field": "k.d.a()",
+                            "operation": "write",
+                            "type": "byte"
+                        },
+                        {
+                            "field": "cvk.a(k.e)",
+                            "operation": "write",
+                            "type": "byte"
+                        },
+                        {
+                            "field": "k.f",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "field": "k.g",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "field": "k.h.isPresent()",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "k.h.isPresent()",
+                            "instructions": [
+                                {
+                                    "field": "k.h.get().a().a()",
+                                    "operation": "write",
+                                    "type": "identifier"
+                                },
+                                {
+                                    "field": "k.h.get().b().a()",
+                                    "operation": "write",
+                                    "type": "long"
+                                }
+                            ],
+                            "operation": "if"
+                        },
+                        {
+                            "field": "k.i",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "l",
+                            "operation": "write",
+                            "type": "boolean"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "abw.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "c",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "field": "d.size()",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "Iterator",
+                            "value": "this.d.iterator()",
+                            "var": "it"
+                        },
+                        {
+                            "condition": "it.hasNext()",
+                            "instructions": [
+                                {
+                                    "operation": "store",
+                                    "type": "aix",
+                                    "value": "it.next()",
+                                    "var": "itv"
+                                },
+                                {
+                                    "field": "itv.a()",
+                                    "operation": "write",
+                                    "type": "identifier"
+                                }
+                            ],
+                            "operation": "loop"
+                        },
+                        {
+                            "field": "e",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "f",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "g",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "h",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "field": "i",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "field": "j",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "field": "l",
+                            "operation": "write",
+                            "type": "boolean"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ],
+            "PLAY_CLIENTBOUND_player_chat": [
+                {
+                    "class": "acg.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "uuid"
+                        },
+                        {
+                            "field": "c",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "d != null",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "d != null",
+                            "instructions": [
+                                {
+                                    "field": "d.c",
+                                    "operation": "write",
+                                    "type": "byte[]"
+                                }
+                            ],
+                            "operation": "if"
+                        },
+                        {
+                            "field": "e.a",
+                            "length": "256",
+                            "operation": "write",
+                            "type": "string"
+                        },
+                        {
+                            "field": "e.b.toEpochMilli()",
+                            "operation": "write",
+                            "type": "long"
+                        },
+                        {
+                            "field": "e.c",
+                            "operation": "write",
+                            "type": "long"
+                        },
+                        {
+                            "field": "e.d.b.size()",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "Iterator",
+                            "value": "this.e.d.b.iterator()",
+                            "var": "it"
+                        },
+                        {
+                            "condition": "it.hasNext()",
+                            "instructions": [
+                                {
+                                    "operation": "store",
+                                    "type": "wc$a",
+                                    "value": "it.next()",
+                                    "var": "itv"
+                                },
+                                {
+                                    "field": "itv.a() + 1",
+                                    "operation": "write",
+                                    "type": "varint"
+                                },
+                                {
+                                    "condition": "itv.b() != null",
+                                    "instructions": [
+                                        {
+                                            "field": "itv.b().c",
+                                            "operation": "write",
+                                            "type": "byte[]"
+                                        }
+                                    ],
+                                    "operation": "if"
+                                }
+                            ],
+                            "operation": "loop"
+                        },
+                        {
+                            "field": "f != null",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "f != null",
+                            "instructions": [
+                                {
+                                    "field": "f",
+                                    "operation": "write",
+                                    "type": "chatcomponent"
+                                }
+                            ],
+                            "operation": "if"
+                        },
+                        {
+                            "field": "g.j",
+                            "operation": "write",
+                            "type": "enum"
+                        },
+                        {
+                            "condition": "g.j == vu$a.c",
+                            "instructions": [
+                                {
+                                    "field": "g.i.toLongArray().length",
+                                    "operation": "write",
+                                    "type": "varint"
+                                },
+                                {
+                                    "field": "g.i.toLongArray()",
+                                    "operation": "write",
+                                    "type": "long[]"
+                                }
+                            ],
+                            "operation": "if"
+                        },
+                        {
+                            "field": "h.a",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "h.b",
+                            "operation": "write",
+                            "type": "chatcomponent"
+                        },
+                        {
+                            "field": "h.c != null",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "h.c != null",
+                            "instructions": [
+                                {
+                                    "field": "h.c",
+                                    "operation": "write",
+                                    "type": "chatcomponent"
+                                }
+                            ],
+                            "operation": "if"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "acg.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "uuid"
+                        },
+                        {
+                            "field": "c",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "d != null",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "d != null",
+                            "instructions": [
+                                {
+                                    "field": "d.c",
+                                    "operation": "write",
+                                    "type": "byte[]"
+                                }
+                            ],
+                            "operation": "if"
+                        },
+                        {
+                            "field": "e.a",
+                            "length": "256",
+                            "operation": "write",
+                            "type": "string"
+                        },
+                        {
+                            "field": "e.b.toEpochMilli()",
+                            "operation": "write",
+                            "type": "long"
+                        },
+                        {
+                            "field": "e.c",
+                            "operation": "write",
+                            "type": "long"
+                        },
+                        {
+                            "field": "e.d.b.size()",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "operation": "store",
+                            "type": "Iterator",
+                            "value": "this.e.d.b.iterator()",
+                            "var": "it"
+                        },
+                        {
+                            "condition": "it.hasNext()",
+                            "instructions": [
+                                {
+                                    "operation": "store",
+                                    "type": "wc$a",
+                                    "value": "it.next()",
+                                    "var": "itv"
+                                },
+                                {
+                                    "field": "itv.a() + 1",
+                                    "operation": "write",
+                                    "type": "varint"
+                                },
+                                {
+                                    "condition": "itv.b() != null",
+                                    "instructions": [
+                                        {
+                                            "field": "itv.b().c",
+                                            "operation": "write",
+                                            "type": "byte[]"
+                                        }
+                                    ],
+                                    "operation": "if"
+                                }
+                            ],
+                            "operation": "loop"
+                        },
+                        {
+                            "field": "f != null",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "f != null",
+                            "instructions": [
+                                {
+                                    "field": "f",
+                                    "operation": "write",
+                                    "type": "chatcomponent"
+                                }
+                            ],
+                            "operation": "if"
+                        },
+                        {
+                            "field": "g.j",
+                            "operation": "write",
+                            "type": "enum"
+                        },
+                        {
+                            "condition": "g.j == vu$a.c",
+                            "instructions": [
+                                {
+                                    "field": "g.i.toLongArray().length",
+                                    "operation": "write",
+                                    "type": "varint"
+                                },
+                                {
+                                    "field": "g.i.toLongArray()",
+                                    "operation": "write",
+                                    "type": "long[]"
+                                }
+                            ],
+                            "operation": "if"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ],
+            "PLAY_CLIENTBOUND_respawn": [
+                {
+                    "class": "acs.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "e.a.a()",
+                            "operation": "write",
+                            "type": "identifier"
+                        },
+                        {
+                            "field": "e.b.a()",
+                            "operation": "write",
+                            "type": "identifier"
+                        },
+                        {
+                            "field": "e.c",
+                            "operation": "write",
+                            "type": "long"
+                        },
+                        {
+                            "field": "e.d.a()",
+                            "operation": "write",
+                            "type": "byte"
+                        },
+                        {
+                            "field": "cvk.a(e.e)",
+                            "operation": "write",
+                            "type": "byte"
+                        },
+                        {
+                            "field": "e.f",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "field": "e.g",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "field": "e.h.isPresent()",
+                            "operation": "write",
+                            "type": "boolean"
+                        },
+                        {
+                            "condition": "e.h.isPresent()",
+                            "instructions": [
+                                {
+                                    "field": "e.h.get().a().a()",
+                                    "operation": "write",
+                                    "type": "identifier"
+                                },
+                                {
+                                    "field": "e.h.get().b().a()",
+                                    "operation": "write",
+                                    "type": "long"
+                                }
+                            ],
+                            "operation": "if"
+                        },
+                        {
+                            "field": "e.i",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "f",
+                            "operation": "write",
+                            "type": "byte"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "acs.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "f",
+                            "operation": "write",
+                            "type": "varint"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ]
+        }
+    },
     "sounds": {
         "entity.armadillo.hurt_reduced": [
             null,

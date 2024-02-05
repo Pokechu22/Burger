@@ -1,13 +1,9 @@
 {
     "achievements": {},
-    "blocks": {
-        "block": {}
-    },
-    "items": {
-        "item": {}
-    },
     "language": {},
-    "recipes": {},
+    "packets": {
+        "packet": {}
+    },
     "sounds": {},
     "stats": {},
     "tags": {},
