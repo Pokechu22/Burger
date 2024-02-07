@@ -1,0 +1,150 @@
+{
+    "achievements": {},
+    "language": {
+        "attribute": {
+            "name.generic.fall_damage_multiplier": [
+                null,
+                "Fall Damage Multiplier"
+            ],
+            "name.generic.gravity": [
+                null,
+                "Gravity"
+            ],
+            "name.generic.jump_strength": [
+                null,
+                "Jump Strength"
+            ],
+            "name.generic.safe_fall_distance": [
+                null,
+                "Safe Fall Distance"
+            ],
+            "name.player.block_break_speed": [
+                null,
+                "Block Break Speed"
+            ]
+        },
+        "entity": {
+            "minecraft.breeze_wind_charge": [
+                null,
+                "Wind Charge"
+            ]
+        },
+        "item": {
+            "minecraft.wind_charge": [
+                null,
+                "Wind Charge"
+            ]
+        },
+        "options": {
+            "font": [
+                null,
+                "Font Settings..."
+            ],
+            "font.title": [
+                null,
+                "Font Settings"
+            ],
+            "japaneseGlyphVariants": [
+                null,
+                "Japanese Glyph Variants"
+            ],
+            "japaneseGlyphVariants.tooltip": [
+                null,
+                "Uses Japanse variants of CJK characters in the default font"
+            ]
+        },
+        "subtitles": {
+            "entity.armadillo.peek": [
+                null,
+                "Armadillo peeks"
+            ],
+            "entity.armadillo.unroll": [
+                "Armadillo unrolls",
+                null
+            ],
+            "entity.armadillo.unroll_finish": [
+                null,
+                "Armadillo unrolls"
+            ],
+            "entity.armadillo.unroll_start": [
+                null,
+                "Armadillo peeks"
+            ],
+            "entity.breeze.wind_burst": [
+                null,
+                "Wind Charge bursts"
+            ],
+            "entity.wind_charge.throw": [
+                null,
+                "Wind Charge flies"
+            ],
+            "entity.wind_charge.wind_burst": [
+                null,
+                "Wind Charge bursts"
+            ]
+        }
+    },
+    "stats": {},
+    "tags": {
+        "blocks/armadillo_spawnable_on": [
+            {
+                "name": "armadillo_spawnable_on",
+                "type": "blocks",
+                "values": [
+                    "minecraft:grass_block",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:red_sand",
+                    "minecraft:coarse_dirt"
+                ]
+            },
+            {
+                "name": "armadillo_spawnable_on",
+                "type": "blocks",
+                "values": [
+                    "minecraft:grass_block",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:red_sand",
+                    "minecraft:coarse_dirt"
+                ]
+            }
+        ],
+        "blocks/badlands_terracotta": [
+            null,
+            {
+                "name": "badlands_terracotta",
+                "type": "blocks",
+                "values": [
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:light_gray_terracotta"
+                ]
+            }
+        ]
+    }
+}
