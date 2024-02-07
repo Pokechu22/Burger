@@ -84,6 +84,235 @@
             ]
         }
     },
+    "packets": {
+        "packet": {}
+    },
+    "sounds": {
+        "block.vault.fall": [
+            {
+                "field": "zZ",
+                "id": 1402,
+                "name": "block.vault.fall",
+                "sounds": [
+                    {
+                        "hash": "4a2e3795ffd4d3aab0834b7e41903af3a8f7d197",
+                        "name": "step/stone1"
+                    }
+                ]
+            },
+            {
+                "field": "Ac",
+                "id": 1405,
+                "name": "block.vault.fall",
+                "sounds": [
+                    {
+                        "hash": "1913d4963d024157b5f853ff734ef22d1549e0e4",
+                        "name": "block/vault/step1"
+                    },
+                    {
+                        "hash": "c269c86d2849d861855ca07f6e1f109e80c08fcd",
+                        "name": "block/vault/step2"
+                    },
+                    {
+                        "hash": "0f1ff3699ff0b1b33d0ea5c85c17741c1c45f3fc",
+                        "name": "block/vault/step3"
+                    },
+                    {
+                        "hash": "ea86e0395315d7d1bd6d9df2e201e828f5bfa0e8",
+                        "name": "block/vault/step4"
+                    },
+                    {
+                        "hash": "9e85f297a50bc223ad0d4f95c1db45c4a3076204",
+                        "name": "block/vault/step5"
+                    },
+                    {
+                        "hash": "e1fcdcd61abe96c830940af85d750f46e505982c",
+                        "name": "block/vault/step6"
+                    },
+                    {
+                        "hash": "bc3a42dc72bd716ad78473db282ddc3af3bf23f7",
+                        "name": "block/vault/step7"
+                    },
+                    {
+                        "hash": "8a2634d860e9f3bf9e80e98acccf985c8d801c06",
+                        "name": "block/vault/step8"
+                    }
+                ]
+            }
+        ],
+        "entity.armadillo.peek": [
+            null,
+            {
+                "field": "am",
+                "id": 64,
+                "name": "entity.armadillo.peek",
+                "sounds": [
+                    {
+                        "hash": "becaa3fe9df62d21f2dcbd107d1271fd8aab81e8",
+                        "name": "mob/armadillo/peek"
+                    }
+                ],
+                "subtitle": "Armadillo peeks",
+                "subtitle_key": "subtitles.entity.armadillo.peek"
+            }
+        ],
+        "entity.armadillo.unroll": [
+            {
+                "field": "al",
+                "id": 63,
+                "name": "entity.armadillo.unroll",
+                "sounds": [
+                    {
+                        "hash": "0e985cabe00eef63c117bfba48a7ae6552fe4fe0",
+                        "name": "mob/armadillo/unroll1"
+                    },
+                    {
+                        "hash": "5bb6ff790e44bd2cedb0929fd040f0b847fbcd14",
+                        "name": "mob/armadillo/unroll2"
+                    }
+                ],
+                "subtitle": "Armadillo unrolls",
+                "subtitle_key": "subtitles.entity.armadillo.unroll"
+            },
+            null
+        ],
+        "entity.armadillo.unroll_finish": [
+            null,
+            {
+                "field": "al",
+                "id": 63,
+                "name": "entity.armadillo.unroll_finish",
+                "sounds": [
+                    {
+                        "hash": "0e985cabe00eef63c117bfba48a7ae6552fe4fe0",
+                        "name": "mob/armadillo/unroll_finish1"
+                    },
+                    {
+                        "hash": "5bb6ff790e44bd2cedb0929fd040f0b847fbcd14",
+                        "name": "mob/armadillo/unroll_finish2"
+                    }
+                ],
+                "subtitle": "Armadillo unrolls",
+                "subtitle_key": "subtitles.entity.armadillo.unroll_finish"
+            }
+        ],
+        "entity.armadillo.unroll_start": [
+            null,
+            {
+                "field": "an",
+                "id": 65,
+                "name": "entity.armadillo.unroll_start",
+                "sounds": [
+                    {
+                        "hash": "36196e23d75142d74e9907883f7dd3e1002b0166",
+                        "name": "mob/armadillo/unroll_start"
+                    }
+                ],
+                "subtitle": "Armadillo peeks",
+                "subtitle_key": "subtitles.entity.armadillo.unroll_start"
+            }
+        ],
+        "entity.breeze.wind_burst": [
+            null,
+            {
+                "field": "cL",
+                "id": 193,
+                "name": "entity.breeze.wind_burst",
+                "sounds": [
+                    {
+                        "hash": "ed1eb91a8f52c44fab47bfae8502a0758e0fcaff",
+                        "name": "mob/breeze/wind_burst1",
+                        "pitch": 1.2
+                    },
+                    {
+                        "hash": "bfb5ae6dc11ef5c6c863c822da59e10497195c47",
+                        "name": "mob/breeze/wind_burst2",
+                        "pitch": 1.2
+                    },
+                    {
+                        "hash": "b980f449c9fde0ca1422e44e3d1605185f0c595f",
+                        "name": "mob/breeze/wind_burst3",
+                        "pitch": 1.2
+                    }
+                ],
+                "subtitle": "Wind Charge bursts",
+                "subtitle_key": "subtitles.entity.breeze.wind_burst"
+            }
+        ],
+        "entity.generic.wind_burst": [
+            {
+                "field": "BH",
+                "id": 1488,
+                "name": "entity.generic.wind_burst",
+                "sounds": [
+                    {
+                        "hash": "ed1eb91a8f52c44fab47bfae8502a0758e0fcaff",
+                        "name": "mob/breeze/wind_burst1",
+                        "pitch": 1.2
+                    },
+                    {
+                        "hash": "bfb5ae6dc11ef5c6c863c822da59e10497195c47",
+                        "name": "mob/breeze/wind_burst2",
+                        "pitch": 1.2
+                    },
+                    {
+                        "hash": "b980f449c9fde0ca1422e44e3d1605185f0c595f",
+                        "name": "mob/breeze/wind_burst3",
+                        "pitch": 1.2
+                    }
+                ],
+                "subtitle": "Wind Charge bursts",
+                "subtitle_key": "subtitles.entity.generic.wind_burst"
+            },
+            null
+        ],
+        "entity.wind_charge.throw": [
+            null,
+            {
+                "field": "BL",
+                "id": 1492,
+                "name": "entity.wind_charge.throw",
+                "sounds": [
+                    {
+                        "hash": "87edc11141fb5a045f2ed830b545aaa73f96ee99",
+                        "name": "random/bow"
+                    }
+                ],
+                "subtitle": "Wind Charge flies",
+                "subtitle_key": "subtitles.entity.wind_charge.throw"
+            }
+        ],
+        "entity.wind_charge.wind_burst": [
+            null,
+            {
+                "field": "BK",
+                "id": 1491,
+                "name": "entity.wind_charge.wind_burst",
+                "sounds": [
+                    {
+                        "attenuation_distance": 8,
+                        "hash": "b64e99d3d09d12c97242f1d6336a4aea4c3233ec",
+                        "name": "entity/wind_charge/wind_burst1",
+                        "pitch": 1.25
+                    },
+                    {
+                        "attenuation_distance": 8,
+                        "hash": "c07f8dcd5ec017c90a863a48a52ca2e7b3f0544e",
+                        "name": "entity/wind_charge/wind_burst2",
+                        "pitch": 1.25
+                    },
+                    {
+                        "attenuation_distance": 8,
+                        "hash": "eb0abf982987a1b0f79a06fb45afbe880e275d17",
+                        "name": "entity/wind_charge/wind_burst3",
+                        "pitch": 1.25
+                    }
+                ],
+                "subtitle": "Wind Charge bursts",
+                "subtitle_key": "subtitles.entity.wind_charge.wind_burst"
+            }
+        ]
+    },
     "stats": {},
     "tags": {
         "blocks/armadillo_spawnable_on": [
@@ -145,6 +374,24 @@
                     "minecraft:light_gray_terracotta"
                 ]
             }
+        ]
+    },
+    "version": {
+        "data": [
+            3811,
+            3815
+        ],
+        "id": [
+            "24w05b",
+            "24w06a"
+        ],
+        "name": [
+            "24w05b",
+            "24w06a"
+        ],
+        "protocol": [
+            1073741999,
+            1073742000
         ]
     }
 }
