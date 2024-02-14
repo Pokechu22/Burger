@@ -1,0 +1,195 @@
+{
+    "achievements": {},
+    "language": {
+        "entity": {
+            "minecraft.bogged": [
+                null,
+                "Bogged"
+            ]
+        },
+        "item": {
+            "minecraft.bogged_spawn_egg": [
+                null,
+                "Bogged Spawn Egg"
+            ]
+        },
+        "options": {
+            "japaneseGlyphVariants.tooltip": [
+                "Uses Japanse variants of CJK characters in the default font",
+                "Uses Japanese variants of CJK characters in the default font"
+            ]
+        },
+        "subtitles": {
+            "entity.bogged.ambient": [
+                null,
+                "Bogged rattles"
+            ],
+            "entity.bogged.death": [
+                null,
+                "Bogged dies"
+            ],
+            "entity.bogged.hurt": [
+                null,
+                "Bogged hurts"
+            ],
+            "entity.parrot.imitate.bogged": [
+                null,
+                "Parrot rattles"
+            ]
+        }
+    },
+    "packets": {
+        "packet": {}
+    },
+    "sounds": {
+        "entity.bogged.ambient": [
+            null,
+            {
+                "field": "cn",
+                "id": 169,
+                "name": "entity.bogged.ambient",
+                "sounds": [
+                    {
+                        "hash": "5f8556f723c34a345892f9b668af94d69d68d68d",
+                        "name": "mob/bogged/ambient1"
+                    },
+                    {
+                        "hash": "4832e2d96223ab0023d26f9a8b62bd178da7d034",
+                        "name": "mob/bogged/ambient2"
+                    },
+                    {
+                        "hash": "1bdacbed0f0895030d7749bf37f3444af86acb16",
+                        "name": "mob/bogged/ambient3"
+                    },
+                    {
+                        "hash": "5fa87b6c86c70f2b59d9cefbaf72d22b5ecc0e4f",
+                        "name": "mob/bogged/ambient4"
+                    }
+                ],
+                "subtitle": "Bogged rattles",
+                "subtitle_key": "subtitles.entity.bogged.ambient"
+            }
+        ],
+        "entity.bogged.death": [
+            null,
+            {
+                "field": "co",
+                "id": 170,
+                "name": "entity.bogged.death",
+                "sounds": [
+                    {
+                        "hash": "8bd17ca560e4355c5f8988ac995aa105952e3b19",
+                        "name": "mob/bogged/death"
+                    }
+                ],
+                "subtitle": "Bogged dies",
+                "subtitle_key": "subtitles.entity.bogged.death"
+            }
+        ],
+        "entity.bogged.hurt": [
+            null,
+            {
+                "field": "cp",
+                "id": 171,
+                "name": "entity.bogged.hurt",
+                "sounds": [
+                    {
+                        "hash": "de88522690b70fe1765c2a043c771ea220b01b55",
+                        "name": "mob/bogged/hurt1"
+                    },
+                    {
+                        "hash": "eb94d6b07d96b35a034539bacbef956870fdeb71",
+                        "name": "mob/bogged/hurt2"
+                    },
+                    {
+                        "hash": "8d82ba7b46b05bdfae5d4d4e840d3782dc2c1398",
+                        "name": "mob/bogged/hurt3"
+                    },
+                    {
+                        "hash": "07f8691ee57050c62d6d1230c13f74f9fcad5dab",
+                        "name": "mob/bogged/hurt4"
+                    }
+                ],
+                "subtitle": "Bogged hurts",
+                "subtitle_key": "subtitles.entity.bogged.hurt"
+            }
+        ],
+        "entity.bogged.step": [
+            null,
+            {
+                "field": "cq",
+                "id": 172,
+                "name": "entity.bogged.step",
+                "sounds": [
+                    {
+                        "hash": "ede11b981f756a2c8a02f3e69618e06fc3ce3aa9",
+                        "name": "mob/bogged/step1"
+                    },
+                    {
+                        "hash": "9fa505d6126fe5b5faf7084bce5452afaa02668c",
+                        "name": "mob/bogged/step2"
+                    },
+                    {
+                        "hash": "4e7472536275a5afcfbc2496eb35929843b0c655",
+                        "name": "mob/bogged/step3"
+                    },
+                    {
+                        "hash": "e5dbbe6fb3a1f780f2685b3490d24da868262abb",
+                        "name": "mob/bogged/step4"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.parrot.imitate.bogged": [
+            null,
+            {
+                "field": "sm",
+                "id": 999,
+                "name": "entity.parrot.imitate.bogged",
+                "sounds": [
+                    {
+                        "name": "entity.bogged.ambient",
+                        "pitch": 1.7,
+                        "type": "event"
+                    }
+                ],
+                "subtitle": "Parrot rattles",
+                "subtitle_key": "subtitles.entity.parrot.imitate.bogged"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "blocks/does_not_block_hoppers": [
+            null,
+            {
+                "name": "does_not_block_hoppers",
+                "type": "blocks",
+                "values": [
+                    "minecraft:bee_nest",
+                    "minecraft:beehive"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            3815,
+            3817
+        ],
+        "id": [
+            "24w06a",
+            "24w07a"
+        ],
+        "name": [
+            "24w06a",
+            "24w07a"
+        ],
+        "protocol": [
+            1073742000,
+            1073742001
+        ]
+    }
+}
