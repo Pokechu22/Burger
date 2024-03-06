@@ -1,0 +1,64 @@
+{
+    "achievements": {},
+    "language": {
+        "arguments": {
+            "item.component.repeated": [
+                null,
+                "Item component '%s' was repeated, but only one value can be specified"
+            ]
+        },
+        "slot": {
+            "only_single_allowed": [
+                null,
+                "Only single slots allowed, got '%s'"
+            ]
+        }
+    },
+    "packets": {
+        "packet": {}
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "blocks/wolves_spawnable_on": [
+            {
+                "name": "wolves_spawnable_on",
+                "type": "blocks",
+                "values": [
+                    "minecraft:grass_block",
+                    "minecraft:snow",
+                    "minecraft:snow_block"
+                ]
+            },
+            {
+                "name": "wolves_spawnable_on",
+                "type": "blocks",
+                "values": [
+                    "minecraft:grass_block",
+                    "minecraft:snow",
+                    "minecraft:snow_block",
+                    "minecraft:coarse_dirt",
+                    "minecraft:podzol"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            3819,
+            3821
+        ],
+        "id": [
+            "24w09a",
+            "24w10a"
+        ],
+        "name": [
+            "24w09a",
+            "24w10a"
+        ],
+        "protocol": [
+            1073742002,
+            1073742003
+        ]
+    }
+}
