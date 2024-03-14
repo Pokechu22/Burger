@@ -1,0 +1,310 @@
+{
+    "achievements": {},
+    "language": {
+        "block": {
+            "minecraft.heavy_core": [
+                null,
+                "Heavy Core"
+            ]
+        },
+        "commands": {
+            "datapack.disable.failed.feature": [
+                null,
+                "Pack '%s' cannot be disabled, since it is part of an enabled flag!"
+            ]
+        },
+        "item": {
+            "minecraft.bolt_armor_trim_smithing_template": [
+                null,
+                "Smithing Template"
+            ],
+            "minecraft.breeze_rod": [
+                null,
+                "Breeze Rod"
+            ],
+            "minecraft.flow_armor_trim_smithing_template": [
+                null,
+                "Smithing Template"
+            ],
+            "minecraft.flow_banner_pattern": [
+                null,
+                "Banner Pattern"
+            ],
+            "minecraft.flow_banner_pattern.desc": [
+                null,
+                "Flow"
+            ],
+            "minecraft.flow_pottery_sherd": [
+                null,
+                "Flow Pottery Sherd"
+            ],
+            "minecraft.guster_banner_pattern": [
+                null,
+                "Banner Pattern"
+            ],
+            "minecraft.guster_banner_pattern.desc": [
+                null,
+                "Guster"
+            ],
+            "minecraft.guster_pottery_sherd": [
+                null,
+                "Guster Pottery Sherd"
+            ],
+            "minecraft.mace": [
+                null,
+                "Mace"
+            ],
+            "minecraft.scrape_pottery_sherd": [
+                null,
+                "Scrape Pottery Sherd"
+            ]
+        },
+        "mco": {
+            "configure.world.invites.normal.tooltip": [
+                "Normal user",
+                "Normal User"
+            ]
+        },
+        "options": {
+            "accessibility.menu_background_blurriness": [
+                "Menu Background Blurriness",
+                "Menu Background Blur"
+            ]
+        },
+        "subtitles": {
+            "item.mace.smash_air": [
+                null,
+                "Mace smashes"
+            ],
+            "item.mace.smash_ground": [
+                null,
+                "Mace smashes"
+            ]
+        },
+        "trim_pattern": {
+            "minecraft.bolt": [
+                null,
+                "Bolt Armor Trim"
+            ],
+            "minecraft.flow": [
+                null,
+                "Flow Armor Trim"
+            ]
+        }
+    },
+    "packets": {
+        "packet": {}
+    },
+    "sounds": {
+        "block.heavy_core.break": [
+            null,
+            {
+                "field": "lD",
+                "id": 653,
+                "name": "block.heavy_core.break",
+                "sounds": [
+                    {
+                        "hash": "a29251cdc7c577524079dfc850af830d058a6af1",
+                        "name": "block/heavy_core/break1"
+                    },
+                    {
+                        "hash": "bd6d8184b282408937f17485ed1b22ccca29b596",
+                        "name": "block/heavy_core/break2"
+                    },
+                    {
+                        "hash": "59cc8b47d9e893e6e329ae8477f3bcb7ef71166f",
+                        "name": "block/heavy_core/break3"
+                    },
+                    {
+                        "hash": "96a21a8fa4e8bbbdc2eaf3b720ffb9f9234b8c93",
+                        "name": "block/heavy_core/break4"
+                    }
+                ],
+                "subtitle": "Block broken",
+                "subtitle_key": "subtitles.block.generic.break"
+            }
+        ],
+        "block.heavy_core.fall": [
+            null,
+            {
+                "field": "lE",
+                "id": 654,
+                "name": "block.heavy_core.fall",
+                "sounds": [
+                    {
+                        "hash": "dc56f8df079d60537f0f80f5d3591978b57fc3e0",
+                        "name": "block/heavy_core/step1"
+                    },
+                    {
+                        "hash": "32fc1de73bff063b077720ab0c3065b9c03e8e83",
+                        "name": "block/heavy_core/step2"
+                    },
+                    {
+                        "hash": "e2205fc1d79fc56f27acbbea80bb9003179b4207",
+                        "name": "block/heavy_core/step3"
+                    },
+                    {
+                        "hash": "5803b4caae0b3e7895f6e7f7be0b2d0b4066a92f",
+                        "name": "block/heavy_core/step4"
+                    }
+                ]
+            }
+        ],
+        "block.heavy_core.hit": [
+            null,
+            {
+                "field": "lF",
+                "id": 655,
+                "name": "block.heavy_core.hit",
+                "sounds": [
+                    {
+                        "hash": "dc56f8df079d60537f0f80f5d3591978b57fc3e0",
+                        "name": "block/heavy_core/step1"
+                    },
+                    {
+                        "hash": "32fc1de73bff063b077720ab0c3065b9c03e8e83",
+                        "name": "block/heavy_core/step2"
+                    },
+                    {
+                        "hash": "e2205fc1d79fc56f27acbbea80bb9003179b4207",
+                        "name": "block/heavy_core/step3"
+                    },
+                    {
+                        "hash": "5803b4caae0b3e7895f6e7f7be0b2d0b4066a92f",
+                        "name": "block/heavy_core/step4"
+                    }
+                ],
+                "subtitle": "Block breaking",
+                "subtitle_key": "subtitles.block.generic.hit"
+            }
+        ],
+        "block.heavy_core.place": [
+            null,
+            {
+                "field": "lG",
+                "id": 656,
+                "name": "block.heavy_core.place",
+                "sounds": [
+                    {
+                        "hash": "a29251cdc7c577524079dfc850af830d058a6af1",
+                        "name": "block/heavy_core/break1"
+                    },
+                    {
+                        "hash": "bd6d8184b282408937f17485ed1b22ccca29b596",
+                        "name": "block/heavy_core/break2"
+                    },
+                    {
+                        "hash": "59cc8b47d9e893e6e329ae8477f3bcb7ef71166f",
+                        "name": "block/heavy_core/break3"
+                    },
+                    {
+                        "hash": "96a21a8fa4e8bbbdc2eaf3b720ffb9f9234b8c93",
+                        "name": "block/heavy_core/break4"
+                    }
+                ],
+                "subtitle": "Block placed",
+                "subtitle_key": "subtitles.block.generic.place"
+            }
+        ],
+        "block.heavy_core.step": [
+            null,
+            {
+                "field": "lH",
+                "id": 657,
+                "name": "block.heavy_core.step",
+                "sounds": [
+                    {
+                        "hash": "dc56f8df079d60537f0f80f5d3591978b57fc3e0",
+                        "name": "block/heavy_core/step1"
+                    },
+                    {
+                        "hash": "32fc1de73bff063b077720ab0c3065b9c03e8e83",
+                        "name": "block/heavy_core/step2"
+                    },
+                    {
+                        "hash": "e2205fc1d79fc56f27acbbea80bb9003179b4207",
+                        "name": "block/heavy_core/step3"
+                    },
+                    {
+                        "hash": "5803b4caae0b3e7895f6e7f7be0b2d0b4066a92f",
+                        "name": "block/heavy_core/step4"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "item.mace.smash_air": [
+            null,
+            {
+                "field": "oe",
+                "id": 783,
+                "name": "item.mace.smash_air",
+                "sounds": [
+                    {
+                        "hash": "dd201cdf56f5e3360380c2cdc3a21cc5c12ecfa6",
+                        "name": "item/mace/smash_air1"
+                    },
+                    {
+                        "hash": "a898059fce9481ea07fffd8dcab80b6087d684e7",
+                        "name": "item/mace/smash_air2"
+                    },
+                    {
+                        "hash": "54dcde12a230e188c268653a1def01aa2f63a124",
+                        "name": "item/mace/smash_air3"
+                    }
+                ],
+                "subtitle": "Mace smashes",
+                "subtitle_key": "subtitles:item.mace.smash_air"
+            }
+        ],
+        "item.mace.smash_ground": [
+            null,
+            {
+                "field": "of",
+                "id": 784,
+                "name": "item.mace.smash_ground",
+                "sounds": [
+                    {
+                        "hash": "88efd3b53d45f8cc6ae2ab39a414aa20d9760c46",
+                        "name": "item/mace/smash_ground1"
+                    },
+                    {
+                        "hash": "df4382620752d04c27e3f33be08bacc2fc89078c",
+                        "name": "item/mace/smash_ground2"
+                    },
+                    {
+                        "hash": "d761b39e2ae68753d68a3611c3d8efbf213e669a",
+                        "name": "item/mace/smash_ground3"
+                    },
+                    {
+                        "hash": "42409a52c41c8dee98159236a4fd98813f29bef6",
+                        "name": "item/mace/smash_ground4"
+                    }
+                ],
+                "subtitle": "Mace smashes",
+                "subtitle_key": "subtitles.item.mace.smash_ground"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            3821,
+            3823
+        ],
+        "id": [
+            "24w10a",
+            "24w11a"
+        ],
+        "name": [
+            "24w10a",
+            "24w11a"
+        ],
+        "protocol": [
+            1073742003,
+            1073742004
+        ]
+    }
+}
