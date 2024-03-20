@@ -1,0 +1,688 @@
+{
+    "achievements": {},
+    "language": {
+        "advancements": {
+            "adventure.blowback.description": [
+                null,
+                "Kill a Breeze with a deflected Breeze-shot Wind Charge"
+            ],
+            "adventure.blowback.title": [
+                null,
+                "Blowback"
+            ],
+            "adventure.crafters_crafting_crafters.description": [
+                null,
+                "Be near a Crafter when it crafts a Crafter"
+            ],
+            "adventure.crafters_crafting_crafters.title": [
+                null,
+                "Crafters Crafting Crafters"
+            ],
+            "adventure.lighten_up.description": [
+                null,
+                "Scrape a Copper Bulb with an Axe to make it brighter"
+            ],
+            "adventure.lighten_up.title": [
+                null,
+                "Lighten Up"
+            ],
+            "adventure.minecraft_trials_edition.description": [
+                null,
+                "Step foot in a Trial Chamber"
+            ],
+            "adventure.minecraft_trials_edition.title": [
+                null,
+                "Minecraft: Trial(s) Edition"
+            ],
+            "adventure.overoverkill.description": [
+                null,
+                "Deal 50 hearts of damage in a single hit using the Mace"
+            ],
+            "adventure.overoverkill.title": [
+                null,
+                "Over-Overkill"
+            ],
+            "adventure.under_lock_and_key.description": [
+                null,
+                "Use a Trial Key on a Vault"
+            ],
+            "adventure.under_lock_and_key.title": [
+                null,
+                "Under Lock and Key"
+            ],
+            "adventure.who_needs_rockets.description": [
+                null,
+                "Use a Wind Charge to launch yourself upward 7 blocks"
+            ],
+            "adventure.who_needs_rockets.title": [
+                null,
+                "Who Needs Rockets?"
+            ]
+        },
+        "argument": {
+            "resource_or_id.failed_to_parse": [
+                null,
+                "Failed to parse structure: %s"
+            ],
+            "resource_or_id.invalid": [
+                null,
+                "Invalid id or tag"
+            ]
+        },
+        "arguments": {
+            "item.predicate.malformed": [
+                null,
+                "Malformed '%s' predicate: '%s'"
+            ],
+            "item.predicate.unknown": [
+                null,
+                "Unknown item predicate '%s''"
+            ]
+        },
+        "filled_map": {
+            "trial_chambers": [
+                null,
+                "Trial Chambers Map"
+            ]
+        }
+    },
+    "packets": {
+        "packet": {}
+    },
+    "sounds": {
+        "item.mace.smash_ground_heavy": [
+            null,
+            {
+                "field": "og",
+                "id": 785,
+                "name": "item.mace.smash_ground_heavy",
+                "sounds": [
+                    {
+                        "hash": "6ffcfff22efc6ba726ed80d7891b1c6e707bed60",
+                        "name": "item/mace/smash_ground_heavy"
+                    }
+                ],
+                "subtitle": "Mace smashes",
+                "subtitle_key": "subtitles.item.mace.smash_ground"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "blocks/incorrect_for_diamond_tool": [
+            null,
+            {
+                "name": "incorrect_for_diamond_tool",
+                "type": "blocks",
+                "values": []
+            }
+        ],
+        "blocks/incorrect_for_gold_tool": [
+            null,
+            {
+                "name": "incorrect_for_gold_tool",
+                "type": "blocks",
+                "values": [
+                    "minecraft:obsidian",
+                    "minecraft:crying_obsidian",
+                    "minecraft:netherite_block",
+                    "minecraft:respawn_anchor",
+                    "minecraft:ancient_debris",
+                    "minecraft:diamond_block",
+                    "minecraft:diamond_ore",
+                    "minecraft:deepslate_diamond_ore",
+                    "minecraft:emerald_ore",
+                    "minecraft:deepslate_emerald_ore",
+                    "minecraft:emerald_block",
+                    "minecraft:gold_block",
+                    "minecraft:raw_gold_block",
+                    "minecraft:gold_ore",
+                    "minecraft:deepslate_gold_ore",
+                    "minecraft:redstone_ore",
+                    "minecraft:deepslate_redstone_ore",
+                    "minecraft:iron_block",
+                    "minecraft:raw_iron_block",
+                    "minecraft:iron_ore",
+                    "minecraft:deepslate_iron_ore",
+                    "minecraft:lapis_block",
+                    "minecraft:lapis_ore",
+                    "minecraft:deepslate_lapis_ore",
+                    "minecraft:copper_block",
+                    "minecraft:raw_copper_block",
+                    "minecraft:copper_ore",
+                    "minecraft:deepslate_copper_ore",
+                    "minecraft:cut_copper_slab",
+                    "minecraft:cut_copper_stairs",
+                    "minecraft:cut_copper",
+                    "minecraft:weathered_copper",
+                    "minecraft:weathered_cut_copper_slab",
+                    "minecraft:weathered_cut_copper_stairs",
+                    "minecraft:weathered_cut_copper",
+                    "minecraft:oxidized_copper",
+                    "minecraft:oxidized_cut_copper_slab",
+                    "minecraft:oxidized_cut_copper_stairs",
+                    "minecraft:oxidized_cut_copper",
+                    "minecraft:exposed_copper",
+                    "minecraft:exposed_cut_copper_slab",
+                    "minecraft:exposed_cut_copper_stairs",
+                    "minecraft:exposed_cut_copper",
+                    "minecraft:waxed_copper_block",
+                    "minecraft:waxed_cut_copper_slab",
+                    "minecraft:waxed_cut_copper_stairs",
+                    "minecraft:waxed_cut_copper",
+                    "minecraft:waxed_weathered_copper",
+                    "minecraft:waxed_weathered_cut_copper_slab",
+                    "minecraft:waxed_weathered_cut_copper_stairs",
+                    "minecraft:waxed_weathered_cut_copper",
+                    "minecraft:waxed_exposed_copper",
+                    "minecraft:waxed_exposed_cut_copper_slab",
+                    "minecraft:waxed_exposed_cut_copper_stairs",
+                    "minecraft:waxed_exposed_cut_copper",
+                    "minecraft:waxed_oxidized_copper",
+                    "minecraft:waxed_oxidized_cut_copper_slab",
+                    "minecraft:waxed_oxidized_cut_copper_stairs",
+                    "minecraft:waxed_oxidized_cut_copper",
+                    "minecraft:lightning_rod"
+                ]
+            }
+        ],
+        "blocks/incorrect_for_iron_tool": [
+            null,
+            {
+                "name": "incorrect_for_iron_tool",
+                "type": "blocks",
+                "values": [
+                    "minecraft:obsidian",
+                    "minecraft:crying_obsidian",
+                    "minecraft:netherite_block",
+                    "minecraft:respawn_anchor",
+                    "minecraft:ancient_debris"
+                ]
+            }
+        ],
+        "blocks/incorrect_for_netherite_tool": [
+            null,
+            {
+                "name": "incorrect_for_netherite_tool",
+                "type": "blocks",
+                "values": []
+            }
+        ],
+        "blocks/incorrect_for_stone_tool": [
+            null,
+            {
+                "name": "incorrect_for_stone_tool",
+                "type": "blocks",
+                "values": [
+                    "minecraft:obsidian",
+                    "minecraft:crying_obsidian",
+                    "minecraft:netherite_block",
+                    "minecraft:respawn_anchor",
+                    "minecraft:ancient_debris",
+                    "minecraft:diamond_block",
+                    "minecraft:diamond_ore",
+                    "minecraft:deepslate_diamond_ore",
+                    "minecraft:emerald_ore",
+                    "minecraft:deepslate_emerald_ore",
+                    "minecraft:emerald_block",
+                    "minecraft:gold_block",
+                    "minecraft:raw_gold_block",
+                    "minecraft:gold_ore",
+                    "minecraft:deepslate_gold_ore",
+                    "minecraft:redstone_ore",
+                    "minecraft:deepslate_redstone_ore"
+                ]
+            }
+        ],
+        "blocks/incorrect_for_wooden_tool": [
+            null,
+            {
+                "name": "incorrect_for_wooden_tool",
+                "type": "blocks",
+                "values": [
+                    "minecraft:obsidian",
+                    "minecraft:crying_obsidian",
+                    "minecraft:netherite_block",
+                    "minecraft:respawn_anchor",
+                    "minecraft:ancient_debris",
+                    "minecraft:diamond_block",
+                    "minecraft:diamond_ore",
+                    "minecraft:deepslate_diamond_ore",
+                    "minecraft:emerald_ore",
+                    "minecraft:deepslate_emerald_ore",
+                    "minecraft:emerald_block",
+                    "minecraft:gold_block",
+                    "minecraft:raw_gold_block",
+                    "minecraft:gold_ore",
+                    "minecraft:deepslate_gold_ore",
+                    "minecraft:redstone_ore",
+                    "minecraft:deepslate_redstone_ore",
+                    "minecraft:iron_block",
+                    "minecraft:raw_iron_block",
+                    "minecraft:iron_ore",
+                    "minecraft:deepslate_iron_ore",
+                    "minecraft:lapis_block",
+                    "minecraft:lapis_ore",
+                    "minecraft:deepslate_lapis_ore",
+                    "minecraft:copper_block",
+                    "minecraft:raw_copper_block",
+                    "minecraft:copper_ore",
+                    "minecraft:deepslate_copper_ore",
+                    "minecraft:cut_copper_slab",
+                    "minecraft:cut_copper_stairs",
+                    "minecraft:cut_copper",
+                    "minecraft:weathered_copper",
+                    "minecraft:weathered_cut_copper_slab",
+                    "minecraft:weathered_cut_copper_stairs",
+                    "minecraft:weathered_cut_copper",
+                    "minecraft:oxidized_copper",
+                    "minecraft:oxidized_cut_copper_slab",
+                    "minecraft:oxidized_cut_copper_stairs",
+                    "minecraft:oxidized_cut_copper",
+                    "minecraft:exposed_copper",
+                    "minecraft:exposed_cut_copper_slab",
+                    "minecraft:exposed_cut_copper_stairs",
+                    "minecraft:exposed_cut_copper",
+                    "minecraft:waxed_copper_block",
+                    "minecraft:waxed_cut_copper_slab",
+                    "minecraft:waxed_cut_copper_stairs",
+                    "minecraft:waxed_cut_copper",
+                    "minecraft:waxed_weathered_copper",
+                    "minecraft:waxed_weathered_cut_copper_slab",
+                    "minecraft:waxed_weathered_cut_copper_stairs",
+                    "minecraft:waxed_weathered_cut_copper",
+                    "minecraft:waxed_exposed_copper",
+                    "minecraft:waxed_exposed_cut_copper_slab",
+                    "minecraft:waxed_exposed_cut_copper_stairs",
+                    "minecraft:waxed_exposed_cut_copper",
+                    "minecraft:waxed_oxidized_copper",
+                    "minecraft:waxed_oxidized_cut_copper_slab",
+                    "minecraft:waxed_oxidized_cut_copper_stairs",
+                    "minecraft:waxed_oxidized_cut_copper",
+                    "minecraft:lightning_rod"
+                ]
+            }
+        ],
+        "entity_types/sensitive_to_smite": [
+            null,
+            {
+                "name": "sensitive_to_smite",
+                "type": "entity_types",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "items/armadillo_food": [
+            null,
+            {
+                "name": "armadillo_food",
+                "type": "items",
+                "values": [
+                    "minecraft:spider_eye"
+                ]
+            }
+        ],
+        "items/axolotl_food": [
+            null,
+            {
+                "name": "axolotl_food",
+                "type": "items",
+                "values": [
+                    "minecraft:tropical_fish_bucket"
+                ]
+            }
+        ],
+        "items/axolotl_tempt_items": [
+            {
+                "name": "axolotl_tempt_items",
+                "type": "items",
+                "values": [
+                    "minecraft:tropical_fish_bucket"
+                ]
+            },
+            null
+        ],
+        "items/bee_food": [
+            null,
+            {
+                "name": "bee_food",
+                "type": "items",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            }
+        ],
+        "items/camel_food": [
+            null,
+            {
+                "name": "camel_food",
+                "type": "items",
+                "values": [
+                    "minecraft:cactus"
+                ]
+            }
+        ],
+        "items/cat_food": [
+            null,
+            {
+                "name": "cat_food",
+                "type": "items",
+                "values": [
+                    "minecraft:cod",
+                    "minecraft:salmon"
+                ]
+            }
+        ],
+        "items/chicken_food": [
+            null,
+            {
+                "name": "chicken_food",
+                "type": "items",
+                "values": [
+                    "minecraft:wheat_seeds",
+                    "minecraft:melon_seeds",
+                    "minecraft:pumpkin_seeds",
+                    "minecraft:beetroot_seeds",
+                    "minecraft:torchflower_seeds",
+                    "minecraft:pitcher_pod"
+                ]
+            }
+        ],
+        "items/cow_food": [
+            null,
+            {
+                "name": "cow_food",
+                "type": "items",
+                "values": [
+                    "minecraft:wheat"
+                ]
+            }
+        ],
+        "items/frog_food": [
+            null,
+            {
+                "name": "frog_food",
+                "type": "items",
+                "values": [
+                    "minecraft:slime_ball"
+                ]
+            }
+        ],
+        "items/goat_food": [
+            null,
+            {
+                "name": "goat_food",
+                "type": "items",
+                "values": [
+                    "minecraft:wheat"
+                ]
+            }
+        ],
+        "items/hoglin_food": [
+            null,
+            {
+                "name": "hoglin_food",
+                "type": "items",
+                "values": [
+                    "minecraft:crimson_fungus"
+                ]
+            }
+        ],
+        "items/horse_food": [
+            null,
+            {
+                "name": "horse_food",
+                "type": "items",
+                "values": [
+                    "minecraft:wheat",
+                    "minecraft:sugar",
+                    "minecraft:hay_block",
+                    "minecraft:apple",
+                    "minecraft:golden_carrot",
+                    "minecraft:golden_apple",
+                    "minecraft:enchanted_golden_apple"
+                ]
+            }
+        ],
+        "items/horse_tempt_items": [
+            null,
+            {
+                "name": "horse_tempt_items",
+                "type": "items",
+                "values": [
+                    "minecraft:golden_carrot",
+                    "minecraft:golden_apple",
+                    "minecraft:enchanted_golden_apple"
+                ]
+            }
+        ],
+        "items/llama_food": [
+            null,
+            {
+                "name": "llama_food",
+                "type": "items",
+                "values": [
+                    "minecraft:wheat",
+                    "minecraft:hay_block"
+                ]
+            }
+        ],
+        "items/llama_tempt_items": [
+            null,
+            {
+                "name": "llama_tempt_items",
+                "type": "items",
+                "values": [
+                    "minecraft:hay_block"
+                ]
+            }
+        ],
+        "items/meat": [
+            null,
+            {
+                "name": "meat",
+                "type": "items",
+                "values": [
+                    "minecraft:beef",
+                    "minecraft:chicken",
+                    "minecraft:cooked_beef",
+                    "minecraft:cooked_chicken",
+                    "minecraft:cooked_mutton",
+                    "minecraft:cooked_porkchop",
+                    "minecraft:cooked_rabbit",
+                    "minecraft:mutton",
+                    "minecraft:porkchop",
+                    "minecraft:rabbit",
+                    "minecraft:rotten_flesh"
+                ]
+            }
+        ],
+        "items/ocelot_food": [
+            null,
+            {
+                "name": "ocelot_food",
+                "type": "items",
+                "values": [
+                    "minecraft:cod",
+                    "minecraft:salmon"
+                ]
+            }
+        ],
+        "items/panda_food": [
+            null,
+            {
+                "name": "panda_food",
+                "type": "items",
+                "values": [
+                    "minecraft:bamboo"
+                ]
+            }
+        ],
+        "items/parrot_food": [
+            null,
+            {
+                "name": "parrot_food",
+                "type": "items",
+                "values": [
+                    "minecraft:wheat_seeds",
+                    "minecraft:melon_seeds",
+                    "minecraft:pumpkin_seeds",
+                    "minecraft:beetroot_seeds",
+                    "minecraft:torchflower_seeds",
+                    "minecraft:pitcher_pod"
+                ]
+            }
+        ],
+        "items/parrot_poisonous_food": [
+            null,
+            {
+                "name": "parrot_poisonous_food",
+                "type": "items",
+                "values": [
+                    "minecraft:carrot"
+                ]
+            }
+        ],
+        "items/pig_food": [
+            null,
+            {
+                "name": "pig_food",
+                "type": "items",
+                "values": [
+                    "minecraft:carrot",
+                    "minecraft:potato",
+                    "minecraft:beetroot"
+                ]
+            }
+        ],
+        "items/rabbit_food": [
+            null,
+            {
+                "name": "rabbit_food",
+                "type": "items",
+                "values": [
+                    "minecraft:carrot",
+                    "minecraft:golden_carrot",
+                    "minecraft:dandelion"
+                ]
+            }
+        ],
+        "items/sheep_food": [
+            null,
+            {
+                "name": "sheep_food",
+                "type": "items",
+                "values": [
+                    "minecraft:wheat"
+                ]
+            }
+        ],
+        "items/strider_food": [
+            null,
+            {
+                "name": "strider_food",
+                "type": "items",
+                "values": [
+                    "minecraft:warped_fungus"
+                ]
+            }
+        ],
+        "items/strider_tempt_items": [
+            null,
+            {
+                "name": "strider_tempt_items",
+                "type": "items",
+                "values": [
+                    "minecraft:warped_fungus",
+                    "minecraft:warped_fungus_on_a_stick"
+                ]
+            }
+        ],
+        "items/turtle_food": [
+            null,
+            {
+                "name": "turtle_food",
+                "type": "items",
+                "values": [
+                    "minecraft:seagrass"
+                ]
+            }
+        ],
+        "items/wolf_food": [
+            null,
+            {
+                "name": "wolf_food",
+                "type": "items",
+                "values": [
+                    "minecraft:beef",
+                    "minecraft:chicken",
+                    "minecraft:cooked_beef",
+                    "minecraft:cooked_chicken",
+                    "minecraft:cooked_mutton",
+                    "minecraft:cooked_porkchop",
+                    "minecraft:cooked_rabbit",
+                    "minecraft:mutton",
+                    "minecraft:porkchop",
+                    "minecraft:rabbit",
+                    "minecraft:rotten_flesh"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            3823,
+            3824
+        ],
+        "id": [
+            "24w11a",
+            "24w12a"
+        ],
+        "name": [
+            "24w11a",
+            "24w12a"
+        ],
+        "protocol": [
+            1073742004,
+            1073742005
+        ]
+    }
+}
