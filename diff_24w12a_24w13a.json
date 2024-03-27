@@ -1,0 +1,672 @@
+{
+    "achievements": {},
+    "language": {
+        "advancements": {
+            "adventure.under_lock_and_key.description": [
+                "Use a Trial Key on a Vault",
+                "Unlock a Vault with a Trial Key"
+            ],
+            "adventure.who_needs_rockets.description": [
+                "Use a Wind Charge to launch yourself upward 7 blocks",
+                "Use a Wind Charge to launch yourself upward 8 blocks"
+            ]
+        },
+        "chat": {
+            "disabled.invalid_command_signature": [
+                null,
+                "Command had unexpected or missing command argument signatures."
+            ],
+            "disabled.invalid_signature": [
+                null,
+                "Chat had an invalid signature. Please try reconnecting."
+            ],
+            "disabled.out_of_order_chat": [
+                null,
+                "Chat received out-of-order. Did your system time change?"
+            ]
+        },
+        "effect": {
+            "minecraft.infested": [
+                null,
+                "Infested"
+            ],
+            "minecraft.oozing": [
+                null,
+                "Oozing"
+            ],
+            "minecraft.raid_omen": [
+                null,
+                "Raid Omen"
+            ],
+            "minecraft.trial_omen": [
+                null,
+                "Trial Omen"
+            ],
+            "minecraft.weaving": [
+                null,
+                "Weaving"
+            ],
+            "minecraft.wind_charged": [
+                null,
+                "Wind Charged"
+            ]
+        },
+        "enchantment": {
+            "minecraft.breach": [
+                null,
+                "Breach"
+            ],
+            "minecraft.density": [
+                null,
+                "Density"
+            ],
+            "minecraft.wind_burst": [
+                null,
+                "Wind Burst"
+            ]
+        },
+        "entity": {
+            "minecraft.ominous_item_spawner": [
+                null,
+                "Ominous Item Spawner"
+            ]
+        },
+        "item": {
+            "minecraft.lingering_potion.effect.infested": [
+                null,
+                "Lingering Potion of Infestation"
+            ],
+            "minecraft.lingering_potion.effect.oozing": [
+                null,
+                "Lingering Potion of Oozing"
+            ],
+            "minecraft.lingering_potion.effect.weaving": [
+                null,
+                "Lingering Potion of Weaving"
+            ],
+            "minecraft.lingering_potion.effect.wind_charged": [
+                null,
+                "Lingering Potion of Wind Charging"
+            ],
+            "minecraft.ominous_bottle": [
+                null,
+                "Ominous Bottle"
+            ],
+            "minecraft.ominous_trial_key": [
+                null,
+                "Ominous Trial Key"
+            ],
+            "minecraft.potion.effect.infested": [
+                null,
+                "Potion of Infestation"
+            ],
+            "minecraft.potion.effect.oozing": [
+                null,
+                "Potion of Oozing"
+            ],
+            "minecraft.potion.effect.weaving": [
+                null,
+                "Potion of Weaving"
+            ],
+            "minecraft.potion.effect.wind_charged": [
+                null,
+                "Potion of Wind Charging"
+            ],
+            "minecraft.splash_potion.effect.infested": [
+                null,
+                "Splash Potion of Infestation"
+            ],
+            "minecraft.splash_potion.effect.oozing": [
+                null,
+                "Splash Potion of Oozing"
+            ],
+            "minecraft.splash_potion.effect.weaving": [
+                null,
+                "Splash Potion of Weaving"
+            ],
+            "minecraft.splash_potion.effect.wind_charged": [
+                null,
+                "Splash Potion of Wind Charging"
+            ],
+            "minecraft.tipped_arrow.effect.infested": [
+                null,
+                "Arrow of Infestation"
+            ],
+            "minecraft.tipped_arrow.effect.oozing": [
+                null,
+                "Arrow of Oozing"
+            ],
+            "minecraft.tipped_arrow.effect.weaving": [
+                null,
+                "Arrow of Weaving"
+            ],
+            "minecraft.tipped_arrow.effect.wind_charged": [
+                null,
+                "Arrow of Wind Charging"
+            ]
+        },
+        "options": {
+            "telemetry.disabled": [
+                null,
+                "Telemetry is disabled."
+            ]
+        },
+        "subtitles": {
+            "block.trial_spawner.about_to_spawn_item": [
+                null,
+                "Ominous item prepares"
+            ],
+            "block.trial_spawner.ambient_charged": [
+                null,
+                "Ominous Trial Spawner crackles"
+            ],
+            "block.trial_spawner.charge_activate": [
+                null,
+                "Omen engulfs Trial Spawner"
+            ],
+            "block.trial_spawner.spawn_item": [
+                null,
+                "Ominous item drops"
+            ],
+            "block.trial_spawner.spawn_item_begin": [
+                null,
+                "Ominous item appears"
+            ],
+            "event.mob_effect.bad_omen": [
+                null,
+                "Omen takes hold"
+            ],
+            "event.mob_effect.raid_omen": [
+                null,
+                "Raid looms nearby"
+            ],
+            "event.mob_effect.trial_omen": [
+                null,
+                "Ominous trial looms nearby"
+            ],
+            "item.ominous_bottle.dispose": [
+                null,
+                "Bottle breaks"
+            ]
+        }
+    },
+    "packets": {
+        "packet": {
+            "PLAY_SERVERBOUND_chat_command": [
+                {
+                    "class": "agf.class",
+                    "direction": "SERVERBOUND",
+                    "from_client": true,
+                    "from_server": false,
+                    "id": -1,
+                    "state": "PLAY"
+                },
+                {
+                    "class": "agj.class",
+                    "direction": "SERVERBOUND",
+                    "from_client": true,
+                    "from_server": false,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "length": "256",
+                            "operation": "write",
+                            "type": "string"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ],
+            "PLAY_SERVERBOUND_chat_command_signed": [
+                null,
+                {
+                    "class": "agk.class",
+                    "direction": "SERVERBOUND",
+                    "from_client": true,
+                    "from_server": false,
+                    "id": -1,
+                    "state": "PLAY"
+                }
+            ]
+        }
+    },
+    "sounds": {
+        "block.cobweb.break": [
+            null,
+            {
+                "field": "fi",
+                "id": 320,
+                "name": "block.cobweb.break",
+                "sounds": [
+                    {
+                        "hash": "dc9fca5c84d47e4de613cb3f90ef6369ab070b11",
+                        "name": "block/cobweb/break1"
+                    },
+                    {
+                        "hash": "2ee314ed953458720e3163bccb97b88f08649f52",
+                        "name": "block/cobweb/break2"
+                    },
+                    {
+                        "hash": "14a69acea92b011aefde17452179a290815de170",
+                        "name": "block/cobweb/break3"
+                    },
+                    {
+                        "hash": "df58a02eab54f8105c40ee6f97b698c2ff203462",
+                        "name": "block/cobweb/break4"
+                    },
+                    {
+                        "hash": "421214a72c9a67bf92f66a26d78f058a39f57a4c",
+                        "name": "block/cobweb/break5"
+                    },
+                    {
+                        "hash": "5a01ef120c2b29f2f4bfabc5febf25fbe38620bc",
+                        "name": "block/cobweb/break6"
+                    }
+                ],
+                "subtitle": "Block broken",
+                "subtitle_key": "subtitles.block.generic.break"
+            }
+        ],
+        "block.cobweb.fall": [
+            null,
+            {
+                "field": "fm",
+                "id": 324,
+                "name": "block.cobweb.fall",
+                "sounds": [
+                    {
+                        "hash": "5c4ae57d8ff29ed4adfc3f5f5b2a685acc41d168",
+                        "name": "block/cobweb/step1"
+                    },
+                    {
+                        "hash": "70a56b0f1157165689343b2307b67bc973716cd8",
+                        "name": "block/cobweb/step2"
+                    },
+                    {
+                        "hash": "fe0338d5ad76a7f122ea4736c14d6150e4de4a8e",
+                        "name": "block/cobweb/step3"
+                    },
+                    {
+                        "hash": "1652eefa61aa315e59b608188343417c3e303ebb",
+                        "name": "block/cobweb/step4"
+                    },
+                    {
+                        "hash": "54bec018a6299995d114c41638fbf90dab400102",
+                        "name": "block/cobweb/step5"
+                    },
+                    {
+                        "hash": "d87f3255f33071b4dc131e4e5bcfd0394db82b17",
+                        "name": "block/cobweb/step6"
+                    }
+                ]
+            }
+        ],
+        "block.cobweb.hit": [
+            null,
+            {
+                "field": "fl",
+                "id": 323,
+                "name": "block.cobweb.hit",
+                "sounds": [
+                    {
+                        "hash": "5c4ae57d8ff29ed4adfc3f5f5b2a685acc41d168",
+                        "name": "block/cobweb/step1"
+                    },
+                    {
+                        "hash": "70a56b0f1157165689343b2307b67bc973716cd8",
+                        "name": "block/cobweb/step2"
+                    },
+                    {
+                        "hash": "fe0338d5ad76a7f122ea4736c14d6150e4de4a8e",
+                        "name": "block/cobweb/step3"
+                    },
+                    {
+                        "hash": "1652eefa61aa315e59b608188343417c3e303ebb",
+                        "name": "block/cobweb/step4"
+                    },
+                    {
+                        "hash": "54bec018a6299995d114c41638fbf90dab400102",
+                        "name": "block/cobweb/step5"
+                    },
+                    {
+                        "hash": "d87f3255f33071b4dc131e4e5bcfd0394db82b17",
+                        "name": "block/cobweb/step6"
+                    }
+                ],
+                "subtitle": "Block breaking",
+                "subtitle_key": "subtitles.block.generic.hit"
+            }
+        ],
+        "block.cobweb.place": [
+            null,
+            {
+                "field": "fk",
+                "id": 322,
+                "name": "block.cobweb.place",
+                "sounds": [
+                    {
+                        "hash": "dc9fca5c84d47e4de613cb3f90ef6369ab070b11",
+                        "name": "block/cobweb/break1"
+                    },
+                    {
+                        "hash": "2ee314ed953458720e3163bccb97b88f08649f52",
+                        "name": "block/cobweb/break2"
+                    },
+                    {
+                        "hash": "14a69acea92b011aefde17452179a290815de170",
+                        "name": "block/cobweb/break3"
+                    },
+                    {
+                        "hash": "df58a02eab54f8105c40ee6f97b698c2ff203462",
+                        "name": "block/cobweb/break4"
+                    },
+                    {
+                        "hash": "421214a72c9a67bf92f66a26d78f058a39f57a4c",
+                        "name": "block/cobweb/break5"
+                    },
+                    {
+                        "hash": "5a01ef120c2b29f2f4bfabc5febf25fbe38620bc",
+                        "name": "block/cobweb/break6"
+                    }
+                ],
+                "subtitle": "Block placed",
+                "subtitle_key": "subtitles.block.generic.place"
+            }
+        ],
+        "block.cobweb.step": [
+            null,
+            {
+                "field": "fj",
+                "id": 321,
+                "name": "block.cobweb.step",
+                "sounds": [
+                    {
+                        "hash": "5c4ae57d8ff29ed4adfc3f5f5b2a685acc41d168",
+                        "name": "block/cobweb/step1"
+                    },
+                    {
+                        "hash": "70a56b0f1157165689343b2307b67bc973716cd8",
+                        "name": "block/cobweb/step2"
+                    },
+                    {
+                        "hash": "fe0338d5ad76a7f122ea4736c14d6150e4de4a8e",
+                        "name": "block/cobweb/step3"
+                    },
+                    {
+                        "hash": "1652eefa61aa315e59b608188343417c3e303ebb",
+                        "name": "block/cobweb/step4"
+                    },
+                    {
+                        "hash": "54bec018a6299995d114c41638fbf90dab400102",
+                        "name": "block/cobweb/step5"
+                    },
+                    {
+                        "hash": "d87f3255f33071b4dc131e4e5bcfd0394db82b17",
+                        "name": "block/cobweb/step6"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "block.trial_spawner.about_to_spawn_item": [
+            null,
+            {
+                "field": "md",
+                "id": 679,
+                "name": "block.trial_spawner.about_to_spawn_item",
+                "sounds": [
+                    {
+                        "hash": "ef5d4c64b62a616a2556e24714cf919603205b2f",
+                        "name": "block/trial_spawner/about_to_spawn_item"
+                    }
+                ],
+                "subtitle": "Ominous item prepares",
+                "subtitle_key": "subtitles.block.trial_spawner.about_to_spawn_item"
+            }
+        ],
+        "block.trial_spawner.ambient_charged": [
+            null,
+            {
+                "field": "mj",
+                "id": 685,
+                "name": "block.trial_spawner.ambient_charged",
+                "sounds": [
+                    {
+                        "hash": "e245e3d5d274a89eb77aadffaa15e0345facc2f9",
+                        "name": "block/trial_spawner/ambient_charged1"
+                    },
+                    {
+                        "hash": "a9d3c0fac2eb23857da0f0739962dd525520f9e4",
+                        "name": "block/trial_spawner/ambient_charged2"
+                    },
+                    {
+                        "hash": "93328c26123ec8d2f88545b91cdc5aa12cdf2c32",
+                        "name": "block/trial_spawner/ambient_charged3"
+                    },
+                    {
+                        "hash": "93e96d9dfcbc4c0eab2c1576c8f2560b22d3558e",
+                        "name": "block/trial_spawner/ambient_charged4"
+                    },
+                    {
+                        "hash": "8f3010cc63c87674e82b487519dcad7eb6319553",
+                        "name": "block/trial_spawner/ambient_charged5"
+                    }
+                ],
+                "subtitle": "Ominous Trial Spawner crackles",
+                "subtitle_key": "subtitles.block.trial_spawner.ambient_charged"
+            }
+        ],
+        "block.trial_spawner.charge_activate": [
+            null,
+            {
+                "field": "mh",
+                "id": 683,
+                "name": "block.trial_spawner.charge_activate",
+                "sounds": [
+                    {
+                        "hash": "9889db33f5ea6e24c0aba9db8840f8ad93aa1ebf",
+                        "name": "block/trial_spawner/charge_activate"
+                    }
+                ],
+                "subtitle": "Omen engulfs Trial Spawner",
+                "subtitle_key": "subtitles.block.trial_spawner.charge_activate"
+            }
+        ],
+        "block.trial_spawner.spawn_item": [
+            null,
+            {
+                "field": "me",
+                "id": 680,
+                "name": "block.trial_spawner.spawn_item",
+                "sounds": [
+                    {
+                        "hash": "0c1d9fe6dbbed36a6b2a1fb90964babbe161bc22",
+                        "name": "block/trial_spawner/spawn_item1"
+                    },
+                    {
+                        "hash": "ac92c363a6204ea7a0f67f62ffac2984e434a80f",
+                        "name": "block/trial_spawner/spawn_item2"
+                    },
+                    {
+                        "hash": "149305e67306ba3a64a1f1a2a114b031c86c9eae",
+                        "name": "block/trial_spawner/spawn_item3"
+                    }
+                ],
+                "subtitle": "Ominous item drops",
+                "subtitle_key": "subtitles.block.trial_spawner.spawn_item"
+            }
+        ],
+        "block.trial_spawner.spawn_item_begin": [
+            null,
+            {
+                "field": "mf",
+                "id": 681,
+                "name": "block.trial_spawner.spawn_item_begin",
+                "sounds": [
+                    {
+                        "hash": "3c7b02d6f14374133a5547541abb204310cc7835",
+                        "name": "block/trial_spawner/spawn_item_begin1"
+                    },
+                    {
+                        "hash": "7f6352836fc2b50256a151e870f9471358d18163",
+                        "name": "block/trial_spawner/spawn_item_begin2"
+                    },
+                    {
+                        "hash": "2efe09834496f1b3a85de27b60e3e182778c5eee",
+                        "name": "block/trial_spawner/spawn_item_begin3"
+                    }
+                ],
+                "subtitle": "Ominous item appears",
+                "subtitle_key": "subtitles.block.trial_spawner.spawn_item_begin"
+            }
+        ],
+        "event.mob_effect.bad_omen": [
+            null,
+            {
+                "field": "DM",
+                "id": 1597,
+                "name": "event.mob_effect.bad_omen",
+                "sounds": [
+                    {
+                        "hash": "3570a3ed09c4792efa62df1b718504503dea922e",
+                        "name": "event/mob_effects/bad_omen"
+                    }
+                ],
+                "subtitle": "Omen takes hold",
+                "subtitle_key": "subtitles.event.mob_effect.bad_omen"
+            }
+        ],
+        "event.mob_effect.raid_omen": [
+            null,
+            {
+                "field": "DO",
+                "id": 1599,
+                "name": "event.mob_effect.raid_omen",
+                "sounds": [
+                    {
+                        "hash": "5ecbde420690a2ff111d3e3f476c4ab7e357928c",
+                        "name": "event/mob_effects/raid_omen"
+                    }
+                ],
+                "subtitle_key": "subtitles.event.mob_effects.raid_omen"
+            }
+        ],
+        "event.mob_effect.trial_omen": [
+            null,
+            {
+                "field": "DN",
+                "id": 1598,
+                "name": "event.mob_effect.trial_omen",
+                "sounds": [
+                    {
+                        "hash": "d3171448351e2d7cd8e6d0e391ad30cbedf1d51e",
+                        "name": "event/mob_effects/trial_omen"
+                    }
+                ],
+                "subtitle": "Ominous trial looms nearby",
+                "subtitle_key": "subtitles.event.mob_effect.trial_omen"
+            }
+        ],
+        "item.ominous_bottle.dispose": [
+            null,
+            {
+                "field": "so",
+                "id": 1001,
+                "name": "item.ominous_bottle.dispose",
+                "sounds": [
+                    {
+                        "hash": "07f255f6549ba27f469cb0a4477eb3f042a49f0b",
+                        "name": "item/ominous_bottle/dispose"
+                    }
+                ],
+                "subtitle": "Bottle breaks",
+                "subtitle_key": "subtitles.item.ominous_bottle.dispose"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "damage_type/is_player_attack": [
+            null,
+            {
+                "name": "is_player_attack",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:player_attack"
+                ]
+            }
+        ],
+        "items/enchantable/fire_aspect": [
+            null,
+            {
+                "name": "enchantable/fire_aspect",
+                "type": "items",
+                "values": [
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword"
+                ]
+            }
+        ],
+        "items/enchantable/sharp_weapon": [
+            null,
+            {
+                "name": "enchantable/sharp_weapon",
+                "type": "items",
+                "values": [
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe"
+                ]
+            }
+        ],
+        "items/parrot_poisonous_food": [
+            {
+                "name": "parrot_poisonous_food",
+                "type": "items",
+                "values": [
+                    "minecraft:carrot"
+                ]
+            },
+            {
+                "name": "parrot_poisonous_food",
+                "type": "items",
+                "values": [
+                    "minecraft:cookie"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            3824,
+            3826
+        ],
+        "id": [
+            "24w12a",
+            "24w13a"
+        ],
+        "name": [
+            "24w12a",
+            "24w13a"
+        ],
+        "protocol": [
+            1073742005,
+            1073742006
+        ]
+    }
+}
