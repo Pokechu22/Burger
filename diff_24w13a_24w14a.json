@@ -1,0 +1,62 @@
+{
+    "achievements": {},
+    "language": {},
+    "packets": {
+        "packet": {
+            "PLAY_CLIENTBOUND_projectile_power": [
+                null,
+                {
+                    "class": "adz.class",
+                    "direction": "CLIENTBOUND",
+                    "from_client": false,
+                    "from_server": true,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "c",
+                            "operation": "write",
+                            "type": "double"
+                        },
+                        {
+                            "field": "d",
+                            "operation": "write",
+                            "type": "double"
+                        },
+                        {
+                            "field": "e",
+                            "operation": "write",
+                            "type": "double"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            3826,
+            3827
+        ],
+        "id": [
+            "24w13a",
+            "24w14a"
+        ],
+        "name": [
+            "24w13a",
+            "24w14a"
+        ],
+        "protocol": [
+            1073742006,
+            1073742008
+        ]
+    }
+}
