@@ -1,0 +1,338 @@
+{
+    "achievements": {},
+    "language": {
+        "advancements": {
+            "adventure.brush_armadillo.description": [
+                null,
+                "Get Armadillo Scutes from an Armadillo using a Brush"
+            ],
+            "adventure.brush_armadillo.title": [
+                null,
+                "Isn't it Scute?"
+            ],
+            "adventure.revaulting.description": [
+                null,
+                "Unlock an Ominous Vault with an Ominous Trial Key"
+            ],
+            "adventure.revaulting.title": [
+                null,
+                "Revaulting"
+            ],
+            "husbandry.remove_wolf_armor.description": [
+                null,
+                "Remove Wolf Armor from a Wolf using Shears"
+            ],
+            "husbandry.remove_wolf_armor.title": [
+                null,
+                "Snip it!"
+            ],
+            "husbandry.repair_wolf_armor.description": [
+                null,
+                "Repair a damaged Wolf Armor using Armadillo Scutes"
+            ],
+            "husbandry.repair_wolf_armor.title": [
+                null,
+                "Good as New"
+            ],
+            "husbandry.whole_pack.description": [
+                null,
+                "Tame one of each Wolf variant"
+            ],
+            "husbandry.whole_pack.title": [
+                null,
+                "The Whole Pack"
+            ]
+        },
+        "arguments": {
+            "item.malformed": [
+                null,
+                "Malformed item: '%s'"
+            ]
+        },
+        "block": {
+            "minecraft.banner.flow.black": [
+                null,
+                "Black Flow"
+            ],
+            "minecraft.banner.flow.blue": [
+                null,
+                "Blue Flow"
+            ],
+            "minecraft.banner.flow.brown": [
+                null,
+                "Brown Flow"
+            ],
+            "minecraft.banner.flow.cyan": [
+                null,
+                "Cyan Flow"
+            ],
+            "minecraft.banner.flow.gray": [
+                null,
+                "Gray Flow"
+            ],
+            "minecraft.banner.flow.green": [
+                null,
+                "Green Flow"
+            ],
+            "minecraft.banner.flow.light_blue": [
+                null,
+                "Light Blue Flow"
+            ],
+            "minecraft.banner.flow.light_gray": [
+                null,
+                "Light Gray Flow"
+            ],
+            "minecraft.banner.flow.lime": [
+                null,
+                "Lime Flow"
+            ],
+            "minecraft.banner.flow.magenta": [
+                null,
+                "Magenta Flow"
+            ],
+            "minecraft.banner.flow.orange": [
+                null,
+                "Orange Flow"
+            ],
+            "minecraft.banner.flow.pink": [
+                null,
+                "Pink Flow"
+            ],
+            "minecraft.banner.flow.purple": [
+                null,
+                "Purple Flow"
+            ],
+            "minecraft.banner.flow.red": [
+                null,
+                "Red Flow"
+            ],
+            "minecraft.banner.flow.white": [
+                null,
+                "White Flow"
+            ],
+            "minecraft.banner.flow.yellow": [
+                null,
+                "Yellow Flow"
+            ],
+            "minecraft.banner.guster.black": [
+                null,
+                "Black Guster"
+            ],
+            "minecraft.banner.guster.blue": [
+                null,
+                "Blue Guster"
+            ],
+            "minecraft.banner.guster.brown": [
+                null,
+                "Brown Guster"
+            ],
+            "minecraft.banner.guster.cyan": [
+                null,
+                "Cyan Guster"
+            ],
+            "minecraft.banner.guster.gray": [
+                null,
+                "Gray Guster"
+            ],
+            "minecraft.banner.guster.green": [
+                null,
+                "Green Guster"
+            ],
+            "minecraft.banner.guster.light_blue": [
+                null,
+                "Light Blue Guster"
+            ],
+            "minecraft.banner.guster.light_gray": [
+                null,
+                "Light Gray Guster"
+            ],
+            "minecraft.banner.guster.lime": [
+                null,
+                "Lime Guster"
+            ],
+            "minecraft.banner.guster.magenta": [
+                null,
+                "Magenta Guster"
+            ],
+            "minecraft.banner.guster.orange": [
+                null,
+                "Orange Guster"
+            ],
+            "minecraft.banner.guster.pink": [
+                null,
+                "Pink Guster"
+            ],
+            "minecraft.banner.guster.purple": [
+                null,
+                "Purple Guster"
+            ],
+            "minecraft.banner.guster.red": [
+                null,
+                "Red Guster"
+            ],
+            "minecraft.banner.guster.white": [
+                null,
+                "White Guster"
+            ],
+            "minecraft.banner.guster.yellow": [
+                null,
+                "Yellow Guster"
+            ]
+        },
+        "particle": {
+            "invalidOptions": [
+                null,
+                "Can't parse particle options: %s"
+            ]
+        }
+    },
+    "packets": {
+        "packet": {
+            "PLAY_SERVERBOUND_set_creative_mode_slot": [
+                {
+                    "class": "ahu.class",
+                    "direction": "SERVERBOUND",
+                    "from_client": true,
+                    "from_server": false,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "varint"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "aii.class",
+                    "direction": "SERVERBOUND",
+                    "from_client": true,
+                    "from_server": false,
+                    "id": -1,
+                    "state": "PLAY"
+                }
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "enchantment/tooltip_order": [
+            null,
+            {
+                "name": "tooltip_order",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:binding_curse",
+                    "minecraft:vanishing_curse",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:frost_walker",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:impaling",
+                    "minecraft:power",
+                    "minecraft:piercing",
+                    "minecraft:sweeping_edge",
+                    "minecraft:multishot",
+                    "minecraft:fire_aspect",
+                    "minecraft:flame",
+                    "minecraft:knockback",
+                    "minecraft:punch",
+                    "minecraft:protection",
+                    "minecraft:blast_protection",
+                    "minecraft:fire_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:fortune",
+                    "minecraft:looting",
+                    "minecraft:silk_touch",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:efficiency",
+                    "minecraft:quick_charge",
+                    "minecraft:lure",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:soul_speed",
+                    "minecraft:swift_sneak",
+                    "minecraft:depth_strider",
+                    "minecraft:thorns",
+                    "minecraft:loyalty",
+                    "minecraft:unbreaking",
+                    "minecraft:infinity",
+                    "minecraft:mending"
+                ]
+            }
+        ],
+        "entity_types/punchable_projectiles": [
+            null,
+            {
+                "name": "punchable_projectiles",
+                "type": "entity_types",
+                "values": [
+                    "minecraft:fireball"
+                ]
+            }
+        ],
+        "items/tools": [
+            {
+                "name": "tools",
+                "type": "items",
+                "values": [
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:netherite_pickaxe",
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:stone_shovel",
+                    "minecraft:golden_shovel",
+                    "minecraft:netherite_shovel",
+                    "minecraft:wooden_shovel",
+                    "minecraft:iron_shovel",
+                    "minecraft:diamond_hoe",
+                    "minecraft:stone_hoe",
+                    "minecraft:golden_hoe",
+                    "minecraft:netherite_hoe",
+                    "minecraft:wooden_hoe",
+                    "minecraft:iron_hoe",
+                    "minecraft:trident"
+                ]
+            },
+            null
+        ]
+    },
+    "version": {
+        "data": [
+            3827,
+            3829
+        ],
+        "id": [
+            "24w14a",
+            "1.20.5-pre1"
+        ],
+        "name": [
+            "24w14a",
+            "1.20.5 Pre-Release 1"
+        ],
+        "protocol": [
+            1073742008,
+            1073742009
+        ]
+    }
+}
