@@ -1,0 +1,159 @@
+{
+    "achievements": {},
+    "language": {
+        "advancements": {
+            "adventure.brush_armadillo.title": [
+                "Isn't it Scute?",
+                "Isn't It Scute?"
+            ],
+            "husbandry.remove_wolf_armor.title": [
+                "Snip it!",
+                "Shear Brilliance"
+            ]
+        },
+        "argument": {
+            "message.too_long": [
+                null,
+                "Chat message was too long (%s > maximum %s characters)"
+            ]
+        },
+        "arguments": {
+            "item.predicate.unknown": [
+                "Unknown item predicate '%s''",
+                "Unknown item predicate '%s'"
+            ]
+        },
+        "disconnect": {
+            "packetError": [
+                null,
+                "Network Protocol Error"
+            ]
+        },
+        "mco": {
+            "configure.world.buttons.switchminigame": [
+                "Switch minigame",
+                "Switch Minigame"
+            ],
+            "minigame.world.changeButton": [
+                "Select another minigame",
+                "Select Another Minigame"
+            ],
+            "minigame.world.restore": [
+                "Ending minigame...",
+                "Ending Minigame..."
+            ],
+            "minigame.world.selected": [
+                "Selected minigame:",
+                "Selected Minigame:"
+            ],
+            "minigame.world.slot.screen.title": [
+                "Switching world...",
+                "Switching World..."
+            ],
+            "minigame.world.starting.screen.title": [
+                "Starting minigame...",
+                "Starting Minigame..."
+            ],
+            "minigame.world.stopButton": [
+                "End minigame",
+                "End Minigame"
+            ],
+            "minigame.world.switch.title": [
+                "Switch minigame",
+                "Switch Minigame"
+            ],
+            "minigame.world.title": [
+                "Switch realm to minigame",
+                "Switch Realm to Minigame"
+            ]
+        }
+    },
+    "packets": {
+        "packet": {
+            "PLAY_SERVERBOUND_chat_command": [
+                {
+                    "class": "agy.class",
+                    "direction": "SERVERBOUND",
+                    "from_client": true,
+                    "from_server": false,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "length": "256",
+                            "operation": "write",
+                            "type": "string"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "ahb.class",
+                    "direction": "SERVERBOUND",
+                    "from_client": true,
+                    "from_server": false,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "string"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ],
+            "PLAY_SERVERBOUND_container_button_click": [
+                {
+                    "class": "ahg.class",
+                    "direction": "SERVERBOUND",
+                    "from_client": true,
+                    "from_server": false,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "byte"
+                        },
+                        {
+                            "field": "c",
+                            "operation": "write",
+                            "type": "byte"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "ahj.class",
+                    "direction": "SERVERBOUND",
+                    "from_client": true,
+                    "from_server": false,
+                    "id": -1,
+                    "state": "PLAY"
+                }
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            3829,
+            3830
+        ],
+        "id": [
+            "1.20.5-pre1",
+            "1.20.5-pre2"
+        ],
+        "name": [
+            "1.20.5 Pre-Release 1",
+            "1.20.5 Pre-Release 2"
+        ],
+        "protocol": [
+            1073742009,
+            1073742010
+        ]
+    }
+}
