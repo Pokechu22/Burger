@@ -1,0 +1,49 @@
+{
+    "achievements": {},
+    "language": {},
+    "packets": {
+        "packet": {}
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "entity_types/punchable_projectiles": [
+            {
+                "name": "punchable_projectiles",
+                "type": "entity_types",
+                "values": [
+                    "minecraft:fireball"
+                ]
+            },
+            null
+        ],
+        "entity_types/redirectable_projectile": [
+            null,
+            {
+                "name": "redirectable_projectile",
+                "type": "entity_types",
+                "values": [
+                    "minecraft:fireball"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            3830,
+            3831
+        ],
+        "id": [
+            "1.20.5-pre2",
+            "1.20.5-pre3"
+        ],
+        "name": [
+            "1.20.5 Pre-Release 2",
+            "1.20.5 Pre-Release 3"
+        ],
+        "protocol": [
+            1073742010,
+            1073742011
+        ]
+    }
+}
