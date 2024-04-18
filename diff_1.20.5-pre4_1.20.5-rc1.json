@@ -1,0 +1,28 @@
+{
+    "achievements": {},
+    "language": {},
+    "packets": {
+        "packet": {}
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            3832,
+            3834
+        ],
+        "id": [
+            "1.20.5-pre4",
+            "1.20.5-rc1"
+        ],
+        "name": [
+            "1.20.5 Pre-Release 4",
+            "1.20.5 Release Candidate 1"
+        ],
+        "protocol": [
+            1073742012,
+            1073742013
+        ]
+    }
+}
