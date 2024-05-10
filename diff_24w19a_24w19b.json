@@ -1,0 +1,31 @@
+{
+    "achievements": {},
+    "entities": {
+        "entity": {}
+    },
+    "language": {},
+    "packets": {
+        "packet": {}
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            3941,
+            3942
+        ],
+        "id": [
+            "24w19a",
+            "24w19b"
+        ],
+        "name": [
+            "24w19a",
+            "24w19b"
+        ],
+        "protocol": [
+            1073742018,
+            1073742019
+        ]
+    }
+}
