@@ -1,0 +1,99 @@
+{
+    "achievements": {},
+    "entities": {
+        "entity": {}
+    },
+    "language": {
+        "item": {
+            "modifiers.any": [
+                null,
+                "When equipped:"
+            ],
+            "modifiers.armor": [
+                null,
+                "When worn:"
+            ],
+            "modifiers.hand": [
+                null,
+                "When held:"
+            ]
+        }
+    },
+    "packets": {
+        "packet": {
+            "PLAY_SERVERBOUND_use_item": [
+                {
+                    "class": "ahy.class",
+                    "direction": "SERVERBOUND",
+                    "from_client": true,
+                    "from_server": false,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "enum"
+                        },
+                        {
+                            "field": "c",
+                            "operation": "write",
+                            "type": "varint"
+                        }
+                    ],
+                    "state": "PLAY"
+                },
+                {
+                    "class": "ahy.class",
+                    "direction": "SERVERBOUND",
+                    "from_client": true,
+                    "from_server": false,
+                    "id": -1,
+                    "instructions": [
+                        {
+                            "field": "b",
+                            "operation": "write",
+                            "type": "enum"
+                        },
+                        {
+                            "field": "c",
+                            "operation": "write",
+                            "type": "varint"
+                        },
+                        {
+                            "field": "d",
+                            "operation": "write",
+                            "type": "float"
+                        },
+                        {
+                            "field": "e",
+                            "operation": "write",
+                            "type": "float"
+                        }
+                    ],
+                    "state": "PLAY"
+                }
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            3942,
+            3944
+        ],
+        "id": [
+            "24w19b",
+            "24w20a"
+        ],
+        "name": [
+            "24w19b",
+            "24w20a"
+        ],
+        "protocol": [
+            1073742019,
+            1073742020
+        ]
+    }
+}
