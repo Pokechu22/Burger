@@ -1,0 +1,350 @@
+{
+    "achievements": {},
+    "entities": {
+        "entity": {}
+    },
+    "language": {
+        "argument": {
+            "entity.selector.nearestEntity": [
+                null,
+                "Nearest entity"
+            ]
+        },
+        "gamerule": {
+            "entitiesWithPassengersCanUsePortals": [
+                null,
+                "Entities with passengers can use portals"
+            ],
+            "entitiesWithPassengersCanUsePortals.description": [
+                null,
+                "Allow entities with passengers to teleport through nether portals, end portals and end gateways."
+            ]
+        },
+        "gui": {
+            "fileDropFailure.detail": [
+                null,
+                "Rejected %d files"
+            ],
+            "fileDropFailure.title": [
+                null,
+                "Failed to add files"
+            ],
+            "open_report_dir": [
+                null,
+                "Open Report Directory"
+            ],
+            "report_to_server": [
+                null,
+                "Report To Server"
+            ]
+        },
+        "jukebox_song": [
+            null,
+            {
+                "minecraft.11": "C418 - 11",
+                "minecraft.13": "C418 - 13",
+                "minecraft.5": "Samuel \u00c5berg - 5",
+                "minecraft.blocks": "C418 - blocks",
+                "minecraft.cat": "C418 - cat",
+                "minecraft.chirp": "C418 - chirp",
+                "minecraft.creator": "Lena Raine - Creator",
+                "minecraft.creator_music_box": "Lena Raine - Creator (Music Box)",
+                "minecraft.far": "C418 - far",
+                "minecraft.mall": "C418 - mall",
+                "minecraft.mellohi": "C418 - mellohi",
+                "minecraft.otherside": "Lena Raine - otherside",
+                "minecraft.pigstep": "Lena Raine - Pigstep",
+                "minecraft.precipice": "Aaron Cherof - Precipice",
+                "minecraft.relic": "Aaron Cherof - Relic",
+                "minecraft.stal": "C418 - stal",
+                "minecraft.strad": "C418 - strad",
+                "minecraft.wait": "C418 - wait",
+                "minecraft.ward": "C418 - ward"
+            }
+        ],
+        "known_server_link": [
+            null,
+            {
+                "report_bug": "Report Server Bug"
+            }
+        ],
+        "mco": {
+            "compatibility.upgrade.description": [
+                "This world was last played in version %s; you are on version %s.\n\nA backup of your world will be saved under \"World backups\". Please restore your world if needed.",
+                "This world was last played in version %s; you are on version %s.\n\nA backup of your world will be saved under \"World Backups\".\n\nPlease restore your world if needed."
+            ],
+            "compatibility.upgrade.friend.description": [
+                null,
+                "This world was last played in version %s; you are on version %s.\n\nA backup of the world will be saved under \"World Backups\".\n\nThe owner of the Realm can restore the world if needed."
+            ],
+            "compatibility.upgrade.title": [
+                "Do you really want to upgrade your world?",
+                "Do you really want to upgrade this world?"
+            ],
+            "configure.world.spawn_toggle.message": [
+                "Turning this option off will REMOVE ALL existing entities of that type",
+                "Turning this option off will remove all existing entities of that type"
+            ],
+            "configure.world.spawn_toggle.message.npc": [
+                "Turning this option off will REMOVE ALL existing entities of that type, like Villagers",
+                "Turning this option off will remove all existing entities of that type, like Villagers"
+            ],
+            "onlinePlayers": [
+                null,
+                "Online Players"
+            ]
+        },
+        "menu": {
+            "feedback": [
+                null,
+                "Feedback..."
+            ],
+            "feedback.title": [
+                null,
+                "Feedback"
+            ],
+            "server_links": [
+                null,
+                "Server Links..."
+            ],
+            "server_links.title": [
+                null,
+                "Server Links"
+            ]
+        },
+        "options": {
+            "realmsNotifications.tooltip": [
+                null,
+                "Fetches Realms news and invites in the title screen and displays their respective icon on the Realms button."
+            ]
+        },
+        "subtitles": {
+            "block.vault.reject_rewarded_player": [
+                null,
+                "Vault rejects already rewarded player"
+            ]
+        }
+    },
+    "sounds": {
+        "block.vault.reject_rewarded_player": [
+            null,
+            {
+                "field": "AG",
+                "id": 1435,
+                "name": "block.vault.reject_rewarded_player",
+                "sounds": [
+                    {
+                        "hash": "40b16b3beab7a29ce014d0d82d1747987d6847e4",
+                        "name": "block/vault/reject_rewarded_player"
+                    }
+                ],
+                "subtitle": "Vault rejects already rewarded player",
+                "subtitle_key": "subtitles.block.vault.reject_rewarded_player"
+            }
+        ],
+        "intentionally_empty": [
+            null,
+            {
+                "field": "qY",
+                "id": 933,
+                "name": "intentionally_empty"
+            }
+        ],
+        "minecraft:intentionally_empty": [
+            {
+                "field": "qY",
+                "id": 933,
+                "name": "minecraft:intentionally_empty"
+            },
+            null
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/air": [
+            null,
+            {
+                "name": "air",
+                "type": "block",
+                "values": [
+                    "minecraft:air",
+                    "minecraft:void_air",
+                    "minecraft:cave_air"
+                ]
+            }
+        ],
+        "damage_type/breeze_immune_to": [
+            {
+                "name": "breeze_immune_to",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:arrow",
+                    "minecraft:trident"
+                ]
+            },
+            null
+        ],
+        "damage_type/panic_causes": [
+            null,
+            {
+                "name": "panic_causes",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:cactus",
+                    "minecraft:freeze",
+                    "minecraft:hot_floor",
+                    "minecraft:in_fire",
+                    "minecraft:lava",
+                    "minecraft:lightning_bolt",
+                    "minecraft:on_fire",
+                    "minecraft:arrow",
+                    "minecraft:dragon_breath",
+                    "minecraft:explosion",
+                    "minecraft:fireball",
+                    "minecraft:fireworks",
+                    "minecraft:indirect_magic",
+                    "minecraft:magic",
+                    "minecraft:mob_attack",
+                    "minecraft:mob_projectile",
+                    "minecraft:player_attack",
+                    "minecraft:player_explosion",
+                    "minecraft:sonic_boom",
+                    "minecraft:sting",
+                    "minecraft:thrown",
+                    "minecraft:trident",
+                    "minecraft:unattributed_fireball",
+                    "minecraft:wind_charge",
+                    "minecraft:wither",
+                    "minecraft:wither_skull"
+                ]
+            }
+        ],
+        "damage_type/panic_environmental_causes": [
+            null,
+            {
+                "name": "panic_environmental_causes",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:cactus",
+                    "minecraft:freeze",
+                    "minecraft:hot_floor",
+                    "minecraft:in_fire",
+                    "minecraft:lava",
+                    "minecraft:lightning_bolt",
+                    "minecraft:on_fire"
+                ]
+            }
+        ],
+        "item/music_discs": [
+            {
+                "name": "music_discs",
+                "type": "item",
+                "values": [
+                    "minecraft:music_disc_13",
+                    "minecraft:music_disc_cat",
+                    "minecraft:music_disc_blocks",
+                    "minecraft:music_disc_chirp",
+                    "minecraft:music_disc_far",
+                    "minecraft:music_disc_mall",
+                    "minecraft:music_disc_mellohi",
+                    "minecraft:music_disc_stal",
+                    "minecraft:music_disc_strad",
+                    "minecraft:music_disc_ward",
+                    "minecraft:music_disc_11",
+                    "minecraft:music_disc_wait",
+                    "minecraft:music_disc_pigstep",
+                    "minecraft:music_disc_otherside",
+                    "minecraft:music_disc_5",
+                    "minecraft:music_disc_relic",
+                    "minecraft:music_disc_creator",
+                    "minecraft:music_disc_creator_music_box",
+                    "minecraft:music_disc_precipice"
+                ]
+            },
+            null
+        ],
+        "worldgen/biome/has_structure/trial_chambers": [
+            {
+                "name": "biome/has_structure/trial_chambers",
+                "type": "worldgen",
+                "values": []
+            },
+            {
+                "name": "biome/has_structure/trial_chambers",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:mushroom_fields",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:warm_ocean",
+                    "minecraft:stony_shore",
+                    "minecraft:swamp",
+                    "minecraft:mangrove_swamp",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_beach",
+                    "minecraft:windswept_gravelly_hills",
+                    "minecraft:grove",
+                    "minecraft:windswept_hills",
+                    "minecraft:snowy_taiga",
+                    "minecraft:windswept_forest",
+                    "minecraft:taiga",
+                    "minecraft:plains",
+                    "minecraft:meadow",
+                    "minecraft:beach",
+                    "minecraft:forest",
+                    "minecraft:old_growth_spruce_taiga",
+                    "minecraft:flower_forest",
+                    "minecraft:birch_forest",
+                    "minecraft:dark_forest",
+                    "minecraft:savanna_plateau",
+                    "minecraft:savanna",
+                    "minecraft:jungle",
+                    "minecraft:badlands",
+                    "minecraft:desert",
+                    "minecraft:wooded_badlands",
+                    "minecraft:jagged_peaks",
+                    "minecraft:stony_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:river",
+                    "minecraft:ice_spikes",
+                    "minecraft:old_growth_pine_taiga",
+                    "minecraft:sunflower_plains",
+                    "minecraft:old_growth_birch_forest",
+                    "minecraft:sparse_jungle",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:eroded_badlands",
+                    "minecraft:windswept_savanna",
+                    "minecraft:cherry_grove",
+                    "minecraft:frozen_peaks",
+                    "minecraft:dripstone_caves",
+                    "minecraft:lush_caves"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            3944,
+            3946
+        ],
+        "id": [
+            "24w20a",
+            "24w21a"
+        ],
+        "name": [
+            "24w20a",
+            "24w21a"
+        ],
+        "protocol": [
+            1073742020,
+            1073742021
+        ]
+    }
+}
