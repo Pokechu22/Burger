@@ -1,0 +1,278 @@
+{
+    "achievements": {},
+    "entities": {
+        "entity": {}
+    },
+    "language": {
+        "chat": {
+            "disabled.profile": [
+                "Chat not allowed by account settings. Press '%s' again for more information.",
+                "Chat is not allowed by account settings. Press '%s' again for more information."
+            ],
+            "disabled.profile.moreInfo": [
+                "Chat not allowed by account settings. Cannot send or view messages.",
+                "Chat is not allowed by account settings. Cannot send or view messages."
+            ]
+        },
+        "download": {
+            "pack.failed": [
+                "%s out of %s packs failed to download",
+                "%s out of %s pack(s) failed to download"
+            ]
+        },
+        "gamerule": {
+            "doVinesSpread.description": [
+                "Controls whether or not the Vines block spreads randomly to adjacent blocks. Does not affect other type of vine blocks such as Weeping Vines, Twisting Vines, etc.",
+                "Controls whether or not the Vines block spreads randomly to adjacent blocks. Does not affect other types of vine blocks such as Weeping Vines, Twisting Vines, etc."
+            ],
+            "enderPearlsVanishOnDeath": [
+                "Thrown ender pearls vanish on death",
+                "Thrown Ender Pearls vanish on death"
+            ],
+            "enderPearlsVanishOnDeath.description": [
+                "Whether ender pearls thrown by a player vanish when that player dies.",
+                "Whether Ender Pearls thrown by a player vanish when that player dies."
+            ],
+            "entitiesWithPassengersCanUsePortals.description": [
+                "Allow entities with passengers to teleport through nether portals, end portals and end gateways.",
+                "Allow entities with passengers to teleport through Nether Portals, End Portals, and End Gateways."
+            ]
+        },
+        "key": {
+            "swapOffhand": [
+                "Swap Item With Offhand",
+                "Swap Item With Off Hand"
+            ]
+        },
+        "known_server_link": {
+            "announcements": [
+                null,
+                "Announcements"
+            ],
+            "community": [
+                null,
+                "Community"
+            ],
+            "community_guidelines": [
+                null,
+                "Community Guidelines"
+            ],
+            "feedback": [
+                null,
+                "Feedback"
+            ],
+            "forums": [
+                null,
+                "Forums"
+            ],
+            "news": [
+                null,
+                "News"
+            ],
+            "status": [
+                null,
+                "Status"
+            ],
+            "support": [
+                null,
+                "Support"
+            ],
+            "website": [
+                null,
+                "Website"
+            ]
+        },
+        "mco": {
+            "compatibility.downgrade.description": [
+                "This world was last played in version %s; you are on version %s. Downgrading a world could cause corruption - we cannot guarantee that it will load or work.\n\nA backup of your world will be saved under \"World backups\". Please restore your world if needed.",
+                "This world was last played in version %s; you are on version %s. Downgrading a world could cause corruption - we cannot guarantee that it will load or work.\n\nA backup of your world will be saved under \"World Backups\". Please restore your world if needed."
+            ],
+            "compatibility.unverifiable.message": [
+                "The version this world was last played in could not be verified. If the world gets upgraded or downgraded, a backup will be automatically created and saved under \"World backups\".",
+                "The version this world was last played in could not be verified. If the world gets upgraded or downgraded, a backup will be automatically created and saved under \"World Backups\"."
+            ],
+            "notification.visitUrl.buttonText.default": [
+                "Open link",
+                "Open Link"
+            ]
+        },
+        "options": {
+            "accessibility.high_contrast.error.tooltip": [
+                "High Contrast resource pack is not available",
+                "High Contrast resource pack is not available."
+            ],
+            "accessibility.high_contrast.tooltip": [
+                "Enhances the contrast of UI elements",
+                "Enhances the contrast of UI elements."
+            ],
+            "accessibility.menu_background_blurriness.tooltip": [
+                "Changes the blurriness of menu backgrounds",
+                "Changes the blurriness of menu backgrounds."
+            ],
+            "accessibility.narrator_hotkey.mac.tooltip": [
+                "Allows the Narrator to be toggled on and off with 'Cmd+B'",
+                "Allows the Narrator to be toggled on and off with 'Cmd+B'."
+            ],
+            "accessibility.narrator_hotkey.tooltip": [
+                "Allows the Narrator to be toggled on and off with 'Ctrl+B'",
+                "Allows the Narrator to be toggled on and off with 'Ctrl+B'."
+            ],
+            "directionalAudio.off.tooltip": [
+                "Classic Stereo sound",
+                "Classic Stereo sound."
+            ],
+            "japaneseGlyphVariants.tooltip": [
+                "Uses Japanese variants of CJK characters in the default font",
+                "Uses Japanese variants of CJK characters in the default font."
+            ],
+            "modelPart.left_pants_leg": [
+                "Left Pants Leg",
+                "Left Pant Leg"
+            ],
+            "modelPart.right_pants_leg": [
+                "Right Pants Leg",
+                "Right Pant Leg"
+            ]
+        },
+        "selectWorld": {
+            "experimental.details.title": [
+                "Experimental feature requirements",
+                "Experimental Feature Requirements"
+            ]
+        },
+        "subtitles": {
+            "block.vault.insert_item_fail": [
+                "Vault fails unlocking",
+                "Vault rejects item"
+            ],
+            "block.vault.reject_rewarded_player": [
+                "Vault rejects already rewarded player",
+                "Vault rejects player"
+            ]
+        }
+    },
+    "sounds": {
+        "block.vault.insert_item_fail": [
+            {
+                "field": "AK",
+                "id": 1439,
+                "name": "block.vault.insert_item_fail",
+                "sounds": [
+                    {
+                        "hash": "54cb246bb63ad741d06c4cacb75d1b9f6a5bc2f1",
+                        "name": "block/vault/insert_fail"
+                    }
+                ],
+                "subtitle": "Vault fails unlocking",
+                "subtitle_key": "subtitles.block.vault.insert_item_fail"
+            },
+            {
+                "field": "AK",
+                "id": 1439,
+                "name": "block.vault.insert_item_fail",
+                "sounds": [
+                    {
+                        "hash": "54cb246bb63ad741d06c4cacb75d1b9f6a5bc2f1",
+                        "name": "block/vault/insert_fail"
+                    }
+                ],
+                "subtitle": "Vault rejects item",
+                "subtitle_key": "subtitles.block.vault.insert_item_fail"
+            }
+        ],
+        "block.vault.reject_rewarded_player": [
+            {
+                "field": "AG",
+                "id": 1435,
+                "name": "block.vault.reject_rewarded_player",
+                "sounds": [
+                    {
+                        "hash": "40b16b3beab7a29ce014d0d82d1747987d6847e4",
+                        "name": "block/vault/reject_rewarded_player"
+                    }
+                ],
+                "subtitle": "Vault rejects already rewarded player",
+                "subtitle_key": "subtitles.block.vault.reject_rewarded_player"
+            },
+            {
+                "field": "AG",
+                "id": 1435,
+                "name": "block.vault.reject_rewarded_player",
+                "sounds": [
+                    {
+                        "hash": "40b16b3beab7a29ce014d0d82d1747987d6847e4",
+                        "name": "block/vault/reject_rewarded_player"
+                    }
+                ],
+                "subtitle": "Vault rejects player",
+                "subtitle_key": "subtitles.block.vault.reject_rewarded_player"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/fire_aspect_lightable": [
+            {
+                "name": "fire_aspect_lightable",
+                "type": "block",
+                "values": [
+                    "minecraft:candle",
+                    "minecraft:white_candle",
+                    "minecraft:orange_candle",
+                    "minecraft:magenta_candle",
+                    "minecraft:light_blue_candle",
+                    "minecraft:yellow_candle",
+                    "minecraft:lime_candle",
+                    "minecraft:pink_candle",
+                    "minecraft:gray_candle",
+                    "minecraft:light_gray_candle",
+                    "minecraft:cyan_candle",
+                    "minecraft:purple_candle",
+                    "minecraft:blue_candle",
+                    "minecraft:brown_candle",
+                    "minecraft:green_candle",
+                    "minecraft:red_candle",
+                    "minecraft:black_candle",
+                    "minecraft:candle_cake",
+                    "minecraft:white_candle_cake",
+                    "minecraft:orange_candle_cake",
+                    "minecraft:magenta_candle_cake",
+                    "minecraft:light_blue_candle_cake",
+                    "minecraft:yellow_candle_cake",
+                    "minecraft:lime_candle_cake",
+                    "minecraft:pink_candle_cake",
+                    "minecraft:gray_candle_cake",
+                    "minecraft:light_gray_candle_cake",
+                    "minecraft:cyan_candle_cake",
+                    "minecraft:purple_candle_cake",
+                    "minecraft:blue_candle_cake",
+                    "minecraft:brown_candle_cake",
+                    "minecraft:green_candle_cake",
+                    "minecraft:red_candle_cake",
+                    "minecraft:black_candle_cake",
+                    "minecraft:campfire",
+                    "minecraft:soul_campfire"
+                ]
+            },
+            null
+        ]
+    },
+    "version": {
+        "data": [
+            3947,
+            3948
+        ],
+        "id": [
+            "24w21b",
+            "1.21-pre1"
+        ],
+        "name": [
+            "24w21b",
+            "1.21 Pre-Release 1"
+        ],
+        "protocol": [
+            1073742022,
+            1073742023
+        ]
+    }
+}
