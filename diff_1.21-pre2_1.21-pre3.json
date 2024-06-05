@@ -1,0 +1,28 @@
+{
+    "achievements": {},
+    "entities": {
+        "entity": {}
+    },
+    "language": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            3949,
+            3950
+        ],
+        "id": [
+            "1.21-pre2",
+            "1.21-pre3"
+        ],
+        "name": [
+            "1.21 Pre-Release 2",
+            "1.21 Pre-Release 3"
+        ],
+        "protocol": [
+            1073742024,
+            1073742025
+        ]
+    }
+}
