@@ -1,0 +1,28 @@
+{
+    "achievements": {},
+    "entities": {
+        "entity": {}
+    },
+    "language": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            3954,
+            3955
+        ],
+        "id": [
+            "1.21.1-rc1",
+            "1.21.1"
+        ],
+        "name": [
+            "1.21.1 Release Candidate 1",
+            "1.21.1"
+        ],
+        "protocol": [
+            1073742028,
+            767
+        ]
+    }
+}
