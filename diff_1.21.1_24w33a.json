@@ -1,0 +1,1578 @@
+{
+    "achievements": {},
+    "entities": {
+        "entity": {}
+    },
+    "language": {
+        "addServer": {
+            "hideAddress": [
+                "Hide Address",
+                null
+            ]
+        },
+        "advMode": {
+            "allEntities": [
+                "Use \"@e\" to target all entities",
+                null
+            ],
+            "allPlayers": [
+                "Use \"@a\" to target all players",
+                null
+            ],
+            "nearestPlayer": [
+                "Use \"@p\" to target nearest player",
+                null
+            ],
+            "randomPlayer": [
+                "Use \"@r\" to target random player",
+                null
+            ],
+            "self": [
+                "Use \"@s\" to target the executing entity",
+                null
+            ]
+        },
+        "advancements": {
+            "adventure.trim_with_any_armor_pattern.description": [
+                "Craft a trimmed armor at a Smithing Table",
+                "Craft trimmed armor at a Smithing Table"
+            ],
+            "husbandry.repair_wolf_armor.description": [
+                "Repair a damaged Wolf Armor using Armadillo Scutes",
+                "Fully repair damaged Wolf Armor using Armadillo Scutes"
+            ]
+        },
+        "attribute": {
+            "name.armor": [
+                null,
+                "Armor"
+            ],
+            "name.armor_toughness": [
+                null,
+                "Armor Toughness"
+            ],
+            "name.attack_damage": [
+                null,
+                "Attack Damage"
+            ],
+            "name.attack_knockback": [
+                null,
+                "Attack Knockback"
+            ],
+            "name.attack_speed": [
+                null,
+                "Attack Speed"
+            ],
+            "name.block_break_speed": [
+                null,
+                "Block Break Speed"
+            ],
+            "name.block_interaction_range": [
+                null,
+                "Block Interaction Range"
+            ],
+            "name.burning_time": [
+                null,
+                "Burning Time"
+            ],
+            "name.entity_interaction_range": [
+                null,
+                "Entity Interaction Range"
+            ],
+            "name.explosion_knockback_resistance": [
+                null,
+                "Explosion Knockback Resistance"
+            ],
+            "name.fall_damage_multiplier": [
+                null,
+                "Fall Damage Multiplier"
+            ],
+            "name.flying_speed": [
+                null,
+                "Flying Speed"
+            ],
+            "name.follow_range": [
+                null,
+                "Mob Follow Range"
+            ],
+            "name.gravity": [
+                null,
+                "Gravity"
+            ],
+            "name.jump_strength": [
+                null,
+                "Jump Strength"
+            ],
+            "name.knockback_resistance": [
+                null,
+                "Knockback Resistance"
+            ],
+            "name.luck": [
+                null,
+                "Luck"
+            ],
+            "name.max_absorption": [
+                null,
+                "Max Absorption"
+            ],
+            "name.max_health": [
+                null,
+                "Max Health"
+            ],
+            "name.mining_efficiency": [
+                null,
+                "Mining Efficiency"
+            ],
+            "name.movement_efficiency": [
+                null,
+                "Movement Efficiency"
+            ],
+            "name.movement_speed": [
+                null,
+                "Speed"
+            ],
+            "name.oxygen_bonus": [
+                null,
+                "Oxygen Bonus"
+            ],
+            "name.safe_fall_distance": [
+                null,
+                "Safe Fall Distance"
+            ],
+            "name.scale": [
+                null,
+                "Scale"
+            ],
+            "name.sneaking_speed": [
+                null,
+                "Sneaking Speed"
+            ],
+            "name.spawn_reinforcements": [
+                null,
+                "Zombie Reinforcements"
+            ],
+            "name.step_height": [
+                null,
+                "Step Height"
+            ],
+            "name.submerged_mining_speed": [
+                null,
+                "Submerged Mining Speed"
+            ],
+            "name.sweeping_damage_ratio": [
+                null,
+                "Sweeping Damage Ratio"
+            ],
+            "name.tempt_range": [
+                null,
+                "Mob Tempt Range"
+            ],
+            "name.water_movement_efficiency": [
+                null,
+                "Water Movement Efficiency"
+            ]
+        },
+        "chat": {
+            "queue": [
+                "[+%s pending lines]",
+                "[+%s pending line(s)]"
+            ]
+        },
+        "commands": {
+            "advancement.advancementNotFound": [
+                "No advancement was found by the name '%1$s'",
+                null
+            ],
+            "debug.stopped": [
+                "Stopped tick profiling after %s seconds and %s ticks (%s ticks per second)",
+                "Stopped tick profiling after %s second(s) and %s tick(s) (%s tick(s) per second)"
+            ],
+            "schedule.created.tag": [
+                "Scheduled tag '%s' in %s ticks at gametime %s",
+                "Scheduled tag '%s' in %s tick(s) at gametime %s"
+            ],
+            "schedule.macro": [
+                null,
+                "Can't schedule a macro"
+            ],
+            "setidletimeout.success.disabled": [
+                null,
+                "The player idle timeout is now disabled"
+            ],
+            "spreadplayers.success.entities": [
+                "Spread %s player(s) around %s, %s with an average distance of %s blocks apart",
+                "Spread %s entity/entities around %s, %s with an average distance of %s block(s) apart"
+            ],
+            "spreadplayers.success.teams": [
+                "Spread %s team(s) around %s, %s with an average distance of %s blocks apart",
+                "Spread %s team(s) around %s, %s with an average distance of %s block(s) apart"
+            ]
+        },
+        "createWorld": {
+            "customize.custom.baseSize": [
+                "Depth Base Size",
+                null
+            ],
+            "customize.custom.biomeDepthOffset": [
+                "Biome Depth Offset",
+                null
+            ],
+            "customize.custom.biomeDepthWeight": [
+                "Biome Depth Weight",
+                null
+            ],
+            "customize.custom.biomeScaleOffset": [
+                "Biome Scale Offset",
+                null
+            ],
+            "customize.custom.biomeScaleWeight": [
+                "Biome Scale Weight",
+                null
+            ],
+            "customize.custom.biomeSize": [
+                "Biome Size",
+                null
+            ],
+            "customize.custom.center": [
+                "Center Height",
+                null
+            ],
+            "customize.custom.confirm1": [
+                "This will overwrite your current",
+                null
+            ],
+            "customize.custom.confirm2": [
+                "settings and cannot be undone.",
+                null
+            ],
+            "customize.custom.confirmTitle": [
+                "Warning!",
+                null
+            ],
+            "customize.custom.coordinateScale": [
+                "Coordinate Scale",
+                null
+            ],
+            "customize.custom.count": [
+                "Spawn Tries",
+                null
+            ],
+            "customize.custom.defaults": [
+                "Defaults",
+                null
+            ],
+            "customize.custom.depthNoiseScaleExponent": [
+                "Depth Noise Exponent",
+                null
+            ],
+            "customize.custom.depthNoiseScaleX": [
+                "Depth Noise Scale X",
+                null
+            ],
+            "customize.custom.depthNoiseScaleZ": [
+                "Depth Noise Scale Z",
+                null
+            ],
+            "customize.custom.dungeonChance": [
+                "Dungeon Count",
+                null
+            ],
+            "customize.custom.fixedBiome": [
+                "Biome",
+                null
+            ],
+            "customize.custom.heightScale": [
+                "Height Scale",
+                null
+            ],
+            "customize.custom.lavaLakeChance": [
+                "Lava Lake Rarity",
+                null
+            ],
+            "customize.custom.lowerLimitScale": [
+                "Lower Limit Scale",
+                null
+            ],
+            "customize.custom.mainNoiseScaleX": [
+                "Main Noise Scale X",
+                null
+            ],
+            "customize.custom.mainNoiseScaleY": [
+                "Main Noise Scale Y",
+                null
+            ],
+            "customize.custom.mainNoiseScaleZ": [
+                "Main Noise Scale Z",
+                null
+            ],
+            "customize.custom.maxHeight": [
+                "Max. Height",
+                null
+            ],
+            "customize.custom.minHeight": [
+                "Min. Height",
+                null
+            ],
+            "customize.custom.next": [
+                "Next Page",
+                null
+            ],
+            "customize.custom.page0": [
+                "Basic Settings",
+                null
+            ],
+            "customize.custom.page1": [
+                "Ore Settings",
+                null
+            ],
+            "customize.custom.page2": [
+                "Advanced Settings (Expert Users Only!)",
+                null
+            ],
+            "customize.custom.page3": [
+                "Extra Advanced Settings (Expert Users Only!)",
+                null
+            ],
+            "customize.custom.preset.caveChaos": [
+                "Caves of Chaos",
+                null
+            ],
+            "customize.custom.preset.caveDelight": [
+                "Caver's Delight",
+                null
+            ],
+            "customize.custom.preset.drought": [
+                "Drought",
+                null
+            ],
+            "customize.custom.preset.goodLuck": [
+                "Good Luck",
+                null
+            ],
+            "customize.custom.preset.isleLand": [
+                "Isle Land",
+                null
+            ],
+            "customize.custom.preset.mountains": [
+                "Mountain Madness",
+                null
+            ],
+            "customize.custom.preset.waterWorld": [
+                "Water World",
+                null
+            ],
+            "customize.custom.presets": [
+                "Presets",
+                null
+            ],
+            "customize.custom.presets.title": [
+                "Customize World Presets",
+                null
+            ],
+            "customize.custom.prev": [
+                "Previous Page",
+                null
+            ],
+            "customize.custom.randomize": [
+                "Randomize",
+                null
+            ],
+            "customize.custom.riverSize": [
+                "River Size",
+                null
+            ],
+            "customize.custom.seaLevel": [
+                "Sea Level",
+                null
+            ],
+            "customize.custom.size": [
+                "Spawn Size",
+                null
+            ],
+            "customize.custom.spread": [
+                "Spread Height",
+                null
+            ],
+            "customize.custom.stretchY": [
+                "Height Stretch",
+                null
+            ],
+            "customize.custom.upperLimitScale": [
+                "Upper Limit Scale",
+                null
+            ],
+            "customize.custom.useCaves": [
+                "Caves",
+                null
+            ],
+            "customize.custom.useDungeons": [
+                "Dungeons",
+                null
+            ],
+            "customize.custom.useLavaLakes": [
+                "Lava Lakes",
+                null
+            ],
+            "customize.custom.useLavaOceans": [
+                "Lava Oceans",
+                null
+            ],
+            "customize.custom.useMansions": [
+                "Woodland Mansions",
+                null
+            ],
+            "customize.custom.useMineShafts": [
+                "Mineshafts",
+                null
+            ],
+            "customize.custom.useMonuments": [
+                "Ocean Monuments",
+                null
+            ],
+            "customize.custom.useOceanRuins": [
+                "Ocean Ruins",
+                null
+            ],
+            "customize.custom.useRavines": [
+                "Ravines",
+                null
+            ],
+            "customize.custom.useStrongholds": [
+                "Strongholds",
+                null
+            ],
+            "customize.custom.useTemples": [
+                "Temples",
+                null
+            ],
+            "customize.custom.useVillages": [
+                "Villages",
+                null
+            ],
+            "customize.custom.useWaterLakes": [
+                "Water Lakes",
+                null
+            ],
+            "customize.custom.waterLakeChance": [
+                "Water Lake Rarity",
+                null
+            ]
+        },
+        "dataPack": {
+            "minecart_improvements.description": [
+                null,
+                "Improved movement for Minecarts"
+            ],
+            "minecart_improvements.name": [
+                null,
+                "Minecart Improvements"
+            ],
+            "redstone_experiments.description": [
+                null,
+                "Experimental Redstone changes"
+            ],
+            "redstone_experiments.name": [
+                null,
+                "Redstone Experiments"
+            ]
+        },
+        "death": {
+            "attack.mace_smash": [
+                null,
+                "%1$s was smashed by %2$s"
+            ],
+            "attack.mace_smash.item": [
+                null,
+                "%1$s was smashed by %2$s with %3$s"
+            ]
+        },
+        "disconnect": {
+            "closed": [
+                "Connection closed",
+                null
+            ],
+            "disconnected": [
+                "Disconnected by Server",
+                null
+            ],
+            "kicked": [
+                "Was kicked from the game",
+                null
+            ],
+            "loginFailed": [
+                "Failed to log in",
+                null
+            ],
+            "overflow": [
+                "Buffer overflow",
+                null
+            ],
+            "quitting": [
+                "Quitting",
+                null
+            ]
+        },
+        "gamerule": {
+            "minecartMaxSpeed": [
+                null,
+                "Minecart max speed"
+            ],
+            "minecartMaxSpeed.description": [
+                null,
+                "Maximum default speed of a moving Minecart on land"
+            ]
+        },
+        "gui": {
+            "abuseReport.name.comment_box_label": [
+                null,
+                "Please describe why you want to report this name:"
+            ],
+            "abuseReport.name.title": [
+                "Report Player Name",
+                "Report Inappropriate Player Name"
+            ],
+            "abuseReport.reason.sexually_inappropriate": [
+                null,
+                "Sexually inappropriate"
+            ],
+            "abuseReport.reason.sexually_inappropriate.description": [
+                null,
+                "Skins that are graphic in nature relating to sexual acts, sexual organs, and sexual violence."
+            ],
+            "abuseReport.report_sent_msg": [
+                "We\u2019ve successfully received your report. Thank you!\n\nOur team will review it as soon as possible.",
+                "We've successfully received your report. Thank you!\n\nOur team will review it as soon as possible."
+            ],
+            "banned.description.permanent": [
+                "Your account is permanently banned, which means you can\u2019t play online or join Realms.",
+                "Your account is permanently banned, which means you can't play online or join Realms."
+            ],
+            "banned.description.temporary": [
+                "%s Until then, you can\u2019t play online or join Realms.",
+                "%s Until then, you can't play online or join Realms."
+            ],
+            "chatReport.report_sent_msg": [
+                "We\u2019ve successfully received your report. Thank you!\n\nOur team will review it as soon as possible.",
+                "We've successfully received your report. Thank you!\n\nOur team will review it as soon as possible."
+            ],
+            "fileDropFailure.detail": [
+                "Rejected %d files",
+                "Rejected %s files"
+            ]
+        },
+        "item": {
+            "minecraft.bolt_armor_trim_smithing_template.new": [
+                null,
+                "Bolt Armor Trim"
+            ],
+            "minecraft.bordure_indented_banner_pattern": [
+                null,
+                "Bordure Indented Banner Pattern"
+            ],
+            "minecraft.bundle.empty": [
+                null,
+                "Empty"
+            ],
+            "minecraft.bundle.empty.description": [
+                null,
+                "Can hold a mixed stack of items"
+            ],
+            "minecraft.bundle.full": [
+                null,
+                "Full"
+            ],
+            "minecraft.coast_armor_trim_smithing_template.new": [
+                null,
+                "Coast Armor Trim"
+            ],
+            "minecraft.creeper_banner_pattern.new": [
+                null,
+                "Creeper Charge Banner Pattern"
+            ],
+            "minecraft.dune_armor_trim_smithing_template.new": [
+                null,
+                "Dune Armor Trim"
+            ],
+            "minecraft.eye_armor_trim_smithing_template.new": [
+                null,
+                "Eye Armor Trim"
+            ],
+            "minecraft.field_masoned_banner_pattern": [
+                null,
+                "Field Masoned Banner Pattern"
+            ],
+            "minecraft.flow_armor_trim_smithing_template.new": [
+                null,
+                "Flow Armor Trim"
+            ],
+            "minecraft.flow_banner_pattern.new": [
+                null,
+                "Flow Banner Pattern"
+            ],
+            "minecraft.flower_banner_pattern.new": [
+                null,
+                "Flower Charge Banner Pattern"
+            ],
+            "minecraft.globe_banner_pattern.new": [
+                null,
+                "Globe Banner Pattern"
+            ],
+            "minecraft.guster_banner_pattern.new": [
+                null,
+                "Guster Banner Pattern"
+            ],
+            "minecraft.host_armor_trim_smithing_template.new": [
+                null,
+                "Host Armor Trim"
+            ],
+            "minecraft.mojang_banner_pattern.new": [
+                null,
+                "Thing Banner Pattern"
+            ],
+            "minecraft.netherite_upgrade_smithing_template.new": [
+                null,
+                "Netherite Upgrade"
+            ],
+            "minecraft.piglin_banner_pattern.new": [
+                null,
+                "Snout Banner Pattern"
+            ],
+            "minecraft.raiser_armor_trim_smithing_template.new": [
+                null,
+                "Raiser Armor Trim"
+            ],
+            "minecraft.rib_armor_trim_smithing_template.new": [
+                null,
+                "Rib Armor Trim"
+            ],
+            "minecraft.sentry_armor_trim_smithing_template.new": [
+                null,
+                "Sentry Armor Trim"
+            ],
+            "minecraft.shaper_armor_trim_smithing_template.new": [
+                null,
+                "Shaper Armor Trim"
+            ],
+            "minecraft.silence_armor_trim_smithing_template.new": [
+                null,
+                "Silence Armor Trim"
+            ],
+            "minecraft.skull_banner_pattern.new": [
+                null,
+                "Skull Charge Banner Pattern"
+            ],
+            "minecraft.snout_armor_trim_smithing_template.new": [
+                null,
+                "Snout Armor Trim"
+            ],
+            "minecraft.spire_armor_trim_smithing_template.new": [
+                null,
+                "Spire Armor Trim"
+            ],
+            "minecraft.tide_armor_trim_smithing_template.new": [
+                null,
+                "Tide Armor Trim"
+            ],
+            "minecraft.vex_armor_trim_smithing_template.new": [
+                null,
+                "Vex Armor Trim"
+            ],
+            "minecraft.ward_armor_trim_smithing_template.new": [
+                null,
+                "Ward Armor Trim"
+            ],
+            "minecraft.wayfinder_armor_trim_smithing_template.new": [
+                null,
+                "Wayfinder Armor Trim"
+            ],
+            "minecraft.wild_armor_trim_smithing_template.new": [
+                null,
+                "Wild Armor Trim"
+            ]
+        },
+        "key": {
+            "back": [
+                "Walk Backwards",
+                "Walk Backward"
+            ],
+            "forward": [
+                "Walk Forwards",
+                "Walk Forward"
+            ]
+        },
+        "mco": {
+            "account.privacy.information": [
+                "Mojang implements certain procedures to help protect children and their privacy including complying with the Children\u2019s Online Privacy Protection Act (COPPA) and General Data Protection Regulation (GDPR).\n\nYou may need to obtain parental consent before accessing your Realms account.",
+                "Mojang implements certain procedures to help protect children and their privacy including complying with the Children's Online Privacy Protection Act (COPPA) and General Data Protection Regulation (GDPR).\n\nYou may need to obtain parental consent before accessing your Realms account."
+            ],
+            "account.privacyinfo": [
+                "Mojang implements certain procedures to help protect children and their privacy including complying with the Children\u2019s Online Privacy Protection Act (COPPA) and General Data Protection Regulation (GDPR).\n\nYou may need to obtain parental consent before accessing your Realms account.\n\nIf you have an older Minecraft account (you log in with your username), you need to migrate the account to a Mojang account in order to access Realms.",
+                "Mojang implements certain procedures to help protect children and their privacy including complying with the Children's Online Privacy Protection Act (COPPA) and General Data Protection Regulation (GDPR).\n\nYou may need to obtain parental consent before accessing your Realms account.\n\nIf you have an older Minecraft account (you log in with your username), you need to migrate the account to a Mojang account in order to access Realms."
+            ]
+        },
+        "menu": {
+            "convertingLevel": [
+                "Converting world",
+                null
+            ],
+            "generatingLevel": [
+                "Generating world",
+                null
+            ],
+            "generatingTerrain": [
+                "Building terrain",
+                null
+            ],
+            "loadingForcedChunks": [
+                "Loading forced chunks for dimension %s",
+                null
+            ],
+            "loadingLevel": [
+                "Loading world",
+                null
+            ],
+            "respawning": [
+                "Respawning",
+                null
+            ]
+        },
+        "merchant": {
+            "current_level": [
+                "Trader's current level",
+                null
+            ],
+            "next_level": [
+                "Trader's next level",
+                null
+            ]
+        },
+        "narration": {
+            "suggestion": [
+                "Selected suggestion %d out of %d: %s",
+                "Selected suggestion %s out of %s: %s"
+            ],
+            "suggestion.tooltip": [
+                "Selected suggestion %d out of %d: %s (%s)",
+                "Selected suggestion %s out of %s: %s (%s)"
+            ]
+        },
+        "optimizeWorld": {
+            "confirm.proceed": [
+                null,
+                "Create Backup and Optimize"
+            ]
+        },
+        "options": {
+            "chat.delay": [
+                "Chat Delay: %s seconds",
+                "Chat Delay: %s second(s)"
+            ],
+            "customizeTitle": [
+                "Customize World Settings",
+                null
+            ],
+            "inactivityFpsLimit": [
+                null,
+                "Reduce FPS when"
+            ],
+            "inactivityFpsLimit.afk": [
+                null,
+                "AFK"
+            ],
+            "inactivityFpsLimit.afk.tooltip": [
+                null,
+                "Limits framerate to 30 when the game is not getting any player input for more than a minute. Further limits it to 10 after 9 more minutes."
+            ],
+            "inactivityFpsLimit.minimized": [
+                null,
+                "Minimized"
+            ],
+            "inactivityFpsLimit.minimized.tooltip": [
+                null,
+                "Limits framerate only when the game window is minimized."
+            ],
+            "rotateWithMinecart": [
+                null,
+                "Rotate with Minecarts"
+            ],
+            "rotateWithMinecart.tooltip": [
+                null,
+                "If the player's view should rotate with a turning Minecart. Only available in worlds with the 'Minecart Improvements' experimental setting turned on."
+            ]
+        },
+        "realms": {
+            "missing.module.error.text": [
+                "Realms could not be opened right now, please try again later",
+                null
+            ]
+        },
+        "selectServer": {
+            "title": [
+                "Select Server",
+                null
+            ]
+        },
+        "selectWorld": {
+            "createDemo": [
+                "Play New Demo World",
+                null
+            ]
+        },
+        "stat": {
+            "minecraft.junk_fished": [
+                "Junk Fished",
+                null
+            ],
+            "minecraft.ring_bell": [
+                "Bells Rung",
+                null
+            ],
+            "minecraft.treasure_fished": [
+                "Treasure Fished",
+                null
+            ]
+        },
+        "stats": {
+            "tooltip.type.statistic": [
+                "Statistic",
+                null
+            ]
+        },
+        "subtitles": {
+            "item.bundle.insert_fail": [
+                null,
+                "Bundle full"
+            ]
+        },
+        "telemetry": {
+            "event.world_load_times.description": [
+                "It\u2019s important for us to understand how long it takes to join a world, and how that changes over time. For example, when we add new features or do larger technical changes, we need to see what impact that had on load times.",
+                "It's important for us to understand how long it takes to join a world, and how that changes over time. For example, when we add new features or do larger technical changes, we need to see what impact that had on load times."
+            ]
+        }
+    },
+    "sounds": {
+        "block.spawner.break": [
+            null,
+            {
+                "field": "xS",
+                "id": 1291,
+                "name": "block.spawner.break",
+                "sounds": [
+                    {
+                        "hash": "bc53fd681563d0fb9b628cbc503cdc887b4516b6",
+                        "name": "block/spawner/break1"
+                    },
+                    {
+                        "hash": "b704e41aa773e6cc6c2798aed510710bc7f1ae29",
+                        "name": "block/spawner/break2"
+                    },
+                    {
+                        "hash": "bbc6b7f7a46d36b5de2e2055a513a6128b3f761c",
+                        "name": "block/spawner/break3"
+                    },
+                    {
+                        "hash": "e123f1f349dbe33f92d1f6dc1f632b2a7c075e42",
+                        "name": "block/spawner/break4"
+                    }
+                ],
+                "subtitle": "Block broken",
+                "subtitle_key": "subtitles.block.generic.break"
+            }
+        ],
+        "block.spawner.fall": [
+            null,
+            {
+                "field": "xT",
+                "id": 1292,
+                "name": "block.spawner.fall"
+            }
+        ],
+        "block.spawner.hit": [
+            null,
+            {
+                "field": "xU",
+                "id": 1293,
+                "name": "block.spawner.hit",
+                "sounds": [
+                    {
+                        "hash": "ca4e7405ba5bfabbf393b2e5d00a0c1b11f6b456",
+                        "name": "block/spawner/step1"
+                    },
+                    {
+                        "hash": "73698a2d0e2335e6b2985df499e08101ee676a98",
+                        "name": "block/spawner/step2"
+                    },
+                    {
+                        "hash": "9e1630ebca398e4bf3113b8834e210dc33b39275",
+                        "name": "block/spawner/step3"
+                    },
+                    {
+                        "hash": "eefa204eced915026862ddf7a7465863c04a3eab",
+                        "name": "block/spawner/step4"
+                    },
+                    {
+                        "hash": "56ed141e6438cec8b57604c9e75bcf0cf87d409b",
+                        "name": "block/spawner/step5"
+                    }
+                ],
+                "subtitle": "Block breaking",
+                "subtitle_key": "subtitles.block.generic.hit"
+            }
+        ],
+        "block.spawner.place": [
+            null,
+            {
+                "field": "xV",
+                "id": 1294,
+                "name": "block.spawner.place",
+                "sounds": [
+                    {
+                        "hash": "bc53fd681563d0fb9b628cbc503cdc887b4516b6",
+                        "name": "block/spawner/break1"
+                    },
+                    {
+                        "hash": "b704e41aa773e6cc6c2798aed510710bc7f1ae29",
+                        "name": "block/spawner/break2"
+                    },
+                    {
+                        "hash": "bbc6b7f7a46d36b5de2e2055a513a6128b3f761c",
+                        "name": "block/spawner/break3"
+                    },
+                    {
+                        "hash": "e123f1f349dbe33f92d1f6dc1f632b2a7c075e42",
+                        "name": "block/spawner/break4"
+                    }
+                ],
+                "subtitle": "Block placed",
+                "subtitle_key": "subtitles.block.generic.place"
+            }
+        ],
+        "block.spawner.step": [
+            null,
+            {
+                "field": "xW",
+                "id": 1295,
+                "name": "block.spawner.step",
+                "sounds": [
+                    {
+                        "hash": "ca4e7405ba5bfabbf393b2e5d00a0c1b11f6b456",
+                        "name": "block/spawner/step1"
+                    },
+                    {
+                        "hash": "73698a2d0e2335e6b2985df499e08101ee676a98",
+                        "name": "block/spawner/step2"
+                    },
+                    {
+                        "hash": "9e1630ebca398e4bf3113b8834e210dc33b39275",
+                        "name": "block/spawner/step3"
+                    },
+                    {
+                        "hash": "eefa204eced915026862ddf7a7465863c04a3eab",
+                        "name": "block/spawner/step4"
+                    },
+                    {
+                        "hash": "56ed141e6438cec8b57604c9e75bcf0cf87d409b",
+                        "name": "block/spawner/step5"
+                    }
+                ],
+                "subtitle_key": "subtitles.block.generic.step"
+            }
+        ],
+        "item.bundle.insert_fail": [
+            null,
+            {
+                "field": "dq",
+                "id": 224,
+                "name": "item.bundle.insert_fail",
+                "sounds": [
+                    {
+                        "hash": "285f453d2bf3c9f637ed0d3aa783889fc033787d",
+                        "name": "item/bundle/insert_fail"
+                    }
+                ],
+                "subtitle": "Bundle full",
+                "subtitle_key": "subtitles.item.bundle.insert_fail"
+            }
+        ]
+    },
+    "stats": {
+        "minecraft.junk_fished": [
+            {
+                "desc": "Junk Fished"
+            },
+            null
+        ],
+        "minecraft.ring_bell": [
+            {
+                "desc": "Bells Rung"
+            },
+            null
+        ],
+        "minecraft.treasure_fished": [
+            {
+                "desc": "Treasure Fished"
+            },
+            null
+        ]
+    },
+    "tags": {
+        "banner_pattern/no_item_required": [
+            {
+                "name": "no_item_required",
+                "type": "banner_pattern",
+                "values": [
+                    "minecraft:square_bottom_left",
+                    "minecraft:square_bottom_right",
+                    "minecraft:square_top_left",
+                    "minecraft:square_top_right",
+                    "minecraft:stripe_bottom",
+                    "minecraft:stripe_top",
+                    "minecraft:stripe_left",
+                    "minecraft:stripe_right",
+                    "minecraft:stripe_center",
+                    "minecraft:stripe_middle",
+                    "minecraft:stripe_downright",
+                    "minecraft:stripe_downleft",
+                    "minecraft:small_stripes",
+                    "minecraft:cross",
+                    "minecraft:straight_cross",
+                    "minecraft:triangle_bottom",
+                    "minecraft:triangle_top",
+                    "minecraft:triangles_bottom",
+                    "minecraft:triangles_top",
+                    "minecraft:diagonal_left",
+                    "minecraft:diagonal_up_right",
+                    "minecraft:diagonal_up_left",
+                    "minecraft:diagonal_right",
+                    "minecraft:circle",
+                    "minecraft:rhombus",
+                    "minecraft:half_vertical",
+                    "minecraft:half_horizontal",
+                    "minecraft:half_vertical_right",
+                    "minecraft:half_horizontal_bottom",
+                    "minecraft:border",
+                    "minecraft:curly_border",
+                    "minecraft:gradient",
+                    "minecraft:gradient_up",
+                    "minecraft:bricks"
+                ]
+            },
+            {
+                "name": "no_item_required",
+                "type": "banner_pattern",
+                "values": [
+                    "minecraft:square_bottom_left",
+                    "minecraft:square_bottom_right",
+                    "minecraft:square_top_left",
+                    "minecraft:square_top_right",
+                    "minecraft:stripe_bottom",
+                    "minecraft:stripe_top",
+                    "minecraft:stripe_left",
+                    "minecraft:stripe_right",
+                    "minecraft:stripe_center",
+                    "minecraft:stripe_middle",
+                    "minecraft:stripe_downright",
+                    "minecraft:stripe_downleft",
+                    "minecraft:small_stripes",
+                    "minecraft:cross",
+                    "minecraft:straight_cross",
+                    "minecraft:triangle_bottom",
+                    "minecraft:triangle_top",
+                    "minecraft:triangles_bottom",
+                    "minecraft:triangles_top",
+                    "minecraft:diagonal_left",
+                    "minecraft:diagonal_up_right",
+                    "minecraft:diagonal_up_left",
+                    "minecraft:diagonal_right",
+                    "minecraft:circle",
+                    "minecraft:rhombus",
+                    "minecraft:half_vertical",
+                    "minecraft:half_horizontal",
+                    "minecraft:half_vertical_right",
+                    "minecraft:half_horizontal_bottom",
+                    "minecraft:border",
+                    "minecraft:gradient",
+                    "minecraft:gradient_up"
+                ]
+            }
+        ],
+        "banner_pattern/pattern_item/bordure_indented": [
+            null,
+            {
+                "name": "pattern_item/bordure_indented",
+                "type": "banner_pattern",
+                "values": [
+                    "minecraft:curly_border"
+                ]
+            }
+        ],
+        "banner_pattern/pattern_item/field_masoned": [
+            null,
+            {
+                "name": "pattern_item/field_masoned",
+                "type": "banner_pattern",
+                "values": [
+                    "minecraft:bricks"
+                ]
+            }
+        ],
+        "damage_type/bypasses_armor": [
+            {
+                "name": "bypasses_armor",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:on_fire",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:fly_into_wall",
+                    "minecraft:generic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:starve",
+                    "minecraft:fall",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:magic",
+                    "minecraft:indirect_magic",
+                    "minecraft:out_of_world",
+                    "minecraft:generic_kill",
+                    "minecraft:sonic_boom",
+                    "minecraft:outside_border"
+                ]
+            },
+            {
+                "name": "bypasses_armor",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:on_fire",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:fly_into_wall",
+                    "minecraft:generic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:starve",
+                    "minecraft:fall",
+                    "minecraft:ender_pearl",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:magic",
+                    "minecraft:indirect_magic",
+                    "minecraft:out_of_world",
+                    "minecraft:generic_kill",
+                    "minecraft:sonic_boom",
+                    "minecraft:outside_border"
+                ]
+            }
+        ],
+        "damage_type/bypasses_shield": [
+            {
+                "name": "bypasses_shield",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:on_fire",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:fly_into_wall",
+                    "minecraft:generic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:starve",
+                    "minecraft:fall",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:magic",
+                    "minecraft:indirect_magic",
+                    "minecraft:out_of_world",
+                    "minecraft:generic_kill",
+                    "minecraft:sonic_boom",
+                    "minecraft:outside_border",
+                    "minecraft:falling_anvil",
+                    "minecraft:falling_stalactite"
+                ]
+            },
+            {
+                "name": "bypasses_shield",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:on_fire",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:fly_into_wall",
+                    "minecraft:generic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:starve",
+                    "minecraft:fall",
+                    "minecraft:ender_pearl",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:magic",
+                    "minecraft:indirect_magic",
+                    "minecraft:out_of_world",
+                    "minecraft:generic_kill",
+                    "minecraft:sonic_boom",
+                    "minecraft:outside_border",
+                    "minecraft:falling_anvil",
+                    "minecraft:falling_stalactite"
+                ]
+            }
+        ],
+        "damage_type/can_break_armor_stand": [
+            {
+                "name": "can_break_armor_stand",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:player_attack",
+                    "minecraft:player_explosion"
+                ]
+            },
+            {
+                "name": "can_break_armor_stand",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:player_explosion",
+                    "minecraft:player_attack",
+                    "minecraft:mace_smash"
+                ]
+            }
+        ],
+        "damage_type/is_fall": [
+            {
+                "name": "is_fall",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:fall",
+                    "minecraft:stalagmite"
+                ]
+            },
+            {
+                "name": "is_fall",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:fall",
+                    "minecraft:ender_pearl",
+                    "minecraft:stalagmite"
+                ]
+            }
+        ],
+        "damage_type/is_player_attack": [
+            {
+                "name": "is_player_attack",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:player_attack"
+                ]
+            },
+            {
+                "name": "is_player_attack",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:player_attack",
+                    "minecraft:mace_smash"
+                ]
+            }
+        ],
+        "damage_type/mace_smash": [
+            null,
+            {
+                "name": "mace_smash",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:mace_smash"
+                ]
+            }
+        ],
+        "damage_type/no_knockback": [
+            {
+                "name": "no_knockback",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:explosion",
+                    "minecraft:player_explosion",
+                    "minecraft:bad_respawn_point",
+                    "minecraft:in_fire",
+                    "minecraft:lightning_bolt",
+                    "minecraft:on_fire",
+                    "minecraft:lava",
+                    "minecraft:hot_floor",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:starve",
+                    "minecraft:cactus",
+                    "minecraft:fall",
+                    "minecraft:fly_into_wall",
+                    "minecraft:out_of_world",
+                    "minecraft:generic",
+                    "minecraft:magic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:dry_out",
+                    "minecraft:sweet_berry_bush",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:outside_border",
+                    "minecraft:generic_kill",
+                    "minecraft:campfire"
+                ]
+            },
+            {
+                "name": "no_knockback",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:explosion",
+                    "minecraft:player_explosion",
+                    "minecraft:bad_respawn_point",
+                    "minecraft:in_fire",
+                    "minecraft:lightning_bolt",
+                    "minecraft:on_fire",
+                    "minecraft:lava",
+                    "minecraft:hot_floor",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:starve",
+                    "minecraft:cactus",
+                    "minecraft:fall",
+                    "minecraft:ender_pearl",
+                    "minecraft:fly_into_wall",
+                    "minecraft:out_of_world",
+                    "minecraft:generic",
+                    "minecraft:magic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:dry_out",
+                    "minecraft:sweet_berry_bush",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:outside_border",
+                    "minecraft:generic_kill",
+                    "minecraft:campfire"
+                ]
+            }
+        ],
+        "damage_type/panic_causes": [
+            {
+                "name": "panic_causes",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:cactus",
+                    "minecraft:freeze",
+                    "minecraft:hot_floor",
+                    "minecraft:in_fire",
+                    "minecraft:lava",
+                    "minecraft:lightning_bolt",
+                    "minecraft:on_fire",
+                    "minecraft:arrow",
+                    "minecraft:dragon_breath",
+                    "minecraft:explosion",
+                    "minecraft:fireball",
+                    "minecraft:fireworks",
+                    "minecraft:indirect_magic",
+                    "minecraft:magic",
+                    "minecraft:mob_attack",
+                    "minecraft:mob_projectile",
+                    "minecraft:player_attack",
+                    "minecraft:player_explosion",
+                    "minecraft:sonic_boom",
+                    "minecraft:sting",
+                    "minecraft:thrown",
+                    "minecraft:trident",
+                    "minecraft:unattributed_fireball",
+                    "minecraft:wind_charge",
+                    "minecraft:wither",
+                    "minecraft:wither_skull"
+                ]
+            },
+            {
+                "name": "panic_causes",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:cactus",
+                    "minecraft:freeze",
+                    "minecraft:hot_floor",
+                    "minecraft:in_fire",
+                    "minecraft:lava",
+                    "minecraft:lightning_bolt",
+                    "minecraft:on_fire",
+                    "minecraft:arrow",
+                    "minecraft:dragon_breath",
+                    "minecraft:explosion",
+                    "minecraft:fireball",
+                    "minecraft:fireworks",
+                    "minecraft:indirect_magic",
+                    "minecraft:magic",
+                    "minecraft:mob_attack",
+                    "minecraft:mob_projectile",
+                    "minecraft:player_explosion",
+                    "minecraft:sonic_boom",
+                    "minecraft:sting",
+                    "minecraft:thrown",
+                    "minecraft:trident",
+                    "minecraft:unattributed_fireball",
+                    "minecraft:wind_charge",
+                    "minecraft:wither",
+                    "minecraft:wither_skull",
+                    "minecraft:player_attack",
+                    "minecraft:mace_smash"
+                ]
+            }
+        ],
+        "item/diamond_tool_materials": [
+            null,
+            {
+                "name": "diamond_tool_materials",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond"
+                ]
+            }
+        ],
+        "item/furnace_minecart_fuel": [
+            null,
+            {
+                "name": "furnace_minecart_fuel",
+                "type": "item",
+                "values": [
+                    "minecraft:coal",
+                    "minecraft:charcoal"
+                ]
+            }
+        ],
+        "item/gold_tool_materials": [
+            null,
+            {
+                "name": "gold_tool_materials",
+                "type": "item",
+                "values": [
+                    "minecraft:gold_ingot"
+                ]
+            }
+        ],
+        "item/iron_tool_materials": [
+            null,
+            {
+                "name": "iron_tool_materials",
+                "type": "item",
+                "values": [
+                    "minecraft:iron_ingot"
+                ]
+            }
+        ],
+        "item/netherite_tool_materials": [
+            null,
+            {
+                "name": "netherite_tool_materials",
+                "type": "item",
+                "values": [
+                    "minecraft:netherite_ingot"
+                ]
+            }
+        ],
+        "item/villager_picks_up": [
+            null,
+            {
+                "name": "villager_picks_up",
+                "type": "item",
+                "values": [
+                    "minecraft:wheat_seeds",
+                    "minecraft:potato",
+                    "minecraft:carrot",
+                    "minecraft:beetroot_seeds",
+                    "minecraft:torchflower_seeds",
+                    "minecraft:pitcher_pod",
+                    "minecraft:bread",
+                    "minecraft:wheat",
+                    "minecraft:beetroot"
+                ]
+            }
+        ],
+        "item/wolf_food": [
+            {
+                "name": "wolf_food",
+                "type": "item",
+                "values": [
+                    "minecraft:beef",
+                    "minecraft:chicken",
+                    "minecraft:cooked_beef",
+                    "minecraft:cooked_chicken",
+                    "minecraft:cooked_mutton",
+                    "minecraft:cooked_porkchop",
+                    "minecraft:cooked_rabbit",
+                    "minecraft:mutton",
+                    "minecraft:porkchop",
+                    "minecraft:rabbit",
+                    "minecraft:rotten_flesh"
+                ]
+            },
+            {
+                "name": "wolf_food",
+                "type": "item",
+                "values": [
+                    "minecraft:beef",
+                    "minecraft:chicken",
+                    "minecraft:cooked_beef",
+                    "minecraft:cooked_chicken",
+                    "minecraft:cooked_mutton",
+                    "minecraft:cooked_porkchop",
+                    "minecraft:cooked_rabbit",
+                    "minecraft:mutton",
+                    "minecraft:porkchop",
+                    "minecraft:rabbit",
+                    "minecraft:rotten_flesh",
+                    "minecraft:cod",
+                    "minecraft:cooked_cod",
+                    "minecraft:salmon",
+                    "minecraft:cooked_salmon",
+                    "minecraft:tropical_fish",
+                    "minecraft:pufferfish",
+                    "minecraft:rabbit_stew"
+                ]
+            }
+        ],
+        "item/wooden_tool_materials": [
+            null,
+            {
+                "name": "wooden_tool_materials",
+                "type": "item",
+                "values": [
+                    "minecraft:oak_planks",
+                    "minecraft:spruce_planks",
+                    "minecraft:birch_planks",
+                    "minecraft:jungle_planks",
+                    "minecraft:acacia_planks",
+                    "minecraft:dark_oak_planks",
+                    "minecraft:crimson_planks",
+                    "minecraft:warped_planks",
+                    "minecraft:mangrove_planks",
+                    "minecraft:bamboo_planks",
+                    "minecraft:cherry_planks"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            3955,
+            4058
+        ],
+        "id": [
+            "1.21.1",
+            "24w33a"
+        ],
+        "name": [
+            "1.21.1",
+            "24w33a"
+        ],
+        "protocol": [
+            767,
+            1073742029
+        ]
+    }
+}
