@@ -1,0 +1,57 @@
+{
+    "achievements": {},
+    "entities": {
+        "entity": {}
+    },
+    "language": {
+        "advancements": {
+            "husbandry.silk_touch_nest.description": [
+                "Move a Bee Nest, with 3 Bees inside, using Silk Touch",
+                "Move a Bee Nest or Beehive, with 3 Bees inside, using Silk Touch"
+            ]
+        },
+        "commands": {
+            "drop.no_loot_table.block": [
+                null,
+                "Block %s has no loot table"
+            ]
+        },
+        "container": {
+            "beehive.bees": [
+                null,
+                "Bees: %s/%s"
+            ],
+            "beehive.honey": [
+                null,
+                "Honey: %s/%s"
+            ]
+        },
+        "resourcePack": {
+            "runtime_failure": [
+                null,
+                "Resource pack error detected"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4060,
+            4062
+        ],
+        "id": [
+            "24w34a",
+            "24w35a"
+        ],
+        "name": [
+            "24w34a",
+            "24w35a"
+        ],
+        "protocol": [
+            1073742030,
+            1073742031
+        ]
+    }
+}
