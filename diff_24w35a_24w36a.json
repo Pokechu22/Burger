@@ -1,0 +1,154 @@
+{
+    "achievements": {},
+    "entities": {
+        "entity": {}
+    },
+    "language": {},
+    "sounds": {
+        "entity.goat.screaming.horn_break": [
+            {
+                "field": "ld",
+                "id": 627,
+                "name": "entity.goat.screaming.horn_break"
+            },
+            null
+        ],
+        "item.goat_horn.play": [
+            {
+                "field": "kU",
+                "id": 618,
+                "name": "item.goat_horn.play"
+            },
+            null
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/bats_spawnable_on": [
+            null,
+            {
+                "name": "bats_spawnable_on",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate"
+                ]
+            }
+        ],
+        "item/piglin_safe_armor": [
+            null,
+            {
+                "name": "piglin_safe_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:golden_helmet",
+                    "minecraft:golden_chestplate",
+                    "minecraft:golden_leggings",
+                    "minecraft:golden_boots"
+                ]
+            }
+        ],
+        "item/repairs_chain_armor": [
+            null,
+            {
+                "name": "repairs_chain_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:iron_ingot"
+                ]
+            }
+        ],
+        "item/repairs_diamond_armor": [
+            null,
+            {
+                "name": "repairs_diamond_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond"
+                ]
+            }
+        ],
+        "item/repairs_gold_armor": [
+            null,
+            {
+                "name": "repairs_gold_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:gold_ingot"
+                ]
+            }
+        ],
+        "item/repairs_iron_armor": [
+            null,
+            {
+                "name": "repairs_iron_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:iron_ingot"
+                ]
+            }
+        ],
+        "item/repairs_leather_armor": [
+            null,
+            {
+                "name": "repairs_leather_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:leather"
+                ]
+            }
+        ],
+        "item/repairs_netherite_armor": [
+            null,
+            {
+                "name": "repairs_netherite_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:netherite_ingot"
+                ]
+            }
+        ],
+        "item/repairs_turtle_helmet": [
+            null,
+            {
+                "name": "repairs_turtle_helmet",
+                "type": "item",
+                "values": [
+                    "minecraft:turtle_scute"
+                ]
+            }
+        ],
+        "item/repairs_wolf_armor": [
+            null,
+            {
+                "name": "repairs_wolf_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:armadillo_scute"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4062,
+            4063
+        ],
+        "id": [
+            "24w35a",
+            "24w36a"
+        ],
+        "name": [
+            "24w35a",
+            "24w36a"
+        ],
+        "protocol": [
+            1073742031,
+            1073742032
+        ]
+    }
+}
