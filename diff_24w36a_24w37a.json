@@ -1,0 +1,83 @@
+{
+    "achievements": {},
+    "entities": {
+        "entity": {}
+    },
+    "language": {
+        "container": {
+            "beehive.bees": [
+                "Bees: %s/%s",
+                "Bees: %s / %s"
+            ],
+            "beehive.honey": [
+                "Honey: %s/%s",
+                "Honey: %s / %s"
+            ]
+        },
+        "gamerule": {
+            "minecartMaxSpeed.description": [
+                "Maximum default speed of a moving Minecart on land",
+                "Maximum default speed of a moving Minecart on land."
+            ]
+        },
+        "options": {
+            "rotateWithMinecart.tooltip": [
+                "If the player's view should rotate with a turning Minecart. Only available in worlds with the 'Minecart Improvements' experimental setting turned on.",
+                "Whether the player's view should rotate with a turning Minecart. Only available in worlds with the 'Minecart Improvements' experimental setting turned on."
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "item/brewing_fuel": [
+            null,
+            {
+                "name": "brewing_fuel",
+                "type": "item",
+                "values": [
+                    "minecraft:blaze_powder"
+                ]
+            }
+        ],
+        "item/duplicates_allays": [
+            null,
+            {
+                "name": "duplicates_allays",
+                "type": "item",
+                "values": [
+                    "minecraft:amethyst_shard"
+                ]
+            }
+        ],
+        "item/panda_eats_from_ground": [
+            null,
+            {
+                "name": "panda_eats_from_ground",
+                "type": "item",
+                "values": [
+                    "minecraft:bamboo",
+                    "minecraft:cake"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4063,
+            4065
+        ],
+        "id": [
+            "24w36a",
+            "24w37a"
+        ],
+        "name": [
+            "24w36a",
+            "24w37a"
+        ],
+        "protocol": [
+            1073742032,
+            1073742033
+        ]
+    }
+}
