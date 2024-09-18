@@ -1,0 +1,140 @@
+{
+    "achievements": {},
+    "entities": {
+        "entity": {}
+    },
+    "language": {
+        "item": {
+            "minecraft.black_bundle": [
+                null,
+                "Black Bundle"
+            ],
+            "minecraft.blue_bundle": [
+                null,
+                "Blue Bundle"
+            ],
+            "minecraft.brown_bundle": [
+                null,
+                "Brown Bundle"
+            ],
+            "minecraft.cyan_bundle": [
+                null,
+                "Cyan Bundle"
+            ],
+            "minecraft.gray_bundle": [
+                null,
+                "Gray Bundle"
+            ],
+            "minecraft.green_bundle": [
+                null,
+                "Green Bundle"
+            ],
+            "minecraft.light_blue_bundle": [
+                null,
+                "Light Blue Bundle"
+            ],
+            "minecraft.light_gray_bundle": [
+                null,
+                "Light Gray Bundle"
+            ],
+            "minecraft.lime_bundle": [
+                null,
+                "Lime Bundle"
+            ],
+            "minecraft.magenta_bundle": [
+                null,
+                "Magenta Bundle"
+            ],
+            "minecraft.orange_bundle": [
+                null,
+                "Orange Bundle"
+            ],
+            "minecraft.pink_bundle": [
+                null,
+                "Pink Bundle"
+            ],
+            "minecraft.purple_bundle": [
+                null,
+                "Purple Bundle"
+            ],
+            "minecraft.red_bundle": [
+                null,
+                "Red Bundle"
+            ],
+            "minecraft.white_bundle": [
+                null,
+                "White Bundle"
+            ],
+            "minecraft.yellow_bundle": [
+                null,
+                "Yellow Bundle"
+            ]
+        },
+        "mco": {
+            "create.world.failed": [
+                null,
+                "Failed to create world!"
+            ],
+            "errorMessage.initialize.failed": [
+                null,
+                "Failed to initialize Realm"
+            ],
+            "upload.failed.too_big.description": [
+                null,
+                "The selected world is too big. The maximum allowed size is %s."
+            ],
+            "upload.failed.too_big.title": [
+                null,
+                "World too big"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "item/shulker_boxes": [
+            null,
+            {
+                "name": "shulker_boxes",
+                "type": "item",
+                "values": [
+                    "minecraft:shulker_box",
+                    "minecraft:black_shulker_box",
+                    "minecraft:blue_shulker_box",
+                    "minecraft:brown_shulker_box",
+                    "minecraft:cyan_shulker_box",
+                    "minecraft:gray_shulker_box",
+                    "minecraft:green_shulker_box",
+                    "minecraft:light_blue_shulker_box",
+                    "minecraft:light_gray_shulker_box",
+                    "minecraft:lime_shulker_box",
+                    "minecraft:magenta_shulker_box",
+                    "minecraft:orange_shulker_box",
+                    "minecraft:pink_shulker_box",
+                    "minecraft:purple_shulker_box",
+                    "minecraft:red_shulker_box",
+                    "minecraft:white_shulker_box",
+                    "minecraft:yellow_shulker_box"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4065,
+            4066
+        ],
+        "id": [
+            "24w37a",
+            "24w38a"
+        ],
+        "name": [
+            "24w37a",
+            "24w38a"
+        ],
+        "protocol": [
+            1073742033,
+            1073742034
+        ]
+    }
+}
