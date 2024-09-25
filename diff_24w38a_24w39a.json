@@ -1,0 +1,163 @@
+{
+    "achievements": {},
+    "language": {
+        "entity": {
+            "minecraft.acacia_boat": [
+                null,
+                "Acacia Boat"
+            ],
+            "minecraft.acacia_chest_boat": [
+                null,
+                "Acacia Boat With Chest"
+            ],
+            "minecraft.bamboo_chest_raft": [
+                null,
+                "Bamboo Raft With Chest"
+            ],
+            "minecraft.bamboo_raft": [
+                null,
+                "Bamboo Raft"
+            ],
+            "minecraft.birch_boat": [
+                null,
+                "Birch Boat"
+            ],
+            "minecraft.birch_chest_boat": [
+                null,
+                "Birch Boat With Chest"
+            ],
+            "minecraft.boat": [
+                "Boat",
+                null
+            ],
+            "minecraft.cherry_boat": [
+                null,
+                "Cherry Boat"
+            ],
+            "minecraft.cherry_chest_boat": [
+                null,
+                "Cherry Boat With Chest"
+            ],
+            "minecraft.chest_boat": [
+                "Boat with Chest",
+                null
+            ],
+            "minecraft.dark_oak_boat": [
+                null,
+                "Dark Oak Boat"
+            ],
+            "minecraft.dark_oak_chest_boat": [
+                null,
+                "Dark Oak Boat With Chest"
+            ],
+            "minecraft.jungle_boat": [
+                null,
+                "Jungle Boat"
+            ],
+            "minecraft.jungle_chest_boat": [
+                null,
+                "Jungle Boat With Chest"
+            ],
+            "minecraft.mangrove_boat": [
+                null,
+                "Mangrove Boat"
+            ],
+            "minecraft.mangrove_chest_boat": [
+                null,
+                "Mangrove Boat With Chest"
+            ],
+            "minecraft.oak_boat": [
+                null,
+                "Oak Boat"
+            ],
+            "minecraft.oak_chest_boat": [
+                null,
+                "Oak Boat With Chest"
+            ],
+            "minecraft.spruce_boat": [
+                null,
+                "Spruce Boat"
+            ],
+            "minecraft.spruce_chest_boat": [
+                null,
+                "Spruce Boat With Chest"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "entity_type/boat": [
+            null,
+            {
+                "name": "boat",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:oak_boat",
+                    "minecraft:spruce_boat",
+                    "minecraft:birch_boat",
+                    "minecraft:jungle_boat",
+                    "minecraft:acacia_boat",
+                    "minecraft:cherry_boat",
+                    "minecraft:dark_oak_boat",
+                    "minecraft:mangrove_boat",
+                    "minecraft:bamboo_raft"
+                ]
+            }
+        ],
+        "item/bundles": [
+            null,
+            {
+                "name": "bundles",
+                "type": "item",
+                "values": [
+                    "minecraft:bundle",
+                    "minecraft:black_bundle",
+                    "minecraft:blue_bundle",
+                    "minecraft:brown_bundle",
+                    "minecraft:cyan_bundle",
+                    "minecraft:gray_bundle",
+                    "minecraft:green_bundle",
+                    "minecraft:light_blue_bundle",
+                    "minecraft:light_gray_bundle",
+                    "minecraft:lime_bundle",
+                    "minecraft:magenta_bundle",
+                    "minecraft:orange_bundle",
+                    "minecraft:pink_bundle",
+                    "minecraft:purple_bundle",
+                    "minecraft:red_bundle",
+                    "minecraft:yellow_bundle",
+                    "minecraft:white_bundle"
+                ]
+            }
+        ],
+        "item/map_invisibility_equipment": [
+            null,
+            {
+                "name": "map_invisibility_equipment",
+                "type": "item",
+                "values": [
+                    "minecraft:carved_pumpkin"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4066,
+            4069
+        ],
+        "id": [
+            "24w38a",
+            "24w39a"
+        ],
+        "name": [
+            "24w38a",
+            "24w39a"
+        ],
+        "protocol": [
+            1073742034,
+            1073742035
+        ]
+    }
+}
