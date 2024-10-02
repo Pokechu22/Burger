@@ -1,0 +1,818 @@
+{
+    "achievements": {},
+    "language": {
+        "block": {
+            "minecraft.creaking_heart": [
+                null,
+                "Creaking Heart"
+            ],
+            "minecraft.pale_hanging_moss": [
+                null,
+                "Pale Hanging Moss"
+            ],
+            "minecraft.pale_moss_block": [
+                null,
+                "Pale Moss Block"
+            ],
+            "minecraft.pale_moss_carpet": [
+                null,
+                "Pale Moss Carpet"
+            ],
+            "minecraft.pale_oak_button": [
+                null,
+                "Pale Oak Button"
+            ],
+            "minecraft.pale_oak_door": [
+                null,
+                "Pale Oak Door"
+            ],
+            "minecraft.pale_oak_fence": [
+                null,
+                "Pale Oak Fence"
+            ],
+            "minecraft.pale_oak_fence_gate": [
+                null,
+                "Pale Oak Fence Gate"
+            ],
+            "minecraft.pale_oak_hanging_sign": [
+                null,
+                "Pale Oak Hanging Sign"
+            ],
+            "minecraft.pale_oak_leaves": [
+                null,
+                "Pale Oak Leaves"
+            ],
+            "minecraft.pale_oak_log": [
+                null,
+                "Pale Oak Log"
+            ],
+            "minecraft.pale_oak_planks": [
+                null,
+                "Pale Oak Planks"
+            ],
+            "minecraft.pale_oak_pressure_plate": [
+                null,
+                "Pale Oak Pressure Plate"
+            ],
+            "minecraft.pale_oak_sapling": [
+                null,
+                "Pale Oak Sapling"
+            ],
+            "minecraft.pale_oak_sign": [
+                null,
+                "Pale Oak Sign"
+            ],
+            "minecraft.pale_oak_slab": [
+                null,
+                "Pale Oak Slab"
+            ],
+            "minecraft.pale_oak_stairs": [
+                null,
+                "Pale Oak Stairs"
+            ],
+            "minecraft.pale_oak_trapdoor": [
+                null,
+                "Pale Oak Trapdoor"
+            ],
+            "minecraft.pale_oak_wood": [
+                null,
+                "Pale Oak Wood"
+            ],
+            "minecraft.potted_pale_oak_sapling": [
+                null,
+                "Potted Pale Oak Sapling"
+            ],
+            "minecraft.stripped_pale_oak_log": [
+                null,
+                "Stripped Pale Oak Log"
+            ],
+            "minecraft.stripped_pale_oak_wood": [
+                null,
+                "Stripped Pale Oak Wood"
+            ]
+        },
+        "commands": {
+            "rotate.success": [
+                null,
+                "Rotated %s"
+            ]
+        },
+        "dataPack": {
+            "winter_drop.description": [
+                null,
+                "New features and content for the Winter Drop"
+            ],
+            "winter_drop.name": [
+                null,
+                "Winter Drop"
+            ]
+        },
+        "entity": {
+            "minecraft.acacia_chest_boat": [
+                "Acacia Boat With Chest",
+                "Acacia Boat with Chest"
+            ],
+            "minecraft.bamboo_chest_raft": [
+                "Bamboo Raft With Chest",
+                "Bamboo Raft with Chest"
+            ],
+            "minecraft.birch_chest_boat": [
+                "Birch Boat With Chest",
+                "Birch Boat with Chest"
+            ],
+            "minecraft.boat": [
+                null,
+                "Boat"
+            ],
+            "minecraft.cherry_chest_boat": [
+                "Cherry Boat With Chest",
+                "Cherry Boat with Chest"
+            ],
+            "minecraft.chest_boat": [
+                null,
+                "Boat with Chest"
+            ],
+            "minecraft.creaking": [
+                null,
+                "Creaking"
+            ],
+            "minecraft.creaking_transient": [
+                null,
+                "Creaking"
+            ],
+            "minecraft.dark_oak_chest_boat": [
+                "Dark Oak Boat With Chest",
+                "Dark Oak Boat with Chest"
+            ],
+            "minecraft.jungle_chest_boat": [
+                "Jungle Boat With Chest",
+                "Jungle Boat with Chest"
+            ],
+            "minecraft.mangrove_chest_boat": [
+                "Mangrove Boat With Chest",
+                "Mangrove Boat with Chest"
+            ],
+            "minecraft.oak_chest_boat": [
+                "Oak Boat With Chest",
+                "Oak Boat with Chest"
+            ],
+            "minecraft.pale_oak_boat": [
+                null,
+                "Pale Oak Boat"
+            ],
+            "minecraft.pale_oak_chest_boat": [
+                null,
+                "Pale Oak Boat with Chest"
+            ],
+            "minecraft.spruce_chest_boat": [
+                "Spruce Boat With Chest",
+                "Spruce Boat with Chest"
+            ]
+        },
+        "item": {
+            "minecraft.creaking_spawn_egg": [
+                null,
+                "Creaking Spawn Egg"
+            ],
+            "minecraft.pale_oak_boat": [
+                null,
+                "Pale Oak Boat"
+            ],
+            "minecraft.pale_oak_chest_boat": [
+                null,
+                "Pale Oak Boat with Chest"
+            ]
+        },
+        "options": {
+            "accessibility.high_contrast_block_outline": [
+                null,
+                "High Contrast Block Outlines"
+            ],
+            "accessibility.high_contrast_block_outline.tooltip": [
+                null,
+                "Enhances the block outline contrast of targeted block."
+            ]
+        },
+        "subtitles": {
+            "block.creaking_heart.hurt": [
+                null,
+                "Creaking Heart screams"
+            ],
+            "block.creaking_heart.idle": [
+                null,
+                "Eerie noise"
+            ],
+            "block.creaking_heart.spawn": [
+                null,
+                "Creaking Heart awakens"
+            ],
+            "block.pale_hanging_moss.idle": [
+                null,
+                "Eerie noise"
+            ],
+            "entity.creaking.activate": [
+                null,
+                "Creaking activates"
+            ],
+            "entity.creaking.ambient": [
+                null,
+                "Creaking creaks"
+            ],
+            "entity.creaking.angry": [
+                null,
+                "Creaking sees player"
+            ],
+            "entity.creaking.attack": [
+                null,
+                "Creaking attacks"
+            ],
+            "entity.creaking.deactivate": [
+                null,
+                "Creaking deactivates"
+            ],
+            "entity.creaking.death": [
+                null,
+                "Creaking dies"
+            ],
+            "entity.creaking.freeze": [
+                null,
+                "Creaking stops"
+            ],
+            "entity.creaking.spawn": [
+                null,
+                "Creaking lives"
+            ],
+            "entity.creaking.sway": [
+                null,
+                "Creaking is shielded"
+            ],
+            "entity.creaking.unfreeze": [
+                null,
+                "Creaking moves"
+            ],
+            "entity.parrot.imitate.creaking": [
+                null,
+                "Parrot creaks"
+            ]
+        }
+    },
+    "sounds": {
+        "block.creaking_heart.break": [
+            null,
+            {
+                "field": "gt",
+                "id": 383,
+                "name": "block.creaking_heart.break",
+                "sounds": [
+                    {
+                        "hash": "951bd24d521e7466557f50220af188f5d0d2d4c7",
+                        "name": "block/creaking_heart/break/creaking_heart_break"
+                    }
+                ],
+                "subtitle": "Block broken",
+                "subtitle_key": "subtitles.block.generic.break"
+            }
+        ],
+        "block.creaking_heart.fall": [
+            null,
+            {
+                "field": "gu",
+                "id": 384,
+                "name": "block.creaking_heart.fall",
+                "sounds": [
+                    {
+                        "hash": "79087504baf5844468823ecbc2ef092d31011298",
+                        "name": "block/creaking_heart/fall/creaking_heart_fall"
+                    }
+                ]
+            }
+        ],
+        "block.creaking_heart.hit": [
+            null,
+            {
+                "field": "gv",
+                "id": 385,
+                "name": "block.creaking_heart.hit",
+                "sounds": [
+                    {
+                        "hash": "f04f3818a8344179ea169eb252b8ead671836f69",
+                        "name": "block/creaking_heart/hit/creaking_heart_hit1"
+                    },
+                    {
+                        "hash": "e4f2f698a6281c7d85f72363525655628e3d4d1b",
+                        "name": "block/creaking_heart/hit/creaking_heart_hit2"
+                    },
+                    {
+                        "hash": "90a690d7850c916b4aaed906be3730e761ebffa8",
+                        "name": "block/creaking_heart/hit/creaking_heart_hit3"
+                    },
+                    {
+                        "hash": "8a059948fa1bb11c735a212722f4243ab8cee2bb",
+                        "name": "block/creaking_heart/hit/creaking_heart_hit4"
+                    },
+                    {
+                        "hash": "a21140ffeb629cbb15d38c1bc3a22550fe6004d4",
+                        "name": "block/creaking_heart/hit/creaking_heart_hit5"
+                    }
+                ],
+                "subtitle": "Block breaking",
+                "subtitle_key": "subtitles.block.generic.hit"
+            }
+        ],
+        "block.creaking_heart.hurt": [
+            null,
+            {
+                "field": "gw",
+                "id": 386,
+                "name": "block.creaking_heart.hurt",
+                "sounds": [
+                    {
+                        "hash": "3d6144967801fcd05665f45768082dac5b4f36c9",
+                        "name": "block/creaking_heart/hurt/trail1"
+                    },
+                    {
+                        "hash": "8b65d256a03b0ce5568d701655f5f87740fdc30f",
+                        "name": "block/creaking_heart/hurt/trail2"
+                    },
+                    {
+                        "hash": "bfcce3651ca4c42d72cff71858502eaab9b9e6bf",
+                        "name": "block/creaking_heart/hurt/trail3"
+                    },
+                    {
+                        "hash": "361a0d4382833f2e1c5a1a84de4c9bfcca48de16",
+                        "name": "block/creaking_heart/hurt/trail4"
+                    },
+                    {
+                        "hash": "a329c273360e55b51d051e633714456bf2a66a5a",
+                        "name": "block/creaking_heart/hurt/trail5"
+                    },
+                    {
+                        "hash": "4e9240b0b53868110b26cd527e2dc852cb406895",
+                        "name": "block/creaking_heart/hurt/trail6"
+                    },
+                    {
+                        "hash": "c4e757abe67ec75b2ffdf808bb904327987980cd",
+                        "name": "block/creaking_heart/hurt/trail7"
+                    }
+                ],
+                "subtitle": "Creaking Heart screams",
+                "subtitle_key": "subtitles.block.creaking_heart.hurt"
+            }
+        ],
+        "block.creaking_heart.idle": [
+            null,
+            {
+                "field": "gz",
+                "id": 389,
+                "name": "block.creaking_heart.idle",
+                "sounds": [
+                    {
+                        "hash": "51e8d2f915d8469e777f5c362f69e78247db96d7",
+                        "name": "block/creaking_heart/idle/creaking_heart_idle1"
+                    },
+                    {
+                        "hash": "b669d0d48c11082057a3644c78a8d6a605342872",
+                        "name": "block/creaking_heart/idle/creaking_heart_idle2"
+                    },
+                    {
+                        "hash": "9e42c648d4a05fdee104c250079ee477ed7b9d46",
+                        "name": "block/creaking_heart/idle/creaking_heart_idle3"
+                    },
+                    {
+                        "hash": "aae3fdb90e1053525285b631b4033bf107d28b76",
+                        "name": "block/creaking_heart/idle/creaking_heart_idle4"
+                    }
+                ],
+                "subtitle": "Eerie noise",
+                "subtitle_key": "subtitles.block.creaking_heart.idle"
+            }
+        ],
+        "block.creaking_heart.place": [
+            null,
+            {
+                "field": "gx",
+                "id": 387,
+                "name": "block.creaking_heart.place",
+                "sounds": [
+                    {
+                        "hash": "110ad730c3a43b26a9b2457b59f65d9f10ea32af",
+                        "name": "block/creaking_heart/place/wood1"
+                    },
+                    {
+                        "hash": "819109a6d3b1f3cac55bf47a38900045869b826f",
+                        "name": "block/creaking_heart/place/wood2"
+                    },
+                    {
+                        "hash": "eb8f84a956ec661d84ad6214e6098de97c894db2",
+                        "name": "block/creaking_heart/place/wood3"
+                    },
+                    {
+                        "hash": "903a6525b6d483a100f7531a792eddc656324fb6",
+                        "name": "block/creaking_heart/place/wood4"
+                    }
+                ],
+                "subtitle": "Block placed",
+                "subtitle_key": "subtitles.block.generic.place"
+            }
+        ],
+        "block.creaking_heart.spawn": [
+            null,
+            {
+                "field": "gA",
+                "id": 390,
+                "name": "block.creaking_heart.spawn",
+                "sounds": [
+                    {
+                        "hash": "7c2e83c4d82f8f351f6f4188f1fe1d9592f49499",
+                        "name": "block/creaking_heart/spawnmob/creaking_heart_spawnmob"
+                    }
+                ],
+                "subtitle": "Creaking Heart awakens",
+                "subtitle_key": "subtitles.block.creaking_heart.spawn"
+            }
+        ],
+        "block.creaking_heart.step": [
+            null,
+            {
+                "field": "gy",
+                "id": 388,
+                "name": "block.creaking_heart.step",
+                "sounds": [
+                    {
+                        "hash": "d53e7fe1270c7c8e26f559bd38165c52de1ade68",
+                        "name": "block/creaking_heart/step/creaking_heart_step1"
+                    },
+                    {
+                        "hash": "c3b01e40dcc6d8e4d3e5665a3ae27e40c0cce082",
+                        "name": "block/creaking_heart/step/creaking_heart_step2"
+                    },
+                    {
+                        "hash": "c8334f4b1bd15783b421771691acef1bbc0ac925",
+                        "name": "block/creaking_heart/step/creaking_heart_step3"
+                    },
+                    {
+                        "hash": "3b80a9b5ab0a3780e249e2241201c2e91c791e76",
+                        "name": "block/creaking_heart/step/creaking_heart_step4"
+                    },
+                    {
+                        "hash": "75f0045e0d2c80008868d32a9ac0757f597545b0",
+                        "name": "block/creaking_heart/step/creaking_heart_step5"
+                    },
+                    {
+                        "hash": "d74d2fee6daa8276531e4a34d643a00decbe54bc",
+                        "name": "block/creaking_heart/step/creaking_heart_step6"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "block.pale_hanging_moss.idle": [
+            null,
+            {
+                "field": "sL",
+                "id": 1024,
+                "name": "block.pale_hanging_moss.idle",
+                "sounds": [
+                    {
+                        "hash": "7089d660db3e43a6061cff7f4a77b0b770ef4632",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss1"
+                    },
+                    {
+                        "hash": "0bb8f8a6d39ce1a811517c973eba3108629172a8",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss2"
+                    },
+                    {
+                        "hash": "10ddd558c544bb0286af5ed0b4b440353c3f2a87",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss3"
+                    },
+                    {
+                        "hash": "6736c2afa4cda671722e7d24cd5b66fc4006b054",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss4"
+                    },
+                    {
+                        "hash": "af770815209de8c8e5843d266c1610c04d5d58db",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss5"
+                    },
+                    {
+                        "hash": "b06e087e36c5ad1e3e32179d2d712d2bc24425a0",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss6"
+                    },
+                    {
+                        "hash": "8bc1c4de8c29b43f2934175f08be10aa5d538fcd",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss7"
+                    },
+                    {
+                        "hash": "2464fb278d1e855e9fa1a60056f24f0776b006bd",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss8"
+                    },
+                    {
+                        "hash": "ceb0c6b2dbb81643b41ade0a3fcb20e95f661b35",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss9"
+                    },
+                    {
+                        "hash": "5f4becb2557c3da9947587eae18e0ef899769eeb",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss10"
+                    },
+                    {
+                        "hash": "2e82bfffe303f65ee7c2c23b4b0b637b79ae0360",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss11"
+                    },
+                    {
+                        "hash": "4d317c9632c6dc5cd6ec10546f6752a3ac8fbcae",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss12"
+                    },
+                    {
+                        "hash": "a27a948537d1e43e4e44b54c6d164d908a7a871c",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss13"
+                    },
+                    {
+                        "hash": "5f05073888c608db67790239fac0623f1f2671a6",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss14"
+                    },
+                    {
+                        "hash": "74856b910cbcb52f815f3c042ae5ac79979bb1ae",
+                        "name": "block/pale_hanging_moss/pale_hanging_moss15"
+                    }
+                ],
+                "subtitle": "Eerie noise",
+                "subtitle_key": "subtitles.block.pale_hanging_moss.idle"
+            }
+        ],
+        "entity.creaking.activate": [
+            null,
+            {
+                "field": "gk",
+                "id": 374,
+                "name": "entity.creaking.activate",
+                "sounds": [
+                    {
+                        "hash": "d740ea697c1f09e1bdc68dccd43a2aee48759072",
+                        "name": "mob/creaking/creaking_activate"
+                    }
+                ],
+                "subtitle": "Creaking activates",
+                "subtitle_key": "subtitles.entity.creaking.activate"
+            }
+        ],
+        "entity.creaking.ambient": [
+            null,
+            {
+                "field": "gj",
+                "id": 373,
+                "name": "entity.creaking.ambient",
+                "sounds": [
+                    {
+                        "hash": "6b6a1f07a8fb3b97c6d6cc4d3810e33c2701c47a",
+                        "name": "mob/creaking/creaking_idle1"
+                    },
+                    {
+                        "hash": "d91e759d9c17fa11c5f9a98542774c6af5735d52",
+                        "name": "mob/creaking/creaking_idle2"
+                    },
+                    {
+                        "hash": "75aad92df36ba44928e934674069694ad03f42f9",
+                        "name": "mob/creaking/creaking_idle3"
+                    },
+                    {
+                        "hash": "30cbb388cfac2e93e06628218f5ad334bfef60e9",
+                        "name": "mob/creaking/creaking_idle4"
+                    },
+                    {
+                        "hash": "38b17e27ba3eb6b8e549c295040f21d965ed347c",
+                        "name": "mob/creaking/creaking_idle5"
+                    },
+                    {
+                        "hash": "9822ae94c710bcd4130f78bb353eefecfd614c2f",
+                        "name": "mob/creaking/creaking_idle6"
+                    }
+                ],
+                "subtitle": "Creaking creaks",
+                "subtitle_key": "subtitles.entity.creaking.ambient"
+            }
+        ],
+        "entity.creaking.attack": [
+            null,
+            {
+                "field": "gm",
+                "id": 376,
+                "name": "entity.creaking.attack",
+                "sounds": [
+                    {
+                        "hash": "2f8b4b2fac21934fdd211e88ecdb189ff7a45af3",
+                        "name": "mob/creaking/creaking_attack1"
+                    },
+                    {
+                        "hash": "bdb2725d1c4d522bd285ae31f73b7ce177cf3346",
+                        "name": "mob/creaking/creaking_attack2"
+                    },
+                    {
+                        "hash": "f40f393e9297f2a49bec801eb71d0b4cd4a702cd",
+                        "name": "mob/creaking/creaking_attack3"
+                    },
+                    {
+                        "hash": "c571097934b0b767baa6a98316f2a3c2ada08577",
+                        "name": "mob/creaking/creaking_attack4"
+                    }
+                ],
+                "subtitle": "Creaking attacks",
+                "subtitle_key": "subtitles.entity.creaking.attack"
+            }
+        ],
+        "entity.creaking.deactivate": [
+            null,
+            {
+                "field": "gl",
+                "id": 375,
+                "name": "entity.creaking.deactivate",
+                "sounds": [
+                    {
+                        "hash": "639157a1c66558da9f66045150f66885c2adabbe",
+                        "name": "mob/creaking/creaking_deactivate"
+                    }
+                ],
+                "subtitle": "Creaking deactivates",
+                "subtitle_key": "subtitles.entity.creaking.deactivate"
+            }
+        ],
+        "entity.creaking.death": [
+            null,
+            {
+                "field": "gn",
+                "id": 377,
+                "name": "entity.creaking.death",
+                "sounds": [
+                    {
+                        "hash": "582b5617690565a1a8c8f11a3a5717e76be402c7",
+                        "name": "mob/creaking/creaking_death"
+                    }
+                ],
+                "subtitle": "Creaking dies",
+                "subtitle_key": "subtitles.entity.creaking.death"
+            }
+        ],
+        "entity.creaking.freeze": [
+            null,
+            {
+                "field": "gp",
+                "id": 379,
+                "name": "entity.creaking.freeze",
+                "sounds": [
+                    {
+                        "hash": "6be14445d7574aedf48232e4d028420738bc56c5",
+                        "name": "mob/creaking/creaking_freeze1"
+                    },
+                    {
+                        "hash": "1d2b77fca163ae74eabbcee782dbb2e9f8e54d7c",
+                        "name": "mob/creaking/creaking_freeze2"
+                    },
+                    {
+                        "hash": "ee61f8f3f2b268f4435c49722298d92a403ac253",
+                        "name": "mob/creaking/creaking_freeze3"
+                    },
+                    {
+                        "hash": "f3ca6e1c943b3fa1520247f00d8283800f94fb04",
+                        "name": "mob/creaking/creaking_freeze4"
+                    }
+                ],
+                "subtitle": "Creaking stops",
+                "subtitle_key": "subtitles.entity.creaking.freeze"
+            }
+        ],
+        "entity.creaking.spawn": [
+            null,
+            {
+                "field": "gr",
+                "id": 381,
+                "name": "entity.creaking.spawn",
+                "sounds": [
+                    {
+                        "hash": "cd47b9f60b4fd86af8d4877540920ea4b557d829",
+                        "name": "mob/creaking/creaking_spawn"
+                    }
+                ],
+                "subtitle": "Creaking lives",
+                "subtitle_key": "subtitles.entity.creaking.spawn"
+            }
+        ],
+        "entity.creaking.step": [
+            null,
+            {
+                "field": "go",
+                "id": 378,
+                "name": "entity.creaking.step",
+                "sounds": [
+                    {
+                        "hash": "46a4197001b67c84ff3752c96afce6e747936774",
+                        "name": "mob/creaking/creaking_step1"
+                    },
+                    {
+                        "hash": "0d68cf80d3018c93de2f3048114dd7452d75b8da",
+                        "name": "mob/creaking/creaking_step2"
+                    },
+                    {
+                        "hash": "3f6d5f2b9ea4f0091d971e05a2551a4386ecf299",
+                        "name": "mob/creaking/creaking_step3"
+                    },
+                    {
+                        "hash": "6c3ac56c7444bfee116bb7cf52b01b90f3319608",
+                        "name": "mob/creaking/creaking_step4"
+                    },
+                    {
+                        "hash": "5c5eaa8d9f0acd439140e81270789da9ecf6694d",
+                        "name": "mob/creaking/creaking_step5"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.creaking.sway": [
+            null,
+            {
+                "field": "gs",
+                "id": 382,
+                "name": "entity.creaking.sway",
+                "sounds": [
+                    {
+                        "hash": "a2e9e1a394ae33e36d110b1a3a1adfd5e5b53b24",
+                        "name": "mob/creaking/creaking_sway"
+                    }
+                ],
+                "subtitle": "Creaking is shielded",
+                "subtitle_key": "subtitles.entity.creaking.sway"
+            }
+        ],
+        "entity.creaking.unfreeze": [
+            null,
+            {
+                "field": "gq",
+                "id": 380,
+                "name": "entity.creaking.unfreeze",
+                "sounds": [
+                    {
+                        "hash": "e8591bd70a7a73bc824fdbb82adc198cb22ea6e1",
+                        "name": "mob/creaking/creaking_unfreeze1"
+                    },
+                    {
+                        "hash": "3f9d592a660e95a22ccc7952dcecbc378fde271e",
+                        "name": "mob/creaking/creaking_unfreeze2"
+                    },
+                    {
+                        "hash": "a1a1eed5307c991ad0b64e0cb6fce87f20f713c5",
+                        "name": "mob/creaking/creaking_unfreeze3"
+                    }
+                ],
+                "subtitle": "Creaking moves",
+                "subtitle_key": "subtitles.entity.creaking.unfreeze"
+            }
+        ],
+        "entity.parrot.imitate.creaking": [
+            null,
+            {
+                "field": "tf",
+                "id": 1044,
+                "name": "entity.parrot.imitate.creaking",
+                "sounds": [
+                    {
+                        "hash": "0455845f8b0976b0ae74c9fe296fa9a6a2f92c6a",
+                        "name": "mob/creaking/parrot_imitate_creaking"
+                    }
+                ],
+                "subtitle": "Parrot creaks",
+                "subtitle_key": "subtitles.entity.parrot.imitate.creaking"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "item/gaze_disguise_equipment": [
+            null,
+            {
+                "name": "gaze_disguise_equipment",
+                "type": "item",
+                "values": [
+                    "minecraft:carved_pumpkin"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4069,
+            4072
+        ],
+        "id": [
+            "24w39a",
+            "24w40a"
+        ],
+        "name": [
+            "24w39a",
+            "24w40a"
+        ],
+        "protocol": [
+            1073742035,
+            1073742036
+        ]
+    }
+}
