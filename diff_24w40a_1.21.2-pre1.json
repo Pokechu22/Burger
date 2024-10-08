@@ -1,0 +1,55 @@
+{
+    "achievements": {},
+    "language": {
+        "gamerule": {
+            "disablePlayerMovementCheck": [
+                null,
+                "Disable player movement check"
+            ]
+        },
+        "subtitles": {
+            "ui.hud.bubble_pop": [
+                null,
+                "Breath meter dropping"
+            ]
+        }
+    },
+    "sounds": {
+        "ui.hud.bubble_pop": [
+            null,
+            {
+                "field": "dc",
+                "id": 210,
+                "name": "ui.hud.bubble_pop",
+                "sounds": [
+                    {
+                        "hash": "99a74f5734610b1ebe18a0e3589fc22a6e4dc307",
+                        "name": "ui/hud/hud_bubble"
+                    }
+                ],
+                "subtitle": "Breath meter dropping",
+                "subtitle_key": "subtitles.ui.hud.bubble_pop"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4072,
+            4073
+        ],
+        "id": [
+            "24w40a",
+            "1.21.2-pre1"
+        ],
+        "name": [
+            "24w40a",
+            "1.21.2 Pre-Release 1"
+        ],
+        "protocol": [
+            1073742036,
+            1073742037
+        ]
+    }
+}
