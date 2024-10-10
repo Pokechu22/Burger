@@ -1,0 +1,48 @@
+{
+    "achievements": {},
+    "language": {
+        "biome": {
+            "minecraft.pale_garden": [
+                null,
+                "Pale Garden"
+            ]
+        },
+        "block": {
+            "minecraft.pale_oak_wall_hanging_sign": [
+                null,
+                "Pale Oak Wall Hanging Sign"
+            ],
+            "minecraft.pale_oak_wall_sign": [
+                null,
+                "Pale Oak Wall Sign"
+            ]
+        },
+        "options": {
+            "accessibility.high_contrast_block_outline.tooltip": [
+                "Enhances the block outline contrast of targeted block.",
+                "Enhances the block outline contrast of the targeted block."
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4073,
+            4074
+        ],
+        "id": [
+            "1.21.2-pre1",
+            "1.21.2-pre2"
+        ],
+        "name": [
+            "1.21.2 Pre-Release 1",
+            "1.21.2 Pre-Release 2"
+        ],
+        "protocol": [
+            1073742037,
+            1073742038
+        ]
+    }
+}
