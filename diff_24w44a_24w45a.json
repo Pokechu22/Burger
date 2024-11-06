@@ -1,0 +1,1638 @@
+{
+    "achievements": {},
+    "language": {
+        "subtitles": {
+            "block.creaking_heart.hurt": [
+                "Creaking Heart screams",
+                "Creaking Heart grumbles"
+            ],
+            "entity.creaking.activate": [
+                "Creaking activates",
+                "Creaking watches"
+            ],
+            "entity.creaking.deactivate": [
+                "Creaking deactivates",
+                "Creaking calms"
+            ],
+            "entity.creaking.death": [
+                "Creaking dies",
+                "Creaking crumbles"
+            ],
+            "entity.creaking.spawn": [
+                "Creaking lives",
+                "Creaking manifests"
+            ],
+            "entity.creaking.sway": [
+                "Creaking is shielded",
+                "Creaking is hit"
+            ],
+            "item.elytra.flying": [
+                "Elytra swooshes",
+                "Swoosh"
+            ]
+        }
+    },
+    "sounds": {
+        "block.creaking_heart.hurt": [
+            {
+                "field": "gy",
+                "id": 388,
+                "name": "block.creaking_heart.hurt",
+                "sounds": [
+                    {
+                        "hash": "3d6144967801fcd05665f45768082dac5b4f36c9",
+                        "name": "block/creaking_heart/hurt/trail1"
+                    },
+                    {
+                        "hash": "8b65d256a03b0ce5568d701655f5f87740fdc30f",
+                        "name": "block/creaking_heart/hurt/trail2"
+                    },
+                    {
+                        "hash": "bfcce3651ca4c42d72cff71858502eaab9b9e6bf",
+                        "name": "block/creaking_heart/hurt/trail3"
+                    },
+                    {
+                        "hash": "361a0d4382833f2e1c5a1a84de4c9bfcca48de16",
+                        "name": "block/creaking_heart/hurt/trail4"
+                    },
+                    {
+                        "hash": "a329c273360e55b51d051e633714456bf2a66a5a",
+                        "name": "block/creaking_heart/hurt/trail5"
+                    },
+                    {
+                        "hash": "4e9240b0b53868110b26cd527e2dc852cb406895",
+                        "name": "block/creaking_heart/hurt/trail6"
+                    },
+                    {
+                        "hash": "c4e757abe67ec75b2ffdf808bb904327987980cd",
+                        "name": "block/creaking_heart/hurt/trail7"
+                    }
+                ],
+                "subtitle": "Creaking Heart screams",
+                "subtitle_key": "subtitles.block.creaking_heart.hurt"
+            },
+            {
+                "field": "gy",
+                "id": 388,
+                "name": "block.creaking_heart.hurt",
+                "sounds": [
+                    {
+                        "hash": "3d6144967801fcd05665f45768082dac5b4f36c9",
+                        "name": "block/creaking_heart/hurt/trail1"
+                    },
+                    {
+                        "hash": "8b65d256a03b0ce5568d701655f5f87740fdc30f",
+                        "name": "block/creaking_heart/hurt/trail2"
+                    },
+                    {
+                        "hash": "bfcce3651ca4c42d72cff71858502eaab9b9e6bf",
+                        "name": "block/creaking_heart/hurt/trail3"
+                    },
+                    {
+                        "hash": "361a0d4382833f2e1c5a1a84de4c9bfcca48de16",
+                        "name": "block/creaking_heart/hurt/trail4"
+                    },
+                    {
+                        "hash": "a329c273360e55b51d051e633714456bf2a66a5a",
+                        "name": "block/creaking_heart/hurt/trail5"
+                    },
+                    {
+                        "hash": "4e9240b0b53868110b26cd527e2dc852cb406895",
+                        "name": "block/creaking_heart/hurt/trail6"
+                    },
+                    {
+                        "hash": "c4e757abe67ec75b2ffdf808bb904327987980cd",
+                        "name": "block/creaking_heart/hurt/trail7"
+                    }
+                ],
+                "subtitle": "Creaking Heart grumbles",
+                "subtitle_key": "subtitles.block.creaking_heart.hurt"
+            }
+        ],
+        "entity.creaking.activate": [
+            {
+                "field": "gl",
+                "id": 375,
+                "name": "entity.creaking.activate",
+                "sounds": [
+                    {
+                        "hash": "d740ea697c1f09e1bdc68dccd43a2aee48759072",
+                        "name": "mob/creaking/creaking_activate"
+                    }
+                ],
+                "subtitle": "Creaking activates",
+                "subtitle_key": "subtitles.entity.creaking.activate"
+            },
+            {
+                "field": "gl",
+                "id": 375,
+                "name": "entity.creaking.activate",
+                "sounds": [
+                    {
+                        "hash": "d740ea697c1f09e1bdc68dccd43a2aee48759072",
+                        "name": "mob/creaking/creaking_activate"
+                    }
+                ],
+                "subtitle": "Creaking watches",
+                "subtitle_key": "subtitles.entity.creaking.activate"
+            }
+        ],
+        "entity.creaking.deactivate": [
+            {
+                "field": "gm",
+                "id": 376,
+                "name": "entity.creaking.deactivate",
+                "sounds": [
+                    {
+                        "hash": "639157a1c66558da9f66045150f66885c2adabbe",
+                        "name": "mob/creaking/creaking_deactivate"
+                    }
+                ],
+                "subtitle": "Creaking deactivates",
+                "subtitle_key": "subtitles.entity.creaking.deactivate"
+            },
+            {
+                "field": "gm",
+                "id": 376,
+                "name": "entity.creaking.deactivate",
+                "sounds": [
+                    {
+                        "hash": "639157a1c66558da9f66045150f66885c2adabbe",
+                        "name": "mob/creaking/creaking_deactivate"
+                    }
+                ],
+                "subtitle": "Creaking calms",
+                "subtitle_key": "subtitles.entity.creaking.deactivate"
+            }
+        ],
+        "entity.creaking.death": [
+            {
+                "field": "go",
+                "id": 378,
+                "name": "entity.creaking.death",
+                "sounds": [
+                    {
+                        "hash": "f8eb114e21403ebce17da21c34c5fb3d1c4d42f9",
+                        "name": "mob/creaking/creaking_death"
+                    }
+                ],
+                "subtitle": "Creaking dies",
+                "subtitle_key": "subtitles.entity.creaking.death"
+            },
+            {
+                "field": "go",
+                "id": 378,
+                "name": "entity.creaking.death",
+                "sounds": [
+                    {
+                        "hash": "f8eb114e21403ebce17da21c34c5fb3d1c4d42f9",
+                        "name": "mob/creaking/creaking_death"
+                    }
+                ],
+                "subtitle": "Creaking crumbles",
+                "subtitle_key": "subtitles.entity.creaking.death"
+            }
+        ],
+        "entity.creaking.spawn": [
+            {
+                "field": "gs",
+                "id": 382,
+                "name": "entity.creaking.spawn",
+                "sounds": [
+                    {
+                        "hash": "cd47b9f60b4fd86af8d4877540920ea4b557d829",
+                        "name": "mob/creaking/creaking_spawn"
+                    }
+                ],
+                "subtitle": "Creaking lives",
+                "subtitle_key": "subtitles.entity.creaking.spawn"
+            },
+            {
+                "field": "gs",
+                "id": 382,
+                "name": "entity.creaking.spawn",
+                "sounds": [
+                    {
+                        "hash": "cd47b9f60b4fd86af8d4877540920ea4b557d829",
+                        "name": "mob/creaking/creaking_spawn"
+                    }
+                ],
+                "subtitle": "Creaking manifests",
+                "subtitle_key": "subtitles.entity.creaking.spawn"
+            }
+        ],
+        "entity.creaking.sway": [
+            {
+                "field": "gt",
+                "id": 383,
+                "name": "entity.creaking.sway",
+                "sounds": [
+                    {
+                        "hash": "650766ab090fba82c32a43b5700923021cd5ceaa",
+                        "name": "mob/creaking/creaking_sway1"
+                    },
+                    {
+                        "hash": "a7fed36ccd746da48fa81923e59c6cfb8e9d4404",
+                        "name": "mob/creaking/creaking_sway2"
+                    },
+                    {
+                        "hash": "e5c209b55e5bbc33c8ed1eeea19cf2901380f1f7",
+                        "name": "mob/creaking/creaking_sway3"
+                    },
+                    {
+                        "hash": "81e6856b28c34e1f0e2f93a0b191639da64365d4",
+                        "name": "mob/creaking/creaking_sway4"
+                    }
+                ],
+                "subtitle": "Creaking is shielded",
+                "subtitle_key": "subtitles.entity.creaking.sway"
+            },
+            {
+                "field": "gt",
+                "id": 383,
+                "name": "entity.creaking.sway",
+                "sounds": [
+                    {
+                        "hash": "650766ab090fba82c32a43b5700923021cd5ceaa",
+                        "name": "mob/creaking/creaking_sway1"
+                    },
+                    {
+                        "hash": "a7fed36ccd746da48fa81923e59c6cfb8e9d4404",
+                        "name": "mob/creaking/creaking_sway2"
+                    },
+                    {
+                        "hash": "e5c209b55e5bbc33c8ed1eeea19cf2901380f1f7",
+                        "name": "mob/creaking/creaking_sway3"
+                    },
+                    {
+                        "hash": "81e6856b28c34e1f0e2f93a0b191639da64365d4",
+                        "name": "mob/creaking/creaking_sway4"
+                    }
+                ],
+                "subtitle": "Creaking is hit",
+                "subtitle_key": "subtitles.entity.creaking.sway"
+            }
+        ],
+        "item.elytra.flying": [
+            {
+                "field": "ir",
+                "id": 485,
+                "name": "item.elytra.flying",
+                "sounds": [
+                    {
+                        "hash": "75c3df1293a7a559a780b47d2f9e630e7b0a46ff",
+                        "name": "item/elytra/elytra_loop",
+                        "volume": 0.6
+                    }
+                ],
+                "subtitle": "Elytra swooshes",
+                "subtitle_key": "subtitles.item.elytra.flying"
+            },
+            {
+                "field": "ir",
+                "id": 485,
+                "name": "item.elytra.flying",
+                "sounds": [
+                    {
+                        "hash": "75c3df1293a7a559a780b47d2f9e630e7b0a46ff",
+                        "name": "item/elytra/elytra_loop",
+                        "volume": 0.6
+                    }
+                ],
+                "subtitle": "Swoosh",
+                "subtitle_key": "subtitles.item.elytra.flying"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/bee_attractive": [
+            null,
+            {
+                "name": "bee_attractive",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            }
+        ],
+        "block/enchantment_power_transmitter": [
+            {
+                "name": "enchantment_power_transmitter",
+                "type": "block",
+                "values": [
+                    "minecraft:air",
+                    "minecraft:water",
+                    "minecraft:lava",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:fire",
+                    "minecraft:soul_fire",
+                    "minecraft:snow",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:light",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:structure_void",
+                    "minecraft:void_air",
+                    "minecraft:cave_air",
+                    "minecraft:bubble_column",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:hanging_roots"
+                ]
+            },
+            {
+                "name": "enchantment_power_transmitter",
+                "type": "block",
+                "values": [
+                    "minecraft:air",
+                    "minecraft:water",
+                    "minecraft:lava",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:fire",
+                    "minecraft:soul_fire",
+                    "minecraft:snow",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:resin_clump",
+                    "minecraft:light",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:structure_void",
+                    "minecraft:void_air",
+                    "minecraft:cave_air",
+                    "minecraft:bubble_column",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:hanging_roots"
+                ]
+            }
+        ],
+        "block/enderman_holdable": [
+            {
+                "name": "enderman_holdable",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:gravel",
+                    "minecraft:brown_mushroom",
+                    "minecraft:red_mushroom",
+                    "minecraft:tnt",
+                    "minecraft:cactus",
+                    "minecraft:clay",
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:melon",
+                    "minecraft:crimson_fungus",
+                    "minecraft:crimson_nylium",
+                    "minecraft:crimson_roots",
+                    "minecraft:warped_fungus",
+                    "minecraft:warped_nylium",
+                    "minecraft:warped_roots"
+                ]
+            },
+            {
+                "name": "enderman_holdable",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:gravel",
+                    "minecraft:brown_mushroom",
+                    "minecraft:red_mushroom",
+                    "minecraft:tnt",
+                    "minecraft:cactus",
+                    "minecraft:clay",
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:melon",
+                    "minecraft:crimson_fungus",
+                    "minecraft:crimson_nylium",
+                    "minecraft:crimson_roots",
+                    "minecraft:warped_fungus",
+                    "minecraft:warped_nylium",
+                    "minecraft:warped_roots"
+                ]
+            }
+        ],
+        "block/flowers": [
+            {
+                "name": "flowers",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            },
+            {
+                "name": "flowers",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            }
+        ],
+        "block/replaceable": [
+            {
+                "name": "replaceable",
+                "type": "block",
+                "values": [
+                    "minecraft:air",
+                    "minecraft:water",
+                    "minecraft:lava",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:fire",
+                    "minecraft:soul_fire",
+                    "minecraft:snow",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:light",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:structure_void",
+                    "minecraft:void_air",
+                    "minecraft:cave_air",
+                    "minecraft:bubble_column",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:hanging_roots"
+                ]
+            },
+            {
+                "name": "replaceable",
+                "type": "block",
+                "values": [
+                    "minecraft:air",
+                    "minecraft:water",
+                    "minecraft:lava",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:fire",
+                    "minecraft:soul_fire",
+                    "minecraft:snow",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:resin_clump",
+                    "minecraft:light",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:structure_void",
+                    "minecraft:void_air",
+                    "minecraft:cave_air",
+                    "minecraft:bubble_column",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:hanging_roots"
+                ]
+            }
+        ],
+        "block/slabs": [
+            {
+                "name": "slabs",
+                "type": "block",
+                "values": [
+                    "minecraft:oak_slab",
+                    "minecraft:spruce_slab",
+                    "minecraft:birch_slab",
+                    "minecraft:jungle_slab",
+                    "minecraft:acacia_slab",
+                    "minecraft:dark_oak_slab",
+                    "minecraft:pale_oak_slab",
+                    "minecraft:crimson_slab",
+                    "minecraft:warped_slab",
+                    "minecraft:mangrove_slab",
+                    "minecraft:bamboo_slab",
+                    "minecraft:cherry_slab",
+                    "minecraft:bamboo_mosaic_slab",
+                    "minecraft:stone_slab",
+                    "minecraft:smooth_stone_slab",
+                    "minecraft:stone_brick_slab",
+                    "minecraft:sandstone_slab",
+                    "minecraft:purpur_slab",
+                    "minecraft:quartz_slab",
+                    "minecraft:red_sandstone_slab",
+                    "minecraft:brick_slab",
+                    "minecraft:cobblestone_slab",
+                    "minecraft:nether_brick_slab",
+                    "minecraft:petrified_oak_slab",
+                    "minecraft:prismarine_slab",
+                    "minecraft:prismarine_brick_slab",
+                    "minecraft:dark_prismarine_slab",
+                    "minecraft:polished_granite_slab",
+                    "minecraft:smooth_red_sandstone_slab",
+                    "minecraft:mossy_stone_brick_slab",
+                    "minecraft:polished_diorite_slab",
+                    "minecraft:mossy_cobblestone_slab",
+                    "minecraft:end_stone_brick_slab",
+                    "minecraft:smooth_sandstone_slab",
+                    "minecraft:smooth_quartz_slab",
+                    "minecraft:granite_slab",
+                    "minecraft:andesite_slab",
+                    "minecraft:red_nether_brick_slab",
+                    "minecraft:polished_andesite_slab",
+                    "minecraft:diorite_slab",
+                    "minecraft:cut_sandstone_slab",
+                    "minecraft:cut_red_sandstone_slab",
+                    "minecraft:blackstone_slab",
+                    "minecraft:polished_blackstone_brick_slab",
+                    "minecraft:polished_blackstone_slab",
+                    "minecraft:cobbled_deepslate_slab",
+                    "minecraft:polished_deepslate_slab",
+                    "minecraft:deepslate_tile_slab",
+                    "minecraft:deepslate_brick_slab",
+                    "minecraft:waxed_weathered_cut_copper_slab",
+                    "minecraft:waxed_exposed_cut_copper_slab",
+                    "minecraft:waxed_cut_copper_slab",
+                    "minecraft:oxidized_cut_copper_slab",
+                    "minecraft:weathered_cut_copper_slab",
+                    "minecraft:exposed_cut_copper_slab",
+                    "minecraft:cut_copper_slab",
+                    "minecraft:waxed_oxidized_cut_copper_slab",
+                    "minecraft:mud_brick_slab",
+                    "minecraft:tuff_slab",
+                    "minecraft:polished_tuff_slab",
+                    "minecraft:tuff_brick_slab"
+                ]
+            },
+            {
+                "name": "slabs",
+                "type": "block",
+                "values": [
+                    "minecraft:oak_slab",
+                    "minecraft:spruce_slab",
+                    "minecraft:birch_slab",
+                    "minecraft:jungle_slab",
+                    "minecraft:acacia_slab",
+                    "minecraft:dark_oak_slab",
+                    "minecraft:pale_oak_slab",
+                    "minecraft:crimson_slab",
+                    "minecraft:warped_slab",
+                    "minecraft:mangrove_slab",
+                    "minecraft:bamboo_slab",
+                    "minecraft:cherry_slab",
+                    "minecraft:bamboo_mosaic_slab",
+                    "minecraft:stone_slab",
+                    "minecraft:smooth_stone_slab",
+                    "minecraft:stone_brick_slab",
+                    "minecraft:sandstone_slab",
+                    "minecraft:purpur_slab",
+                    "minecraft:quartz_slab",
+                    "minecraft:red_sandstone_slab",
+                    "minecraft:brick_slab",
+                    "minecraft:cobblestone_slab",
+                    "minecraft:nether_brick_slab",
+                    "minecraft:petrified_oak_slab",
+                    "minecraft:prismarine_slab",
+                    "minecraft:prismarine_brick_slab",
+                    "minecraft:dark_prismarine_slab",
+                    "minecraft:polished_granite_slab",
+                    "minecraft:smooth_red_sandstone_slab",
+                    "minecraft:mossy_stone_brick_slab",
+                    "minecraft:polished_diorite_slab",
+                    "minecraft:mossy_cobblestone_slab",
+                    "minecraft:end_stone_brick_slab",
+                    "minecraft:smooth_sandstone_slab",
+                    "minecraft:smooth_quartz_slab",
+                    "minecraft:granite_slab",
+                    "minecraft:andesite_slab",
+                    "minecraft:red_nether_brick_slab",
+                    "minecraft:polished_andesite_slab",
+                    "minecraft:diorite_slab",
+                    "minecraft:cut_sandstone_slab",
+                    "minecraft:cut_red_sandstone_slab",
+                    "minecraft:blackstone_slab",
+                    "minecraft:polished_blackstone_brick_slab",
+                    "minecraft:polished_blackstone_slab",
+                    "minecraft:cobbled_deepslate_slab",
+                    "minecraft:polished_deepslate_slab",
+                    "minecraft:deepslate_tile_slab",
+                    "minecraft:deepslate_brick_slab",
+                    "minecraft:waxed_weathered_cut_copper_slab",
+                    "minecraft:waxed_exposed_cut_copper_slab",
+                    "minecraft:waxed_cut_copper_slab",
+                    "minecraft:oxidized_cut_copper_slab",
+                    "minecraft:weathered_cut_copper_slab",
+                    "minecraft:exposed_cut_copper_slab",
+                    "minecraft:cut_copper_slab",
+                    "minecraft:waxed_oxidized_cut_copper_slab",
+                    "minecraft:mud_brick_slab",
+                    "minecraft:tuff_slab",
+                    "minecraft:polished_tuff_slab",
+                    "minecraft:tuff_brick_slab",
+                    "minecraft:resin_brick_slab"
+                ]
+            }
+        ],
+        "block/small_flowers": [
+            {
+                "name": "small_flowers",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower"
+                ]
+            },
+            {
+                "name": "small_flowers",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom"
+                ]
+            }
+        ],
+        "block/stairs": [
+            {
+                "name": "stairs",
+                "type": "block",
+                "values": [
+                    "minecraft:oak_stairs",
+                    "minecraft:spruce_stairs",
+                    "minecraft:birch_stairs",
+                    "minecraft:jungle_stairs",
+                    "minecraft:acacia_stairs",
+                    "minecraft:dark_oak_stairs",
+                    "minecraft:pale_oak_stairs",
+                    "minecraft:crimson_stairs",
+                    "minecraft:warped_stairs",
+                    "minecraft:mangrove_stairs",
+                    "minecraft:bamboo_stairs",
+                    "minecraft:cherry_stairs",
+                    "minecraft:bamboo_mosaic_stairs",
+                    "minecraft:cobblestone_stairs",
+                    "minecraft:sandstone_stairs",
+                    "minecraft:nether_brick_stairs",
+                    "minecraft:stone_brick_stairs",
+                    "minecraft:brick_stairs",
+                    "minecraft:purpur_stairs",
+                    "minecraft:quartz_stairs",
+                    "minecraft:red_sandstone_stairs",
+                    "minecraft:prismarine_brick_stairs",
+                    "minecraft:prismarine_stairs",
+                    "minecraft:dark_prismarine_stairs",
+                    "minecraft:polished_granite_stairs",
+                    "minecraft:smooth_red_sandstone_stairs",
+                    "minecraft:mossy_stone_brick_stairs",
+                    "minecraft:polished_diorite_stairs",
+                    "minecraft:mossy_cobblestone_stairs",
+                    "minecraft:end_stone_brick_stairs",
+                    "minecraft:stone_stairs",
+                    "minecraft:smooth_sandstone_stairs",
+                    "minecraft:smooth_quartz_stairs",
+                    "minecraft:granite_stairs",
+                    "minecraft:andesite_stairs",
+                    "minecraft:red_nether_brick_stairs",
+                    "minecraft:polished_andesite_stairs",
+                    "minecraft:diorite_stairs",
+                    "minecraft:blackstone_stairs",
+                    "minecraft:polished_blackstone_brick_stairs",
+                    "minecraft:polished_blackstone_stairs",
+                    "minecraft:cobbled_deepslate_stairs",
+                    "minecraft:polished_deepslate_stairs",
+                    "minecraft:deepslate_tile_stairs",
+                    "minecraft:deepslate_brick_stairs",
+                    "minecraft:oxidized_cut_copper_stairs",
+                    "minecraft:weathered_cut_copper_stairs",
+                    "minecraft:exposed_cut_copper_stairs",
+                    "minecraft:cut_copper_stairs",
+                    "minecraft:waxed_weathered_cut_copper_stairs",
+                    "minecraft:waxed_exposed_cut_copper_stairs",
+                    "minecraft:waxed_cut_copper_stairs",
+                    "minecraft:waxed_oxidized_cut_copper_stairs",
+                    "minecraft:mud_brick_stairs",
+                    "minecraft:tuff_stairs",
+                    "minecraft:polished_tuff_stairs",
+                    "minecraft:tuff_brick_stairs"
+                ]
+            },
+            {
+                "name": "stairs",
+                "type": "block",
+                "values": [
+                    "minecraft:oak_stairs",
+                    "minecraft:spruce_stairs",
+                    "minecraft:birch_stairs",
+                    "minecraft:jungle_stairs",
+                    "minecraft:acacia_stairs",
+                    "minecraft:dark_oak_stairs",
+                    "minecraft:pale_oak_stairs",
+                    "minecraft:crimson_stairs",
+                    "minecraft:warped_stairs",
+                    "minecraft:mangrove_stairs",
+                    "minecraft:bamboo_stairs",
+                    "minecraft:cherry_stairs",
+                    "minecraft:bamboo_mosaic_stairs",
+                    "minecraft:cobblestone_stairs",
+                    "minecraft:sandstone_stairs",
+                    "minecraft:nether_brick_stairs",
+                    "minecraft:stone_brick_stairs",
+                    "minecraft:brick_stairs",
+                    "minecraft:purpur_stairs",
+                    "minecraft:quartz_stairs",
+                    "minecraft:red_sandstone_stairs",
+                    "minecraft:prismarine_brick_stairs",
+                    "minecraft:prismarine_stairs",
+                    "minecraft:dark_prismarine_stairs",
+                    "minecraft:polished_granite_stairs",
+                    "minecraft:smooth_red_sandstone_stairs",
+                    "minecraft:mossy_stone_brick_stairs",
+                    "minecraft:polished_diorite_stairs",
+                    "minecraft:mossy_cobblestone_stairs",
+                    "minecraft:end_stone_brick_stairs",
+                    "minecraft:stone_stairs",
+                    "minecraft:smooth_sandstone_stairs",
+                    "minecraft:smooth_quartz_stairs",
+                    "minecraft:granite_stairs",
+                    "minecraft:andesite_stairs",
+                    "minecraft:red_nether_brick_stairs",
+                    "minecraft:polished_andesite_stairs",
+                    "minecraft:diorite_stairs",
+                    "minecraft:blackstone_stairs",
+                    "minecraft:polished_blackstone_brick_stairs",
+                    "minecraft:polished_blackstone_stairs",
+                    "minecraft:cobbled_deepslate_stairs",
+                    "minecraft:polished_deepslate_stairs",
+                    "minecraft:deepslate_tile_stairs",
+                    "minecraft:deepslate_brick_stairs",
+                    "minecraft:oxidized_cut_copper_stairs",
+                    "minecraft:weathered_cut_copper_stairs",
+                    "minecraft:exposed_cut_copper_stairs",
+                    "minecraft:cut_copper_stairs",
+                    "minecraft:waxed_weathered_cut_copper_stairs",
+                    "minecraft:waxed_exposed_cut_copper_stairs",
+                    "minecraft:waxed_cut_copper_stairs",
+                    "minecraft:waxed_oxidized_cut_copper_stairs",
+                    "minecraft:mud_brick_stairs",
+                    "minecraft:tuff_stairs",
+                    "minecraft:polished_tuff_stairs",
+                    "minecraft:tuff_brick_stairs",
+                    "minecraft:resin_brick_stairs"
+                ]
+            }
+        ],
+        "block/sword_efficient": [
+            {
+                "name": "sword_efficient",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:oak_sapling",
+                    "minecraft:spruce_sapling",
+                    "minecraft:birch_sapling",
+                    "minecraft:jungle_sapling",
+                    "minecraft:acacia_sapling",
+                    "minecraft:dark_oak_sapling",
+                    "minecraft:pale_oak_sapling",
+                    "minecraft:azalea",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_sapling",
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:beetroots",
+                    "minecraft:carrots",
+                    "minecraft:potatoes",
+                    "minecraft:wheat",
+                    "minecraft:melon_stem",
+                    "minecraft:pumpkin_stem",
+                    "minecraft:torchflower_crop",
+                    "minecraft:pitcher_crop",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:brown_mushroom",
+                    "minecraft:red_mushroom",
+                    "minecraft:sugar_cane",
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern",
+                    "minecraft:melon",
+                    "minecraft:attached_pumpkin_stem",
+                    "minecraft:attached_melon_stem",
+                    "minecraft:lily_pad",
+                    "minecraft:cocoa",
+                    "minecraft:pitcher_crop",
+                    "minecraft:sweet_berry_bush",
+                    "minecraft:cave_vines",
+                    "minecraft:cave_vines_plant",
+                    "minecraft:spore_blossom",
+                    "minecraft:pink_petals",
+                    "minecraft:big_dripleaf",
+                    "minecraft:big_dripleaf_stem",
+                    "minecraft:small_dripleaf",
+                    "minecraft:nether_wart",
+                    "minecraft:warped_fungus",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_fungus",
+                    "minecraft:weeping_vines",
+                    "minecraft:weeping_vines_plant",
+                    "minecraft:twisting_vines",
+                    "minecraft:twisting_vines_plant",
+                    "minecraft:crimson_roots",
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            {
+                "name": "sword_efficient",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:oak_sapling",
+                    "minecraft:spruce_sapling",
+                    "minecraft:birch_sapling",
+                    "minecraft:jungle_sapling",
+                    "minecraft:acacia_sapling",
+                    "minecraft:dark_oak_sapling",
+                    "minecraft:pale_oak_sapling",
+                    "minecraft:azalea",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_sapling",
+                    "minecraft:beetroots",
+                    "minecraft:carrots",
+                    "minecraft:potatoes",
+                    "minecraft:wheat",
+                    "minecraft:melon_stem",
+                    "minecraft:pumpkin_stem",
+                    "minecraft:torchflower_crop",
+                    "minecraft:pitcher_crop",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:brown_mushroom",
+                    "minecraft:red_mushroom",
+                    "minecraft:sugar_cane",
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern",
+                    "minecraft:melon",
+                    "minecraft:attached_pumpkin_stem",
+                    "minecraft:attached_melon_stem",
+                    "minecraft:lily_pad",
+                    "minecraft:cocoa",
+                    "minecraft:pitcher_crop",
+                    "minecraft:sweet_berry_bush",
+                    "minecraft:cave_vines",
+                    "minecraft:cave_vines_plant",
+                    "minecraft:spore_blossom",
+                    "minecraft:pink_petals",
+                    "minecraft:big_dripleaf",
+                    "minecraft:big_dripleaf_stem",
+                    "minecraft:small_dripleaf",
+                    "minecraft:nether_wart",
+                    "minecraft:warped_fungus",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_fungus",
+                    "minecraft:weeping_vines",
+                    "minecraft:weeping_vines_plant",
+                    "minecraft:twisting_vines",
+                    "minecraft:twisting_vines_plant",
+                    "minecraft:crimson_roots",
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            }
+        ],
+        "block/tall_flowers": [
+            {
+                "name": "tall_flowers",
+                "type": "block",
+                "values": [
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant"
+                ]
+            },
+            null
+        ],
+        "item/bee_food": [
+            {
+                "name": "bee_food",
+                "type": "item",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            },
+            {
+                "name": "bee_food",
+                "type": "item",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            }
+        ],
+        "item/drowned_preferred_weapon": [
+            null,
+            {
+                "name": "drowned_preferred_weapon",
+                "type": "item",
+                "values": [
+                    "minecraft:trident"
+                ]
+            }
+        ],
+        "item/flowers": [
+            {
+                "name": "flowers",
+                "type": "item",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            },
+            null
+        ],
+        "item/piglin_preferred_weapon": [
+            null,
+            {
+                "name": "piglin_preferred_weapon",
+                "type": "item",
+                "values": [
+                    "minecraft:crossbow"
+                ]
+            }
+        ],
+        "item/pillager_preferred_weapon": [
+            null,
+            {
+                "name": "pillager_preferred_weapon",
+                "type": "item",
+                "values": [
+                    "minecraft:crossbow"
+                ]
+            }
+        ],
+        "item/skeleton_preferred_weapon": [
+            null,
+            {
+                "name": "skeleton_preferred_weapon",
+                "type": "item",
+                "values": [
+                    "minecraft:bow"
+                ]
+            }
+        ],
+        "item/slabs": [
+            {
+                "name": "slabs",
+                "type": "item",
+                "values": [
+                    "minecraft:oak_slab",
+                    "minecraft:spruce_slab",
+                    "minecraft:birch_slab",
+                    "minecraft:jungle_slab",
+                    "minecraft:acacia_slab",
+                    "minecraft:dark_oak_slab",
+                    "minecraft:pale_oak_slab",
+                    "minecraft:crimson_slab",
+                    "minecraft:warped_slab",
+                    "minecraft:mangrove_slab",
+                    "minecraft:bamboo_slab",
+                    "minecraft:cherry_slab",
+                    "minecraft:bamboo_mosaic_slab",
+                    "minecraft:stone_slab",
+                    "minecraft:smooth_stone_slab",
+                    "minecraft:stone_brick_slab",
+                    "minecraft:sandstone_slab",
+                    "minecraft:purpur_slab",
+                    "minecraft:quartz_slab",
+                    "minecraft:red_sandstone_slab",
+                    "minecraft:brick_slab",
+                    "minecraft:cobblestone_slab",
+                    "minecraft:nether_brick_slab",
+                    "minecraft:petrified_oak_slab",
+                    "minecraft:prismarine_slab",
+                    "minecraft:prismarine_brick_slab",
+                    "minecraft:dark_prismarine_slab",
+                    "minecraft:polished_granite_slab",
+                    "minecraft:smooth_red_sandstone_slab",
+                    "minecraft:mossy_stone_brick_slab",
+                    "minecraft:polished_diorite_slab",
+                    "minecraft:mossy_cobblestone_slab",
+                    "minecraft:end_stone_brick_slab",
+                    "minecraft:smooth_sandstone_slab",
+                    "minecraft:smooth_quartz_slab",
+                    "minecraft:granite_slab",
+                    "minecraft:andesite_slab",
+                    "minecraft:red_nether_brick_slab",
+                    "minecraft:polished_andesite_slab",
+                    "minecraft:diorite_slab",
+                    "minecraft:cut_sandstone_slab",
+                    "minecraft:cut_red_sandstone_slab",
+                    "minecraft:blackstone_slab",
+                    "minecraft:polished_blackstone_brick_slab",
+                    "minecraft:polished_blackstone_slab",
+                    "minecraft:cobbled_deepslate_slab",
+                    "minecraft:polished_deepslate_slab",
+                    "minecraft:deepslate_tile_slab",
+                    "minecraft:deepslate_brick_slab",
+                    "minecraft:waxed_weathered_cut_copper_slab",
+                    "minecraft:waxed_exposed_cut_copper_slab",
+                    "minecraft:waxed_cut_copper_slab",
+                    "minecraft:oxidized_cut_copper_slab",
+                    "minecraft:weathered_cut_copper_slab",
+                    "minecraft:exposed_cut_copper_slab",
+                    "minecraft:cut_copper_slab",
+                    "minecraft:waxed_oxidized_cut_copper_slab",
+                    "minecraft:mud_brick_slab",
+                    "minecraft:tuff_slab",
+                    "minecraft:polished_tuff_slab",
+                    "minecraft:tuff_brick_slab"
+                ]
+            },
+            {
+                "name": "slabs",
+                "type": "item",
+                "values": [
+                    "minecraft:oak_slab",
+                    "minecraft:spruce_slab",
+                    "minecraft:birch_slab",
+                    "minecraft:jungle_slab",
+                    "minecraft:acacia_slab",
+                    "minecraft:dark_oak_slab",
+                    "minecraft:pale_oak_slab",
+                    "minecraft:crimson_slab",
+                    "minecraft:warped_slab",
+                    "minecraft:mangrove_slab",
+                    "minecraft:bamboo_slab",
+                    "minecraft:cherry_slab",
+                    "minecraft:bamboo_mosaic_slab",
+                    "minecraft:stone_slab",
+                    "minecraft:smooth_stone_slab",
+                    "minecraft:stone_brick_slab",
+                    "minecraft:sandstone_slab",
+                    "minecraft:purpur_slab",
+                    "minecraft:quartz_slab",
+                    "minecraft:red_sandstone_slab",
+                    "minecraft:brick_slab",
+                    "minecraft:cobblestone_slab",
+                    "minecraft:nether_brick_slab",
+                    "minecraft:petrified_oak_slab",
+                    "minecraft:prismarine_slab",
+                    "minecraft:prismarine_brick_slab",
+                    "minecraft:dark_prismarine_slab",
+                    "minecraft:polished_granite_slab",
+                    "minecraft:smooth_red_sandstone_slab",
+                    "minecraft:mossy_stone_brick_slab",
+                    "minecraft:polished_diorite_slab",
+                    "minecraft:mossy_cobblestone_slab",
+                    "minecraft:end_stone_brick_slab",
+                    "minecraft:smooth_sandstone_slab",
+                    "minecraft:smooth_quartz_slab",
+                    "minecraft:granite_slab",
+                    "minecraft:andesite_slab",
+                    "minecraft:red_nether_brick_slab",
+                    "minecraft:polished_andesite_slab",
+                    "minecraft:diorite_slab",
+                    "minecraft:cut_sandstone_slab",
+                    "minecraft:cut_red_sandstone_slab",
+                    "minecraft:blackstone_slab",
+                    "minecraft:polished_blackstone_brick_slab",
+                    "minecraft:polished_blackstone_slab",
+                    "minecraft:cobbled_deepslate_slab",
+                    "minecraft:polished_deepslate_slab",
+                    "minecraft:deepslate_tile_slab",
+                    "minecraft:deepslate_brick_slab",
+                    "minecraft:waxed_weathered_cut_copper_slab",
+                    "minecraft:waxed_exposed_cut_copper_slab",
+                    "minecraft:waxed_cut_copper_slab",
+                    "minecraft:oxidized_cut_copper_slab",
+                    "minecraft:weathered_cut_copper_slab",
+                    "minecraft:exposed_cut_copper_slab",
+                    "minecraft:cut_copper_slab",
+                    "minecraft:waxed_oxidized_cut_copper_slab",
+                    "minecraft:mud_brick_slab",
+                    "minecraft:tuff_slab",
+                    "minecraft:polished_tuff_slab",
+                    "minecraft:tuff_brick_slab",
+                    "minecraft:resin_brick_slab"
+                ]
+            }
+        ],
+        "item/small_flowers": [
+            {
+                "name": "small_flowers",
+                "type": "item",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower"
+                ]
+            },
+            {
+                "name": "small_flowers",
+                "type": "item",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom"
+                ]
+            }
+        ],
+        "item/stairs": [
+            {
+                "name": "stairs",
+                "type": "item",
+                "values": [
+                    "minecraft:oak_stairs",
+                    "minecraft:spruce_stairs",
+                    "minecraft:birch_stairs",
+                    "minecraft:jungle_stairs",
+                    "minecraft:acacia_stairs",
+                    "minecraft:dark_oak_stairs",
+                    "minecraft:pale_oak_stairs",
+                    "minecraft:crimson_stairs",
+                    "minecraft:warped_stairs",
+                    "minecraft:mangrove_stairs",
+                    "minecraft:bamboo_stairs",
+                    "minecraft:cherry_stairs",
+                    "minecraft:bamboo_mosaic_stairs",
+                    "minecraft:cobblestone_stairs",
+                    "minecraft:sandstone_stairs",
+                    "minecraft:nether_brick_stairs",
+                    "minecraft:stone_brick_stairs",
+                    "minecraft:brick_stairs",
+                    "minecraft:purpur_stairs",
+                    "minecraft:quartz_stairs",
+                    "minecraft:red_sandstone_stairs",
+                    "minecraft:prismarine_brick_stairs",
+                    "minecraft:prismarine_stairs",
+                    "minecraft:dark_prismarine_stairs",
+                    "minecraft:polished_granite_stairs",
+                    "minecraft:smooth_red_sandstone_stairs",
+                    "minecraft:mossy_stone_brick_stairs",
+                    "minecraft:polished_diorite_stairs",
+                    "minecraft:mossy_cobblestone_stairs",
+                    "minecraft:end_stone_brick_stairs",
+                    "minecraft:stone_stairs",
+                    "minecraft:smooth_sandstone_stairs",
+                    "minecraft:smooth_quartz_stairs",
+                    "minecraft:granite_stairs",
+                    "minecraft:andesite_stairs",
+                    "minecraft:red_nether_brick_stairs",
+                    "minecraft:polished_andesite_stairs",
+                    "minecraft:diorite_stairs",
+                    "minecraft:blackstone_stairs",
+                    "minecraft:polished_blackstone_brick_stairs",
+                    "minecraft:polished_blackstone_stairs",
+                    "minecraft:cobbled_deepslate_stairs",
+                    "minecraft:polished_deepslate_stairs",
+                    "minecraft:deepslate_tile_stairs",
+                    "minecraft:deepslate_brick_stairs",
+                    "minecraft:oxidized_cut_copper_stairs",
+                    "minecraft:weathered_cut_copper_stairs",
+                    "minecraft:exposed_cut_copper_stairs",
+                    "minecraft:cut_copper_stairs",
+                    "minecraft:waxed_weathered_cut_copper_stairs",
+                    "minecraft:waxed_exposed_cut_copper_stairs",
+                    "minecraft:waxed_cut_copper_stairs",
+                    "minecraft:waxed_oxidized_cut_copper_stairs",
+                    "minecraft:mud_brick_stairs",
+                    "minecraft:tuff_stairs",
+                    "minecraft:polished_tuff_stairs",
+                    "minecraft:tuff_brick_stairs"
+                ]
+            },
+            {
+                "name": "stairs",
+                "type": "item",
+                "values": [
+                    "minecraft:oak_stairs",
+                    "minecraft:spruce_stairs",
+                    "minecraft:birch_stairs",
+                    "minecraft:jungle_stairs",
+                    "minecraft:acacia_stairs",
+                    "minecraft:dark_oak_stairs",
+                    "minecraft:pale_oak_stairs",
+                    "minecraft:crimson_stairs",
+                    "minecraft:warped_stairs",
+                    "minecraft:mangrove_stairs",
+                    "minecraft:bamboo_stairs",
+                    "minecraft:cherry_stairs",
+                    "minecraft:bamboo_mosaic_stairs",
+                    "minecraft:cobblestone_stairs",
+                    "minecraft:sandstone_stairs",
+                    "minecraft:nether_brick_stairs",
+                    "minecraft:stone_brick_stairs",
+                    "minecraft:brick_stairs",
+                    "minecraft:purpur_stairs",
+                    "minecraft:quartz_stairs",
+                    "minecraft:red_sandstone_stairs",
+                    "minecraft:prismarine_brick_stairs",
+                    "minecraft:prismarine_stairs",
+                    "minecraft:dark_prismarine_stairs",
+                    "minecraft:polished_granite_stairs",
+                    "minecraft:smooth_red_sandstone_stairs",
+                    "minecraft:mossy_stone_brick_stairs",
+                    "minecraft:polished_diorite_stairs",
+                    "minecraft:mossy_cobblestone_stairs",
+                    "minecraft:end_stone_brick_stairs",
+                    "minecraft:stone_stairs",
+                    "minecraft:smooth_sandstone_stairs",
+                    "minecraft:smooth_quartz_stairs",
+                    "minecraft:granite_stairs",
+                    "minecraft:andesite_stairs",
+                    "minecraft:red_nether_brick_stairs",
+                    "minecraft:polished_andesite_stairs",
+                    "minecraft:diorite_stairs",
+                    "minecraft:blackstone_stairs",
+                    "minecraft:polished_blackstone_brick_stairs",
+                    "minecraft:polished_blackstone_stairs",
+                    "minecraft:cobbled_deepslate_stairs",
+                    "minecraft:polished_deepslate_stairs",
+                    "minecraft:deepslate_tile_stairs",
+                    "minecraft:deepslate_brick_stairs",
+                    "minecraft:oxidized_cut_copper_stairs",
+                    "minecraft:weathered_cut_copper_stairs",
+                    "minecraft:exposed_cut_copper_stairs",
+                    "minecraft:cut_copper_stairs",
+                    "minecraft:waxed_weathered_cut_copper_stairs",
+                    "minecraft:waxed_exposed_cut_copper_stairs",
+                    "minecraft:waxed_cut_copper_stairs",
+                    "minecraft:waxed_oxidized_cut_copper_stairs",
+                    "minecraft:mud_brick_stairs",
+                    "minecraft:tuff_stairs",
+                    "minecraft:polished_tuff_stairs",
+                    "minecraft:tuff_brick_stairs",
+                    "minecraft:resin_brick_stairs"
+                ]
+            }
+        ],
+        "item/tall_flowers": [
+            {
+                "name": "tall_flowers",
+                "type": "item",
+                "values": [
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant"
+                ]
+            },
+            null
+        ]
+    },
+    "version": {
+        "data": [
+            4174,
+            4177
+        ],
+        "id": [
+            "24w44a",
+            "24w45a"
+        ],
+        "name": [
+            "24w44a",
+            "24w45a"
+        ],
+        "protocol": [
+            1073742044,
+            1073742045
+        ]
+    }
+}
