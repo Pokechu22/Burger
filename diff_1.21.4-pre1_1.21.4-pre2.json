@@ -1,0 +1,62 @@
+{
+    "achievements": {},
+    "language": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "item/trim_materials": [
+            {
+                "name": "trim_materials",
+                "type": "item",
+                "values": [
+                    "minecraft:amethyst_shard",
+                    "minecraft:emerald",
+                    "minecraft:gold_ingot",
+                    "minecraft:quartz",
+                    "minecraft:lapis_lazuli",
+                    "minecraft:iron_ingot",
+                    "minecraft:netherite_ingot",
+                    "minecraft:redstone",
+                    "minecraft:copper_ingot",
+                    "minecraft:diamond",
+                    "minecraft:resin_brick"
+                ]
+            },
+            {
+                "name": "trim_materials",
+                "type": "item",
+                "values": [
+                    "minecraft:amethyst_shard",
+                    "minecraft:copper_ingot",
+                    "minecraft:diamond",
+                    "minecraft:emerald",
+                    "minecraft:gold_ingot",
+                    "minecraft:iron_ingot",
+                    "minecraft:lapis_lazuli",
+                    "minecraft:netherite_ingot",
+                    "minecraft:quartz",
+                    "minecraft:redstone",
+                    "minecraft:resin_brick"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4179,
+            4182
+        ],
+        "id": [
+            "1.21.4-pre1",
+            "1.21.4-pre2"
+        ],
+        "name": [
+            "1.21.4 Pre-Release 1",
+            "1.21.4 Pre-Release 2"
+        ],
+        "protocol": [
+            1073742047,
+            1073742048
+        ]
+    }
+}
