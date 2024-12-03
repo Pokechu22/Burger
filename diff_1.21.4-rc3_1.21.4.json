@@ -1,0 +1,25 @@
+{
+    "achievements": {},
+    "language": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4188,
+            4189
+        ],
+        "id": [
+            "1.21.4-rc3",
+            "1.21.4"
+        ],
+        "name": [
+            "1.21.4 Release Candidate 3",
+            "1.21.4"
+        ],
+        "protocol": [
+            1073742052,
+            769
+        ]
+    }
+}
