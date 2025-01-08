@@ -1,0 +1,1251 @@
+{
+    "achievements": {},
+    "language": {
+        "block": {
+            "minecraft.leaf_litter": [
+                null,
+                "Leaf Litter"
+            ],
+            "minecraft.wildflowers": [
+                null,
+                "Wildflowers"
+            ]
+        },
+        "commands": {
+            "recipe.give.success.multiple": [
+                "Unlocked %s recipes for %s players",
+                "Unlocked %s recipe(s) for %s players"
+            ],
+            "recipe.give.success.single": [
+                "Unlocked %s recipes for %s",
+                "Unlocked %s recipe(s) for %s"
+            ],
+            "recipe.take.success.multiple": [
+                "Took %s recipes from %s players",
+                "Took %s recipe(s) from %s players"
+            ],
+            "recipe.take.success.single": [
+                "Took %s recipes from %s",
+                "Took %s recipe(s) from %s"
+            ]
+        },
+        "createWorld": {
+            "customize.buffet.title": [
+                "Buffet world customization",
+                "Single Biome Customization"
+            ],
+            "customize.presets.list": [
+                "Alternatively, here's some we made earlier!",
+                "Alternatively, here are some we made earlier!"
+            ]
+        },
+        "gameMode": {
+            "hardcore": [
+                "Hardcore Mode!",
+                "Hardcore Mode"
+            ]
+        },
+        "item": {
+            "modifiers.chest": [
+                "When on Body:",
+                "When on Chest:"
+            ]
+        },
+        "recipe": {
+            "toast.title": [
+                "New Recipes Unlocked!",
+                "New Recipe(s) Unlocked!"
+            ]
+        },
+        "structure_block": {
+            "strict": [
+                null,
+                "Strict Placement:"
+            ]
+        },
+        "subtitles": {
+            "block.shulker_box.close": [
+                "Shulker closes",
+                "Shulker box closes"
+            ],
+            "block.shulker_box.open": [
+                "Shulker opens",
+                "Shulker box opens"
+            ]
+        }
+    },
+    "sounds": {
+        "block.iron.break": [
+            null,
+            {
+                "field": "nK",
+                "id": 763,
+                "name": "block.iron.break",
+                "sounds": [
+                    {
+                        "hash": "b3c9e67bcaa5889bfdf0889fd09210c381c63376",
+                        "name": "block/iron/break1"
+                    },
+                    {
+                        "hash": "c26d0bb38d6891211eac92636de7e1cba146f6bd",
+                        "name": "block/iron/break2"
+                    },
+                    {
+                        "hash": "35b1c5747ba2572775d6e57f6d26a9ec46e75001",
+                        "name": "block/iron/break3"
+                    },
+                    {
+                        "hash": "3b383b2809b37b9eb1f4fea0d1069a55e8e8b949",
+                        "name": "block/iron/break4"
+                    },
+                    {
+                        "hash": "d3b58df9e4e0b0eb3ea0ec97f88594e7e43fc770",
+                        "name": "block/iron/break5"
+                    },
+                    {
+                        "hash": "7d53daef2a4fe526f9819c528a18403583511e3c",
+                        "name": "block/iron/break6"
+                    },
+                    {
+                        "hash": "b1db1090e77c094084f47776189e5bc849c77e12",
+                        "name": "block/iron/break7"
+                    },
+                    {
+                        "hash": "6918498830e94c2a54abd8a0168c5d81bb98e9a9",
+                        "name": "block/iron/break8"
+                    }
+                ],
+                "subtitle": "Block broken",
+                "subtitle_key": "subtitles.block.generic.break"
+            }
+        ],
+        "block.iron.fall": [
+            null,
+            {
+                "field": "nO",
+                "id": 767,
+                "name": "block.iron.fall",
+                "sounds": [
+                    {
+                        "hash": "4c2d24d500c67e4cb7a2aa82bb1c1964bb23091e",
+                        "name": "block/iron/step1"
+                    },
+                    {
+                        "hash": "79bbfd39280e2802b2b5718b301c203aad1910c7",
+                        "name": "block/iron/step2"
+                    },
+                    {
+                        "hash": "40e3afa69dacc9eeec0f4e39a02e8c67b70f1e0b",
+                        "name": "block/iron/step3"
+                    },
+                    {
+                        "hash": "68f712dbc12f3708a156f9bc56904cce1d02257f",
+                        "name": "block/iron/step4"
+                    }
+                ],
+                "subtitle": "Something falls on a block",
+                "subtitle_key": "subtitles.block.generic.fall"
+            }
+        ],
+        "block.iron.hit": [
+            null,
+            {
+                "field": "nN",
+                "id": 766,
+                "name": "block.iron.hit",
+                "sounds": [
+                    {
+                        "hash": "4c2d24d500c67e4cb7a2aa82bb1c1964bb23091e",
+                        "name": "block/iron/step1"
+                    },
+                    {
+                        "hash": "79bbfd39280e2802b2b5718b301c203aad1910c7",
+                        "name": "block/iron/step2"
+                    },
+                    {
+                        "hash": "40e3afa69dacc9eeec0f4e39a02e8c67b70f1e0b",
+                        "name": "block/iron/step3"
+                    },
+                    {
+                        "hash": "68f712dbc12f3708a156f9bc56904cce1d02257f",
+                        "name": "block/iron/step4"
+                    }
+                ],
+                "subtitle": "Block breaking",
+                "subtitle_key": "subtitles.block.generic.hit"
+            }
+        ],
+        "block.iron.place": [
+            null,
+            {
+                "field": "nM",
+                "id": 765,
+                "name": "block.iron.place",
+                "sounds": [
+                    {
+                        "hash": "b3c9e67bcaa5889bfdf0889fd09210c381c63376",
+                        "name": "block/iron/break1"
+                    },
+                    {
+                        "hash": "c26d0bb38d6891211eac92636de7e1cba146f6bd",
+                        "name": "block/iron/break2"
+                    },
+                    {
+                        "hash": "35b1c5747ba2572775d6e57f6d26a9ec46e75001",
+                        "name": "block/iron/break3"
+                    },
+                    {
+                        "hash": "3b383b2809b37b9eb1f4fea0d1069a55e8e8b949",
+                        "name": "block/iron/break4"
+                    },
+                    {
+                        "hash": "d3b58df9e4e0b0eb3ea0ec97f88594e7e43fc770",
+                        "name": "block/iron/break5"
+                    },
+                    {
+                        "hash": "7d53daef2a4fe526f9819c528a18403583511e3c",
+                        "name": "block/iron/break6"
+                    },
+                    {
+                        "hash": "b1db1090e77c094084f47776189e5bc849c77e12",
+                        "name": "block/iron/break7"
+                    },
+                    {
+                        "hash": "6918498830e94c2a54abd8a0168c5d81bb98e9a9",
+                        "name": "block/iron/break8"
+                    }
+                ],
+                "subtitle": "Block placed",
+                "subtitle_key": "subtitles.block.generic.place"
+            }
+        ],
+        "block.iron.step": [
+            null,
+            {
+                "field": "nL",
+                "id": 764,
+                "name": "block.iron.step",
+                "sounds": [
+                    {
+                        "hash": "4c2d24d500c67e4cb7a2aa82bb1c1964bb23091e",
+                        "name": "block/iron/step1"
+                    },
+                    {
+                        "hash": "79bbfd39280e2802b2b5718b301c203aad1910c7",
+                        "name": "block/iron/step2"
+                    },
+                    {
+                        "hash": "40e3afa69dacc9eeec0f4e39a02e8c67b70f1e0b",
+                        "name": "block/iron/step3"
+                    },
+                    {
+                        "hash": "68f712dbc12f3708a156f9bc56904cce1d02257f",
+                        "name": "block/iron/step4"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "block.leaf_litter.break": [
+            null,
+            {
+                "field": "ov",
+                "id": 800,
+                "name": "block.leaf_litter.break",
+                "sounds": [
+                    {
+                        "hash": "f2304955894dd05f74ad43aa073d7cdff7545c5b",
+                        "name": "block/leaf_litter/leaf_litter_break1"
+                    },
+                    {
+                        "hash": "94ed4fe18053ebc77c857b14a1bd5d1d1c1817a2",
+                        "name": "block/leaf_litter/leaf_litter_break2"
+                    },
+                    {
+                        "hash": "d85b0db512e60f3109c42bc768574967791d983c",
+                        "name": "block/leaf_litter/leaf_litter_break3"
+                    },
+                    {
+                        "hash": "d88b4314417a6341087e1d0e7ca78cdd4c837f9d",
+                        "name": "block/leaf_litter/leaf_litter_break4"
+                    },
+                    {
+                        "hash": "f0bae1be7f5215722a6de58e158086cfcd209ba3",
+                        "name": "block/leaf_litter/leaf_litter_break5"
+                    }
+                ],
+                "subtitle": "Block broken",
+                "subtitle_key": "subtitles.block.generic.break"
+            }
+        ],
+        "block.leaf_litter.fall": [
+            null,
+            {
+                "field": "oz",
+                "id": 804,
+                "name": "block.leaf_litter.fall",
+                "sounds": [
+                    {
+                        "hash": "fac7aa594ff13514e055f39a448c67f1dd14c245",
+                        "name": "block/leaf_litter/leaf_litter_step1"
+                    },
+                    {
+                        "hash": "5ebb08302fd76d6a682c8dbcac0a415f00a66642",
+                        "name": "block/leaf_litter/leaf_litter_step2"
+                    },
+                    {
+                        "hash": "1d663a8263d7fc365e0507dd064655ff9bda9083",
+                        "name": "block/leaf_litter/leaf_litter_step3"
+                    },
+                    {
+                        "hash": "56fce88b9b16ccb357b41677ad799ca09736d4c6",
+                        "name": "block/leaf_litter/leaf_litter_step4"
+                    },
+                    {
+                        "hash": "3f6d39b84ddda5a4af3367d0643b334baac8ae24",
+                        "name": "block/leaf_litter/leaf_litter_step5"
+                    }
+                ],
+                "subtitle": "Something falls on a block",
+                "subtitle_key": "subtitles.block.generic.fall"
+            }
+        ],
+        "block.leaf_litter.hit": [
+            null,
+            {
+                "field": "oy",
+                "id": 803,
+                "name": "block.leaf_litter.hit",
+                "sounds": [
+                    {
+                        "hash": "fac7aa594ff13514e055f39a448c67f1dd14c245",
+                        "name": "block/leaf_litter/leaf_litter_step1"
+                    },
+                    {
+                        "hash": "5ebb08302fd76d6a682c8dbcac0a415f00a66642",
+                        "name": "block/leaf_litter/leaf_litter_step2"
+                    },
+                    {
+                        "hash": "1d663a8263d7fc365e0507dd064655ff9bda9083",
+                        "name": "block/leaf_litter/leaf_litter_step3"
+                    },
+                    {
+                        "hash": "56fce88b9b16ccb357b41677ad799ca09736d4c6",
+                        "name": "block/leaf_litter/leaf_litter_step4"
+                    },
+                    {
+                        "hash": "3f6d39b84ddda5a4af3367d0643b334baac8ae24",
+                        "name": "block/leaf_litter/leaf_litter_step5"
+                    }
+                ],
+                "subtitle": "Block breaking",
+                "subtitle_key": "subtitles.block.generic.hit"
+            }
+        ],
+        "block.leaf_litter.place": [
+            null,
+            {
+                "field": "ox",
+                "id": 802,
+                "name": "block.leaf_litter.place",
+                "sounds": [
+                    {
+                        "hash": "4daae3b4b1dadb9c0d5c3327bcacd04c4543840a",
+                        "name": "block/leaf_litter/leaf_litter_place1"
+                    },
+                    {
+                        "hash": "b89de25227b835fbe146a3ce9e6653357c18cddb",
+                        "name": "block/leaf_litter/leaf_litter_place2"
+                    },
+                    {
+                        "hash": "cc0308550c349492bf5d00679410b37d24989be3",
+                        "name": "block/leaf_litter/leaf_litter_place3"
+                    },
+                    {
+                        "hash": "6cb6c8faefa42f190ea1f80fd3efc804af519dde",
+                        "name": "block/leaf_litter/leaf_litter_place4"
+                    },
+                    {
+                        "hash": "01e0b7f51d987d56e4aa491f935661ae6e5f65e4",
+                        "name": "block/leaf_litter/leaf_litter_place5"
+                    }
+                ],
+                "subtitle": "Block placed",
+                "subtitle_key": "subtitles.block.generic.place"
+            }
+        ],
+        "block.leaf_litter.step": [
+            null,
+            {
+                "field": "ow",
+                "id": 801,
+                "name": "block.leaf_litter.step",
+                "sounds": [
+                    {
+                        "hash": "fac7aa594ff13514e055f39a448c67f1dd14c245",
+                        "name": "block/leaf_litter/leaf_litter_step1"
+                    },
+                    {
+                        "hash": "5ebb08302fd76d6a682c8dbcac0a415f00a66642",
+                        "name": "block/leaf_litter/leaf_litter_step2"
+                    },
+                    {
+                        "hash": "1d663a8263d7fc365e0507dd064655ff9bda9083",
+                        "name": "block/leaf_litter/leaf_litter_step3"
+                    },
+                    {
+                        "hash": "56fce88b9b16ccb357b41677ad799ca09736d4c6",
+                        "name": "block/leaf_litter/leaf_litter_step4"
+                    },
+                    {
+                        "hash": "3f6d39b84ddda5a4af3367d0643b334baac8ae24",
+                        "name": "block/leaf_litter/leaf_litter_step5"
+                    },
+                    {
+                        "hash": "3b2b49332d7fef427ff74525bc3598466f538815",
+                        "name": "block/leaf_litter/leaf_litter_step6"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "block.shulker_box.close": [
+            {
+                "field": "xm",
+                "id": 1259,
+                "name": "block.shulker_box.close",
+                "sounds": [
+                    {
+                        "hash": "20fc09bebf0cf9023d63564a411cd3c8083eb633",
+                        "name": "block/shulker_box/close"
+                    }
+                ],
+                "subtitle": "Shulker closes",
+                "subtitle_key": "subtitles.block.shulker_box.close"
+            },
+            {
+                "field": "xw",
+                "id": 1269,
+                "name": "block.shulker_box.close",
+                "sounds": [
+                    {
+                        "hash": "20fc09bebf0cf9023d63564a411cd3c8083eb633",
+                        "name": "block/shulker_box/close"
+                    }
+                ],
+                "subtitle": "Shulker box closes",
+                "subtitle_key": "subtitles.block.shulker_box.close"
+            }
+        ],
+        "block.shulker_box.open": [
+            {
+                "field": "xn",
+                "id": 1260,
+                "name": "block.shulker_box.open",
+                "sounds": [
+                    {
+                        "hash": "0cdec84d6a3e1089d879410a960d2ae05dceaeb6",
+                        "name": "block/shulker_box/open"
+                    }
+                ],
+                "subtitle": "Shulker opens",
+                "subtitle_key": "subtitles.block.shulker_box.open"
+            },
+            {
+                "field": "xx",
+                "id": 1270,
+                "name": "block.shulker_box.open",
+                "sounds": [
+                    {
+                        "hash": "0cdec84d6a3e1089d879410a960d2ae05dceaeb6",
+                        "name": "block/shulker_box/open"
+                    }
+                ],
+                "subtitle": "Shulker box opens",
+                "subtitle_key": "subtitles.block.shulker_box.open"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/bee_attractive": [
+            {
+                "name": "bee_attractive",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            },
+            {
+                "name": "bee_attractive",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:wildflowers",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            }
+        ],
+        "block/big_dripleaf_placeable": [
+            {
+                "name": "big_dripleaf_placeable",
+                "type": "block",
+                "values": [
+                    "minecraft:clay",
+                    "minecraft:moss_block",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland"
+                ]
+            },
+            {
+                "name": "big_dripleaf_placeable",
+                "type": "block",
+                "values": [
+                    "minecraft:clay",
+                    "minecraft:moss_block",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland"
+                ]
+            }
+        ],
+        "block/flowers": [
+            {
+                "name": "flowers",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            },
+            {
+                "name": "flowers",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:wildflowers",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            }
+        ],
+        "block/inside_step_sound_blocks": [
+            {
+                "name": "inside_step_sound_blocks",
+                "type": "block",
+                "values": [
+                    "minecraft:powder_snow",
+                    "minecraft:sculk_vein",
+                    "minecraft:glow_lichen",
+                    "minecraft:lily_pad",
+                    "minecraft:small_amethyst_bud",
+                    "minecraft:pink_petals"
+                ]
+            },
+            {
+                "name": "inside_step_sound_blocks",
+                "type": "block",
+                "values": [
+                    "minecraft:powder_snow",
+                    "minecraft:sculk_vein",
+                    "minecraft:glow_lichen",
+                    "minecraft:lily_pad",
+                    "minecraft:small_amethyst_bud",
+                    "minecraft:pink_petals",
+                    "minecraft:wildflowers",
+                    "minecraft:leaf_litter"
+                ]
+            }
+        ],
+        "block/replaceable_by_mushrooms": [
+            null,
+            {
+                "name": "replaceable_by_mushrooms",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:water",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:brown_mushroom",
+                    "minecraft:red_mushroom",
+                    "minecraft:brown_mushroom_block",
+                    "minecraft:red_mushroom_block",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots"
+                ]
+            }
+        ],
+        "block/replaceable_by_trees": [
+            {
+                "name": "replaceable_by_trees",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:water",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots"
+                ]
+            },
+            {
+                "name": "replaceable_by_trees",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:water",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:leaf_litter"
+                ]
+            }
+        ],
+        "block/sword_instantly_mines": [
+            null,
+            {
+                "name": "sword_instantly_mines",
+                "type": "block",
+                "values": [
+                    "minecraft:bamboo",
+                    "minecraft:bamboo_sapling"
+                ]
+            }
+        ],
+        "item/bee_food": [
+            {
+                "name": "bee_food",
+                "type": "item",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            },
+            {
+                "name": "bee_food",
+                "type": "item",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:wildflowers",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom"
+                ]
+            }
+        ],
+        "item/book_cloning_target": [
+            null,
+            {
+                "name": "book_cloning_target",
+                "type": "item",
+                "values": [
+                    "minecraft:writable_book"
+                ]
+            }
+        ],
+        "worldgen/biome/has_structure/trial_chambers": [
+            {
+                "name": "biome/has_structure/trial_chambers",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:mushroom_fields",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:warm_ocean",
+                    "minecraft:stony_shore",
+                    "minecraft:swamp",
+                    "minecraft:mangrove_swamp",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_beach",
+                    "minecraft:windswept_gravelly_hills",
+                    "minecraft:grove",
+                    "minecraft:windswept_hills",
+                    "minecraft:snowy_taiga",
+                    "minecraft:windswept_forest",
+                    "minecraft:taiga",
+                    "minecraft:plains",
+                    "minecraft:meadow",
+                    "minecraft:beach",
+                    "minecraft:forest",
+                    "minecraft:old_growth_spruce_taiga",
+                    "minecraft:flower_forest",
+                    "minecraft:birch_forest",
+                    "minecraft:dark_forest",
+                    "minecraft:savanna_plateau",
+                    "minecraft:savanna",
+                    "minecraft:jungle",
+                    "minecraft:badlands",
+                    "minecraft:desert",
+                    "minecraft:wooded_badlands",
+                    "minecraft:jagged_peaks",
+                    "minecraft:stony_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:river",
+                    "minecraft:ice_spikes",
+                    "minecraft:old_growth_pine_taiga",
+                    "minecraft:sunflower_plains",
+                    "minecraft:old_growth_birch_forest",
+                    "minecraft:sparse_jungle",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:eroded_badlands",
+                    "minecraft:windswept_savanna",
+                    "minecraft:cherry_grove",
+                    "minecraft:pale_garden",
+                    "minecraft:frozen_peaks",
+                    "minecraft:dripstone_caves",
+                    "minecraft:lush_caves"
+                ]
+            },
+            {
+                "name": "biome/has_structure/trial_chambers",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:mushroom_fields",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:warm_ocean",
+                    "minecraft:stony_shore",
+                    "minecraft:swamp",
+                    "minecraft:mangrove_swamp",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_beach",
+                    "minecraft:windswept_gravelly_hills",
+                    "minecraft:grove",
+                    "minecraft:windswept_hills",
+                    "minecraft:snowy_taiga",
+                    "minecraft:windswept_forest",
+                    "minecraft:taiga",
+                    "minecraft:plains",
+                    "minecraft:meadow",
+                    "minecraft:beach",
+                    "minecraft:forest",
+                    "minecraft:old_growth_spruce_taiga",
+                    "minecraft:flower_forest",
+                    "minecraft:birch_forest",
+                    "minecraft:dark_forest",
+                    "minecraft:pale_garden",
+                    "minecraft:savanna_plateau",
+                    "minecraft:savanna",
+                    "minecraft:jungle",
+                    "minecraft:badlands",
+                    "minecraft:desert",
+                    "minecraft:wooded_badlands",
+                    "minecraft:jagged_peaks",
+                    "minecraft:stony_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:river",
+                    "minecraft:ice_spikes",
+                    "minecraft:old_growth_pine_taiga",
+                    "minecraft:sunflower_plains",
+                    "minecraft:old_growth_birch_forest",
+                    "minecraft:sparse_jungle",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:eroded_badlands",
+                    "minecraft:windswept_savanna",
+                    "minecraft:cherry_grove",
+                    "minecraft:frozen_peaks",
+                    "minecraft:dripstone_caves",
+                    "minecraft:lush_caves"
+                ]
+            }
+        ],
+        "worldgen/biome/has_structure/woodland_mansion": [
+            {
+                "name": "biome/has_structure/woodland_mansion",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:dark_forest"
+                ]
+            },
+            {
+                "name": "biome/has_structure/woodland_mansion",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:dark_forest",
+                    "minecraft:pale_garden"
+                ]
+            }
+        ],
+        "worldgen/biome/is_overworld": [
+            {
+                "name": "biome/is_overworld",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:mushroom_fields",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:warm_ocean",
+                    "minecraft:stony_shore",
+                    "minecraft:swamp",
+                    "minecraft:mangrove_swamp",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_beach",
+                    "minecraft:windswept_gravelly_hills",
+                    "minecraft:grove",
+                    "minecraft:windswept_hills",
+                    "minecraft:snowy_taiga",
+                    "minecraft:windswept_forest",
+                    "minecraft:taiga",
+                    "minecraft:plains",
+                    "minecraft:meadow",
+                    "minecraft:beach",
+                    "minecraft:forest",
+                    "minecraft:old_growth_spruce_taiga",
+                    "minecraft:flower_forest",
+                    "minecraft:birch_forest",
+                    "minecraft:dark_forest",
+                    "minecraft:savanna_plateau",
+                    "minecraft:savanna",
+                    "minecraft:jungle",
+                    "minecraft:badlands",
+                    "minecraft:desert",
+                    "minecraft:wooded_badlands",
+                    "minecraft:jagged_peaks",
+                    "minecraft:stony_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:river",
+                    "minecraft:ice_spikes",
+                    "minecraft:old_growth_pine_taiga",
+                    "minecraft:sunflower_plains",
+                    "minecraft:old_growth_birch_forest",
+                    "minecraft:sparse_jungle",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:eroded_badlands",
+                    "minecraft:windswept_savanna",
+                    "minecraft:cherry_grove",
+                    "minecraft:pale_garden",
+                    "minecraft:frozen_peaks",
+                    "minecraft:dripstone_caves",
+                    "minecraft:lush_caves",
+                    "minecraft:deep_dark"
+                ]
+            },
+            {
+                "name": "biome/is_overworld",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:mushroom_fields",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:warm_ocean",
+                    "minecraft:stony_shore",
+                    "minecraft:swamp",
+                    "minecraft:mangrove_swamp",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_beach",
+                    "minecraft:windswept_gravelly_hills",
+                    "minecraft:grove",
+                    "minecraft:windswept_hills",
+                    "minecraft:snowy_taiga",
+                    "minecraft:windswept_forest",
+                    "minecraft:taiga",
+                    "minecraft:plains",
+                    "minecraft:meadow",
+                    "minecraft:beach",
+                    "minecraft:forest",
+                    "minecraft:old_growth_spruce_taiga",
+                    "minecraft:flower_forest",
+                    "minecraft:birch_forest",
+                    "minecraft:dark_forest",
+                    "minecraft:pale_garden",
+                    "minecraft:savanna_plateau",
+                    "minecraft:savanna",
+                    "minecraft:jungle",
+                    "minecraft:badlands",
+                    "minecraft:desert",
+                    "minecraft:wooded_badlands",
+                    "minecraft:jagged_peaks",
+                    "minecraft:stony_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:river",
+                    "minecraft:ice_spikes",
+                    "minecraft:old_growth_pine_taiga",
+                    "minecraft:sunflower_plains",
+                    "minecraft:old_growth_birch_forest",
+                    "minecraft:sparse_jungle",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:eroded_badlands",
+                    "minecraft:windswept_savanna",
+                    "minecraft:cherry_grove",
+                    "minecraft:frozen_peaks",
+                    "minecraft:dripstone_caves",
+                    "minecraft:lush_caves",
+                    "minecraft:deep_dark"
+                ]
+            }
+        ],
+        "worldgen/biome/spawns_cold_variant_farm_animals": [
+            null,
+            {
+                "name": "biome/spawns_cold_variant_farm_animals",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:snowy_taiga",
+                    "minecraft:taiga",
+                    "minecraft:old_growth_pine_taiga",
+                    "minecraft:old_growth_spruce_taiga",
+                    "minecraft:windswept_hills",
+                    "minecraft:windswept_gravelly_hills",
+                    "minecraft:windswept_forest"
+                ]
+            }
+        ],
+        "worldgen/biome/spawns_warm_variant_farm_animals": [
+            null,
+            {
+                "name": "biome/spawns_warm_variant_farm_animals",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:savanna",
+                    "minecraft:savanna_plateau",
+                    "minecraft:windswept_hills",
+                    "minecraft:jungle",
+                    "minecraft:sparse_jungle",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:eroded_badlands",
+                    "minecraft:wooded_badlands",
+                    "minecraft:badlands"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4189,
+            4298
+        ],
+        "id": [
+            "1.21.4",
+            "25w02a"
+        ],
+        "name": [
+            "1.21.4",
+            "25w02a"
+        ],
+        "protocol": [
+            769,
+            1073742053
+        ]
+    }
+}
