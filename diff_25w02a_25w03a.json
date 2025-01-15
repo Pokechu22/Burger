@@ -1,0 +1,467 @@
+{
+    "achievements": {},
+    "language": {
+        "argument": {
+            "resource_selector.not_found": [
+                null,
+                "No matches for selector '%s' of type '%s'"
+            ]
+        },
+        "block": {
+            "minecraft.test_block": [
+                null,
+                "Test Block"
+            ],
+            "minecraft.test_instance_block": [
+                null,
+                "Test Instance Block"
+            ]
+        },
+        "commands": {
+            "test.batch.starting": [
+                null,
+                "Starting environment %s batch %s"
+            ],
+            "test.clear.error.no_tests": [
+                null,
+                "Could not find any tests to clear"
+            ],
+            "test.clear.success": [
+                null,
+                "Cleared %s structures"
+            ],
+            "test.coordinates": [
+                null,
+                "%s, %s, %s"
+            ],
+            "test.coordinates.copy": [
+                null,
+                "Click to copy to clipboard"
+            ],
+            "test.error.no_test_containing_pos": [
+                null,
+                "Can't find a test instance that contains %s, %s, %s"
+            ],
+            "test.error.no_test_instances": [
+                null,
+                "Found no test instances"
+            ],
+            "test.error.non_existant_test": [
+                null,
+                "Test %s could not be found"
+            ],
+            "test.error.structure_not_found": [
+                null,
+                "Test structure %s could not be found"
+            ],
+            "test.error.test_instance_not_found": [
+                null,
+                "Test instance block entity could not be found"
+            ],
+            "test.error.test_instance_not_found.position": [
+                null,
+                "Test instance block entity could not be found for test at %s, %s, %s"
+            ],
+            "test.locate.done": [
+                null,
+                "Finished locating, found %s structure(s)"
+            ],
+            "test.locate.found": [
+                null,
+                "Found structure at: %s (distance: %s)"
+            ],
+            "test.locate.started": [
+                null,
+                "Started locating test structures, this might take a while..."
+            ],
+            "test.relative_position": [
+                null,
+                "Position relative to %s: %s"
+            ],
+            "test.run.no_tests": [
+                null,
+                "No tests found"
+            ],
+            "test.run.running": [
+                null,
+                "Running %s tests..."
+            ],
+            "test.summary": [
+                null,
+                "Game Test complete! %s tests were run"
+            ],
+            "test.summary.all_required_passed": [
+                null,
+                "All required tests passed :)"
+            ],
+            "test.summary.failed": [
+                null,
+                "%s required tests failed :("
+            ],
+            "test.summary.optional_failed": [
+                null,
+                "%s optional tests failed"
+            ]
+        },
+        "test": [
+            null,
+            {
+                "error.block_property_mismatch": "Expected property %s to be %s, was %s",
+                "error.block_property_missing": "Block property missing, expected property %s to be %s",
+                "error.entity_property": "Entity %s failed test: %s",
+                "error.entity_property_details": "Entity %s failed test: %s, expected: %s, was: %s",
+                "error.expected_block": "Expected block %s, got %s",
+                "error.expected_block_tag": "Expected block in #%s, got %s",
+                "error.expected_container_contents": "Container should contain: %s",
+                "error.expected_container_contents_single": "Container should contain a single: %s",
+                "error.expected_empty_container": "Container should be empty",
+                "error.expected_entity": "Expected %s",
+                "error.expected_entity_around": "Expected %s to exist around %s, %s, %s",
+                "error.expected_entity_count": "Expected %s entities of type %s, found %s",
+                "error.expected_entity_data": "Expected entity data to be: %s, was: %s",
+                "error.expected_entity_data_predicate": "Entity data mismatch for %s",
+                "error.expected_entity_effect": "Expected %s to have effect %s %s",
+                "error.expected_entity_having": "Entity inventory should contain %s",
+                "error.expected_entity_holding": "Entity should be holding %s",
+                "error.expected_entity_in_test": "Expected %s to exist in test",
+                "error.expected_entity_not_touching": "Did not expect %s touching %s, %s, %s (relative: %s, %s, %s)",
+                "error.expected_entity_touching": "Expected %s touching %s, %s, %s (relative: %s, %s, %s)",
+                "error.expected_item": "Expected item of type %s",
+                "error.expected_items_count": "Expected %s items of type %s, found %s",
+                "error.fail": "Fail conditions met",
+                "error.invalid_block_type": "Unexpected block type found: %s",
+                "error.missing_block_entity": "Missing block entity",
+                "error.position": "%s at %s, %s, %s (relative: %s, %s, %s) on tick %s",
+                "error.sequence.condition_already_triggered": "Condition already triggered at %s",
+                "error.sequence.condition_not_triggered": "Condition not triggered",
+                "error.sequence.invalid_tick": "Succeeded in invalid tick: expected %s",
+                "error.sequence.not_completed": "Test timed out before sequence completed",
+                "error.set_biome": "Failed to set biome for test",
+                "error.spawn_failure": "Failed to create entity %s",
+                "error.state_not_equal": "Incorrect state. Expected %s, was %s",
+                "error.tick": "%s on tick %s",
+                "error.too_many_entities": "Expected only one %s to exist around %s, %s, %s but found %s",
+                "error.unexpected_block": "Did not expect block to be %s",
+                "error.unexpected_entity": "Did not expect %s to exist",
+                "error.unexpected_item": "Did not expect item of type %s",
+                "error.value_not_equal": "Expected %s to be %s, was %s",
+                "error.wrong_block_entity": "Wrong block entity type: %s"
+            }
+        ],
+        "test_block": [
+            null,
+            {
+                "error.missing": "Test structure missing %s block",
+                "error.too_many": "Too many %s blocks",
+                "invalid_timeout": "Invalid timeout (%s) - must be a positive number of ticks",
+                "message": "Message:",
+                "mode.accept": "Accept",
+                "mode.fail": "Fail",
+                "mode.log": "Log",
+                "mode.start": "Start",
+                "mode_info.accept": "Accept Mode - Accept success for (part of) a test",
+                "mode_info.fail": "Fail Mode - Fail the test",
+                "mode_info.log": "Log Mode - Log a message",
+                "mode_info.start": "Start Mode - The starting point for a test"
+            }
+        ],
+        "test_instance": [
+            null,
+            {
+                "description.batch": "Batch: %s",
+                "description.failed": "Failed: %s",
+                "description.function": "Function: %s",
+                "description.no_test": "No such test",
+                "description.structure": "Structure: %s",
+                "description.type": "Type: %s",
+                "type.block_based": "Block-Based Test",
+                "type.function": "Built-in Function Test"
+            }
+        ],
+        "test_instance_block": [
+            null,
+            {
+                "entities": "Entities:",
+                "error.no_test": "Unable to run test instance at %s, %s, %s since it has defined test",
+                "error.unable_to_save": "Unable to save test structure template for test instance at %s, %s, %s",
+                "invalid": "[invalid]",
+                "reset_success": "Reset succeded for test: %s",
+                "rotation": "Rotation:",
+                "size": "Test Structure Size",
+                "starting": "Starting test %s",
+                "test_id": "Test Instance ID"
+            }
+        ]
+    },
+    "sounds": {
+        "entity.camel.saddle": [
+            {
+                "field": "dF",
+                "id": 239,
+                "name": "entity.camel.saddle",
+                "sounds": [
+                    {
+                        "name": "entity.horse.saddle",
+                        "pitch": 0.8,
+                        "type": "event"
+                    }
+                ],
+                "subtitle": "Saddle equips",
+                "subtitle_key": "subtitles.entity.camel.saddle"
+            },
+            {
+                "field": "dF",
+                "id": 239,
+                "name": "entity.camel.saddle",
+                "sounds": [
+                    {
+                        "name": "entity.horse.saddle",
+                        "pitch": 0.8,
+                        "type": "event",
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle": "Saddle equips",
+                "subtitle_key": "subtitles.entity.camel.saddle"
+            }
+        ],
+        "entity.horse.saddle": [
+            {
+                "field": "no",
+                "id": 741,
+                "name": "entity.horse.saddle",
+                "sounds": [
+                    {
+                        "hash": "246278736976219de64df5d7ef1ca905b5924efb",
+                        "name": "mob/horse/leather"
+                    }
+                ],
+                "subtitle": "Saddle equips",
+                "subtitle_key": "subtitles.entity.horse.saddle"
+            },
+            {
+                "field": "no",
+                "id": 741,
+                "name": "entity.horse.saddle",
+                "sounds": [
+                    {
+                        "hash": "246278736976219de64df5d7ef1ca905b5924efb",
+                        "name": "mob/horse/leather",
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle": "Saddle equips",
+                "subtitle_key": "subtitles.entity.horse.saddle"
+            }
+        ],
+        "entity.pig.saddle": [
+            {
+                "field": "un",
+                "id": 1104,
+                "name": "entity.pig.saddle",
+                "sounds": [
+                    {
+                        "hash": "246278736976219de64df5d7ef1ca905b5924efb",
+                        "name": "mob/horse/leather"
+                    }
+                ],
+                "subtitle": "Saddle equips",
+                "subtitle_key": "subtitles.entity.pig.saddle"
+            },
+            {
+                "field": "un",
+                "id": 1104,
+                "name": "entity.pig.saddle",
+                "sounds": [
+                    {
+                        "hash": "246278736976219de64df5d7ef1ca905b5924efb",
+                        "name": "mob/horse/leather",
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle": "Saddle equips",
+                "subtitle_key": "subtitles.entity.pig.saddle"
+            }
+        ],
+        "entity.strider.saddle": [
+            {
+                "field": "zc",
+                "id": 1353,
+                "name": "entity.strider.saddle",
+                "sounds": [
+                    {
+                        "hash": "246278736976219de64df5d7ef1ca905b5924efb",
+                        "name": "mob/horse/leather"
+                    }
+                ]
+            },
+            {
+                "field": "zc",
+                "id": 1353,
+                "name": "entity.strider.saddle",
+                "sounds": [
+                    {
+                        "hash": "246278736976219de64df5d7ef1ca905b5924efb",
+                        "name": "mob/horse/leather",
+                        "volume": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/replaceable_by_mushrooms": [
+            {
+                "name": "replaceable_by_mushrooms",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:water",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:brown_mushroom",
+                    "minecraft:red_mushroom",
+                    "minecraft:brown_mushroom_block",
+                    "minecraft:red_mushroom_block",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots"
+                ]
+            },
+            {
+                "name": "replaceable_by_mushrooms",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:water",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:brown_mushroom",
+                    "minecraft:red_mushroom",
+                    "minecraft:brown_mushroom_block",
+                    "minecraft:red_mushroom_block",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:leaf_litter"
+                ]
+            }
+        ],
+        "entity_type/can_equip_saddle": [
+            null,
+            {
+                "name": "can_equip_saddle",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:horse",
+                    "minecraft:skeleton_horse",
+                    "minecraft:zombie_horse",
+                    "minecraft:donkey",
+                    "minecraft:mule",
+                    "minecraft:pig",
+                    "minecraft:strider",
+                    "minecraft:camel"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4298,
+            4304
+        ],
+        "id": [
+            "25w02a",
+            "25w03a"
+        ],
+        "name": [
+            "25w02a",
+            "25w03a"
+        ],
+        "protocol": [
+            1073742053,
+            1073742054
+        ]
+    }
+}
