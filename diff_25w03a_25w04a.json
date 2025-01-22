@@ -1,0 +1,336 @@
+{
+    "achievements": {},
+    "language": {
+        "argument": {
+            "nbt.expected.compound": [
+                null,
+                "Expected compound tag"
+            ]
+        },
+        "commands": {
+            "test.clear.success": [
+                "Cleared %s structures",
+                "Cleared %s structure(s)"
+            ],
+            "test.create.success": [
+                null,
+                "Created test setup for test %s"
+            ],
+            "test.error.too_large": [
+                null,
+                "The structure size must be less than %s blocks along each axis"
+            ],
+            "test.no_tests": [
+                null,
+                "No tests to run"
+            ],
+            "test.reset.error.no_tests": [
+                null,
+                "Could not find any tests to reset"
+            ],
+            "test.reset.success": [
+                null,
+                "Reset %s structure(s)"
+            ],
+            "test.run.running": [
+                "Running %s tests...",
+                "Running %s test(s)..."
+            ],
+            "test.summary": [
+                "Game Test complete! %s tests were run",
+                "Game Test complete! %s test(s) were run"
+            ],
+            "test.summary.failed": [
+                "%s required tests failed :(",
+                "%s required test(s) failed :("
+            ],
+            "test.summary.optional_failed": [
+                "%s optional tests failed",
+                "%s optional test(s) failed"
+            ]
+        },
+        "entity": {
+            "minecraft.lingering_potion": [
+                null,
+                "Lingering Potion"
+            ],
+            "minecraft.splash_potion": [
+                null,
+                "Splash Potion"
+            ]
+        },
+        "structure_block": {
+            "mode_info.corner": [
+                "Corner Mode - Placement and Size Marker",
+                "Corner Mode - Placement and size marker"
+            ],
+            "mode_info.data": [
+                "Data Mode - Game Logic Marker",
+                "Data Mode - Game logic marker"
+            ],
+            "mode_info.load": [
+                "Load Mode - Load from File",
+                "Load Mode - Load from file"
+            ],
+            "mode_info.save": [
+                "Save Mode - Write to File",
+                "Save Mode - Write to file"
+            ]
+        },
+        "test_instance": {
+            "action.reset": [
+                null,
+                "Reset and Load"
+            ],
+            "action.run": [
+                null,
+                "Load and Run"
+            ],
+            "action.save": [
+                null,
+                "Save Structure"
+            ],
+            "description.invalid_id": [
+                null,
+                "Invalid test ID"
+            ]
+        },
+        "test_instance_block": {
+            "error.no_test": [
+                "Unable to run test instance at %s, %s, %s since it has defined test",
+                "Unable to run test instance at %s, %s, %s since it has an undefined test"
+            ],
+            "error.no_test_structure": [
+                null,
+                "Unable to run test instance at %s, %s, %s since it has no test structure"
+            ],
+            "reset_success": [
+                "Reset succeded for test: %s",
+                "Reset succeeded for test: %s"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "block/dragon_immune": [
+            {
+                "name": "dragon_immune",
+                "type": "block",
+                "values": [
+                    "minecraft:barrier",
+                    "minecraft:bedrock",
+                    "minecraft:end_portal",
+                    "minecraft:end_portal_frame",
+                    "minecraft:end_gateway",
+                    "minecraft:command_block",
+                    "minecraft:repeating_command_block",
+                    "minecraft:chain_command_block",
+                    "minecraft:structure_block",
+                    "minecraft:jigsaw",
+                    "minecraft:moving_piston",
+                    "minecraft:obsidian",
+                    "minecraft:crying_obsidian",
+                    "minecraft:end_stone",
+                    "minecraft:iron_bars",
+                    "minecraft:respawn_anchor",
+                    "minecraft:reinforced_deepslate"
+                ]
+            },
+            {
+                "name": "dragon_immune",
+                "type": "block",
+                "values": [
+                    "minecraft:barrier",
+                    "minecraft:bedrock",
+                    "minecraft:end_portal",
+                    "minecraft:end_portal_frame",
+                    "minecraft:end_gateway",
+                    "minecraft:command_block",
+                    "minecraft:repeating_command_block",
+                    "minecraft:chain_command_block",
+                    "minecraft:structure_block",
+                    "minecraft:jigsaw",
+                    "minecraft:moving_piston",
+                    "minecraft:obsidian",
+                    "minecraft:crying_obsidian",
+                    "minecraft:end_stone",
+                    "minecraft:iron_bars",
+                    "minecraft:respawn_anchor",
+                    "minecraft:reinforced_deepslate",
+                    "minecraft:test_block",
+                    "minecraft:test_instance_block"
+                ]
+            }
+        ],
+        "block/wither_immune": [
+            {
+                "name": "wither_immune",
+                "type": "block",
+                "values": [
+                    "minecraft:barrier",
+                    "minecraft:bedrock",
+                    "minecraft:end_portal",
+                    "minecraft:end_portal_frame",
+                    "minecraft:end_gateway",
+                    "minecraft:command_block",
+                    "minecraft:repeating_command_block",
+                    "minecraft:chain_command_block",
+                    "minecraft:structure_block",
+                    "minecraft:jigsaw",
+                    "minecraft:moving_piston",
+                    "minecraft:light",
+                    "minecraft:reinforced_deepslate"
+                ]
+            },
+            {
+                "name": "wither_immune",
+                "type": "block",
+                "values": [
+                    "minecraft:barrier",
+                    "minecraft:bedrock",
+                    "minecraft:end_portal",
+                    "minecraft:end_portal_frame",
+                    "minecraft:end_gateway",
+                    "minecraft:command_block",
+                    "minecraft:repeating_command_block",
+                    "minecraft:chain_command_block",
+                    "minecraft:structure_block",
+                    "minecraft:jigsaw",
+                    "minecraft:moving_piston",
+                    "minecraft:light",
+                    "minecraft:reinforced_deepslate",
+                    "minecraft:test_block",
+                    "minecraft:test_instance_block"
+                ]
+            }
+        ],
+        "cat_variant/default_spawns": [
+            {
+                "name": "default_spawns",
+                "type": "cat_variant",
+                "values": [
+                    "minecraft:tabby",
+                    "minecraft:black",
+                    "minecraft:red",
+                    "minecraft:siamese",
+                    "minecraft:british_shorthair",
+                    "minecraft:calico",
+                    "minecraft:persian",
+                    "minecraft:ragdoll",
+                    "minecraft:white",
+                    "minecraft:jellie"
+                ]
+            },
+            null
+        ],
+        "cat_variant/full_moon_spawns": [
+            {
+                "name": "full_moon_spawns",
+                "type": "cat_variant",
+                "values": [
+                    "minecraft:tabby",
+                    "minecraft:black",
+                    "minecraft:red",
+                    "minecraft:siamese",
+                    "minecraft:british_shorthair",
+                    "minecraft:calico",
+                    "minecraft:persian",
+                    "minecraft:ragdoll",
+                    "minecraft:white",
+                    "minecraft:jellie",
+                    "minecraft:all_black"
+                ]
+            },
+            null
+        ],
+        "damage_type/bypasses_blocking": [
+            null,
+            {
+                "name": "bypasses_blocking",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:on_fire",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:fly_into_wall",
+                    "minecraft:generic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:starve",
+                    "minecraft:fall",
+                    "minecraft:ender_pearl",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:magic",
+                    "minecraft:indirect_magic",
+                    "minecraft:out_of_world",
+                    "minecraft:generic_kill",
+                    "minecraft:sonic_boom",
+                    "minecraft:outside_border",
+                    "minecraft:falling_anvil",
+                    "minecraft:falling_stalactite"
+                ]
+            }
+        ],
+        "damage_type/bypasses_shield": [
+            {
+                "name": "bypasses_shield",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:on_fire",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:fly_into_wall",
+                    "minecraft:generic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:starve",
+                    "minecraft:fall",
+                    "minecraft:ender_pearl",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:magic",
+                    "minecraft:indirect_magic",
+                    "minecraft:out_of_world",
+                    "minecraft:generic_kill",
+                    "minecraft:sonic_boom",
+                    "minecraft:outside_border",
+                    "minecraft:falling_anvil",
+                    "minecraft:falling_stalactite"
+                ]
+            },
+            null
+        ],
+        "entity_type/can_wear_horse_armor": [
+            null,
+            {
+                "name": "can_wear_horse_armor",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:horse"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4304,
+            4308
+        ],
+        "id": [
+            "25w03a",
+            "25w04a"
+        ],
+        "name": [
+            "25w03a",
+            "25w04a"
+        ],
+        "protocol": [
+            1073742054,
+            1073742055
+        ]
+    }
+}
