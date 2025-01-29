@@ -1,0 +1,458 @@
+{
+    "achievements": {},
+    "language": {
+        "block": {
+            "minecraft.bush": [
+                null,
+                "Bush"
+            ],
+            "minecraft.firefly_bush": [
+                null,
+                "Firefly Bush"
+            ]
+        },
+        "subtitles": {
+            "block.deadbush.idle": [
+                null,
+                "Dry sounds"
+            ],
+            "block.sand.idle": [
+                null,
+                "Sandy sounds"
+            ],
+            "block.sand.wind": [
+                null,
+                "Windy sounds"
+            ]
+        },
+        "test": {
+            "error.structure.failure": [
+                null,
+                "Failed to place test structure for %s"
+            ],
+            "error.ticking_without_structure": [
+                null,
+                "Ticking test before placing structure"
+            ],
+            "error.timeout.no_result": [
+                null,
+                "Didn't succeed or fail within %s ticks"
+            ],
+            "error.timeout.no_sequences_finished": [
+                null,
+                "No sequences finished within %s ticks"
+            ],
+            "error.unknown": [
+                null,
+                "Unknown internal error: %s"
+            ]
+        }
+    },
+    "sounds": {
+        "block.deadbush.idle": [
+            null,
+            {
+                "field": "gQ",
+                "id": 406,
+                "name": "block.deadbush.idle",
+                "sounds": [
+                    {
+                        "hash": "6b98561d97dca746ad17396458d9446de8725359",
+                        "name": "block/deadbush/sandblock_version/bushrustle1",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "5fc617611c3da52563bab9ee7e017bb514dd26aa",
+                        "name": "block/deadbush/sandblock_version/bushrustle2",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "cd0e4757e4cbda0a5563feddbbcecada7f5fb3e8",
+                        "name": "block/deadbush/sandblock_version/bushrustle3",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "70a886ff5dc8f49c87d42ccd766c5d17b3df1013",
+                        "name": "block/deadbush/sandblock_version/creakysand1",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "f0e6c02fdf051c0a7ce691bba3dd640ffe5db6a6",
+                        "name": "block/deadbush/sandblock_version/crickets",
+                        "volume": 4.0,
+                        "weight": 3
+                    },
+                    {
+                        "hash": "dc1d5294aa63115822919ccc54a699d9d162a283",
+                        "name": "block/deadbush/sandblock_version/howlingwind1",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "2a15f0994223d6033f6450e5596eb8018c3fc1f5",
+                        "name": "block/deadbush/sandblock_version/insect1",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "aaa59e56572f20d1d9d80bffe36d3b362cc6f180",
+                        "name": "block/deadbush/sandblock_version/leaves",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "5be9830370e3d98450950045e8261182c6835eea",
+                        "name": "block/deadbush/sandblock_version/movingsand1",
+                        "volume": 4.0,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "9afc01f0875fbd7a492e521bc85c844d28ca1a1a",
+                        "name": "block/deadbush/sandblock_version/movingsand2",
+                        "volume": 4.0,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "c38af5d3701e9803aab0f5e67089a923c2f2c172",
+                        "name": "block/deadbush/sandblock_version/movingsand3",
+                        "volume": 4.0,
+                        "weight": 2
+                    }
+                ],
+                "subtitle": "Dry sounds",
+                "subtitle_key": "subtitles.block.deadbush.idle"
+            }
+        ],
+        "block.sand.idle": [
+            null,
+            {
+                "field": "wz",
+                "id": 1220,
+                "name": "block.sand.idle",
+                "sounds": [
+                    {
+                        "hash": "eb8d59a4b30875b7ad7f4fd5e399b841b16267b6",
+                        "name": "block/sand/sand1",
+                        "volume": 4.0,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "ad60ec330aac4c7f9c666ec626154eb78cd56139",
+                        "name": "block/sand/sand2",
+                        "volume": 4.0,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "174d2c0a0e24d79d21ebdd5d472bec71da6390a5",
+                        "name": "block/sand/sand3",
+                        "volume": 4.0,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "d039d4cf128d224a013c958f05c6b113b411f673",
+                        "name": "block/sand/sand4",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "777bcb2b96ca2d604fcaa87af9b4ddda4d868f94",
+                        "name": "block/sand/sand5",
+                        "volume": 4.0,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "5bab8236e0fdd4459cc53bf7ab547510b6cddf33",
+                        "name": "block/sand/sand6",
+                        "volume": 4.0,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "4540ef595654fa7551c2e92504f155ef1cc0177a",
+                        "name": "block/sand/sand7",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "8ae3ae1922100aebfe081d5274fd8b05ce9ece1e",
+                        "name": "block/sand/sand8",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "0389c34aa75fa73615020a81151a2eb53fea6123",
+                        "name": "block/sand/sand9",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "84100c9516fb3f8181ce3e50e3078aa8d148ba20",
+                        "name": "block/sand/sand10",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "84100c9516fb3f8181ce3e50e3078aa8d148ba20",
+                        "name": "block/sand/sand10",
+                        "volume": 4.0,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "bbd633935e9ad4d0dcc2a36c9b3b78cea9afcae9",
+                        "name": "block/sand/sand11",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "321314ad42fb016fe8f58d06e3b8784bdcdade2d",
+                        "name": "block/sand/sand12",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "321314ad42fb016fe8f58d06e3b8784bdcdade2d",
+                        "name": "block/sand/sand12",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "c11ea4960af640d6ef06ce9be0afa8f839fc5b9c",
+                        "name": "block/sand/sand13",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "58200e27c0f44396f38d944186b7ebb9b06165b4",
+                        "name": "block/sand/sand14",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "6bd5a6c13f09a9aa03d52649ea139b8996fec1a5",
+                        "name": "block/sand/sand15",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "a5ae91369a1180c4fef1e2804d552a67332ec129",
+                        "name": "block/sand/sand16",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "eb7c09004071c59dd146a364bed2d85a2e93838f",
+                        "name": "block/sand/sand17",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "a94c7675f2449982f5cca00805f7cd15e77c840f",
+                        "name": "block/sand/sand18",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "c937186df48d75e819b783e391f5c3c8e094b509",
+                        "name": "block/sand/sand19",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "3b3f06e97c457da5e539e2e406ce0edec9d4be88",
+                        "name": "block/sand/sand20",
+                        "volume": 4.0
+                    },
+                    {
+                        "hash": "34334146a857e5e09d349322976c9aba204f182d",
+                        "name": "block/sand/sand21",
+                        "volume": 4.0
+                    }
+                ],
+                "subtitle": "Sandy sounds",
+                "subtitle_key": "subtitles.block.sand.idle"
+            }
+        ],
+        "block.sand.wind": [
+            null,
+            {
+                "field": "wA",
+                "id": 1221,
+                "name": "block.sand.wind",
+                "sounds": [
+                    {
+                        "hash": "c4c64b180acf8e8ff6ce113fbf5d6777c62b44c0",
+                        "name": "block/sand/wind1"
+                    },
+                    {
+                        "hash": "dbd9bc277877d33e1123efbd124b621b4d4a5e39",
+                        "name": "block/sand/wind2"
+                    },
+                    {
+                        "hash": "7d3093485d31aa0caf212308f5341ddeb386721e",
+                        "name": "block/sand/wind3"
+                    },
+                    {
+                        "hash": "9fe91812a46de0278417d81387e25e6e08500abb",
+                        "name": "block/sand/wind4"
+                    },
+                    {
+                        "hash": "a15749fdd9fe0c87eba6e9c8ba4e4b82114195f4",
+                        "name": "block/sand/wind5"
+                    },
+                    {
+                        "hash": "3c198e3004e7465575e7bb511b47b91f874392c6",
+                        "name": "block/sand/wind6"
+                    },
+                    {
+                        "hash": "7dd24a17dd39718e863d8b3344c5c050e855f9a8",
+                        "name": "block/sand/wind7"
+                    },
+                    {
+                        "hash": "a8fabda07d7d516e9cfaca1e9bf47d15c834f02e",
+                        "name": "block/sand/wind8"
+                    },
+                    {
+                        "hash": "25e1eec113706a2bf9146a261f738f75ca3555e9",
+                        "name": "block/sand/wind9"
+                    },
+                    {
+                        "hash": "b8a8372fdc60ac60abf3c811a286eb4695695ca3",
+                        "name": "block/sand/wind10"
+                    },
+                    {
+                        "hash": "c4258ef8ee9dc6da4dc1889f5dde12d317c9201a",
+                        "name": "block/sand/wind11"
+                    },
+                    {
+                        "hash": "8338b4212c4f66a5b56ce5fabb216fca082b2f1d",
+                        "name": "block/sand/wind12"
+                    }
+                ],
+                "subtitle": "Windy sounds",
+                "subtitle_key": "subtitles.block.sand.wind"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/plays_ambient_desert_block_sounds": [
+            null,
+            {
+                "name": "plays_ambient_desert_block_sounds",
+                "type": "block",
+                "values": [
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:sand",
+                    "minecraft:red_sand"
+                ]
+            }
+        ],
+        "damage_type/bypasses_blocking": [
+            {
+                "name": "bypasses_blocking",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:on_fire",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:fly_into_wall",
+                    "minecraft:generic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:starve",
+                    "minecraft:fall",
+                    "minecraft:ender_pearl",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:magic",
+                    "minecraft:indirect_magic",
+                    "minecraft:out_of_world",
+                    "minecraft:generic_kill",
+                    "minecraft:sonic_boom",
+                    "minecraft:outside_border",
+                    "minecraft:falling_anvil",
+                    "minecraft:falling_stalactite"
+                ]
+            },
+            null
+        ],
+        "damage_type/bypasses_shield": [
+            null,
+            {
+                "name": "bypasses_shield",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:on_fire",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:fly_into_wall",
+                    "minecraft:generic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:starve",
+                    "minecraft:fall",
+                    "minecraft:ender_pearl",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:magic",
+                    "minecraft:indirect_magic",
+                    "minecraft:out_of_world",
+                    "minecraft:generic_kill",
+                    "minecraft:sonic_boom",
+                    "minecraft:outside_border",
+                    "minecraft:falling_anvil",
+                    "minecraft:falling_stalactite"
+                ]
+            }
+        ],
+        "worldgen/biome/spawns_warm_variant_farm_animals": [
+            {
+                "name": "biome/spawns_warm_variant_farm_animals",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:savanna",
+                    "minecraft:savanna_plateau",
+                    "minecraft:windswept_hills",
+                    "minecraft:jungle",
+                    "minecraft:sparse_jungle",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:eroded_badlands",
+                    "minecraft:wooded_badlands",
+                    "minecraft:badlands"
+                ]
+            },
+            {
+                "name": "biome/spawns_warm_variant_farm_animals",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:savanna",
+                    "minecraft:savanna_plateau",
+                    "minecraft:windswept_savanna",
+                    "minecraft:jungle",
+                    "minecraft:sparse_jungle",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:eroded_badlands",
+                    "minecraft:wooded_badlands",
+                    "minecraft:badlands"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4308,
+            4310
+        ],
+        "id": [
+            "25w04a",
+            "25w05a"
+        ],
+        "name": [
+            "25w04a",
+            "25w05a"
+        ],
+        "protocol": [
+            1073742055,
+            1073742056
+        ]
+    }
+}
