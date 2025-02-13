@@ -1,0 +1,247 @@
+{
+    "achievements": {},
+    "language": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "block/camels_spawnable_on": [
+            null,
+            {
+                "name": "camels_spawnable_on",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:suspicious_sand"
+                ]
+            }
+        ],
+        "block/enchantment_power_transmitter": [
+            {
+                "name": "enchantment_power_transmitter",
+                "type": "block",
+                "values": [
+                    "minecraft:air",
+                    "minecraft:water",
+                    "minecraft:lava",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:short_dry_grass",
+                    "minecraft:tall_dry_grass",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:fire",
+                    "minecraft:soul_fire",
+                    "minecraft:snow",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:resin_clump",
+                    "minecraft:light",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:structure_void",
+                    "minecraft:void_air",
+                    "minecraft:cave_air",
+                    "minecraft:bubble_column",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:hanging_roots"
+                ]
+            },
+            {
+                "name": "enchantment_power_transmitter",
+                "type": "block",
+                "values": [
+                    "minecraft:air",
+                    "minecraft:water",
+                    "minecraft:lava",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:bush",
+                    "minecraft:short_dry_grass",
+                    "minecraft:tall_dry_grass",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:fire",
+                    "minecraft:soul_fire",
+                    "minecraft:snow",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:resin_clump",
+                    "minecraft:light",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:structure_void",
+                    "minecraft:void_air",
+                    "minecraft:cave_air",
+                    "minecraft:bubble_column",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:hanging_roots"
+                ]
+            }
+        ],
+        "block/replaceable": [
+            {
+                "name": "replaceable",
+                "type": "block",
+                "values": [
+                    "minecraft:air",
+                    "minecraft:water",
+                    "minecraft:lava",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:short_dry_grass",
+                    "minecraft:tall_dry_grass",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:fire",
+                    "minecraft:soul_fire",
+                    "minecraft:snow",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:resin_clump",
+                    "minecraft:light",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:structure_void",
+                    "minecraft:void_air",
+                    "minecraft:cave_air",
+                    "minecraft:bubble_column",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:hanging_roots"
+                ]
+            },
+            {
+                "name": "replaceable",
+                "type": "block",
+                "values": [
+                    "minecraft:air",
+                    "minecraft:water",
+                    "minecraft:lava",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:bush",
+                    "minecraft:short_dry_grass",
+                    "minecraft:tall_dry_grass",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:fire",
+                    "minecraft:soul_fire",
+                    "minecraft:snow",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:resin_clump",
+                    "minecraft:light",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:structure_void",
+                    "minecraft:void_air",
+                    "minecraft:cave_air",
+                    "minecraft:bubble_column",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:hanging_roots"
+                ]
+            }
+        ],
+        "worldgen/structure/on_desert_village_maps": [
+            null,
+            {
+                "name": "structure/on_desert_village_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:village_desert"
+                ]
+            }
+        ],
+        "worldgen/structure/on_jungle_explorer_maps": [
+            null,
+            {
+                "name": "structure/on_jungle_explorer_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:jungle_pyramid"
+                ]
+            }
+        ],
+        "worldgen/structure/on_plains_village_maps": [
+            null,
+            {
+                "name": "structure/on_plains_village_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:village_plains"
+                ]
+            }
+        ],
+        "worldgen/structure/on_savanna_village_maps": [
+            null,
+            {
+                "name": "structure/on_savanna_village_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:village_savanna"
+                ]
+            }
+        ],
+        "worldgen/structure/on_snowy_village_maps": [
+            null,
+            {
+                "name": "structure/on_snowy_village_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:village_snowy"
+                ]
+            }
+        ],
+        "worldgen/structure/on_swamp_explorer_maps": [
+            null,
+            {
+                "name": "structure/on_swamp_explorer_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:swamp_hut"
+                ]
+            }
+        ],
+        "worldgen/structure/on_taiga_village_maps": [
+            null,
+            {
+                "name": "structure/on_taiga_village_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:village_taiga"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4313,
+            4315
+        ],
+        "id": [
+            "25w06a",
+            "25w07a"
+        ],
+        "name": [
+            "25w06a",
+            "25w07a"
+        ],
+        "protocol": [
+            1073742057,
+            1073742058
+        ]
+    }
+}
