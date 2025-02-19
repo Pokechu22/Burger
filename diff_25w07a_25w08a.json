@@ -1,0 +1,265 @@
+{
+    "achievements": {},
+    "language": {
+        "subtitles": {
+            "entity.wolf.bark": [
+                null,
+                "Wolf barks"
+            ],
+            "entity.wolf.pant": [
+                null,
+                "Wolf pants"
+            ],
+            "entity.wolf.whine": [
+                null,
+                "Wolf whines"
+            ]
+        }
+    },
+    "sounds": {
+        "entity.wolf.ambient": [
+            {
+                "field": "DQ",
+                "id": 1601,
+                "name": "entity.wolf.ambient",
+                "sounds": [
+                    {
+                        "hash": "527618d2fbb9712950357c4d5e95cfb86ffee417",
+                        "name": "mob/wolf/bark1"
+                    },
+                    {
+                        "hash": "91e49e790fcff847789f84be16acd4baed935b95",
+                        "name": "mob/wolf/bark2"
+                    },
+                    {
+                        "hash": "c75a24f3faeecd3a93af8bea54694c059b079fc4",
+                        "name": "mob/wolf/bark3"
+                    }
+                ],
+                "subtitle": "Wolf pants",
+                "subtitle_key": "subtitles.entity.wolf.ambient"
+            },
+            null
+        ],
+        "entity.wolf.death": [
+            {
+                "field": "DR",
+                "id": 1602,
+                "name": "entity.wolf.death",
+                "sounds": [
+                    {
+                        "hash": "945dab2b484c34f108e1ea8eebca5e5e2a9e6424",
+                        "name": "mob/wolf/death"
+                    }
+                ],
+                "subtitle": "Wolf dies",
+                "subtitle_key": "subtitles.entity.wolf.death"
+            },
+            null
+        ],
+        "entity.wolf.growl": [
+            {
+                "field": "DS",
+                "id": 1603,
+                "name": "entity.wolf.growl",
+                "sounds": [
+                    {
+                        "hash": "0eaaba6d7fee5159a61b36aea268381bface391b",
+                        "name": "mob/wolf/growl1"
+                    },
+                    {
+                        "hash": "b0a993d2dd9d67854e6247fca5e0c10b4e65c23d",
+                        "name": "mob/wolf/growl2"
+                    },
+                    {
+                        "hash": "e0870af492065576d94bb65591f01d79a80e4d83",
+                        "name": "mob/wolf/growl3"
+                    }
+                ],
+                "subtitle": "Wolf growls",
+                "subtitle_key": "subtitles.entity.wolf.growl"
+            },
+            null
+        ],
+        "entity.wolf.howl": [
+            {
+                "field": "DT",
+                "id": 1604,
+                "name": "entity.wolf.howl",
+                "sounds": [
+                    {
+                        "hash": "074ee57fa9c2d306b39988f89d6cd69ede949388",
+                        "name": "mob/wolf/howl1"
+                    },
+                    {
+                        "hash": "089ed9057e7fcff2110eb0ee5bb886616c495f76",
+                        "name": "mob/wolf/howl2"
+                    }
+                ]
+            },
+            null
+        ],
+        "entity.wolf.hurt": [
+            {
+                "field": "DU",
+                "id": 1605,
+                "name": "entity.wolf.hurt",
+                "sounds": [
+                    {
+                        "hash": "a08590d43a21ee739bd7b9be85b4a81564e6f74a",
+                        "name": "mob/wolf/hurt1"
+                    },
+                    {
+                        "hash": "b2fba6c9788a53ab7da07aa8d2f25cdc07973222",
+                        "name": "mob/wolf/hurt2"
+                    },
+                    {
+                        "hash": "5dcca782068ac52ce9074a7809db023cab2cd77c",
+                        "name": "mob/wolf/hurt3"
+                    }
+                ],
+                "subtitle": "Wolf hurts",
+                "subtitle_key": "subtitles.entity.wolf.hurt"
+            },
+            null
+        ],
+        "entity.wolf.pant": [
+            {
+                "field": "DV",
+                "id": 1606,
+                "name": "entity.wolf.pant",
+                "sounds": [
+                    {
+                        "hash": "27a06c66cec51f15bfb36adecfd5bea80b359e16",
+                        "name": "mob/wolf/panting"
+                    }
+                ],
+                "subtitle": "Wolf pants",
+                "subtitle_key": "subtitles.entity.wolf.ambient"
+            },
+            null
+        ],
+        "entity.wolf.whine": [
+            {
+                "field": "DY",
+                "id": 1609,
+                "name": "entity.wolf.whine",
+                "sounds": [
+                    {
+                        "hash": "416f50a5bf3f2163da1cbcb821c0c00027da1525",
+                        "name": "mob/wolf/whine"
+                    }
+                ],
+                "subtitle": "Wolf pants",
+                "subtitle_key": "subtitles.entity.wolf.ambient"
+            },
+            null
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/edible_for_sheep": [
+            {
+                "name": "edible_for_sheep",
+                "type": "block",
+                "values": [
+                    "minecraft:short_grass",
+                    "minecraft:short_dry_grass",
+                    "minecraft:tall_dry_grass"
+                ]
+            },
+            {
+                "name": "edible_for_sheep",
+                "type": "block",
+                "values": [
+                    "minecraft:short_grass",
+                    "minecraft:short_dry_grass",
+                    "minecraft:tall_dry_grass",
+                    "minecraft:fern"
+                ]
+            }
+        ],
+        "damage_type/bypasses_shield": [
+            {
+                "name": "bypasses_shield",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:on_fire",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:fly_into_wall",
+                    "minecraft:generic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:starve",
+                    "minecraft:fall",
+                    "minecraft:ender_pearl",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:magic",
+                    "minecraft:indirect_magic",
+                    "minecraft:out_of_world",
+                    "minecraft:generic_kill",
+                    "minecraft:sonic_boom",
+                    "minecraft:outside_border",
+                    "minecraft:falling_anvil",
+                    "minecraft:falling_stalactite"
+                ]
+            },
+            {
+                "name": "bypasses_shield",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:on_fire",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:fly_into_wall",
+                    "minecraft:generic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:starve",
+                    "minecraft:fall",
+                    "minecraft:ender_pearl",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:magic",
+                    "minecraft:indirect_magic",
+                    "minecraft:out_of_world",
+                    "minecraft:generic_kill",
+                    "minecraft:sonic_boom",
+                    "minecraft:outside_border",
+                    "minecraft:cactus",
+                    "minecraft:campfire",
+                    "minecraft:dry_out",
+                    "minecraft:falling_anvil",
+                    "minecraft:falling_stalactite",
+                    "minecraft:hot_floor",
+                    "minecraft:in_fire",
+                    "minecraft:lava",
+                    "minecraft:lightning_bolt",
+                    "minecraft:sweet_berry_bush"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4315,
+            4316
+        ],
+        "id": [
+            "25w07a",
+            "25w08a"
+        ],
+        "name": [
+            "25w07a",
+            "25w08a"
+        ],
+        "protocol": [
+            1073742058,
+            1073742059
+        ]
+    }
+}
