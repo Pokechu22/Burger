@@ -1,0 +1,32 @@
+{
+    "achievements": {},
+    "language": {
+        "multiplayer": {
+            "disconnect.bad_chat_index": [
+                null,
+                "Received missed or reordered chat message from server"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4319,
+            4320
+        ],
+        "id": [
+            "25w10a",
+            "1.21.5-pre1"
+        ],
+        "name": [
+            "25w10a",
+            "1.21.5 Pre-Release 1"
+        ],
+        "protocol": [
+            1073742062,
+            1073742063
+        ]
+    }
+}
