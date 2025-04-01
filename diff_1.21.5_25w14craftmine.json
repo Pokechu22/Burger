@@ -1,0 +1,4292 @@
+{
+    "achievements": {},
+    "language": {
+        "advancements": {
+            "adventure.deluge.description": [
+                null,
+                "Complete a Mine while the Water World and Eternal Rain effects are active"
+            ],
+            "adventure.deluge.title": [
+                null,
+                "Shall we wait for the drizzle to subside?"
+            ],
+            "adventure.enter_a_mine.description": [
+                null,
+                "Enter a Mine"
+            ],
+            "adventure.enter_a_mine.title": [
+                null,
+                "Down the Hatch"
+            ],
+            "adventure.level.description": [
+                null,
+                "Complete your first Mine"
+            ],
+            "adventure.level.title": [
+                null,
+                "It Begins"
+            ],
+            "adventure.level_failed.description": [
+                null,
+                "Fail a Mine"
+            ],
+            "adventure.level_failed.title": [
+                null,
+                "Oops"
+            ],
+            "adventure.mine_crafter_upgraded.description": [
+                null,
+                "Upgrade the Mine Crafter so you can keep mining and crafting"
+            ],
+            "adventure.mine_crafter_upgraded.title": [
+                null,
+                "Further beyond"
+            ],
+            "adventure.mine_revisitor_activated.description": [
+                null,
+                "Activate a Mine Revisitor"
+            ],
+            "adventure.mine_revisitor_activated.title": [
+                null,
+                "Nostalgic"
+            ],
+            "adventure.special_mine_completed.description": [
+                null,
+                "Complete a Special Encounter Mine"
+            ],
+            "adventure.special_mine_completed.title": [
+                null,
+                "A Challenger Approaches"
+            ],
+            "adventure.water_cave.description": [
+                null,
+                "Complete a Mine with Water World and Cave World active"
+            ],
+            "adventure.water_cave.title": [
+                null,
+                "The Depths"
+            ],
+            "adventure.water_world.description": [
+                null,
+                "Complete a Mine with Water World active"
+            ],
+            "adventure.water_world.title": [
+                null,
+                "Quit Smoking"
+            ],
+            "feats.angry_ghast.description": [
+                null,
+                "Defeat the Angry Ghast special event"
+            ],
+            "feats.angry_ghast.title": [
+                null,
+                "The Baloonslayer"
+            ],
+            "feats.crystal.description": [
+                null,
+                "Obtain a crystal to unlock the Warden Special Event"
+            ],
+            "feats.crystal.title": [
+                null,
+                "Crystaline"
+            ],
+            "feats.eat_your_veggies.description": [
+                null,
+                "Eat 100 Poisonous Potatoes"
+            ],
+            "feats.eat_your_veggies.title": [
+                null,
+                "Certified Spud Chomper"
+            ],
+            "feats.end_world.description": [
+                null,
+                "Complete a Mine with End Biomes to unlock the Ender Dragon special event"
+            ],
+            "feats.end_world.title": [
+                null,
+                "The Beginning of the End"
+            ],
+            "feats.ender_dragon.description": [
+                null,
+                "Defeat the Ender Dragon special event"
+            ],
+            "feats.ender_dragon.title": [
+                null,
+                "At the Rim of the Sky"
+            ],
+            "feats.enderman.description": [
+                null,
+                "Defeat the Enderman special event"
+            ],
+            "feats.enderman.title": [
+                null,
+                "Endedman"
+            ],
+            "feats.kill_pillager.description": [
+                null,
+                "Kill a Pillager to unlock the Raid special event"
+            ],
+            "feats.kill_pillager.title": [
+                null,
+                "Raid the Raiders"
+            ],
+            "feats.kill_skeleton.description": [
+                null,
+                "Kill a Skeleton to unlock the Spooky Scary Skeletons special event"
+            ],
+            "feats.kill_skeleton.title": [
+                null,
+                "Feel it in my Bones"
+            ],
+            "feats.kuiper_world.description": [
+                null,
+                "Defeat the Kuiper World special event"
+            ],
+            "feats.kuiper_world.title": [
+                null,
+                "Spaaaaace!"
+            ],
+            "feats.raid.description": [
+                null,
+                "Defeat the Raid special event"
+            ],
+            "feats.raid.title": [
+                null,
+                "The Pillagers are Coming!"
+            ],
+            "feats.root.description": [
+                null,
+                "Feats of Prowess"
+            ],
+            "feats.root.title": [
+                null,
+                "Feats"
+            ],
+            "feats.shimmering_key.description": [
+                null,
+                "Acquire a Shimmering Key"
+            ],
+            "feats.shimmering_key.title": [
+                null,
+                "Master Key"
+            ],
+            "feats.small_but_deadly.description": [
+                null,
+                "Defeat the Small but Deadly special event"
+            ],
+            "feats.small_but_deadly.title": [
+                null,
+                "Small But Dead"
+            ],
+            "feats.spooky_scary_skeletons.description": [
+                null,
+                "Defeat the Spooky Scary Skeletons special event"
+            ],
+            "feats.spooky_scary_skeletons.title": [
+                null,
+                "Clattered"
+            ],
+            "feats.warden.description": [
+                null,
+                "Defeat the Warden special event"
+            ],
+            "feats.warden.title": [
+                null,
+                "Warded"
+            ],
+            "feats.wither.description": [
+                null,
+                "Defeat the Wither special event"
+            ],
+            "feats.wither.title": [
+                null,
+                "Withered"
+            ],
+            "feats.wither_skeleton_skull.description": [
+                null,
+                "Acquire a Wither Skeleton Skull to unlock the Wither special event"
+            ],
+            "feats.wither_skeleton_skull.title": [
+                null,
+                "Withering"
+            ],
+            "mine.cash_in.description": [
+                null,
+                "Bring a Mine Ingredient to the exit of a Mine to cash it in"
+            ],
+            "mine.cash_in.title": [
+                null,
+                "Cash In!"
+            ],
+            "mine.get_mine_ingredient.description": [
+                null,
+                "Pick up a Mine Ingredient in a Mine"
+            ],
+            "mine.get_mine_ingredient.title": [
+                null,
+                "New Frontiers"
+            ],
+            "mines.all_mine_ingredients.description": [
+                null,
+                "Complete at least one Mine with each possible Mine Ingredient"
+            ],
+            "mines.all_mine_ingredients.title": [
+                null,
+                "The Ultimate Miner"
+            ],
+            "mines.all_special_mines_completed.description": [
+                null,
+                "Complete all Special Encounter Mines"
+            ],
+            "mines.all_special_mines_completed.title": [
+                null,
+                "Yes, Boss"
+            ],
+            "nether.return_to_sender.description": [
+                "Destroy a Ghast with a fireball",
+                "Destroy a Ghast with a fireball to unlock the Angry Ghast special event"
+            ],
+            "story.follow_ender_eye.description": [
+                "Follow an Eye of Ender",
+                null
+            ],
+            "story.follow_ender_eye.title": [
+                "Eye Spy",
+                null
+            ],
+            "story.follow_exit_eye.description": [
+                null,
+                "Craft an Eye of Exit"
+            ],
+            "story.follow_exit_eye.title": [
+                null,
+                "Spy Eye"
+            ],
+            "unlocks.all_combatant.description": [
+                null,
+                "Complete the 'Combat' Player Unlock tree and then beat a special event Mine"
+            ],
+            "unlocks.all_combatant.title": [
+                null,
+                "The Combat Upd... Unlocks"
+            ],
+            "unlocks.all_crafting.description": [
+                null,
+                "Complete the 'Crafting' Player Unlock tree and then beat a special event Mine"
+            ],
+            "unlocks.all_crafting.title": [
+                null,
+                "The Crafter"
+            ],
+            "unlocks.all_exploration.description": [
+                null,
+                "Complete the 'Exploration' Player Unlock tree and then beat a special event Mine"
+            ],
+            "unlocks.all_exploration.title": [
+                null,
+                "Adventuring Time"
+            ],
+            "unlocks.all_gatherer.description": [
+                null,
+                "Complete the 'Gatherer' Player Unlock tree and then beat a special event Mine"
+            ],
+            "unlocks.all_gatherer.title": [
+                null,
+                "The Miner"
+            ],
+            "unlocks.all_pets.description": [
+                null,
+                "Complete the 'Pets' Player Unlock tree and then beat a special event Mine"
+            ],
+            "unlocks.all_pets.title": [
+                null,
+                "Crazy Cat Kai"
+            ],
+            "unlocks.all_school_of_hard_knocks.description": [
+                null,
+                "Complete the 'School of Hard Knocks' Player Unlock tree and then beat a special event Mine"
+            ],
+            "unlocks.all_school_of_hard_knocks.title": [
+                null,
+                "An Exercise in Futility"
+            ],
+            "unlocks.free_sticks.description": [
+                null,
+                "Is this really spellt like that? Beat a level while having all three wands unlocked"
+            ],
+            "unlocks.free_sticks.title": [
+                null,
+                "Free Sticks"
+            ],
+            "unlocks.in_it_together.description": [
+                null,
+                "Beat a special Mine with the 'Soul Link' effect active"
+            ],
+            "unlocks.in_it_together.title": [
+                null,
+                "In It Together"
+            ],
+            "unlocks.jump_king.description": [
+                null,
+                "Obtain the maximum amount of jumps"
+            ],
+            "unlocks.jump_king.title": [
+                null,
+                "Jump King"
+            ],
+            "unlocks.player_unlock_bought.description": [
+                null,
+                "Buy a player unlock and get better at being you"
+            ],
+            "unlocks.player_unlock_bought.title": [
+                null,
+                "Kaizen"
+            ],
+            "unlocks.player_unlock_unlocked.description": [
+                null,
+                "Unlock a player unlock so you can unlock more unlocks"
+            ],
+            "unlocks.player_unlock_unlocked.title": [
+                null,
+                "How do I unlock that?"
+            ],
+            "unlocks.root.description": [
+                null,
+                "Ah, the noble pursuit of self-improvement"
+            ],
+            "unlocks.root.title": [
+                null,
+                "Unlocks"
+            ],
+            "unlocks.sigma_grindset.description": [
+                null,
+                "Complete the 'Knowledge' Player Unlock tree"
+            ],
+            "unlocks.sigma_grindset.title": [
+                null,
+                "Sigma Grindset"
+            ]
+        },
+        "attribute": {
+            "name.experience_gain_modifier": [
+                null,
+                "Experience Gain Modifier"
+            ],
+            "name.max_jumps": [
+                null,
+                "Max Jumps"
+            ],
+            "name.pickup_area_size": [
+                null,
+                "Pickup Area Size"
+            ]
+        },
+        "block": {
+            "minecraft.bed.no_sleep_for_you": [
+                null,
+                "No sleep for you, not today!"
+            ],
+            "minecraft.dimension_control": [
+                null,
+                "Dimension Control"
+            ],
+            "minecraft.enter_mine_gateway": [
+                null,
+                "Enter Mine Gateway"
+            ],
+            "minecraft.mine_crafter": [
+                null,
+                "Mine Crafter"
+            ],
+            "minecraft.mine_revisitor": [
+                null,
+                "Mine Revisitor"
+            ],
+            "minecraft.mine_travelling_block": [
+                null,
+                "Mine Travelling Block"
+            ],
+            "minecraft.mob_trophy": [
+                null,
+                "Trophy"
+            ],
+            "minecraft.set_spawn": [
+                "Respawn point set",
+                "You didn't think this would work, did you?"
+            ],
+            "minecraft.shimmering_door": [
+                null,
+                "Shimmering Door"
+            ],
+            "minecraft.sky": [
+                null,
+                "Sky"
+            ],
+            "minecraft.trophy": [
+                null,
+                "Trophy"
+            ]
+        },
+        "commands": {
+            "level.success": [
+                null,
+                "Created level %s"
+            ]
+        },
+        "container": {
+            "dimension_control": [
+                null,
+                "Dimension Control"
+            ],
+            "mine_crafter": [
+                null,
+                "Craft your Mine"
+            ],
+            "mine_crafter.active": [
+                null,
+                "Go go go!"
+            ],
+            "mine_crafter.donate": [
+                null,
+                "DONATE\nUse %s of your experience to work towards upgrading the Minecrafter Table"
+            ],
+            "mine_crafter.drawer": [
+                null,
+                "Mine Effects"
+            ],
+            "mine_crafter.fail": [
+                null,
+                "Better Luck Next Time"
+            ],
+            "mine_crafter.hints": [
+                null,
+                "Undiscovered"
+            ],
+            "mine_crafter.level": [
+                null,
+                "Level: %s  %s / %s"
+            ],
+            "mine_crafter.no_hints": [
+                null,
+                "You did it!!!"
+            ],
+            "mine_crafter.won": [
+                null,
+                "Mine Successful!"
+            ]
+        },
+        "death": {
+            "attack.devour": [
+                null,
+                "%1$s was devoured"
+            ],
+            "attack.devour.item": [
+                null,
+                "%1$s was devoured by %2$s using %3$s"
+            ],
+            "attack.devour.player": [
+                null,
+                "%1$s was devoured by %2$s"
+            ]
+        },
+        "deathScreen": {
+            "respawn.hardcore": [
+                null,
+                "Accept Defeat"
+            ],
+            "respawn.inMap": [
+                null,
+                "Accept Defeat"
+            ]
+        },
+        "door": [
+            null,
+            {
+                "say_the_thing": "Doors yearn for the keys!"
+            }
+        ],
+        "effect": {
+            "minecraft.shazboots": [
+                null,
+                "Shazboots!"
+            ]
+        },
+        "entity": {
+            "minecraft.angry_ghast": [
+                null,
+                "Angry Ghast"
+            ],
+            "minecraft.eye_of_ender": [
+                "Eye of Ender",
+                "Eye of Exit"
+            ],
+            "minecraft.pet_armadillo": [
+                null,
+                "Pet Armadillo"
+            ],
+            "minecraft.pet_axolotl": [
+                null,
+                "Pet Axolotl"
+            ],
+            "minecraft.pet_bee": [
+                null,
+                "Pet Bee"
+            ],
+            "minecraft.pet_cat": [
+                null,
+                "Pet Cat"
+            ],
+            "minecraft.pet_chicken": [
+                null,
+                "Pet Chicken"
+            ],
+            "minecraft.pet_cow": [
+                null,
+                "Pet Cow"
+            ],
+            "minecraft.pet_creeper": [
+                null,
+                "Pet Creeper"
+            ],
+            "minecraft.pet_fox": [
+                null,
+                "Pet Fox"
+            ],
+            "minecraft.pet_frog": [
+                null,
+                "Pet Frog"
+            ],
+            "minecraft.pet_mooshroom": [
+                null,
+                "Pet Mooshroom"
+            ],
+            "minecraft.pet_polar_bear": [
+                null,
+                "Pet Polar Bear"
+            ],
+            "minecraft.pet_slime": [
+                null,
+                "Pet Slime"
+            ],
+            "minecraft.pet_turtle": [
+                null,
+                "Pet Turtle"
+            ],
+            "minecraft.pet_wolf": [
+                null,
+                "Pet Wolf"
+            ],
+            "minecraft.villager.traitor": [
+                null,
+                "Traitor"
+            ]
+        },
+        "gamerule": {
+            "allBlocksBouncy": [
+                null,
+                "All blocks are bouncy"
+            ],
+            "icyLevel": [
+                null,
+                "All blocks are bouncy"
+            ]
+        },
+        "gui": {
+            "door": [
+                null,
+                "Door"
+            ],
+            "door.field.active_door": [
+                null,
+                "The Door You Just Clicked"
+            ],
+            "door.field.error": [
+                null,
+                "Something Wrong"
+            ],
+            "door.field.existing_door": [
+                null,
+                "Existing door"
+            ],
+            "door.field.existing_wall": [
+                null,
+                "Existing wall"
+            ],
+            "door.field.new_door": [
+                null,
+                "Door"
+            ],
+            "door.field.new_room": [
+                null,
+                "Room"
+            ],
+            "door.field.new_wall": [
+                null,
+                "Wall"
+            ],
+            "door.next": [
+                null,
+                "Next"
+            ],
+            "door.open": [
+                null,
+                "Open"
+            ],
+            "door.previous": [
+                null,
+                "Previous"
+            ],
+            "unlocks": [
+                null,
+                "Player Unlocks"
+            ]
+        },
+        "item": {
+            "exchange_value": [
+                null,
+                "Value: %s"
+            ],
+            "minecraft.ender_eye": [
+                "Eye of Ender",
+                null
+            ],
+            "minecraft.exit_eye": [
+                null,
+                "Eye of Exit"
+            ],
+            "minecraft.fire_wand": [
+                null,
+                "Fire Wand"
+            ],
+            "minecraft.fire_wand.lore": [
+                null,
+                "'Tiwaz Raido'"
+            ],
+            "minecraft.grave_advancement": [
+                null,
+                "Grave"
+            ],
+            "minecraft.level": [
+                null,
+                "Level"
+            ],
+            "minecraft.level_ingredient": [
+                null,
+                "Level Ingredient"
+            ],
+            "minecraft.mine": [
+                null,
+                "Mine"
+            ],
+            "minecraft.mine_ingredient": [
+                null,
+                "Mine Ingredient"
+            ],
+            "minecraft.mine_ingredient.desc": [
+                null,
+                "Mine Ingredient: %s"
+            ],
+            "minecraft.mob_trophy.entity": [
+                null,
+                "Contents: 1 \u00d7 Minecraft %s"
+            ],
+            "minecraft.mob_trophy.grade": [
+                null,
+                "Grade: %s"
+            ],
+            "minecraft.mob_trophy.grade.diamond": [
+                null,
+                "Diamond"
+            ],
+            "minecraft.mob_trophy.grade.gold": [
+                null,
+                "Gold"
+            ],
+            "minecraft.mob_trophy.grade.grass": [
+                null,
+                "Grass"
+            ],
+            "minecraft.mob_trophy.grade.netherite": [
+                null,
+                "Netherite"
+            ],
+            "minecraft.mob_trophy.grade.stone": [
+                null,
+                "Stone"
+            ],
+            "minecraft.mob_trophy.shiny": [
+                null,
+                "Oooh, shiny!"
+            ],
+            "minecraft.music_disc_and_action": [
+                null,
+                "Music Disc"
+            ],
+            "minecraft.music_disc_and_action.desc": [
+                null,
+                "Tone Deaf Rebellion - And Action!"
+            ],
+            "minecraft.shazboots": [
+                null,
+                "Shazboots!"
+            ],
+            "minecraft.shimmering_key": [
+                null,
+                "Shimmering Key"
+            ],
+            "minecraft.shimmering_key.room": [
+                null,
+                "Opens \"%s\""
+            ],
+            "minecraft.sky_box": [
+                null,
+                "Sky Box"
+            ],
+            "minecraft.teleportation_wand": [
+                null,
+                "Displacement Wand"
+            ],
+            "minecraft.teleportation_wand.lore": [
+                null,
+                "'Jera Isaz Berkanan'"
+            ],
+            "minecraft.wind_wand": [
+                null,
+                "Wind Wand"
+            ],
+            "minecraft.wind_wand.lore": [
+                null,
+                "'Kaunan Wunjo Perth Thurisaz'"
+            ]
+        },
+        "jukebox_song": {
+            "minecraft.and_action": [
+                null,
+                "Tone Deaf Rebellion - And Action!"
+            ]
+        },
+        "key": {
+            "unlocks": [
+                null,
+                "Unlocks"
+            ]
+        },
+        "level": [
+            null,
+            {
+                "gained": "You've levelled up to level %s!",
+                "unlock_hint": "Press %s to spend levels on unlocks"
+            }
+        ],
+        "mine": [
+            null,
+            {
+                "angry_ghast_boss.description": "This one's not happy with you",
+                "angry_ghast_boss.name": "Angry Ghast",
+                "ender_dragon_boss.description": "This seems to be the end",
+                "ender_dragon_boss.name": "Ender Dragon",
+                "enderman_boss.description": "That Enderman in particular",
+                "enderman_boss.name": "The Enderman",
+                "enter": "Entering Mine in: %s seconds",
+                "enter.aborted": "No longer entering Mine",
+                "enter.started": "Entering Mine...",
+                "kuiper_belt.description": "Igloo in spaaaaace!",
+                "kuiper_belt.name": "Kuiper World",
+                "leave": "Leaving Mine in: %s seconds",
+                "leave.aborted": "No longer leaving Mine",
+                "leave.started": "Leaving Mine...",
+                "lost": "MINE FAILED",
+                "raid.description": "Defend the village!",
+                "raid.name": "Raid",
+                "small_but_deadly_boss.description": "Better have good aim",
+                "small_but_deadly_boss.name": "Small but Deadly",
+                "spooky_scary_skeletons_boss.description": "Shrieking skulls will shock your soul",
+                "spooky_scary_skeletons_boss.name": "Spooky Scary Skeletons",
+                "warden_boss.description": "Get your groove on",
+                "warden_boss.name": "Warden",
+                "wither_boss.description": "DANGER DANGER",
+                "wither_boss.name": "Wither",
+                "won": "MINE COMPLETED SUCCESSFULLY",
+                "won.rewards": "%s earned %s exp"
+            }
+        ],
+        "minecraftlike": [
+            null,
+            {
+                "pack_name": "Level %s"
+            }
+        ],
+        "multiplayer": {
+            "enteringMap.0": [
+                null,
+                "Entering mine..."
+            ],
+            "enteringMap.1": [
+                null,
+                "Doing something very important..."
+            ],
+            "enteringMap.10": [
+                null,
+                "Absolutely placing the entire world one block at a time..."
+            ],
+            "enteringMap.11": [
+                null,
+                "All your blocks are exactly where you left them"
+            ],
+            "enteringMap.12": [
+                null,
+                "Poisoning potatoes..."
+            ],
+            "enteringMap.13": [
+                null,
+                "Voting for mobs..."
+            ],
+            "enteringMap.14": [
+                null,
+                "Infinitely creating dimensions..."
+            ],
+            "enteringMap.15": [
+                null,
+                "Travelling back to the 90's..."
+            ],
+            "enteringMap.16": [
+                null,
+                "Increasing texture details..."
+            ],
+            "enteringMap.17": [
+                null,
+                "Making a portable console..."
+            ],
+            "enteringMap.18": [
+                null,
+                "Following the trends..."
+            ],
+            "enteringMap.19": [
+                null,
+                "Adding sugar, spice and everything that is nice..."
+            ],
+            "enteringMap.2": [
+                null,
+                "Placing all of the little blocks in the world.."
+            ],
+            "enteringMap.20": [
+                null,
+                "Turning players into villagers..."
+            ],
+            "enteringMap.21": [
+                null,
+                "Making collabs..."
+            ],
+            "enteringMap.22": [
+                null,
+                "Acquiring MineCoins[tm]..."
+            ],
+            "enteringMap.23": [
+                null,
+                "Now in 4D!"
+            ],
+            "enteringMap.24": [
+                null,
+                "It\u2019s now NOT safe to turn off your computer"
+            ],
+            "enteringMap.25": [
+                null,
+                "Reticulating splines..."
+            ],
+            "enteringMap.26": [
+                null,
+                "Filling up to the line on a cup..."
+            ],
+            "enteringMap.27": [
+                null,
+                "Smoking these blocks..."
+            ],
+            "enteringMap.28": [
+                null,
+                "Adding seven mountains and seven seas..."
+            ],
+            "enteringMap.29": [
+                null,
+                "Reheating old jokes..."
+            ],
+            "enteringMap.3": [
+                null,
+                "Hiding stuff..."
+            ],
+            "enteringMap.30": [
+                null,
+                "Letting the cat out..."
+            ],
+            "enteringMap.31": [
+                null,
+                "Letting the cat in..."
+            ],
+            "enteringMap.32": [
+                null,
+                "Making everyone confused..."
+            ],
+            "enteringMap.33": [
+                null,
+                "Not incrementing the version..."
+            ],
+            "enteringMap.34": [
+                null,
+                "Looking under the couch cushions for extra features..."
+            ],
+            "enteringMap.35": [
+                null,
+                "Checking if everything Works As Intended..."
+            ],
+            "enteringMap.36": [
+                null,
+                "Simulating epic histories of underground kingdoms..."
+            ],
+            "enteringMap.37": [
+                null,
+                "Spreading the rumors..."
+            ],
+            "enteringMap.38": [
+                null,
+                "Sprinkling just a pinch of extra blocks on the top..."
+            ],
+            "enteringMap.39": [
+                null,
+                "Turning the lights on..."
+            ],
+            "enteringMap.4": [
+                null,
+                "Making a mess..."
+            ],
+            "enteringMap.40": [
+                null,
+                "Just wasting time until I remember what to do next..."
+            ],
+            "enteringMap.41": [
+                null,
+                "Displaying this message..."
+            ],
+            "enteringMap.42": [
+                null,
+                "Forgetting about something important..."
+            ],
+            "enteringMap.43": [
+                null,
+                "Ruining the game..."
+            ],
+            "enteringMap.44": [
+                null,
+                "Walking 500 miles..."
+            ],
+            "enteringMap.45": [
+                null,
+                "Walking 500 more..."
+            ],
+            "enteringMap.46": [
+                null,
+                "Finding a Programmer to get some Art made..."
+            ],
+            "enteringMap.47": [
+                null,
+                "Breaking some farms..."
+            ],
+            "enteringMap.48": [
+                null,
+                "Spilling out lava from buckets..."
+            ],
+            "enteringMap.49": [
+                null,
+                "Changing my mind and removing some blocks again..."
+            ],
+            "enteringMap.5": [
+                null,
+                "Trying my best..."
+            ],
+            "enteringMap.6": [
+                null,
+                "Forgot something, probably not important..."
+            ],
+            "enteringMap.7": [
+                null,
+                "Turning off and back on again..."
+            ],
+            "enteringMap.8": [
+                null,
+                "Don't worry about it..."
+            ],
+            "enteringMap.9": [
+                null,
+                "Introducing jank..."
+            ]
+        },
+        "player": [
+            null,
+            {
+                "kick.too_long": "Too slow, try connecting again"
+            }
+        ],
+        "room": [
+            null,
+            {
+                "minecraft.barrels": "Storage (barrels)",
+                "minecraft.boiler": "Boiler Room",
+                "minecraft.carpet": "Relax Room",
+                "minecraft.corridor_simple": "Boring Corridor",
+                "minecraft.fountain": "Fountain",
+                "minecraft.grassy_h": "Junction (grass)",
+                "minecraft.hanging": "Storage (hanging barrels)",
+                "minecraft.house": "Wow, A Whole House? At This Price?",
+                "minecraft.labyrinth": "Labyrinth",
+                "minecraft.pool": "Deep Pool",
+                "minecraft.ship": "Ship",
+                "minecraft.simple": "Test Room Please Ignore",
+                "minecraft.stairs": "Stairs",
+                "minecraft.storage1": "Storage (simple)",
+                "minecraft.storage2": "Storage (less simple)",
+                "minecraft.sugar_h": "Junction (cane)",
+                "minecraft.tree": "Tree",
+                "minecraft.trophy": "Vintage Trophy Room",
+                "minecraft.tunnel": "Line",
+                "minecraft.useless": "Useless Room",
+                "minecraft.wheat_h": "Junction (wheat)",
+                "minecraft.workshop": "Workshop"
+            }
+        ],
+        "selectWorld": {
+            "gameMode.survival.info": [
+                "Explore a mysterious world where you build, collect, craft, and fight monsters.",
+                "Craft and explore mines, unlock more ingredients, craft some more - and watch out for the special encounters!"
+            ]
+        },
+        "sky": [
+            null,
+            {
+                "actual_sky": "True Sky",
+                "atlas": "Bad Idea",
+                "classic_hub": "Hub (classic)",
+                "code": "Dev Mode",
+                "end": "The End",
+                "missing": "Missing",
+                "overworld": "Overworld",
+                "panorama": "Smol",
+                "tooltip": "Sky: %s"
+            }
+        ],
+        "subtitles": {
+            "block.end_portal.spawn": [
+                "End Portal opens",
+                "Portal sounds"
+            ],
+            "block.end_portal_frame.fill": [
+                "Eye of Ender attaches",
+                "Eye of Exit attaches"
+            ],
+            "entity.ender_eye.death": [
+                "Eye of Ender falls",
+                "Eye of Exit falls"
+            ],
+            "entity.ender_eye.launch": [
+                "Eye of Ender shoots",
+                "Eye of Exit shoots"
+            ],
+            "entity.villager.work_traitor": [
+                null,
+                "Traitor works"
+            ]
+        },
+        "trophy": [
+            null,
+            {
+                "gold": "Golden Cup",
+                "mega_spud": "Mega Spud",
+                "no_medal": "\"Close But No\" Medal"
+            }
+        ],
+        "unlocks": [
+            null,
+            {
+                "player.unlocked": "\ud83d\udd13 %s unlocked %s",
+                "screen.active": "Active | Unlocked",
+                "screen.hint": "Hint: %s",
+                "screen.inactive": "Inactive | Unlocked",
+                "screen.locked": "Cost: %s",
+                "screen.points": "Levels: %s",
+                "screen.unlocked": "Unlocked",
+                "unlock.alchemy.description": "A brewing stand for all your brewing needs",
+                "unlock.alchemy.name": "Alchemy",
+                "unlock.allez_cuisine.description": "Add a little flair to your brewing",
+                "unlock.allez_cuisine.name": "Allez Cuisine!",
+                "unlock.amphibian.description": "Fast as the fish!",
+                "unlock.amphibian.name": "Amphibian",
+                "unlock.apprentice_shoveler.description": "Working your way up in the shoveling business",
+                "unlock.apprentice_shoveler.name": "Apprentice Shoveler",
+                "unlock.archer.description": "We would've called this unlock sagittarii but someone said it sounded weird and that no one speaks Latin anymore",
+                "unlock.archer.name": "Archer",
+                "unlock.armaments.description": "Sticks and stones may break your bones, but they probably shouldn't",
+                "unlock.armaments.name": "Armaments",
+                "unlock.arrowverse.description": "Shoot to your heart's content. Don't forget your bow!",
+                "unlock.arrowverse.name": "Arrowverse",
+                "unlock.berserker.description": "What's better than one Diamond Axe?",
+                "unlock.berserker.name": "Berserker",
+                "unlock.best_starter_sword.description": "Definitely worth the investment!",
+                "unlock.best_starter_sword.name": "No Nether Needed",
+                "unlock.better_starter_sword.description": "I can't believe they're just handing these out!",
+                "unlock.better_starter_sword.name": "Shiny Sword",
+                "unlock.bundle_of_fortune.description": "Here's a bundle of random stuff, don't question it",
+                "unlock.bundle_of_fortune.name": "Bundle of Fortune",
+                "unlock.campfire.description": "You get a Campfire to start with",
+                "unlock.campfire.name": "Starter Campfire",
+                "unlock.chopper.description": "Works for trees and limbs",
+                "unlock.chopper.name": "Chopper",
+                "unlock.combatant.description": "Gain an advantage in battle",
+                "unlock.combatant.name": "Combat",
+                "unlock.crafting.description": "Imagine taking two things and combining them into one!",
+                "unlock.crafting.name": "Crafting",
+                "unlock.crafting_efficiency.description": "Are you sure you need all of these materials?",
+                "unlock.crafting_efficiency.hint": "You can never have too many crafting tables",
+                "unlock.crafting_efficiency.name": "Artisan Crafting",
+                "unlock.crusher.description": "Made from the heaviest matter in the universe",
+                "unlock.crusher.name": "The Natural Evolution of a Shield",
+                "unlock.decked_out.description": "Made from the finest leather",
+                "unlock.decked_out.name": "Decked out",
+                "unlock.dirt_connoisseur.description": "I wonder if it tastes like butter as well?",
+                "unlock.dirt_connoisseur.name": "Dirt Connoisseur",
+                "unlock.dirt_destroyer.description": "Carve through dirt like butter!",
+                "unlock.dirt_destroyer.name": "Dirt is Butter",
+                "unlock.dirt_destroyer_1.description": "Carve through dirt like butter!",
+                "unlock.dirt_destroyer_1.name": "Dirt is Butter",
+                "unlock.dirt_destroyer_2.description": "I crave more!",
+                "unlock.dirt_destroyer_2.name": "Mmmmm Dirt Butter",
+                "unlock.dirt_enjoyer_1.description": "You appreciate the value of Dirt",
+                "unlock.dirt_enjoyer_1.name": "Dirt Enjoyer",
+                "unlock.dirt_enjoyer_2.description": "You enjoy Dirt more than others",
+                "unlock.dirt_enjoyer_2.name": "Dirt Fanatic",
+                "unlock.dirt_enjoyer_3.description": "I love Dirt, Dirt loves me back?",
+                "unlock.dirt_enjoyer_3.name": "Dirt Lover",
+                "unlock.dragon_fire.description": "Add a bit of draconic flair to your fireballs",
+                "unlock.dragon_fire.hint": "Get some first hand experience with dragon fire after unlocking the spellbook",
+                "unlock.dragon_fire.name": "Dragon Fire",
+                "unlock.efficient_enchanting.description": "By combining the aether-flux with quantum displacement while clamping the manifold parameters required to channel the arcane infusion hex we may temporarily fold this plane of existence to subvert the requirement of equivalence of exchange",
+                "unlock.efficient_enchanting.name": "Efficient Enchanting",
+                "unlock.elytra.description": "A singular one",
+                "unlock.elytra.name": "Elytron",
+                "unlock.enchanting.description": "Heh, imagine wasting experience points on this",
+                "unlock.enchanting.name": "Enchanting",
+                "unlock.ender_pearl_starter.description": "Best mode of transportaion!",
+                "unlock.ender_pearl_starter.hint": "Pooof, and it's somewhere else?",
+                "unlock.ender_pearl_starter.name": "Let's get Pearling",
+                "unlock.expert_shoveler.description": "No mound is safe",
+                "unlock.expert_shoveler.name": "Expert Shoveler",
+                "unlock.exploration.description": "Get off to a flying start!",
+                "unlock.exploration.name": "Exploration",
+                "unlock.extra_firepower.description": "Enhances fires near (and on) you",
+                "unlock.extra_firepower.name": "Extra Firepower",
+                "unlock.fire_shield.description": "Your shield now comes with complimentary fire immunity",
+                "unlock.fire_shield.hint": "Maybe DO touch the campfire after unlocking the spellbook",
+                "unlock.fire_shield.name": "Fire Shield",
+                "unlock.fire_wand.description": "I'm pretty sure this is misnamed",
+                "unlock.fire_wand.hint": "Defeat a fiery flying enemy",
+                "unlock.fire_wand.name": "Leaf",
+                "unlock.fishing.description": "Increases your luck while fishing",
+                "unlock.fishing.name": "The Mining of the Sea",
+                "unlock.fishing_rod.description": "Were you catching fish with your hands?",
+                "unlock.fishing_rod.name": "Angler",
+                "unlock.fletcher.description": "Wouldn't it be nice if you had somewhere to make more arrows? No? Alright, these will have to do then",
+                "unlock.fletcher.name": "Fletcher",
+                "unlock.full_metal.description": "A full suit of armour, no alchemy needed",
+                "unlock.full_metal.name": "Full Metal",
+                "unlock.gatherer.description": "Crops, berry bushes and bee hives have a chance of dropping extra loot",
+                "unlock.gatherer.name": "Gatherer",
+                "unlock.golden_starter_apples.description": "Bring a feast with you",
+                "unlock.golden_starter_apples.name": "Golden Apples",
+                "unlock.hunter.description": "Aren't these supposed to be the other way? Anyways, animals killed have a chance of dropping extra loot",
+                "unlock.hunter.name": "Hunter",
+                "unlock.inventory_crafting.description": "Ability to craft in the inventory!",
+                "unlock.inventory_crafting.name": "Inventory Crafting",
+                "unlock.inventory_crafting_3x3.description": "No need for a crafting table",
+                "unlock.inventory_crafting_3x3.hint": "Have you tried crafting yet? It's pretty cool!",
+                "unlock.inventory_crafting_3x3.name": "3x3 Inventory Crafting",
+                "unlock.inventory_slots_1.description": "Maybe you shouldn't hold all of those blocks in your hands",
+                "unlock.inventory_slots_1.name": "Pockets",
+                "unlock.inventory_slots_2.description": "Wouldn't it be nice if you had some more slots?",
+                "unlock.inventory_slots_2.name": "Deeper Pockets",
+                "unlock.inventory_slots_3.description": "Surely you wouldn't need any more slots?",
+                "unlock.inventory_slots_3.name": "Deepest Pockets",
+                "unlock.journeyman_shoveler.description": "It's hard work, but someone has to do it",
+                "unlock.journeyman_shoveler.name": "Journeyman Shoveler",
+                "unlock.jump_king.description": "Reach new heights!",
+                "unlock.jump_king.name": "+1 jump",
+                "unlock.jump_king_10.description": "You won't get any higher than this",
+                "unlock.jump_king_10.name": "+1 jump",
+                "unlock.jump_king_2.description": "What could go wrong?",
+                "unlock.jump_king_2.name": "+1 jump",
+                "unlock.jump_king_3.description": "A valuable trove",
+                "unlock.jump_king_3.name": "+1 jump",
+                "unlock.jump_king_4.description": "I have to save the princess!",
+                "unlock.jump_king_4.name": "+1 jump",
+                "unlock.jump_king_5.description": "Imagine falling from this",
+                "unlock.jump_king_5.name": "+1 jump",
+                "unlock.jump_king_6.description": "What comes up, ...",
+                "unlock.jump_king_6.name": "+1 jump",
+                "unlock.jump_king_7.description": "Gotta reach the top of the castle",
+                "unlock.jump_king_7.name": "+1 jump",
+                "unlock.jump_king_8.description": "Not scared of heights are you?",
+                "unlock.jump_king_8.name": "+1 jump",
+                "unlock.jump_king_9.description": "Don't look down",
+                "unlock.jump_king_9.name": "+1 jump",
+                "unlock.learning_1.description": "Get more experience after each Mine",
+                "unlock.learning_1.name": "Learning",
+                "unlock.learning_10.description": "Get more experience after each Mine",
+                "unlock.learning_10.name": "Learning 10",
+                "unlock.learning_11.description": "Get more experience after each Mine",
+                "unlock.learning_11.name": "Learning 11",
+                "unlock.learning_12.description": "Get more experience after each Mine",
+                "unlock.learning_12.name": "Learning 12",
+                "unlock.learning_13.description": "Get more experience after each Mine",
+                "unlock.learning_13.name": "Learning 13",
+                "unlock.learning_14.description": "Get more experience after each Mine",
+                "unlock.learning_14.name": "Learning 14",
+                "unlock.learning_15.description": "Get more experience after each Mine",
+                "unlock.learning_15.name": "Learning 15",
+                "unlock.learning_16.description": "Get more experience after each Mine",
+                "unlock.learning_16.name": "Learning 16",
+                "unlock.learning_17.description": "Get more experience after each Mine",
+                "unlock.learning_17.name": "Learning 17",
+                "unlock.learning_18.description": "Get more experience after each Mine",
+                "unlock.learning_18.name": "Learning 18",
+                "unlock.learning_19.description": "Get more experience after each Mine",
+                "unlock.learning_19.name": "Learning 19",
+                "unlock.learning_2.description": "Get more experience after each Mine",
+                "unlock.learning_2.name": "Learning 2",
+                "unlock.learning_20.description": "Get more experience after each Mine",
+                "unlock.learning_20.name": "Learning 20",
+                "unlock.learning_3.description": "Get more experience after each Mine",
+                "unlock.learning_3.name": "Learning 3",
+                "unlock.learning_4.description": "Get more experience after each Mine",
+                "unlock.learning_4.name": "Learning 4",
+                "unlock.learning_5.description": "Get more experience after each Mine",
+                "unlock.learning_5.name": "Learning 5",
+                "unlock.learning_6.description": "Get more experience after each Mine",
+                "unlock.learning_6.name": "Learning 6",
+                "unlock.learning_7.description": "Get more experience after each Mine",
+                "unlock.learning_7.name": "Learning 7",
+                "unlock.learning_8.description": "Get more experience after each Mine",
+                "unlock.learning_8.name": "Learning 8",
+                "unlock.learning_9.description": "Get more experience after each Mine",
+                "unlock.learning_9.name": "Learning 9",
+                "unlock.lodestone_exits.description": "Compasses point to the nearest exit",
+                "unlock.lodestone_exits.name": "Lodestone Exits",
+                "unlock.lucky_pick.description": "Ore more?",
+                "unlock.lucky_pick.name": "Lucky pick",
+                "unlock.magic_master_kit.description": "We grant you a seat at the council, but we do not grant you the rank of master",
+                "unlock.magic_master_kit.name": "Master Magic Kit",
+                "unlock.magic_starter_kit.description": "Every apprentice needs this",
+                "unlock.magic_starter_kit.name": "Magic Kit",
+                "unlock.mass_production.description": "Now you're cooking",
+                "unlock.mass_production.name": "Haute cuisine",
+                "unlock.master_shoveler.description": "A tool fit for the Dirt Master",
+                "unlock.master_shoveler.name": "Master Shoveler",
+                "unlock.mega_jump.description": "Where did the gravity go?!",
+                "unlock.mega_jump.hint": "Some things jump high",
+                "unlock.mega_jump.name": "MEGA JUMP",
+                "unlock.mining.description": "What it's all about",
+                "unlock.mining.name": "Mining",
+                "unlock.mining_efficiency.description": "Dig, dig",
+                "unlock.mining_efficiency.name": "Mining effeicency",
+                "unlock.mining_efficiency_2.description": "Dig, dig, dig",
+                "unlock.mining_efficiency_2.name": "Mining effeicenter",
+                "unlock.mining_efficiency_3.description": "Dig, dig, dig, and dig",
+                "unlock.mining_efficiency_3.name": "Mining effeicentest",
+                "unlock.mise_en_place.description": "Mommy never had to face the dinner rush",
+                "unlock.mise_en_place.name": "Mise en place",
+                "unlock.more_more_pearls.description": "PEARLOMANIAC",
+                "unlock.more_more_pearls.name": "When yhou just can't get enough!",
+                "unlock.more_pearls.description": "Gimme more, MORE!",
+                "unlock.more_pearls.name": "Pearltastic",
+                "unlock.more_starter_apples.description": "Bring a meal with you",
+                "unlock.more_starter_apples.name": "More Apples",
+                "unlock.movement_boost.description": "Gotta go faster!",
+                "unlock.movement_boost.name": "Speedrun",
+                "unlock.ore_seeker_1.description": "More for ore!",
+                "unlock.ore_seeker_1.name": "Ore Seeker",
+                "unlock.ore_seeker_2.description": "Even more, more for ore!",
+                "unlock.ore_seeker_2.name": "Ore Seeker: 2",
+                "unlock.pathfinder.description": "Stop hitting yourself (when using Eye of Exit)",
+                "unlock.pathfinder.name": "Pathfinder",
+                "unlock.pet.description": "The game is better with a friend",
+                "unlock.pet.name": "Pets",
+                "unlock.pet_armadillo.description": "Rollout!",
+                "unlock.pet_armadillo.name": "Pet Armadillo",
+                "unlock.pet_axolotl.description": "He likes you a lotl",
+                "unlock.pet_axolotl.name": "Pet Axolotl",
+                "unlock.pet_bee.description": "Bzzzzzzzzzzz",
+                "unlock.pet_bee.name": "Pet Bee",
+                "unlock.pet_cat.description": "Pawsitiviely Purrrrfect",
+                "unlock.pet_cat.name": "Pet Cat",
+                "unlock.pet_chicken.description": "More courageous than you think",
+                "unlock.pet_chicken.name": "Pet Chicken",
+                "unlock.pet_cow.description": "The cow says: \"Moooooo\"",
+                "unlock.pet_cow.name": "Pet Cow",
+                "unlock.pet_creeper.description": "This one is more \"Aww cute!\" than \"Aww man!\"",
+                "unlock.pet_creeper.name": "Pet Creeper",
+                "unlock.pet_fox.description": "What does it say?",
+                "unlock.pet_fox.name": "Pet Fox",
+                "unlock.pet_frog.description": "This one won't turn into a prince",
+                "unlock.pet_frog.name": "Pet Frog",
+                "unlock.pet_mooshroom.description": "The hivemind echoes in your head: \"MOOOOOO\"",
+                "unlock.pet_mooshroom.name": "Pet Mooshroom",
+                "unlock.pet_polar_bear.description": "Nice kitty!",
+                "unlock.pet_polar_bear.name": "Pet Polar Bear",
+                "unlock.pet_slime.description": "Sticky!",
+                "unlock.pet_slime.name": "Pet Slime",
+                "unlock.pet_the_animal.description": "Can I pet that DAWG?",
+                "unlock.pet_the_animal.name": "Pet your pets",
+                "unlock.pet_turtle.description": "A shell of protection",
+                "unlock.pet_turtle.name": "Pet Turtle",
+                "unlock.pet_wolf.description": "Who's a good boy?",
+                "unlock.pet_wolf.name": "Pet Wolf",
+                "unlock.pet_wolf_armored.description": "Always wear protection",
+                "unlock.pet_wolf_armored.name": "Armor up",
+                "unlock.pet_wolf_big.description": "The bigger the better",
+                "unlock.pet_wolf_big.name": "Direwolf",
+                "unlock.pet_wolf_sword.description": "Voracious like no other",
+                "unlock.pet_wolf_sword.name": "Descendant of Sif",
+                "unlock.pets.description": "This one's just here to annoy you",
+                "unlock.pets.name": "Pets",
+                "unlock.pickup_area_size.description": "Now those are some long arms!",
+                "unlock.pickup_area_size.name": "Collector",
+                "unlock.poseidon.description": "Might as well run with it",
+                "unlock.poseidon.name": "Poseidon",
+                "unlock.proper_walking_pace.description": "Why the rush?",
+                "unlock.proper_walking_pace.name": "Proper Walking Pace",
+                "unlock.quiver.description": "Hey, you forgot these",
+                "unlock.quiver.name": "Quiver",
+                "unlock.rare_earth_specialist.description": "You yearn for rare earth materials",
+                "unlock.rare_earth_specialist.name": "Rare Earth Specialist",
+                "unlock.rewrite_in_rust.description": "Rewrite your gear in rust",
+                "unlock.rewrite_in_rust.name": "Rewrite in Rust",
+                "unlock.rockets.description": "The state of the art mode of transportation, totally safe!",
+                "unlock.rockets.name": "Booster",
+                "unlock.runemaster.description": "A PhD in Enchanting? In this job market?",
+                "unlock.runemaster.name": "Runemaster",
+                "unlock.safe_falling.description": "This might help now",
+                "unlock.safe_falling.name": "Safe Falling",
+                "unlock.school_of_actual_hard_knocks.description": "Take your time when mining",
+                "unlock.school_of_actual_hard_knocks.name": "School of Actual Hard Knocks",
+                "unlock.school_of_hard_knocks.description": "Take your time when learning",
+                "unlock.school_of_hard_knocks.name": "School of Hard Knocks",
+                "unlock.shazboots.description": "Terrain permitting, practice skiing if you can. VGS!",
+                "unlock.shazboots.name": "Shazboots!",
+                "unlock.shield_bash.description": "You know, I never knew you could just put this in your main hand",
+                "unlock.shield_bash.name": "Shield Bash",
+                "unlock.silky_pick.description": "More ore?",
+                "unlock.silky_pick.name": "Silky pick",
+                "unlock.smelt_value_1.description": "Gain more experience from things smelted",
+                "unlock.smelt_value_1.name": "Heart of gold",
+                "unlock.smelt_value_2.description": "Gain even more experience from things smelted",
+                "unlock.smelt_value_2.name": "Heart of Netherite?",
+                "unlock.smelter_1.description": "You dabble in smelting",
+                "unlock.smelter_1.name": "Apprentice Smelter",
+                "unlock.smelter_2.description": "You have mastered the art of smelting",
+                "unlock.smelter_2.name": "Master Smelter",
+                "unlock.sneak_1.description": "Sneak as fast as when holding both 'w' and 'a' or 'd'",
+                "unlock.sneak_1.name": "Swift sneaking",
+                "unlock.sneak_2.description": "Now this is possibly even faster than running?",
+                "unlock.sneak_2.name": "Swiftest sneak",
+                "unlock.sorcerer_supreme.description": "Endless possibility... with the right tools!",
+                "unlock.sorcerer_supreme.name": "Spellbook",
+                "unlock.speed_1.description": "Amazing game, and super fast!",
+                "unlock.speed_1.name": "Need for speed",
+                "unlock.speed_2.description": "Wow, and this is even better",
+                "unlock.speed_2.name": "Need for speed: II",
+                "unlock.speed_3.description": "Maybe this is as good as it gets?",
+                "unlock.speed_3.name": "Hot Pursuit",
+                "unlock.starter_apples.description": "Bring a snack with you",
+                "unlock.starter_apples.name": "Doctors order",
+                "unlock.starter_compass.description": "Gives a starter compass, how handy!",
+                "unlock.starter_compass.name": "Starter Compass",
+                "unlock.starter_crafting.description": "This might come in handy to always have",
+                "unlock.starter_crafting.name": "Crafting table",
+                "unlock.starter_pick.description": "Look at that, imagine starting with that",
+                "unlock.starter_pick.name": "Starting pickaxe",
+                "unlock.starter_shield.description": "Better safe than sorry",
+                "unlock.starter_shield.name": "Warded",
+                "unlock.starter_sword.description": "It might not be much, but it's yours",
+                "unlock.starter_sword.name": "Training Sword",
+                "unlock.starter_sword_iron.description": "Upgrade your starter sword",
+                "unlock.starter_sword_iron.name": "You call that a knoife?",
+                "unlock.sub_mining_efficiency.description": "Submerged mining efficiency",
+                "unlock.sub_mining_efficiency.hint": "Win a map in a place where water is everything",
+                "unlock.sub_mining_efficiency.name": "Underwater miner",
+                "unlock.teleportation_wand.description": "There and back again",
+                "unlock.teleportation_wand.hint": "Defeat a terrifying teleporting enemy",
+                "unlock.teleportation_wand.name": "Enigma",
+                "unlock.thorns_plus_plus.description": "Make sure to report any bugs to /dev/null",
+                "unlock.thorns_plus_plus.name": "Thorns++",
+                "unlock.tracker.description": "They're not getting away",
+                "unlock.tracker.name": "Tracker",
+                "unlock.trident.description": "Are you sure this is the right tree?",
+                "unlock.trident.name": "Spearfishing",
+                "unlock.varangian.description": "These trees will rue the day they crossed you",
+                "unlock.varangian.name": "Varangian",
+                "unlock.viking.description": "This woodcutter is also good at sailing",
+                "unlock.viking.name": "Viking",
+                "unlock.wind_wand.description": "Watch out for the wind!",
+                "unlock.wind_wand.hint": "Defeat a bouncy breezy enemy",
+                "unlock.wind_wand.name": "Heart of the Oak",
+                "unlock.wing_guardian_lift_off_to_the_sky.description": "Feathers can help you reach for the sky",
+                "unlock.wing_guardian_lift_off_to_the_sky.hint": "The first pioneers of flight weren't always successful, maybe you can do better after unlocking the spellbook",
+                "unlock.wing_guardian_lift_off_to_the_sky.name": "Wing Guardian Leaf In Ocean",
+                "unlock.you_are_the_campfire.description": "Do I need to say it again? You are the campfire!",
+                "unlock.you_are_the_campfire.name": "You Are the Campfire"
+            }
+        ],
+        "world": [
+            null,
+            {
+                "effect.amplified.description": "What... up THERE?",
+                "effect.amplified.hint": "Place a block high up in the world",
+                "effect.amplified.name": "Amplified World",
+                "effect.angry_ghast_boss_fight.description": "This one's not happy with you",
+                "effect.angry_ghast_boss_fight.hint": "Give a Ghast a taste of its own medicine",
+                "effect.angry_ghast_boss_fight.name": "Angry Ghast Boss",
+                "effect.armadillos.description": "Careful, you might scare them",
+                "effect.armadillos.hint": "They like being brushed",
+                "effect.armadillos.name": "Armadillos",
+                "effect.axolotls.description": "Anybody got a bucket?",
+                "effect.axolotls.hint": "Slippery!",
+                "effect.axolotls.name": "Axolotls",
+                "effect.badlands.description": "Lands took a turn for the bad",
+                "effect.badlands.hint": "Play in the mud",
+                "effect.badlands.name": "Badlands Biomes",
+                "effect.base_andesite.description": "The mountains are made of Andesite",
+                "effect.base_andesite.hint": "Mine Andesite",
+                "effect.base_andesite.name": "Base rock type: Andesite",
+                "effect.base_blackstone.description": "The mountains are made of Blackstone",
+                "effect.base_blackstone.hint": "Mine Blackstone",
+                "effect.base_blackstone.name": "Base rock type: Blackstone",
+                "effect.base_deepslate.description": "The mountains are made of Deepslate",
+                "effect.base_deepslate.hint": "Mine Deepslate",
+                "effect.base_deepslate.name": "Base rock type: Deepslate",
+                "effect.base_diorite.description": "The mountains are made of Diorite",
+                "effect.base_diorite.hint": "Mine Diorite",
+                "effect.base_diorite.name": "Base rock type: Diorite",
+                "effect.base_end_stone.description": "The mountains are made of End Stone",
+                "effect.base_end_stone.hint": "Mine End Stone",
+                "effect.base_end_stone.name": "Base rock type: End Stone",
+                "effect.base_granite.description": "The mountains are made of Granite",
+                "effect.base_granite.hint": "Mine Granite",
+                "effect.base_granite.name": "Base rock type: Granite",
+                "effect.base_stone.description": "The mountains are made of Stone",
+                "effect.base_stone.name": "Base rock type: Stone",
+                "effect.base_tuff.description": "The mountains are made of Tuff",
+                "effect.base_tuff.hint": "Mine Tuff",
+                "effect.base_tuff.name": "Base rock type: Tuff",
+                "effect.bees.description": "No, not the bees! NOT THE BEES!",
+                "effect.bees.hint": "You've killed their brother. Now they're out for revenge.",
+                "effect.bees.name": "Bees",
+                "effect.blazes.description": "They're all the hotness right now!",
+                "effect.blazes.hint": "Go mining in a Nether biome",
+                "effect.blazes.name": "Blazes",
+                "effect.bouncy.description": "Release your inner slime",
+                "effect.bouncy.hint": "Find and kill some Slime",
+                "effect.bouncy.name": "Bouncy Blocks",
+                "effect.breezes.description": "These ones should be a breeze!",
+                "effect.breezes.hint": "Trial spawners might have something to unlock this",
+                "effect.breezes.name": "Breezes",
+                "effect.cave_exits.description": "Mine Exits are found in caves",
+                "effect.cave_exits.hint": "Unlock Cave Mines or test your luck with Deepslate",
+                "effect.cave_exits.name": "Cave Exits",
+                "effect.cave_spiders.description": "Perilous Poisonous Pests",
+                "effect.cave_spiders.hint": "From Spiders",
+                "effect.cave_spiders.name": "Cave Spiders",
+                "effect.cave_world.description": "And they call it a Mine? A Mine!",
+                "effect.cave_world.hint": "Break a block deep down in the world",
+                "effect.cave_world.name": "Cave World",
+                "effect.chickens.description": "Who came first? Clearly the chicken, in this mine",
+                "effect.chickens.name": "Chickens",
+                "effect.convert": "Bring this item to the Mine exit to convert to experience",
+                "effect.cows.description": "Moo",
+                "effect.cows.name": "Cows",
+                "effect.creepers.description": "Tssssssssss",
+                "effect.creepers.hint": "I sense a theme, found while slaying monsters!",
+                "effect.creepers.name": "Creepers",
+                "effect.dark_cave_world.description": "Hello? Who turned off the lights?",
+                "effect.dark_cave_world.hint": "Win a Special Encounter Mine",
+                "effect.dark_cave_world.name": "Dark Cave World",
+                "effect.dark_forests.description": "Can't see the forests for all the trees",
+                "effect.dark_forests.hint": "Again!? Search among the leaves!",
+                "effect.dark_forests.name": "Dark Forest Biomes",
+                "effect.deep_dark.description": "The (maybe not so) Deep (and also maybe not entirely) Dark",
+                "effect.deep_dark.hint": "Search among blocks in a dark place...",
+                "effect.deep_dark.name": "Deep Dark Biome",
+                "effect.desert.description": "It's getting hot in here",
+                "effect.desert.hint": "Play in the sand",
+                "effect.desert.name": "Desert Biome",
+                "effect.dry_land.description": "Gronk thirsty. Gronk drink ALL water!",
+                "effect.dry_land.hint": "Try to get even warmer in the Badlands",
+                "effect.dry_land.name": "Dry Land",
+                "effect.end.description": "How did we End up here?",
+                "effect.end.hint": "What creatures do you usually kill to get to the end?",
+                "effect.end.name": "End Biomes",
+                "effect.ender_dragon_boss_fight.description": "You already know this one",
+                "effect.ender_dragon_boss_fight.hint": "Complete a Mine with an End biome",
+                "effect.ender_dragon_boss_fight.name": "Ender Dragon Boss",
+                "effect.endermen.description": "Look at me when I'm talking to you! Actually, wait...",
+                "effect.endermen.hint": "How many monster do you have to Slay!?",
+                "effect.endermen.name": "Endermen",
+                "effect.endermites.description": "Literally bugs in the game",
+                "effect.endermites.hint": "Found in the end stone",
+                "effect.endermites.name": "Endermites",
+                "effect.eternal_lightning.description": "Very, very frightening!",
+                "effect.eternal_lightning.hint": "Escape a Mine that will just not stop raining.",
+                "effect.eternal_lightning.name": "Eternal Lightning",
+                "effect.eternal_night.description": "It's dark in here isn't it?",
+                "effect.eternal_night.hint": "Unlocked after a while, I guess?",
+                "effect.eternal_night.name": "Eternal Night",
+                "effect.eternal_rain.description": "Blimey rainy innit?!",
+                "effect.eternal_rain.hint": "Win an eternally dark Mine",
+                "effect.eternal_rain.name": "Eternal Rain",
+                "effect.event_exit.description": "Complete the event to spawn the exit",
+                "effect.event_exit.name": "Event Mine",
+                "effect.evokers.description": "Wololo",
+                "effect.evokers.hint": "Buy it from a villager. The Lodestone will guide your way!",
+                "effect.evokers.name": "Evokers",
+                "effect.experience_modifier": "%s (x%s XP)",
+                "effect.explosive_traps.description": "Watch your step",
+                "effect.explosive_traps.hint": "Play a while..",
+                "effect.explosive_traps.name": "Explosive Traps",
+                "effect.fish_out_of_water.description": "Just keep swimming",
+                "effect.fish_out_of_water.hint": "Fish!",
+                "effect.fish_out_of_water.name": "Fish Out of Water",
+                "effect.floating_islands_world.description": "How can it be a Mine if it's not even solid?",
+                "effect.floating_islands_world.hint": "Win a Mine",
+                "effect.floating_islands_world.name": "Floating Islands",
+                "effect.forests.description": "Now with raised trees",
+                "effect.forests.hint": "Search among the Leaves",
+                "effect.forests.name": "Forest Biomes",
+                "effect.foxes.description": "What does the fox say?",
+                "effect.foxes.hint": "Berries",
+                "effect.foxes.name": "Foxes",
+                "effect.frogs.description": "Heralds of change",
+                "effect.frogs.name": "Frogs",
+                "effect.ghasts.description": "No, they're not happy",
+                "effect.ghasts.hint": "Probably dried out among fossils",
+                "effect.ghasts.name": "Ghasts",
+                "effect.goats.description": "Mischevious horned menace of the mountain",
+                "effect.goats.hint": "Go mining in the mountains",
+                "effect.goats.name": "Goats",
+                "effect.grid_world.description": "Linear. Orderly.",
+                "effect.grid_world.hint": "Win a Special Encounter Mine",
+                "effect.grid_world.name": "Grid World",
+                "effect.guardians.description": "Protectors of the deep",
+                "effect.guardians.hint": "Slaying creatures of the water will anger the Guardians",
+                "effect.guardians.name": "Guardians",
+                "effect.hoglins.description": "The whole hog",
+                "effect.hoglins.hint": "Through the death of many Pigs",
+                "effect.hoglins.name": "Hoglins",
+                "effect.ice_spikes.description": "Cool",
+                "effect.ice_spikes.hint": "Win a snowy Mine",
+                "effect.ice_spikes.name": "Ice Spikes Biome",
+                "effect.icy.description": "Might be a little slippery...",
+                "effect.icy.hint": "Take a boat ride",
+                "effect.icy.name": "Icy Surfaces",
+                "effect.illusioners.description": "It's not even in the game",
+                "effect.illusioners.hint": "Buy it from a villager. The Lodestone will guide your way!",
+                "effect.illusioners.name": "Illusioners",
+                "effect.insomniacs.description": "No rest, no respite",
+                "effect.insomniacs.hint": "Win a Mine that never sees the light of day",
+                "effect.insomniacs.name": "Insomniacs",
+                "effect.jungles.description": "In the Jungle, the Miney Jungle",
+                "effect.jungles.hint": "Do not leave the leaves alone!",
+                "effect.jungles.name": "Jungle Biomes",
+                "effect.kuiper_world.description": "Igloo in spaaaaace!",
+                "effect.kuiper_world.name": "Kuiper World",
+                "effect.magma_cubes.description": "Squishy and stompy and hot at the same time",
+                "effect.magma_cubes.hint": "Get some Magma",
+                "effect.magma_cubes.name": "Magma Cubes",
+                "effect.mooshrooms.description": "These mushrooms moo",
+                "effect.mooshrooms.hint": "Go pick mushrooms",
+                "effect.mooshrooms.name": "Mooshrooms",
+                "effect.mushroom_fields.description": "Mushroom islands, except not only islands",
+                "effect.mushroom_fields.hint": "Collect Mushrooms and you might get lucky",
+                "effect.mushroom_fields.name": "Mushroom Fields Biome",
+                "effect.nether_barrens.description": "Things are heating up!",
+                "effect.nether_barrens.hint": "The Ice Bucket Challenge",
+                "effect.nether_barrens.name": "Barren Nether Biomes",
+                "effect.nether_forests.description": "Can't see the forest for the... fungi?",
+                "effect.nether_forests.hint": "Found while slaying Endermen",
+                "effect.nether_forests.name": "Nether Forest Biomes",
+                "effect.no_drops.description": "Who needs it?",
+                "effect.no_drops.hint": "Found by chance",
+                "effect.no_drops.name": "No drops?",
+                "effect.ocelots.description": "Kitty!",
+                "effect.ocelots.hint": "Whiskers!",
+                "effect.ocelots.name": "Ocelots",
+                "effect.one_hp.description": "There is only one heart.",
+                "effect.one_hp.hint": "Kill something while having only one heart",
+                "effect.one_hp.name": "One HP",
+                "effect.pandas.description": "Cute and clumsy",
+                "effect.pandas.hint": "Eat some bamboo",
+                "effect.pandas.name": "Pandas",
+                "effect.parrots.description": "Tssssss sharp",
+                "effect.parrots.hint": "Eat a cookie, the Parrot doesn't want it anyway",
+                "effect.parrots.name": "Parrots",
+                "effect.piglins.description": "Pigs that love gold... and violence",
+                "effect.piglins.hint": "Feed some gold to a pig",
+                "effect.piglins.name": "Piglins",
+                "effect.pigs.description": "Pork-u-pines, except without the pines?",
+                "effect.pigs.name": "Pigs",
+                "effect.pillagers.description": "Villager, Illager, Pillager - what's the difference?",
+                "effect.pillagers.hint": "Buy it from a villager. The Lodestone will guide your way!",
+                "effect.pillagers.name": "Pillagers",
+                "effect.plains.description": "Quite plain",
+                "effect.plains.name": "Plains Biomes",
+                "effect.rabbits.description": "Jumpy meals",
+                "effect.rabbits.hint": "Jump... from really high up",
+                "effect.rabbits.name": "Rabbits",
+                "effect.raid.description": "They're coming for your loot",
+                "effect.raid.hint": "Slay a Pillager",
+                "effect.raid.name": "Raid!",
+                "effect.rare_surface_exits.description": "Mine Exits are found on the surface, but it might be a trek to get to one",
+                "effect.rare_surface_exits.hint": "Craft an item that helps you locate Mine Exits",
+                "effect.rare_surface_exits.name": "Rare Surface Exits",
+                "effect.ravagers.description": "Rawr",
+                "effect.ravagers.hint": "Buy it from a villager. The Lodestone will guide your way!",
+                "effect.ravagers.name": "Ravagers",
+                "effect.savannas.description": "On the great wide savanna steppes...",
+                "effect.savannas.name": "Savanna Biomes",
+                "effect.shattered_blocks_world.description": "Shattered world made of big blocks with large gaps",
+                "effect.shattered_blocks_world.hint": "Win a Special Encounter Mine",
+                "effect.shattered_blocks_world.name": "Shattered Blocks World",
+                "effect.sheep.description": "Fluffy mine",
+                "effect.sheep.name": "Sheep",
+                "effect.shulkers.description": "Box material",
+                "effect.shulkers.hint": "Stomp out bugs from their natural environment",
+                "effect.shulkers.name": "Shulkers",
+                "effect.skeletons.description": "Feel it in my bones",
+                "effect.skeletons.hint": "A chance while slaying monsters",
+                "effect.skeletons.name": "Skeletons",
+                "effect.slimes.description": "Get slimed!",
+                "effect.slimes.hint": "You guessed it - Slay monsters!",
+                "effect.slimes.name": "Slimes",
+                "effect.small_but_deadly_boss_fight.description": "Tiny (not so) friendly critters",
+                "effect.small_but_deadly_boss_fight.hint": "Just play the game!",
+                "effect.small_but_deadly_boss_fight.name": "Small But Deadly Boss Fight",
+                "effect.sniffers.description": "Let the gentle giants roam the Mines once more",
+                "effect.sniffers.hint": "They like flowers",
+                "effect.sniffers.name": "Sniffers",
+                "effect.snowy.description": "Let it snow, let it snow, let it snow",
+                "effect.snowy.hint": "Search cold Blocks",
+                "effect.snowy.name": "Snowy Biomes",
+                "effect.soul_link.description": "Every player takes damage if one player is hurt",
+                "effect.soul_link.hint": "Win a mine with the \"One HP\" ingredient",
+                "effect.soul_link.name": "Soul Link",
+                "effect.spiders.description": "So many years of bad luck from this one",
+                "effect.spiders.hint": "Slay Slay, slay...",
+                "effect.spiders.name": "Spiders",
+                "effect.striders.description": "You better make the mine have some warm cozy lava",
+                "effect.striders.hint": "Prepare to go riding",
+                "effect.striders.name": "Striders",
+                "effect.surface_exits.description": "Mine Exits are found on the surface",
+                "effect.surface_exits.name": "Surface Exits",
+                "effect.surface_world.description": "World above the Mines. Like... an aboveworld",
+                "effect.surface_world.name": "Surface World",
+                "effect.swamps.description": "Get ready to get your boots wet",
+                "effect.swamps.hint": "Find the source of the smallest creature",
+                "effect.swamps.name": "Swamp Biomes",
+                "effect.taigas.description": "Don't step on the pine cones",
+                "effect.taigas.hint": "Found somewhere in the trees",
+                "effect.taigas.name": "Taiga Biomes",
+                "effect.the_enderman_boss_fight.description": "THIS Enderman",
+                "effect.the_enderman_boss_fight.hint": "Just play the game!",
+                "effect.the_enderman_boss_fight.name": "The Enderman Boss Fight",
+                "effect.ultrawarm.description": "It's getting hot in here",
+                "effect.ultrawarm.hint": "Stand in lava... if you dare",
+                "effect.ultrawarm.name": "Ultrawarm",
+                "effect.universal_anger.description": "Every neutral mob is hostile",
+                "effect.universal_anger.hint": "Win a mine with the \"Bees\" ingredient",
+                "effect.universal_anger.name": "(Near) Universal Anger",
+                "effect.unlock": "Bring this item to the Mine exit to unlock as a Mine ingredient",
+                "effect.unlocked": "Unlocked new Mine Ingredient: %s",
+                "effect.vindicators.description": "Here's Johnny!",
+                "effect.vindicators.hint": "Buy it from a villager. The Lodestone will guide your way!",
+                "effect.vindicators.name": "Vindicators",
+                "effect.void_world.description": "It stares also into you",
+                "effect.void_world.name": "Void World",
+                "effect.warden_boss_fight.description": "Warden wards off the competition",
+                "effect.warden_boss_fight.hint": "Walk on this block and give of a chime, it's a nice crystal but not even worth a dime",
+                "effect.warden_boss_fight.name": "Warden Boss Fight",
+                "effect.water_world.description": "Like the hit film from Cavin' Costner",
+                "effect.water_world.hint": "Win a dry Mine",
+                "effect.water_world.name": "Water World",
+                "effect.wednesday_frogs.description": "Heralds of doom",
+                "effect.wednesday_frogs.hint": "Might be trickier to find than you might think",
+                "effect.wednesday_frogs.name": "Wednesday Frogs",
+                "effect.witches.description": "Double, double toil and trouble",
+                "effect.witches.hint": "You would have never guessed it! Slay monsters to find this one! :D",
+                "effect.witches.name": "Witches",
+                "effect.wither_boss_fight.description": "They say this one's harder when it's standing on Bedrock",
+                "effect.wither_boss_fight.hint": "Obtain a Wither Skull",
+                "effect.wither_boss_fight.name": "Wither Boss Fight",
+                "effect.wither_skeletons.description": "Wither, Blister, Burn & Peel",
+                "effect.wither_skeletons.hint": "Hidden among the regular Skeletons",
+                "effect.wither_skeletons.name": "Wither Skeletons",
+                "effect.zoglins.description": "So angry",
+                "effect.zoglins.hint": "Kill a zombie on the turf of the Piglins",
+                "effect.zoglins.name": "Zoglins",
+                "effect.zombies.description": "Braaaaaiiiinsss",
+                "effect.zombies.hint": "Go on a monster hunt!",
+                "effect.zombies.name": "Zombies",
+                "effect.zombified_piglins.description": "These pigs seem quite easily angered",
+                "effect.zombified_piglins.hint": "Somehow related to pigs in the fires of the nether",
+                "effect.zombified_piglins.name": "Zombified Piglins",
+                "event.angry_ghast": "Angry Ghast Spawns",
+                "event.ender_dragon": "Ender Dragon Spawns",
+                "event.enderman": "The Enderman Spawns",
+                "event.next_wave": "Next Wave",
+                "event.remaining": "Mobs Remaining",
+                "event.warden": "Warden Spawns",
+                "event.wither": "Wither Spawns",
+                "mine": "Mine %s",
+                "mine.base": "Mine %s Base",
+                "mine.next": "Next Mine",
+                "mine.revisit.lost": "Revisiting old Mine that sadly was lost",
+                "mine.revisit.won": "Revisiting old Mine that was won"
+            }
+        ]
+    },
+    "sounds": {
+        "and_action": [
+            null,
+            {
+                "field": "qv",
+                "id": 904,
+                "name": "and_action"
+            }
+        ],
+        "block.end_portal.spawn": [
+            {
+                "field": "iU",
+                "id": 514,
+                "name": "block.end_portal.spawn",
+                "sounds": [
+                    {
+                        "hash": "26cd0eda5615a02f1954de91dbf03d30670c031a",
+                        "name": "block/end_portal/endportal"
+                    }
+                ],
+                "subtitle": "End Portal opens",
+                "subtitle_key": "subtitles.block.end_portal.spawn"
+            },
+            {
+                "field": "iU",
+                "id": 514,
+                "name": "block.end_portal.spawn",
+                "sounds": [
+                    {
+                        "hash": "26cd0eda5615a02f1954de91dbf03d30670c031a",
+                        "name": "block/end_portal/endportal"
+                    }
+                ],
+                "subtitle": "Portal sounds",
+                "subtitle_key": "subtitles.block.end_portal.spawn"
+            }
+        ],
+        "block.end_portal_frame.fill": [
+            {
+                "field": "iT",
+                "id": 513,
+                "name": "block.end_portal_frame.fill",
+                "sounds": [
+                    {
+                        "hash": "4a005d06d7684a38172f6cc763470e28b511c012",
+                        "name": "block/end_portal/eyeplace1"
+                    },
+                    {
+                        "hash": "86e50969063621cfdf9388d207cc20e83195e763",
+                        "name": "block/end_portal/eyeplace2"
+                    },
+                    {
+                        "hash": "95a4c1e7dc57e1d8fb1dec2349d7474968ecce30",
+                        "name": "block/end_portal/eyeplace3"
+                    }
+                ],
+                "subtitle": "Eye of Ender attaches",
+                "subtitle_key": "subtitles.block.end_portal_frame.fill"
+            },
+            {
+                "field": "iT",
+                "id": 513,
+                "name": "block.end_portal_frame.fill",
+                "sounds": [
+                    {
+                        "hash": "4a005d06d7684a38172f6cc763470e28b511c012",
+                        "name": "block/end_portal/eyeplace1"
+                    },
+                    {
+                        "hash": "86e50969063621cfdf9388d207cc20e83195e763",
+                        "name": "block/end_portal/eyeplace2"
+                    },
+                    {
+                        "hash": "95a4c1e7dc57e1d8fb1dec2349d7474968ecce30",
+                        "name": "block/end_portal/eyeplace3"
+                    }
+                ],
+                "subtitle": "Eye of Exit attaches",
+                "subtitle_key": "subtitles.block.end_portal_frame.fill"
+            }
+        ],
+        "crowd_cheer": [
+            null,
+            {
+                "field": "EV",
+                "id": 1658,
+                "name": "crowd_cheer"
+            }
+        ],
+        "crowd_start": [
+            null,
+            {
+                "field": "EU",
+                "id": 1657,
+                "name": "crowd_start"
+            }
+        ],
+        "crowd_waiting": [
+            null,
+            {
+                "field": "EW",
+                "id": 1659,
+                "name": "crowd_waiting"
+            }
+        ],
+        "entity.ender_eye.death": [
+            {
+                "field": "iF",
+                "id": 499,
+                "name": "entity.ender_eye.death",
+                "sounds": [
+                    {
+                        "hash": "75a6cf26c59fcbd34fcd4036b01ae4bb4b31d399",
+                        "name": "entity/endereye/dead1",
+                        "volume": 1.3
+                    },
+                    {
+                        "hash": "1ee51af69babaa870152ca7d936f419deed7312a",
+                        "name": "entity/endereye/dead2",
+                        "volume": 1.3
+                    }
+                ],
+                "subtitle": "Eye of Ender falls",
+                "subtitle_key": "subtitles.entity.ender_eye.death"
+            },
+            {
+                "field": "iF",
+                "id": 499,
+                "name": "entity.ender_eye.death",
+                "sounds": [
+                    {
+                        "hash": "75a6cf26c59fcbd34fcd4036b01ae4bb4b31d399",
+                        "name": "entity/endereye/dead1",
+                        "volume": 1.3
+                    },
+                    {
+                        "hash": "1ee51af69babaa870152ca7d936f419deed7312a",
+                        "name": "entity/endereye/dead2",
+                        "volume": 1.3
+                    }
+                ],
+                "subtitle": "Eye of Exit falls",
+                "subtitle_key": "subtitles.entity.ender_eye.death"
+            }
+        ],
+        "entity.ender_eye.launch": [
+            {
+                "field": "iG",
+                "id": 500,
+                "name": "entity.ender_eye.launch",
+                "sounds": [
+                    {
+                        "hash": "ff13ffdb77813d916bd2cc25c2f3ac3d872a6313",
+                        "name": "entity/endereye/endereye_launch1"
+                    },
+                    {
+                        "hash": "1825ee6ee58c2b237b00c5274496bff9e08aeeba",
+                        "name": "entity/endereye/endereye_launch2"
+                    }
+                ],
+                "subtitle": "Eye of Ender shoots",
+                "subtitle_key": "subtitles.entity.ender_eye.launch"
+            },
+            {
+                "field": "iG",
+                "id": 500,
+                "name": "entity.ender_eye.launch",
+                "sounds": [
+                    {
+                        "hash": "ff13ffdb77813d916bd2cc25c2f3ac3d872a6313",
+                        "name": "entity/endereye/endereye_launch1"
+                    },
+                    {
+                        "hash": "1825ee6ee58c2b237b00c5274496bff9e08aeeba",
+                        "name": "entity/endereye/endereye_launch2"
+                    }
+                ],
+                "subtitle": "Eye of Exit shoots",
+                "subtitle_key": "subtitles.entity.ender_eye.launch"
+            }
+        ],
+        "ui.player_unlock_fail": [
+            null,
+            {
+                "field": "BG",
+                "id": 1487,
+                "name": "ui.player_unlock_fail"
+            }
+        ],
+        "ui.player_unlock_success": [
+            null,
+            {
+                "field": "BF",
+                "id": 1486,
+                "name": "ui.player_unlock_success"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/axolotls_spawnable_on": [
+            {
+                "name": "axolotls_spawnable_on",
+                "type": "block",
+                "values": [
+                    "minecraft:clay"
+                ]
+            },
+            {
+                "name": "axolotls_spawnable_on",
+                "type": "block",
+                "values": [
+                    "minecraft:clay",
+                    "minecraft:moss_block",
+                    "minecraft:dirt"
+                ]
+            }
+        ],
+        "block/azalea_root_replaceable": [
+            {
+                "name": "azalea_root_replaceable",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:red_sand",
+                    "minecraft:clay",
+                    "minecraft:gravel",
+                    "minecraft:sand",
+                    "minecraft:snow_block",
+                    "minecraft:powder_snow"
+                ]
+            },
+            {
+                "name": "azalea_root_replaceable",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:end_stone",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:red_sand",
+                    "minecraft:clay",
+                    "minecraft:gravel",
+                    "minecraft:sand",
+                    "minecraft:snow_block",
+                    "minecraft:powder_snow"
+                ]
+            }
+        ],
+        "block/base_stone_overworld": [
+            {
+                "name": "base_stone_overworld",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate"
+                ]
+            },
+            {
+                "name": "base_stone_overworld",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:end_stone"
+                ]
+            }
+        ],
+        "block/bats_spawnable_on": [
+            {
+                "name": "bats_spawnable_on",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate"
+                ]
+            },
+            {
+                "name": "bats_spawnable_on",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:end_stone"
+                ]
+            }
+        ],
+        "block/dragon_immune": [
+            {
+                "name": "dragon_immune",
+                "type": "block",
+                "values": [
+                    "minecraft:barrier",
+                    "minecraft:bedrock",
+                    "minecraft:end_portal",
+                    "minecraft:end_portal_frame",
+                    "minecraft:end_gateway",
+                    "minecraft:command_block",
+                    "minecraft:repeating_command_block",
+                    "minecraft:chain_command_block",
+                    "minecraft:structure_block",
+                    "minecraft:jigsaw",
+                    "minecraft:moving_piston",
+                    "minecraft:obsidian",
+                    "minecraft:crying_obsidian",
+                    "minecraft:end_stone",
+                    "minecraft:iron_bars",
+                    "minecraft:respawn_anchor",
+                    "minecraft:reinforced_deepslate",
+                    "minecraft:test_block",
+                    "minecraft:test_instance_block"
+                ]
+            },
+            {
+                "name": "dragon_immune",
+                "type": "block",
+                "values": [
+                    "minecraft:barrier",
+                    "minecraft:bedrock",
+                    "minecraft:end_gateway",
+                    "minecraft:command_block",
+                    "minecraft:repeating_command_block",
+                    "minecraft:chain_command_block",
+                    "minecraft:structure_block",
+                    "minecraft:jigsaw",
+                    "minecraft:moving_piston",
+                    "minecraft:obsidian",
+                    "minecraft:crying_obsidian",
+                    "minecraft:end_stone",
+                    "minecraft:iron_bars",
+                    "minecraft:respawn_anchor",
+                    "minecraft:reinforced_deepslate",
+                    "minecraft:test_block",
+                    "minecraft:test_instance_block"
+                ]
+            }
+        ],
+        "block/dripstone_replaceable_blocks": [
+            {
+                "name": "dripstone_replaceable_blocks",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate"
+                ]
+            },
+            {
+                "name": "dripstone_replaceable_blocks",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:end_stone"
+                ]
+            }
+        ],
+        "block/features_cannot_replace": [
+            {
+                "name": "features_cannot_replace",
+                "type": "block",
+                "values": [
+                    "minecraft:bedrock",
+                    "minecraft:spawner",
+                    "minecraft:chest",
+                    "minecraft:end_portal_frame",
+                    "minecraft:reinforced_deepslate",
+                    "minecraft:trial_spawner",
+                    "minecraft:vault"
+                ]
+            },
+            {
+                "name": "features_cannot_replace",
+                "type": "block",
+                "values": [
+                    "minecraft:bedrock",
+                    "minecraft:spawner",
+                    "minecraft:chest",
+                    "minecraft:reinforced_deepslate",
+                    "minecraft:trial_spawner",
+                    "minecraft:vault"
+                ]
+            }
+        ],
+        "block/invalid_spawn_inside": [
+            {
+                "name": "invalid_spawn_inside",
+                "type": "block",
+                "values": [
+                    "minecraft:end_portal",
+                    "minecraft:end_gateway"
+                ]
+            },
+            {
+                "name": "invalid_spawn_inside",
+                "type": "block",
+                "values": [
+                    "minecraft:end_gateway",
+                    "minecraft:mine_travelling_block"
+                ]
+            }
+        ],
+        "block/lava_pool_stone_cannot_replace": [
+            {
+                "name": "lava_pool_stone_cannot_replace",
+                "type": "block",
+                "values": [
+                    "minecraft:bedrock",
+                    "minecraft:spawner",
+                    "minecraft:chest",
+                    "minecraft:end_portal_frame",
+                    "minecraft:reinforced_deepslate",
+                    "minecraft:trial_spawner",
+                    "minecraft:vault",
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:dark_oak_log",
+                    "minecraft:dark_oak_wood",
+                    "minecraft:stripped_dark_oak_log",
+                    "minecraft:stripped_dark_oak_wood",
+                    "minecraft:pale_oak_log",
+                    "minecraft:pale_oak_wood",
+                    "minecraft:stripped_pale_oak_log",
+                    "minecraft:stripped_pale_oak_wood",
+                    "minecraft:oak_log",
+                    "minecraft:oak_wood",
+                    "minecraft:stripped_oak_log",
+                    "minecraft:stripped_oak_wood",
+                    "minecraft:acacia_log",
+                    "minecraft:acacia_wood",
+                    "minecraft:stripped_acacia_log",
+                    "minecraft:stripped_acacia_wood",
+                    "minecraft:birch_log",
+                    "minecraft:birch_wood",
+                    "minecraft:stripped_birch_log",
+                    "minecraft:stripped_birch_wood",
+                    "minecraft:jungle_log",
+                    "minecraft:jungle_wood",
+                    "minecraft:stripped_jungle_log",
+                    "minecraft:stripped_jungle_wood",
+                    "minecraft:spruce_log",
+                    "minecraft:spruce_wood",
+                    "minecraft:stripped_spruce_log",
+                    "minecraft:stripped_spruce_wood",
+                    "minecraft:mangrove_log",
+                    "minecraft:mangrove_wood",
+                    "minecraft:stripped_mangrove_log",
+                    "minecraft:stripped_mangrove_wood",
+                    "minecraft:cherry_log",
+                    "minecraft:cherry_wood",
+                    "minecraft:stripped_cherry_log",
+                    "minecraft:stripped_cherry_wood",
+                    "minecraft:crimson_stem",
+                    "minecraft:stripped_crimson_stem",
+                    "minecraft:crimson_hyphae",
+                    "minecraft:stripped_crimson_hyphae",
+                    "minecraft:warped_stem",
+                    "minecraft:stripped_warped_stem",
+                    "minecraft:warped_hyphae",
+                    "minecraft:stripped_warped_hyphae"
+                ]
+            },
+            {
+                "name": "lava_pool_stone_cannot_replace",
+                "type": "block",
+                "values": [
+                    "minecraft:bedrock",
+                    "minecraft:spawner",
+                    "minecraft:chest",
+                    "minecraft:reinforced_deepslate",
+                    "minecraft:trial_spawner",
+                    "minecraft:vault",
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:dark_oak_log",
+                    "minecraft:dark_oak_wood",
+                    "minecraft:stripped_dark_oak_log",
+                    "minecraft:stripped_dark_oak_wood",
+                    "minecraft:pale_oak_log",
+                    "minecraft:pale_oak_wood",
+                    "minecraft:stripped_pale_oak_log",
+                    "minecraft:stripped_pale_oak_wood",
+                    "minecraft:oak_log",
+                    "minecraft:oak_wood",
+                    "minecraft:stripped_oak_log",
+                    "minecraft:stripped_oak_wood",
+                    "minecraft:acacia_log",
+                    "minecraft:acacia_wood",
+                    "minecraft:stripped_acacia_log",
+                    "minecraft:stripped_acacia_wood",
+                    "minecraft:birch_log",
+                    "minecraft:birch_wood",
+                    "minecraft:stripped_birch_log",
+                    "minecraft:stripped_birch_wood",
+                    "minecraft:jungle_log",
+                    "minecraft:jungle_wood",
+                    "minecraft:stripped_jungle_log",
+                    "minecraft:stripped_jungle_wood",
+                    "minecraft:spruce_log",
+                    "minecraft:spruce_wood",
+                    "minecraft:stripped_spruce_log",
+                    "minecraft:stripped_spruce_wood",
+                    "minecraft:mangrove_log",
+                    "minecraft:mangrove_wood",
+                    "minecraft:stripped_mangrove_log",
+                    "minecraft:stripped_mangrove_wood",
+                    "minecraft:cherry_log",
+                    "minecraft:cherry_wood",
+                    "minecraft:stripped_cherry_log",
+                    "minecraft:stripped_cherry_wood",
+                    "minecraft:crimson_stem",
+                    "minecraft:stripped_crimson_stem",
+                    "minecraft:crimson_hyphae",
+                    "minecraft:stripped_crimson_hyphae",
+                    "minecraft:warped_stem",
+                    "minecraft:stripped_warped_stem",
+                    "minecraft:warped_hyphae",
+                    "minecraft:stripped_warped_hyphae"
+                ]
+            }
+        ],
+        "block/lush_ground_replaceable": [
+            {
+                "name": "lush_ground_replaceable",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:cave_vines_plant",
+                    "minecraft:cave_vines",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:clay",
+                    "minecraft:gravel",
+                    "minecraft:sand"
+                ]
+            },
+            {
+                "name": "lush_ground_replaceable",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:end_stone",
+                    "minecraft:cave_vines_plant",
+                    "minecraft:cave_vines",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:clay",
+                    "minecraft:gravel",
+                    "minecraft:sand"
+                ]
+            }
+        ],
+        "block/moss_replaceable": [
+            {
+                "name": "moss_replaceable",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:cave_vines_plant",
+                    "minecraft:cave_vines",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots"
+                ]
+            },
+            {
+                "name": "moss_replaceable",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:end_stone",
+                    "minecraft:cave_vines_plant",
+                    "minecraft:cave_vines",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots"
+                ]
+            }
+        ],
+        "block/nether_carver_replaceables": [
+            {
+                "name": "nether_carver_replaceables",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:nether_wart_block",
+                    "minecraft:warped_wart_block",
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil"
+                ]
+            },
+            {
+                "name": "nether_carver_replaceables",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:end_stone",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:nether_wart_block",
+                    "minecraft:warped_wart_block",
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil"
+                ]
+            }
+        ],
+        "block/overworld_carver_replaceables": [
+            {
+                "name": "overworld_carver_replaceables",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:iron_ore",
+                    "minecraft:deepslate_iron_ore",
+                    "minecraft:copper_ore",
+                    "minecraft:deepslate_copper_ore",
+                    "minecraft:snow",
+                    "minecraft:snow_block",
+                    "minecraft:powder_snow",
+                    "minecraft:water",
+                    "minecraft:gravel",
+                    "minecraft:suspicious_gravel",
+                    "minecraft:sandstone",
+                    "minecraft:red_sandstone",
+                    "minecraft:calcite",
+                    "minecraft:packed_ice",
+                    "minecraft:raw_iron_block",
+                    "minecraft:raw_copper_block"
+                ]
+            },
+            {
+                "name": "overworld_carver_replaceables",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:end_stone",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:iron_ore",
+                    "minecraft:deepslate_iron_ore",
+                    "minecraft:copper_ore",
+                    "minecraft:deepslate_copper_ore",
+                    "minecraft:snow",
+                    "minecraft:snow_block",
+                    "minecraft:powder_snow",
+                    "minecraft:water",
+                    "minecraft:gravel",
+                    "minecraft:suspicious_gravel",
+                    "minecraft:sandstone",
+                    "minecraft:red_sandstone",
+                    "minecraft:calcite",
+                    "minecraft:packed_ice",
+                    "minecraft:raw_iron_block",
+                    "minecraft:raw_copper_block"
+                ]
+            }
+        ],
+        "block/portals": [
+            {
+                "name": "portals",
+                "type": "block",
+                "values": [
+                    "minecraft:nether_portal",
+                    "minecraft:end_portal",
+                    "minecraft:end_gateway"
+                ]
+            },
+            {
+                "name": "portals",
+                "type": "block",
+                "values": [
+                    "minecraft:nether_portal",
+                    "minecraft:end_gateway",
+                    "minecraft:mine_travelling_block"
+                ]
+            }
+        ],
+        "block/sculk_replaceable": [
+            {
+                "name": "sculk_replaceable",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:gravel",
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil",
+                    "minecraft:calcite",
+                    "minecraft:smooth_basalt",
+                    "minecraft:clay",
+                    "minecraft:dripstone_block",
+                    "minecraft:end_stone",
+                    "minecraft:red_sandstone",
+                    "minecraft:sandstone"
+                ]
+            },
+            {
+                "name": "sculk_replaceable",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:end_stone",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:gravel",
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil",
+                    "minecraft:calcite",
+                    "minecraft:smooth_basalt",
+                    "minecraft:clay",
+                    "minecraft:dripstone_block",
+                    "minecraft:end_stone",
+                    "minecraft:red_sandstone",
+                    "minecraft:sandstone"
+                ]
+            }
+        ],
+        "block/sculk_replaceable_world_gen": [
+            {
+                "name": "sculk_replaceable_world_gen",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:gravel",
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil",
+                    "minecraft:calcite",
+                    "minecraft:smooth_basalt",
+                    "minecraft:clay",
+                    "minecraft:dripstone_block",
+                    "minecraft:end_stone",
+                    "minecraft:red_sandstone",
+                    "minecraft:sandstone",
+                    "minecraft:deepslate_bricks",
+                    "minecraft:deepslate_tiles",
+                    "minecraft:cobbled_deepslate",
+                    "minecraft:cracked_deepslate_bricks",
+                    "minecraft:cracked_deepslate_tiles",
+                    "minecraft:polished_deepslate"
+                ]
+            },
+            {
+                "name": "sculk_replaceable_world_gen",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:end_stone",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:blackstone",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:gravel",
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil",
+                    "minecraft:calcite",
+                    "minecraft:smooth_basalt",
+                    "minecraft:clay",
+                    "minecraft:dripstone_block",
+                    "minecraft:end_stone",
+                    "minecraft:red_sandstone",
+                    "minecraft:sandstone",
+                    "minecraft:deepslate_bricks",
+                    "minecraft:deepslate_tiles",
+                    "minecraft:cobbled_deepslate",
+                    "minecraft:cracked_deepslate_bricks",
+                    "minecraft:cracked_deepslate_tiles",
+                    "minecraft:polished_deepslate"
+                ]
+            }
+        ],
+        "block/wither_immune": [
+            {
+                "name": "wither_immune",
+                "type": "block",
+                "values": [
+                    "minecraft:barrier",
+                    "minecraft:bedrock",
+                    "minecraft:end_portal",
+                    "minecraft:end_portal_frame",
+                    "minecraft:end_gateway",
+                    "minecraft:command_block",
+                    "minecraft:repeating_command_block",
+                    "minecraft:chain_command_block",
+                    "minecraft:structure_block",
+                    "minecraft:jigsaw",
+                    "minecraft:moving_piston",
+                    "minecraft:light",
+                    "minecraft:reinforced_deepslate",
+                    "minecraft:test_block",
+                    "minecraft:test_instance_block"
+                ]
+            },
+            {
+                "name": "wither_immune",
+                "type": "block",
+                "values": [
+                    "minecraft:barrier",
+                    "minecraft:bedrock",
+                    "minecraft:end_gateway",
+                    "minecraft:command_block",
+                    "minecraft:repeating_command_block",
+                    "minecraft:chain_command_block",
+                    "minecraft:structure_block",
+                    "minecraft:jigsaw",
+                    "minecraft:moving_piston",
+                    "minecraft:light",
+                    "minecraft:reinforced_deepslate",
+                    "minecraft:test_block",
+                    "minecraft:test_instance_block"
+                ]
+            }
+        ],
+        "damage_type/panic_causes": [
+            {
+                "name": "panic_causes",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:cactus",
+                    "minecraft:freeze",
+                    "minecraft:hot_floor",
+                    "minecraft:in_fire",
+                    "minecraft:lava",
+                    "minecraft:lightning_bolt",
+                    "minecraft:on_fire",
+                    "minecraft:arrow",
+                    "minecraft:dragon_breath",
+                    "minecraft:explosion",
+                    "minecraft:fireball",
+                    "minecraft:fireworks",
+                    "minecraft:indirect_magic",
+                    "minecraft:magic",
+                    "minecraft:mob_attack",
+                    "minecraft:mob_projectile",
+                    "minecraft:player_explosion",
+                    "minecraft:sonic_boom",
+                    "minecraft:sting",
+                    "minecraft:thrown",
+                    "minecraft:trident",
+                    "minecraft:unattributed_fireball",
+                    "minecraft:wind_charge",
+                    "minecraft:wither",
+                    "minecraft:wither_skull",
+                    "minecraft:player_attack",
+                    "minecraft:mace_smash"
+                ]
+            },
+            {
+                "name": "panic_causes",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:cactus",
+                    "minecraft:freeze",
+                    "minecraft:hot_floor",
+                    "minecraft:in_fire",
+                    "minecraft:lava",
+                    "minecraft:lightning_bolt",
+                    "minecraft:on_fire",
+                    "minecraft:arrow",
+                    "minecraft:dragon_breath",
+                    "minecraft:explosion",
+                    "minecraft:fireball",
+                    "minecraft:fireworks",
+                    "minecraft:indirect_magic",
+                    "minecraft:magic",
+                    "minecraft:mob_attack",
+                    "minecraft:devour",
+                    "minecraft:mob_projectile",
+                    "minecraft:player_explosion",
+                    "minecraft:sonic_boom",
+                    "minecraft:sting",
+                    "minecraft:thrown",
+                    "minecraft:trident",
+                    "minecraft:unattributed_fireball",
+                    "minecraft:wind_charge",
+                    "minecraft:wither",
+                    "minecraft:wither_skull",
+                    "minecraft:player_attack",
+                    "minecraft:mace_smash"
+                ]
+            }
+        ],
+        "entity_type/fall_damage_immune": [
+            {
+                "name": "fall_damage_immune",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:iron_golem",
+                    "minecraft:snow_golem",
+                    "minecraft:shulker",
+                    "minecraft:allay",
+                    "minecraft:bat",
+                    "minecraft:bee",
+                    "minecraft:blaze",
+                    "minecraft:cat",
+                    "minecraft:chicken",
+                    "minecraft:ghast",
+                    "minecraft:phantom",
+                    "minecraft:magma_cube",
+                    "minecraft:ocelot",
+                    "minecraft:parrot",
+                    "minecraft:wither",
+                    "minecraft:breeze"
+                ]
+            },
+            {
+                "name": "fall_damage_immune",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:iron_golem",
+                    "minecraft:snow_golem",
+                    "minecraft:shulker",
+                    "minecraft:allay",
+                    "minecraft:bat",
+                    "minecraft:bee",
+                    "minecraft:blaze",
+                    "minecraft:pet_cat",
+                    "minecraft:chicken",
+                    "minecraft:ghast",
+                    "minecraft:phantom",
+                    "minecraft:magma_cube",
+                    "minecraft:ocelot",
+                    "minecraft:parrot",
+                    "minecraft:wither",
+                    "minecraft:breeze"
+                ]
+            }
+        ],
+        "item/amethyst_crystals": [
+            null,
+            {
+                "name": "amethyst_crystals",
+                "type": "item",
+                "values": [
+                    "minecraft:amethyst_block",
+                    "minecraft:small_amethyst_bud",
+                    "minecraft:medium_amethyst_bud",
+                    "minecraft:large_amethyst_bud",
+                    "minecraft:amethyst_cluster"
+                ]
+            }
+        ],
+        "item/carry_over": [
+            null,
+            {
+                "name": "carry_over",
+                "type": "item",
+                "values": [
+                    "minecraft:trophy",
+                    "minecraft:mob_trophy"
+                ]
+            }
+        ],
+        "item/enchantable/armor": [
+            {
+                "name": "enchantable/armor",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:leather_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet"
+                ]
+            },
+            {
+                "name": "enchantable/armor",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:shazboots",
+                    "minecraft:leather_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet"
+                ]
+            }
+        ],
+        "item/enchantable/durability": [
+            {
+                "name": "enchantable/durability",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:leather_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet",
+                    "minecraft:elytra",
+                    "minecraft:shield",
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:netherite_pickaxe",
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:stone_shovel",
+                    "minecraft:golden_shovel",
+                    "minecraft:netherite_shovel",
+                    "minecraft:wooden_shovel",
+                    "minecraft:iron_shovel",
+                    "minecraft:diamond_hoe",
+                    "minecraft:stone_hoe",
+                    "minecraft:golden_hoe",
+                    "minecraft:netherite_hoe",
+                    "minecraft:wooden_hoe",
+                    "minecraft:iron_hoe",
+                    "minecraft:bow",
+                    "minecraft:crossbow",
+                    "minecraft:trident",
+                    "minecraft:flint_and_steel",
+                    "minecraft:shears",
+                    "minecraft:brush",
+                    "minecraft:fishing_rod",
+                    "minecraft:carrot_on_a_stick",
+                    "minecraft:warped_fungus_on_a_stick",
+                    "minecraft:mace"
+                ]
+            },
+            {
+                "name": "enchantable/durability",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:shazboots",
+                    "minecraft:leather_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet",
+                    "minecraft:elytra",
+                    "minecraft:shield",
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:netherite_pickaxe",
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:stone_shovel",
+                    "minecraft:golden_shovel",
+                    "minecraft:netherite_shovel",
+                    "minecraft:wooden_shovel",
+                    "minecraft:iron_shovel",
+                    "minecraft:diamond_hoe",
+                    "minecraft:stone_hoe",
+                    "minecraft:golden_hoe",
+                    "minecraft:netherite_hoe",
+                    "minecraft:wooden_hoe",
+                    "minecraft:iron_hoe",
+                    "minecraft:bow",
+                    "minecraft:crossbow",
+                    "minecraft:trident",
+                    "minecraft:flint_and_steel",
+                    "minecraft:shears",
+                    "minecraft:brush",
+                    "minecraft:fishing_rod",
+                    "minecraft:carrot_on_a_stick",
+                    "minecraft:warped_fungus_on_a_stick",
+                    "minecraft:mace"
+                ]
+            }
+        ],
+        "item/enchantable/equippable": [
+            {
+                "name": "enchantable/equippable",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:leather_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet",
+                    "minecraft:elytra",
+                    "minecraft:player_head",
+                    "minecraft:creeper_head",
+                    "minecraft:zombie_head",
+                    "minecraft:skeleton_skull",
+                    "minecraft:wither_skeleton_skull",
+                    "minecraft:dragon_head",
+                    "minecraft:piglin_head",
+                    "minecraft:carved_pumpkin"
+                ]
+            },
+            {
+                "name": "enchantable/equippable",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:shazboots",
+                    "minecraft:leather_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet",
+                    "minecraft:elytra",
+                    "minecraft:player_head",
+                    "minecraft:creeper_head",
+                    "minecraft:zombie_head",
+                    "minecraft:skeleton_skull",
+                    "minecraft:wither_skeleton_skull",
+                    "minecraft:dragon_head",
+                    "minecraft:piglin_head",
+                    "minecraft:carved_pumpkin"
+                ]
+            }
+        ],
+        "item/enchantable/foot_armor": [
+            {
+                "name": "enchantable/foot_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots"
+                ]
+            },
+            {
+                "name": "enchantable/foot_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:shazboots"
+                ]
+            }
+        ],
+        "item/enchantable/vanishing": [
+            {
+                "name": "enchantable/vanishing",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:leather_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet",
+                    "minecraft:elytra",
+                    "minecraft:shield",
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:netherite_pickaxe",
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:stone_shovel",
+                    "minecraft:golden_shovel",
+                    "minecraft:netherite_shovel",
+                    "minecraft:wooden_shovel",
+                    "minecraft:iron_shovel",
+                    "minecraft:diamond_hoe",
+                    "minecraft:stone_hoe",
+                    "minecraft:golden_hoe",
+                    "minecraft:netherite_hoe",
+                    "minecraft:wooden_hoe",
+                    "minecraft:iron_hoe",
+                    "minecraft:bow",
+                    "minecraft:crossbow",
+                    "minecraft:trident",
+                    "minecraft:flint_and_steel",
+                    "minecraft:shears",
+                    "minecraft:brush",
+                    "minecraft:fishing_rod",
+                    "minecraft:carrot_on_a_stick",
+                    "minecraft:warped_fungus_on_a_stick",
+                    "minecraft:mace",
+                    "minecraft:compass",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:player_head",
+                    "minecraft:creeper_head",
+                    "minecraft:zombie_head",
+                    "minecraft:skeleton_skull",
+                    "minecraft:wither_skeleton_skull",
+                    "minecraft:dragon_head",
+                    "minecraft:piglin_head"
+                ]
+            },
+            {
+                "name": "enchantable/vanishing",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:shazboots",
+                    "minecraft:leather_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet",
+                    "minecraft:elytra",
+                    "minecraft:shield",
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:netherite_pickaxe",
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:stone_shovel",
+                    "minecraft:golden_shovel",
+                    "minecraft:netherite_shovel",
+                    "minecraft:wooden_shovel",
+                    "minecraft:iron_shovel",
+                    "minecraft:diamond_hoe",
+                    "minecraft:stone_hoe",
+                    "minecraft:golden_hoe",
+                    "minecraft:netherite_hoe",
+                    "minecraft:wooden_hoe",
+                    "minecraft:iron_hoe",
+                    "minecraft:bow",
+                    "minecraft:crossbow",
+                    "minecraft:trident",
+                    "minecraft:flint_and_steel",
+                    "minecraft:shears",
+                    "minecraft:brush",
+                    "minecraft:fishing_rod",
+                    "minecraft:carrot_on_a_stick",
+                    "minecraft:warped_fungus_on_a_stick",
+                    "minecraft:mace",
+                    "minecraft:compass",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:player_head",
+                    "minecraft:creeper_head",
+                    "minecraft:zombie_head",
+                    "minecraft:skeleton_skull",
+                    "minecraft:wither_skeleton_skull",
+                    "minecraft:dragon_head",
+                    "minecraft:piglin_head"
+                ]
+            }
+        ],
+        "item/foot_armor": [
+            {
+                "name": "foot_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots"
+                ]
+            },
+            {
+                "name": "foot_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:shazboots"
+                ]
+            }
+        ],
+        "item/ingot": [
+            null,
+            {
+                "name": "ingot",
+                "type": "item",
+                "values": [
+                    "minecraft:copper_ingot",
+                    "minecraft:iron_ingot",
+                    "minecraft:gold_ingot",
+                    "minecraft:netherite_ingot"
+                ]
+            }
+        ],
+        "item/ore": [
+            null,
+            {
+                "name": "ore",
+                "type": "item",
+                "values": [
+                    "minecraft:gold_ore",
+                    "minecraft:nether_gold_ore",
+                    "minecraft:deepslate_gold_ore",
+                    "minecraft:iron_ore",
+                    "minecraft:deepslate_iron_ore",
+                    "minecraft:diamond_ore",
+                    "minecraft:deepslate_diamond_ore",
+                    "minecraft:redstone_ore",
+                    "minecraft:deepslate_redstone_ore",
+                    "minecraft:lapis_ore",
+                    "minecraft:deepslate_lapis_ore",
+                    "minecraft:coal_ore",
+                    "minecraft:deepslate_coal_ore",
+                    "minecraft:emerald_ore",
+                    "minecraft:deepslate_emerald_ore",
+                    "minecraft:copper_ore",
+                    "minecraft:deepslate_copper_ore"
+                ]
+            }
+        ],
+        "item/pig_food": [
+            {
+                "name": "pig_food",
+                "type": "item",
+                "values": [
+                    "minecraft:carrot",
+                    "minecraft:potato",
+                    "minecraft:beetroot"
+                ]
+            },
+            {
+                "name": "pig_food",
+                "type": "item",
+                "values": [
+                    "minecraft:carrot",
+                    "minecraft:potato",
+                    "minecraft:beetroot",
+                    "minecraft:golden_carrot"
+                ]
+            }
+        ],
+        "item/stone_crafting_materials": [
+            {
+                "name": "stone_crafting_materials",
+                "type": "item",
+                "values": [
+                    "minecraft:cobblestone",
+                    "minecraft:blackstone",
+                    "minecraft:cobbled_deepslate"
+                ]
+            },
+            {
+                "name": "stone_crafting_materials",
+                "type": "item",
+                "values": [
+                    "minecraft:cobblestone",
+                    "minecraft:blackstone",
+                    "minecraft:cobbled_deepslate",
+                    "minecraft:andesite",
+                    "minecraft:diorite",
+                    "minecraft:granite",
+                    "minecraft:end_stone",
+                    "minecraft:tuff"
+                ]
+            }
+        ],
+        "item/stone_tool_materials": [
+            {
+                "name": "stone_tool_materials",
+                "type": "item",
+                "values": [
+                    "minecraft:cobblestone",
+                    "minecraft:blackstone",
+                    "minecraft:cobbled_deepslate"
+                ]
+            },
+            {
+                "name": "stone_tool_materials",
+                "type": "item",
+                "values": [
+                    "minecraft:cobblestone",
+                    "minecraft:blackstone",
+                    "minecraft:cobbled_deepslate",
+                    "minecraft:andesite",
+                    "minecraft:diorite",
+                    "minecraft:granite",
+                    "minecraft:end_stone",
+                    "minecraft:tuff"
+                ]
+            }
+        ],
+        "item/trimmable_armor": [
+            {
+                "name": "trimmable_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:leather_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet"
+                ]
+            },
+            {
+                "name": "trimmable_armor",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:shazboots",
+                    "minecraft:leather_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet"
+                ]
+            }
+        ],
+        "point_of_interest_type/acquirable_job_site": [
+            {
+                "name": "acquirable_job_site",
+                "type": "point_of_interest_type",
+                "values": [
+                    "minecraft:armorer",
+                    "minecraft:butcher",
+                    "minecraft:cartographer",
+                    "minecraft:cleric",
+                    "minecraft:farmer",
+                    "minecraft:fisherman",
+                    "minecraft:fletcher",
+                    "minecraft:leatherworker",
+                    "minecraft:librarian",
+                    "minecraft:mason",
+                    "minecraft:shepherd",
+                    "minecraft:toolsmith",
+                    "minecraft:weaponsmith"
+                ]
+            },
+            {
+                "name": "acquirable_job_site",
+                "type": "point_of_interest_type",
+                "values": [
+                    "minecraft:armorer",
+                    "minecraft:butcher",
+                    "minecraft:cartographer",
+                    "minecraft:cleric",
+                    "minecraft:farmer",
+                    "minecraft:fisherman",
+                    "minecraft:fletcher",
+                    "minecraft:leatherworker",
+                    "minecraft:librarian",
+                    "minecraft:mason",
+                    "minecraft:shepherd",
+                    "minecraft:toolsmith",
+                    "minecraft:weaponsmith",
+                    "minecraft:lodestone"
+                ]
+            }
+        ],
+        "point_of_interest_type/village": [
+            {
+                "name": "village",
+                "type": "point_of_interest_type",
+                "values": [
+                    "minecraft:armorer",
+                    "minecraft:butcher",
+                    "minecraft:cartographer",
+                    "minecraft:cleric",
+                    "minecraft:farmer",
+                    "minecraft:fisherman",
+                    "minecraft:fletcher",
+                    "minecraft:leatherworker",
+                    "minecraft:librarian",
+                    "minecraft:mason",
+                    "minecraft:shepherd",
+                    "minecraft:toolsmith",
+                    "minecraft:weaponsmith",
+                    "minecraft:home",
+                    "minecraft:meeting"
+                ]
+            },
+            {
+                "name": "village",
+                "type": "point_of_interest_type",
+                "values": [
+                    "minecraft:armorer",
+                    "minecraft:butcher",
+                    "minecraft:cartographer",
+                    "minecraft:cleric",
+                    "minecraft:farmer",
+                    "minecraft:fisherman",
+                    "minecraft:fletcher",
+                    "minecraft:leatherworker",
+                    "minecraft:librarian",
+                    "minecraft:mason",
+                    "minecraft:shepherd",
+                    "minecraft:toolsmith",
+                    "minecraft:weaponsmith",
+                    "minecraft:lodestone",
+                    "minecraft:home",
+                    "minecraft:meeting"
+                ]
+            }
+        ],
+        "worldgen/biome/has_structure/trial_chambers": [
+            {
+                "name": "biome/has_structure/trial_chambers",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:mushroom_fields",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:warm_ocean",
+                    "minecraft:stony_shore",
+                    "minecraft:swamp",
+                    "minecraft:mangrove_swamp",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_beach",
+                    "minecraft:windswept_gravelly_hills",
+                    "minecraft:grove",
+                    "minecraft:windswept_hills",
+                    "minecraft:snowy_taiga",
+                    "minecraft:windswept_forest",
+                    "minecraft:taiga",
+                    "minecraft:plains",
+                    "minecraft:meadow",
+                    "minecraft:beach",
+                    "minecraft:forest",
+                    "minecraft:old_growth_spruce_taiga",
+                    "minecraft:flower_forest",
+                    "minecraft:birch_forest",
+                    "minecraft:dark_forest",
+                    "minecraft:pale_garden",
+                    "minecraft:savanna_plateau",
+                    "minecraft:savanna",
+                    "minecraft:jungle",
+                    "minecraft:badlands",
+                    "minecraft:desert",
+                    "minecraft:wooded_badlands",
+                    "minecraft:jagged_peaks",
+                    "minecraft:stony_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:river",
+                    "minecraft:ice_spikes",
+                    "minecraft:old_growth_pine_taiga",
+                    "minecraft:sunflower_plains",
+                    "minecraft:old_growth_birch_forest",
+                    "minecraft:sparse_jungle",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:eroded_badlands",
+                    "minecraft:windswept_savanna",
+                    "minecraft:cherry_grove",
+                    "minecraft:frozen_peaks",
+                    "minecraft:dripstone_caves",
+                    "minecraft:lush_caves"
+                ]
+            },
+            {
+                "name": "biome/has_structure/trial_chambers",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:mushroom_fields",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:warm_ocean",
+                    "minecraft:stony_shore",
+                    "minecraft:swamp",
+                    "minecraft:mangrove_swamp",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_beach",
+                    "minecraft:windswept_gravelly_hills",
+                    "minecraft:grove",
+                    "minecraft:windswept_hills",
+                    "minecraft:snowy_taiga",
+                    "minecraft:windswept_forest",
+                    "minecraft:taiga",
+                    "minecraft:plains",
+                    "minecraft:meadow",
+                    "minecraft:beach",
+                    "minecraft:forest",
+                    "minecraft:old_growth_spruce_taiga",
+                    "minecraft:flower_forest",
+                    "minecraft:birch_forest",
+                    "minecraft:dark_forest",
+                    "minecraft:pale_garden",
+                    "minecraft:savanna_plateau",
+                    "minecraft:savanna",
+                    "minecraft:basalt_deltas",
+                    "minecraft:soul_sand_valley",
+                    "minecraft:nether_wastes",
+                    "minecraft:jungle",
+                    "minecraft:crimson_forest",
+                    "minecraft:warped_forest",
+                    "minecraft:badlands",
+                    "minecraft:desert",
+                    "minecraft:end_highlands",
+                    "minecraft:end_midlands",
+                    "minecraft:end_barrens",
+                    "minecraft:wooded_badlands",
+                    "minecraft:small_end_islands",
+                    "minecraft:the_end",
+                    "minecraft:jagged_peaks",
+                    "minecraft:stony_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:river",
+                    "minecraft:ice_spikes",
+                    "minecraft:old_growth_pine_taiga",
+                    "minecraft:sunflower_plains",
+                    "minecraft:old_growth_birch_forest",
+                    "minecraft:sparse_jungle",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:eroded_badlands",
+                    "minecraft:windswept_savanna",
+                    "minecraft:cherry_grove",
+                    "minecraft:frozen_peaks",
+                    "minecraft:dripstone_caves",
+                    "minecraft:lush_caves"
+                ]
+            }
+        ],
+        "worldgen/biome/is_overworld": [
+            {
+                "name": "biome/is_overworld",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:mushroom_fields",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:warm_ocean",
+                    "minecraft:stony_shore",
+                    "minecraft:swamp",
+                    "minecraft:mangrove_swamp",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_beach",
+                    "minecraft:windswept_gravelly_hills",
+                    "minecraft:grove",
+                    "minecraft:windswept_hills",
+                    "minecraft:snowy_taiga",
+                    "minecraft:windswept_forest",
+                    "minecraft:taiga",
+                    "minecraft:plains",
+                    "minecraft:meadow",
+                    "minecraft:beach",
+                    "minecraft:forest",
+                    "minecraft:old_growth_spruce_taiga",
+                    "minecraft:flower_forest",
+                    "minecraft:birch_forest",
+                    "minecraft:dark_forest",
+                    "minecraft:pale_garden",
+                    "minecraft:savanna_plateau",
+                    "minecraft:savanna",
+                    "minecraft:jungle",
+                    "minecraft:badlands",
+                    "minecraft:desert",
+                    "minecraft:wooded_badlands",
+                    "minecraft:jagged_peaks",
+                    "minecraft:stony_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:river",
+                    "minecraft:ice_spikes",
+                    "minecraft:old_growth_pine_taiga",
+                    "minecraft:sunflower_plains",
+                    "minecraft:old_growth_birch_forest",
+                    "minecraft:sparse_jungle",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:eroded_badlands",
+                    "minecraft:windswept_savanna",
+                    "minecraft:cherry_grove",
+                    "minecraft:frozen_peaks",
+                    "minecraft:dripstone_caves",
+                    "minecraft:lush_caves",
+                    "minecraft:deep_dark"
+                ]
+            },
+            {
+                "name": "biome/is_overworld",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:mushroom_fields",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:warm_ocean",
+                    "minecraft:stony_shore",
+                    "minecraft:swamp",
+                    "minecraft:mangrove_swamp",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_beach",
+                    "minecraft:windswept_gravelly_hills",
+                    "minecraft:grove",
+                    "minecraft:windswept_hills",
+                    "minecraft:snowy_taiga",
+                    "minecraft:windswept_forest",
+                    "minecraft:taiga",
+                    "minecraft:plains",
+                    "minecraft:meadow",
+                    "minecraft:beach",
+                    "minecraft:forest",
+                    "minecraft:old_growth_spruce_taiga",
+                    "minecraft:flower_forest",
+                    "minecraft:birch_forest",
+                    "minecraft:dark_forest",
+                    "minecraft:pale_garden",
+                    "minecraft:savanna_plateau",
+                    "minecraft:savanna",
+                    "minecraft:basalt_deltas",
+                    "minecraft:soul_sand_valley",
+                    "minecraft:nether_wastes",
+                    "minecraft:jungle",
+                    "minecraft:crimson_forest",
+                    "minecraft:warped_forest",
+                    "minecraft:badlands",
+                    "minecraft:desert",
+                    "minecraft:end_highlands",
+                    "minecraft:end_midlands",
+                    "minecraft:end_barrens",
+                    "minecraft:wooded_badlands",
+                    "minecraft:small_end_islands",
+                    "minecraft:the_end",
+                    "minecraft:jagged_peaks",
+                    "minecraft:stony_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:river",
+                    "minecraft:ice_spikes",
+                    "minecraft:old_growth_pine_taiga",
+                    "minecraft:sunflower_plains",
+                    "minecraft:old_growth_birch_forest",
+                    "minecraft:sparse_jungle",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:eroded_badlands",
+                    "minecraft:windswept_savanna",
+                    "minecraft:cherry_grove",
+                    "minecraft:frozen_peaks",
+                    "minecraft:dripstone_caves",
+                    "minecraft:lush_caves",
+                    "minecraft:deep_dark"
+                ]
+            }
+        ],
+        "worldgen/biome/without_wandering_trader_spawns": [
+            {
+                "name": "biome/without_wandering_trader_spawns",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:the_void"
+                ]
+            },
+            {
+                "name": "biome/without_wandering_trader_spawns",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:the_void",
+                    "minecraft:hub"
+                ]
+            }
+        ],
+        "worldgen/structure/eye_of_ender_located": [
+            {
+                "name": "structure/eye_of_ender_located",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:stronghold"
+                ]
+            },
+            {
+                "name": "structure/eye_of_ender_located",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:cave_mine_exit",
+                    "minecraft:surface_mine_exit",
+                    "minecraft:rare_surface_mine_exit"
+                ]
+            }
+        ],
+        "worldgen/structure/mine_exit": [
+            null,
+            {
+                "name": "structure/mine_exit",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:surface_mine_exit",
+                    "minecraft:rare_surface_mine_exit",
+                    "minecraft:cave_mine_exit"
+                ]
+            }
+        ],
+        "worldgen/world_preset/extended": [
+            {
+                "name": "world_preset/extended",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:debug_all_block_states"
+                ]
+            },
+            {
+                "name": "world_preset/extended",
+                "type": "worldgen",
+                "values": []
+            }
+        ],
+        "worldgen/world_preset/normal": [
+            {
+                "name": "world_preset/normal",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:normal",
+                    "minecraft:flat",
+                    "minecraft:large_biomes",
+                    "minecraft:amplified",
+                    "minecraft:single_biome_surface"
+                ]
+            },
+            {
+                "name": "world_preset/normal",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:normal",
+                    "minecraft:flat"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4325,
+            4323
+        ],
+        "id": [
+            "1.21.5",
+            "25w14craftmine"
+        ],
+        "name": [
+            "1.21.5",
+            "25w14craftmine"
+        ],
+        "protocol": [
+            770,
+            1073742068
+        ]
+    }
+}
