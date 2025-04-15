@@ -1,0 +1,97 @@
+{
+    "achievements": {},
+    "language": {
+        "subtitles": {
+            "block.dried_ghast.ambient": [
+                "Dried Ghast wheezes",
+                "Sounds of dryness"
+            ],
+            "item.shears.snip": [
+                null,
+                "Shears snip"
+            ]
+        }
+    },
+    "sounds": {
+        "block.dried_ghast.ambient": [
+            {
+                "field": "hO",
+                "id": 456,
+                "name": "block.dried_ghast.ambient",
+                "sounds": [
+                    {
+                        "hash": "3a680ea198f693729ec0ee9c02ae42895b409f31",
+                        "name": "block/dried_ghast/ambient1"
+                    },
+                    {
+                        "hash": "141f9c100642e5ac12c19a57aee7d549dd8f8090",
+                        "name": "block/dried_ghast/ambient2"
+                    }
+                ],
+                "subtitle": "Dried Ghast wheezes",
+                "subtitle_key": "subtitles.block.dried_ghast.ambient"
+            },
+            {
+                "field": "hO",
+                "id": 456,
+                "name": "block.dried_ghast.ambient",
+                "sounds": [
+                    {
+                        "hash": "3a680ea198f693729ec0ee9c02ae42895b409f31",
+                        "name": "block/dried_ghast/ambient1"
+                    },
+                    {
+                        "hash": "141f9c100642e5ac12c19a57aee7d549dd8f8090",
+                        "name": "block/dried_ghast/ambient2"
+                    }
+                ],
+                "subtitle": "Sounds of dryness",
+                "subtitle_key": "subtitles.block.dried_ghast.ambient"
+            }
+        ],
+        "entity.puffer_fish.ambient": [
+            {
+                "field": "vZ",
+                "id": 1194,
+                "name": "entity.puffer_fish.ambient"
+            },
+            null
+        ],
+        "item.shears.snip": [
+            null,
+            {
+                "field": "xN",
+                "id": 1286,
+                "name": "item.shears.snip",
+                "sounds": [
+                    {
+                        "hash": "1349548ded32689a6405b4f3bec19bba6da42d83",
+                        "name": "mob/sheep/shear"
+                    }
+                ],
+                "subtitle": "Shears snip",
+                "subtitle_key": "subtitles.item.shears.snip"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4422,
+            4423
+        ],
+        "id": [
+            "25w15a",
+            "25w16a"
+        ],
+        "name": [
+            "25w15a",
+            "25w16a"
+        ],
+        "protocol": [
+            1073742069,
+            1073742070
+        ]
+    }
+}
