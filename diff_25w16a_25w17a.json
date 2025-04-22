@@ -1,0 +1,243 @@
+{
+    "achievements": {},
+    "language": {
+        "commands": {
+            "waypoint.modify.fade": [
+                "Waypoint fade changed",
+                null
+            ],
+            "waypoint.modify.style": [
+                null,
+                "Waypoint style changed"
+            ]
+        },
+        "gamerule": {
+            "locatorBar": [
+                null,
+                "Enable player Locator Bar"
+            ],
+            "locatorBar.description": [
+                null,
+                "When enabled, a bar is shown on the screen to indicate the direction of players."
+            ],
+            "useLocatorBar": [
+                "Use player Locator Bar",
+                null
+            ],
+            "useLocatorBar.description": [
+                "When enabled, a bar is shown on the screen to indicate the direction of players.",
+                null
+            ]
+        },
+        "mco": {
+            "configure.world.buttons.close": [
+                "Close Realm",
+                "Temporarily Close Realm"
+            ],
+            "configure.world.buttons.newworld": [
+                null,
+                "New World"
+            ],
+            "configure.world.buttons.open": [
+                "Open Realm",
+                "Reopen Realm"
+            ],
+            "configure.world.buttons.region_preference": [
+                null,
+                "Select Region..."
+            ],
+            "configure.world.buttons.save": [
+                null,
+                "Save"
+            ],
+            "configure.world.close.question.line1": [
+                "Your Realm will become unavailable.",
+                "You can temporarily close your Realm, preventing play while you make adjustments. Open it back up when you're ready. \n\nThis does not cancel your Realms Subscription."
+            ],
+            "configure.world.close.question.title": [
+                null,
+                "Need to make changes without disruption?"
+            ],
+            "configure.world.closing": [
+                "Closing the Realm...",
+                "Temporarily closing the Realm..."
+            ],
+            "configure.world.region_preference": [
+                null,
+                "Region Preference"
+            ],
+            "configure.world.region_preference.title": [
+                null,
+                "Region Selection"
+            ],
+            "configure.world.subscription.tab": [
+                null,
+                "Subscription"
+            ],
+            "errorMessage.realmsService.configurationError": [
+                null,
+                "Editing unexpected non-active realms slot"
+            ],
+            "selectServer.closed": [
+                "Closed Realm",
+                "Deactivated Realm"
+            ]
+        },
+        "options": {
+            "renderCloudsDistance": [
+                null,
+                "Cloud Distance"
+            ]
+        },
+        "realms": {
+            "configuration.region.australia_east": [
+                null,
+                "New South Wales, Australia"
+            ],
+            "configuration.region.australia_southeast": [
+                null,
+                "Victoria, Australia"
+            ],
+            "configuration.region.brazil_south": [
+                null,
+                "Brazil"
+            ],
+            "configuration.region.central_india": [
+                null,
+                "India"
+            ],
+            "configuration.region.central_us": [
+                null,
+                "Iowa, USA"
+            ],
+            "configuration.region.east_asia": [
+                null,
+                "Hong Kong"
+            ],
+            "configuration.region.east_us": [
+                null,
+                "Virginia, USA"
+            ],
+            "configuration.region.east_us_2": [
+                null,
+                "North Carolina, USA"
+            ],
+            "configuration.region.france_central": [
+                null,
+                "France"
+            ],
+            "configuration.region.japan_east": [
+                null,
+                "Eastern Japan"
+            ],
+            "configuration.region.japan_west": [
+                null,
+                "Western Japan"
+            ],
+            "configuration.region.korea_central": [
+                null,
+                "South Korea"
+            ],
+            "configuration.region.north_central_us": [
+                null,
+                "Illinois, USA"
+            ],
+            "configuration.region.north_europe": [
+                null,
+                "Ireland"
+            ],
+            "configuration.region.south_central_us": [
+                null,
+                "Texas, USA"
+            ],
+            "configuration.region.southeast_asia": [
+                null,
+                "Singapore"
+            ],
+            "configuration.region.sweden_central": [
+                null,
+                "Sweden"
+            ],
+            "configuration.region.uae_north": [
+                null,
+                "United Arab Emirates (UAE)"
+            ],
+            "configuration.region.uk_south": [
+                null,
+                "Southern England"
+            ],
+            "configuration.region.west_central_us": [
+                null,
+                "Utah, USA"
+            ],
+            "configuration.region.west_europe": [
+                null,
+                "Netherlands"
+            ],
+            "configuration.region.west_us": [
+                null,
+                "California, USA"
+            ],
+            "configuration.region.west_us_2": [
+                null,
+                "Washington, USA"
+            ],
+            "configuration.region_preference.automatic_owner": [
+                null,
+                "Automatic (Realm owner ping)"
+            ],
+            "configuration.region_preference.automatic_player": [
+                null,
+                "Automatic (first to join session)"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "block/happy_ghast_avoids": [
+            null,
+            {
+                "name": "happy_ghast_avoids",
+                "type": "block",
+                "values": [
+                    "minecraft:sweet_berry_bush",
+                    "minecraft:cactus",
+                    "minecraft:wither_rose",
+                    "minecraft:magma_block",
+                    "minecraft:fire",
+                    "minecraft:pointed_dripstone"
+                ]
+            }
+        ],
+        "block/triggers_ambient_dried_ghast_block_sounds": [
+            null,
+            {
+                "name": "triggers_ambient_dried_ghast_block_sounds",
+                "type": "block",
+                "values": [
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4423,
+            4425
+        ],
+        "id": [
+            "25w16a",
+            "25w17a"
+        ],
+        "name": [
+            "25w16a",
+            "25w17a"
+        ],
+        "protocol": [
+            1073742070,
+            1073742071
+        ]
+    }
+}
