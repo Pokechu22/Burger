@@ -1,0 +1,576 @@
+{
+    "achievements": {},
+    "language": {
+        "argument": {
+            "resource_or_id.no_such_element": [
+                null,
+                "Can't find element '%s' in registry '%s'"
+            ]
+        },
+        "book": {
+            "edit.title": [
+                null,
+                "Book Edit Screen"
+            ],
+            "page_button.next": [
+                null,
+                "Next Page"
+            ],
+            "page_button.previous": [
+                null,
+                "Previous Page"
+            ],
+            "sign.title": [
+                null,
+                "Book Sign Screen"
+            ],
+            "sign.titlebox": [
+                null,
+                "Title"
+            ],
+            "view.title": [
+                null,
+                "Book View Screen"
+            ]
+        },
+        "mco": {
+            "configure.world.region_preference.title": [
+                "Region Selection",
+                "Region Preference Selection"
+            ],
+            "configure.world.settings.expired": [
+                null,
+                "You cannot edit settings of an expired Realm"
+            ],
+            "errorMessage.realmsService.configurationError": [
+                "Editing unexpected non-active realms slot",
+                "An unexpected error occurred while editing world options"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "block/azalea_grows_on": [
+            {
+                "name": "azalea_grows_on",
+                "type": "block",
+                "values": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:snow_block",
+                    "minecraft:powder_snow"
+                ]
+            },
+            {
+                "name": "azalea_grows_on",
+                "type": "block",
+                "values": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:snow_block",
+                    "minecraft:powder_snow"
+                ]
+            }
+        ],
+        "block/bamboo_plantable_on": [
+            {
+                "name": "bamboo_plantable_on",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:bamboo",
+                    "minecraft:bamboo_sapling",
+                    "minecraft:gravel",
+                    "minecraft:suspicious_gravel"
+                ]
+            },
+            {
+                "name": "bamboo_plantable_on",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:bamboo",
+                    "minecraft:bamboo_sapling",
+                    "minecraft:gravel",
+                    "minecraft:suspicious_gravel"
+                ]
+            }
+        ],
+        "block/camel_sand_step_sound_blocks": [
+            {
+                "name": "camel_sand_step_sound_blocks",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:white_concrete_powder",
+                    "minecraft:orange_concrete_powder",
+                    "minecraft:magenta_concrete_powder",
+                    "minecraft:light_blue_concrete_powder",
+                    "minecraft:yellow_concrete_powder",
+                    "minecraft:lime_concrete_powder",
+                    "minecraft:pink_concrete_powder",
+                    "minecraft:gray_concrete_powder",
+                    "minecraft:light_gray_concrete_powder",
+                    "minecraft:cyan_concrete_powder",
+                    "minecraft:purple_concrete_powder",
+                    "minecraft:blue_concrete_powder",
+                    "minecraft:brown_concrete_powder",
+                    "minecraft:green_concrete_powder",
+                    "minecraft:red_concrete_powder",
+                    "minecraft:black_concrete_powder"
+                ]
+            },
+            {
+                "name": "camel_sand_step_sound_blocks",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:white_concrete_powder",
+                    "minecraft:orange_concrete_powder",
+                    "minecraft:magenta_concrete_powder",
+                    "minecraft:light_blue_concrete_powder",
+                    "minecraft:yellow_concrete_powder",
+                    "minecraft:lime_concrete_powder",
+                    "minecraft:pink_concrete_powder",
+                    "minecraft:gray_concrete_powder",
+                    "minecraft:light_gray_concrete_powder",
+                    "minecraft:cyan_concrete_powder",
+                    "minecraft:purple_concrete_powder",
+                    "minecraft:blue_concrete_powder",
+                    "minecraft:brown_concrete_powder",
+                    "minecraft:green_concrete_powder",
+                    "minecraft:red_concrete_powder",
+                    "minecraft:black_concrete_powder"
+                ]
+            }
+        ],
+        "block/camels_spawnable_on": [
+            {
+                "name": "camels_spawnable_on",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:suspicious_sand"
+                ]
+            },
+            {
+                "name": "camels_spawnable_on",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand"
+                ]
+            }
+        ],
+        "block/dry_vegetation_may_place_on": [
+            {
+                "name": "dry_vegetation_may_place_on",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland"
+                ]
+            },
+            {
+                "name": "dry_vegetation_may_place_on",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland"
+                ]
+            }
+        ],
+        "block/overworld_carver_replaceables": [
+            {
+                "name": "overworld_carver_replaceables",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:iron_ore",
+                    "minecraft:deepslate_iron_ore",
+                    "minecraft:copper_ore",
+                    "minecraft:deepslate_copper_ore",
+                    "minecraft:snow",
+                    "minecraft:snow_block",
+                    "minecraft:powder_snow",
+                    "minecraft:water",
+                    "minecraft:gravel",
+                    "minecraft:suspicious_gravel",
+                    "minecraft:sandstone",
+                    "minecraft:red_sandstone",
+                    "minecraft:calcite",
+                    "minecraft:packed_ice",
+                    "minecraft:raw_iron_block",
+                    "minecraft:raw_copper_block"
+                ]
+            },
+            {
+                "name": "overworld_carver_replaceables",
+                "type": "block",
+                "values": [
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:andesite",
+                    "minecraft:tuff",
+                    "minecraft:deepslate",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:iron_ore",
+                    "minecraft:deepslate_iron_ore",
+                    "minecraft:copper_ore",
+                    "minecraft:deepslate_copper_ore",
+                    "minecraft:snow",
+                    "minecraft:snow_block",
+                    "minecraft:powder_snow",
+                    "minecraft:water",
+                    "minecraft:gravel",
+                    "minecraft:suspicious_gravel",
+                    "minecraft:sandstone",
+                    "minecraft:red_sandstone",
+                    "minecraft:calcite",
+                    "minecraft:packed_ice",
+                    "minecraft:raw_iron_block",
+                    "minecraft:raw_copper_block"
+                ]
+            }
+        ],
+        "block/sand": [
+            {
+                "name": "sand",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:suspicious_sand"
+                ]
+            },
+            {
+                "name": "sand",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand"
+                ]
+            }
+        ],
+        "entity_type/followable_friendly_mobs": [
+            {
+                "name": "followable_friendly_mobs",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:armadillo",
+                    "minecraft:bee",
+                    "minecraft:camel",
+                    "minecraft:cat",
+                    "minecraft:chicken",
+                    "minecraft:cow",
+                    "minecraft:donkey",
+                    "minecraft:fox",
+                    "minecraft:goat",
+                    "minecraft:horse",
+                    "minecraft:skeleton_horse",
+                    "minecraft:llama",
+                    "minecraft:mule",
+                    "minecraft:ocelot",
+                    "minecraft:panda",
+                    "minecraft:parrot",
+                    "minecraft:pig",
+                    "minecraft:polar_bear",
+                    "minecraft:rabbit",
+                    "minecraft:sheep",
+                    "minecraft:sniffer",
+                    "minecraft:strider",
+                    "minecraft:villager",
+                    "minecraft:wolf"
+                ]
+            },
+            {
+                "name": "followable_friendly_mobs",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:armadillo",
+                    "minecraft:bee",
+                    "minecraft:camel",
+                    "minecraft:cat",
+                    "minecraft:chicken",
+                    "minecraft:cow",
+                    "minecraft:donkey",
+                    "minecraft:fox",
+                    "minecraft:goat",
+                    "minecraft:happy_ghast",
+                    "minecraft:horse",
+                    "minecraft:skeleton_horse",
+                    "minecraft:llama",
+                    "minecraft:mule",
+                    "minecraft:ocelot",
+                    "minecraft:panda",
+                    "minecraft:parrot",
+                    "minecraft:pig",
+                    "minecraft:polar_bear",
+                    "minecraft:rabbit",
+                    "minecraft:sheep",
+                    "minecraft:sniffer",
+                    "minecraft:strider",
+                    "minecraft:villager",
+                    "minecraft:wolf"
+                ]
+            }
+        ],
+        "item/sand": [
+            {
+                "name": "sand",
+                "type": "item",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:suspicious_sand"
+                ]
+            },
+            {
+                "name": "sand",
+                "type": "item",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4425,
+            4426
+        ],
+        "id": [
+            "25w17a",
+            "25w18a"
+        ],
+        "name": [
+            "25w17a",
+            "25w18a"
+        ],
+        "protocol": [
+            1073742071,
+            1073742072
+        ]
+    }
+}
