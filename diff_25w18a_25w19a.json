@@ -1,0 +1,34 @@
+{
+    "achievements": {},
+    "language": {},
+    "sounds": {
+        "block.dried_ghast.hit": [
+            {
+                "field": "hN",
+                "id": 455,
+                "name": "block.dried_ghast.hit"
+            },
+            null
+        ]
+    },
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4426,
+            4427
+        ],
+        "id": [
+            "25w18a",
+            "25w19a"
+        ],
+        "name": [
+            "25w18a",
+            "25w19a"
+        ],
+        "protocol": [
+            1073742072,
+            1073742073
+        ]
+    }
+}
