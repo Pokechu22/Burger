@@ -1,0 +1,245 @@
+{
+    "achievements": {},
+    "language": {
+        "commands": {
+            "dialog.clear.multiple": [
+                null,
+                "Cleared dialog for %s players"
+            ],
+            "dialog.clear.single": [
+                null,
+                "Cleared dialog for %s"
+            ],
+            "dialog.show.multiple": [
+                null,
+                "Displayed dialog to %s players"
+            ],
+            "dialog.show.single": [
+                null,
+                "Displayed dialog to %s"
+            ]
+        },
+        "item": {
+            "minecraft.music_disc_tears": [
+                null,
+                "Music Disc"
+            ],
+            "minecraft.music_disc_tears.desc": [
+                null,
+                "Amos Roddy - Tears"
+            ]
+        },
+        "jukebox_song": {
+            "minecraft.tears": [
+                null,
+                "Amos Roddy - Tears"
+            ]
+        },
+        "mco": {
+            "connect.region": [
+                null,
+                "Server region: %s"
+            ]
+        },
+        "menu": {
+            "custom_options": [
+                null,
+                "Custom Options..."
+            ],
+            "custom_options.title": [
+                null,
+                "Custom Options"
+            ],
+            "custom_options.tooltip": [
+                null,
+                "Note: Custom options are provided by third-party servers and/or content.\nHandle with care!"
+            ],
+            "custom_screen_info.button_narration": [
+                null,
+                "This is a custom screen. Learn more."
+            ],
+            "custom_screen_info.contents": [
+                null,
+                "The contents of this screen are controlled by third-party servers and maps that are not owned, operated, or supervised by Mojang Studios or Microsoft.\n\nHandle with care! Always be careful when following links and never give away your pesonal information, including login details.\n\nIf this screen prevents you from playing, you can also disconnect from server by using button below."
+            ],
+            "custom_screen_info.disconnect": [
+                null,
+                "Custom screen rejected"
+            ],
+            "custom_screen_info.title": [
+                null,
+                "Note about custom screens"
+            ],
+            "custom_screen_info.tooltip": [
+                null,
+                "This is a custom screen. Click here to learn more."
+            ]
+        },
+        "multiplayer": {
+            "confirm_command.parse_errors": [
+                null,
+                "You are trying to execute an unrecognized or invalid command.\nAre you sure?\nCommand: %s"
+            ],
+            "confirm_command.permissions_required": [
+                null,
+                "You are trying to execute a command that requires elevated permissions.\nThis might negatively affect your game.\nAre you sure?\nCommand: %s"
+            ],
+            "confirm_command.title": [
+                null,
+                "Confirm Command Execution"
+            ]
+        },
+        "music": [
+            null,
+            {
+                "game.a_familiar_room": "Aaron Cherof - A Familiar Room",
+                "game.an_ordinary_day": "Kumi Tanioka - An Ordinary Day",
+                "game.ancestry": "Lena Raine - Ancestry",
+                "game.below_and_above": "Amos Roddy - Below and Above",
+                "game.broken_clocks": "Amos Roddy - Broken Clocks",
+                "game.bromeliad": "Aaron Cherof - Bromeliad",
+                "game.clark": "C418 - Clark",
+                "game.comforting_memories": "Kumi Tanioka - Comforting Memories",
+                "game.creative.aria_math": "C418 - Aria Math",
+                "game.creative.biome_fest": "C418 - Biome Fest",
+                "game.creative.blind_spots": "C418 - Blind Spots",
+                "game.creative.dreiton": "C418 - Dreiton",
+                "game.creative.haunt_muskie": "C418 - Haunt Muskie",
+                "game.creative.taswell": "C418 - Taswell",
+                "game.crescent_dunes": "Aaron Cherof - Crescent Dunes",
+                "game.danny": "C418 - Danny",
+                "game.deeper": "Lena Raine - Deeper",
+                "game.dry_hands": "C418 - Dry Hands",
+                "game.echo_in_the_wind": "Aaron Cherof - Echo in the Wind",
+                "game.eld_unknown": "Lena Raine - Eld Unknown",
+                "game.end.alpha": "C418 - Alpha",
+                "game.end.boss": "C418 - Boss",
+                "game.end.the_end": "C418 - The End",
+                "game.endless": "Lena Raine - Endless",
+                "game.featherfall": "Aaron Cherof - Featherfall",
+                "game.fireflies": "Amos Roddy - Fireflies",
+                "game.floating_dream": "Kumi Tanioka - Floating Dream",
+                "game.haggstrom": "C418 - Haggstrom",
+                "game.infinite_amethyst": "Lena Raine - Infinite Amethyst",
+                "game.key": "C418 - Key",
+                "game.komorebi": "Kumi Tanioka - komorebi",
+                "game.left_to_bloom": "Lena Raine - Left to Bloom",
+                "game.lilypad": "Amos Roddy - Lilypad",
+                "game.living_mice": "C418 - Living Mice",
+                "game.mice_on_venus": "C418 - Mice On Venus",
+                "game.minecraft": "C418 - Minecraft",
+                "game.nether.ballad_of_the_cats": "C418 - Ballad of the Cats",
+                "game.nether.concrete_halls": "C418 - Concrete Halls",
+                "game.nether.crimson_forest.chrysopoeia": "Lena Raine - Chrysopoeia",
+                "game.nether.dead_voxel": "C418 - Dead Voxel",
+                "game.nether.nether_wastes.rubedo": "Lena Raine - Rubedo",
+                "game.nether.soulsand_valley.so_below": "Lena Raine - So Below",
+                "game.nether.warmth": "C418 - Warmth",
+                "game.one_more_day": "Lena Raine - One More Day",
+                "game.os_piano": "Amos Roddy - O's Piano",
+                "game.oxygene": "C418 - Oxygene",
+                "game.pokopoko": "Kumi Tanioka - pokopoko",
+                "game.puzzlebox": "Aaron Cherof - Puzzlebox",
+                "game.stand_tall": "Lena Raine - Stand Tall",
+                "game.subwoofer_lullaby": "C418 - Subwoofer Lullaby",
+                "game.swamp.aerie": "Lena Raine - Aerie",
+                "game.swamp.firebugs": "Lena Raine - Firebugs",
+                "game.swamp.labyrinthine": "Lena Raine - Labryinthine",
+                "game.sweden": "C418 - Sweden",
+                "game.watcher": "Aaron Cherof - Watcher",
+                "game.water.axolotl": "C418 - Axolotl",
+                "game.water.dragon_fish": "C418 - Dragon Fish",
+                "game.water.shuniji": "C418 - Shuniji",
+                "game.wending": "Lena Raine - Wending",
+                "game.wet_hands": "C418 - Wet Hands",
+                "game.yakusoku": "Kumi Tanioka - yakusoku",
+                "menu.beginning_2": "C418 - Beginning 2",
+                "menu.floating_trees": "C418 - Floating Trees",
+                "menu.moog_city_2": "C418 - Moog City 2",
+                "menu.mutation": "C418 - Mutation"
+            }
+        ],
+        "narration": {
+            "item": [
+                null,
+                "Item: %s"
+            ]
+        },
+        "options": {
+            "music_frequency": [
+                null,
+                "Music Frequency"
+            ],
+            "music_frequency.constant": [
+                null,
+                "Constant"
+            ],
+            "music_frequency.default": [
+                null,
+                "Default"
+            ],
+            "music_frequency.frequent": [
+                null,
+                "Frequent"
+            ],
+            "music_frequency.tooltip": [
+                null,
+                "Changes how frequently music plays while in a game world."
+            ],
+            "showNowPlayingToast": [
+                null,
+                "Show Music Toast"
+            ],
+            "showNowPlayingToast.tooltip": [
+                null,
+                "Displays a toast whenever a song starts playing. The same toast is constantly displayed in the in-game pause menu while a song is playing."
+            ]
+        }
+    },
+    "sounds": {
+        "music_disc.tears": [
+            null,
+            {
+                "field": "rg",
+                "id": 941,
+                "name": "music_disc.tears",
+                "sounds": [
+                    {
+                        "hash": "fcfacc37f008476785db7bd0b95d1e00836697c0",
+                        "name": "records/tears",
+                        "stream": true
+                    }
+                ]
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "dialog/pause_screen_additions": [
+            null,
+            {
+                "name": "pause_screen_additions",
+                "type": "dialog",
+                "values": []
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4427,
+            4428
+        ],
+        "id": [
+            "25w19a",
+            "25w20a"
+        ],
+        "name": [
+            "25w19a",
+            "25w20a"
+        ],
+        "protocol": [
+            1073742073,
+            1073742074
+        ]
+    }
+}
