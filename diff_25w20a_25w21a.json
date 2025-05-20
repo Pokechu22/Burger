@@ -1,0 +1,273 @@
+{
+    "achievements": {},
+    "language": {
+        "mco": {
+            "configure.world.loading": [
+                null,
+                "Loading Realm"
+            ],
+            "play.button.realm.closed": [
+                null,
+                "Realm is closed"
+            ]
+        },
+        "menu": {
+            "custom_screen_info.contents": [
+                "The contents of this screen are controlled by third-party servers and maps that are not owned, operated, or supervised by Mojang Studios or Microsoft.\n\nHandle with care! Always be careful when following links and never give away your pesonal information, including login details.\n\nIf this screen prevents you from playing, you can also disconnect from server by using button below.",
+                "The contents of this screen are controlled by third-party servers and maps that are not owned, operated, or supervised by Mojang Studios or Microsoft.\n\nHandle with care! Always be careful when following links and never give away your personal information, including login details.\n\nIf this screen prevents you from playing, you can also disconnect from the current server by using the button below."
+            ]
+        },
+        "music": {
+            "game.mice_on_venus": [
+                "C418 - Mice On Venus",
+                "C418 - Mice on Venus"
+            ],
+            "game.oxygene": [
+                "C418 - Oxygene",
+                "C418 - Oxyg\u00e8ne"
+            ],
+            "game.swamp.labyrinthine": [
+                "Lena Raine - Labryinthine",
+                "Lena Raine - Labyrinthine"
+            ]
+        },
+        "subtitles": {
+            "item.horse_armor.unequip": [
+                null,
+                "Horse Armor snips away"
+            ],
+            "item.lead.break": [
+                null,
+                "Lead snaps"
+            ],
+            "item.lead.tied": [
+                null,
+                "Lead tied"
+            ],
+            "item.lead.untied": [
+                null,
+                "Lead untied"
+            ],
+            "item.llama_carpet.unequip": [
+                null,
+                "Carpet snips away"
+            ],
+            "item.saddle.unequip": [
+                null,
+                "Saddle snips away"
+            ]
+        }
+    },
+    "sounds": {
+        "entity.leash_knot.break": [
+            {
+                "field": "oZ",
+                "id": 830,
+                "name": "entity.leash_knot.break",
+                "sounds": [
+                    {
+                        "hash": "8e26f68ea998ee0f2c11aa0056a3b8081cd3de00",
+                        "name": "entity/leashknot/break1"
+                    },
+                    {
+                        "hash": "d1175044e61b37e7194acb5348ba677cfc6636f1",
+                        "name": "entity/leashknot/break2"
+                    },
+                    {
+                        "hash": "b3554ecb8fb40eafb383a2d2697b4825ec5d4011",
+                        "name": "entity/leashknot/break3"
+                    }
+                ],
+                "subtitle": "Leash Knot broken",
+                "subtitle_key": "subtitles.entity.leash_knot.break"
+            },
+            null
+        ],
+        "entity.leash_knot.place": [
+            {
+                "field": "pa",
+                "id": 831,
+                "name": "entity.leash_knot.place",
+                "sounds": [
+                    {
+                        "hash": "5a913c4565451734126b5955efe6b998fa8b27f9",
+                        "name": "entity/leashknot/place1"
+                    },
+                    {
+                        "hash": "fe92c23b1a1aaaf4915b104528b3f1ed7b27a457",
+                        "name": "entity/leashknot/place2"
+                    },
+                    {
+                        "hash": "3e477928d725e6f9cbe3240c425f9027d5372542",
+                        "name": "entity/leashknot/place3"
+                    }
+                ],
+                "subtitle": "Leash Knot tied",
+                "subtitle_key": "subtitles.entity.leash_knot.place"
+            },
+            null
+        ],
+        "item.horse_armor.unequip": [
+            null,
+            {
+                "field": "nG",
+                "id": 759,
+                "name": "item.horse_armor.unequip",
+                "sounds": [
+                    {
+                        "hash": "a167579977833d52d3bf9900bcdebef0a02d550a",
+                        "name": "mob/horse/armor_unequip"
+                    }
+                ],
+                "subtitle": "Horse Armor snips away",
+                "subtitle_key": "subtitles.item.horse_armor.unequip"
+            }
+        ],
+        "item.lead.break": [
+            null,
+            {
+                "field": "pc",
+                "id": 833,
+                "name": "item.lead.break",
+                "sounds": [
+                    {
+                        "hash": "098fce2f950a3780970359869e709131e88ccf84",
+                        "name": "entity/leashknot/break"
+                    }
+                ],
+                "subtitle": "Lead snaps",
+                "subtitle_key": "subtitles.item.lead.break"
+            }
+        ],
+        "item.lead.tied": [
+            null,
+            {
+                "field": "pb",
+                "id": 832,
+                "name": "item.lead.tied",
+                "sounds": [
+                    {
+                        "hash": "d3471594990759e65b92d9d325c839cf1599598f",
+                        "name": "entity/leashknot/leash1"
+                    },
+                    {
+                        "hash": "3cf0610c73617c572dc079fd3d42759fae11546f",
+                        "name": "entity/leashknot/leash2"
+                    },
+                    {
+                        "hash": "1d0f4d6fcd3329385e035f810e66da970cd35ef3",
+                        "name": "entity/leashknot/leash3"
+                    }
+                ],
+                "subtitle": "Lead tied",
+                "subtitle_key": "subtitles.item.lead.tied"
+            }
+        ],
+        "item.lead.untied": [
+            null,
+            {
+                "field": "pa",
+                "id": 831,
+                "name": "item.lead.untied",
+                "sounds": [
+                    {
+                        "hash": "8021a5503ec3e492aac6fc5da859091cf905d4cd",
+                        "name": "entity/leashknot/unleash1"
+                    },
+                    {
+                        "hash": "3e1c63a265eb5d14c4b76e342455370cd4b428a3",
+                        "name": "entity/leashknot/unleash2"
+                    },
+                    {
+                        "hash": "40791b42d490bbf7aba949dbccdc29cf2389922b",
+                        "name": "entity/leashknot/unleash3"
+                    }
+                ],
+                "subtitle": "Lead untied",
+                "subtitle_key": "subtitles.item.lead.untied"
+            }
+        ],
+        "item.llama_carpet.unequip": [
+            null,
+            {
+                "field": "pq",
+                "id": 847,
+                "name": "item.llama_carpet.unequip",
+                "sounds": [
+                    {
+                        "hash": "23716152f0c5e204387e8238d0d5dd64b3a23911",
+                        "name": "mob/llama/unequip"
+                    }
+                ],
+                "subtitle": "Carpet snips away",
+                "subtitle_key": "subtitles.item.llama_carpet.unequip"
+            }
+        ],
+        "item.saddle.unequip": [
+            null,
+            {
+                "field": "Fp",
+                "id": 1678,
+                "name": "item.saddle.unequip",
+                "sounds": [
+                    {
+                        "hash": "d63066b84e728777aa5cddb085e04d7d963404f2",
+                        "name": "mob/horse/saddle_unequip"
+                    }
+                ],
+                "subtitle": "Saddle snips away",
+                "subtitle_key": "subtitles.item.saddle.unequip"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "item/horse_food": [
+            {
+                "name": "horse_food",
+                "type": "item",
+                "values": [
+                    "minecraft:wheat",
+                    "minecraft:sugar",
+                    "minecraft:hay_block",
+                    "minecraft:apple",
+                    "minecraft:golden_carrot",
+                    "minecraft:golden_apple",
+                    "minecraft:enchanted_golden_apple"
+                ]
+            },
+            {
+                "name": "horse_food",
+                "type": "item",
+                "values": [
+                    "minecraft:wheat",
+                    "minecraft:sugar",
+                    "minecraft:hay_block",
+                    "minecraft:apple",
+                    "minecraft:carrot",
+                    "minecraft:golden_carrot",
+                    "minecraft:golden_apple",
+                    "minecraft:enchanted_golden_apple"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4428,
+            4429
+        ],
+        "id": [
+            "25w20a",
+            "25w21a"
+        ],
+        "name": [
+            "25w20a",
+            "25w21a"
+        ],
+        "protocol": [
+            1073742074,
+            1073742075
+        ]
+    }
+}
