@@ -1,0 +1,67 @@
+{
+    "achievements": {},
+    "language": {
+        "commands": {
+            "datapack.create.invalid_full_name": [
+                null,
+                "Invalid new pack name '%s'"
+            ]
+        },
+        "gui": {
+            "waitingForResponse.button.inactive": [
+                null,
+                "Back (%ss)"
+            ],
+            "waitingForResponse.title": [
+                null,
+                "Waiting for Server"
+            ]
+        },
+        "key": {
+            "quickActions": [
+                null,
+                "Quick Actions"
+            ]
+        },
+        "menu": {
+            "quick_actions": [
+                null,
+                "Quick Actions..."
+            ],
+            "quick_actions.title": [
+                null,
+                "Quick Actions"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "dialog/quick_actions": [
+            null,
+            {
+                "name": "quick_actions",
+                "type": "dialog",
+                "values": []
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4429,
+            4430
+        ],
+        "id": [
+            "25w21a",
+            "1.21.6-pre1"
+        ],
+        "name": [
+            "25w21a",
+            "1.21.6 Pre-Release 1"
+        ],
+        "protocol": [
+            1073742075,
+            1073742076
+        ]
+    }
+}
