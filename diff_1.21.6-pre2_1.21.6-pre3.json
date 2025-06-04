@@ -1,0 +1,32 @@
+{
+    "achievements": {},
+    "language": {
+        "soundCategory": {
+            "ui": [
+                null,
+                "UI"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4431,
+            4432
+        ],
+        "id": [
+            "1.21.6-pre2",
+            "1.21.6-pre3"
+        ],
+        "name": [
+            "1.21.6 Pre-Release 2",
+            "1.21.6 Pre-Release 3"
+        ],
+        "protocol": [
+            1073742077,
+            1073742078
+        ]
+    }
+}
