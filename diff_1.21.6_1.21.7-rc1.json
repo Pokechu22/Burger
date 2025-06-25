@@ -1,0 +1,176 @@
+{
+    "achievements": {},
+    "language": {
+        "item": {
+            "minecraft.music_disc_lava_chicken": [
+                null,
+                "Music Disc"
+            ],
+            "minecraft.music_disc_lava_chicken.desc": [
+                null,
+                "Hyper Potions - Lava Chicken"
+            ]
+        },
+        "jukebox_song": {
+            "minecraft.lava_chicken": [
+                null,
+                "Hyper Potions - Lava Chicken"
+            ]
+        },
+        "painting": {
+            "minecraft.dennis.author": [
+                null,
+                "Sarah Boeving"
+            ],
+            "minecraft.dennis.title": [
+                null,
+                "Dennis"
+            ]
+        }
+    },
+    "sounds": {
+        "music_disc.lava_chicken": [
+            null,
+            {
+                "field": "qX",
+                "id": 932,
+                "name": "music_disc.lava_chicken",
+                "sounds": [
+                    {
+                        "hash": "3fad13f1e9f4fa6eedcab98ca691c6c112087b07",
+                        "name": "records/lava_chicken",
+                        "stream": true
+                    }
+                ]
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "painting_variant/placeable": [
+            {
+                "name": "placeable",
+                "type": "painting_variant",
+                "values": [
+                    "minecraft:kebab",
+                    "minecraft:aztec",
+                    "minecraft:alban",
+                    "minecraft:aztec2",
+                    "minecraft:bomb",
+                    "minecraft:plant",
+                    "minecraft:wasteland",
+                    "minecraft:pool",
+                    "minecraft:courbet",
+                    "minecraft:sea",
+                    "minecraft:sunset",
+                    "minecraft:creebet",
+                    "minecraft:wanderer",
+                    "minecraft:graham",
+                    "minecraft:match",
+                    "minecraft:bust",
+                    "minecraft:stage",
+                    "minecraft:void",
+                    "minecraft:skull_and_roses",
+                    "minecraft:wither",
+                    "minecraft:fighters",
+                    "minecraft:pointer",
+                    "minecraft:pigscene",
+                    "minecraft:burning_skull",
+                    "minecraft:skeleton",
+                    "minecraft:donkey_kong",
+                    "minecraft:baroque",
+                    "minecraft:humble",
+                    "minecraft:meditative",
+                    "minecraft:prairie_ride",
+                    "minecraft:unpacked",
+                    "minecraft:backyard",
+                    "minecraft:bouquet",
+                    "minecraft:cavebird",
+                    "minecraft:changing",
+                    "minecraft:cotan",
+                    "minecraft:endboss",
+                    "minecraft:fern",
+                    "minecraft:finding",
+                    "minecraft:lowmist",
+                    "minecraft:orb",
+                    "minecraft:owlemons",
+                    "minecraft:passage",
+                    "minecraft:pond",
+                    "minecraft:sunflowers",
+                    "minecraft:tides"
+                ]
+            },
+            {
+                "name": "placeable",
+                "type": "painting_variant",
+                "values": [
+                    "minecraft:kebab",
+                    "minecraft:aztec",
+                    "minecraft:alban",
+                    "minecraft:aztec2",
+                    "minecraft:bomb",
+                    "minecraft:plant",
+                    "minecraft:wasteland",
+                    "minecraft:pool",
+                    "minecraft:courbet",
+                    "minecraft:sea",
+                    "minecraft:sunset",
+                    "minecraft:creebet",
+                    "minecraft:wanderer",
+                    "minecraft:graham",
+                    "minecraft:match",
+                    "minecraft:bust",
+                    "minecraft:stage",
+                    "minecraft:void",
+                    "minecraft:skull_and_roses",
+                    "minecraft:wither",
+                    "minecraft:fighters",
+                    "minecraft:pointer",
+                    "minecraft:pigscene",
+                    "minecraft:burning_skull",
+                    "minecraft:skeleton",
+                    "minecraft:donkey_kong",
+                    "minecraft:baroque",
+                    "minecraft:humble",
+                    "minecraft:meditative",
+                    "minecraft:prairie_ride",
+                    "minecraft:unpacked",
+                    "minecraft:backyard",
+                    "minecraft:bouquet",
+                    "minecraft:cavebird",
+                    "minecraft:changing",
+                    "minecraft:cotan",
+                    "minecraft:endboss",
+                    "minecraft:fern",
+                    "minecraft:finding",
+                    "minecraft:lowmist",
+                    "minecraft:orb",
+                    "minecraft:owlemons",
+                    "minecraft:passage",
+                    "minecraft:pond",
+                    "minecraft:sunflowers",
+                    "minecraft:tides",
+                    "minecraft:dennis"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4435,
+            4436
+        ],
+        "id": [
+            "1.21.6",
+            "1.21.7-rc1"
+        ],
+        "name": [
+            "1.21.6",
+            "1.21.7 Release Candidate 1"
+        ],
+        "protocol": [
+            771,
+            1073742081
+        ]
+    }
+}
