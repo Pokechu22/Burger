@@ -1,0 +1,25 @@
+{
+    "achievements": {},
+    "language": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4436,
+            4437
+        ],
+        "id": [
+            "1.21.7-rc1",
+            "1.21.7-rc2"
+        ],
+        "name": [
+            "1.21.7 Release Candidate 1",
+            "1.21.7 Release Candidate 2"
+        ],
+        "protocol": [
+            1073742081,
+            1073742082
+        ]
+    }
+}
