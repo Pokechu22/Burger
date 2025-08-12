@@ -1,0 +1,195 @@
+{
+    "achievements": {},
+    "language": {
+        "block": {
+            "minecraft.copper_wall_torch": [
+                null,
+                "Copper Wall Torch"
+            ]
+        },
+        "multiplayer": {
+            "confirm_command.run_command": [
+                null,
+                "Run Command"
+            ],
+            "confirm_command.signature_required": [
+                null,
+                "You are trying to execute a command that will send chat messages using your name.\nIt can only be run from the chat screen\nCommand: %s"
+            ],
+            "confirm_command.suggest_command": [
+                null,
+                "Copy to Chat Screen"
+            ]
+        },
+        "options": {
+            "chat.drafts": [
+                null,
+                "Save Unsent Chats"
+            ],
+            "chat.drafts.tooltip": [
+                null,
+                "Unsent messages will be saved and can be sent the next time chat is opened."
+            ]
+        },
+        "subtitles": {
+            "weather.end_flash": [
+                null,
+                "End Flash rumbles"
+            ]
+        }
+    },
+    "sounds": {
+        "entity.copper_golem.shear": [
+            null,
+            {
+                "field": "gx",
+                "id": 387,
+                "name": "entity.copper_golem.shear"
+            }
+        ],
+        "weather.end_flash": [
+            null,
+            {
+                "field": "Ev",
+                "id": 1632,
+                "name": "weather.end_flash",
+                "sounds": [
+                    {
+                        "hash": "1b4847389100f64149b531a358b95f8132a2fb2f",
+                        "name": "ambient/weather/end_flash1"
+                    },
+                    {
+                        "hash": "1dc9d6f2474ffcca204c451fd3514cd704b40848",
+                        "name": "ambient/weather/end_flash2"
+                    },
+                    {
+                        "hash": "9de1f0fc74d5e130fd03a88110c3d9dd6c217837",
+                        "name": "ambient/weather/end_flash3"
+                    },
+                    {
+                        "hash": "86fc2655778bf3b6c87875549f1ab297915cfc2f",
+                        "name": "ambient/weather/end_flash4"
+                    },
+                    {
+                        "hash": "4bf3a22cfa2efb28e177b74e2860751cf03634a2",
+                        "name": "ambient/weather/end_flash5"
+                    },
+                    {
+                        "hash": "ecba9875e8e0447ff843b020db8eafb6015ebbd5",
+                        "name": "ambient/weather/end_flash6"
+                    },
+                    {
+                        "hash": "d74fbefebd613dac0e8bb267470a3e678b59692b",
+                        "name": "ambient/weather/end_flash7"
+                    },
+                    {
+                        "hash": "6d0c580f84cb9f51913acde5d4bf0a68a8d1a6e7",
+                        "name": "ambient/weather/end_flash8"
+                    }
+                ],
+                "subtitle": "End Flash rumbles",
+                "subtitle_key": "subtitles.weather.end_flash"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "entity_type/accepts_iron_golem_gift": [
+            null,
+            {
+                "name": "accepts_iron_golem_gift",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:copper_golem"
+                ]
+            }
+        ],
+        "entity_type/candidate_for_iron_golem_gift": [
+            null,
+            {
+                "name": "candidate_for_iron_golem_gift",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:villager",
+                    "minecraft:copper_golem"
+                ]
+            }
+        ],
+        "entity_type/cannot_be_pushed_onto_boats": [
+            null,
+            {
+                "name": "cannot_be_pushed_onto_boats",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:player",
+                    "minecraft:guardian",
+                    "minecraft:elder_guardian",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:tropical_fish",
+                    "minecraft:dolphin",
+                    "minecraft:squid",
+                    "minecraft:glow_squid",
+                    "minecraft:tadpole",
+                    "minecraft:creaking"
+                ]
+            }
+        ],
+        "item/cluster_max_harvestables": [
+            {
+                "name": "cluster_max_harvestables",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:netherite_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:wooden_pickaxe"
+                ]
+            },
+            {
+                "name": "cluster_max_harvestables",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:netherite_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:copper_pickaxe"
+                ]
+            }
+        ],
+        "item/shearable_from_copper_golem": [
+            null,
+            {
+                "name": "shearable_from_copper_golem",
+                "type": "item",
+                "values": [
+                    "minecraft:poppy"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4536,
+            4538
+        ],
+        "id": [
+            "25w32a",
+            "25w33a"
+        ],
+        "name": [
+            "25w32a",
+            "25w33a"
+        ],
+        "protocol": [
+            1073742085,
+            1073742086
+        ]
+    }
+}
