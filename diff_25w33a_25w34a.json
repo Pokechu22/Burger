@@ -1,0 +1,185 @@
+{
+    "achievements": {},
+    "language": {
+        "commands": {
+            "profile_fetch.copy_component": [
+                null,
+                "Copy Component"
+            ],
+            "profile_fetch.failed_to_serialize": [
+                null,
+                "Failed to serialize profile: %s"
+            ],
+            "profile_fetch.give_item": [
+                null,
+                "Give Item"
+            ],
+            "profile_fetch.id.failure": [
+                null,
+                "Failed to resolved profile for id %s"
+            ],
+            "profile_fetch.id.success": [
+                null,
+                "Resolved profile for id %s: %s"
+            ],
+            "profile_fetch.name.failure": [
+                null,
+                "Failed to resolve profile for name %s"
+            ],
+            "profile_fetch.name.success": [
+                null,
+                "Resolved profile for name %s: %s"
+            ],
+            "summon.failed.peaceful": [
+                "Monster cannot be summoned in Peaceful difficulty",
+                "Monsters cannot be summoned in Peaceful difficulty"
+            ]
+        },
+        "component": [
+            null,
+            {
+                "profile.dynamic": "Dynamic"
+            }
+        ],
+        "gui": {
+            "stats.none_found": [
+                null,
+                "No statistics found."
+            ]
+        },
+        "multiplayer": {
+            "codeOfConduct.check": [
+                null,
+                "Do not notify again for this Code of Conduct"
+            ],
+            "codeOfConduct.title": [
+                null,
+                "Server Code of Conduct"
+            ],
+            "disconnect.code_of_conduct": [
+                null,
+                "Server requires accepting the Code of Conduct"
+            ]
+        },
+        "options": {
+            "hideLightningFlashes": [
+                "Hide Lightning Flashes",
+                "Hide Sky Flashes"
+            ],
+            "hideLightningFlashes.tooltip": [
+                "Prevents Lightning Bolts from making the sky flash. The bolts themselves will still be visible.",
+                "Prevents Lightning Bolts or other environmental effects from making the sky flash. The sources of flashes themselves will still be visible."
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "block/impermeable": [
+            {
+                "name": "impermeable",
+                "type": "block",
+                "values": [
+                    "minecraft:glass",
+                    "minecraft:white_stained_glass",
+                    "minecraft:orange_stained_glass",
+                    "minecraft:magenta_stained_glass",
+                    "minecraft:light_blue_stained_glass",
+                    "minecraft:yellow_stained_glass",
+                    "minecraft:lime_stained_glass",
+                    "minecraft:pink_stained_glass",
+                    "minecraft:gray_stained_glass",
+                    "minecraft:light_gray_stained_glass",
+                    "minecraft:cyan_stained_glass",
+                    "minecraft:purple_stained_glass",
+                    "minecraft:blue_stained_glass",
+                    "minecraft:brown_stained_glass",
+                    "minecraft:green_stained_glass",
+                    "minecraft:red_stained_glass",
+                    "minecraft:black_stained_glass",
+                    "minecraft:tinted_glass"
+                ]
+            },
+            {
+                "name": "impermeable",
+                "type": "block",
+                "values": [
+                    "minecraft:glass",
+                    "minecraft:white_stained_glass",
+                    "minecraft:orange_stained_glass",
+                    "minecraft:magenta_stained_glass",
+                    "minecraft:light_blue_stained_glass",
+                    "minecraft:yellow_stained_glass",
+                    "minecraft:lime_stained_glass",
+                    "minecraft:pink_stained_glass",
+                    "minecraft:gray_stained_glass",
+                    "minecraft:light_gray_stained_glass",
+                    "minecraft:cyan_stained_glass",
+                    "minecraft:purple_stained_glass",
+                    "minecraft:blue_stained_glass",
+                    "minecraft:brown_stained_glass",
+                    "minecraft:green_stained_glass",
+                    "minecraft:red_stained_glass",
+                    "minecraft:black_stained_glass",
+                    "minecraft:tinted_glass",
+                    "minecraft:barrier"
+                ]
+            }
+        ],
+        "entity_type/cannot_be_pushed_onto_boats": [
+            {
+                "name": "cannot_be_pushed_onto_boats",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:player",
+                    "minecraft:guardian",
+                    "minecraft:elder_guardian",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:tropical_fish",
+                    "minecraft:dolphin",
+                    "minecraft:squid",
+                    "minecraft:glow_squid",
+                    "minecraft:tadpole",
+                    "minecraft:creaking"
+                ]
+            },
+            {
+                "name": "cannot_be_pushed_onto_boats",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:player",
+                    "minecraft:elder_guardian",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:tropical_fish",
+                    "minecraft:dolphin",
+                    "minecraft:squid",
+                    "minecraft:glow_squid",
+                    "minecraft:tadpole",
+                    "minecraft:creaking"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4538,
+            4539
+        ],
+        "id": [
+            "25w33a",
+            "25w34a"
+        ],
+        "name": [
+            "25w33a",
+            "Snapshot 25w34a"
+        ],
+        "protocol": [
+            1073742086,
+            1073742087
+        ]
+    }
+}
