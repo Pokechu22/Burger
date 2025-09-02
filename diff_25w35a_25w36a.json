@@ -1,0 +1,457 @@
+{
+    "achievements": {},
+    "language": {
+        "advMode": {
+            "notEnabled": [
+                "Command blocks are not enabled on this server",
+                "Command blocks are not enabled"
+            ]
+        },
+        "argument": {
+            "block.tag.disallowed": [
+                "Tags aren't allowed here, only actual blocks",
+                "Tags aren't allowed here; only actual blocks"
+            ],
+            "double.big": [
+                "Double must not be more than %s, found %s",
+                "Double must not be more than %s: found %s"
+            ],
+            "double.low": [
+                "Double must not be less than %s, found %s",
+                "Double must not be less than %s: found %s"
+            ],
+            "float.big": [
+                "Float must not be more than %s, found %s",
+                "Float must not be more than %s: found %s"
+            ],
+            "float.low": [
+                "Float must not be less than %s, found %s",
+                "Float must not be less than %s: found %s"
+            ],
+            "integer.big": [
+                "Integer must not be more than %s, found %s",
+                "Integer must not be more than %s: found %s"
+            ],
+            "integer.low": [
+                "Integer must not be less than %s, found %s",
+                "Integer must not be less than %s: found %s"
+            ],
+            "item.tag.disallowed": [
+                "Tags aren't allowed here, only actual items",
+                "Tags aren't allowed here; only actual items"
+            ],
+            "long.big": [
+                "Long must not be more than %s, found %s",
+                "Long must not be more than %s: found %s"
+            ],
+            "long.low": [
+                "Long must not be less than %s, found %s",
+                "Long must not be less than %s: found %s"
+            ],
+            "range.ints": [
+                "Only whole numbers allowed, not decimals",
+                "Only whole numbers allowed; not decimals"
+            ],
+            "time.tick_count_too_low": [
+                "The tick count must not be less than %s, found %s",
+                "The tick count must not be less than %s: found %s"
+            ]
+        },
+        "arguments": {
+            "swizzle.invalid": [
+                "Invalid swizzle, expected combination of 'x', 'y' and 'z'",
+                "Invalid swizzle: expected combination of 'x', 'y' and 'z'"
+            ]
+        },
+        "chat": {
+            "disabled.invalid_command_signature": [
+                "Command had unexpected or missing command argument signatures.",
+                "The command had unexpected or missing command argument signatures."
+            ]
+        },
+        "command": {
+            "unknown.command": [
+                "Unknown or incomplete command, see below for error",
+                "Unknown or incomplete command. See below for error"
+            ]
+        },
+        "commands": {
+            "attribute.base_value.get.success": [
+                "Base value of attribute %s for entity %s is %s",
+                "The base value of attribute %s for entity %s is %s"
+            ],
+            "attribute.base_value.reset.success": [
+                "Base value for attribute %s for entity %s reset to default %s",
+                "The base value for attribute %s for entity %s reset to default %s"
+            ],
+            "attribute.base_value.set.success": [
+                "Base value for attribute %s for entity %s set to %s",
+                "The base value for attribute %s for entity %s set to %s"
+            ],
+            "attribute.modifier.value.get.success": [
+                "Value of modifier %s on attribute %s for entity %s is %s",
+                "The value of modifier %s on attribute %s for entity %s is %s"
+            ],
+            "attribute.value.get.success": [
+                "Value of attribute %s for entity %s is %s",
+                "The value of attribute %s for entity %s is %s"
+            ],
+            "clone.toobig": [
+                "Too many blocks in the specified area (maximum %s, specified %s)",
+                "Too many blocks in the specified area (maximum %s, but specified %s)"
+            ],
+            "data.modify.expected_list": [
+                "Expected list, got: %s",
+                "Expected list; got: %s"
+            ],
+            "data.modify.expected_object": [
+                "Expected object, got: %s",
+                "Expected object; got: %s"
+            ],
+            "data.modify.expected_value": [
+                "Expected value, got: %s",
+                "Expected value; got: %s"
+            ],
+            "datapack.create.io_failure": [
+                "Can't create pack with name '%s', check logs",
+                "Can't create pack with name '%s'. Check logs"
+            ],
+            "execute.blocks.toobig": [
+                "Too many blocks in the specified area (maximum %s, specified %s)",
+                "Too many blocks in the specified area (maximum %s, but specified %s)"
+            ],
+            "execute.conditional.fail_count": [
+                "Test failed, count: %s",
+                "Test failed. Count: %s"
+            ],
+            "execute.conditional.pass_count": [
+                "Test passed, count: %s",
+                "Test passed. Count: %s"
+            ],
+            "fill.toobig": [
+                "Too many blocks in the specified area (maximum %s, specified %s)",
+                "Too many blocks in the specified area (maximum %s, but specified %s)"
+            ],
+            "fillbiome.toobig": [
+                "Too many blocks in the specified volume (maximum %s, specified %s)",
+                "Too many blocks in the specified volume (maximum %s, but specified %s)"
+            ],
+            "forceload.toobig": [
+                "Too many chunks in the specified area (maximum %s, specified %s)",
+                "Too many chunks in the specified area (maximum %s, but specified %s)"
+            ],
+            "function.error.argument_not_compound": [
+                "Invalid argument type: %s, expected Compound",
+                "Invalid argument type: %s. Expected Compound"
+            ],
+            "spectate.cannot_spectate": [
+                null,
+                "%s cannot be spectated"
+            ],
+            "test.locate.done": [
+                "Finished locating, found %s structure(s)",
+                "Finished locating: found %s structure(s)"
+            ],
+            "test.locate.started": [
+                "Started locating test structures, this might take a while...",
+                "Started locating test structures. This might take a while..."
+            ],
+            "tick.query.percentiles": [
+                "Percentiles: P50: %sms P95: %sms P99: %sms, sample: %s",
+                "Percentiles: P50: %sms P95: %sms P99: %sms. Sample: %s"
+            ],
+            "tick.query.rate.sprinting": [
+                "Target tick rate: %s per second (ignored, reference only).\nAverage time per tick: %sms",
+                "Target tick rate: %s per second (ignored; reference only).\nAverage time per tick: %sms"
+            ]
+        },
+        "debug": {
+            "copy_location.help": [
+                "F3 + C = Copy location as /tp command, hold F3 + C to crash the game",
+                "F3 + C = Copy location as /tp command, or hold for 10 seconds to crash the game"
+            ]
+        },
+        "entity": {
+            "minecraft.mannequin": [
+                null,
+                "Mannequin"
+            ],
+            "minecraft.mannequin.label": [
+                null,
+                "NPC"
+            ]
+        },
+        "gamerule": {
+            "allowEnteringNetherUsingPortals.description": [
+                "Controls whether players are allowed to enter the Nether or not",
+                "Controls whether players are allowed to enter the Nether."
+            ],
+            "allowFireTicksAwayFromPlayer.description": [
+                "Controls whether or not fire and lava should be able to tick further than 8 chunks away from any player",
+                "Controls whether fire and lava should be able to tick further than 8 chunks away from any player."
+            ],
+            "commandModificationBlockLimit.description": [
+                "Number of blocks that can be changed at once by one command, such as fill or clone.",
+                "The number of blocks that can be changed at once by one command, such as fill or clone."
+            ],
+            "doVinesSpread.description": [
+                "Controls whether or not the Vines block spreads randomly to adjacent blocks. Does not affect other types of vine blocks such as Weeping Vines, Twisting Vines, etc.",
+                "Controls whether the Vines block spreads randomly to adjacent blocks. Does not affect other types of vine blocks such as Weeping Vines, Twisting Vines, etc."
+            ],
+            "pvp.description": [
+                "Controls whether players are allowed to damage other players or not",
+                "Controls whether players are allowed to damage other players."
+            ],
+            "spawnChunkRadius.description": [
+                "Amount of chunks that stay loaded around the overworld spawn position.",
+                "The amount of chunks that stay loaded around the overworld spawn position."
+            ],
+            "spawnMonsters.description": [
+                "Controls whether monsters naturally spawns or not",
+                "Controls whether monsters naturally spawn."
+            ]
+        },
+        "inventory": {
+            "hotbarInfo": [
+                "Save hotbar with %1$s+%2$s",
+                "Save hotbar with %1$s + %2$s"
+            ],
+            "hotbarSaved": [
+                "Item hotbar saved (restore with %1$s+%2$s)",
+                "Item hotbar saved (restore with %1$s + %2$s)"
+            ]
+        },
+        "item": {
+            "op_block_warning.line2": [
+                "Use of this item might lead to command execution",
+                "Use of this item might lead to command execution."
+            ]
+        },
+        "key": {
+            "categories.spectator": [
+                null,
+                "Spectator"
+            ],
+            "spectatorHotbar": [
+                null,
+                "Select On Hotbar"
+            ],
+            "spectatorOutlines": [
+                "Highlight Players (Spectators)",
+                "Highlight Players"
+            ]
+        },
+        "manageServer": [
+            null,
+            {
+                "add.title": "Add Server",
+                "edit.title": "Edit Server Info",
+                "enterIp": "Server Address",
+                "enterName": "Server Name",
+                "resourcePack": "Server Resource Packs",
+                "resourcePack.disabled": "Disabled",
+                "resourcePack.enabled": "Enabled",
+                "resourcePack.prompt": "Prompt"
+            }
+        ],
+        "mco": {
+            "configure.world.switch.slot.subtitle": [
+                "This world is empty, choose how to create your world",
+                "This world is empty. Choose how to create your world"
+            ],
+            "errorMessage.connectionFailure": [
+                "An error occurred, please try again later.",
+                "An error occurred. Please try again later."
+            ],
+            "errorMessage.realmsService.unknownCompatibility": [
+                "Could not check compatible version, got response: %s",
+                "Could not check compatible version; got response: %s"
+            ],
+            "snapshotRealmsPopup.message": [
+                "Realms are now available in Snapshots starting with Snapshot 23w41a. Every Realms subscription comes with a free Snapshot Realm that is separate from your normal Java Realm!",
+                "Realms is now available in Snapshots starting with Snapshot 23w41a. Every Realms subscription comes with a free Snapshot Realm that is separate from your normal Java Realm!"
+            ],
+            "snapshotRealmsPopup.title": [
+                "Realms now available in Snapshots",
+                "Realms is now available in Snapshots"
+            ],
+            "upload.close.failure": [
+                "Could not close your Realm, please try again later",
+                "Could not close your Realm. Please try again later."
+            ]
+        },
+        "multiplayer": {
+            "disconnect.authservers_down": [
+                "Authentication servers are down. Please try again later, sorry!",
+                "Authentication servers are down. Please try again later. Sorry!"
+            ],
+            "disconnect.bad_chat_index": [
+                "Detected missed or reordered chat message from server",
+                "Detected a missed or reordered chat message from the server"
+            ],
+            "disconnect.banned.reason.default": [
+                null,
+                "Banned by an operator."
+            ],
+            "disconnect.invalid_packet": [
+                "Server sent an invalid packet",
+                "The server sent an invalid packet"
+            ],
+            "disconnect.missing_tags": [
+                "Incomplete set of tags received from server.\nPlease contact server operator.",
+                "Incomplete set of tags received from the server.\nPlease contact a server operator."
+            ],
+            "disconnect.transfers_disabled": [
+                "Server does not accept transfers",
+                "This server does not accept transfers"
+            ],
+            "disconnect.unsigned_chat": [
+                "Received chat packet with missing or invalid signature.",
+                "Received a chat packet with a missing or invalid signature."
+            ],
+            "message_not_delivered": [
+                "Can't deliver chat message, check server logs: %s",
+                "Can't deliver chat message; check server logs: %s"
+            ],
+            "requiredTexturePrompt.disconnect": [
+                "Server requires a custom resource pack",
+                "This server requires a custom resource pack"
+            ],
+            "status.anonymous_player": [
+                null,
+                "Anonymous Player"
+            ]
+        },
+        "narration": {
+            "component_list.usage": [
+                "Press Tab to navigate to next element",
+                "Press Tab to navigate to the next element"
+            ],
+            "selection.usage": [
+                "Press up and down buttons to move to another entry",
+                "Press the up and down buttons to move to another entry"
+            ],
+            "slider.usage.focused": [
+                "Press left or right keyboard buttons to change value",
+                "Press the left or right keyboard buttons to change the value"
+            ],
+            "slider.usage.hovered": [
+                "Drag slider to change value",
+                "Drag the slider to change its value"
+            ],
+            "suggestion.usage.fill.fixed": [
+                "Press Tab to use suggestion",
+                "Press Tab to use the suggestion"
+            ],
+            "suggestion.usage.fill.hidable": [
+                "Press Tab to use suggestion, or Escape to leave suggestions",
+                "Press Tab to use the suggestion, or Escape to leave suggestions"
+            ]
+        },
+        "options": {
+            "accessibility.narrator_hotkey.mac.tooltip": [
+                "Allows the Narrator to be toggled on and off with 'Cmd+B'.",
+                "Allows the Narrator to be toggled on and off with 'Cmd + B'."
+            ],
+            "accessibility.narrator_hotkey.tooltip": [
+                "Allows the Narrator to be toggled on and off with 'Ctrl+B'.",
+                "Allows the Narrator to be toggled on and off with 'Ctrl + B'."
+            ],
+            "chunks": [
+                "%s chunks",
+                "%s Chunks"
+            ]
+        },
+        "parsing": {
+            "bool.invalid": [
+                "Invalid boolean, expected 'true' or 'false' but found '%s'",
+                "Invalid boolean: expected 'true' or 'false' but found '%s'"
+            ]
+        },
+        "selectWorld": {
+            "locked": [
+                "Locked by another running instance of Minecraft",
+                "Locked by another running instance of Minecraft."
+            ],
+            "tooltip.fromNewerVersion2": [
+                "loading this world could cause problems!",
+                "and loading it could cause problems!"
+            ]
+        },
+        "slot": {
+            "only_single_allowed": [
+                "Only single slots allowed, got '%s'",
+                "Only single slots allowed: got '%s'"
+            ]
+        },
+        "test": {
+            "error.block_property_mismatch": [
+                "Expected property %s to be %s, was %s",
+                "Expected property %s to be %s; was %s"
+            ],
+            "error.block_property_missing": [
+                "Block property missing, expected property %s to be %s",
+                "Block property missing. Expected property %s to be %s"
+            ],
+            "error.entity_property_details": [
+                "Entity %s failed test: %s, expected: %s, was: %s",
+                "Entity %s failed test: %s; expected: %s; was: %s"
+            ],
+            "error.expected_block": [
+                "Expected block %s, got %s",
+                "Expected block %s; got %s"
+            ],
+            "error.expected_block_tag": [
+                "Expected block in #%s, got %s",
+                "Expected block in #%s; got %s"
+            ],
+            "error.expected_entity_count": [
+                "Expected %s entities of type %s, found %s",
+                "Expected %s entities of type %s: found %s"
+            ],
+            "error.expected_entity_data": [
+                "Expected entity data to be: %s, was: %s",
+                "Expected entity data to be: %s; was: %s"
+            ],
+            "error.expected_items_count": [
+                "Expected %s items of type %s, found %s",
+                "Expected %s items of type %s: found %s"
+            ],
+            "error.state_not_equal": [
+                "Incorrect state. Expected %s, was %s",
+                "Incorrect state. Expected %s; was %s"
+            ],
+            "error.value_not_equal": [
+                "Expected %s to be %s, was %s",
+                "Expected %s to be %s; was %s"
+            ]
+        },
+        "test_instance": {
+            "description.batch": [
+                "Batch: %s",
+                "Environment: %s"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4542,
+            4545
+        ],
+        "id": [
+            "25w35a",
+            "25w36a"
+        ],
+        "name": [
+            "25w35a",
+            "25w36a"
+        ],
+        "protocol": [
+            1073742089,
+            1073742090
+        ]
+    }
+}
