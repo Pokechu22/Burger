@@ -1,0 +1,166 @@
+{
+    "achievements": {},
+    "language": {
+        "advMode": {
+            "notEnabled.spawner": [
+                null,
+                "Spawner blocks are not enabled"
+            ]
+        },
+        "argument": {
+            "block.tag.disallowed": [
+                "Tags aren't allowed here; only actual blocks",
+                "Tags aren't allowed here; only actual blocks are"
+            ],
+            "item.tag.disallowed": [
+                "Tags aren't allowed here; only actual items",
+                "Tags aren't allowed here; only actual items are"
+            ],
+            "range.ints": [
+                "Only whole numbers allowed; not decimals",
+                "Only whole numbers are allowed; not decimals"
+            ]
+        },
+        "commands": {
+            "data.modify.expected_list": [
+                "Expected list; got: %s",
+                "Expected a list: got %s"
+            ],
+            "data.modify.expected_object": [
+                "Expected object; got: %s",
+                "Expected an object: got %s"
+            ],
+            "data.modify.expected_value": [
+                "Expected value; got: %s",
+                "Expected a value: got %s"
+            ],
+            "tick.query.rate.sprinting": [
+                "Target tick rate: %s per second (ignored; reference only).\nAverage time per tick: %sms",
+                "Target tick rate: %s per second (ignored, reference only).\nAverage time per tick: %sms"
+            ]
+        },
+        "gamerule": {
+            "commandBlocksEnabled": [
+                null,
+                "Enable Command Blocks"
+            ],
+            "enableCommandBlocks": [
+                "Enable Command Blocks",
+                null
+            ],
+            "spawnerBlocksEnabled": [
+                null,
+                "Enable Spawner Blocks"
+            ]
+        },
+        "gui": {
+            "packSelection.search": [
+                null,
+                "Search..."
+            ]
+        },
+        "key": {
+            "category.minecraft.creative": [
+                null,
+                "Creative Mode"
+            ],
+            "category.minecraft.gameplay": [
+                null,
+                "Gameplay"
+            ],
+            "category.minecraft.inventory": [
+                null,
+                "Inventory"
+            ],
+            "category.minecraft.misc": [
+                null,
+                "Miscellaneous"
+            ],
+            "category.minecraft.movement": [
+                null,
+                "Movement"
+            ],
+            "category.minecraft.multiplayer": [
+                null,
+                "Multiplayer"
+            ],
+            "category.minecraft.spectator": [
+                null,
+                "Spectator"
+            ]
+        },
+        "mco": {
+            "configure.world.commandBlocks": [
+                "Command Blocks",
+                null
+            ],
+            "configure.world.spawnMonsters": [
+                "Spawn Monsters",
+                null
+            ],
+            "configure.world.spawn_toggle.message": [
+                "Turning this option off will remove all existing entities of that type",
+                null
+            ],
+            "configure.world.spawn_toggle.message.npc": [
+                "Turning this option off will remove all existing entities of that type, like Villagers",
+                null
+            ],
+            "errorMessage.realmsService.unknownCompatibility": [
+                "Could not check compatible version; got response: %s",
+                "Could not check compatible version. Got response: %s"
+            ]
+        },
+        "test": {
+            "error.block_property_mismatch": [
+                "Expected property %s to be %s; was %s",
+                "Expected property %s to be %s: was %s"
+            ],
+            "error.entity_property_details": [
+                "Entity %s failed test: %s; expected: %s; was: %s",
+                "Entity %s failed test: %s. Expected %s: was %s"
+            ],
+            "error.expected_block": [
+                "Expected block %s; got %s",
+                "Expected block %s: got %s"
+            ],
+            "error.expected_block_tag": [
+                "Expected block in #%s; got %s",
+                "Expected block in #%s: got %s"
+            ],
+            "error.expected_entity_data": [
+                "Expected entity data to be: %s; was: %s",
+                "Expected entity data to be %s: was %s"
+            ],
+            "error.state_not_equal": [
+                "Incorrect state. Expected %s; was %s",
+                "Incorrect state. Expected %s: was %s"
+            ],
+            "error.value_not_equal": [
+                "Expected %s to be %s; was %s",
+                "Expected %s to be %s: was %s"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4546,
+            4547
+        ],
+        "id": [
+            "25w36b",
+            "25w37a"
+        ],
+        "name": [
+            "25w36b",
+            "25w37a"
+        ],
+        "protocol": [
+            1073742091,
+            1073742092
+        ]
+    }
+}
