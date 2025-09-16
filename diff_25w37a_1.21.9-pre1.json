@@ -1,0 +1,68 @@
+{
+    "achievements": {},
+    "language": {
+        "commands": {
+            "fetchprofile.summon_mannequin": [
+                null,
+                "Summon Mannequin"
+            ],
+            "setworldspawn.success.new": [
+                null,
+                "Set the world spawn point to %s, %s, %s [%s, %s] in %s"
+            ],
+            "spawnpoint.success.multiple.new": [
+                null,
+                "Set spawn point to %s, %s, %s [%s, %s] in %s for %s players"
+            ],
+            "spawnpoint.success.single.new": [
+                null,
+                "Set spawn point to %s, %s, %s [%s, %s] in %s for %s"
+            ]
+        },
+        "gamerule": {
+            "enableCommandBlocks": [
+                null,
+                "Enable Command Blocks"
+            ]
+        },
+        "mco": {
+            "configure.world.commandBlocks": [
+                null,
+                "Command Blocks"
+            ],
+            "configure.world.spawnMonsters": [
+                null,
+                "Spawn Monsters"
+            ],
+            "configure.world.spawn_toggle.message": [
+                null,
+                "Turning this option off will remove all existing entities of that type"
+            ],
+            "configure.world.spawn_toggle.message.npc": [
+                null,
+                "Turning this option off will remove all existing entities of that type, like Villagers"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4547,
+            4549
+        ],
+        "id": [
+            "25w37a",
+            "1.21.9-pre1"
+        ],
+        "name": [
+            "25w37a",
+            "1.21.9 Pre-Release 1"
+        ],
+        "protocol": [
+            1073742092,
+            1073742093
+        ]
+    }
+}
