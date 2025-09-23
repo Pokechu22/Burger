@@ -1,0 +1,32 @@
+{
+    "achievements": {},
+    "language": {
+        "debug": {
+            "options.help": [
+                "F3 + F5 = Edit debug options",
+                "F3 + F6 = Edit debug options"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4551,
+            4552
+        ],
+        "id": [
+            "1.21.9-pre3",
+            "1.21.9-pre4"
+        ],
+        "name": [
+            "1.21.9 Pre-Release 3",
+            "1.21.9 Pre-Release 4"
+        ],
+        "protocol": [
+            1073742095,
+            1073742096
+        ]
+    }
+}
