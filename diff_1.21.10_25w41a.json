@@ -1,0 +1,3325 @@
+{
+    "achievements": {},
+    "language": {
+        "advMode": {
+            "setCommand.disabled": [
+                null,
+                "Command set: %s, but command blocks are still disabled"
+            ]
+        },
+        "commands": {
+            "stopwatch.already_exists": [
+                null,
+                "Stopwatch '%s' already exists"
+            ],
+            "stopwatch.create.success": [
+                null,
+                "Created Stopwatch '%s'"
+            ],
+            "stopwatch.does_not_exist": [
+                null,
+                "Stopwatch '%s' does not exist"
+            ],
+            "stopwatch.query": [
+                null,
+                "Stopwatch '%s' has run for %ss"
+            ],
+            "stopwatch.remove.success": [
+                null,
+                "Removed Stopwatch '%s'"
+            ],
+            "stopwatch.restart.success": [
+                null,
+                "Restarted Stopwatch '%s'"
+            ]
+        },
+        "death": {
+            "attack.spear": [
+                null,
+                "%1$s was speared by %2$s"
+            ],
+            "attack.spear.item": [
+                null,
+                "%1$s was speared by %2$s using %3$s"
+            ]
+        },
+        "debug": {
+            "crash.message.rebindable": [
+                null,
+                "%s + %s is held down. This will crash the game unless released."
+            ],
+            "entry.currently.inOverlay": [
+                null,
+                "%s: Currently only in debug overlay"
+            ],
+            "entry.overlay": [
+                null,
+                "In overlay"
+            ],
+            "profiling.start.rebindable": [
+                null,
+                "Profiling started for %s seconds. Use %s + %s to stop early"
+            ]
+        },
+        "effect": {
+            "minecraft.breath_of_the_nautilus": [
+                null,
+                "Breath of the Nautilus"
+            ]
+        },
+        "enchantment": {
+            "minecraft.lunge": [
+                null,
+                "Lunge"
+            ]
+        },
+        "entity": {
+            "minecraft.nautilus": [
+                null,
+                "Nautilus"
+            ],
+            "minecraft.zombie_nautilus": [
+                null,
+                "Zombie Nautilus"
+            ]
+        },
+        "item": {
+            "intangible": [
+                null,
+                "Intangible"
+            ],
+            "minecraft.copper_nautilus_armor": [
+                null,
+                "Copper Nautilus Armor"
+            ],
+            "minecraft.copper_spear": [
+                null,
+                "Copper Spear"
+            ],
+            "minecraft.diamond_nautilus_armor": [
+                null,
+                "Diamond Nautilus Armor"
+            ],
+            "minecraft.diamond_spear": [
+                null,
+                "Diamond Spear"
+            ],
+            "minecraft.golden_nautilus_armor": [
+                null,
+                "Golden Nautilus Armor"
+            ],
+            "minecraft.golden_spear": [
+                null,
+                "Golden Spear"
+            ],
+            "minecraft.iron_nautilus_armor": [
+                null,
+                "Iron Nautilus Armor"
+            ],
+            "minecraft.iron_spear": [
+                null,
+                "Iron Spear"
+            ],
+            "minecraft.nautilus_spawn_egg": [
+                null,
+                "Nautilus Spawn Egg"
+            ],
+            "minecraft.netherite_nautilus_armor": [
+                null,
+                "Netherite Nautilus Armor"
+            ],
+            "minecraft.netherite_spear": [
+                null,
+                "Netherite Spear"
+            ],
+            "minecraft.stone_spear": [
+                null,
+                "Stone Spear"
+            ],
+            "minecraft.wooden_spear": [
+                null,
+                "Wooden Spear"
+            ],
+            "minecraft.zombie_nautilus_spawn_egg": [
+                null,
+                "Zombie Nautilus Spawn Egg"
+            ]
+        },
+        "key": {
+            "category.minecraft.debug": [
+                null,
+                "Debug"
+            ],
+            "debug.clearChat": [
+                null,
+                "Clear chat"
+            ],
+            "debug.copyLocation": [
+                null,
+                "Copy location"
+            ],
+            "debug.copyRecreateCommand": [
+                null,
+                "Copy data"
+            ],
+            "debug.crash": [
+                null,
+                "Debug crash"
+            ],
+            "debug.debugOptions": [
+                null,
+                "Debug options"
+            ],
+            "debug.dumpDynamicTextures": [
+                null,
+                "Dump dynamic textures"
+            ],
+            "debug.dumpVersion": [
+                null,
+                "Dump version info"
+            ],
+            "debug.focusPause": [
+                null,
+                "Toggle lost focus pause"
+            ],
+            "debug.fpsCharts": [
+                null,
+                "FPS charts"
+            ],
+            "debug.modifier": [
+                null,
+                "Debug modifier key"
+            ],
+            "debug.networkCharts": [
+                null,
+                "Network charts"
+            ],
+            "debug.overlay": [
+                null,
+                "Toggle overlay"
+            ],
+            "debug.profiling": [
+                null,
+                "Start/stop profiling"
+            ],
+            "debug.profilingChart": [
+                null,
+                "Profiling chart"
+            ],
+            "debug.reloadChunk": [
+                null,
+                "Reload chunks"
+            ],
+            "debug.reloadResourcePacks": [
+                null,
+                "Reload resource packs"
+            ],
+            "debug.showAdvancedTooltips": [
+                null,
+                "Show advanced tooltips"
+            ],
+            "debug.showChunkBorders": [
+                null,
+                "Show chunk boundaries"
+            ],
+            "debug.showHitboxes": [
+                null,
+                "Show hitboxes"
+            ],
+            "debug.spectate": [
+                null,
+                "Cycle spectator"
+            ],
+            "debug.switchGameMode": [
+                null,
+                "Game mode switcher"
+            ],
+            "toggleGui": [
+                null,
+                "Toggle GUI"
+            ],
+            "toggleSpectatorShaderEffects": [
+                null,
+                "Toggle Spectator Shader Effects"
+            ]
+        },
+        "mco": {
+            "configure.world.name.validation.whitespace": [
+                null,
+                "Must not start or end with whitespace"
+            ]
+        },
+        "narration": {
+            "checkbox.usage.focused.check": [
+                null,
+                "Press Enter to check"
+            ],
+            "checkbox.usage.focused.uncheck": [
+                null,
+                "Press Enter to uncheck"
+            ],
+            "checkbox.usage.hovered.check": [
+                null,
+                "Left click to check"
+            ],
+            "checkbox.usage.hovered.uncheck": [
+                null,
+                "Left click to uncheck"
+            ]
+        },
+        "options": {
+            "blocks": [
+                null,
+                "%s Blocks"
+            ],
+            "cutoutLeaves": [
+                null,
+                "See-Through Leaves"
+            ],
+            "cutoutLeaves.tooltip": [
+                null,
+                "Allows to see through gaps in leaves. Disabling may improve performance."
+            ],
+            "graphics.custom": [
+                null,
+                "Custom"
+            ],
+            "graphics.preset": [
+                null,
+                "Preset"
+            ],
+            "graphics.preset.tooltip": [
+                null,
+                "Sets \"Quality & Performance\" settings to reasonable defaults corresponding to the desired quality."
+            ],
+            "improvedTransparency": [
+                null,
+                "Improved Transparency"
+            ],
+            "improvedTransparency.tooltip": [
+                null,
+                "An experimental approach that uses screen shaders for drawing weather, clouds, and particles behind translucent blocks and water.\nThis will impact GPU performance."
+            ],
+            "video.display.header": [
+                null,
+                "Display"
+            ],
+            "video.interface.header": [
+                null,
+                "Interface"
+            ],
+            "video.quality.header": [
+                null,
+                "Quality & Performance"
+            ],
+            "vignette": [
+                null,
+                "Show Vignette"
+            ],
+            "vignette.tooltip": [
+                null,
+                "This is a subtle texture over the game screen used for reducing brightness towards the edges of the screen and warning about the world border."
+            ],
+            "weatherRadius": [
+                null,
+                "Weather Effect Radius"
+            ],
+            "weatherRadius.tooltip": [
+                null,
+                "Radius of the area where rain and snow effects are visible. Very low performance impact."
+            ]
+        },
+        "subtitles": {
+            "entity.baby_nautilus.ambient": [
+                null,
+                "Baby Nautilus chitters"
+            ],
+            "entity.baby_nautilus.death": [
+                null,
+                "Baby Nautilus dies"
+            ],
+            "entity.baby_nautilus.eat": [
+                null,
+                "Baby Nauilus eats"
+            ],
+            "entity.baby_nautilus.hurt": [
+                null,
+                "Baby Nautilus hurts"
+            ],
+            "entity.baby_nautilus.swim": [
+                null,
+                "Baby Nautilus swims"
+            ],
+            "entity.nautilus.ambient": [
+                null,
+                "Nautilus clacks"
+            ],
+            "entity.nautilus.dash": [
+                null,
+                "Nautilus jets"
+            ],
+            "entity.nautilus.dash_ready": [
+                null,
+                "Nautilus recovers"
+            ],
+            "entity.nautilus.death": [
+                null,
+                "Nautilus dies"
+            ],
+            "entity.nautilus.eat": [
+                null,
+                "Nauilus eats"
+            ],
+            "entity.nautilus.hurt": [
+                null,
+                "Nautilus hurts"
+            ],
+            "entity.nautilus.swim": [
+                null,
+                "Nautilus swims"
+            ],
+            "entity.zombie_horse.angry": [
+                null,
+                "Zombie Horse neighs"
+            ],
+            "entity.zombie_nautilus.ambient": [
+                null,
+                "Zombie Nautilus burbles"
+            ],
+            "entity.zombie_nautilus.dash": [
+                null,
+                "Zombie Nautilus jets"
+            ],
+            "entity.zombie_nautilus.dash_ready": [
+                null,
+                "Zombie Nautilus recovers"
+            ],
+            "entity.zombie_nautilus.death": [
+                null,
+                "Zombie Nautilus dies"
+            ],
+            "entity.zombie_nautilus.eat": [
+                null,
+                "Zombie Nautilus eats"
+            ],
+            "entity.zombie_nautilus.hurt": [
+                null,
+                "Zombie Nautilus hurts"
+            ],
+            "entity.zombie_nautilus.swim": [
+                null,
+                "Zombie Nautilus swims"
+            ],
+            "item.armor.equip_nautilus": [
+                null,
+                "Nautilus Armor equips"
+            ],
+            "item.armor.unequip_nautilus": [
+                null,
+                "Nautilus Armor unequips"
+            ],
+            "item.spear.attack": [
+                null,
+                "Spear jabs"
+            ],
+            "item.spear.hit": [
+                null,
+                "Spear hits"
+            ],
+            "item.spear.lunge": [
+                null,
+                "Spear lunges"
+            ],
+            "item.spear.use": [
+                null,
+                "Charges with Spear"
+            ],
+            "item.spear_wood.attack": [
+                null,
+                "Spear jabs"
+            ],
+            "item.spear_wood.hit": [
+                null,
+                "Spear hits"
+            ],
+            "item.spear_wood.use": [
+                null,
+                "Charges with Spear"
+            ]
+        }
+    },
+    "sounds": {
+        "block.anvil.destroy": [
+            {
+                "field": "V",
+                "id": 47,
+                "name": "block.anvil.destroy",
+                "sounds": [
+                    {
+                        "hash": "6fa4895a44f671fd7c24c366f87ca908da6485a3",
+                        "name": "random/anvil_break"
+                    }
+                ],
+                "subtitle": "Anvil destroyed",
+                "subtitle_key": "subtitles.block.anvil.destroy"
+            },
+            {
+                "field": "V",
+                "id": 47,
+                "name": "block.anvil.destroy",
+                "sounds": [
+                    {
+                        "hash": "6fa4895a44f671fd7c24c366f87ca908da6485a3",
+                        "name": "random/anvil_break",
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle": "Anvil destroyed",
+                "subtitle_key": "subtitles.block.anvil.destroy"
+            }
+        ],
+        "block.anvil.land": [
+            {
+                "field": "Y",
+                "id": 50,
+                "name": "block.anvil.land",
+                "sounds": [
+                    {
+                        "hash": "781d4bfc6ee0aff2a61b0d78f0da34610a28aa62",
+                        "name": "random/anvil_land"
+                    }
+                ],
+                "subtitle": "Anvil landed",
+                "subtitle_key": "subtitles.block.anvil.land"
+            },
+            {
+                "field": "Y",
+                "id": 50,
+                "name": "block.anvil.land",
+                "sounds": [
+                    {
+                        "hash": "781d4bfc6ee0aff2a61b0d78f0da34610a28aa62",
+                        "name": "random/anvil_land",
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle": "Anvil landed",
+                "subtitle_key": "subtitles.block.anvil.land"
+            }
+        ],
+        "block.anvil.place": [
+            {
+                "field": "Z",
+                "id": 51,
+                "name": "block.anvil.place",
+                "sounds": [
+                    {
+                        "hash": "781d4bfc6ee0aff2a61b0d78f0da34610a28aa62",
+                        "name": "random/anvil_land"
+                    }
+                ],
+                "subtitle": "Block placed",
+                "subtitle_key": "subtitles.block.generic.place"
+            },
+            {
+                "field": "Z",
+                "id": 51,
+                "name": "block.anvil.place",
+                "sounds": [
+                    {
+                        "hash": "781d4bfc6ee0aff2a61b0d78f0da34610a28aa62",
+                        "name": "random/anvil_land",
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle": "Block placed",
+                "subtitle_key": "subtitles.block.generic.place"
+            }
+        ],
+        "block.anvil.use": [
+            {
+                "field": "ab",
+                "id": 53,
+                "name": "block.anvil.use",
+                "sounds": [
+                    {
+                        "hash": "f789417f40eee40b4d8ae6422d78f0ce06a94211",
+                        "name": "random/anvil_use"
+                    }
+                ],
+                "subtitle": "Anvil used",
+                "subtitle_key": "subtitles.block.anvil.use"
+            },
+            {
+                "field": "ab",
+                "id": 53,
+                "name": "block.anvil.use",
+                "sounds": [
+                    {
+                        "hash": "f789417f40eee40b4d8ae6422d78f0ce06a94211",
+                        "name": "random/anvil_use",
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle": "Anvil used",
+                "subtitle_key": "subtitles.block.anvil.use"
+            }
+        ],
+        "entity.baby_nautilus.ambient": [
+            null,
+            {
+                "field": "be",
+                "id": 108,
+                "name": "entity.baby_nautilus.ambient",
+                "sounds": [
+                    {
+                        "hash": "244ccea2bd286f17316648b278b9d188e45b5c76",
+                        "name": "mob/baby_nautilus/ambient1"
+                    },
+                    {
+                        "hash": "dbf242c658d251a084535529e74bb854f93cb271",
+                        "name": "mob/baby_nautilus/ambient2"
+                    },
+                    {
+                        "hash": "2c67b51f00220012845ff70ec9570f65f1919b3e",
+                        "name": "mob/baby_nautilus/ambient3"
+                    },
+                    {
+                        "hash": "16da99616e0ba8a3806f1e9b3d841a6ed1428e63",
+                        "name": "mob/baby_nautilus/ambient4"
+                    },
+                    {
+                        "hash": "8d44ab22e9b2b869126250ff1e709c8938024cbc",
+                        "name": "mob/baby_nautilus/ambient5"
+                    },
+                    {
+                        "hash": "2296140e37917486364a115be306d0b653885ee2",
+                        "name": "mob/baby_nautilus/ambient6"
+                    }
+                ],
+                "subtitle": "Baby Nautilus chitters",
+                "subtitle_key": "subtitles.entity.baby_nautilus.ambient"
+            }
+        ],
+        "entity.baby_nautilus.death": [
+            null,
+            {
+                "field": "bf",
+                "id": 109,
+                "name": "entity.baby_nautilus.death",
+                "sounds": [
+                    {
+                        "hash": "e87501393023d9251ea9c8f1617114f59bbfd6b8",
+                        "name": "mob/baby_nautilus/death"
+                    }
+                ],
+                "subtitle": "Baby Nautilus dies",
+                "subtitle_key": "subtitles.entity.baby_nautilus.death"
+            }
+        ],
+        "entity.baby_nautilus.eat": [
+            null,
+            {
+                "field": "bg",
+                "id": 110,
+                "name": "entity.baby_nautilus.eat",
+                "sounds": [
+                    {
+                        "hash": "752cb94f7751e2b3ebcda41dd4f906889e1f0a51",
+                        "name": "mob/baby_nautilus/eat1"
+                    },
+                    {
+                        "hash": "6291956028159a53f625eb0c8171f9370658f156",
+                        "name": "mob/baby_nautilus/eat2"
+                    }
+                ],
+                "subtitle": "Baby Nauilus eats",
+                "subtitle_key": "subtitles.entity.baby_nautilus.eat"
+            }
+        ],
+        "entity.baby_nautilus.hurt": [
+            null,
+            {
+                "field": "bh",
+                "id": 111,
+                "name": "entity.baby_nautilus.hurt",
+                "sounds": [
+                    {
+                        "hash": "20c88ab726a4467bab5eba0f59dc56571c86d779",
+                        "name": "mob/baby_nautilus/hurt1"
+                    },
+                    {
+                        "hash": "5d4bc5d00e649120a071c47477993fb107375f45",
+                        "name": "mob/baby_nautilus/hurt2"
+                    },
+                    {
+                        "hash": "aa9154fee8d44d2e5c15a6af3dc4c0207c1235f3",
+                        "name": "mob/baby_nautilus/hurt3"
+                    },
+                    {
+                        "hash": "850147baf6bdab51818316ce9feeb4b95bed1d33",
+                        "name": "mob/baby_nautilus/hurt4"
+                    }
+                ],
+                "subtitle": "Baby Nautilus hurts",
+                "subtitle_key": "subtitles.entity.baby_nautilus.hurt"
+            }
+        ],
+        "entity.baby_nautilus.swim": [
+            null,
+            {
+                "field": "bi",
+                "id": 112,
+                "name": "entity.baby_nautilus.swim",
+                "sounds": [
+                    {
+                        "name": "entity.fish.swim",
+                        "type": "event"
+                    }
+                ],
+                "subtitle": "Baby Nautilus swims",
+                "subtitle_key": "subtitles.entity.baby_nautilus.swim"
+            }
+        ],
+        "entity.nautilus.ambient": [
+            null,
+            {
+                "field": "sD",
+                "id": 1016,
+                "name": "entity.nautilus.ambient",
+                "sounds": [
+                    {
+                        "hash": "606b41548f5e5dfe113f148e2ebd0871a74558e8",
+                        "name": "mob/nautilus/ambient1"
+                    },
+                    {
+                        "hash": "7aedafe8cb5db98bba1139f3d6fe90881549f792",
+                        "name": "mob/nautilus/ambient2"
+                    },
+                    {
+                        "hash": "3b096bab32a08b86f0b323bd94319f82adfde63e",
+                        "name": "mob/nautilus/ambient3"
+                    },
+                    {
+                        "hash": "c57bd0d8a759d44a576f9e39eb8df0244e1b7d94",
+                        "name": "mob/nautilus/ambient4"
+                    },
+                    {
+                        "hash": "d2a64eaa1d1268929d10e0de7037182450934eb9",
+                        "name": "mob/nautilus/ambient5"
+                    },
+                    {
+                        "hash": "80d786a36f0c33ffdbd65452c79d197264523609",
+                        "name": "mob/nautilus/ambient6"
+                    },
+                    {
+                        "hash": "a3fb95476b85b2bc43384bf6b7f6ba8053e0eff4",
+                        "name": "mob/nautilus/ambient7"
+                    },
+                    {
+                        "hash": "94bed4c46b2ad1d38c77d17926b8821382df2c13",
+                        "name": "mob/nautilus/ambient8"
+                    }
+                ],
+                "subtitle": "Nautilus clacks",
+                "subtitle_key": "subtitles.entity.nautilus.ambient"
+            }
+        ],
+        "entity.nautilus.dash": [
+            null,
+            {
+                "field": "sE",
+                "id": 1017,
+                "name": "entity.nautilus.dash",
+                "sounds": [
+                    {
+                        "hash": "f1a6e5aa446e49b695fbafedfbf02a7f6177d20d",
+                        "name": "mob/nautilus/dash1"
+                    },
+                    {
+                        "hash": "06317ff7367e50af1a74b9c2bea5ef7773372f2d",
+                        "name": "mob/nautilus/dash2"
+                    },
+                    {
+                        "hash": "59eabf53f8507029a7a0179262ec80409f7584cd",
+                        "name": "mob/nautilus/dash3"
+                    },
+                    {
+                        "hash": "378fd985c0de76da97d626f9806d528136c8460f",
+                        "name": "mob/nautilus/dash4"
+                    }
+                ],
+                "subtitle": "Nautilus jets",
+                "subtitle_key": "subtitles.entity.nautilus.dash"
+            }
+        ],
+        "entity.nautilus.dash_ready": [
+            null,
+            {
+                "field": "sF",
+                "id": 1018,
+                "name": "entity.nautilus.dash_ready",
+                "sounds": [
+                    {
+                        "hash": "20a2978922313bb5228d879b8081e3700f5ce5bb",
+                        "name": "mob/nautilus/dash_ready1"
+                    },
+                    {
+                        "hash": "761773e6a284a97dbf2f72a2eccdc86f941f153e",
+                        "name": "mob/nautilus/dash_ready2"
+                    },
+                    {
+                        "hash": "8a8114476ec8709368efdd9e26fcc60bff0b3bd8",
+                        "name": "mob/nautilus/dash_ready3"
+                    }
+                ],
+                "subtitle": "Nautilus recovers",
+                "subtitle_key": "subtitles.entity.nautilus.dash_ready"
+            }
+        ],
+        "entity.nautilus.death": [
+            null,
+            {
+                "field": "sG",
+                "id": 1019,
+                "name": "entity.nautilus.death",
+                "sounds": [
+                    {
+                        "hash": "78702c6433d81ddb5c556d94eded3a6f818251f9",
+                        "name": "mob/nautilus/death"
+                    }
+                ],
+                "subtitle": "Nautilus dies",
+                "subtitle_key": "subtitles.entity.nautilus.death"
+            }
+        ],
+        "entity.nautilus.eat": [
+            null,
+            {
+                "field": "sH",
+                "id": 1020,
+                "name": "entity.nautilus.eat",
+                "sounds": [
+                    {
+                        "hash": "13afa5748448440724216254b588fe0b44acf700",
+                        "name": "mob/nautilus/eat1"
+                    },
+                    {
+                        "hash": "399ea22c603e96cc955f93ffe5850b0fe46e19a3",
+                        "name": "mob/nautilus/eat2"
+                    }
+                ],
+                "subtitle": "Nauilus eats",
+                "subtitle_key": "subtitles.entity.nautilus.eat"
+            }
+        ],
+        "entity.nautilus.hurt": [
+            null,
+            {
+                "field": "sI",
+                "id": 1021,
+                "name": "entity.nautilus.hurt",
+                "sounds": [
+                    {
+                        "hash": "b1abbf3a7eebb5b31e2de443f1605f093527220a",
+                        "name": "mob/nautilus/hurt1"
+                    },
+                    {
+                        "hash": "986a0f4dfce89008e043caa0b5c38761b885726c",
+                        "name": "mob/nautilus/hurt2"
+                    },
+                    {
+                        "hash": "54f3878bcc4a6091489dd3a206e3458af14e4f7f",
+                        "name": "mob/nautilus/hurt3"
+                    },
+                    {
+                        "hash": "e883215a4e967349b94213bb7e76d968c184b9d4",
+                        "name": "mob/nautilus/hurt4"
+                    }
+                ],
+                "subtitle": "Nautilus hurts",
+                "subtitle_key": "subtitles.entity.nautilus.hurt"
+            }
+        ],
+        "entity.nautilus.swim": [
+            null,
+            {
+                "field": "sJ",
+                "id": 1022,
+                "name": "entity.nautilus.swim",
+                "sounds": [
+                    {
+                        "name": "entity.fish.swim",
+                        "type": "event"
+                    }
+                ],
+                "subtitle": "Nautilus swims",
+                "subtitle_key": "subtitles.entity.nautilus.swim"
+            }
+        ],
+        "entity.zombie_horse.angry": [
+            null,
+            {
+                "field": "Gm",
+                "id": 1727,
+                "name": "entity.zombie_horse.angry",
+                "sounds": [
+                    {
+                        "hash": "e884435a863e8d24f03509f0c70d107b651ba4ce",
+                        "name": "mob/horse/zombie/angry"
+                    }
+                ],
+                "subtitle": "Zombie Horse neighs",
+                "subtitle_key": "subtitles.entity.zombie_horse.angry"
+            }
+        ],
+        "entity.zombie_nautilus.ambient": [
+            null,
+            {
+                "field": "Gr",
+                "id": 1732,
+                "name": "entity.zombie_nautilus.ambient",
+                "sounds": [
+                    {
+                        "hash": "33526e2c16aee8f3df6dd6ae3024d3f3170b4294",
+                        "name": "mob/zombie_nautilus/ambient1"
+                    },
+                    {
+                        "hash": "9561606cf8238897f033bb19a4129359d3b9cd4c",
+                        "name": "mob/zombie_nautilus/ambient2"
+                    },
+                    {
+                        "hash": "df192101561880a6e43e89493f6fc3c6e4934941",
+                        "name": "mob/zombie_nautilus/ambient3"
+                    },
+                    {
+                        "hash": "6185ff58cc432fd2cba9018645a2a8d01890ea8b",
+                        "name": "mob/zombie_nautilus/ambient4"
+                    },
+                    {
+                        "hash": "9ad4fb46cca31d28e7e3971570ff0f4f06eb92f4",
+                        "name": "mob/zombie_nautilus/ambient5"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus burbles",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.ambient"
+            }
+        ],
+        "entity.zombie_nautilus.dash": [
+            null,
+            {
+                "field": "Gs",
+                "id": 1733,
+                "name": "entity.zombie_nautilus.dash",
+                "sounds": [
+                    {
+                        "name": "entity.nautilus.dash",
+                        "type": "event"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus jets",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.dash"
+            }
+        ],
+        "entity.zombie_nautilus.dash_ready": [
+            null,
+            {
+                "field": "Gt",
+                "id": 1734,
+                "name": "entity.zombie_nautilus.dash_ready",
+                "sounds": [
+                    {
+                        "hash": "2176f149287de50ea15d2604807caf3419b54d59",
+                        "name": "mob/zombie_nautilus/dash_ready1"
+                    },
+                    {
+                        "hash": "fd5652ef33d5add0b169e3aacbbcd6cc00ab555e",
+                        "name": "mob/zombie_nautilus/dash_ready2"
+                    },
+                    {
+                        "hash": "91e6b5d66b587abc7e616ca8c348255b2365d862",
+                        "name": "mob/zombie_nautilus/dash_ready3"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus recovers",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.dash_ready"
+            }
+        ],
+        "entity.zombie_nautilus.death": [
+            null,
+            {
+                "field": "Gu",
+                "id": 1735,
+                "name": "entity.zombie_nautilus.death",
+                "sounds": [
+                    {
+                        "hash": "a3f2b27bd1f54c98455f11c17418a16dd85cb1be",
+                        "name": "mob/zombie_nautilus/death"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus dies",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.death"
+            }
+        ],
+        "entity.zombie_nautilus.eat": [
+            null,
+            {
+                "field": "Gv",
+                "id": 1736,
+                "name": "entity.zombie_nautilus.eat",
+                "sounds": [
+                    {
+                        "hash": "c3c6981d6350eb5661c4e8b23e97c4370f8c0f45",
+                        "name": "mob/zombie_nautilus/eat1"
+                    },
+                    {
+                        "hash": "2f8790ade72501d5c82ccaf1ab9552b0c7b19178",
+                        "name": "mob/zombie_nautilus/eat2"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus eats",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.eat"
+            }
+        ],
+        "entity.zombie_nautilus.hurt": [
+            null,
+            {
+                "field": "Gw",
+                "id": 1737,
+                "name": "entity.zombie_nautilus.hurt",
+                "sounds": [
+                    {
+                        "hash": "72e10acda2694414dc794bce3485c4afa574dd0d",
+                        "name": "mob/zombie_nautilus/hurt1"
+                    },
+                    {
+                        "hash": "b043bbd9f8aaceacd4dde89d413424c80331c72c",
+                        "name": "mob/zombie_nautilus/hurt2"
+                    },
+                    {
+                        "hash": "75d8512e350d4f432346f5ba435e4dfaee3cee79",
+                        "name": "mob/zombie_nautilus/hurt3"
+                    },
+                    {
+                        "hash": "e71b4031967fbe6e28ac6a3d40c6eb492ce6b042",
+                        "name": "mob/zombie_nautilus/hurt4"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus hurts",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.hurt"
+            }
+        ],
+        "entity.zombie_nautilus.swim": [
+            null,
+            {
+                "field": "Gx",
+                "id": 1738,
+                "name": "entity.zombie_nautilus.swim",
+                "sounds": [
+                    {
+                        "name": "entity.fish.swim",
+                        "type": "event"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus swims",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.swim"
+            }
+        ],
+        "item.armor.equip_nautilus": [
+            null,
+            {
+                "field": "aB",
+                "id": 79,
+                "name": "item.armor.equip_nautilus",
+                "sounds": [
+                    {
+                        "hash": "7b3b3090c1652e73b99880388ccb00f9bb28d28d",
+                        "name": "item/armor/equip_wolf1"
+                    },
+                    {
+                        "hash": "00cac24f0f0f86a8cf565fae4a172632020ac01b",
+                        "name": "item/armor/equip_wolf2"
+                    }
+                ],
+                "subtitle": "Nautilus Armor equips",
+                "subtitle_key": "subtitles.item.armor.equip_nautilus"
+            }
+        ],
+        "item.armor.unequip_nautilus": [
+            null,
+            {
+                "field": "aC",
+                "id": 80,
+                "name": "item.armor.unequip_nautilus",
+                "sounds": [
+                    {
+                        "hash": "8515daefb7997178c39bf3ee44e418122098fb71",
+                        "name": "item/armor/unequip_wolf1"
+                    },
+                    {
+                        "hash": "04ac3b928398bfa3762c6c2874cc66dcd8381472",
+                        "name": "item/armor/unequip_wolf2"
+                    }
+                ],
+                "subtitle": "Nautilus Armor unequips",
+                "subtitle_key": "subtitles.item.armor.unequip_nautilus"
+            }
+        ],
+        "item.spear.attack": [
+            null,
+            {
+                "field": "AD",
+                "id": 1432,
+                "name": "item.spear.attack",
+                "sounds": [
+                    {
+                        "hash": "b7465f5c97e1056f5b49b6b0a7bb5205b21bca26",
+                        "name": "item/spear/attack1"
+                    },
+                    {
+                        "hash": "f93dad41a57680ecb0e0d65a3ca5776f608beb0b",
+                        "name": "item/spear/attack2"
+                    },
+                    {
+                        "hash": "605719f2e01fe91850a84c83f70b31853aa3e99b",
+                        "name": "item/spear/attack3"
+                    }
+                ],
+                "subtitle": "Spear jabs",
+                "subtitle_key": "subtitles.item.spear.attack"
+            }
+        ],
+        "item.spear.hit": [
+            null,
+            {
+                "field": "AC",
+                "id": 1431,
+                "name": "item.spear.hit",
+                "sounds": [
+                    {
+                        "hash": "0b00ccbaf87997fd2571946b20b8eedb29dd0388",
+                        "name": "item/spear/hit1"
+                    },
+                    {
+                        "hash": "d53d8610feeae6d4dc089a65f05e82c939b5eef2",
+                        "name": "item/spear/hit2"
+                    },
+                    {
+                        "hash": "07f255f4919ea113183e1148d96342723e622d07",
+                        "name": "item/spear/hit3"
+                    }
+                ],
+                "subtitle": "Spear hits",
+                "subtitle_key": "subtitles.item.spear.hit"
+            }
+        ],
+        "item.spear.lunge_1": [
+            null,
+            {
+                "field": "qk",
+                "id": 893,
+                "name": "item.spear.lunge_1",
+                "sounds": [
+                    {
+                        "hash": "27f40dd42c41783cf8e37985a00f8dc30247daf2",
+                        "name": "item/spear/lunge1"
+                    }
+                ],
+                "subtitle": "Spear lunges",
+                "subtitle_key": "subtitles.item.spear.lunge"
+            }
+        ],
+        "item.spear.lunge_2": [
+            null,
+            {
+                "field": "ql",
+                "id": 894,
+                "name": "item.spear.lunge_2",
+                "sounds": [
+                    {
+                        "hash": "6d543461fdd01bb42aba1a4ea11991cce0a2cc2e",
+                        "name": "item/spear/lunge2"
+                    }
+                ],
+                "subtitle": "Spear lunges",
+                "subtitle_key": "subtitles.item.spear.lunge"
+            }
+        ],
+        "item.spear.lunge_3": [
+            null,
+            {
+                "field": "qm",
+                "id": 895,
+                "name": "item.spear.lunge_3",
+                "sounds": [
+                    {
+                        "hash": "9f98ac19da8a682da80b9f1a9c491a51fcb961fb",
+                        "name": "item/spear/lunge3"
+                    }
+                ],
+                "subtitle": "Spear lunges",
+                "subtitle_key": "subtitles.item.spear.lunge"
+            }
+        ],
+        "item.spear.use": [
+            null,
+            {
+                "field": "AB",
+                "id": 1430,
+                "name": "item.spear.use",
+                "sounds": [
+                    {
+                        "hash": "1ae7fea3dc9c7b3016ff1b79b5e51bd1c1e1cf50",
+                        "name": "item/spear/use"
+                    }
+                ],
+                "subtitle": "Charges with Spear",
+                "subtitle_key": "subtitles.item.spear.use"
+            }
+        ],
+        "item.spear_wood.attack": [
+            null,
+            {
+                "field": "AG",
+                "id": 1435,
+                "name": "item.spear_wood.attack",
+                "sounds": [
+                    {
+                        "hash": "b83f0cec28f0b517507b54b879bab7d1e1f52462",
+                        "name": "item/spear/wood/attack1"
+                    },
+                    {
+                        "hash": "3d218c4cc63e12d5578675f2db6a6367db88d2fc",
+                        "name": "item/spear/wood/attack2"
+                    },
+                    {
+                        "hash": "cbe2ec25a4027f0fcfb0dece47e1cfd074ffaf53",
+                        "name": "item/spear/wood/attack3"
+                    }
+                ],
+                "subtitle": "Spear jabs",
+                "subtitle_key": "subtitles.item.spear_wood.attack"
+            }
+        ],
+        "item.spear_wood.hit": [
+            null,
+            {
+                "field": "AF",
+                "id": 1434,
+                "name": "item.spear_wood.hit",
+                "sounds": [
+                    {
+                        "hash": "417611aaa8827bb57188a7b9e7535af4bfd00462",
+                        "name": "item/spear/wood/hit1"
+                    },
+                    {
+                        "hash": "95cc1a95725bc0dc66159d970664a12fa309d2e9",
+                        "name": "item/spear/wood/hit2"
+                    },
+                    {
+                        "hash": "5687c0f1c2766c3cb7d0aecfd2ddc34db2b9551b",
+                        "name": "item/spear/wood/hit3"
+                    }
+                ],
+                "subtitle": "Spear hits",
+                "subtitle_key": "subtitles.item.spear_wood.hit"
+            }
+        ],
+        "item.spear_wood.use": [
+            null,
+            {
+                "field": "AE",
+                "id": 1433,
+                "name": "item.spear_wood.use",
+                "sounds": [
+                    {
+                        "hash": "2e30e1421b2b749fc4bb1ea187cd497ae06ace90",
+                        "name": "item/spear/wood/use"
+                    }
+                ],
+                "subtitle": "Charges with Spear",
+                "subtitle_key": "subtitles.item.spear_wood.use"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/can_glide_through": [
+            null,
+            {
+                "name": "can_glide_through",
+                "type": "block",
+                "values": [
+                    "minecraft:vine",
+                    "minecraft:twisting_vines",
+                    "minecraft:twisting_vines_plant",
+                    "minecraft:weeping_vines",
+                    "minecraft:weeping_vines_plant"
+                ]
+            }
+        ],
+        "damage_type/can_break_armor_stand": [
+            {
+                "name": "can_break_armor_stand",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:player_explosion",
+                    "minecraft:player_attack",
+                    "minecraft:mace_smash"
+                ]
+            },
+            {
+                "name": "can_break_armor_stand",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:player_explosion",
+                    "minecraft:player_attack",
+                    "minecraft:spear",
+                    "minecraft:mace_smash"
+                ]
+            }
+        ],
+        "damage_type/is_player_attack": [
+            {
+                "name": "is_player_attack",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:player_attack",
+                    "minecraft:mace_smash"
+                ]
+            },
+            {
+                "name": "is_player_attack",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:player_attack",
+                    "minecraft:spear",
+                    "minecraft:mace_smash"
+                ]
+            }
+        ],
+        "damage_type/no_knockback": [
+            {
+                "name": "no_knockback",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:explosion",
+                    "minecraft:player_explosion",
+                    "minecraft:bad_respawn_point",
+                    "minecraft:in_fire",
+                    "minecraft:lightning_bolt",
+                    "minecraft:on_fire",
+                    "minecraft:lava",
+                    "minecraft:hot_floor",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:starve",
+                    "minecraft:cactus",
+                    "minecraft:fall",
+                    "minecraft:ender_pearl",
+                    "minecraft:fly_into_wall",
+                    "minecraft:out_of_world",
+                    "minecraft:generic",
+                    "minecraft:magic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:dry_out",
+                    "minecraft:sweet_berry_bush",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:outside_border",
+                    "minecraft:generic_kill",
+                    "minecraft:campfire"
+                ]
+            },
+            {
+                "name": "no_knockback",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:explosion",
+                    "minecraft:player_explosion",
+                    "minecraft:bad_respawn_point",
+                    "minecraft:in_fire",
+                    "minecraft:lightning_bolt",
+                    "minecraft:on_fire",
+                    "minecraft:lava",
+                    "minecraft:hot_floor",
+                    "minecraft:in_wall",
+                    "minecraft:cramming",
+                    "minecraft:drown",
+                    "minecraft:starve",
+                    "minecraft:cactus",
+                    "minecraft:fall",
+                    "minecraft:ender_pearl",
+                    "minecraft:fly_into_wall",
+                    "minecraft:out_of_world",
+                    "minecraft:generic",
+                    "minecraft:magic",
+                    "minecraft:wither",
+                    "minecraft:dragon_breath",
+                    "minecraft:dry_out",
+                    "minecraft:sweet_berry_bush",
+                    "minecraft:freeze",
+                    "minecraft:stalagmite",
+                    "minecraft:outside_border",
+                    "minecraft:generic_kill",
+                    "minecraft:campfire",
+                    "minecraft:spear"
+                ]
+            }
+        ],
+        "damage_type/panic_causes": [
+            {
+                "name": "panic_causes",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:cactus",
+                    "minecraft:freeze",
+                    "minecraft:hot_floor",
+                    "minecraft:in_fire",
+                    "minecraft:lava",
+                    "minecraft:lightning_bolt",
+                    "minecraft:on_fire",
+                    "minecraft:arrow",
+                    "minecraft:dragon_breath",
+                    "minecraft:explosion",
+                    "minecraft:fireball",
+                    "minecraft:fireworks",
+                    "minecraft:indirect_magic",
+                    "minecraft:magic",
+                    "minecraft:mob_attack",
+                    "minecraft:mob_projectile",
+                    "minecraft:player_explosion",
+                    "minecraft:sonic_boom",
+                    "minecraft:sting",
+                    "minecraft:thrown",
+                    "minecraft:trident",
+                    "minecraft:unattributed_fireball",
+                    "minecraft:wind_charge",
+                    "minecraft:wither",
+                    "minecraft:wither_skull",
+                    "minecraft:player_attack",
+                    "minecraft:mace_smash"
+                ]
+            },
+            {
+                "name": "panic_causes",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:cactus",
+                    "minecraft:freeze",
+                    "minecraft:hot_floor",
+                    "minecraft:in_fire",
+                    "minecraft:lava",
+                    "minecraft:lightning_bolt",
+                    "minecraft:on_fire",
+                    "minecraft:arrow",
+                    "minecraft:dragon_breath",
+                    "minecraft:explosion",
+                    "minecraft:fireball",
+                    "minecraft:fireworks",
+                    "minecraft:indirect_magic",
+                    "minecraft:magic",
+                    "minecraft:mob_attack",
+                    "minecraft:mob_projectile",
+                    "minecraft:player_explosion",
+                    "minecraft:sonic_boom",
+                    "minecraft:sting",
+                    "minecraft:thrown",
+                    "minecraft:trident",
+                    "minecraft:unattributed_fireball",
+                    "minecraft:wind_charge",
+                    "minecraft:wither",
+                    "minecraft:wither_skull",
+                    "minecraft:player_attack",
+                    "minecraft:spear",
+                    "minecraft:mace_smash"
+                ]
+            }
+        ],
+        "enchantment/exclusive_set/lunge": [
+            null,
+            {
+                "name": "exclusive_set/lunge",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:mending"
+                ]
+            }
+        ],
+        "enchantment/in_enchanting_table": [
+            {
+                "name": "in_enchanting_table",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:protection",
+                    "minecraft:fire_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:blast_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:thorns",
+                    "minecraft:depth_strider",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:knockback",
+                    "minecraft:fire_aspect",
+                    "minecraft:looting",
+                    "minecraft:sweeping_edge",
+                    "minecraft:efficiency",
+                    "minecraft:silk_touch",
+                    "minecraft:unbreaking",
+                    "minecraft:fortune",
+                    "minecraft:power",
+                    "minecraft:punch",
+                    "minecraft:flame",
+                    "minecraft:infinity",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:lure",
+                    "minecraft:loyalty",
+                    "minecraft:impaling",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:multishot",
+                    "minecraft:quick_charge",
+                    "minecraft:piercing",
+                    "minecraft:density",
+                    "minecraft:breach"
+                ]
+            },
+            {
+                "name": "in_enchanting_table",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:protection",
+                    "minecraft:fire_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:blast_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:thorns",
+                    "minecraft:depth_strider",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:knockback",
+                    "minecraft:fire_aspect",
+                    "minecraft:looting",
+                    "minecraft:sweeping_edge",
+                    "minecraft:efficiency",
+                    "minecraft:silk_touch",
+                    "minecraft:unbreaking",
+                    "minecraft:fortune",
+                    "minecraft:power",
+                    "minecraft:punch",
+                    "minecraft:flame",
+                    "minecraft:infinity",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:lure",
+                    "minecraft:loyalty",
+                    "minecraft:impaling",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:multishot",
+                    "minecraft:quick_charge",
+                    "minecraft:piercing",
+                    "minecraft:density",
+                    "minecraft:breach",
+                    "minecraft:lunge"
+                ]
+            }
+        ],
+        "enchantment/non_treasure": [
+            {
+                "name": "non_treasure",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:protection",
+                    "minecraft:fire_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:blast_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:thorns",
+                    "minecraft:depth_strider",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:knockback",
+                    "minecraft:fire_aspect",
+                    "minecraft:looting",
+                    "minecraft:sweeping_edge",
+                    "minecraft:efficiency",
+                    "minecraft:silk_touch",
+                    "minecraft:unbreaking",
+                    "minecraft:fortune",
+                    "minecraft:power",
+                    "minecraft:punch",
+                    "minecraft:flame",
+                    "minecraft:infinity",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:lure",
+                    "minecraft:loyalty",
+                    "minecraft:impaling",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:multishot",
+                    "minecraft:quick_charge",
+                    "minecraft:piercing",
+                    "minecraft:density",
+                    "minecraft:breach"
+                ]
+            },
+            {
+                "name": "non_treasure",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:protection",
+                    "minecraft:fire_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:blast_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:thorns",
+                    "minecraft:depth_strider",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:knockback",
+                    "minecraft:fire_aspect",
+                    "minecraft:looting",
+                    "minecraft:sweeping_edge",
+                    "minecraft:efficiency",
+                    "minecraft:silk_touch",
+                    "minecraft:unbreaking",
+                    "minecraft:fortune",
+                    "minecraft:power",
+                    "minecraft:punch",
+                    "minecraft:flame",
+                    "minecraft:infinity",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:lure",
+                    "minecraft:loyalty",
+                    "minecraft:impaling",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:multishot",
+                    "minecraft:quick_charge",
+                    "minecraft:piercing",
+                    "minecraft:density",
+                    "minecraft:breach",
+                    "minecraft:lunge"
+                ]
+            }
+        ],
+        "enchantment/on_mob_spawn_equipment": [
+            {
+                "name": "on_mob_spawn_equipment",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:protection",
+                    "minecraft:fire_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:blast_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:thorns",
+                    "minecraft:depth_strider",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:knockback",
+                    "minecraft:fire_aspect",
+                    "minecraft:looting",
+                    "minecraft:sweeping_edge",
+                    "minecraft:efficiency",
+                    "minecraft:silk_touch",
+                    "minecraft:unbreaking",
+                    "minecraft:fortune",
+                    "minecraft:power",
+                    "minecraft:punch",
+                    "minecraft:flame",
+                    "minecraft:infinity",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:lure",
+                    "minecraft:loyalty",
+                    "minecraft:impaling",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:multishot",
+                    "minecraft:quick_charge",
+                    "minecraft:piercing",
+                    "minecraft:density",
+                    "minecraft:breach"
+                ]
+            },
+            {
+                "name": "on_mob_spawn_equipment",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:protection",
+                    "minecraft:fire_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:blast_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:thorns",
+                    "minecraft:depth_strider",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:knockback",
+                    "minecraft:fire_aspect",
+                    "minecraft:looting",
+                    "minecraft:sweeping_edge",
+                    "minecraft:efficiency",
+                    "minecraft:silk_touch",
+                    "minecraft:unbreaking",
+                    "minecraft:fortune",
+                    "minecraft:power",
+                    "minecraft:punch",
+                    "minecraft:flame",
+                    "minecraft:infinity",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:lure",
+                    "minecraft:loyalty",
+                    "minecraft:impaling",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:multishot",
+                    "minecraft:quick_charge",
+                    "minecraft:piercing",
+                    "minecraft:density",
+                    "minecraft:breach",
+                    "minecraft:lunge"
+                ]
+            }
+        ],
+        "enchantment/on_random_loot": [
+            {
+                "name": "on_random_loot",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:protection",
+                    "minecraft:fire_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:blast_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:thorns",
+                    "minecraft:depth_strider",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:knockback",
+                    "minecraft:fire_aspect",
+                    "minecraft:looting",
+                    "minecraft:sweeping_edge",
+                    "minecraft:efficiency",
+                    "minecraft:silk_touch",
+                    "minecraft:unbreaking",
+                    "minecraft:fortune",
+                    "minecraft:power",
+                    "minecraft:punch",
+                    "minecraft:flame",
+                    "minecraft:infinity",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:lure",
+                    "minecraft:loyalty",
+                    "minecraft:impaling",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:multishot",
+                    "minecraft:quick_charge",
+                    "minecraft:piercing",
+                    "minecraft:density",
+                    "minecraft:breach",
+                    "minecraft:binding_curse",
+                    "minecraft:vanishing_curse",
+                    "minecraft:frost_walker",
+                    "minecraft:mending"
+                ]
+            },
+            {
+                "name": "on_random_loot",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:protection",
+                    "minecraft:fire_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:blast_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:thorns",
+                    "minecraft:depth_strider",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:knockback",
+                    "minecraft:fire_aspect",
+                    "minecraft:looting",
+                    "minecraft:sweeping_edge",
+                    "minecraft:efficiency",
+                    "minecraft:silk_touch",
+                    "minecraft:unbreaking",
+                    "minecraft:fortune",
+                    "minecraft:power",
+                    "minecraft:punch",
+                    "minecraft:flame",
+                    "minecraft:infinity",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:lure",
+                    "minecraft:loyalty",
+                    "minecraft:impaling",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:multishot",
+                    "minecraft:quick_charge",
+                    "minecraft:piercing",
+                    "minecraft:density",
+                    "minecraft:breach",
+                    "minecraft:lunge",
+                    "minecraft:binding_curse",
+                    "minecraft:vanishing_curse",
+                    "minecraft:frost_walker",
+                    "minecraft:mending"
+                ]
+            }
+        ],
+        "enchantment/on_traded_equipment": [
+            {
+                "name": "on_traded_equipment",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:protection",
+                    "minecraft:fire_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:blast_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:thorns",
+                    "minecraft:depth_strider",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:knockback",
+                    "minecraft:fire_aspect",
+                    "minecraft:looting",
+                    "minecraft:sweeping_edge",
+                    "minecraft:efficiency",
+                    "minecraft:silk_touch",
+                    "minecraft:unbreaking",
+                    "minecraft:fortune",
+                    "minecraft:power",
+                    "minecraft:punch",
+                    "minecraft:flame",
+                    "minecraft:infinity",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:lure",
+                    "minecraft:loyalty",
+                    "minecraft:impaling",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:multishot",
+                    "minecraft:quick_charge",
+                    "minecraft:piercing",
+                    "minecraft:density",
+                    "minecraft:breach"
+                ]
+            },
+            {
+                "name": "on_traded_equipment",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:protection",
+                    "minecraft:fire_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:blast_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:thorns",
+                    "minecraft:depth_strider",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:knockback",
+                    "minecraft:fire_aspect",
+                    "minecraft:looting",
+                    "minecraft:sweeping_edge",
+                    "minecraft:efficiency",
+                    "minecraft:silk_touch",
+                    "minecraft:unbreaking",
+                    "minecraft:fortune",
+                    "minecraft:power",
+                    "minecraft:punch",
+                    "minecraft:flame",
+                    "minecraft:infinity",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:lure",
+                    "minecraft:loyalty",
+                    "minecraft:impaling",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:multishot",
+                    "minecraft:quick_charge",
+                    "minecraft:piercing",
+                    "minecraft:density",
+                    "minecraft:breach",
+                    "minecraft:lunge"
+                ]
+            }
+        ],
+        "enchantment/tooltip_order": [
+            {
+                "name": "tooltip_order",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:binding_curse",
+                    "minecraft:vanishing_curse",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:wind_burst",
+                    "minecraft:frost_walker",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:impaling",
+                    "minecraft:power",
+                    "minecraft:density",
+                    "minecraft:breach",
+                    "minecraft:piercing",
+                    "minecraft:sweeping_edge",
+                    "minecraft:multishot",
+                    "minecraft:fire_aspect",
+                    "minecraft:flame",
+                    "minecraft:knockback",
+                    "minecraft:punch",
+                    "minecraft:protection",
+                    "minecraft:blast_protection",
+                    "minecraft:fire_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:fortune",
+                    "minecraft:looting",
+                    "minecraft:silk_touch",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:efficiency",
+                    "minecraft:quick_charge",
+                    "minecraft:lure",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:soul_speed",
+                    "minecraft:swift_sneak",
+                    "minecraft:depth_strider",
+                    "minecraft:thorns",
+                    "minecraft:loyalty",
+                    "minecraft:unbreaking",
+                    "minecraft:infinity",
+                    "minecraft:mending"
+                ]
+            },
+            {
+                "name": "tooltip_order",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:binding_curse",
+                    "minecraft:vanishing_curse",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:wind_burst",
+                    "minecraft:frost_walker",
+                    "minecraft:lunge",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:impaling",
+                    "minecraft:power",
+                    "minecraft:density",
+                    "minecraft:breach",
+                    "minecraft:piercing",
+                    "minecraft:sweeping_edge",
+                    "minecraft:multishot",
+                    "minecraft:fire_aspect",
+                    "minecraft:flame",
+                    "minecraft:knockback",
+                    "minecraft:punch",
+                    "minecraft:protection",
+                    "minecraft:blast_protection",
+                    "minecraft:fire_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:fortune",
+                    "minecraft:looting",
+                    "minecraft:silk_touch",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:efficiency",
+                    "minecraft:quick_charge",
+                    "minecraft:lure",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:soul_speed",
+                    "minecraft:swift_sneak",
+                    "minecraft:depth_strider",
+                    "minecraft:thorns",
+                    "minecraft:loyalty",
+                    "minecraft:unbreaking",
+                    "minecraft:infinity",
+                    "minecraft:mending"
+                ]
+            }
+        ],
+        "enchantment/tradeable": [
+            {
+                "name": "tradeable",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:protection",
+                    "minecraft:fire_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:blast_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:thorns",
+                    "minecraft:depth_strider",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:knockback",
+                    "minecraft:fire_aspect",
+                    "minecraft:looting",
+                    "minecraft:sweeping_edge",
+                    "minecraft:efficiency",
+                    "minecraft:silk_touch",
+                    "minecraft:unbreaking",
+                    "minecraft:fortune",
+                    "minecraft:power",
+                    "minecraft:punch",
+                    "minecraft:flame",
+                    "minecraft:infinity",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:lure",
+                    "minecraft:loyalty",
+                    "minecraft:impaling",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:multishot",
+                    "minecraft:quick_charge",
+                    "minecraft:piercing",
+                    "minecraft:density",
+                    "minecraft:breach",
+                    "minecraft:binding_curse",
+                    "minecraft:vanishing_curse",
+                    "minecraft:frost_walker",
+                    "minecraft:mending"
+                ]
+            },
+            {
+                "name": "tradeable",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:protection",
+                    "minecraft:fire_protection",
+                    "minecraft:feather_falling",
+                    "minecraft:blast_protection",
+                    "minecraft:projectile_protection",
+                    "minecraft:respiration",
+                    "minecraft:aqua_affinity",
+                    "minecraft:thorns",
+                    "minecraft:depth_strider",
+                    "minecraft:sharpness",
+                    "minecraft:smite",
+                    "minecraft:bane_of_arthropods",
+                    "minecraft:knockback",
+                    "minecraft:fire_aspect",
+                    "minecraft:looting",
+                    "minecraft:sweeping_edge",
+                    "minecraft:efficiency",
+                    "minecraft:silk_touch",
+                    "minecraft:unbreaking",
+                    "minecraft:fortune",
+                    "minecraft:power",
+                    "minecraft:punch",
+                    "minecraft:flame",
+                    "minecraft:infinity",
+                    "minecraft:luck_of_the_sea",
+                    "minecraft:lure",
+                    "minecraft:loyalty",
+                    "minecraft:impaling",
+                    "minecraft:riptide",
+                    "minecraft:channeling",
+                    "minecraft:multishot",
+                    "minecraft:quick_charge",
+                    "minecraft:piercing",
+                    "minecraft:density",
+                    "minecraft:breach",
+                    "minecraft:lunge",
+                    "minecraft:binding_curse",
+                    "minecraft:vanishing_curse",
+                    "minecraft:frost_walker",
+                    "minecraft:mending"
+                ]
+            }
+        ],
+        "entity_type/aquatic": [
+            {
+                "name": "aquatic",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:turtle",
+                    "minecraft:axolotl",
+                    "minecraft:guardian",
+                    "minecraft:elder_guardian",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:tropical_fish",
+                    "minecraft:dolphin",
+                    "minecraft:squid",
+                    "minecraft:glow_squid",
+                    "minecraft:tadpole"
+                ]
+            },
+            {
+                "name": "aquatic",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:turtle",
+                    "minecraft:axolotl",
+                    "minecraft:guardian",
+                    "minecraft:elder_guardian",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:tropical_fish",
+                    "minecraft:dolphin",
+                    "minecraft:squid",
+                    "minecraft:glow_squid",
+                    "minecraft:tadpole",
+                    "minecraft:nautilus",
+                    "minecraft:zombie_nautilus"
+                ]
+            }
+        ],
+        "entity_type/burn_in_daylight": [
+            null,
+            {
+                "name": "burn_in_daylight",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie_villager",
+                    "minecraft:drowned",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "entity_type/can_breathe_under_water": [
+            {
+                "name": "can_breathe_under_water",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:wither",
+                    "minecraft:phantom",
+                    "minecraft:axolotl",
+                    "minecraft:frog",
+                    "minecraft:guardian",
+                    "minecraft:elder_guardian",
+                    "minecraft:turtle",
+                    "minecraft:glow_squid",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:squid",
+                    "minecraft:tropical_fish",
+                    "minecraft:tadpole",
+                    "minecraft:armor_stand",
+                    "minecraft:copper_golem"
+                ]
+            },
+            {
+                "name": "can_breathe_under_water",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom",
+                    "minecraft:axolotl",
+                    "minecraft:frog",
+                    "minecraft:guardian",
+                    "minecraft:elder_guardian",
+                    "minecraft:turtle",
+                    "minecraft:glow_squid",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:squid",
+                    "minecraft:tropical_fish",
+                    "minecraft:tadpole",
+                    "minecraft:armor_stand",
+                    "minecraft:copper_golem",
+                    "minecraft:nautilus"
+                ]
+            }
+        ],
+        "entity_type/can_equip_saddle": [
+            {
+                "name": "can_equip_saddle",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:horse",
+                    "minecraft:skeleton_horse",
+                    "minecraft:zombie_horse",
+                    "minecraft:donkey",
+                    "minecraft:mule",
+                    "minecraft:pig",
+                    "minecraft:strider",
+                    "minecraft:camel"
+                ]
+            },
+            {
+                "name": "can_equip_saddle",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:horse",
+                    "minecraft:skeleton_horse",
+                    "minecraft:zombie_horse",
+                    "minecraft:donkey",
+                    "minecraft:mule",
+                    "minecraft:pig",
+                    "minecraft:strider",
+                    "minecraft:camel",
+                    "minecraft:nautilus",
+                    "minecraft:zombie_nautilus"
+                ]
+            }
+        ],
+        "entity_type/can_wear_horse_armor": [
+            {
+                "name": "can_wear_horse_armor",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:horse"
+                ]
+            },
+            {
+                "name": "can_wear_horse_armor",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:horse",
+                    "minecraft:zombie_horse"
+                ]
+            }
+        ],
+        "entity_type/can_wear_nautilus_armor": [
+            null,
+            {
+                "name": "can_wear_nautilus_armor",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:nautilus",
+                    "minecraft:zombie_nautilus"
+                ]
+            }
+        ],
+        "entity_type/ignores_poison_and_regen": [
+            {
+                "name": "ignores_poison_and_regen",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            },
+            {
+                "name": "ignores_poison_and_regen",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "entity_type/inverted_healing_and_harm": [
+            {
+                "name": "inverted_healing_and_harm",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            },
+            {
+                "name": "inverted_healing_and_harm",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "entity_type/nautilus_hostiles": [
+            null,
+            {
+                "name": "nautilus_hostiles",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:pufferfish"
+                ]
+            }
+        ],
+        "entity_type/not_scary_for_pufferfish": [
+            {
+                "name": "not_scary_for_pufferfish",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:turtle",
+                    "minecraft:guardian",
+                    "minecraft:elder_guardian",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:tropical_fish",
+                    "minecraft:dolphin",
+                    "minecraft:squid",
+                    "minecraft:glow_squid",
+                    "minecraft:tadpole"
+                ]
+            },
+            {
+                "name": "not_scary_for_pufferfish",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:turtle",
+                    "minecraft:guardian",
+                    "minecraft:elder_guardian",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:tropical_fish",
+                    "minecraft:dolphin",
+                    "minecraft:squid",
+                    "minecraft:glow_squid",
+                    "minecraft:tadpole",
+                    "minecraft:nautilus",
+                    "minecraft:zombie_nautilus"
+                ]
+            }
+        ],
+        "entity_type/sensitive_to_impaling": [
+            {
+                "name": "sensitive_to_impaling",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:turtle",
+                    "minecraft:axolotl",
+                    "minecraft:guardian",
+                    "minecraft:elder_guardian",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:tropical_fish",
+                    "minecraft:dolphin",
+                    "minecraft:squid",
+                    "minecraft:glow_squid",
+                    "minecraft:tadpole"
+                ]
+            },
+            {
+                "name": "sensitive_to_impaling",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:turtle",
+                    "minecraft:axolotl",
+                    "minecraft:guardian",
+                    "minecraft:elder_guardian",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:tropical_fish",
+                    "minecraft:dolphin",
+                    "minecraft:squid",
+                    "minecraft:glow_squid",
+                    "minecraft:tadpole",
+                    "minecraft:nautilus",
+                    "minecraft:zombie_nautilus"
+                ]
+            }
+        ],
+        "entity_type/sensitive_to_smite": [
+            {
+                "name": "sensitive_to_smite",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            },
+            {
+                "name": "sensitive_to_smite",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "entity_type/undead": [
+            {
+                "name": "undead",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            },
+            {
+                "name": "undead",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "entity_type/wither_friends": [
+            {
+                "name": "wither_friends",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            },
+            {
+                "name": "wither_friends",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "entity_type/zombies": [
+            {
+                "name": "zombies",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk"
+                ]
+            },
+            {
+                "name": "zombies",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus"
+                ]
+            }
+        ],
+        "item/enchantable/durability": [
+            {
+                "name": "enchantable/durability",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:copper_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:leather_leggings",
+                    "minecraft:copper_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:copper_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:copper_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet",
+                    "minecraft:elytra",
+                    "minecraft:shield",
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:copper_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:netherite_pickaxe",
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:copper_pickaxe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:stone_shovel",
+                    "minecraft:golden_shovel",
+                    "minecraft:netherite_shovel",
+                    "minecraft:wooden_shovel",
+                    "minecraft:iron_shovel",
+                    "minecraft:copper_shovel",
+                    "minecraft:diamond_hoe",
+                    "minecraft:stone_hoe",
+                    "minecraft:golden_hoe",
+                    "minecraft:netherite_hoe",
+                    "minecraft:wooden_hoe",
+                    "minecraft:iron_hoe",
+                    "minecraft:copper_hoe",
+                    "minecraft:bow",
+                    "minecraft:crossbow",
+                    "minecraft:trident",
+                    "minecraft:flint_and_steel",
+                    "minecraft:shears",
+                    "minecraft:brush",
+                    "minecraft:fishing_rod",
+                    "minecraft:carrot_on_a_stick",
+                    "minecraft:warped_fungus_on_a_stick",
+                    "minecraft:mace"
+                ]
+            },
+            {
+                "name": "enchantable/durability",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:copper_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:leather_leggings",
+                    "minecraft:copper_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:copper_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:copper_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet",
+                    "minecraft:elytra",
+                    "minecraft:shield",
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:copper_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:netherite_pickaxe",
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:copper_pickaxe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:stone_shovel",
+                    "minecraft:golden_shovel",
+                    "minecraft:netherite_shovel",
+                    "minecraft:wooden_shovel",
+                    "minecraft:iron_shovel",
+                    "minecraft:copper_shovel",
+                    "minecraft:diamond_hoe",
+                    "minecraft:stone_hoe",
+                    "minecraft:golden_hoe",
+                    "minecraft:netherite_hoe",
+                    "minecraft:wooden_hoe",
+                    "minecraft:iron_hoe",
+                    "minecraft:copper_hoe",
+                    "minecraft:bow",
+                    "minecraft:crossbow",
+                    "minecraft:trident",
+                    "minecraft:flint_and_steel",
+                    "minecraft:shears",
+                    "minecraft:brush",
+                    "minecraft:fishing_rod",
+                    "minecraft:carrot_on_a_stick",
+                    "minecraft:warped_fungus_on_a_stick",
+                    "minecraft:mace",
+                    "minecraft:diamond_spear",
+                    "minecraft:stone_spear",
+                    "minecraft:golden_spear",
+                    "minecraft:netherite_spear",
+                    "minecraft:wooden_spear",
+                    "minecraft:iron_spear",
+                    "minecraft:copper_spear"
+                ]
+            }
+        ],
+        "item/enchantable/fire_aspect": [
+            {
+                "name": "enchantable/fire_aspect",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:mace"
+                ]
+            },
+            {
+                "name": "enchantable/fire_aspect",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:diamond_spear",
+                    "minecraft:stone_spear",
+                    "minecraft:golden_spear",
+                    "minecraft:netherite_spear",
+                    "minecraft:wooden_spear",
+                    "minecraft:iron_spear",
+                    "minecraft:copper_spear",
+                    "minecraft:mace"
+                ]
+            }
+        ],
+        "item/enchantable/lunge": [
+            null,
+            {
+                "name": "enchantable/lunge",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_spear",
+                    "minecraft:stone_spear",
+                    "minecraft:golden_spear",
+                    "minecraft:netherite_spear",
+                    "minecraft:wooden_spear",
+                    "minecraft:iron_spear",
+                    "minecraft:copper_spear"
+                ]
+            }
+        ],
+        "item/enchantable/melee_weapon": [
+            null,
+            {
+                "name": "enchantable/melee_weapon",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:diamond_spear",
+                    "minecraft:stone_spear",
+                    "minecraft:golden_spear",
+                    "minecraft:netherite_spear",
+                    "minecraft:wooden_spear",
+                    "minecraft:iron_spear",
+                    "minecraft:copper_spear"
+                ]
+            }
+        ],
+        "item/enchantable/sharp_weapon": [
+            {
+                "name": "enchantable/sharp_weapon",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:copper_axe"
+                ]
+            },
+            {
+                "name": "enchantable/sharp_weapon",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:diamond_spear",
+                    "minecraft:stone_spear",
+                    "minecraft:golden_spear",
+                    "minecraft:netherite_spear",
+                    "minecraft:wooden_spear",
+                    "minecraft:iron_spear",
+                    "minecraft:copper_spear",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:copper_axe"
+                ]
+            }
+        ],
+        "item/enchantable/sweeping": [
+            null,
+            {
+                "name": "enchantable/sweeping",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword"
+                ]
+            }
+        ],
+        "item/enchantable/sword": [
+            {
+                "name": "enchantable/sword",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword"
+                ]
+            },
+            null
+        ],
+        "item/enchantable/vanishing": [
+            {
+                "name": "enchantable/vanishing",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:copper_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:leather_leggings",
+                    "minecraft:copper_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:copper_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:copper_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet",
+                    "minecraft:elytra",
+                    "minecraft:shield",
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:copper_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:netherite_pickaxe",
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:copper_pickaxe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:stone_shovel",
+                    "minecraft:golden_shovel",
+                    "minecraft:netherite_shovel",
+                    "minecraft:wooden_shovel",
+                    "minecraft:iron_shovel",
+                    "minecraft:copper_shovel",
+                    "minecraft:diamond_hoe",
+                    "minecraft:stone_hoe",
+                    "minecraft:golden_hoe",
+                    "minecraft:netherite_hoe",
+                    "minecraft:wooden_hoe",
+                    "minecraft:iron_hoe",
+                    "minecraft:copper_hoe",
+                    "minecraft:bow",
+                    "minecraft:crossbow",
+                    "minecraft:trident",
+                    "minecraft:flint_and_steel",
+                    "minecraft:shears",
+                    "minecraft:brush",
+                    "minecraft:fishing_rod",
+                    "minecraft:carrot_on_a_stick",
+                    "minecraft:warped_fungus_on_a_stick",
+                    "minecraft:mace",
+                    "minecraft:compass",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:player_head",
+                    "minecraft:creeper_head",
+                    "minecraft:zombie_head",
+                    "minecraft:skeleton_skull",
+                    "minecraft:wither_skeleton_skull",
+                    "minecraft:dragon_head",
+                    "minecraft:piglin_head"
+                ]
+            },
+            {
+                "name": "enchantable/vanishing",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_boots",
+                    "minecraft:copper_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:leather_leggings",
+                    "minecraft:copper_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:leather_chestplate",
+                    "minecraft:copper_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:leather_helmet",
+                    "minecraft:copper_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet",
+                    "minecraft:elytra",
+                    "minecraft:shield",
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:copper_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:netherite_pickaxe",
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:copper_pickaxe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:stone_shovel",
+                    "minecraft:golden_shovel",
+                    "minecraft:netherite_shovel",
+                    "minecraft:wooden_shovel",
+                    "minecraft:iron_shovel",
+                    "minecraft:copper_shovel",
+                    "minecraft:diamond_hoe",
+                    "minecraft:stone_hoe",
+                    "minecraft:golden_hoe",
+                    "minecraft:netherite_hoe",
+                    "minecraft:wooden_hoe",
+                    "minecraft:iron_hoe",
+                    "minecraft:copper_hoe",
+                    "minecraft:bow",
+                    "minecraft:crossbow",
+                    "minecraft:trident",
+                    "minecraft:flint_and_steel",
+                    "minecraft:shears",
+                    "minecraft:brush",
+                    "minecraft:fishing_rod",
+                    "minecraft:carrot_on_a_stick",
+                    "minecraft:warped_fungus_on_a_stick",
+                    "minecraft:mace",
+                    "minecraft:diamond_spear",
+                    "minecraft:stone_spear",
+                    "minecraft:golden_spear",
+                    "minecraft:netherite_spear",
+                    "minecraft:wooden_spear",
+                    "minecraft:iron_spear",
+                    "minecraft:copper_spear",
+                    "minecraft:compass",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:player_head",
+                    "minecraft:creeper_head",
+                    "minecraft:zombie_head",
+                    "minecraft:skeleton_skull",
+                    "minecraft:wither_skeleton_skull",
+                    "minecraft:dragon_head",
+                    "minecraft:piglin_head"
+                ]
+            }
+        ],
+        "item/enchantable/weapon": [
+            {
+                "name": "enchantable/weapon",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:copper_axe",
+                    "minecraft:mace"
+                ]
+            },
+            {
+                "name": "enchantable/weapon",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:diamond_spear",
+                    "minecraft:stone_spear",
+                    "minecraft:golden_spear",
+                    "minecraft:netherite_spear",
+                    "minecraft:wooden_spear",
+                    "minecraft:iron_spear",
+                    "minecraft:copper_spear",
+                    "minecraft:diamond_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:wooden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:copper_axe",
+                    "minecraft:mace"
+                ]
+            }
+        ],
+        "item/nautilus_bucket_food": [
+            null,
+            {
+                "name": "nautilus_bucket_food",
+                "type": "item",
+                "values": [
+                    "minecraft:pufferfish_bucket",
+                    "minecraft:cod_bucket",
+                    "minecraft:salmon_bucket",
+                    "minecraft:tropical_fish_bucket"
+                ]
+            }
+        ],
+        "item/nautilus_food": [
+            null,
+            {
+                "name": "nautilus_food",
+                "type": "item",
+                "values": [
+                    "minecraft:cod",
+                    "minecraft:cooked_cod",
+                    "minecraft:salmon",
+                    "minecraft:cooked_salmon",
+                    "minecraft:pufferfish",
+                    "minecraft:tropical_fish",
+                    "minecraft:pufferfish_bucket",
+                    "minecraft:cod_bucket",
+                    "minecraft:salmon_bucket",
+                    "minecraft:tropical_fish_bucket"
+                ]
+            }
+        ],
+        "item/nautilus_taming_items": [
+            null,
+            {
+                "name": "nautilus_taming_items",
+                "type": "item",
+                "values": [
+                    "minecraft:pufferfish_bucket",
+                    "minecraft:pufferfish"
+                ]
+            }
+        ],
+        "item/piglin_loved": [
+            {
+                "name": "piglin_loved",
+                "type": "item",
+                "values": [
+                    "minecraft:gold_ore",
+                    "minecraft:nether_gold_ore",
+                    "minecraft:deepslate_gold_ore",
+                    "minecraft:gold_block",
+                    "minecraft:gilded_blackstone",
+                    "minecraft:light_weighted_pressure_plate",
+                    "minecraft:gold_ingot",
+                    "minecraft:bell",
+                    "minecraft:clock",
+                    "minecraft:golden_carrot",
+                    "minecraft:glistering_melon_slice",
+                    "minecraft:golden_apple",
+                    "minecraft:enchanted_golden_apple",
+                    "minecraft:golden_helmet",
+                    "minecraft:golden_chestplate",
+                    "minecraft:golden_leggings",
+                    "minecraft:golden_boots",
+                    "minecraft:golden_horse_armor",
+                    "minecraft:golden_sword",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:golden_shovel",
+                    "minecraft:golden_axe",
+                    "minecraft:golden_hoe",
+                    "minecraft:raw_gold",
+                    "minecraft:raw_gold_block"
+                ]
+            },
+            {
+                "name": "piglin_loved",
+                "type": "item",
+                "values": [
+                    "minecraft:gold_ore",
+                    "minecraft:nether_gold_ore",
+                    "minecraft:deepslate_gold_ore",
+                    "minecraft:gold_block",
+                    "minecraft:gilded_blackstone",
+                    "minecraft:light_weighted_pressure_plate",
+                    "minecraft:gold_ingot",
+                    "minecraft:bell",
+                    "minecraft:clock",
+                    "minecraft:golden_carrot",
+                    "minecraft:glistering_melon_slice",
+                    "minecraft:golden_apple",
+                    "minecraft:enchanted_golden_apple",
+                    "minecraft:golden_helmet",
+                    "minecraft:golden_chestplate",
+                    "minecraft:golden_leggings",
+                    "minecraft:golden_boots",
+                    "minecraft:golden_horse_armor",
+                    "minecraft:golden_sword",
+                    "minecraft:golden_spear",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:golden_shovel",
+                    "minecraft:golden_axe",
+                    "minecraft:golden_hoe",
+                    "minecraft:raw_gold",
+                    "minecraft:raw_gold_block"
+                ]
+            }
+        ],
+        "item/spears": [
+            null,
+            {
+                "name": "spears",
+                "type": "item",
+                "values": [
+                    "minecraft:diamond_spear",
+                    "minecraft:stone_spear",
+                    "minecraft:golden_spear",
+                    "minecraft:netherite_spear",
+                    "minecraft:wooden_spear",
+                    "minecraft:iron_spear",
+                    "minecraft:copper_spear"
+                ]
+            }
+        ],
+        "item/zombie_horse_food": [
+            null,
+            {
+                "name": "zombie_horse_food",
+                "type": "item",
+                "values": [
+                    "minecraft:red_mushroom"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4556,
+            4653
+        ],
+        "id": [
+            "1.21.10",
+            "25w41a"
+        ],
+        "name": [
+            "1.21.10",
+            "25w41a"
+        ],
+        "protocol": [
+            773,
+            1073742097
+        ]
+    }
+}
