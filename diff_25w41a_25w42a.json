@@ -1,0 +1,351 @@
+{
+    "achievements": {},
+    "language": {
+        "chat": {
+            "queue.tooltip": [
+                null,
+                "Click to display next message"
+            ]
+        },
+        "mco": {
+            "backup.entry.worldType.adventureMap": [
+                null,
+                "Adventure Map"
+            ],
+            "backup.entry.worldType.experience": [
+                null,
+                "Experience"
+            ],
+            "backup.entry.worldType.inspiration": [
+                null,
+                "Inspiration"
+            ],
+            "backup.entry.worldType.minigame": [
+                null,
+                "Minigame"
+            ],
+            "backup.entry.worldType.normal": [
+                null,
+                "Normal"
+            ],
+            "backup.entry.worldType.unknown": [
+                null,
+                "Unknown"
+            ]
+        },
+        "subtitles": {
+            "entity.baby_nautilus.eat": [
+                "Baby Nauilus eats",
+                "Baby Nautilus eats"
+            ],
+            "entity.nautilus.eat": [
+                "Nauilus eats",
+                "Nautilus eats"
+            ]
+        }
+    },
+    "sounds": {
+        "entity.baby_nautilus.eat": [
+            {
+                "field": "bg",
+                "id": 110,
+                "name": "entity.baby_nautilus.eat",
+                "sounds": [
+                    {
+                        "hash": "752cb94f7751e2b3ebcda41dd4f906889e1f0a51",
+                        "name": "mob/baby_nautilus/eat1"
+                    },
+                    {
+                        "hash": "6291956028159a53f625eb0c8171f9370658f156",
+                        "name": "mob/baby_nautilus/eat2"
+                    }
+                ],
+                "subtitle": "Baby Nauilus eats",
+                "subtitle_key": "subtitles.entity.baby_nautilus.eat"
+            },
+            {
+                "field": "bg",
+                "id": 110,
+                "name": "entity.baby_nautilus.eat",
+                "sounds": [
+                    {
+                        "hash": "752cb94f7751e2b3ebcda41dd4f906889e1f0a51",
+                        "name": "mob/baby_nautilus/eat1"
+                    },
+                    {
+                        "hash": "6291956028159a53f625eb0c8171f9370658f156",
+                        "name": "mob/baby_nautilus/eat2"
+                    }
+                ],
+                "subtitle": "Baby Nautilus eats",
+                "subtitle_key": "subtitles.entity.baby_nautilus.eat"
+            }
+        ],
+        "entity.nautilus.eat": [
+            {
+                "field": "sH",
+                "id": 1020,
+                "name": "entity.nautilus.eat",
+                "sounds": [
+                    {
+                        "hash": "13afa5748448440724216254b588fe0b44acf700",
+                        "name": "mob/nautilus/eat1"
+                    },
+                    {
+                        "hash": "399ea22c603e96cc955f93ffe5850b0fe46e19a3",
+                        "name": "mob/nautilus/eat2"
+                    }
+                ],
+                "subtitle": "Nauilus eats",
+                "subtitle_key": "subtitles.entity.nautilus.eat"
+            },
+            {
+                "field": "sI",
+                "id": 1021,
+                "name": "entity.nautilus.eat",
+                "sounds": [
+                    {
+                        "hash": "13afa5748448440724216254b588fe0b44acf700",
+                        "name": "mob/nautilus/eat1"
+                    },
+                    {
+                        "hash": "399ea22c603e96cc955f93ffe5850b0fe46e19a3",
+                        "name": "mob/nautilus/eat2"
+                    }
+                ],
+                "subtitle": "Nautilus eats",
+                "subtitle_key": "subtitles.entity.nautilus.eat"
+            }
+        ],
+        "entity.nautilus.riding": [
+            null,
+            {
+                "field": "bi",
+                "id": 112,
+                "name": "entity.nautilus.riding",
+                "sounds": [
+                    {
+                        "hash": "a11aff04b1141ed73a7ab8cc499115a674def07e",
+                        "name": "mob/nautilus/ride"
+                    }
+                ]
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/can_glide_through": [
+            {
+                "name": "can_glide_through",
+                "type": "block",
+                "values": [
+                    "minecraft:vine",
+                    "minecraft:twisting_vines",
+                    "minecraft:twisting_vines_plant",
+                    "minecraft:weeping_vines",
+                    "minecraft:weeping_vines_plant"
+                ]
+            },
+            {
+                "name": "can_glide_through",
+                "type": "block",
+                "values": [
+                    "minecraft:vine",
+                    "minecraft:twisting_vines",
+                    "minecraft:twisting_vines_plant",
+                    "minecraft:weeping_vines",
+                    "minecraft:weeping_vines_plant",
+                    "minecraft:cave_vines_plant",
+                    "minecraft:cave_vines"
+                ]
+            }
+        ],
+        "enchantment/exclusive_set/lunge": [
+            {
+                "name": "exclusive_set/lunge",
+                "type": "enchantment",
+                "values": [
+                    "minecraft:mending"
+                ]
+            },
+            null
+        ],
+        "entity_type/burn_in_daylight": [
+            {
+                "name": "burn_in_daylight",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie_villager",
+                    "minecraft:drowned",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:phantom"
+                ]
+            },
+            {
+                "name": "burn_in_daylight",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:bogged",
+                    "minecraft:zombie",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie_villager",
+                    "minecraft:drowned",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "item/piglin_loved": [
+            {
+                "name": "piglin_loved",
+                "type": "item",
+                "values": [
+                    "minecraft:gold_ore",
+                    "minecraft:nether_gold_ore",
+                    "minecraft:deepslate_gold_ore",
+                    "minecraft:gold_block",
+                    "minecraft:gilded_blackstone",
+                    "minecraft:light_weighted_pressure_plate",
+                    "minecraft:gold_ingot",
+                    "minecraft:bell",
+                    "minecraft:clock",
+                    "minecraft:golden_carrot",
+                    "minecraft:glistering_melon_slice",
+                    "minecraft:golden_apple",
+                    "minecraft:enchanted_golden_apple",
+                    "minecraft:golden_helmet",
+                    "minecraft:golden_chestplate",
+                    "minecraft:golden_leggings",
+                    "minecraft:golden_boots",
+                    "minecraft:golden_horse_armor",
+                    "minecraft:golden_sword",
+                    "minecraft:golden_spear",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:golden_shovel",
+                    "minecraft:golden_axe",
+                    "minecraft:golden_hoe",
+                    "minecraft:raw_gold",
+                    "minecraft:raw_gold_block"
+                ]
+            },
+            {
+                "name": "piglin_loved",
+                "type": "item",
+                "values": [
+                    "minecraft:gold_ore",
+                    "minecraft:nether_gold_ore",
+                    "minecraft:deepslate_gold_ore",
+                    "minecraft:gold_block",
+                    "minecraft:gilded_blackstone",
+                    "minecraft:light_weighted_pressure_plate",
+                    "minecraft:gold_ingot",
+                    "minecraft:bell",
+                    "minecraft:clock",
+                    "minecraft:golden_carrot",
+                    "minecraft:glistering_melon_slice",
+                    "minecraft:golden_apple",
+                    "minecraft:enchanted_golden_apple",
+                    "minecraft:golden_helmet",
+                    "minecraft:golden_chestplate",
+                    "minecraft:golden_leggings",
+                    "minecraft:golden_boots",
+                    "minecraft:golden_horse_armor",
+                    "minecraft:golden_nautilus_armor",
+                    "minecraft:golden_sword",
+                    "minecraft:golden_spear",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:golden_shovel",
+                    "minecraft:golden_axe",
+                    "minecraft:golden_hoe",
+                    "minecraft:raw_gold",
+                    "minecraft:raw_gold_block"
+                ]
+            }
+        ],
+        "worldgen/biome/has_closer_water_fog": [
+            {
+                "name": "biome/has_closer_water_fog",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:swamp",
+                    "minecraft:mangrove_swamp"
+                ]
+            },
+            null
+        ],
+        "worldgen/biome/increased_fire_burnout": [
+            {
+                "name": "biome/increased_fire_burnout",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:bamboo_jungle",
+                    "minecraft:mushroom_fields",
+                    "minecraft:mangrove_swamp",
+                    "minecraft:snowy_slopes",
+                    "minecraft:frozen_peaks",
+                    "minecraft:jagged_peaks",
+                    "minecraft:swamp",
+                    "minecraft:jungle"
+                ]
+            },
+            null
+        ],
+        "worldgen/biome/plays_underwater_music": [
+            {
+                "name": "biome/plays_underwater_music",
+                "type": "worldgen",
+                "values": []
+            },
+            null
+        ],
+        "worldgen/biome/snow_golem_melts": [
+            {
+                "name": "biome/snow_golem_melts",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:badlands",
+                    "minecraft:basalt_deltas",
+                    "minecraft:crimson_forest",
+                    "minecraft:desert",
+                    "minecraft:eroded_badlands",
+                    "minecraft:nether_wastes",
+                    "minecraft:savanna",
+                    "minecraft:savanna_plateau",
+                    "minecraft:soul_sand_valley",
+                    "minecraft:warped_forest",
+                    "minecraft:windswept_savanna",
+                    "minecraft:wooded_badlands"
+                ]
+            },
+            null
+        ]
+    },
+    "version": {
+        "data": [
+            4653,
+            4654
+        ],
+        "id": [
+            "25w41a",
+            "25w42a"
+        ],
+        "name": [
+            "25w41a",
+            "25w42a"
+        ],
+        "protocol": [
+            1073742097,
+            1073742098
+        ]
+    }
+}
