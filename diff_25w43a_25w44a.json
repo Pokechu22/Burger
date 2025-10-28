@@ -1,0 +1,1168 @@
+{
+    "achievements": {},
+    "language": {
+        "createWorld": {
+            "customize.buffet.search": [
+                null,
+                "Search..."
+            ]
+        },
+        "entity": {
+            "minecraft.camel_husk": [
+                null,
+                "Camel Husk"
+            ],
+            "minecraft.parched": [
+                null,
+                "Parched"
+            ]
+        },
+        "gamerule": {
+            "minecraft.elytra_movement_check": [
+                null,
+                "Do elytra movement check"
+            ],
+            "minecraft.fire_spread_radius_around_player": [
+                null,
+                "Fire spread radius"
+            ],
+            "minecraft.fire_spread_radius_around_player.description": [
+                null,
+                "The radius in blocks around a player in which fire can spread"
+            ],
+            "minecraft.player_movement_check": [
+                null,
+                "Do player movement check"
+            ],
+            "minecraft.raids": [
+                null,
+                "Do raids"
+            ]
+        },
+        "gui": {
+            "language.search": [
+                null,
+                "Search..."
+            ]
+        },
+        "item": {
+            "minecraft.camel_husk_spawn_egg": [
+                null,
+                "Camel Husk Spawn Egg"
+            ],
+            "minecraft.parched_spawn_egg": [
+                null,
+                "Parched Spawn Egg"
+            ]
+        },
+        "options": {
+            "chunkFade": [
+                null,
+                "Chunk Fade Time"
+            ],
+            "chunkFade.none": [
+                null,
+                "Chunk Fade: None"
+            ],
+            "chunkFade.seconds": [
+                null,
+                "Chunk Fade: %s second(s)"
+            ],
+            "chunkFade.tooltip": [
+                null,
+                "How long in seconds chunks should fade in when they're first rendered, if at all."
+            ],
+            "maxAnisotropy": [
+                null,
+                "Anisotropic Filtering"
+            ],
+            "maxAnisotropy.tooltip": [
+                null,
+                "Significantly improves how smooth textures look, but impacts performance and significantly impacts video memory usage. May not be supported on all hardware."
+            ],
+            "video.preferences.header": [
+                null,
+                "Preferences"
+            ]
+        },
+        "stat": {
+            "minecraft.nautilus_one_cm": [
+                null,
+                "Distance by Nautilus"
+            ]
+        },
+        "subtitles": {
+            "entity.camel_husk.ambient": [
+                null,
+                "Camel Husk grumphs"
+            ],
+            "entity.camel_husk.dash": [
+                null,
+                "Camel Husk yeets"
+            ],
+            "entity.camel_husk.dash_ready": [
+                null,
+                "Camel Husk recovers"
+            ],
+            "entity.camel_husk.death": [
+                null,
+                "Camel Husk dies"
+            ],
+            "entity.camel_husk.eat": [
+                null,
+                "Camel Husk eats"
+            ],
+            "entity.camel_husk.hurt": [
+                null,
+                "Camel Husk hurts"
+            ],
+            "entity.camel_husk.saddle": [
+                null,
+                "Saddle equips"
+            ],
+            "entity.camel_husk.sit": [
+                null,
+                "Camel Husk sits down"
+            ],
+            "entity.camel_husk.stand": [
+                null,
+                "Camel Husk stands up"
+            ],
+            "entity.parched.ambient": [
+                null,
+                "Stray rattles"
+            ],
+            "entity.parched.death": [
+                null,
+                "Stray dies"
+            ],
+            "entity.parched.hurt": [
+                null,
+                "Stray hurts"
+            ],
+            "entity.parrot.imitate.camel_husk": [
+                null,
+                "Parrot grumphs"
+            ],
+            "entity.parrot.imitate.parched": [
+                null,
+                "Parrot crackles"
+            ],
+            "entity.parrot.imitate.zombie_horse": [
+                null,
+                "Parrot groans"
+            ],
+            "entity.parrot.imitate.zombie_nautilus": [
+                null,
+                "Parrot gargles"
+            ],
+            "item.nautilus_saddle_equip": [
+                null,
+                "Saddle equips"
+            ],
+            "item.nautilus_saddle_underwater_equip": [
+                null,
+                "Saddle equips"
+            ]
+        }
+    },
+    "sounds": {
+        "entity.camel_husk.ambient": [
+            null,
+            {
+                "field": "dK",
+                "id": 244,
+                "name": "entity.camel_husk.ambient",
+                "sounds": [
+                    {
+                        "hash": "770656946072c79683235e1438d50176f31b2829",
+                        "name": "mob/camel_husk/ambient1"
+                    },
+                    {
+                        "hash": "a1d33e92f9343c37ce30535e7261fd7483028ff2",
+                        "name": "mob/camel_husk/ambient2"
+                    },
+                    {
+                        "hash": "5df4fb508bf769c0d9642ed0e4f88e60e832e05c",
+                        "name": "mob/camel_husk/ambient3"
+                    },
+                    {
+                        "hash": "0eb264d48d3cd4a0b162ad6669b43eef5bc318d7",
+                        "name": "mob/camel_husk/ambient4"
+                    },
+                    {
+                        "hash": "d7616c17d0b09afdaf1989ced1011fba414af306",
+                        "name": "mob/camel_husk/ambient5"
+                    },
+                    {
+                        "hash": "bcdffb543b84ec8de205ec59e4de846677c88878",
+                        "name": "mob/camel_husk/ambient6"
+                    },
+                    {
+                        "hash": "9e7729f3e5b6c66678eb8487719eabfe497c4b9f",
+                        "name": "mob/camel_husk/ambient7"
+                    },
+                    {
+                        "hash": "36e6890aa5baf629bdece1a3cebdfd86c72d1189",
+                        "name": "mob/camel_husk/ambient8"
+                    }
+                ],
+                "subtitle": "Camel Husk grumphs",
+                "subtitle_key": "subtitles.entity.camel_husk.ambient"
+            }
+        ],
+        "entity.camel_husk.dash": [
+            null,
+            {
+                "field": "dL",
+                "id": 245,
+                "name": "entity.camel_husk.dash",
+                "sounds": [
+                    {
+                        "hash": "ad1f801ad8279ca753cadaf910a5d6a9e271b09b",
+                        "name": "mob/camel_husk/dash1"
+                    },
+                    {
+                        "hash": "ff12be1d1d9b1334b94aede21ee315d2c183a764",
+                        "name": "mob/camel_husk/dash2"
+                    },
+                    {
+                        "hash": "526ee5d18e4d93f3f097f848c293ea96f3da8501",
+                        "name": "mob/camel_husk/dash3"
+                    },
+                    {
+                        "hash": "74c6fb1977c23362bc25f4ba8828fd2ed1d57591",
+                        "name": "mob/camel_husk/dash4"
+                    },
+                    {
+                        "hash": "c7b0c5e4d43096e06226f9e9413de71837f95baf",
+                        "name": "mob/camel_husk/dash5"
+                    },
+                    {
+                        "hash": "77112f3608e12e748006ab09a1dc05185f1668ca",
+                        "name": "mob/camel_husk/dash6"
+                    }
+                ],
+                "subtitle": "Camel Husk yeets",
+                "subtitle_key": "subtitles.entity.camel_husk.dash"
+            }
+        ],
+        "entity.camel_husk.dash_ready": [
+            null,
+            {
+                "field": "dM",
+                "id": 246,
+                "name": "entity.camel_husk.dash_ready",
+                "sounds": [
+                    {
+                        "hash": "d3597ac811cf7c536a115c2467128294fbfa8195",
+                        "name": "mob/camel_husk/dash_ready"
+                    }
+                ],
+                "subtitle": "Camel Husk recovers",
+                "subtitle_key": "subtitles.entity.camel_husk.dash_ready"
+            }
+        ],
+        "entity.camel_husk.death": [
+            null,
+            {
+                "field": "dN",
+                "id": 247,
+                "name": "entity.camel_husk.death",
+                "sounds": [
+                    {
+                        "hash": "fb74a5025ef167431e0d070b07095944f2406c0a",
+                        "name": "mob/camel_husk/death1"
+                    },
+                    {
+                        "hash": "821949a118d0d4be01e0594634521a00dc5c2c63",
+                        "name": "mob/camel_husk/death2"
+                    }
+                ],
+                "subtitle": "Camel Husk dies",
+                "subtitle_key": "subtitles.entity.camel_husk.death"
+            }
+        ],
+        "entity.camel_husk.eat": [
+            null,
+            {
+                "field": "dO",
+                "id": 248,
+                "name": "entity.camel_husk.eat",
+                "sounds": [
+                    {
+                        "hash": "a963d3d41b0c1e25a5cc54b28dc3893030756a9d",
+                        "name": "mob/camel_husk/eat1"
+                    },
+                    {
+                        "hash": "b7f1a072735a0a052e63d19a1c119860252ee6c2",
+                        "name": "mob/camel_husk/eat2"
+                    },
+                    {
+                        "hash": "06402f38cfe4da766c1e0e1bfa13067082fe71bd",
+                        "name": "mob/camel_husk/eat3"
+                    },
+                    {
+                        "hash": "61ed0c5cec3e936637a0e8db4e36b2e0f5b6a1cf",
+                        "name": "mob/camel_husk/eat4"
+                    },
+                    {
+                        "hash": "784351f22954a13d0bae5de4d74b6517774c044f",
+                        "name": "mob/camel_husk/eat5"
+                    }
+                ],
+                "subtitle": "Camel Husk eats",
+                "subtitle_key": "subtitles.entity.camel_husk.eat"
+            }
+        ],
+        "entity.camel_husk.hurt": [
+            null,
+            {
+                "field": "dP",
+                "id": 249,
+                "name": "entity.camel_husk.hurt",
+                "sounds": [
+                    {
+                        "hash": "5166cf84adbb14d42b79bcf710ff3bfb123976d6",
+                        "name": "mob/camel_husk/hurt1"
+                    },
+                    {
+                        "hash": "f1f64cabafb33c36238ecbeac55595c2e19e4713",
+                        "name": "mob/camel_husk/hurt2"
+                    },
+                    {
+                        "hash": "be8a0aa034bc6ca331d04ea9e0f78e9d4b5461c9",
+                        "name": "mob/camel_husk/hurt3"
+                    },
+                    {
+                        "hash": "712c72f5d70a5d8ca7d8459083e375977ba8f8d4",
+                        "name": "mob/camel_husk/hurt4"
+                    }
+                ],
+                "subtitle": "Camel Husk hurts",
+                "subtitle_key": "subtitles.entity.camel_husk.hurt"
+            }
+        ],
+        "entity.camel_husk.saddle": [
+            null,
+            {
+                "field": "dQ",
+                "id": 250,
+                "name": "entity.camel_husk.saddle",
+                "sounds": [
+                    {
+                        "hash": "246278736976219de64df5d7ef1ca905b5924efb",
+                        "name": "mob/horse/leather"
+                    }
+                ],
+                "subtitle": "Saddle equips",
+                "subtitle_key": "subtitles.entity.camel_husk.saddle"
+            }
+        ],
+        "entity.camel_husk.sit": [
+            null,
+            {
+                "field": "dR",
+                "id": 251,
+                "name": "entity.camel_husk.sit",
+                "sounds": [
+                    {
+                        "hash": "81a1e0d1616180983e000473c364688557b34ae3",
+                        "name": "mob/camel_husk/sit1"
+                    },
+                    {
+                        "hash": "a51b0e0d452ca8b345e2e9cd1655af0efa0085ca",
+                        "name": "mob/camel_husk/sit2"
+                    },
+                    {
+                        "hash": "164ba1dbffdc57d7ef79e3cfc800eaee3b4406ab",
+                        "name": "mob/camel_husk/sit3"
+                    },
+                    {
+                        "hash": "f442fc892c7712f57f3656b9a1bc8193f4a2a919",
+                        "name": "mob/camel_husk/sit4"
+                    }
+                ],
+                "subtitle": "Camel Husk sits down",
+                "subtitle_key": "subtitles.entity.camel_husk.sit"
+            }
+        ],
+        "entity.camel_husk.stand": [
+            null,
+            {
+                "field": "dS",
+                "id": 252,
+                "name": "entity.camel_husk.stand",
+                "sounds": [
+                    {
+                        "hash": "448e0f5351fc4e17640a5d2df9e581c10e5b2dfe",
+                        "name": "mob/camel_husk/stand1"
+                    },
+                    {
+                        "hash": "80f2e63eaad730255ff843619429756538f22a5d",
+                        "name": "mob/camel_husk/stand2"
+                    },
+                    {
+                        "hash": "2afee169a65f18cf980dcf8bc303e46a18038880",
+                        "name": "mob/camel_husk/stand3"
+                    },
+                    {
+                        "hash": "1fecc9ad49e075d68f1f64996af5d9ab1e819688",
+                        "name": "mob/camel_husk/stand4"
+                    },
+                    {
+                        "hash": "a8e4ef9a0799f1387a102ddc9498ea3938962607",
+                        "name": "mob/camel_husk/stand5"
+                    }
+                ],
+                "subtitle": "Camel Husk stands up",
+                "subtitle_key": "subtitles.entity.camel_husk.stand"
+            }
+        ],
+        "entity.camel_husk.step": [
+            null,
+            {
+                "field": "dT",
+                "id": 253,
+                "name": "entity.camel_husk.step",
+                "sounds": [
+                    {
+                        "hash": "8e7f24fe86361c57467d3f2584a8ff78ed0f9da8",
+                        "name": "mob/camel_husk/step1",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "202ded7b43c53c246ffb54d4fb77383120d8f29b",
+                        "name": "mob/camel_husk/step2",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "b154434a584afa4ebd7256be9edc1453f77eb42e",
+                        "name": "mob/camel_husk/step3",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "9e3fe46e2622d068aa84595dd498857f391c8878",
+                        "name": "mob/camel_husk/step4",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "8729ce280502248f6886d36a9d2d848e58bd12c0",
+                        "name": "mob/camel_husk/step5",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "ac9daba9b389ece2a89554c6775601c9cec0909e",
+                        "name": "mob/camel_husk/step6",
+                        "volume": 0.3
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.camel_husk.step_sand": [
+            null,
+            {
+                "field": "dU",
+                "id": 254,
+                "name": "entity.camel_husk.step_sand",
+                "sounds": [
+                    {
+                        "hash": "1c44d7a762b3a003d152a584e16f71e18de90e95",
+                        "name": "mob/camel_husk/step_sand1",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "ca15927a1d34bafdcf8d7effdaebeef1511bcab4",
+                        "name": "mob/camel_husk/step_sand2",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "a76aebd510975008e41715574e8254e558f23f4b",
+                        "name": "mob/camel_husk/step_sand3",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "d6fd034d0b69a0981a570dc83b7a6b820a35adf2",
+                        "name": "mob/camel_husk/step_sand4",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "8d39bccd5cc3049a24661869518b01c154606899",
+                        "name": "mob/camel_husk/step_sand5",
+                        "volume": 0.3
+                    },
+                    {
+                        "hash": "95e35f94cd24ddd2fb011af188de8cebade4d148",
+                        "name": "mob/camel_husk/step_sand6",
+                        "volume": 0.3
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.parched.ambient": [
+            null,
+            {
+                "field": "va",
+                "id": 1143,
+                "name": "entity.parched.ambient",
+                "sounds": [
+                    {
+                        "hash": "3a9a84719d7f5fc00aa2f50012c67f7afd0d8368",
+                        "name": "mob/parched/ambient1"
+                    },
+                    {
+                        "hash": "a784136b00678e6d4d640e30f8335d896233a33e",
+                        "name": "mob/parched/ambient2"
+                    },
+                    {
+                        "hash": "c42943c1fb0906b6bb214bdbcbff46b1b800f854",
+                        "name": "mob/parched/ambient3"
+                    },
+                    {
+                        "hash": "f43faba5e2e2c77b6c188219a7ef3252b0f1aca8",
+                        "name": "mob/parched/ambient4"
+                    }
+                ],
+                "subtitle": "Stray rattles",
+                "subtitle_key": "subtitles.entity.parched.ambient"
+            }
+        ],
+        "entity.parched.death": [
+            null,
+            {
+                "field": "vb",
+                "id": 1144,
+                "name": "entity.parched.death",
+                "sounds": [
+                    {
+                        "hash": "d7ad426aeeba1cc279ca48844a82adeb82705b67",
+                        "name": "mob/parched/death"
+                    }
+                ],
+                "subtitle": "Stray dies",
+                "subtitle_key": "subtitles.entity.parched.death"
+            }
+        ],
+        "entity.parched.hurt": [
+            null,
+            {
+                "field": "vc",
+                "id": 1145,
+                "name": "entity.parched.hurt",
+                "sounds": [
+                    {
+                        "hash": "7d593977e91642790c95339a3535ba56773228c3",
+                        "name": "mob/parched/hurt1"
+                    },
+                    {
+                        "hash": "a59fcfbbde0b79ee158a2fa4a02aa4ba64cdd5f2",
+                        "name": "mob/parched/hurt2"
+                    },
+                    {
+                        "hash": "c90a0a8ba112e8e53f88cf3b50df2d338d94ceac",
+                        "name": "mob/parched/hurt3"
+                    },
+                    {
+                        "hash": "8ab46b5e8b2bbe24a364ee65cef1bdaf74837fcd",
+                        "name": "mob/parched/hurt4"
+                    }
+                ],
+                "subtitle": "Stray hurts",
+                "subtitle_key": "subtitles.entity.parched.hurt"
+            }
+        ],
+        "entity.parched.step": [
+            null,
+            {
+                "field": "vd",
+                "id": 1146,
+                "name": "entity.parched.step",
+                "sounds": [
+                    {
+                        "hash": "a60ea4981ac0286f4e2c6047a8b3e4b34ceb8a36",
+                        "name": "mob/parched/step1"
+                    },
+                    {
+                        "hash": "64eb3ab6d041365b0ee6032cdb29d6632b181c26",
+                        "name": "mob/parched/step2"
+                    },
+                    {
+                        "hash": "9fcb4b5468ee540f383396e8970c986e22df72dc",
+                        "name": "mob/parched/step3"
+                    },
+                    {
+                        "hash": "744ecadcffa4408ae5b5db8be7ad69439f106734",
+                        "name": "mob/parched/step4"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.parrot.imitate.camel_husk": [
+            null,
+            {
+                "field": "vm",
+                "id": 1155,
+                "name": "entity.parrot.imitate.camel_husk",
+                "sounds": [
+                    {
+                        "name": "entity.camel_husk.ambient",
+                        "pitch": 2.0,
+                        "type": "event",
+                        "volume": 0.7
+                    }
+                ],
+                "subtitle": "Parrot grumphs",
+                "subtitle_key": "subtitles.entity.parrot.imitate.camel_husk"
+            }
+        ],
+        "entity.parrot.imitate.parched": [
+            null,
+            {
+                "field": "vB",
+                "id": 1170,
+                "name": "entity.parrot.imitate.parched",
+                "sounds": [
+                    {
+                        "name": "entity.parched.ambient",
+                        "pitch": 1.8,
+                        "type": "event",
+                        "volume": 0.7
+                    }
+                ],
+                "subtitle": "Parrot crackles",
+                "subtitle_key": "subtitles.entity.parrot.imitate.parched"
+            }
+        ],
+        "entity.parrot.imitate.zombie_horse": [
+            null,
+            {
+                "field": "vU",
+                "id": 1189,
+                "name": "entity.parrot.imitate.zombie_horse",
+                "sounds": [
+                    {
+                        "name": "entity.zombie_horse.ambient",
+                        "pitch": 1.8,
+                        "type": "event",
+                        "volume": 0.7
+                    }
+                ],
+                "subtitle": "Parrot groans",
+                "subtitle_key": "subtitles.entity.parrot.imitate.zombie_horse"
+            }
+        ],
+        "entity.parrot.imitate.zombie_nautilus": [
+            null,
+            {
+                "field": "vV",
+                "id": 1190,
+                "name": "entity.parrot.imitate.zombie_nautilus",
+                "sounds": [
+                    {
+                        "name": "entity.zombie_nautilus.ambient",
+                        "pitch": 1.8,
+                        "type": "event",
+                        "volume": 0.7
+                    }
+                ],
+                "subtitle": "Parrot gargles",
+                "subtitle_key": "subtitles.entity.parrot.imitate.zombie_nautilus"
+            }
+        ],
+        "item.nautilus_saddle_equip": [
+            null,
+            {
+                "field": "Hi",
+                "id": 1775,
+                "name": "item.nautilus_saddle_equip",
+                "sounds": [
+                    {
+                        "hash": "7711c0051fb19cdca87688b048d172b72a5b7d63",
+                        "name": "mob/nautilus/nautilus_saddle_equip"
+                    }
+                ],
+                "subtitle": "Saddle equips",
+                "subtitle_key": "subtitles.item.nautilus_saddle_equip"
+            }
+        ],
+        "item.nautilus_saddle_underwater_equip": [
+            null,
+            {
+                "field": "Hh",
+                "id": 1774,
+                "name": "item.nautilus_saddle_underwater_equip",
+                "sounds": [
+                    {
+                        "hash": "725e07dc7c9549a7e168e8be14d44d76ad67a6cb",
+                        "name": "mob/nautilus/nautilus_saddle_underwater_equip"
+                    }
+                ],
+                "subtitle": "Saddle equips",
+                "subtitle_key": "subtitles.item.nautilus_saddle_underwater_equip"
+            }
+        ],
+        "item.underwater_saddle.equip": [
+            {
+                "field": "GO",
+                "id": 1755,
+                "name": "item.underwater_saddle.equip"
+            },
+            null
+        ]
+    },
+    "stats": {
+        "minecraft.nautilus_one_cm": [
+            null,
+            {
+                "desc": "Distance by Nautilus"
+            }
+        ]
+    },
+    "tags": {
+        "entity_type/can_breathe_under_water": [
+            {
+                "name": "can_breathe_under_water",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom",
+                    "minecraft:axolotl",
+                    "minecraft:frog",
+                    "minecraft:guardian",
+                    "minecraft:elder_guardian",
+                    "minecraft:turtle",
+                    "minecraft:glow_squid",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:squid",
+                    "minecraft:tropical_fish",
+                    "minecraft:tadpole",
+                    "minecraft:armor_stand",
+                    "minecraft:copper_golem",
+                    "minecraft:nautilus"
+                ]
+            },
+            {
+                "name": "can_breathe_under_water",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:parched",
+                    "minecraft:zombie_horse",
+                    "minecraft:camel_husk",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom",
+                    "minecraft:axolotl",
+                    "minecraft:frog",
+                    "minecraft:guardian",
+                    "minecraft:elder_guardian",
+                    "minecraft:turtle",
+                    "minecraft:glow_squid",
+                    "minecraft:cod",
+                    "minecraft:pufferfish",
+                    "minecraft:salmon",
+                    "minecraft:squid",
+                    "minecraft:tropical_fish",
+                    "minecraft:tadpole",
+                    "minecraft:armor_stand",
+                    "minecraft:copper_golem",
+                    "minecraft:nautilus"
+                ]
+            }
+        ],
+        "entity_type/can_equip_saddle": [
+            {
+                "name": "can_equip_saddle",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:horse",
+                    "minecraft:skeleton_horse",
+                    "minecraft:zombie_horse",
+                    "minecraft:donkey",
+                    "minecraft:mule",
+                    "minecraft:pig",
+                    "minecraft:strider",
+                    "minecraft:camel",
+                    "minecraft:nautilus",
+                    "minecraft:zombie_nautilus"
+                ]
+            },
+            {
+                "name": "can_equip_saddle",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:horse",
+                    "minecraft:skeleton_horse",
+                    "minecraft:zombie_horse",
+                    "minecraft:donkey",
+                    "minecraft:mule",
+                    "minecraft:pig",
+                    "minecraft:strider",
+                    "minecraft:camel",
+                    "minecraft:camel_husk",
+                    "minecraft:nautilus",
+                    "minecraft:zombie_nautilus"
+                ]
+            }
+        ],
+        "entity_type/can_float_while_ridden": [
+            null,
+            {
+                "name": "can_float_while_ridden",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:horse",
+                    "minecraft:zombie_horse",
+                    "minecraft:mule",
+                    "minecraft:donkey",
+                    "minecraft:camel"
+                ]
+            }
+        ],
+        "entity_type/ignores_poison_and_regen": [
+            {
+                "name": "ignores_poison_and_regen",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            },
+            {
+                "name": "ignores_poison_and_regen",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:parched",
+                    "minecraft:zombie_horse",
+                    "minecraft:camel_husk",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "entity_type/inverted_healing_and_harm": [
+            {
+                "name": "inverted_healing_and_harm",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            },
+            {
+                "name": "inverted_healing_and_harm",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:parched",
+                    "minecraft:zombie_horse",
+                    "minecraft:camel_husk",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "entity_type/sensitive_to_smite": [
+            {
+                "name": "sensitive_to_smite",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            },
+            {
+                "name": "sensitive_to_smite",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:parched",
+                    "minecraft:zombie_horse",
+                    "minecraft:camel_husk",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "entity_type/skeletons": [
+            {
+                "name": "skeletons",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged"
+                ]
+            },
+            {
+                "name": "skeletons",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:parched"
+                ]
+            }
+        ],
+        "entity_type/undead": [
+            {
+                "name": "undead",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            },
+            {
+                "name": "undead",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:parched",
+                    "minecraft:zombie_horse",
+                    "minecraft:camel_husk",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "entity_type/wither_friends": [
+            {
+                "name": "wither_friends",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            },
+            {
+                "name": "wither_friends",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:parched",
+                    "minecraft:zombie_horse",
+                    "minecraft:camel_husk",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            }
+        ],
+        "entity_type/zombies": [
+            {
+                "name": "zombies",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:zombie_horse",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus"
+                ]
+            },
+            {
+                "name": "zombies",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:zombie_horse",
+                    "minecraft:camel_husk",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus"
+                ]
+            }
+        ],
+        "item/camel_husk_food": [
+            null,
+            {
+                "name": "camel_husk_food",
+                "type": "item",
+                "values": [
+                    "minecraft:rabbit_foot"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4655,
+            4659
+        ],
+        "id": [
+            "25w43a",
+            "25w44a"
+        ],
+        "name": [
+            "25w43a",
+            "25w44a"
+        ],
+        "protocol": [
+            1073742099,
+            1073742100
+        ]
+    }
+}
