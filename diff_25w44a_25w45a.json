@@ -1,0 +1,259 @@
+{
+    "achievements": {},
+    "language": {
+        "advancements": {
+            "adventure.spear_many_mobs.description": [
+                null,
+                "Hit five mobs in the same Charge attack using the Spear"
+            ],
+            "adventure.spear_many_mobs.title": [
+                null,
+                "Mob Kabob"
+            ]
+        },
+        "gui": {
+            "selectWorld.search": [
+                null,
+                "Search..."
+            ]
+        },
+        "item": {
+            "minecraft.netherite_horse_armor": [
+                null,
+                "Netherite Horse Armor"
+            ]
+        },
+        "subtitles": {
+            "entity.parched.ambient": [
+                "Stray rattles",
+                "Parched rattles"
+            ],
+            "entity.parched.death": [
+                "Stray dies",
+                "Parched dies"
+            ],
+            "entity.parched.hurt": [
+                "Stray hurts",
+                "Parched hurts"
+            ]
+        }
+    },
+    "sounds": {
+        "entity.parched.ambient": [
+            {
+                "field": "va",
+                "id": 1143,
+                "name": "entity.parched.ambient",
+                "sounds": [
+                    {
+                        "hash": "3a9a84719d7f5fc00aa2f50012c67f7afd0d8368",
+                        "name": "mob/parched/ambient1"
+                    },
+                    {
+                        "hash": "a784136b00678e6d4d640e30f8335d896233a33e",
+                        "name": "mob/parched/ambient2"
+                    },
+                    {
+                        "hash": "c42943c1fb0906b6bb214bdbcbff46b1b800f854",
+                        "name": "mob/parched/ambient3"
+                    },
+                    {
+                        "hash": "f43faba5e2e2c77b6c188219a7ef3252b0f1aca8",
+                        "name": "mob/parched/ambient4"
+                    }
+                ],
+                "subtitle": "Stray rattles",
+                "subtitle_key": "subtitles.entity.parched.ambient"
+            },
+            {
+                "field": "va",
+                "id": 1143,
+                "name": "entity.parched.ambient",
+                "sounds": [
+                    {
+                        "hash": "3a9a84719d7f5fc00aa2f50012c67f7afd0d8368",
+                        "name": "mob/parched/ambient1"
+                    },
+                    {
+                        "hash": "a784136b00678e6d4d640e30f8335d896233a33e",
+                        "name": "mob/parched/ambient2"
+                    },
+                    {
+                        "hash": "c42943c1fb0906b6bb214bdbcbff46b1b800f854",
+                        "name": "mob/parched/ambient3"
+                    },
+                    {
+                        "hash": "f43faba5e2e2c77b6c188219a7ef3252b0f1aca8",
+                        "name": "mob/parched/ambient4"
+                    }
+                ],
+                "subtitle": "Parched rattles",
+                "subtitle_key": "subtitles.entity.parched.ambient"
+            }
+        ],
+        "entity.parched.death": [
+            {
+                "field": "vb",
+                "id": 1144,
+                "name": "entity.parched.death",
+                "sounds": [
+                    {
+                        "hash": "d7ad426aeeba1cc279ca48844a82adeb82705b67",
+                        "name": "mob/parched/death"
+                    }
+                ],
+                "subtitle": "Stray dies",
+                "subtitle_key": "subtitles.entity.parched.death"
+            },
+            {
+                "field": "vb",
+                "id": 1144,
+                "name": "entity.parched.death",
+                "sounds": [
+                    {
+                        "hash": "d7ad426aeeba1cc279ca48844a82adeb82705b67",
+                        "name": "mob/parched/death"
+                    }
+                ],
+                "subtitle": "Parched dies",
+                "subtitle_key": "subtitles.entity.parched.death"
+            }
+        ],
+        "entity.parched.hurt": [
+            {
+                "field": "vc",
+                "id": 1145,
+                "name": "entity.parched.hurt",
+                "sounds": [
+                    {
+                        "hash": "7d593977e91642790c95339a3535ba56773228c3",
+                        "name": "mob/parched/hurt1"
+                    },
+                    {
+                        "hash": "a59fcfbbde0b79ee158a2fa4a02aa4ba64cdd5f2",
+                        "name": "mob/parched/hurt2"
+                    },
+                    {
+                        "hash": "c90a0a8ba112e8e53f88cf3b50df2d338d94ceac",
+                        "name": "mob/parched/hurt3"
+                    },
+                    {
+                        "hash": "8ab46b5e8b2bbe24a364ee65cef1bdaf74837fcd",
+                        "name": "mob/parched/hurt4"
+                    }
+                ],
+                "subtitle": "Stray hurts",
+                "subtitle_key": "subtitles.entity.parched.hurt"
+            },
+            {
+                "field": "vc",
+                "id": 1145,
+                "name": "entity.parched.hurt",
+                "sounds": [
+                    {
+                        "hash": "7d593977e91642790c95339a3535ba56773228c3",
+                        "name": "mob/parched/hurt1"
+                    },
+                    {
+                        "hash": "a59fcfbbde0b79ee158a2fa4a02aa4ba64cdd5f2",
+                        "name": "mob/parched/hurt2"
+                    },
+                    {
+                        "hash": "c90a0a8ba112e8e53f88cf3b50df2d338d94ceac",
+                        "name": "mob/parched/hurt3"
+                    },
+                    {
+                        "hash": "8ab46b5e8b2bbe24a364ee65cef1bdaf74837fcd",
+                        "name": "mob/parched/hurt4"
+                    }
+                ],
+                "subtitle": "Parched hurts",
+                "subtitle_key": "subtitles.entity.parched.hurt"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "timeline/in_end": [
+            null,
+            {
+                "name": "in_end",
+                "type": "timeline",
+                "values": [
+                    "minecraft:villager_schedule"
+                ]
+            }
+        ],
+        "timeline/in_nether": [
+            null,
+            {
+                "name": "in_nether",
+                "type": "timeline",
+                "values": [
+                    "minecraft:villager_schedule"
+                ]
+            }
+        ],
+        "timeline/in_overworld": [
+            null,
+            {
+                "name": "in_overworld",
+                "type": "timeline",
+                "values": [
+                    "minecraft:villager_schedule",
+                    "minecraft:day",
+                    "minecraft:moon",
+                    "minecraft:early_game"
+                ]
+            }
+        ],
+        "timeline/universal": [
+            null,
+            {
+                "name": "universal",
+                "type": "timeline",
+                "values": [
+                    "minecraft:villager_schedule"
+                ]
+            }
+        ],
+        "worldgen/biome/spawns_coral_variant_zombie_nautilus": [
+            null,
+            {
+                "name": "biome/spawns_coral_variant_zombie_nautilus",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:warm_ocean"
+                ]
+            }
+        ],
+        "worldgen/biome/without_patrol_spawns": [
+            {
+                "name": "biome/without_patrol_spawns",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:mushroom_fields"
+                ]
+            },
+            null
+        ]
+    },
+    "version": {
+        "data": [
+            4659,
+            4660
+        ],
+        "id": [
+            "25w44a",
+            "25w45a"
+        ],
+        "name": [
+            "25w44a",
+            "25w45a"
+        ],
+        "protocol": [
+            1073742100,
+            1073742101
+        ]
+    }
+}
