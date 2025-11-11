@@ -1,0 +1,145 @@
+{
+    "achievements": {},
+    "language": {
+        "gui": {
+            "recipebook.next_page": [
+                null,
+                "Next Page"
+            ],
+            "recipebook.previous_page": [
+                null,
+                "Previous Page"
+            ]
+        },
+        "options": {
+            "musicToast": [
+                null,
+                "Music Toast"
+            ],
+            "musicToast.never": [
+                null,
+                "Never"
+            ],
+            "musicToast.never.tooltip": [
+                null,
+                "No music toast is shown."
+            ],
+            "musicToast.pauseMenu": [
+                null,
+                "Pause Menu"
+            ],
+            "musicToast.pauseMenu.tooltip": [
+                null,
+                "A music toast is constantly displayed in the in-game pause menu while a song is playing."
+            ],
+            "musicToast.pauseMenuAndToast": [
+                null,
+                "Pause Menu and Toast"
+            ],
+            "musicToast.pauseMenuAndToast.tooltip": [
+                null,
+                "Displays a toast when a song starts playing. The same toast is constantly displayed in the in-game pause menu while a song is playing."
+            ]
+        },
+        "subtitles": {
+            "entity.parched.ambient": [
+                "Parched rattles",
+                "Parched crackles"
+            ],
+            "entity.zombie_horse.eat": [
+                null,
+                "Zombie Horse eats"
+            ]
+        }
+    },
+    "sounds": {
+        "entity.parched.ambient": [
+            {
+                "field": "va",
+                "id": 1143,
+                "name": "entity.parched.ambient",
+                "sounds": [
+                    {
+                        "hash": "3a9a84719d7f5fc00aa2f50012c67f7afd0d8368",
+                        "name": "mob/parched/ambient1"
+                    },
+                    {
+                        "hash": "a784136b00678e6d4d640e30f8335d896233a33e",
+                        "name": "mob/parched/ambient2"
+                    },
+                    {
+                        "hash": "c42943c1fb0906b6bb214bdbcbff46b1b800f854",
+                        "name": "mob/parched/ambient3"
+                    },
+                    {
+                        "hash": "f43faba5e2e2c77b6c188219a7ef3252b0f1aca8",
+                        "name": "mob/parched/ambient4"
+                    }
+                ],
+                "subtitle": "Parched rattles",
+                "subtitle_key": "subtitles.entity.parched.ambient"
+            },
+            {
+                "field": "va",
+                "id": 1143,
+                "name": "entity.parched.ambient",
+                "sounds": [
+                    {
+                        "hash": "3a9a84719d7f5fc00aa2f50012c67f7afd0d8368",
+                        "name": "mob/parched/ambient1"
+                    },
+                    {
+                        "hash": "a784136b00678e6d4d640e30f8335d896233a33e",
+                        "name": "mob/parched/ambient2"
+                    },
+                    {
+                        "hash": "c42943c1fb0906b6bb214bdbcbff46b1b800f854",
+                        "name": "mob/parched/ambient3"
+                    },
+                    {
+                        "hash": "f43faba5e2e2c77b6c188219a7ef3252b0f1aca8",
+                        "name": "mob/parched/ambient4"
+                    }
+                ],
+                "subtitle": "Parched crackles",
+                "subtitle_key": "subtitles.entity.parched.ambient"
+            }
+        ],
+        "entity.zombie_horse.eat": [
+            null,
+            {
+                "field": "GI",
+                "id": 1749,
+                "name": "entity.zombie_horse.eat",
+                "sounds": [
+                    {
+                        "name": "entity.horse.eat",
+                        "type": "event"
+                    }
+                ],
+                "subtitle": "Zombie Horse eats",
+                "subtitle_key": "subtitles.entity.zombie_horse.eat"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4660,
+            4662
+        ],
+        "id": [
+            "25w45a",
+            "25w46a"
+        ],
+        "name": [
+            "25w45a",
+            "25w46a"
+        ],
+        "protocol": [
+            1073742101,
+            1073742102
+        ]
+    }
+}
