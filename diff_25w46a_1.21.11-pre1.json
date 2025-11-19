@@ -1,0 +1,750 @@
+{
+    "achievements": {},
+    "language": {
+        "options": {
+            "maxAnisotropy.tooltip": [
+                "Significantly improves how smooth textures look, but impacts performance and significantly impacts video memory usage. May not be supported on all hardware.",
+                "Each level significantly improves how smooth textures look, but impacts performance and significantly impacts video memory usage. Requires Texture Filtering to be set to Anisotropic."
+            ],
+            "textureFiltering": [
+                null,
+                "Texture Filtering"
+            ],
+            "textureFiltering.anisotropic": [
+                null,
+                "Anisotropic"
+            ],
+            "textureFiltering.anisotropic.tooltip": [
+                null,
+                "A hardware based filtering method, but impacts performance and significantly impacts video memory usage. May not be supported on all hardware."
+            ],
+            "textureFiltering.none": [
+                null,
+                "None"
+            ],
+            "textureFiltering.none.tooltip": [
+                null,
+                "Textures are displayed without any filtering. Blocks may look blurry when viewed at an angle."
+            ],
+            "textureFiltering.rgss": [
+                null,
+                "RGSS"
+            ],
+            "textureFiltering.rgss.tooltip": [
+                null,
+                "(Rotated Grid Super Sampling)\nA shader based filtering method that improves texture quality with a moderate performance impact."
+            ]
+        },
+        "subtitles": {
+            "entity.baby_nautilus.ambient_land": [
+                null,
+                "Baby Nautilus chitters"
+            ],
+            "entity.baby_nautilus.death_land": [
+                null,
+                "Baby Nautilus dies"
+            ],
+            "entity.baby_nautilus.hurt_land": [
+                null,
+                "Baby Nautilus hurts"
+            ],
+            "entity.nautilus.ambient_land": [
+                null,
+                "Nautilus clacks"
+            ],
+            "entity.nautilus.dash_land": [
+                null,
+                "Nautilus jets"
+            ],
+            "entity.nautilus.dash_ready_land": [
+                null,
+                "Nautilus recovers"
+            ],
+            "entity.nautilus.death_land": [
+                null,
+                "Nautilus dies"
+            ],
+            "entity.nautilus.hurt_land": [
+                null,
+                "Nautilus hurts"
+            ],
+            "entity.zombie_nautilus.ambient_land": [
+                null,
+                "Zombie Nautilus burbles"
+            ],
+            "entity.zombie_nautilus.dash_land": [
+                null,
+                "Zombie Nautilus jets"
+            ],
+            "entity.zombie_nautilus.dash_ready_land": [
+                null,
+                "Zombie Nautilus recovers"
+            ],
+            "entity.zombie_nautilus.death_land": [
+                null,
+                "Zombie Nautilus dies"
+            ],
+            "entity.zombie_nautilus.hurt_land": [
+                null,
+                "Zombie Nautilus hurts"
+            ]
+        }
+    },
+    "sounds": {
+        "entity.baby_nautilus.ambient_land": [
+            null,
+            {
+                "field": "bf",
+                "id": 109,
+                "name": "entity.baby_nautilus.ambient_land",
+                "sounds": [
+                    {
+                        "hash": "f7da706830cd4f84f81919144a91443d2e73f6fb",
+                        "name": "mob/baby_nautilus/ambient_land1"
+                    },
+                    {
+                        "hash": "ae86f42987cba055d12f0a0df20048cd4437dc9d",
+                        "name": "mob/baby_nautilus/ambient_land2"
+                    },
+                    {
+                        "hash": "d18a616740ff7afd74a72535ce71ea27a1f6989c",
+                        "name": "mob/baby_nautilus/ambient_land3"
+                    },
+                    {
+                        "hash": "f4d95e04f6be4b61b552cd126e6f058302e0e586",
+                        "name": "mob/baby_nautilus/ambient_land4"
+                    }
+                ],
+                "subtitle": "Baby Nautilus chitters",
+                "subtitle_key": "subtitles.entity.baby_nautilus.ambient_land"
+            }
+        ],
+        "entity.baby_nautilus.death_land": [
+            null,
+            {
+                "field": "bh",
+                "id": 111,
+                "name": "entity.baby_nautilus.death_land",
+                "sounds": [
+                    {
+                        "hash": "7a50f5075a03232a87c8bdc05ecf4c48c947f129",
+                        "name": "mob/baby_nautilus/death_land"
+                    }
+                ],
+                "subtitle": "Baby Nautilus dies",
+                "subtitle_key": "subtitles.entity.baby_nautilus.death_land"
+            }
+        ],
+        "entity.baby_nautilus.hurt_land": [
+            null,
+            {
+                "field": "bk",
+                "id": 114,
+                "name": "entity.baby_nautilus.hurt_land",
+                "sounds": [
+                    {
+                        "hash": "35c468e8bad22833fdf63d60b1d35cd14dd0f6ef",
+                        "name": "mob/baby_nautilus/hurt_land1"
+                    },
+                    {
+                        "hash": "cdd8b45edcd0c9fadc2759f3c8a17367257b79ec",
+                        "name": "mob/baby_nautilus/hurt_land2"
+                    },
+                    {
+                        "hash": "a63e498f39177b4302708e005546b7a76a236870",
+                        "name": "mob/baby_nautilus/hurt_land3"
+                    },
+                    {
+                        "hash": "f492d5cddd95e7ac92954469d289fbfec6e93eb5",
+                        "name": "mob/baby_nautilus/hurt_land4"
+                    }
+                ],
+                "subtitle": "Baby Nautilus hurts",
+                "subtitle_key": "subtitles.entity.baby_nautilus.hurt_land"
+            }
+        ],
+        "entity.baby_nautilus.swim": [
+            {
+                "field": "bj",
+                "id": 113,
+                "name": "entity.baby_nautilus.swim",
+                "sounds": [
+                    {
+                        "name": "entity.fish.swim",
+                        "type": "event"
+                    }
+                ],
+                "subtitle": "Baby Nautilus swims",
+                "subtitle_key": "subtitles.entity.baby_nautilus.swim"
+            },
+            {
+                "field": "bm",
+                "id": 116,
+                "name": "entity.baby_nautilus.swim",
+                "sounds": [
+                    {
+                        "hash": "fca594412f2e0ff650819f3b0665a8dba1493f39",
+                        "name": "mob/nautilus/swim1"
+                    },
+                    {
+                        "hash": "4b63e1c87b93cf75d1a70b92793d1d5ccf08b103",
+                        "name": "mob/nautilus/swim2"
+                    },
+                    {
+                        "hash": "08e313dea021f4387687e7530b1edb3be6a3e71e",
+                        "name": "mob/nautilus/swim3"
+                    },
+                    {
+                        "hash": "e0579939b43a241f00938aa87fd14035ab9844b9",
+                        "name": "mob/nautilus/swim4"
+                    },
+                    {
+                        "hash": "d793250f46ea32feb1964e847a5cb60031ff520a",
+                        "name": "mob/nautilus/swim5"
+                    },
+                    {
+                        "hash": "814bc1bc9b2e2b9baed1dc263b5d24cca069e066",
+                        "name": "mob/nautilus/swim6"
+                    },
+                    {
+                        "hash": "350ff7f8adde86c3dcf9c1661db9843a0bc81f16",
+                        "name": "mob/nautilus/swim7"
+                    },
+                    {
+                        "hash": "afb0c87d24c7b8e9fc5eaf31b4fe1df4aa7d536d",
+                        "name": "mob/nautilus/swim8"
+                    },
+                    {
+                        "hash": "6f1d1bc3787f4270cfb0d1f925be0d4f329074e1",
+                        "name": "mob/nautilus/swim9"
+                    }
+                ],
+                "subtitle": "Baby Nautilus swims",
+                "subtitle_key": "subtitles.entity.baby_nautilus.swim"
+            }
+        ],
+        "entity.nautilus.ambient_land": [
+            null,
+            {
+                "field": "sT",
+                "id": 1032,
+                "name": "entity.nautilus.ambient_land",
+                "sounds": [
+                    {
+                        "hash": "87cb1d4a720eea88acf72e76afc81c26ff7c59fd",
+                        "name": "mob/nautilus/ambient_land1"
+                    },
+                    {
+                        "hash": "59faa3795ef668a7a28a0b50c62ae2c0f663f381",
+                        "name": "mob/nautilus/ambient_land2"
+                    },
+                    {
+                        "hash": "84e8b9981dcb47f417f38ef755ad98a0744c22ad",
+                        "name": "mob/nautilus/ambient_land3"
+                    },
+                    {
+                        "hash": "88e43e4abf70882594f3128a219bf77ba36cdb8b",
+                        "name": "mob/nautilus/ambient_land4"
+                    },
+                    {
+                        "hash": "544e1fb40e49b1655bb05268421e749761fd138e",
+                        "name": "mob/nautilus/ambient_land5"
+                    },
+                    {
+                        "hash": "67b0c058804c0a98da2d5f1aab12c8b3b5af0a53",
+                        "name": "mob/nautilus/ambient_land6"
+                    },
+                    {
+                        "hash": "6ec1fa58e2294541cbd00ff4c4b3bc9347d020a4",
+                        "name": "mob/nautilus/ambient_land7"
+                    }
+                ],
+                "subtitle": "Nautilus clacks",
+                "subtitle_key": "subtitles.entity.nautilus.ambient_land"
+            }
+        ],
+        "entity.nautilus.dash_land": [
+            null,
+            {
+                "field": "sV",
+                "id": 1034,
+                "name": "entity.nautilus.dash_land",
+                "sounds": [
+                    {
+                        "hash": "3300bdeb4c80efef8ed616c349a5c3cff8d8a6eb",
+                        "name": "mob/nautilus/dash_land1"
+                    },
+                    {
+                        "hash": "7c94d20d83fb643a3ef2aff23d980e155f7f986a",
+                        "name": "mob/nautilus/dash_land2"
+                    },
+                    {
+                        "hash": "c420508565c4215619ce66c6dc090877fabf70b0",
+                        "name": "mob/nautilus/dash_land3"
+                    },
+                    {
+                        "hash": "42732129644bda1544f1e086e7ed5d61479c55e4",
+                        "name": "mob/nautilus/dash_land4"
+                    }
+                ],
+                "subtitle": "Nautilus jets",
+                "subtitle_key": "subtitles.entity.nautilus.dash_land"
+            }
+        ],
+        "entity.nautilus.dash_ready_land": [
+            null,
+            {
+                "field": "sX",
+                "id": 1036,
+                "name": "entity.nautilus.dash_ready_land",
+                "sounds": [
+                    {
+                        "hash": "a83b6e8fd88753565bc3ecc1111975ce5978b7ae",
+                        "name": "mob/nautilus/dash_ready_land1"
+                    },
+                    {
+                        "hash": "7669a518e60eef133ac902fef21a5fbfe71571d3",
+                        "name": "mob/nautilus/dash_ready_land2"
+                    },
+                    {
+                        "hash": "2d2812fff670e3fda3499ebba72b85a5743c2c37",
+                        "name": "mob/nautilus/dash_ready_land3"
+                    },
+                    {
+                        "hash": "cc6ec819997fa2ab6ce13f51d733291a988cf528",
+                        "name": "mob/nautilus/dash_ready_land4"
+                    }
+                ],
+                "subtitle": "Nautilus recovers",
+                "subtitle_key": "subtitles.entity.nautilus.dash_ready_land"
+            }
+        ],
+        "entity.nautilus.death_land": [
+            null,
+            {
+                "field": "sZ",
+                "id": 1038,
+                "name": "entity.nautilus.death_land",
+                "sounds": [
+                    {
+                        "hash": "904ba7671ef9684bb4866a239f34732a2f352a85",
+                        "name": "mob/nautilus/death_land"
+                    }
+                ],
+                "subtitle": "Nautilus dies",
+                "subtitle_key": "subtitles.entity.nautilus.death_land"
+            }
+        ],
+        "entity.nautilus.hurt_land": [
+            null,
+            {
+                "field": "tc",
+                "id": 1041,
+                "name": "entity.nautilus.hurt_land",
+                "sounds": [
+                    {
+                        "hash": "e826c5de565a6a6148b4f62d70b9edee741088d8",
+                        "name": "mob/nautilus/hurt_land1"
+                    },
+                    {
+                        "hash": "cda6d700465db16e3179d40ecbf5169716a0b40a",
+                        "name": "mob/nautilus/hurt_land2"
+                    },
+                    {
+                        "hash": "39aad4fe7e45269bce42fd414c0c81d1017fd92a",
+                        "name": "mob/nautilus/hurt_land3"
+                    },
+                    {
+                        "hash": "2af2ecf6c555bb63950994796128a72c6beecc7b",
+                        "name": "mob/nautilus/hurt_land4"
+                    }
+                ],
+                "subtitle": "Nautilus hurts",
+                "subtitle_key": "subtitles.entity.nautilus.hurt_land"
+            }
+        ],
+        "entity.nautilus.swim": [
+            {
+                "field": "sV",
+                "id": 1034,
+                "name": "entity.nautilus.swim",
+                "sounds": [
+                    {
+                        "hash": "3e9d5ec6e4697f9f204a72d8b814fce875f3decc",
+                        "name": "mob/nautilus/swim1"
+                    },
+                    {
+                        "hash": "1308d7e742f4ed3f380237907d13443f5703080c",
+                        "name": "mob/nautilus/swim2"
+                    },
+                    {
+                        "hash": "afd78b36bda148a49ac5cbaa101fd050f852c056",
+                        "name": "mob/nautilus/swim3"
+                    },
+                    {
+                        "hash": "2e554dbba86a158448002288ae7c22a347e0854f",
+                        "name": "mob/nautilus/swim4"
+                    },
+                    {
+                        "hash": "520fa5a8be3b73034bdf19ba14f21dfc14738aec",
+                        "name": "mob/nautilus/swim5"
+                    },
+                    {
+                        "hash": "c85a95cb877516672f194160f603a3ea1831a477",
+                        "name": "mob/nautilus/swim6"
+                    },
+                    {
+                        "hash": "c3d239eb0c0932c7100043e7f0255b9334595c88",
+                        "name": "mob/nautilus/swim7"
+                    },
+                    {
+                        "hash": "4151d8c174ff0a5d9e87ac8a07e51b301b341dde",
+                        "name": "mob/nautilus/swim8"
+                    },
+                    {
+                        "hash": "38a4e6c39c22017114f3e34238611c9b4659a4f8",
+                        "name": "mob/nautilus/swim9"
+                    }
+                ],
+                "subtitle": "Nautilus swims",
+                "subtitle_key": "subtitles.entity.nautilus.swim"
+            },
+            {
+                "field": "td",
+                "id": 1042,
+                "name": "entity.nautilus.swim",
+                "sounds": [
+                    {
+                        "hash": "fca594412f2e0ff650819f3b0665a8dba1493f39",
+                        "name": "mob/nautilus/swim1"
+                    },
+                    {
+                        "hash": "4b63e1c87b93cf75d1a70b92793d1d5ccf08b103",
+                        "name": "mob/nautilus/swim2"
+                    },
+                    {
+                        "hash": "08e313dea021f4387687e7530b1edb3be6a3e71e",
+                        "name": "mob/nautilus/swim3"
+                    },
+                    {
+                        "hash": "e0579939b43a241f00938aa87fd14035ab9844b9",
+                        "name": "mob/nautilus/swim4"
+                    },
+                    {
+                        "hash": "d793250f46ea32feb1964e847a5cb60031ff520a",
+                        "name": "mob/nautilus/swim5"
+                    },
+                    {
+                        "hash": "814bc1bc9b2e2b9baed1dc263b5d24cca069e066",
+                        "name": "mob/nautilus/swim6"
+                    },
+                    {
+                        "hash": "350ff7f8adde86c3dcf9c1661db9843a0bc81f16",
+                        "name": "mob/nautilus/swim7"
+                    },
+                    {
+                        "hash": "afb0c87d24c7b8e9fc5eaf31b4fe1df4aa7d536d",
+                        "name": "mob/nautilus/swim8"
+                    },
+                    {
+                        "hash": "6f1d1bc3787f4270cfb0d1f925be0d4f329074e1",
+                        "name": "mob/nautilus/swim9"
+                    }
+                ],
+                "subtitle": "Nautilus swims",
+                "subtitle_key": "subtitles.entity.nautilus.swim"
+            }
+        ],
+        "entity.zombie_nautilus.ambient_land": [
+            null,
+            {
+                "field": "GV",
+                "id": 1762,
+                "name": "entity.zombie_nautilus.ambient_land",
+                "sounds": [
+                    {
+                        "hash": "7543108f075247b7b3503dd351cc37233872636e",
+                        "name": "mob/zombie_nautilus/ambient_land1"
+                    },
+                    {
+                        "hash": "1c8da6f91a724967ad2dd898333b45aaaf44b901",
+                        "name": "mob/zombie_nautilus/ambient_land2"
+                    },
+                    {
+                        "hash": "4bfca4c208651c6e914ca4ad1d0fd05345c287f6",
+                        "name": "mob/zombie_nautilus/ambient_land3"
+                    },
+                    {
+                        "hash": "2dfdd8011f30f516b0e5dc84ce8394822ae2669e",
+                        "name": "mob/zombie_nautilus/ambient_land4"
+                    },
+                    {
+                        "hash": "4ccda0fab4b44fabf2a6b9f8aec4598b23f6e61b",
+                        "name": "mob/zombie_nautilus/ambient_land5"
+                    },
+                    {
+                        "hash": "38c49994da848a71e5bd2dc2796d49a51d691eb5",
+                        "name": "mob/zombie_nautilus/ambient_land6"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus burbles",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.ambient_land"
+            }
+        ],
+        "entity.zombie_nautilus.dash_land": [
+            null,
+            {
+                "field": "GX",
+                "id": 1764,
+                "name": "entity.zombie_nautilus.dash_land",
+                "sounds": [
+                    {
+                        "hash": "503d385ab305f9f6471e03510ae4a9e0b2d6bb9a",
+                        "name": "mob/zombie_nautilus/dash_land1"
+                    },
+                    {
+                        "hash": "843f1160b5e56e0a671abba7154f633dd442e747",
+                        "name": "mob/zombie_nautilus/dash_land2"
+                    },
+                    {
+                        "hash": "839041a5c7463e7c303b76fa3c6586312936a4da",
+                        "name": "mob/zombie_nautilus/dash_land3"
+                    },
+                    {
+                        "hash": "3b640aff2547b47e0f4f8cbcd6db0dde738b9430",
+                        "name": "mob/zombie_nautilus/dash_land4"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus jets",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.dash_land"
+            }
+        ],
+        "entity.zombie_nautilus.dash_ready_land": [
+            null,
+            {
+                "field": "GZ",
+                "id": 1766,
+                "name": "entity.zombie_nautilus.dash_ready_land",
+                "sounds": [
+                    {
+                        "hash": "4df7e7dc903c9c80c451017c5a62812732c97d1c",
+                        "name": "mob/zombie_nautilus/dash_ready_land1"
+                    },
+                    {
+                        "hash": "5ceda6115d3899b713214d766efc957e1963ddc5",
+                        "name": "mob/zombie_nautilus/dash_ready_land2"
+                    },
+                    {
+                        "hash": "bb0c12ef58b5dd98f511b559567f275ffba6a477",
+                        "name": "mob/zombie_nautilus/dash_ready_land3"
+                    },
+                    {
+                        "hash": "89daae909cddd0edbab8ad8bff3765d8ff32448b",
+                        "name": "mob/zombie_nautilus/dash_ready_land4"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus recovers",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.dash_ready_land"
+            }
+        ],
+        "entity.zombie_nautilus.death_land": [
+            null,
+            {
+                "field": "Hb",
+                "id": 1768,
+                "name": "entity.zombie_nautilus.death_land",
+                "sounds": [
+                    {
+                        "hash": "5b12b6441b49870174c1b1bb92bbbf83d7794c82",
+                        "name": "mob/zombie_nautilus/death_land"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus dies",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.death_land"
+            }
+        ],
+        "entity.zombie_nautilus.hurt_land": [
+            null,
+            {
+                "field": "He",
+                "id": 1771,
+                "name": "entity.zombie_nautilus.hurt_land",
+                "sounds": [
+                    {
+                        "hash": "f15fdc35a285cfbe9f0ff9679f93a65bb060a27a",
+                        "name": "mob/zombie_nautilus/hurt_land1"
+                    },
+                    {
+                        "hash": "b3032934878b774754d0a10278869c0851dd3a95",
+                        "name": "mob/zombie_nautilus/hurt_land2"
+                    },
+                    {
+                        "hash": "3a3a5bbaea35127a887727ee65a9b8db028ef4df",
+                        "name": "mob/zombie_nautilus/hurt_land3"
+                    },
+                    {
+                        "hash": "fc4cd4adc54009ecb2f72abcf85f9449d5c56613",
+                        "name": "mob/zombie_nautilus/hurt_land4"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus hurts",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.hurt_land"
+            }
+        ],
+        "entity.zombie_nautilus.swim": [
+            {
+                "field": "GS",
+                "id": 1759,
+                "name": "entity.zombie_nautilus.swim",
+                "sounds": [
+                    {
+                        "hash": "3e9d5ec6e4697f9f204a72d8b814fce875f3decc",
+                        "name": "mob/nautilus/swim1"
+                    },
+                    {
+                        "hash": "1308d7e742f4ed3f380237907d13443f5703080c",
+                        "name": "mob/nautilus/swim2"
+                    },
+                    {
+                        "hash": "afd78b36bda148a49ac5cbaa101fd050f852c056",
+                        "name": "mob/nautilus/swim3"
+                    },
+                    {
+                        "hash": "2e554dbba86a158448002288ae7c22a347e0854f",
+                        "name": "mob/nautilus/swim4"
+                    },
+                    {
+                        "hash": "520fa5a8be3b73034bdf19ba14f21dfc14738aec",
+                        "name": "mob/nautilus/swim5"
+                    },
+                    {
+                        "hash": "c85a95cb877516672f194160f603a3ea1831a477",
+                        "name": "mob/nautilus/swim6"
+                    },
+                    {
+                        "hash": "c3d239eb0c0932c7100043e7f0255b9334595c88",
+                        "name": "mob/nautilus/swim7"
+                    },
+                    {
+                        "hash": "4151d8c174ff0a5d9e87ac8a07e51b301b341dde",
+                        "name": "mob/nautilus/swim8"
+                    },
+                    {
+                        "hash": "38a4e6c39c22017114f3e34238611c9b4659a4f8",
+                        "name": "mob/nautilus/swim9"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus swims",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.swim"
+            },
+            {
+                "field": "Hf",
+                "id": 1772,
+                "name": "entity.zombie_nautilus.swim",
+                "sounds": [
+                    {
+                        "hash": "fca594412f2e0ff650819f3b0665a8dba1493f39",
+                        "name": "mob/nautilus/swim1"
+                    },
+                    {
+                        "hash": "4b63e1c87b93cf75d1a70b92793d1d5ccf08b103",
+                        "name": "mob/nautilus/swim2"
+                    },
+                    {
+                        "hash": "08e313dea021f4387687e7530b1edb3be6a3e71e",
+                        "name": "mob/nautilus/swim3"
+                    },
+                    {
+                        "hash": "e0579939b43a241f00938aa87fd14035ab9844b9",
+                        "name": "mob/nautilus/swim4"
+                    },
+                    {
+                        "hash": "d793250f46ea32feb1964e847a5cb60031ff520a",
+                        "name": "mob/nautilus/swim5"
+                    },
+                    {
+                        "hash": "814bc1bc9b2e2b9baed1dc263b5d24cca069e066",
+                        "name": "mob/nautilus/swim6"
+                    },
+                    {
+                        "hash": "350ff7f8adde86c3dcf9c1661db9843a0bc81f16",
+                        "name": "mob/nautilus/swim7"
+                    },
+                    {
+                        "hash": "afb0c87d24c7b8e9fc5eaf31b4fe1df4aa7d536d",
+                        "name": "mob/nautilus/swim8"
+                    },
+                    {
+                        "hash": "6f1d1bc3787f4270cfb0d1f925be0d4f329074e1",
+                        "name": "mob/nautilus/swim9"
+                    }
+                ],
+                "subtitle": "Zombie Nautilus swims",
+                "subtitle_key": "subtitles.entity.zombie_nautilus.swim"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "entity_type/can_float_while_ridden": [
+            {
+                "name": "can_float_while_ridden",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:horse",
+                    "minecraft:zombie_horse",
+                    "minecraft:mule",
+                    "minecraft:donkey",
+                    "minecraft:camel"
+                ]
+            },
+            {
+                "name": "can_float_while_ridden",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:horse",
+                    "minecraft:zombie_horse",
+                    "minecraft:mule",
+                    "minecraft:donkey",
+                    "minecraft:camel",
+                    "minecraft:camel_husk"
+                ]
+            }
+        ],
+        "item/piglin_preferred_weapons": [
+            {
+                "name": "piglin_preferred_weapons",
+                "type": "item",
+                "values": [
+                    "minecraft:crossbow"
+                ]
+            },
+            {
+                "name": "piglin_preferred_weapons",
+                "type": "item",
+                "values": [
+                    "minecraft:crossbow",
+                    "minecraft:golden_spear"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4662,
+            4663
+        ],
+        "id": [
+            "25w46a",
+            "1.21.11-pre1"
+        ],
+        "name": [
+            "25w46a",
+            "1.21.11 Pre-Release 1"
+        ],
+        "protocol": [
+            1073742102,
+            1073742103
+        ]
+    }
+}
