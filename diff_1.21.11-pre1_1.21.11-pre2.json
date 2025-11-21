@@ -1,0 +1,32 @@
+{
+    "achievements": {},
+    "language": {
+        "options": {
+            "cutoutLeaves.tooltip": [
+                "Allows to see through gaps in leaves. Disabling may improve performance.",
+                "Allows you to see through gaps in leaves. Disabling improves performance."
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4663,
+            4664
+        ],
+        "id": [
+            "1.21.11-pre1",
+            "1.21.11-pre2"
+        ],
+        "name": [
+            "1.21.11 Pre-Release 1",
+            "1.21.11 Pre-Release 2"
+        ],
+        "protocol": [
+            1073742103,
+            1073742104
+        ]
+    }
+}
