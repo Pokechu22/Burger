@@ -1,0 +1,25 @@
+{
+    "achievements": {},
+    "language": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4666,
+            4667
+        ],
+        "id": [
+            "1.21.11-pre4",
+            "1.21.11-pre5"
+        ],
+        "name": [
+            "1.21.11 Pre-Release 4",
+            "1.21.11 Pre-Release 5"
+        ],
+        "protocol": [
+            1073742106,
+            1073742107
+        ]
+    }
+}
