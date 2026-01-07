@@ -1,0 +1,1004 @@
+{
+    "achievements": {},
+    "language": {
+        "subtitles": {
+            "entity.baby_cat.ambient": [
+                null,
+                "Kitten meows"
+            ],
+            "entity.baby_cat.beg_for_food": [
+                null,
+                "Kitten begs"
+            ],
+            "entity.baby_cat.death": [
+                null,
+                "Kitten dies"
+            ],
+            "entity.baby_cat.eat": [
+                null,
+                "Kitten eats"
+            ],
+            "entity.baby_cat.hiss": [
+                null,
+                "Kitten hisses"
+            ],
+            "entity.baby_cat.hurt": [
+                null,
+                "Kitten hurts"
+            ],
+            "entity.baby_cat.purr": [
+                null,
+                "Kitten purrs"
+            ],
+            "entity.baby_pig.ambient": [
+                null,
+                "Baby Pig oinks"
+            ],
+            "entity.baby_pig.death": [
+                null,
+                "Baby Pig dies"
+            ],
+            "entity.baby_pig.hurt": [
+                null,
+                "Baby Pig hurts"
+            ],
+            "entity.baby_wolf.ambient": [
+                null,
+                "Puppy yips"
+            ],
+            "entity.baby_wolf.death": [
+                null,
+                "Puppy dies"
+            ],
+            "entity.baby_wolf.growl": [
+                null,
+                "Puppy growls"
+            ],
+            "entity.baby_wolf.hurt": [
+                null,
+                "Puppy hurts"
+            ],
+            "entity.baby_wolf.pant": [
+                null,
+                "Puppy pants"
+            ],
+            "entity.baby_wolf.whine": [
+                null,
+                "Puppy whines"
+            ]
+        }
+    },
+    "sounds": {
+        "entity.baby_cat.ambient": [
+            null,
+            {
+                "field": "CAT_AMBIENT_BABY",
+                "id": 278,
+                "name": "entity.baby_cat.ambient",
+                "sounds": [
+                    {
+                        "hash": "329af63ec1ff82353a42454238b9f5fafb7a4b46",
+                        "name": "mob/cat/baby_cat/ambient1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "4482537cce6d5fd727da4723b9928998cc34fc62",
+                        "name": "mob/cat/baby_cat/ambient2",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "6b6a0832230217055a88c472a8fba7fa90f6250f",
+                        "name": "mob/cat/baby_cat/ambient3",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "af32312a23f6873014be206ec6592739edc723f7",
+                        "name": "mob/cat/baby_cat/ambient4",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "d81475e1945680ee127318620b73c12d0599614b",
+                        "name": "mob/cat/baby_cat/ambient5",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "78cb2a2d05efa0d5311831e27d94e2c5dc1df0d0",
+                        "name": "mob/cat/baby_cat/ambient6",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "351e94ade3d7708cc49c76af59bf7638aaeee2d7",
+                        "name": "mob/cat/baby_cat/ambient7",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Kitten meows",
+                "subtitle_key": "subtitles.entity.baby_cat.ambient"
+            }
+        ],
+        "entity.baby_cat.beg_for_food": [
+            null,
+            {
+                "field": "CAT_BEG_FOR_FOOD_BABY",
+                "id": 288,
+                "name": "entity.baby_cat.beg_for_food",
+                "sounds": [
+                    {
+                        "name": "entity.baby_cat.ambient",
+                        "type": "event"
+                    }
+                ],
+                "subtitle": "Kitten begs",
+                "subtitle_key": "subtitles.entity.baby_cat.beg_for_food"
+            }
+        ],
+        "entity.baby_cat.death": [
+            null,
+            {
+                "field": "CAT_DEATH_BABY",
+                "id": 282,
+                "name": "entity.baby_cat.death",
+                "sounds": [
+                    {
+                        "hash": "70532f1d9148d1f82e581a8f64334177d2f40747",
+                        "name": "mob/cat/baby_cat/death",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Kitten dies",
+                "subtitle_key": "subtitles.entity.baby_cat.death"
+            }
+        ],
+        "entity.baby_cat.eat": [
+            null,
+            {
+                "field": "CAT_EAT_BABY",
+                "id": 284,
+                "name": "entity.baby_cat.eat",
+                "sounds": [
+                    {
+                        "hash": "638cfa93effc79da0da5b5335a0aa39190ff6b47",
+                        "name": "mob/cat/eat1",
+                        "pitch": 2.0
+                    },
+                    {
+                        "hash": "e228ab1407ec3f8fda277d8cc4e58a75b11f564f",
+                        "name": "mob/cat/eat2",
+                        "pitch": 2.0
+                    }
+                ],
+                "subtitle": "Kitten eats",
+                "subtitle_key": "subtitles.entity.baby_cat.eat"
+            }
+        ],
+        "entity.baby_cat.hiss": [
+            null,
+            {
+                "field": "CAT_HISS_BABY",
+                "id": 286,
+                "name": "entity.baby_cat.hiss",
+                "sounds": [
+                    {
+                        "hash": "e4d1657aff16a601b815e6002f3c241fdb937d44",
+                        "name": "mob/cat/hiss1",
+                        "pitch": 2.0
+                    },
+                    {
+                        "hash": "bcb8686fcb8815bea7f2dc25d6cf10e821a682f1",
+                        "name": "mob/cat/hiss2",
+                        "pitch": 2.0
+                    },
+                    {
+                        "hash": "c6c7eedd7489e97048dc1d76941ef20258001939",
+                        "name": "mob/cat/hiss3",
+                        "pitch": 2.0
+                    }
+                ],
+                "subtitle": "Kitten hisses",
+                "subtitle_key": "subtitles.entity.baby_cat.hiss"
+            }
+        ],
+        "entity.baby_cat.hurt": [
+            null,
+            {
+                "field": "CAT_HURT_BABY",
+                "id": 290,
+                "name": "entity.baby_cat.hurt",
+                "sounds": [
+                    {
+                        "hash": "95abe9dfc7724c71bc460ad2ceffa432e709ed5a",
+                        "name": "mob/cat/baby_cat/hurt1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "3aefaf3d1b5ea4c760465e24d4e0eb27e7963f8b",
+                        "name": "mob/cat/baby_cat/hurt2",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "d6c81b9215012124475455cfb118245207e9998b",
+                        "name": "mob/cat/baby_cat/hurt3",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Kitten hurts",
+                "subtitle_key": "subtitles.entity.baby_cat.hurt"
+            }
+        ],
+        "entity.baby_cat.purr": [
+            null,
+            {
+                "field": "CAT_PURR_BABY",
+                "id": 292,
+                "name": "entity.baby_cat.purr",
+                "sounds": [
+                    {
+                        "name": "entity.baby_cat.ambient",
+                        "type": "event"
+                    }
+                ],
+                "subtitle": "Kitten purrs",
+                "subtitle_key": "subtitles.entity.baby_cat.purr"
+            }
+        ],
+        "entity.baby_cat.purreow": [
+            null,
+            {
+                "field": "CAT_PURREOW_BABY",
+                "id": 294,
+                "name": "entity.baby_cat.purreow",
+                "sounds": [
+                    {
+                        "name": "entity.baby_cat.ambient",
+                        "type": "event"
+                    }
+                ],
+                "subtitle": "Kitten meows",
+                "subtitle_key": "subtitles.entity.baby_cat.ambient"
+            }
+        ],
+        "entity.baby_cat.stray_ambient": [
+            null,
+            {
+                "field": "CAT_STRAY_AMBIENT_BABY",
+                "id": 280,
+                "name": "entity.baby_cat.stray_ambient",
+                "sounds": [
+                    {
+                        "name": "entity.baby_cat.ambient",
+                        "type": "event"
+                    }
+                ],
+                "subtitle": "Kitten meows",
+                "subtitle_key": "subtitles.entity.baby_cat.ambient"
+            }
+        ],
+        "entity.baby_pig.ambient": [
+            null,
+            {
+                "field": "PIG_AMBIENT_BABY",
+                "id": 1217,
+                "name": "entity.baby_pig.ambient",
+                "sounds": [
+                    {
+                        "hash": "fbaf7f18482f336696aebe1f0ed8d114094f3980",
+                        "name": "mob/pig/baby_pig/ambient1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "82b18dfa274ca853b95ea7fe7df477fcdb765d4b",
+                        "name": "mob/pig/baby_pig/ambient2",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "27f8b4f0c6512ad41f177fc5fe78949378280582",
+                        "name": "mob/pig/baby_pig/ambient3",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "a82133b6b3c1279b635b43c5428efb40a4ed420e",
+                        "name": "mob/pig/baby_pig/ambient4",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "a23eac66290907463b763af5a377b803719c68e1",
+                        "name": "mob/pig/baby_pig/ambient5",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "c483ceb8c694367637f64ce88a1f453c9fc9c9fd",
+                        "name": "mob/pig/baby_pig/ambient6",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Baby Pig oinks",
+                "subtitle_key": "subtitles.entity.baby_pig.ambient"
+            }
+        ],
+        "entity.baby_pig.death": [
+            null,
+            {
+                "field": "PIG_DEATH_BABY",
+                "id": 1219,
+                "name": "entity.baby_pig.death",
+                "sounds": [
+                    {
+                        "hash": "0d36ea892f502b58d12dee6d3aeb972a3c131b1a",
+                        "name": "mob/pig/baby_pig/death",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Baby Pig dies",
+                "subtitle_key": "subtitles.entity.baby_pig.death"
+            }
+        ],
+        "entity.baby_pig.hurt": [
+            null,
+            {
+                "field": "PIG_HURT_BABY",
+                "id": 1221,
+                "name": "entity.baby_pig.hurt",
+                "sounds": [
+                    {
+                        "hash": "3bb7c0eff4fe540479571a35ef48cb846ff88bc9",
+                        "name": "mob/pig/baby_pig/hit1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "efe0d93ba5493d69ef3d858b1cc9c25f77a6625b",
+                        "name": "mob/pig/baby_pig/hit2",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "2bb94211db3be9bc0f36764eab830631e52cfc8e",
+                        "name": "mob/pig/baby_pig/hit3",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Baby Pig hurts",
+                "subtitle_key": "subtitles.entity.baby_pig.hurt"
+            }
+        ],
+        "entity.baby_pig.step": [
+            null,
+            {
+                "field": "PIG_STEP_BABY",
+                "id": 1224,
+                "name": "entity.baby_pig.step",
+                "sounds": [
+                    {
+                        "hash": "66076bf14464b5cb34d71d817b0e9f1a4f439eda",
+                        "name": "mob/pig/baby_pig/step1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "e2ea2cb7ee36ff6212a1e400d04bdb3131e2ff2f",
+                        "name": "mob/pig/baby_pig/step2",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "5e41b6eedbd163159e958c42c350d44b34ed8ef1",
+                        "name": "mob/pig/baby_pig/step3",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "4c00175724f616a2ee77b852e807bd91b447b3fc",
+                        "name": "mob/pig/baby_pig/step4",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "02dfe09d027ce70ee834bace34fe46b35c5eed7b",
+                        "name": "mob/pig/baby_pig/step5",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.baby_wolf.ambient": [
+            null,
+            {
+                "field": "WOLF_AMBIENT_BABY",
+                "id": 1730,
+                "name": "entity.baby_wolf.ambient",
+                "sounds": [
+                    {
+                        "hash": "4fcb96290a117a84edc73f6405e225dc9afb7a15",
+                        "name": "mob/wolf/baby/ambient1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "b9f3ea614d90c8cb4adbe2981772319b36cdd611",
+                        "name": "mob/wolf/baby/ambient2",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "79ff1af8f62367137f39bfe13d54549a97595232",
+                        "name": "mob/wolf/baby/ambient3",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "d635f508633610b066e05930578960a5556a8c1e",
+                        "name": "mob/wolf/baby/ambient4",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "0d788cd6512fcb306acffc6aac6d7d3f7e2843fd",
+                        "name": "mob/wolf/baby/ambient5",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "869ece7a2110f64a0dfdea51b949b7fcf635eef3",
+                        "name": "mob/wolf/baby/ambient6",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "08f49f42d779a4a89f7e3779dcfd2f3eee679095",
+                        "name": "mob/wolf/baby/ambient7",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "0368847a811a102139032fe7a07bedadc3a60371",
+                        "name": "mob/wolf/baby/ambient8",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Puppy yips",
+                "subtitle_key": "subtitles.entity.baby_wolf.ambient"
+            }
+        ],
+        "entity.baby_wolf.death": [
+            null,
+            {
+                "field": "WOLF_DEATH_BABY",
+                "id": 1734,
+                "name": "entity.baby_wolf.death",
+                "sounds": [
+                    {
+                        "hash": "eb3f9bfb75e3def5cf0bce10403ddfb67a402866",
+                        "name": "mob/wolf/baby/death",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Puppy dies",
+                "subtitle_key": "subtitles.entity.baby_wolf.death"
+            }
+        ],
+        "entity.baby_wolf.growl": [
+            null,
+            {
+                "field": "WOLF_GROWL_BABY",
+                "id": 1735,
+                "name": "entity.baby_wolf.growl",
+                "sounds": [
+                    {
+                        "hash": "fca4452e8d168a4217f979f2ef2444d26d9ccc19",
+                        "name": "mob/wolf/baby/angry1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "88c7adabbc2606fb522c59c253f69757641f2d29",
+                        "name": "mob/wolf/baby/angry2",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "52a2ec61ec242b2b3e0610a6377f9ae977260db6",
+                        "name": "mob/wolf/baby/angry3",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "1f5108b93471566b875759b02526223755d9a89a",
+                        "name": "mob/wolf/baby/angry4",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Puppy growls",
+                "subtitle_key": "subtitles.entity.baby_wolf.growl"
+            }
+        ],
+        "entity.baby_wolf.hurt": [
+            null,
+            {
+                "field": "WOLF_HURT_BABY",
+                "id": 1736,
+                "name": "entity.baby_wolf.hurt",
+                "sounds": [
+                    {
+                        "hash": "01e878517437166c8f2cb9295babed742e65d0d5",
+                        "name": "mob/wolf/baby/hurt1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "5ed009012193aee4789cf86989c9d46cf98c3f75",
+                        "name": "mob/wolf/baby/hurt2",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "bc60ae6241aea42cb234bc6d763b9ce401353e02",
+                        "name": "mob/wolf/baby/hurt3",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Puppy hurts",
+                "subtitle_key": "subtitles.entity.baby_wolf.hurt"
+            }
+        ],
+        "entity.baby_wolf.pant": [
+            null,
+            {
+                "field": "WOLF_PANT_BABY",
+                "id": 1737,
+                "name": "entity.baby_wolf.pant",
+                "sounds": [
+                    {
+                        "hash": "8f214379be88d59438696a9cf054c07e81e8bc1d",
+                        "name": "mob/wolf/baby/pant1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "4a6e430575215563f98bf04b0e6a9fd3dc7d64d5",
+                        "name": "mob/wolf/baby/pant2",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "6d6ece0c651e9eb54ea4d4143fd62ce41cef3088",
+                        "name": "mob/wolf/baby/pant3",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Puppy pants",
+                "subtitle_key": "subtitles.entity.baby_wolf.pant"
+            }
+        ],
+        "entity.baby_wolf.step": [
+            null,
+            {
+                "field": "WOLF_STEP_BABY",
+                "id": 1740,
+                "name": "entity.baby_wolf.step",
+                "sounds": [
+                    {
+                        "hash": "3aae3798791ea5c6addc3d0887112489a26b4e6e",
+                        "name": "mob/wolf/baby/step1"
+                    },
+                    {
+                        "hash": "d94121bffb40e65b5ca26fc7f3880e53470e7af6",
+                        "name": "mob/wolf/baby/step2"
+                    },
+                    {
+                        "hash": "d07ce6df4c0032677eaaf64e6ed7ba0200da5747",
+                        "name": "mob/wolf/baby/step3"
+                    },
+                    {
+                        "hash": "4d26570c5421adb4ddf1a9e57e340df251791f7e",
+                        "name": "mob/wolf/baby/step4"
+                    },
+                    {
+                        "hash": "d2491fa0504774eae03a7aae2630d23673a0bdae",
+                        "name": "mob/wolf/baby/step5"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ],
+        "entity.baby_wolf.whine": [
+            null,
+            {
+                "field": "WOLF_SOUNDS",
+                "id": 1742,
+                "name": "entity.baby_wolf.whine",
+                "sounds": [
+                    {
+                        "hash": "809e2dd6d2ede93fec23d84e48aac77fa87ebb6a",
+                        "name": "mob/wolf/baby/whine1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "10f9323f178d439e62c892d4b519b9c9e0dc44bd",
+                        "name": "mob/wolf/baby/whine2",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Puppy whines",
+                "subtitle_key": "subtitles.entity.baby_wolf.whine"
+            }
+        ],
+        "entity.cat.hiss": [
+            {
+                "field": "CAT_HISS",
+                "id": 281,
+                "name": "entity.cat.hiss",
+                "sounds": [
+                    {
+                        "hash": "3dc3bc30c986313bb320a4d1513b413afad48254",
+                        "name": "mob/cat/hiss1",
+                        "volume": 0.4
+                    },
+                    {
+                        "hash": "844749c39f3519ef6123527240c5c05c40a1abd1",
+                        "name": "mob/cat/hiss2",
+                        "volume": 0.4
+                    },
+                    {
+                        "hash": "51245a824bb389a71c48749288269c3a0d5ac320",
+                        "name": "mob/cat/hiss3",
+                        "volume": 0.4
+                    }
+                ],
+                "subtitle": "Cat hisses",
+                "subtitle_key": "subtitles.entity.cat.hiss"
+            },
+            {
+                "field": "CAT_HISS",
+                "id": 285,
+                "name": "entity.cat.hiss",
+                "sounds": [
+                    {
+                        "hash": "e4d1657aff16a601b815e6002f3c241fdb937d44",
+                        "name": "mob/cat/hiss1",
+                        "volume": 0.4
+                    },
+                    {
+                        "hash": "bcb8686fcb8815bea7f2dc25d6cf10e821a682f1",
+                        "name": "mob/cat/hiss2",
+                        "volume": 0.4
+                    },
+                    {
+                        "hash": "c6c7eedd7489e97048dc1d76941ef20258001939",
+                        "name": "mob/cat/hiss3",
+                        "volume": 0.4
+                    }
+                ],
+                "subtitle": "Cat hisses",
+                "subtitle_key": "subtitles.entity.cat.hiss"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "item/metal_nuggets": [
+            null,
+            {
+                "name": "metal_nuggets",
+                "type": "item",
+                "values": [
+                    "minecraft:copper_nugget",
+                    "minecraft:iron_nugget",
+                    "minecraft:gold_nugget"
+                ]
+            }
+        ],
+        "potion/tradeable": [
+            {
+                "name": "tradeable",
+                "type": "potion",
+                "values": [
+                    "minecraft:thick",
+                    "minecraft:mundane",
+                    "minecraft:awkward",
+                    "minecraft:wind_charged",
+                    "minecraft:oozing",
+                    "minecraft:infested",
+                    "minecraft:weaving",
+                    "minecraft:night_vision",
+                    "minecraft:long_night_vision",
+                    "minecraft:invisibility",
+                    "minecraft:long_invisibility",
+                    "minecraft:fire_resistance",
+                    "minecraft:long_fire_resistance",
+                    "minecraft:leaping",
+                    "minecraft:long_leaping",
+                    "minecraft:strong_leaping",
+                    "minecraft:slowness",
+                    "minecraft:long_slowness",
+                    "minecraft:strong_slowness",
+                    "minecraft:turtle_master",
+                    "minecraft:long_turtle_master",
+                    "minecraft:strong_turtle_master",
+                    "minecraft:swiftness",
+                    "minecraft:long_swiftness",
+                    "minecraft:strong_swiftness",
+                    "minecraft:water_breathing",
+                    "minecraft:long_water_breathing",
+                    "minecraft:healing",
+                    "minecraft:strong_healing",
+                    "minecraft:harming",
+                    "minecraft:strong_harming",
+                    "minecraft:poison",
+                    "minecraft:long_poison",
+                    "minecraft:strong_poison",
+                    "minecraft:regeneration",
+                    "minecraft:long_regeneration",
+                    "minecraft:strong_regeneration",
+                    "minecraft:strength",
+                    "minecraft:long_strength",
+                    "minecraft:strong_strength",
+                    "minecraft:weakness",
+                    "minecraft:long_weakness",
+                    "minecraft:slow_falling",
+                    "minecraft:long_slow_falling"
+                ]
+            },
+            {
+                "name": "tradeable",
+                "type": "potion",
+                "values": [
+                    "minecraft:wind_charged",
+                    "minecraft:oozing",
+                    "minecraft:infested",
+                    "minecraft:weaving",
+                    "minecraft:night_vision",
+                    "minecraft:long_night_vision",
+                    "minecraft:invisibility",
+                    "minecraft:long_invisibility",
+                    "minecraft:fire_resistance",
+                    "minecraft:long_fire_resistance",
+                    "minecraft:leaping",
+                    "minecraft:long_leaping",
+                    "minecraft:strong_leaping",
+                    "minecraft:slowness",
+                    "minecraft:long_slowness",
+                    "minecraft:strong_slowness",
+                    "minecraft:turtle_master",
+                    "minecraft:long_turtle_master",
+                    "minecraft:strong_turtle_master",
+                    "minecraft:swiftness",
+                    "minecraft:long_swiftness",
+                    "minecraft:strong_swiftness",
+                    "minecraft:water_breathing",
+                    "minecraft:long_water_breathing",
+                    "minecraft:healing",
+                    "minecraft:strong_healing",
+                    "minecraft:harming",
+                    "minecraft:strong_harming",
+                    "minecraft:poison",
+                    "minecraft:long_poison",
+                    "minecraft:strong_poison",
+                    "minecraft:regeneration",
+                    "minecraft:long_regeneration",
+                    "minecraft:strong_regeneration",
+                    "minecraft:strength",
+                    "minecraft:long_strength",
+                    "minecraft:strong_strength",
+                    "minecraft:weakness",
+                    "minecraft:long_weakness",
+                    "minecraft:slow_falling",
+                    "minecraft:long_slow_falling"
+                ]
+            }
+        ],
+        "villager_trade/armorer/level_3": [
+            {
+                "name": "armorer/level_3",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:armorer/3/lava_bucket_emerald",
+                    "minecraft:armorer/3/emerald_chainmail_helmet",
+                    "minecraft:armorer/3/emerald_chainmail_chestplate",
+                    "minecraft:armorer/3/emerald_shield"
+                ]
+            },
+            {
+                "name": "armorer/level_3",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:armorer/3/lava_bucket_emerald",
+                    "minecraft:armorer/3/emerald_chainmail_helmet",
+                    "minecraft:armorer/3/emerald_chainmail_chestplate",
+                    "minecraft:armorer/3/emerald_shield",
+                    "minecraft:armorer/3/diamond_emerald"
+                ]
+            }
+        ],
+        "villager_trade/armorer/level_4": [
+            {
+                "name": "armorer/level_4",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:smith/4/diamond_emerald",
+                    "minecraft:armorer/4/emerald_enchanted_diamond_leggings",
+                    "minecraft:armorer/4/emerald_enchanted_diamond_boots"
+                ]
+            },
+            {
+                "name": "armorer/level_4",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:armorer/4/emerald_enchanted_diamond_leggings",
+                    "minecraft:armorer/4/emerald_enchanted_diamond_boots"
+                ]
+            }
+        ],
+        "villager_trade/common_smith/level_4": [
+            {
+                "name": "common_smith/level_4",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:smith/4/diamond_emerald"
+                ]
+            },
+            {
+                "name": "common_smith/level_4",
+                "type": "villager_trade",
+                "values": []
+            }
+        ],
+        "villager_trade/mason/level_4": [
+            {
+                "name": "mason/level_4",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:mason/4/quartz_emerald",
+                    "minecraft:mason/4/emerald_orange_terracotta",
+                    "minecraft:mason/4/emerald_white_terracotta",
+                    "minecraft:mason/4/emerald_blue_terracotta",
+                    "minecraft:mason/4/emerald_light_blue_terracotta",
+                    "minecraft:mason/4/emerald_gray_terracotta",
+                    "minecraft:mason/4/emerald_light_gray_terracotta",
+                    "minecraft:mason/4/emerald_black_terracotta",
+                    "minecraft:mason/4/emerald_red_terracotta",
+                    "minecraft:mason/4/emerald_pink_terracotta",
+                    "minecraft:mason/4/emerald_magenta_terracotta"
+                ]
+            },
+            {
+                "name": "mason/level_4",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:mason/4/quartz_emerald",
+                    "minecraft:mason/4/emerald_orange_terracotta",
+                    "minecraft:mason/4/emerald_white_terracotta",
+                    "minecraft:mason/4/emerald_blue_terracotta",
+                    "minecraft:mason/4/emerald_light_blue_terracotta",
+                    "minecraft:mason/4/emerald_gray_terracotta",
+                    "minecraft:mason/4/emerald_light_gray_terracotta",
+                    "minecraft:mason/4/emerald_black_terracotta",
+                    "minecraft:mason/4/emerald_red_terracotta",
+                    "minecraft:mason/4/emerald_pink_terracotta",
+                    "minecraft:mason/4/emerald_magenta_terracotta",
+                    "minecraft:mason/4/emerald_lime_terracotta",
+                    "minecraft:mason/4/emerald_green_terracotta",
+                    "minecraft:mason/4/emerald_cyan_terracotta",
+                    "minecraft:mason/4/emerald_purple_terracotta",
+                    "minecraft:mason/4/emerald_yellow_terracotta",
+                    "minecraft:mason/4/emerald_brown_terracotta",
+                    "minecraft:mason/4/emerald_orange_glazed_terracotta",
+                    "minecraft:mason/4/emerald_white_glazed_terracotta",
+                    "minecraft:mason/4/emerald_blue_glazed_terracotta",
+                    "minecraft:mason/4/emerald_light_blue_glazed_terracotta",
+                    "minecraft:mason/4/emerald_gray_glazed_terracotta",
+                    "minecraft:mason/4/emerald_light_gray_glazed_terracotta",
+                    "minecraft:mason/4/emerald_black_glazed_terracotta",
+                    "minecraft:mason/4/emerald_red_glazed_terracotta",
+                    "minecraft:mason/4/emerald_pink_glazed_terracotta",
+                    "minecraft:mason/4/emerald_magenta_glazed_terracotta",
+                    "minecraft:mason/4/emerald_lime_glazed_terracotta",
+                    "minecraft:mason/4/emerald_green_glazed_terracotta",
+                    "minecraft:mason/4/emerald_cyan_glazed_terracotta",
+                    "minecraft:mason/4/emerald_purple_glazed_terracotta",
+                    "minecraft:mason/4/emerald_yellow_glazed_terracotta",
+                    "minecraft:mason/4/emerald_brown_glazed_terracotta"
+                ]
+            }
+        ],
+        "villager_trade/shepherd/level_3": [
+            {
+                "name": "shepherd/level_3",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:shepherd/3/yellow_dye_emerald",
+                    "minecraft:shepherd/3/light_gray_dye_emerald",
+                    "minecraft:shepherd/3/orange_dye_emerald",
+                    "minecraft:shepherd/3/red_dye_emerald",
+                    "minecraft:shepherd/3/pink_dye_emerald",
+                    "minecraft:shepherd/3/emerald_white_bed",
+                    "minecraft:shepherd/3/emerald_orange_bed",
+                    "minecraft:shepherd/3/emerald_magenta_bed",
+                    "minecraft:shepherd/3/emerald_blue_bed",
+                    "minecraft:shepherd/3/emerald_light_blue_bed",
+                    "minecraft:shepherd/3/emerald_yellow_bed",
+                    "minecraft:shepherd/3/emerald_lime_bed",
+                    "minecraft:shepherd/3/emerald_pink_bed",
+                    "minecraft:shepherd/3/emerald_gray_bed",
+                    "minecraft:shepherd/3/emerald_light_gray_bed",
+                    "minecraft:shepherd/3/emerald_yellow_bed",
+                    "minecraft:shepherd/3/emerald_lime_bed",
+                    "minecraft:shepherd/3/emerald_pink_bed",
+                    "minecraft:shepherd/3/emerald_gray_bed",
+                    "minecraft:shepherd/3/emerald_light_gray_bed",
+                    "minecraft:shepherd/3/emerald_cyan_bed",
+                    "minecraft:shepherd/3/emerald_purple_bed",
+                    "minecraft:shepherd/3/emerald_brown_bed",
+                    "minecraft:shepherd/3/emerald_green_bed",
+                    "minecraft:shepherd/3/emerald_red_bed",
+                    "minecraft:shepherd/3/emerald_black_bed"
+                ]
+            },
+            {
+                "name": "shepherd/level_3",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:shepherd/3/yellow_dye_emerald",
+                    "minecraft:shepherd/3/light_gray_dye_emerald",
+                    "minecraft:shepherd/3/orange_dye_emerald",
+                    "minecraft:shepherd/3/red_dye_emerald",
+                    "minecraft:shepherd/3/pink_dye_emerald",
+                    "minecraft:shepherd/3/emerald_white_bed",
+                    "minecraft:shepherd/3/emerald_orange_bed",
+                    "minecraft:shepherd/3/emerald_magenta_bed",
+                    "minecraft:shepherd/3/emerald_blue_bed",
+                    "minecraft:shepherd/3/emerald_light_blue_bed",
+                    "minecraft:shepherd/3/emerald_yellow_bed",
+                    "minecraft:shepherd/3/emerald_lime_bed",
+                    "minecraft:shepherd/3/emerald_pink_bed",
+                    "minecraft:shepherd/3/emerald_gray_bed",
+                    "minecraft:shepherd/3/emerald_light_gray_bed",
+                    "minecraft:shepherd/3/emerald_cyan_bed",
+                    "minecraft:shepherd/3/emerald_purple_bed",
+                    "minecraft:shepherd/3/emerald_brown_bed",
+                    "minecraft:shepherd/3/emerald_green_bed",
+                    "minecraft:shepherd/3/emerald_red_bed",
+                    "minecraft:shepherd/3/emerald_black_bed"
+                ]
+            }
+        ],
+        "villager_trade/toolsmith/level_4": [
+            {
+                "name": "toolsmith/level_4",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:smith/4/diamond_emerald",
+                    "minecraft:toolsmith/4/emerald_enchanted_diamond_axe",
+                    "minecraft:toolsmith/4/emerald_enchanted_diamond_shovel"
+                ]
+            },
+            {
+                "name": "toolsmith/level_4",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:toolsmith/4/emerald_enchanted_diamond_axe",
+                    "minecraft:toolsmith/4/emerald_enchanted_diamond_shovel",
+                    "minecraft:toolsmith/4/diamond_emerald"
+                ]
+            }
+        ],
+        "villager_trade/weaponsmith/level_4": [
+            {
+                "name": "weaponsmith/level_4",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:smith/4/diamond_emerald",
+                    "minecraft:weaponsmith/4/emerald_enchanted_diamond_axe"
+                ]
+            },
+            {
+                "name": "weaponsmith/level_4",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:weaponsmith/4/emerald_enchanted_diamond_axe",
+                    "minecraft:weaponsmith/4/diamond_emerald"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4764,
+            4765
+        ],
+        "id": [
+            "26.1-snapshot-1",
+            "26.1-snapshot-2"
+        ],
+        "name": [
+            "26.1 Snapshot 1",
+            "26.1 Snapshot 2"
+        ],
+        "protocol": [
+            1073742111,
+            1073742112
+        ]
+    }
+}
