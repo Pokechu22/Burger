@@ -1,0 +1,839 @@
+{
+    "achievements": {},
+    "language": {
+        "commands": {
+            "time.no_default_clock": [
+                null,
+                "There is no default clock in dimension %s"
+            ],
+            "time.no_time_marker_found": [
+                null,
+                "Time marker %s does not exist for clock %s"
+            ],
+            "time.pause": [
+                null,
+                "Paused clock %s"
+            ],
+            "time.query.absolute": [
+                null,
+                "Clock %s is at %s tick(s)"
+            ],
+            "time.query.gametime": [
+                null,
+                "The game time is %s tick(s)"
+            ],
+            "time.query.timeline": [
+                null,
+                "Timeline %s is at %s tick(s)"
+            ],
+            "time.query.timeline.repetitions": [
+                null,
+                "Timeline %s has passed %s repetition(s)"
+            ],
+            "time.resume": [
+                null,
+                "Resumed clock %s"
+            ],
+            "time.set.absolute": [
+                null,
+                "Set %s to %s tick(s)"
+            ],
+            "time.set.time_marker": [
+                null,
+                "Set %s to time marker %s"
+            ],
+            "time.wrong_timeline_for_clock": [
+                null,
+                "Timeline %s is not valid for clock %s"
+            ]
+        },
+        "editGamerule": {
+            "inGame.button": [
+                null,
+                "Edit Game Rules..."
+            ],
+            "inGame.disabled.tooltip": [
+                null,
+                "Updating game rules requires operator permissions."
+            ],
+            "inGame.discardChanges.message": [
+                null,
+                "Are you sure you want to discard your pending game rule changes?"
+            ],
+            "inGame.discardChanges.title": [
+                null,
+                "Game rule Changes"
+            ],
+            "inGame.downloadingGamerules": [
+                null,
+                "Retrieving game rules..."
+            ]
+        },
+        "gui": {
+            "game_rule.search": [
+                null,
+                "Search..."
+            ]
+        },
+        "options": {
+            "worldOptions.button": [
+                null,
+                "World Options..."
+            ],
+            "worldOptions.title": [
+                null,
+                "World Options"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "block/bamboo_plantable_on": [
+            {
+                "name": "bamboo_plantable_on",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:bamboo",
+                    "minecraft:bamboo_sapling",
+                    "minecraft:gravel",
+                    "minecraft:suspicious_gravel"
+                ]
+            },
+            null
+        ],
+        "block/big_dripleaf_placeable": [
+            {
+                "name": "big_dripleaf_placeable",
+                "type": "block",
+                "values": [
+                    "minecraft:clay",
+                    "minecraft:moss_block",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland"
+                ]
+            },
+            null
+        ],
+        "block/cannot_support_kelp": [
+            null,
+            {
+                "name": "cannot_support_kelp",
+                "type": "block",
+                "values": [
+                    "minecraft:magma_block"
+                ]
+            }
+        ],
+        "block/cannot_support_seagrass": [
+            null,
+            {
+                "name": "cannot_support_seagrass",
+                "type": "block",
+                "values": [
+                    "minecraft:magma_block"
+                ]
+            }
+        ],
+        "block/cannot_support_snow_layer": [
+            null,
+            {
+                "name": "cannot_support_snow_layer",
+                "type": "block",
+                "values": [
+                    "minecraft:ice",
+                    "minecraft:packed_ice",
+                    "minecraft:barrier"
+                ]
+            }
+        ],
+        "block/dry_vegetation_may_place_on": [
+            {
+                "name": "dry_vegetation_may_place_on",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland"
+                ]
+            },
+            null
+        ],
+        "block/enables_bubble_column_drag_down": [
+            null,
+            {
+                "name": "enables_bubble_column_drag_down",
+                "type": "block",
+                "values": [
+                    "minecraft:magma_block"
+                ]
+            }
+        ],
+        "block/enables_bubble_column_push_up": [
+            null,
+            {
+                "name": "enables_bubble_column_push_up",
+                "type": "block",
+                "values": [
+                    "minecraft:soul_sand"
+                ]
+            }
+        ],
+        "block/grows_crops": [
+            null,
+            {
+                "name": "grows_crops",
+                "type": "block",
+                "values": [
+                    "minecraft:farmland"
+                ]
+            }
+        ],
+        "block/mushroom_grow_block": [
+            {
+                "name": "mushroom_grow_block",
+                "type": "block",
+                "values": [
+                    "minecraft:mycelium",
+                    "minecraft:podzol",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium"
+                ]
+            },
+            null
+        ],
+        "block/overrides_mushroom_light_requirement": [
+            null,
+            {
+                "name": "overrides_mushroom_light_requirement",
+                "type": "block",
+                "values": [
+                    "minecraft:mycelium",
+                    "minecraft:podzol",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium"
+                ]
+            }
+        ],
+        "block/small_dripleaf_placeable": [
+            {
+                "name": "small_dripleaf_placeable",
+                "type": "block",
+                "values": [
+                    "minecraft:clay",
+                    "minecraft:moss_block"
+                ]
+            },
+            null
+        ],
+        "block/snow_layer_can_survive_on": [
+            {
+                "name": "snow_layer_can_survive_on",
+                "type": "block",
+                "values": [
+                    "minecraft:honey_block",
+                    "minecraft:soul_sand",
+                    "minecraft:mud"
+                ]
+            },
+            null
+        ],
+        "block/snow_layer_cannot_survive_on": [
+            {
+                "name": "snow_layer_cannot_survive_on",
+                "type": "block",
+                "values": [
+                    "minecraft:ice",
+                    "minecraft:packed_ice",
+                    "minecraft:barrier"
+                ]
+            },
+            null
+        ],
+        "block/support_override_cactus_flower": [
+            null,
+            {
+                "name": "support_override_cactus_flower",
+                "type": "block",
+                "values": [
+                    "minecraft:cactus",
+                    "minecraft:farmland"
+                ]
+            }
+        ],
+        "block/support_override_snow_layer": [
+            null,
+            {
+                "name": "support_override_snow_layer",
+                "type": "block",
+                "values": [
+                    "minecraft:honey_block",
+                    "minecraft:soul_sand",
+                    "minecraft:mud"
+                ]
+            }
+        ],
+        "block/supports_azalea": [
+            null,
+            {
+                "name": "supports_azalea",
+                "type": "block",
+                "values": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland",
+                    "minecraft:clay"
+                ]
+            }
+        ],
+        "block/supports_bamboo": [
+            null,
+            {
+                "name": "supports_bamboo",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:bamboo",
+                    "minecraft:bamboo_sapling",
+                    "minecraft:gravel",
+                    "minecraft:suspicious_gravel"
+                ]
+            }
+        ],
+        "block/supports_big_dripleaf": [
+            null,
+            {
+                "name": "supports_big_dripleaf",
+                "type": "block",
+                "values": [
+                    "minecraft:clay",
+                    "minecraft:moss_block",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland"
+                ]
+            }
+        ],
+        "block/supports_cactus": [
+            null,
+            {
+                "name": "supports_cactus",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand"
+                ]
+            }
+        ],
+        "block/supports_chorus_flower": [
+            null,
+            {
+                "name": "supports_chorus_flower",
+                "type": "block",
+                "values": [
+                    "minecraft:end_stone"
+                ]
+            }
+        ],
+        "block/supports_chorus_plant": [
+            null,
+            {
+                "name": "supports_chorus_plant",
+                "type": "block",
+                "values": [
+                    "minecraft:end_stone"
+                ]
+            }
+        ],
+        "block/supports_cocoa": [
+            null,
+            {
+                "name": "supports_cocoa",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_log",
+                    "minecraft:jungle_wood",
+                    "minecraft:stripped_jungle_log",
+                    "minecraft:stripped_jungle_wood"
+                ]
+            }
+        ],
+        "block/supports_crimson_fungus": [
+            null,
+            {
+                "name": "supports_crimson_fungus",
+                "type": "block",
+                "values": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:mycelium",
+                    "minecraft:soul_soil"
+                ]
+            }
+        ],
+        "block/supports_crimson_roots": [
+            null,
+            {
+                "name": "supports_crimson_roots",
+                "type": "block",
+                "values": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:soul_soil"
+                ]
+            }
+        ],
+        "block/supports_crops": [
+            null,
+            {
+                "name": "supports_crops",
+                "type": "block",
+                "values": [
+                    "minecraft:farmland"
+                ]
+            }
+        ],
+        "block/supports_dry_vegetation": [
+            null,
+            {
+                "name": "supports_dry_vegetation",
+                "type": "block",
+                "values": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:suspicious_sand",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland"
+                ]
+            }
+        ],
+        "block/supports_frogspawn": [
+            null,
+            {
+                "name": "supports_frogspawn",
+                "type": "block",
+                "values": []
+            }
+        ],
+        "block/supports_hanging_mangrove_propagule": [
+            null,
+            {
+                "name": "supports_hanging_mangrove_propagule",
+                "type": "block",
+                "values": [
+                    "minecraft:mangrove_leaves"
+                ]
+            }
+        ],
+        "block/supports_lily_pad": [
+            null,
+            {
+                "name": "supports_lily_pad",
+                "type": "block",
+                "values": [
+                    "minecraft:ice",
+                    "minecraft:frosted_ice"
+                ]
+            }
+        ],
+        "block/supports_mangrove_propagule": [
+            null,
+            {
+                "name": "supports_mangrove_propagule",
+                "type": "block",
+                "values": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland",
+                    "minecraft:clay"
+                ]
+            }
+        ],
+        "block/supports_melon_stem": [
+            null,
+            {
+                "name": "supports_melon_stem",
+                "type": "block",
+                "values": [
+                    "minecraft:farmland"
+                ]
+            }
+        ],
+        "block/supports_nether_sprouts": [
+            null,
+            {
+                "name": "supports_nether_sprouts",
+                "type": "block",
+                "values": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:soul_soil"
+                ]
+            }
+        ],
+        "block/supports_nether_wart": [
+            null,
+            {
+                "name": "supports_nether_wart",
+                "type": "block",
+                "values": [
+                    "minecraft:soul_sand"
+                ]
+            }
+        ],
+        "block/supports_pumpkin_stem": [
+            null,
+            {
+                "name": "supports_pumpkin_stem",
+                "type": "block",
+                "values": [
+                    "minecraft:farmland"
+                ]
+            }
+        ],
+        "block/supports_small_dripleaf": [
+            null,
+            {
+                "name": "supports_small_dripleaf",
+                "type": "block",
+                "values": [
+                    "minecraft:clay",
+                    "minecraft:moss_block"
+                ]
+            }
+        ],
+        "block/supports_stem_crops": [
+            null,
+            {
+                "name": "supports_stem_crops",
+                "type": "block",
+                "values": [
+                    "minecraft:farmland"
+                ]
+            }
+        ],
+        "block/supports_sugar_cane": [
+            null,
+            {
+                "name": "supports_sugar_cane",
+                "type": "block",
+                "values": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:sand"
+                ]
+            }
+        ],
+        "block/supports_sugar_cane_adjacently": [
+            null,
+            {
+                "name": "supports_sugar_cane_adjacently",
+                "type": "block",
+                "values": [
+                    "minecraft:frosted_ice"
+                ]
+            }
+        ],
+        "block/supports_vegetation": [
+            null,
+            {
+                "name": "supports_vegetation",
+                "type": "block",
+                "values": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland"
+                ]
+            }
+        ],
+        "block/supports_warped_fungus": [
+            null,
+            {
+                "name": "supports_warped_fungus",
+                "type": "block",
+                "values": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:mycelium",
+                    "minecraft:soul_soil"
+                ]
+            }
+        ],
+        "block/supports_warped_roots": [
+            null,
+            {
+                "name": "supports_warped_roots",
+                "type": "block",
+                "values": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:soul_soil"
+                ]
+            }
+        ],
+        "block/supports_wither_rose": [
+            null,
+            {
+                "name": "supports_wither_rose",
+                "type": "block",
+                "values": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:farmland",
+                    "minecraft:netherrack",
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil"
+                ]
+            }
+        ],
+        "fluid/bubble_column_can_occupy": [
+            null,
+            {
+                "name": "bubble_column_can_occupy",
+                "type": "fluid",
+                "values": [
+                    "minecraft:water"
+                ]
+            }
+        ],
+        "fluid/supports_frogspawn": [
+            null,
+            {
+                "name": "supports_frogspawn",
+                "type": "fluid",
+                "values": [
+                    "minecraft:water"
+                ]
+            }
+        ],
+        "fluid/supports_lily_pad": [
+            null,
+            {
+                "name": "supports_lily_pad",
+                "type": "fluid",
+                "values": [
+                    "minecraft:water"
+                ]
+            }
+        ],
+        "fluid/supports_sugar_cane_adjacently": [
+            null,
+            {
+                "name": "supports_sugar_cane_adjacently",
+                "type": "fluid",
+                "values": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4765,
+            4767
+        ],
+        "id": [
+            "26.1-snapshot-2",
+            "26.1-snapshot-3"
+        ],
+        "name": [
+            "26.1 Snapshot 2",
+            "26.1 Snapshot 3"
+        ],
+        "protocol": [
+            1073742112,
+            1073742113
+        ]
+    }
+}
