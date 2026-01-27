@@ -1,0 +1,1571 @@
+{
+    "achievements": {},
+    "language": {
+        "block": {
+            "minecraft.golden_dandelion": [
+                null,
+                "Golden Dandelion"
+            ],
+            "minecraft.potted_golden_dandelion": [
+                null,
+                "Potted Golden Dandelion"
+            ]
+        },
+        "subtitles": {
+            "entity.baby_chicken.ambient": [
+                null,
+                "Chick peeps"
+            ],
+            "entity.baby_chicken.death": [
+                null,
+                "Chick dies"
+            ],
+            "entity.baby_chicken.hurts": [
+                null,
+                "Chick hurts"
+            ],
+            "entity.baby_horse.ambient": [
+                null,
+                "Foal neighs"
+            ],
+            "entity.baby_horse.angry": [
+                null,
+                "Foal neighs"
+            ],
+            "entity.baby_horse.breathe": [
+                null,
+                "Foal breathes"
+            ],
+            "entity.baby_horse.death": [
+                null,
+                "Foal dies"
+            ],
+            "entity.baby_horse.eat": [
+                null,
+                "Foal eats"
+            ],
+            "entity.baby_horse.hurt": [
+                null,
+                "Foal hurts"
+            ],
+            "item.golden_dandelion.unuse": [
+                null,
+                "Golden Dandelion starts aging"
+            ],
+            "item.golden_dandelion.use": [
+                null,
+                "Golden Dandelion halts aging"
+            ]
+        }
+    },
+    "sounds": {
+        "entity.baby_chicken.ambient": [
+            null,
+            {
+                "field": "CHICKEN_AMBIENT_BABY",
+                "id": 340,
+                "name": "entity.baby_chicken.ambient",
+                "sounds": [
+                    {
+                        "hash": "f9878b1ef35b3f84a829ab74734e02448fc08e5f",
+                        "name": "mob/chicken/baby_chicken/ambient1",
+                        "pitch": 0.75,
+                        "volume": 0.7,
+                        "weight": 3
+                    },
+                    {
+                        "hash": "21cc68a5c05d3a390c489afbcf6dc89892b2b17d",
+                        "name": "mob/chicken/baby_chicken/ambient2",
+                        "pitch": 0.75,
+                        "volume": 0.7
+                    }
+                ],
+                "subtitle": "Chick peeps",
+                "subtitle_key": "subtitles.entity.baby_chicken.ambient"
+            }
+        ],
+        "entity.baby_chicken.death": [
+            null,
+            {
+                "field": "CHICKEN_DEATH_BABY",
+                "id": 342,
+                "name": "entity.baby_chicken.death",
+                "sounds": [
+                    {
+                        "hash": "642386014e5c14773845c0eee1774f86bb1397c9",
+                        "name": "mob/chicken/baby_chicken/death",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Chick dies",
+                "subtitle_key": "subtitles.entity.baby_chicken.death"
+            }
+        ],
+        "entity.baby_chicken.hurt": [
+            null,
+            {
+                "field": "CHICKEN_HURT_BABY",
+                "id": 345,
+                "name": "entity.baby_chicken.hurt",
+                "sounds": [
+                    {
+                        "hash": "3fca74bdf99f381fa306caf74015c65b735be5ea",
+                        "name": "mob/chicken/baby_chicken/hurt1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "d75302a572694aca47274b9f9a64e6b06dccde01",
+                        "name": "mob/chicken/baby_chicken/hurt2",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "382c4343d69aff836167e8d14ebcb4dd15f25fba",
+                        "name": "mob/chicken/baby_chicken/hurt3",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "ee59fef4390d16c991ec80a41f1220f5859b8041",
+                        "name": "mob/chicken/baby_chicken/hurt4",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle_key": "subtitles.entity.baby_chicken.hurt"
+            }
+        ],
+        "entity.baby_horse.ambient": [
+            {
+                "field": "HORSE_AMBIENT_BABY",
+                "id": 819,
+                "name": "entity.baby_horse.ambient",
+                "sounds": [
+                    {
+                        "hash": "be1e3f31216afa986a3a223a683321075b2c24dd",
+                        "name": "mob/horse/baby_horse/ambient1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "336d6d4dff512993cf56102a3351235aafd4d1f7",
+                        "name": "mob/horse/baby_horse/ambient2",
+                        "pitch": 0.75,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "34893af93c201b3a7e09247c5fd512b46e28e1c0",
+                        "name": "mob/horse/baby_horse/ambient3",
+                        "pitch": 0.75,
+                        "weight": 3
+                    },
+                    {
+                        "hash": "efb0bd5501b77d909348125b76937579ceee9287",
+                        "name": "mob/horse/baby_horse/ambient4",
+                        "pitch": 0.75,
+                        "weight": 3
+                    },
+                    {
+                        "hash": "c83f77ec5ed50faf4ece8d075a01eff1e0961b03",
+                        "name": "mob/horse/baby_horse/ambient5",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "160d6d8a4c2c0a47826c3af96d29afe9ee0b8834",
+                        "name": "mob/horse/baby_horse/ambient6",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "a68d566e52f73cb0704c19686f1cd96bb1202ab0",
+                        "name": "mob/horse/baby_horse/ambient7",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "621a0ae36c072ac5610748777ee15773dea5451b",
+                        "name": "mob/horse/baby_horse/ambient8",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle_key": "subtitles.entity.baby_horse.ambient"
+            },
+            {
+                "field": "HORSE_AMBIENT_BABY",
+                "id": 824,
+                "name": "entity.baby_horse.ambient",
+                "sounds": [
+                    {
+                        "hash": "be1e3f31216afa986a3a223a683321075b2c24dd",
+                        "name": "mob/horse/baby_horse/ambient1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "336d6d4dff512993cf56102a3351235aafd4d1f7",
+                        "name": "mob/horse/baby_horse/ambient2",
+                        "pitch": 0.75,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "34893af93c201b3a7e09247c5fd512b46e28e1c0",
+                        "name": "mob/horse/baby_horse/ambient3",
+                        "pitch": 0.75,
+                        "weight": 3
+                    },
+                    {
+                        "hash": "efb0bd5501b77d909348125b76937579ceee9287",
+                        "name": "mob/horse/baby_horse/ambient4",
+                        "pitch": 0.75,
+                        "weight": 3
+                    },
+                    {
+                        "hash": "c83f77ec5ed50faf4ece8d075a01eff1e0961b03",
+                        "name": "mob/horse/baby_horse/ambient5",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "160d6d8a4c2c0a47826c3af96d29afe9ee0b8834",
+                        "name": "mob/horse/baby_horse/ambient6",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "a68d566e52f73cb0704c19686f1cd96bb1202ab0",
+                        "name": "mob/horse/baby_horse/ambient7",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "621a0ae36c072ac5610748777ee15773dea5451b",
+                        "name": "mob/horse/baby_horse/ambient8",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Foal neighs",
+                "subtitle_key": "subtitles.entity.baby_horse.ambient"
+            }
+        ],
+        "entity.baby_horse.angry": [
+            {
+                "field": "HORSE_ANGRY_BABY",
+                "id": 821,
+                "name": "entity.baby_horse.angry",
+                "sounds": [
+                    {
+                        "hash": "c28280691570f4a4e52681278ccbe0bfde40b4a0",
+                        "name": "mob/horse/baby_horse/angry",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle_key": "subtitles.entity.baby_horse.angry"
+            },
+            {
+                "field": "HORSE_ANGRY_BABY",
+                "id": 826,
+                "name": "entity.baby_horse.angry",
+                "sounds": [
+                    {
+                        "hash": "c28280691570f4a4e52681278ccbe0bfde40b4a0",
+                        "name": "mob/horse/baby_horse/angry",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Foal neighs",
+                "subtitle_key": "subtitles.entity.baby_horse.angry"
+            }
+        ],
+        "entity.baby_horse.breathe": [
+            {
+                "field": "HORSE_BREATHE_BABY",
+                "id": 825,
+                "name": "entity.baby_horse.breathe",
+                "sounds": [
+                    {
+                        "hash": "34893af93c201b3a7e09247c5fd512b46e28e1c0",
+                        "name": "mob/horse/baby_horse/ambient3"
+                    }
+                ],
+                "subtitle_key": "subtitles.entity.baby_horse.breathe"
+            },
+            {
+                "field": "HORSE_BREATHE_BABY",
+                "id": 830,
+                "name": "entity.baby_horse.breathe",
+                "sounds": [
+                    {
+                        "hash": "34893af93c201b3a7e09247c5fd512b46e28e1c0",
+                        "name": "mob/horse/baby_horse/ambient3"
+                    }
+                ],
+                "subtitle": "Foal breathes",
+                "subtitle_key": "subtitles.entity.baby_horse.breathe"
+            }
+        ],
+        "entity.baby_horse.death": [
+            {
+                "field": "HORSE_DEATH_BABY",
+                "id": 827,
+                "name": "entity.baby_horse.death",
+                "sounds": [
+                    {
+                        "hash": "725ea807f3b60ede2601173f853dedb668b8181e",
+                        "name": "mob/horse/baby_horse/death",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle_key": "subtitles.entity.baby_horse.death"
+            },
+            {
+                "field": "HORSE_DEATH_BABY",
+                "id": 832,
+                "name": "entity.baby_horse.death",
+                "sounds": [
+                    {
+                        "hash": "725ea807f3b60ede2601173f853dedb668b8181e",
+                        "name": "mob/horse/baby_horse/death",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Foal dies",
+                "subtitle_key": "subtitles.entity.baby_horse.death"
+            }
+        ],
+        "entity.baby_horse.eat": [
+            {
+                "field": "HORSE_EAT_BABY",
+                "id": 829,
+                "name": "entity.baby_horse.eat",
+                "sounds": [
+                    {
+                        "hash": "f3c803a15f135d3d7aafbecba413f67ee6969d50",
+                        "name": "mob/horse/baby_horse/eat1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "4b62b5075f57c0950f4f09dc585043b66792d897",
+                        "name": "mob/horse/baby_horse/eat2",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "e93c6a45028b20b6cebe697aefbeb7464c5b6d15",
+                        "name": "mob/horse/baby_horse/eat3",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "1fe7f4ffcd17804cca4719ea1ddaf8e269bc5147",
+                        "name": "mob/horse/baby_horse/eat4",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "a63181699af2ead1a90593502d8913e1f648cf3d",
+                        "name": "mob/horse/baby_horse/eat5",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle_key": "subtitles.entity.baby_horse.eat"
+            },
+            {
+                "field": "HORSE_EAT_BABY",
+                "id": 834,
+                "name": "entity.baby_horse.eat",
+                "sounds": [
+                    {
+                        "hash": "f3c803a15f135d3d7aafbecba413f67ee6969d50",
+                        "name": "mob/horse/baby_horse/eat1",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "4b62b5075f57c0950f4f09dc585043b66792d897",
+                        "name": "mob/horse/baby_horse/eat2",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "e93c6a45028b20b6cebe697aefbeb7464c5b6d15",
+                        "name": "mob/horse/baby_horse/eat3",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "1fe7f4ffcd17804cca4719ea1ddaf8e269bc5147",
+                        "name": "mob/horse/baby_horse/eat4",
+                        "pitch": 0.75
+                    },
+                    {
+                        "hash": "a63181699af2ead1a90593502d8913e1f648cf3d",
+                        "name": "mob/horse/baby_horse/eat5",
+                        "pitch": 0.75
+                    }
+                ],
+                "subtitle": "Foal eats",
+                "subtitle_key": "subtitles.entity.baby_horse.eat"
+            }
+        ],
+        "entity.baby_horse.hurt": [
+            {
+                "field": "HORSE_HURT_BABY",
+                "id": 832,
+                "name": "entity.baby_horse.hurt",
+                "sounds": [
+                    {
+                        "hash": "9808cc5dd22d0850438a104b7f82dec6fd834e7d",
+                        "name": "mob/horse/baby_horse/hurt1",
+                        "pitch": 0.5
+                    },
+                    {
+                        "hash": "bde270d08042a51dc79b3b21ac849ee903d04dfa",
+                        "name": "mob/horse/baby_horse/hurt2",
+                        "pitch": 0.5
+                    },
+                    {
+                        "hash": "fa0c3ef5f6bd5ef20cbd8092a7a5d691cd865e5c",
+                        "name": "mob/horse/baby_horse/hurt3",
+                        "pitch": 0.5
+                    }
+                ],
+                "subtitle_key": "subtitles.entity.baby_horse.hurt"
+            },
+            {
+                "field": "HORSE_HURT_BABY",
+                "id": 837,
+                "name": "entity.baby_horse.hurt",
+                "sounds": [
+                    {
+                        "hash": "9808cc5dd22d0850438a104b7f82dec6fd834e7d",
+                        "name": "mob/horse/baby_horse/hurt1",
+                        "pitch": 0.5
+                    },
+                    {
+                        "hash": "bde270d08042a51dc79b3b21ac849ee903d04dfa",
+                        "name": "mob/horse/baby_horse/hurt2",
+                        "pitch": 0.5
+                    },
+                    {
+                        "hash": "fa0c3ef5f6bd5ef20cbd8092a7a5d691cd865e5c",
+                        "name": "mob/horse/baby_horse/hurt3",
+                        "pitch": 0.5
+                    }
+                ],
+                "subtitle": "Foal hurts",
+                "subtitle_key": "subtitles.entity.baby_horse.hurt"
+            }
+        ],
+        "item.golden_dandelion.unuse": [
+            null,
+            {
+                "field": "GOLDEN_DANDELION_UNUSE",
+                "id": 735,
+                "name": "item.golden_dandelion.unuse",
+                "sounds": [
+                    {
+                        "hash": "8091c7e1069e8df8a883f188f6780ad74051d189",
+                        "name": "item/golden_dandelion/unuse"
+                    }
+                ],
+                "subtitle": "Golden Dandelion starts aging",
+                "subtitle_key": "subtitles.item.golden_dandelion.unuse"
+            }
+        ],
+        "item.golden_dandelion.use": [
+            null,
+            {
+                "field": "GOLDEN_DANDELION_USE",
+                "id": 734,
+                "name": "item.golden_dandelion.use",
+                "sounds": [
+                    {
+                        "hash": "20ae933416c19ca32a73903c4d0f4fdc025aff97",
+                        "name": "item/golden_dandelion/use"
+                    }
+                ],
+                "subtitle": "Golden Dandelion halts aging",
+                "subtitle_key": "subtitles.item.golden_dandelion.use"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/enderman_holdable": [
+            {
+                "name": "enderman_holdable",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:gravel",
+                    "minecraft:brown_mushroom",
+                    "minecraft:red_mushroom",
+                    "minecraft:tnt",
+                    "minecraft:cactus",
+                    "minecraft:clay",
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:melon",
+                    "minecraft:crimson_fungus",
+                    "minecraft:crimson_nylium",
+                    "minecraft:crimson_roots",
+                    "minecraft:warped_fungus",
+                    "minecraft:warped_nylium",
+                    "minecraft:warped_roots",
+                    "minecraft:cactus_flower"
+                ]
+            },
+            {
+                "name": "enderman_holdable",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:golden_dandelion",
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:mycelium",
+                    "minecraft:rooted_dirt",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:gravel",
+                    "minecraft:brown_mushroom",
+                    "minecraft:red_mushroom",
+                    "minecraft:tnt",
+                    "minecraft:cactus",
+                    "minecraft:clay",
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:melon",
+                    "minecraft:crimson_fungus",
+                    "minecraft:crimson_nylium",
+                    "minecraft:crimson_roots",
+                    "minecraft:warped_fungus",
+                    "minecraft:warped_nylium",
+                    "minecraft:warped_roots",
+                    "minecraft:cactus_flower"
+                ]
+            }
+        ],
+        "block/flower_pots": [
+            {
+                "name": "flower_pots",
+                "type": "block",
+                "values": [
+                    "minecraft:flower_pot",
+                    "minecraft:potted_open_eyeblossom",
+                    "minecraft:potted_closed_eyeblossom",
+                    "minecraft:potted_poppy",
+                    "minecraft:potted_blue_orchid",
+                    "minecraft:potted_allium",
+                    "minecraft:potted_azure_bluet",
+                    "minecraft:potted_red_tulip",
+                    "minecraft:potted_orange_tulip",
+                    "minecraft:potted_white_tulip",
+                    "minecraft:potted_pink_tulip",
+                    "minecraft:potted_oxeye_daisy",
+                    "minecraft:potted_dandelion",
+                    "minecraft:potted_oak_sapling",
+                    "minecraft:potted_spruce_sapling",
+                    "minecraft:potted_birch_sapling",
+                    "minecraft:potted_jungle_sapling",
+                    "minecraft:potted_acacia_sapling",
+                    "minecraft:potted_dark_oak_sapling",
+                    "minecraft:potted_pale_oak_sapling",
+                    "minecraft:potted_red_mushroom",
+                    "minecraft:potted_brown_mushroom",
+                    "minecraft:potted_dead_bush",
+                    "minecraft:potted_fern",
+                    "minecraft:potted_cactus",
+                    "minecraft:potted_cornflower",
+                    "minecraft:potted_lily_of_the_valley",
+                    "minecraft:potted_wither_rose",
+                    "minecraft:potted_bamboo",
+                    "minecraft:potted_crimson_fungus",
+                    "minecraft:potted_warped_fungus",
+                    "minecraft:potted_crimson_roots",
+                    "minecraft:potted_warped_roots",
+                    "minecraft:potted_azalea_bush",
+                    "minecraft:potted_flowering_azalea_bush",
+                    "minecraft:potted_mangrove_propagule",
+                    "minecraft:potted_cherry_sapling",
+                    "minecraft:potted_torchflower"
+                ]
+            },
+            {
+                "name": "flower_pots",
+                "type": "block",
+                "values": [
+                    "minecraft:flower_pot",
+                    "minecraft:potted_open_eyeblossom",
+                    "minecraft:potted_closed_eyeblossom",
+                    "minecraft:potted_poppy",
+                    "minecraft:potted_blue_orchid",
+                    "minecraft:potted_allium",
+                    "minecraft:potted_azure_bluet",
+                    "minecraft:potted_red_tulip",
+                    "minecraft:potted_orange_tulip",
+                    "minecraft:potted_white_tulip",
+                    "minecraft:potted_pink_tulip",
+                    "minecraft:potted_oxeye_daisy",
+                    "minecraft:potted_dandelion",
+                    "minecraft:potted_oak_sapling",
+                    "minecraft:potted_spruce_sapling",
+                    "minecraft:potted_birch_sapling",
+                    "minecraft:potted_jungle_sapling",
+                    "minecraft:potted_acacia_sapling",
+                    "minecraft:potted_dark_oak_sapling",
+                    "minecraft:potted_pale_oak_sapling",
+                    "minecraft:potted_red_mushroom",
+                    "minecraft:potted_brown_mushroom",
+                    "minecraft:potted_dead_bush",
+                    "minecraft:potted_fern",
+                    "minecraft:potted_cactus",
+                    "minecraft:potted_cornflower",
+                    "minecraft:potted_lily_of_the_valley",
+                    "minecraft:potted_wither_rose",
+                    "minecraft:potted_bamboo",
+                    "minecraft:potted_crimson_fungus",
+                    "minecraft:potted_warped_fungus",
+                    "minecraft:potted_crimson_roots",
+                    "minecraft:potted_warped_roots",
+                    "minecraft:potted_azalea_bush",
+                    "minecraft:potted_flowering_azalea_bush",
+                    "minecraft:potted_mangrove_propagule",
+                    "minecraft:potted_cherry_sapling",
+                    "minecraft:potted_torchflower",
+                    "minecraft:potted_golden_dandelion"
+                ]
+            }
+        ],
+        "block/flowers": [
+            {
+                "name": "flowers",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:wildflowers",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom",
+                    "minecraft:cactus_flower"
+                ]
+            },
+            {
+                "name": "flowers",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:golden_dandelion",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:wildflowers",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom",
+                    "minecraft:cactus_flower"
+                ]
+            }
+        ],
+        "block/replaceable_by_mushrooms": [
+            {
+                "name": "replaceable_by_mushrooms",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:water",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:brown_mushroom",
+                    "minecraft:red_mushroom",
+                    "minecraft:brown_mushroom_block",
+                    "minecraft:red_mushroom_block",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:leaf_litter",
+                    "minecraft:short_dry_grass",
+                    "minecraft:tall_dry_grass",
+                    "minecraft:bush",
+                    "minecraft:firefly_bush"
+                ]
+            },
+            {
+                "name": "replaceable_by_mushrooms",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:golden_dandelion",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:water",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:brown_mushroom",
+                    "minecraft:red_mushroom",
+                    "minecraft:brown_mushroom_block",
+                    "minecraft:red_mushroom_block",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:leaf_litter",
+                    "minecraft:short_dry_grass",
+                    "minecraft:tall_dry_grass",
+                    "minecraft:bush",
+                    "minecraft:firefly_bush"
+                ]
+            }
+        ],
+        "block/replaceable_by_trees": [
+            {
+                "name": "replaceable_by_trees",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:water",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:bush",
+                    "minecraft:firefly_bush",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:leaf_litter",
+                    "minecraft:short_dry_grass",
+                    "minecraft:tall_dry_grass"
+                ]
+            },
+            {
+                "name": "replaceable_by_trees",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:golden_dandelion",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:water",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:bush",
+                    "minecraft:firefly_bush",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:leaf_litter",
+                    "minecraft:short_dry_grass",
+                    "minecraft:tall_dry_grass"
+                ]
+            }
+        ],
+        "block/small_flowers": [
+            {
+                "name": "small_flowers",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom"
+                ]
+            },
+            {
+                "name": "small_flowers",
+                "type": "block",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:golden_dandelion"
+                ]
+            }
+        ],
+        "entity_type/cannot_be_age_locked": [
+            null,
+            {
+                "name": "cannot_be_age_locked",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:camel_husk",
+                    "minecraft:hoglin"
+                ]
+            }
+        ],
+        "item/cat_collar_dyes": [
+            null,
+            {
+                "name": "cat_collar_dyes",
+                "type": "item",
+                "values": [
+                    "minecraft:white_dye",
+                    "minecraft:orange_dye",
+                    "minecraft:magenta_dye",
+                    "minecraft:light_blue_dye",
+                    "minecraft:yellow_dye",
+                    "minecraft:lime_dye",
+                    "minecraft:pink_dye",
+                    "minecraft:gray_dye",
+                    "minecraft:light_gray_dye",
+                    "minecraft:cyan_dye",
+                    "minecraft:purple_dye",
+                    "minecraft:blue_dye",
+                    "minecraft:brown_dye",
+                    "minecraft:green_dye",
+                    "minecraft:red_dye",
+                    "minecraft:black_dye"
+                ]
+            }
+        ],
+        "item/cauldron_can_remove_dye": [
+            null,
+            {
+                "name": "cauldron_can_remove_dye",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_helmet",
+                    "minecraft:leather_chestplate",
+                    "minecraft:leather_leggings",
+                    "minecraft:leather_boots",
+                    "minecraft:leather_horse_armor",
+                    "minecraft:wolf_armor"
+                ]
+            }
+        ],
+        "item/dyeable": [
+            {
+                "name": "dyeable",
+                "type": "item",
+                "values": [
+                    "minecraft:leather_helmet",
+                    "minecraft:leather_chestplate",
+                    "minecraft:leather_leggings",
+                    "minecraft:leather_boots",
+                    "minecraft:leather_horse_armor",
+                    "minecraft:wolf_armor"
+                ]
+            },
+            null
+        ],
+        "item/dyes": [
+            null,
+            {
+                "name": "dyes",
+                "type": "item",
+                "values": [
+                    "minecraft:white_dye",
+                    "minecraft:orange_dye",
+                    "minecraft:magenta_dye",
+                    "minecraft:light_blue_dye",
+                    "minecraft:yellow_dye",
+                    "minecraft:lime_dye",
+                    "minecraft:pink_dye",
+                    "minecraft:gray_dye",
+                    "minecraft:light_gray_dye",
+                    "minecraft:cyan_dye",
+                    "minecraft:purple_dye",
+                    "minecraft:blue_dye",
+                    "minecraft:brown_dye",
+                    "minecraft:green_dye",
+                    "minecraft:red_dye",
+                    "minecraft:black_dye"
+                ]
+            }
+        ],
+        "item/flowers": [
+            {
+                "name": "flowers",
+                "type": "item",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:wildflowers",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom",
+                    "minecraft:cactus_flower"
+                ]
+            },
+            {
+                "name": "flowers",
+                "type": "item",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:golden_dandelion",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:peony",
+                    "minecraft:rose_bush",
+                    "minecraft:pitcher_plant",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:flowering_azalea",
+                    "minecraft:mangrove_propagule",
+                    "minecraft:cherry_leaves",
+                    "minecraft:pink_petals",
+                    "minecraft:wildflowers",
+                    "minecraft:chorus_flower",
+                    "minecraft:spore_blossom",
+                    "minecraft:cactus_flower"
+                ]
+            }
+        ],
+        "item/loom_dyes": [
+            null,
+            {
+                "name": "loom_dyes",
+                "type": "item",
+                "values": [
+                    "minecraft:white_dye",
+                    "minecraft:orange_dye",
+                    "minecraft:magenta_dye",
+                    "minecraft:light_blue_dye",
+                    "minecraft:yellow_dye",
+                    "minecraft:lime_dye",
+                    "minecraft:pink_dye",
+                    "minecraft:gray_dye",
+                    "minecraft:light_gray_dye",
+                    "minecraft:cyan_dye",
+                    "minecraft:purple_dye",
+                    "minecraft:blue_dye",
+                    "minecraft:brown_dye",
+                    "minecraft:green_dye",
+                    "minecraft:red_dye",
+                    "minecraft:black_dye"
+                ]
+            }
+        ],
+        "item/loom_patterns": [
+            null,
+            {
+                "name": "loom_patterns",
+                "type": "item",
+                "values": [
+                    "minecraft:flower_banner_pattern",
+                    "minecraft:creeper_banner_pattern",
+                    "minecraft:skull_banner_pattern",
+                    "minecraft:mojang_banner_pattern",
+                    "minecraft:globe_banner_pattern",
+                    "minecraft:piglin_banner_pattern",
+                    "minecraft:flow_banner_pattern",
+                    "minecraft:guster_banner_pattern",
+                    "minecraft:field_masoned_banner_pattern",
+                    "minecraft:bordure_indented_banner_pattern"
+                ]
+            }
+        ],
+        "item/piglin_loved": [
+            {
+                "name": "piglin_loved",
+                "type": "item",
+                "values": [
+                    "minecraft:gold_ore",
+                    "minecraft:nether_gold_ore",
+                    "minecraft:deepslate_gold_ore",
+                    "minecraft:gold_block",
+                    "minecraft:gilded_blackstone",
+                    "minecraft:light_weighted_pressure_plate",
+                    "minecraft:gold_ingot",
+                    "minecraft:bell",
+                    "minecraft:clock",
+                    "minecraft:golden_carrot",
+                    "minecraft:glistering_melon_slice",
+                    "minecraft:golden_apple",
+                    "minecraft:enchanted_golden_apple",
+                    "minecraft:golden_helmet",
+                    "minecraft:golden_chestplate",
+                    "minecraft:golden_leggings",
+                    "minecraft:golden_boots",
+                    "minecraft:golden_horse_armor",
+                    "minecraft:golden_nautilus_armor",
+                    "minecraft:golden_sword",
+                    "minecraft:golden_spear",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:golden_shovel",
+                    "minecraft:golden_axe",
+                    "minecraft:golden_hoe",
+                    "minecraft:raw_gold",
+                    "minecraft:raw_gold_block"
+                ]
+            },
+            {
+                "name": "piglin_loved",
+                "type": "item",
+                "values": [
+                    "minecraft:gold_ore",
+                    "minecraft:nether_gold_ore",
+                    "minecraft:deepslate_gold_ore",
+                    "minecraft:gold_block",
+                    "minecraft:gilded_blackstone",
+                    "minecraft:light_weighted_pressure_plate",
+                    "minecraft:gold_ingot",
+                    "minecraft:bell",
+                    "minecraft:clock",
+                    "minecraft:golden_carrot",
+                    "minecraft:glistering_melon_slice",
+                    "minecraft:golden_apple",
+                    "minecraft:enchanted_golden_apple",
+                    "minecraft:golden_helmet",
+                    "minecraft:golden_chestplate",
+                    "minecraft:golden_leggings",
+                    "minecraft:golden_boots",
+                    "minecraft:golden_horse_armor",
+                    "minecraft:golden_nautilus_armor",
+                    "minecraft:golden_sword",
+                    "minecraft:golden_spear",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:golden_shovel",
+                    "minecraft:golden_axe",
+                    "minecraft:golden_hoe",
+                    "minecraft:raw_gold",
+                    "minecraft:raw_gold_block",
+                    "minecraft:golden_dandelion"
+                ]
+            }
+        ],
+        "item/small_flowers": [
+            {
+                "name": "small_flowers",
+                "type": "item",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom"
+                ]
+            },
+            {
+                "name": "small_flowers",
+                "type": "item",
+                "values": [
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:golden_dandelion"
+                ]
+            }
+        ],
+        "item/wolf_collar_dyes": [
+            null,
+            {
+                "name": "wolf_collar_dyes",
+                "type": "item",
+                "values": [
+                    "minecraft:white_dye",
+                    "minecraft:orange_dye",
+                    "minecraft:magenta_dye",
+                    "minecraft:light_blue_dye",
+                    "minecraft:yellow_dye",
+                    "minecraft:lime_dye",
+                    "minecraft:pink_dye",
+                    "minecraft:gray_dye",
+                    "minecraft:light_gray_dye",
+                    "minecraft:cyan_dye",
+                    "minecraft:purple_dye",
+                    "minecraft:blue_dye",
+                    "minecraft:brown_dye",
+                    "minecraft:green_dye",
+                    "minecraft:red_dye",
+                    "minecraft:black_dye"
+                ]
+            }
+        ],
+        "villager_trade/wandering_trader/common": [
+            {
+                "name": "wandering_trader/common",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:wandering_trader/emerald_fish_bucket",
+                    "minecraft:wandering_trader/emerald_pufferfish_bucket",
+                    "minecraft:wandering_trader/emerald_sea_pickle",
+                    "minecraft:wandering_trader/emerald_slime_ball",
+                    "minecraft:wandering_trader/emerald_glowstone",
+                    "minecraft:wandering_trader/emerald_nautilus_shell",
+                    "minecraft:wandering_trader/emerald_fern",
+                    "minecraft:wandering_trader/emerald_sugar_cane",
+                    "minecraft:wandering_trader/emerald_pumpkin",
+                    "minecraft:wandering_trader/emerald_kelp",
+                    "minecraft:wandering_trader/emerald_cactus",
+                    "minecraft:wandering_trader/emerald_dandelion",
+                    "minecraft:wandering_trader/emerald_poppy",
+                    "minecraft:wandering_trader/emerald_blue_orchid",
+                    "minecraft:wandering_trader/emerald_allium",
+                    "minecraft:wandering_trader/emerald_azure_bluet",
+                    "minecraft:wandering_trader/emerald_red_tulip",
+                    "minecraft:wandering_trader/emerald_orange_tulip",
+                    "minecraft:wandering_trader/emerald_white_tulip",
+                    "minecraft:wandering_trader/emerald_pink_tulip",
+                    "minecraft:wandering_trader/emerald_oxeye_daisy",
+                    "minecraft:wandering_trader/emerald_cornflower",
+                    "minecraft:wandering_trader/emerald_lily_of_the_valley",
+                    "minecraft:wandering_trader/emerald_open_eyeblossom",
+                    "minecraft:wandering_trader/emerald_wheat_seeds",
+                    "minecraft:wandering_trader/emerald_beetroot_seeds",
+                    "minecraft:wandering_trader/emerald_pumpkin_seeds",
+                    "minecraft:wandering_trader/emerald_melon_seeds",
+                    "minecraft:wandering_trader/emerald_acacia_sapling",
+                    "minecraft:wandering_trader/emerald_birch_sapling",
+                    "minecraft:wandering_trader/emerald_dark_oak_sapling",
+                    "minecraft:wandering_trader/emerald_jungle_sapling",
+                    "minecraft:wandering_trader/emerald_oak_sapling",
+                    "minecraft:wandering_trader/emerald_spruce_sapling",
+                    "minecraft:wandering_trader/emerald_cherry_sapling",
+                    "minecraft:wandering_trader/emerald_pale_oak_sapling",
+                    "minecraft:wandering_trader/emerald_mangrove_propagule",
+                    "minecraft:wandering_trader/emerald_red_dye",
+                    "minecraft:wandering_trader/emerald_white_dye",
+                    "minecraft:wandering_trader/emerald_blue_dye",
+                    "minecraft:wandering_trader/emerald_pink_dye",
+                    "minecraft:wandering_trader/emerald_black_dye",
+                    "minecraft:wandering_trader/emerald_green_dye",
+                    "minecraft:wandering_trader/emerald_light_gray_dye",
+                    "minecraft:wandering_trader/emerald_magenta_dye",
+                    "minecraft:wandering_trader/emerald_yellow_dye",
+                    "minecraft:wandering_trader/emerald_gray_dye",
+                    "minecraft:wandering_trader/emerald_purple_dye",
+                    "minecraft:wandering_trader/emerald_light_blue_dye",
+                    "minecraft:wandering_trader/emerald_lime_dye",
+                    "minecraft:wandering_trader/emerald_orange_dye",
+                    "minecraft:wandering_trader/emerald_brown_dye",
+                    "minecraft:wandering_trader/emerald_cyan_dye",
+                    "minecraft:wandering_trader/emerald_brain_coral_block",
+                    "minecraft:wandering_trader/emerald_bubble_coral_block",
+                    "minecraft:wandering_trader/emerald_fire_coral_block",
+                    "minecraft:wandering_trader/emerald_horn_coral_block",
+                    "minecraft:wandering_trader/emerald_tube_coral_block",
+                    "minecraft:wandering_trader/emerald_vine",
+                    "minecraft:wandering_trader/emerald_pale_hanging_moss",
+                    "minecraft:wandering_trader/emerald_brown_mushroom",
+                    "minecraft:wandering_trader/emerald_red_mushroom",
+                    "minecraft:wandering_trader/emerald_lily_pad",
+                    "minecraft:wandering_trader/emerald_small_dripleaf",
+                    "minecraft:wandering_trader/emerald_sand",
+                    "minecraft:wandering_trader/emerald_red_sand",
+                    "minecraft:wandering_trader/emerald_pointed_dripstone",
+                    "minecraft:wandering_trader/emerald_rooted_dirt",
+                    "minecraft:wandering_trader/emerald_moss_block",
+                    "minecraft:wandering_trader/emerald_pale_moss_block",
+                    "minecraft:wandering_trader/emerald_wildflowers",
+                    "minecraft:wandering_trader/emerald_dry_tall_grass",
+                    "minecraft:wandering_trader/emerald_firefly_bush"
+                ]
+            },
+            {
+                "name": "wandering_trader/common",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:wandering_trader/emerald_fish_bucket",
+                    "minecraft:wandering_trader/emerald_pufferfish_bucket",
+                    "minecraft:wandering_trader/emerald_sea_pickle",
+                    "minecraft:wandering_trader/emerald_slime_ball",
+                    "minecraft:wandering_trader/emerald_glowstone",
+                    "minecraft:wandering_trader/emerald_nautilus_shell",
+                    "minecraft:wandering_trader/emerald_fern",
+                    "minecraft:wandering_trader/emerald_sugar_cane",
+                    "minecraft:wandering_trader/emerald_pumpkin",
+                    "minecraft:wandering_trader/emerald_kelp",
+                    "minecraft:wandering_trader/emerald_cactus",
+                    "minecraft:wandering_trader/emerald_dandelion",
+                    "minecraft:wandering_trader/emerald_poppy",
+                    "minecraft:wandering_trader/emerald_blue_orchid",
+                    "minecraft:wandering_trader/emerald_allium",
+                    "minecraft:wandering_trader/emerald_azure_bluet",
+                    "minecraft:wandering_trader/emerald_red_tulip",
+                    "minecraft:wandering_trader/emerald_orange_tulip",
+                    "minecraft:wandering_trader/emerald_white_tulip",
+                    "minecraft:wandering_trader/emerald_pink_tulip",
+                    "minecraft:wandering_trader/emerald_oxeye_daisy",
+                    "minecraft:wandering_trader/emerald_cornflower",
+                    "minecraft:wandering_trader/emerald_lily_of_the_valley",
+                    "minecraft:wandering_trader/emerald_open_eyeblossom",
+                    "minecraft:wandering_trader/emerald_wheat_seeds",
+                    "minecraft:wandering_trader/emerald_beetroot_seeds",
+                    "minecraft:wandering_trader/emerald_pumpkin_seeds",
+                    "minecraft:wandering_trader/emerald_melon_seeds",
+                    "minecraft:wandering_trader/emerald_acacia_sapling",
+                    "minecraft:wandering_trader/emerald_birch_sapling",
+                    "minecraft:wandering_trader/emerald_dark_oak_sapling",
+                    "minecraft:wandering_trader/emerald_jungle_sapling",
+                    "minecraft:wandering_trader/emerald_oak_sapling",
+                    "minecraft:wandering_trader/emerald_spruce_sapling",
+                    "minecraft:wandering_trader/emerald_cherry_sapling",
+                    "minecraft:wandering_trader/emerald_pale_oak_sapling",
+                    "minecraft:wandering_trader/emerald_mangrove_propagule",
+                    "minecraft:wandering_trader/emerald_red_dye",
+                    "minecraft:wandering_trader/emerald_white_dye",
+                    "minecraft:wandering_trader/emerald_blue_dye",
+                    "minecraft:wandering_trader/emerald_pink_dye",
+                    "minecraft:wandering_trader/emerald_black_dye",
+                    "minecraft:wandering_trader/emerald_green_dye",
+                    "minecraft:wandering_trader/emerald_light_gray_dye",
+                    "minecraft:wandering_trader/emerald_magenta_dye",
+                    "minecraft:wandering_trader/emerald_yellow_dye",
+                    "minecraft:wandering_trader/emerald_gray_dye",
+                    "minecraft:wandering_trader/emerald_purple_dye",
+                    "minecraft:wandering_trader/emerald_light_blue_dye",
+                    "minecraft:wandering_trader/emerald_lime_dye",
+                    "minecraft:wandering_trader/emerald_orange_dye",
+                    "minecraft:wandering_trader/emerald_brown_dye",
+                    "minecraft:wandering_trader/emerald_cyan_dye",
+                    "minecraft:wandering_trader/emerald_brain_coral_block",
+                    "minecraft:wandering_trader/emerald_bubble_coral_block",
+                    "minecraft:wandering_trader/emerald_fire_coral_block",
+                    "minecraft:wandering_trader/emerald_horn_coral_block",
+                    "minecraft:wandering_trader/emerald_tube_coral_block",
+                    "minecraft:wandering_trader/emerald_vine",
+                    "minecraft:wandering_trader/emerald_pale_hanging_moss",
+                    "minecraft:wandering_trader/emerald_brown_mushroom",
+                    "minecraft:wandering_trader/emerald_red_mushroom",
+                    "minecraft:wandering_trader/emerald_lily_pad",
+                    "minecraft:wandering_trader/emerald_small_dripleaf",
+                    "minecraft:wandering_trader/emerald_sand",
+                    "minecraft:wandering_trader/emerald_red_sand",
+                    "minecraft:wandering_trader/emerald_pointed_dripstone",
+                    "minecraft:wandering_trader/emerald_rooted_dirt",
+                    "minecraft:wandering_trader/emerald_moss_block",
+                    "minecraft:wandering_trader/emerald_pale_moss_block",
+                    "minecraft:wandering_trader/emerald_wildflowers",
+                    "minecraft:wandering_trader/emerald_dry_tall_grass",
+                    "minecraft:wandering_trader/emerald_firefly_bush",
+                    "minecraft:wandering_trader/emerald_golden_dandelion"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4768,
+            4770
+        ],
+        "id": [
+            "26.1-snapshot-4",
+            "26.1-snapshot-5"
+        ],
+        "name": [
+            "26.1 Snapshot 4",
+            "26.1 Snapshot 5"
+        ],
+        "protocol": [
+            1073742114,
+            1073742115
+        ]
+    }
+}
