@@ -1,0 +1,720 @@
+{
+    "achievements": {},
+    "language": {
+        "chat_restriction": [
+            null,
+            {
+                "chat_and_commands_disabled_by_options": "Chat is restricted in client settings.",
+                "chat_disabled_by_options": "Player chat is restricted in client settings.",
+                "chat_disabled_by_options.action": "Go to Chat Settings screen",
+                "disabled_by_launcher": "Chat is restricted by launcher",
+                "disabled_by_profile": "Chat is restricted by profile settings.",
+                "disabled_by_profile.action": "Go to your profile settings"
+            }
+        ],
+        "chat_screen": {
+            "commands_not_allowed": [
+                null,
+                "Sending commands is not allowed"
+            ],
+            "messages_not_allowed": [
+                null,
+                "Sending chat messages is not allowed"
+            ],
+            "restricted": [
+                null,
+                "Chat is restricted. Click this message for details."
+            ],
+            "restricted.narration": [
+                null,
+                "Chat is restricted. Go to the Restrictions screen in World Options."
+            ]
+        },
+        "gui": {
+            "socialInteractions.tooltip.report.chat_disabled_or_blocked": [
+                null,
+                "This player can't be reported because chat is disabled or blocked"
+            ]
+        },
+        "restrictions_screen": [
+            null,
+            {
+                "button": "Restrictions...",
+                "permission.receive_player_messages.allowed": "You can receive messages from players",
+                "permission.receive_player_messages.denied": "You can't receive messages from players",
+                "permission.receive_system_messages.allowed": "You can receive system messages from server",
+                "permission.receive_system_messages.denied": "You can't receive system messages from server",
+                "permission.send_commands.allowed": "You can send commands",
+                "permission.send_commands.denied": "You can't send commands",
+                "permission.send_messages.allowed": "You can send chat messages",
+                "permission.send_messages.denied": "You can't send chat messages",
+                "title": "Restrictions"
+            }
+        ],
+        "selectWorld": {
+            "backupWarning.file_fixing_required": [
+                "This world needs to be upgraded before you can play it. We strongly suggest creating a backup before continuing in case you experience world corruptions.",
+                "This world needs to be upgraded before you can play it. We strongly suggest creating a backup before continuing in case you experience world corruption."
+            ],
+            "backupWarning.snapshot": [
+                "This world was last played in version %s; you are on version %s. Please make a backup in case you experience world corruptions.",
+                "This world was last played in version %s; you are on version %s. Please make a backup in case you experience world corruption."
+            ],
+            "world_gen_settings_access": [
+                "Unable to read or access world gen settings file! %s",
+                "Unable to read or access the world gen settings file! %s"
+            ]
+        },
+        "subtitles": {
+            "entity.baby_horse.land": [
+                null,
+                "Foal lands"
+            ]
+        },
+        "upgradeWorld": {
+            "aborted.message": [
+                null,
+                "This may happen if another program accessed the world during the upgrade.\nIt may help to restart your computer and trying again. If the issue persists, please consider reporting a bug."
+            ],
+            "aborted.reportBug": [
+                null,
+                "Report a Bug"
+            ],
+            "aborted.title": [
+                null,
+                "Failed to upgrade the world"
+            ],
+            "failed_cleanup.message": [
+                null,
+                "The world was successfully upgraded to the current version and is now available in the world list.\nWe encountered issues when cleaning up outdated data, therefore the name of the world folder has changed to %s."
+            ],
+            "failed_cleanup.title": [
+                null,
+                "Successfully upgraded the world"
+            ],
+            "symlink.title": [
+                "Can't upgrade world",
+                "Can't upgrade the world"
+            ]
+        }
+    },
+    "sounds": {
+        "block.note_block.trumpet": [
+            null,
+            {
+                "field": "NOTE_BLOCK_TRUMPET",
+                "id": 1131,
+                "name": "block.note_block.trumpet",
+                "sounds": [
+                    {
+                        "hash": "0e4b1b6ad857f9300e734eb849490f2521bd70f8",
+                        "name": "note/trumpet"
+                    }
+                ],
+                "subtitle": "Note Block plays",
+                "subtitle_key": "subtitles.block.note_block.note"
+            }
+        ],
+        "block.note_block.trumpet_exposed": [
+            null,
+            {
+                "field": "NOTE_BLOCK_TRUMPET_EXPOSED",
+                "id": 1132,
+                "name": "block.note_block.trumpet_exposed",
+                "sounds": [
+                    {
+                        "hash": "e8667887112d43d434ab3083cbcf6dce717076fe",
+                        "name": "note/trumpet_exposed"
+                    }
+                ],
+                "subtitle": "Note Block plays",
+                "subtitle_key": "subtitles.block.note_block.note"
+            }
+        ],
+        "block.note_block.trumpet_oxidized": [
+            null,
+            {
+                "field": "NOTE_BLOCK_TRUMPET_OXIDIZED",
+                "id": 1133,
+                "name": "block.note_block.trumpet_oxidized",
+                "sounds": [
+                    {
+                        "hash": "7faacc50d5ccc109fcb99c6ac1d0bcd6f61c5124",
+                        "name": "note/trumpet_oxidized"
+                    }
+                ],
+                "subtitle": "Note Block plays",
+                "subtitle_key": "subtitles.block.note_block.note"
+            }
+        ],
+        "block.note_block.trumpet_weathered": [
+            null,
+            {
+                "field": "NOTE_BLOCK_TRUMPET_WEATHERED",
+                "id": 1134,
+                "name": "block.note_block.trumpet_weathered",
+                "sounds": [
+                    {
+                        "hash": "2517f635eb18ce1b685fd77c4aefbdeea989c74d",
+                        "name": "note/trumpet_weathered"
+                    }
+                ],
+                "subtitle": "Note Block plays",
+                "subtitle_key": "subtitles.block.note_block.note"
+            }
+        ],
+        "entity.baby_horse.land": [
+            {
+                "field": "HORSE_LAND_BABY",
+                "id": 841,
+                "name": "entity.baby_horse.land",
+                "sounds": [
+                    {
+                        "hash": "355827c1aad9cbddd72c911bb18edc36952929b7",
+                        "name": "mob/horse/baby_horse/land",
+                        "pitch": 0.75,
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle_key": "subtitles.entity.baby_horse.land"
+            },
+            {
+                "field": "HORSE_LAND_BABY",
+                "id": 828,
+                "name": "entity.baby_horse.land",
+                "sounds": [
+                    {
+                        "hash": "355827c1aad9cbddd72c911bb18edc36952929b7",
+                        "name": "mob/horse/baby_horse/land",
+                        "pitch": 0.75,
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle": "Foal lands",
+                "subtitle_key": "subtitles.entity.baby_horse.land"
+            }
+        ],
+        "entity.cat.ambient": [
+            {
+                "field": "CAT_AMBIENT",
+                "id": 277,
+                "name": "entity.cat.ambient",
+                "sounds": [
+                    {
+                        "hash": "ece06913c286fbff4c82fb3209ac768ad277e870",
+                        "name": "mob/cat/meow1",
+                        "volume": 0.6
+                    },
+                    {
+                        "hash": "97ad91936d0be05d3438d7e1f0ca61871cbfb5f5",
+                        "name": "mob/cat/meow2",
+                        "volume": 0.5
+                    },
+                    {
+                        "hash": "c66fd6530bb91335a153f4816641e28a3bb1c316",
+                        "name": "mob/cat/meow3",
+                        "volume": 0.6
+                    },
+                    {
+                        "hash": "d7eb1f30e029b5b1b36f0d60264257ccd793dc19",
+                        "name": "mob/cat/meow4",
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle": "Cat meows",
+                "subtitle_key": "subtitles.entity.cat.ambient"
+            },
+            null
+        ],
+        "entity.cat.beg_for_food": [
+            {
+                "field": "CAT_BEG_FOR_FOOD",
+                "id": 287,
+                "name": "entity.cat.beg_for_food",
+                "sounds": [
+                    {
+                        "hash": "efba8a3a509b6d67b3882b5de37d8dfa05648210",
+                        "name": "mob/cat/beg1",
+                        "volume": 0.7
+                    },
+                    {
+                        "hash": "c8036952a1becca954cec11225d785d279f01813",
+                        "name": "mob/cat/beg2",
+                        "volume": 0.7
+                    },
+                    {
+                        "hash": "f58d52921ed996f12b51ea3423668da2dcf48daf",
+                        "name": "mob/cat/beg3",
+                        "volume": 0.7
+                    }
+                ],
+                "subtitle": "Cat begs",
+                "subtitle_key": "subtitles.entity.cat.beg_for_food"
+            },
+            null
+        ],
+        "entity.cat.death": [
+            {
+                "field": "CAT_DEATH",
+                "id": 281,
+                "name": "entity.cat.death",
+                "sounds": [
+                    {
+                        "hash": "43900ed0dab4b45659688892d9b007749422555b",
+                        "name": "mob/cat/hitt1",
+                        "pitch": 0.9,
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "baf2cefc76fb045e9e42b52e7000945dbdf36a09",
+                        "name": "mob/cat/hitt2",
+                        "pitch": 0.9,
+                        "volume": 0.75
+                    },
+                    {
+                        "hash": "2ffe20140c099788da13857e58695526075e17ba",
+                        "name": "mob/cat/hitt3",
+                        "pitch": 0.9,
+                        "volume": 0.75
+                    }
+                ],
+                "subtitle": "Cat dies",
+                "subtitle_key": "subtitles.entity.cat.death"
+            },
+            null
+        ],
+        "entity.cat.eat": [
+            {
+                "field": "CAT_EAT",
+                "id": 283,
+                "name": "entity.cat.eat",
+                "sounds": [
+                    {
+                        "hash": "638cfa93effc79da0da5b5335a0aa39190ff6b47",
+                        "name": "mob/cat/eat1"
+                    },
+                    {
+                        "hash": "e228ab1407ec3f8fda277d8cc4e58a75b11f564f",
+                        "name": "mob/cat/eat2"
+                    }
+                ],
+                "subtitle": "Cat eats",
+                "subtitle_key": "subtitles.entity.cat.eat"
+            },
+            null
+        ],
+        "entity.cat.hiss": [
+            {
+                "field": "CAT_HISS",
+                "id": 285,
+                "name": "entity.cat.hiss",
+                "sounds": [
+                    {
+                        "hash": "e4d1657aff16a601b815e6002f3c241fdb937d44",
+                        "name": "mob/cat/hiss1",
+                        "volume": 0.4
+                    },
+                    {
+                        "hash": "bcb8686fcb8815bea7f2dc25d6cf10e821a682f1",
+                        "name": "mob/cat/hiss2",
+                        "volume": 0.4
+                    },
+                    {
+                        "hash": "c6c7eedd7489e97048dc1d76941ef20258001939",
+                        "name": "mob/cat/hiss3",
+                        "volume": 0.4
+                    }
+                ],
+                "subtitle": "Cat hisses",
+                "subtitle_key": "subtitles.entity.cat.hiss"
+            },
+            null
+        ],
+        "entity.cat.hurt": [
+            {
+                "field": "CAT_HURT",
+                "id": 289,
+                "name": "entity.cat.hurt",
+                "sounds": [
+                    {
+                        "hash": "43900ed0dab4b45659688892d9b007749422555b",
+                        "name": "mob/cat/hitt1",
+                        "volume": 0.65
+                    },
+                    {
+                        "hash": "baf2cefc76fb045e9e42b52e7000945dbdf36a09",
+                        "name": "mob/cat/hitt2",
+                        "volume": 0.65
+                    },
+                    {
+                        "hash": "2ffe20140c099788da13857e58695526075e17ba",
+                        "name": "mob/cat/hitt3",
+                        "volume": 0.65
+                    }
+                ],
+                "subtitle": "Cat hurts",
+                "subtitle_key": "subtitles.entity.cat.hurt"
+            },
+            null
+        ],
+        "entity.cat.purr": [
+            {
+                "field": "CAT_PURR",
+                "id": 291,
+                "name": "entity.cat.purr",
+                "sounds": [
+                    {
+                        "hash": "bcd162867f2443cb8c7c6a3486ded73d97f089e9",
+                        "name": "mob/cat/purr1",
+                        "volume": 0.7
+                    },
+                    {
+                        "hash": "a396414ad4f8b797cc8c4b8f2f512ed96377b859",
+                        "name": "mob/cat/purr2",
+                        "volume": 0.7
+                    },
+                    {
+                        "hash": "faf7717be4970aa108ad24c4ce22257c09a06ee6",
+                        "name": "mob/cat/purr3",
+                        "volume": 0.7
+                    }
+                ],
+                "subtitle": "Cat purrs",
+                "subtitle_key": "subtitles.entity.cat.purr"
+            },
+            null
+        ],
+        "entity.cat.purreow": [
+            {
+                "field": "CAT_PURREOW",
+                "id": 293,
+                "name": "entity.cat.purreow",
+                "sounds": [
+                    {
+                        "hash": "4e9be4db8317c7e096ef4f5cfe016f866e36f40c",
+                        "name": "mob/cat/purreow1",
+                        "volume": 0.5
+                    },
+                    {
+                        "hash": "3469e814a648321af9cfb3aa9985737fe53f5e43",
+                        "name": "mob/cat/purreow2",
+                        "volume": 0.5
+                    }
+                ],
+                "subtitle": "Cat meows",
+                "subtitle_key": "subtitles.entity.cat.ambient"
+            },
+            null
+        ],
+        "entity.cat.stray_ambient": [
+            {
+                "field": "CAT_STRAY_AMBIENT",
+                "id": 279,
+                "name": "entity.cat.stray_ambient",
+                "sounds": [
+                    {
+                        "hash": "67ff272003f1f1bb9a648dee1e93b8fd8c98225b",
+                        "name": "mob/cat/stray/idle1",
+                        "volume": 0.35
+                    },
+                    {
+                        "hash": "2e2c162880810d78b449371dbb971472c4df4fe0",
+                        "name": "mob/cat/stray/idle2",
+                        "volume": 0.35
+                    },
+                    {
+                        "hash": "97c61ce93b5f8d14e921e88bf8288f5a304ed7f0",
+                        "name": "mob/cat/stray/idle3",
+                        "volume": 0.35
+                    },
+                    {
+                        "hash": "8104076eab97d709782f2b52463f5ee0c3691ee3",
+                        "name": "mob/cat/stray/idle4",
+                        "volume": 0.35
+                    }
+                ],
+                "subtitle": "Cat meows",
+                "subtitle_key": "subtitles.entity.cat.ambient"
+            },
+            null
+        ],
+        "entity.chicken.ambient": [
+            {
+                "field": "CHICKEN_AMBIENT",
+                "id": 339,
+                "name": "entity.chicken.ambient",
+                "sounds": [
+                    {
+                        "hash": "833f9b908db2f877e678c377b9f62f9b726d7b0c",
+                        "name": "mob/chicken/say1",
+                        "volume": 0.8
+                    },
+                    {
+                        "hash": "83c89769f6a4bf564df34990a6d4fea3fa90ae9d",
+                        "name": "mob/chicken/say2",
+                        "volume": 0.8
+                    },
+                    {
+                        "hash": "f6077e9c2465b000a8ec60a9bf0fd610ec2e2822",
+                        "name": "mob/chicken/say3",
+                        "volume": 0.8
+                    }
+                ],
+                "subtitle": "Chicken clucks",
+                "subtitle_key": "subtitles.entity.chicken.ambient"
+            },
+            null
+        ],
+        "entity.chicken.death": [
+            {
+                "field": "CHICKEN_DEATH",
+                "id": 341,
+                "name": "entity.chicken.death",
+                "sounds": [
+                    {
+                        "hash": "4eff70fec48a26fe31c76b414cb732d47595e2c7",
+                        "name": "mob/chicken/hurt1"
+                    },
+                    {
+                        "hash": "ebc5c57c45f850d9ba673493a8edff1e27317143",
+                        "name": "mob/chicken/hurt2"
+                    }
+                ],
+                "subtitle": "Chicken dies",
+                "subtitle_key": "subtitles.entity.chicken.death"
+            },
+            null
+        ],
+        "entity.chicken.hurt": [
+            {
+                "field": "CHICKEN_HURT",
+                "id": 344,
+                "name": "entity.chicken.hurt",
+                "sounds": [
+                    {
+                        "hash": "4eff70fec48a26fe31c76b414cb732d47595e2c7",
+                        "name": "mob/chicken/hurt1"
+                    },
+                    {
+                        "hash": "ebc5c57c45f850d9ba673493a8edff1e27317143",
+                        "name": "mob/chicken/hurt2"
+                    }
+                ],
+                "subtitle": "Chicken hurts",
+                "subtitle_key": "subtitles.entity.chicken.hurt"
+            },
+            null
+        ],
+        "entity.cow.ambient": [
+            {
+                "field": "COW_AMBIENT",
+                "id": 435,
+                "name": "entity.cow.ambient",
+                "sounds": [
+                    {
+                        "hash": "50b928af4d33822d8cc5ca0d0161053e491b6c5a",
+                        "name": "mob/cow/say1"
+                    },
+                    {
+                        "hash": "e0adeecdfc7a8e7616eaac7b792de21204cad910",
+                        "name": "mob/cow/say2"
+                    },
+                    {
+                        "hash": "627e6ea6b076dbf8e467b9b921dc019042434d96",
+                        "name": "mob/cow/say3"
+                    },
+                    {
+                        "hash": "86d7debb43f3016d525c649ff9f61a2869eec3cd",
+                        "name": "mob/cow/say4"
+                    }
+                ],
+                "subtitle": "Cow moos",
+                "subtitle_key": "subtitles.entity.cow.ambient"
+            },
+            null
+        ],
+        "entity.cow.death": [
+            {
+                "field": "COW_DEATH",
+                "id": 436,
+                "name": "entity.cow.death",
+                "sounds": [
+                    {
+                        "hash": "43544ddbc393f3a6869e26d5cef76eea44cd49b3",
+                        "name": "mob/cow/hurt1"
+                    },
+                    {
+                        "hash": "0276d2067c640e57b91046514cd682e54a5e4cc2",
+                        "name": "mob/cow/hurt2"
+                    },
+                    {
+                        "hash": "12721227ecd0f64b2e8767c08a57f5ef05fede05",
+                        "name": "mob/cow/hurt3"
+                    }
+                ],
+                "subtitle": "Cow dies",
+                "subtitle_key": "subtitles.entity.cow.death"
+            },
+            null
+        ],
+        "entity.cow.hurt": [
+            {
+                "field": "COW_HURT",
+                "id": 437,
+                "name": "entity.cow.hurt",
+                "sounds": [
+                    {
+                        "hash": "43544ddbc393f3a6869e26d5cef76eea44cd49b3",
+                        "name": "mob/cow/hurt1"
+                    },
+                    {
+                        "hash": "0276d2067c640e57b91046514cd682e54a5e4cc2",
+                        "name": "mob/cow/hurt2"
+                    },
+                    {
+                        "hash": "12721227ecd0f64b2e8767c08a57f5ef05fede05",
+                        "name": "mob/cow/hurt3"
+                    }
+                ],
+                "subtitle": "Cow hurts",
+                "subtitle_key": "subtitles.entity.cow.hurt"
+            },
+            null
+        ],
+        "entity.cow.step": [
+            {
+                "field": "COW_STEP",
+                "id": 439,
+                "name": "entity.cow.step",
+                "sounds": [
+                    {
+                        "hash": "2842bba36bc93963247f5311e576b6247e737705",
+                        "name": "mob/cow/step1"
+                    },
+                    {
+                        "hash": "939399f7b2bf256ba744f19b4cc102c90ee282ee",
+                        "name": "mob/cow/step2"
+                    },
+                    {
+                        "hash": "8ca0e2f511471f2fd9375915131499ea323c828c",
+                        "name": "mob/cow/step3"
+                    },
+                    {
+                        "hash": "249e56179595072f8445d81ccdeb8067444fa594",
+                        "name": "mob/cow/step4"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            },
+            null
+        ],
+        "entity.pig.ambient": [
+            {
+                "field": "PIG_AMBIENT",
+                "id": 1230,
+                "name": "entity.pig.ambient",
+                "sounds": [
+                    {
+                        "hash": "22c5aefca088b196a011a1615aaaa6b68f2ad703",
+                        "name": "mob/pig/say1"
+                    },
+                    {
+                        "hash": "ade6bb1df3170ded24773c992324c9cd314248da",
+                        "name": "mob/pig/say2"
+                    },
+                    {
+                        "hash": "72031a3276c8e87243e6aec406eab8dc75e016ed",
+                        "name": "mob/pig/say3"
+                    }
+                ],
+                "subtitle": "Pig oinks",
+                "subtitle_key": "subtitles.entity.pig.ambient"
+            },
+            null
+        ],
+        "entity.pig.death": [
+            {
+                "field": "PIG_DEATH",
+                "id": 1232,
+                "name": "entity.pig.death",
+                "sounds": [
+                    {
+                        "hash": "49b6b073bc60bca804c3ad0bc28dc547361ebd3e",
+                        "name": "mob/pig/death"
+                    }
+                ],
+                "subtitle": "Pig dies",
+                "subtitle_key": "subtitles.entity.pig.death"
+            },
+            null
+        ],
+        "entity.pig.hurt": [
+            {
+                "field": "PIG_HURT",
+                "id": 1234,
+                "name": "entity.pig.hurt",
+                "sounds": [
+                    {
+                        "hash": "22c5aefca088b196a011a1615aaaa6b68f2ad703",
+                        "name": "mob/pig/say1"
+                    },
+                    {
+                        "hash": "ade6bb1df3170ded24773c992324c9cd314248da",
+                        "name": "mob/pig/say2"
+                    },
+                    {
+                        "hash": "72031a3276c8e87243e6aec406eab8dc75e016ed",
+                        "name": "mob/pig/say3"
+                    }
+                ],
+                "subtitle": "Pig hurts",
+                "subtitle_key": "subtitles.entity.pig.hurt"
+            },
+            null
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "entity_type/cannot_be_age_locked": [
+            {
+                "name": "cannot_be_age_locked",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:camel_husk",
+                    "minecraft:hoglin",
+                    "minecraft:zombie_horse",
+                    "minecraft:skeleton_horse",
+                    "minecraft:villager"
+                ]
+            },
+            {
+                "name": "cannot_be_age_locked",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:zombie_horse",
+                    "minecraft:skeleton_horse",
+                    "minecraft:villager"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4774,
+            4775
+        ],
+        "id": [
+            "26.1-snapshot-6",
+            "26.1-snapshot-7"
+        ],
+        "name": [
+            "26.1 Snapshot 6",
+            "26.1 Snapshot 7"
+        ],
+        "protocol": [
+            1073742116,
+            1073742117
+        ]
+    }
+}
