@@ -1,0 +1,58 @@
+{
+    "achievements": {},
+    "language": {
+        "build": {
+            "tooLow": [
+                null,
+                "Minimum height for building is %s"
+            ]
+        },
+        "command": {
+            "trailing_data": [
+                null,
+                "Trailing data found: %s"
+            ]
+        },
+        "commands": {
+            "fetchprofile.entity.success": [
+                null,
+                "Resolved profile for entity %s: %s"
+            ],
+            "fetchprofile.no_profile": [
+                null,
+                "Entity %s has no profile"
+            ]
+        },
+        "upgradeWorld": {
+            "canceled.message": [
+                null,
+                "Your world remains as it was before."
+            ],
+            "canceled.title": [
+                null,
+                "World upgrade canceled"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4775,
+            4776
+        ],
+        "id": [
+            "26.1-snapshot-7",
+            "26.1-snapshot-8"
+        ],
+        "name": [
+            "26.1 Snapshot 7",
+            "26.1 Snapshot 8"
+        ],
+        "protocol": [
+            1073742117,
+            1073742118
+        ]
+    }
+}
