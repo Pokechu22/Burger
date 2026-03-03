@@ -1,0 +1,317 @@
+{
+    "achievements": {},
+    "language": {
+        "chat_restriction": {
+            "chat_disabled_by_options.action": [
+                "Go to Chat Settings screen",
+                "Go to the Chat Settings screen"
+            ],
+            "disabled_by_launcher": [
+                "Chat is restricted by launcher",
+                "Chat is restricted by the launcher"
+            ]
+        },
+        "restrictions_screen": {
+            "permission.receive_system_messages.allowed": [
+                "You can receive system messages from server",
+                "You can receive system messages from the server"
+            ],
+            "permission.receive_system_messages.denied": [
+                "You can't receive system messages from server",
+                "You can't receive system messages from the server"
+            ]
+        },
+        "subtitles": {
+            "entity.baby_pig.eat": [
+                null,
+                "Baby Pig eats"
+            ],
+            "entity.pig.eat": [
+                null,
+                "Pig eats"
+            ]
+        },
+        "upgradeWorld": {
+            "aborted.message": [
+                "This may happen if another program accessed the world during the upgrade.\nIt may help to restart your computer and trying again. If the issue persists, please consider reporting a bug.",
+                "This may happen if another program accessed the world during the upgrade.\nIt may help to restart your computer and try again. If the issue persists, please consider reporting a bug."
+            ]
+        }
+    },
+    "sounds": {
+        "entity.baby_pig.eat": [
+            null,
+            {
+                "field": "PIG_EAT_BABY",
+                "id": 1225,
+                "name": "entity.baby_pig.eat",
+                "sounds": [
+                    {
+                        "hash": "d2f7ef82640406f93920c56c88728e3ff10f50b3",
+                        "name": "mob/pig/baby_pig/eat1"
+                    },
+                    {
+                        "hash": "8cf450c03b43db6a09e666503b4057709031fa7d",
+                        "name": "mob/pig/baby_pig/eat2"
+                    }
+                ],
+                "subtitle": "Baby Pig eats",
+                "subtitle_key": "subtitles.entity.baby_pig.eat"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/prevents_nearby_leaf_decay": [
+            null,
+            {
+                "name": "prevents_nearby_leaf_decay",
+                "type": "block",
+                "values": [
+                    "minecraft:dark_oak_log",
+                    "minecraft:dark_oak_wood",
+                    "minecraft:stripped_dark_oak_log",
+                    "minecraft:stripped_dark_oak_wood",
+                    "minecraft:pale_oak_log",
+                    "minecraft:pale_oak_wood",
+                    "minecraft:stripped_pale_oak_log",
+                    "minecraft:stripped_pale_oak_wood",
+                    "minecraft:oak_log",
+                    "minecraft:oak_wood",
+                    "minecraft:stripped_oak_log",
+                    "minecraft:stripped_oak_wood",
+                    "minecraft:acacia_log",
+                    "minecraft:acacia_wood",
+                    "minecraft:stripped_acacia_log",
+                    "minecraft:stripped_acacia_wood",
+                    "minecraft:birch_log",
+                    "minecraft:birch_wood",
+                    "minecraft:stripped_birch_log",
+                    "minecraft:stripped_birch_wood",
+                    "minecraft:jungle_log",
+                    "minecraft:jungle_wood",
+                    "minecraft:stripped_jungle_log",
+                    "minecraft:stripped_jungle_wood",
+                    "minecraft:spruce_log",
+                    "minecraft:spruce_wood",
+                    "minecraft:stripped_spruce_log",
+                    "minecraft:stripped_spruce_wood",
+                    "minecraft:mangrove_log",
+                    "minecraft:mangrove_wood",
+                    "minecraft:stripped_mangrove_log",
+                    "minecraft:stripped_mangrove_wood",
+                    "minecraft:cherry_log",
+                    "minecraft:cherry_wood",
+                    "minecraft:stripped_cherry_log",
+                    "minecraft:stripped_cherry_wood",
+                    "minecraft:crimson_stem",
+                    "minecraft:stripped_crimson_stem",
+                    "minecraft:crimson_hyphae",
+                    "minecraft:stripped_crimson_hyphae",
+                    "minecraft:warped_stem",
+                    "minecraft:stripped_warped_stem",
+                    "minecraft:warped_hyphae",
+                    "minecraft:stripped_warped_hyphae"
+                ]
+            }
+        ],
+        "villager_trade/librarian/level_5": [
+            {
+                "name": "librarian/level_5",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:librarian/5/emerald_name_tag"
+                ]
+            },
+            {
+                "name": "librarian/level_5",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:librarian/5/emerald_yellow_candle",
+                    "minecraft:librarian/5/emerald_red_candle"
+                ]
+            }
+        ],
+        "villager_trade/wandering_trader/common": [
+            {
+                "name": "wandering_trader/common",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:wandering_trader/emerald_fish_bucket",
+                    "minecraft:wandering_trader/emerald_pufferfish_bucket",
+                    "minecraft:wandering_trader/emerald_sea_pickle",
+                    "minecraft:wandering_trader/emerald_slime_ball",
+                    "minecraft:wandering_trader/emerald_glowstone",
+                    "minecraft:wandering_trader/emerald_nautilus_shell",
+                    "minecraft:wandering_trader/emerald_fern",
+                    "minecraft:wandering_trader/emerald_sugar_cane",
+                    "minecraft:wandering_trader/emerald_pumpkin",
+                    "minecraft:wandering_trader/emerald_kelp",
+                    "minecraft:wandering_trader/emerald_cactus",
+                    "minecraft:wandering_trader/emerald_dandelion",
+                    "minecraft:wandering_trader/emerald_poppy",
+                    "minecraft:wandering_trader/emerald_blue_orchid",
+                    "minecraft:wandering_trader/emerald_allium",
+                    "minecraft:wandering_trader/emerald_azure_bluet",
+                    "minecraft:wandering_trader/emerald_red_tulip",
+                    "minecraft:wandering_trader/emerald_orange_tulip",
+                    "minecraft:wandering_trader/emerald_white_tulip",
+                    "minecraft:wandering_trader/emerald_pink_tulip",
+                    "minecraft:wandering_trader/emerald_oxeye_daisy",
+                    "minecraft:wandering_trader/emerald_cornflower",
+                    "minecraft:wandering_trader/emerald_lily_of_the_valley",
+                    "minecraft:wandering_trader/emerald_open_eyeblossom",
+                    "minecraft:wandering_trader/emerald_wheat_seeds",
+                    "minecraft:wandering_trader/emerald_beetroot_seeds",
+                    "minecraft:wandering_trader/emerald_pumpkin_seeds",
+                    "minecraft:wandering_trader/emerald_melon_seeds",
+                    "minecraft:wandering_trader/emerald_acacia_sapling",
+                    "minecraft:wandering_trader/emerald_birch_sapling",
+                    "minecraft:wandering_trader/emerald_dark_oak_sapling",
+                    "minecraft:wandering_trader/emerald_jungle_sapling",
+                    "minecraft:wandering_trader/emerald_oak_sapling",
+                    "minecraft:wandering_trader/emerald_spruce_sapling",
+                    "minecraft:wandering_trader/emerald_cherry_sapling",
+                    "minecraft:wandering_trader/emerald_pale_oak_sapling",
+                    "minecraft:wandering_trader/emerald_mangrove_propagule",
+                    "minecraft:wandering_trader/emerald_red_dye",
+                    "minecraft:wandering_trader/emerald_white_dye",
+                    "minecraft:wandering_trader/emerald_blue_dye",
+                    "minecraft:wandering_trader/emerald_pink_dye",
+                    "minecraft:wandering_trader/emerald_black_dye",
+                    "minecraft:wandering_trader/emerald_green_dye",
+                    "minecraft:wandering_trader/emerald_light_gray_dye",
+                    "minecraft:wandering_trader/emerald_magenta_dye",
+                    "minecraft:wandering_trader/emerald_yellow_dye",
+                    "minecraft:wandering_trader/emerald_gray_dye",
+                    "minecraft:wandering_trader/emerald_purple_dye",
+                    "minecraft:wandering_trader/emerald_light_blue_dye",
+                    "minecraft:wandering_trader/emerald_lime_dye",
+                    "minecraft:wandering_trader/emerald_orange_dye",
+                    "minecraft:wandering_trader/emerald_brown_dye",
+                    "minecraft:wandering_trader/emerald_cyan_dye",
+                    "minecraft:wandering_trader/emerald_brain_coral_block",
+                    "minecraft:wandering_trader/emerald_bubble_coral_block",
+                    "minecraft:wandering_trader/emerald_fire_coral_block",
+                    "minecraft:wandering_trader/emerald_horn_coral_block",
+                    "minecraft:wandering_trader/emerald_tube_coral_block",
+                    "minecraft:wandering_trader/emerald_vine",
+                    "minecraft:wandering_trader/emerald_pale_hanging_moss",
+                    "minecraft:wandering_trader/emerald_brown_mushroom",
+                    "minecraft:wandering_trader/emerald_red_mushroom",
+                    "minecraft:wandering_trader/emerald_lily_pad",
+                    "minecraft:wandering_trader/emerald_small_dripleaf",
+                    "minecraft:wandering_trader/emerald_sand",
+                    "minecraft:wandering_trader/emerald_red_sand",
+                    "minecraft:wandering_trader/emerald_pointed_dripstone",
+                    "minecraft:wandering_trader/emerald_rooted_dirt",
+                    "minecraft:wandering_trader/emerald_moss_block",
+                    "minecraft:wandering_trader/emerald_pale_moss_block",
+                    "minecraft:wandering_trader/emerald_wildflowers",
+                    "minecraft:wandering_trader/emerald_dry_tall_grass",
+                    "minecraft:wandering_trader/emerald_firefly_bush",
+                    "minecraft:wandering_trader/emerald_golden_dandelion"
+                ]
+            },
+            {
+                "name": "wandering_trader/common",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:wandering_trader/emerald_fish_bucket",
+                    "minecraft:wandering_trader/emerald_pufferfish_bucket",
+                    "minecraft:wandering_trader/emerald_sea_pickle",
+                    "minecraft:wandering_trader/emerald_slime_ball",
+                    "minecraft:wandering_trader/emerald_glowstone",
+                    "minecraft:wandering_trader/emerald_nautilus_shell",
+                    "minecraft:wandering_trader/emerald_fern",
+                    "minecraft:wandering_trader/emerald_sugar_cane",
+                    "minecraft:wandering_trader/emerald_pumpkin",
+                    "minecraft:wandering_trader/emerald_kelp",
+                    "minecraft:wandering_trader/emerald_cactus",
+                    "minecraft:wandering_trader/emerald_dandelion",
+                    "minecraft:wandering_trader/emerald_poppy",
+                    "minecraft:wandering_trader/emerald_blue_orchid",
+                    "minecraft:wandering_trader/emerald_allium",
+                    "minecraft:wandering_trader/emerald_azure_bluet",
+                    "minecraft:wandering_trader/emerald_red_tulip",
+                    "minecraft:wandering_trader/emerald_orange_tulip",
+                    "minecraft:wandering_trader/emerald_white_tulip",
+                    "minecraft:wandering_trader/emerald_pink_tulip",
+                    "minecraft:wandering_trader/emerald_oxeye_daisy",
+                    "minecraft:wandering_trader/emerald_cornflower",
+                    "minecraft:wandering_trader/emerald_lily_of_the_valley",
+                    "minecraft:wandering_trader/emerald_open_eyeblossom",
+                    "minecraft:wandering_trader/emerald_wheat_seeds",
+                    "minecraft:wandering_trader/emerald_beetroot_seeds",
+                    "minecraft:wandering_trader/emerald_pumpkin_seeds",
+                    "minecraft:wandering_trader/emerald_melon_seeds",
+                    "minecraft:wandering_trader/emerald_acacia_sapling",
+                    "minecraft:wandering_trader/emerald_birch_sapling",
+                    "minecraft:wandering_trader/emerald_dark_oak_sapling",
+                    "minecraft:wandering_trader/emerald_jungle_sapling",
+                    "minecraft:wandering_trader/emerald_oak_sapling",
+                    "minecraft:wandering_trader/emerald_spruce_sapling",
+                    "minecraft:wandering_trader/emerald_cherry_sapling",
+                    "minecraft:wandering_trader/emerald_pale_oak_sapling",
+                    "minecraft:wandering_trader/emerald_mangrove_propagule",
+                    "minecraft:wandering_trader/emerald_red_dye",
+                    "minecraft:wandering_trader/emerald_white_dye",
+                    "minecraft:wandering_trader/emerald_blue_dye",
+                    "minecraft:wandering_trader/emerald_pink_dye",
+                    "minecraft:wandering_trader/emerald_black_dye",
+                    "minecraft:wandering_trader/emerald_green_dye",
+                    "minecraft:wandering_trader/emerald_light_gray_dye",
+                    "minecraft:wandering_trader/emerald_magenta_dye",
+                    "minecraft:wandering_trader/emerald_yellow_dye",
+                    "minecraft:wandering_trader/emerald_gray_dye",
+                    "minecraft:wandering_trader/emerald_purple_dye",
+                    "minecraft:wandering_trader/emerald_light_blue_dye",
+                    "minecraft:wandering_trader/emerald_lime_dye",
+                    "minecraft:wandering_trader/emerald_orange_dye",
+                    "minecraft:wandering_trader/emerald_brown_dye",
+                    "minecraft:wandering_trader/emerald_cyan_dye",
+                    "minecraft:wandering_trader/emerald_brain_coral_block",
+                    "minecraft:wandering_trader/emerald_bubble_coral_block",
+                    "minecraft:wandering_trader/emerald_fire_coral_block",
+                    "minecraft:wandering_trader/emerald_horn_coral_block",
+                    "minecraft:wandering_trader/emerald_tube_coral_block",
+                    "minecraft:wandering_trader/emerald_vine",
+                    "minecraft:wandering_trader/emerald_pale_hanging_moss",
+                    "minecraft:wandering_trader/emerald_brown_mushroom",
+                    "minecraft:wandering_trader/emerald_red_mushroom",
+                    "minecraft:wandering_trader/emerald_lily_pad",
+                    "minecraft:wandering_trader/emerald_small_dripleaf",
+                    "minecraft:wandering_trader/emerald_sand",
+                    "minecraft:wandering_trader/emerald_red_sand",
+                    "minecraft:wandering_trader/emerald_pointed_dripstone",
+                    "minecraft:wandering_trader/emerald_rooted_dirt",
+                    "minecraft:wandering_trader/emerald_moss_block",
+                    "minecraft:wandering_trader/emerald_pale_moss_block",
+                    "minecraft:wandering_trader/emerald_wildflowers",
+                    "minecraft:wandering_trader/emerald_dry_tall_grass",
+                    "minecraft:wandering_trader/emerald_firefly_bush",
+                    "minecraft:wandering_trader/emerald_golden_dandelion",
+                    "minecraft:wandering_trader/emerald_name_tag"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4778,
+            4779
+        ],
+        "id": [
+            "26.1-snapshot-10",
+            "26.1-snapshot-11"
+        ],
+        "name": [
+            "26.1 Snapshot 10",
+            "26.1 Snapshot 11"
+        ],
+        "protocol": [
+            1073742120,
+            1073742121
+        ]
+    }
+}
