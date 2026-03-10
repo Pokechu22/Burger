@@ -1,0 +1,50 @@
+{
+    "achievements": {},
+    "language": {
+        "commands": {
+            "time.rate": [
+                null,
+                "Clock %s will now advance at %sx normal rate"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "worldgen/configured_feature/can_spawn_from_bone_meal": [
+            null,
+            {
+                "name": "configured_feature/can_spawn_from_bone_meal",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:flower_default",
+                    "minecraft:flower_flower_forest",
+                    "minecraft:flower_swamp",
+                    "minecraft:flower_plain",
+                    "minecraft:flower_meadow",
+                    "minecraft:flower_cherry",
+                    "minecraft:wildflower",
+                    "minecraft:flower_pale_garden"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4779,
+            4780
+        ],
+        "id": [
+            "26.1-snapshot-11",
+            "26.1-pre-1"
+        ],
+        "name": [
+            "26.1 Snapshot 11",
+            "26.1 Pre-Release 1"
+        ],
+        "protocol": [
+            1073742121,
+            1073742122
+        ]
+    }
+}
