@@ -1,0 +1,52 @@
+{
+    "achievements": {},
+    "language": {
+        "build": {
+            "spawn_protection": [
+                null,
+                "%s is under spawn protection"
+            ]
+        },
+        "options": {
+            "exclusiveFullscreen": [
+                null,
+                "Exclusive Fullscreen"
+            ],
+            "exclusiveFullscreen.warningTooltip": [
+                null,
+                "This option might prevent some input methods from working."
+            ],
+            "needsRestart": [
+                null,
+                "Option will be applied after restart."
+            ]
+        },
+        "test": {
+            "error.not_a_block_item": [
+                null,
+                "Given block is not a block item"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4780,
+            4781
+        ],
+        "id": [
+            "26.1-pre-1",
+            "26.1-pre-2"
+        ],
+        "name": [
+            "26.1 Pre-Release 1",
+            "26.1 Pre-Release 2"
+        ],
+        "protocol": [
+            1073742122,
+            1073742123
+        ]
+    }
+}
