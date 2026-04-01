@@ -1,0 +1,744 @@
+{
+    "achievements": {},
+    "language": {
+        "advancements": {
+            "adventure.barrel_roll.description": [
+                null,
+                "Make a barrel roll"
+            ],
+            "adventure.barrel_roll.title": [
+                null,
+                "Do a Barrel Roll!"
+            ],
+            "adventure.build_house.description": [
+                null,
+                "Watch 23 blocks and a door combine into a tiny house"
+            ],
+            "adventure.build_house.title": [
+                null,
+                "Tiny House, Assemble!"
+            ],
+            "adventure.build_trap.description": [
+                null,
+                "Watch out for 8 iron (or copper) bars, they're dangerous in groups. When you least expect it!"
+            ],
+            "adventure.build_trap.title": [
+                null,
+                "You Played Yourself"
+            ],
+            "adventure.craft_chest.description": [
+                null,
+                "Craft a Chest to keep track of your blocks"
+            ],
+            "adventure.craft_chest.title": [
+                null,
+                "Random Access Materials"
+            ],
+            "adventure.craft_sword.description": [
+                null,
+                "Craft a Sword"
+            ],
+            "adventure.craft_sword.title": [
+                null,
+                "Time to Fight!"
+            ],
+            "adventure.crafter.description": [
+                null,
+                "Automate your crafting with a Crafter"
+            ],
+            "adventure.crafter.title": [
+                null,
+                "Large Living Blocks Model"
+            ],
+            "adventure.crafting_table.description": [
+                null,
+                "Craft a Crafting Table"
+            ],
+            "adventure.crafting_table.title": [
+                null,
+                "Integrated Crafting Environment"
+            ],
+            "adventure.door.description": [
+                null,
+                "Craft a Door"
+            ],
+            "adventure.door.title": [
+                null,
+                "Seek Shelter"
+            ],
+            "adventure.end_portal.description": [
+                null,
+                "Watch twelve End Portal Frames with Eyes of Ender inserted combine into an End Portal"
+            ],
+            "adventure.end_portal.title": [
+                null,
+                "End of Line"
+            ],
+            "adventure.eye_frame_combination.description": [
+                null,
+                "Move an Eye of Ender close enough to an End Portal Frame for them to combine"
+            ],
+            "adventure.eye_frame_combination.title": [
+                null,
+                "Unifying Eye-Frame Interaction"
+            ],
+            "adventure.furnace.description": [
+                null,
+                "Make a furnace that can smelt things for you"
+            ],
+            "adventure.furnace.title": [
+                null,
+                "You're Cookin'"
+            ],
+            "adventure.iron_ingot.description": [
+                null,
+                "Make your way to the iron age"
+            ],
+            "adventure.iron_ingot.title": [
+                null,
+                "Ferrocious Ferrous"
+            ],
+            "adventure.kill_a_mob.description": [
+                "Kill any hostile monster",
+                "Have your sword kill any hostile monster"
+            ],
+            "adventure.kill_a_mob.title": [
+                "Monster Hunter",
+                "Monster Hunter (With Friends)"
+            ],
+            "adventure.kill_all_mobs.description": [
+                "Kill one of every hostile monster",
+                "Command an army of weapons to kill one of every hostile monster"
+            ],
+            "adventure.mine_a_block.description": [
+                null,
+                "Punch a block until it comes alive"
+            ],
+            "adventure.mine_a_block.title": [
+                null,
+                "Mine a Block"
+            ],
+            "adventure.nether_portal.description": [
+                null,
+                "Watch twelve Obsidian and a Flint and Steel combine into a Nether Portal"
+            ],
+            "adventure.nether_portal.title": [
+                null,
+                "Nether-field Crafting"
+            ],
+            "adventure.obsidian.description": [
+                null,
+                "Mine some Obsidian"
+            ],
+            "adventure.obsidian.title": [
+                null,
+                "You require additional..."
+            ],
+            "adventure.ol_betsy.description": [
+                "Shoot a Crossbow",
+                "Aqcuire a Crossbow"
+            ],
+            "adventure.root.description": [
+                "Adventure, exploration and combat",
+                "Herding and crafting your world"
+            ],
+            "adventure.root.title": [
+                "Adventure",
+                "HerdCraft"
+            ],
+            "adventure.wooden_pickaxe.description": [
+                null,
+                "Craft a tool that can mine for you"
+            ],
+            "adventure.wooden_pickaxe.title": [
+                null,
+                "Craft a Miner"
+            ],
+            "end.barrel_roll.description": [
+                null,
+                "Roll a barrel to the ends of the universe"
+            ],
+            "end.barrel_roll.title": [
+                null,
+                "Never Give Up! Trust Your Instincts!"
+            ],
+            "nether.barrel_roll.description": [
+                null,
+                "Do it! Do it now!"
+            ],
+            "nether.barrel_roll.title": [
+                null,
+                "Do a Barrel Roll! Do it! Do it! Do it in the Nether!"
+            ],
+            "story.enter_the_end.description": [
+                "Enter the End Portal",
+                "Gather enough Eyes of Ender, find some End Portal Frames and enter the End"
+            ],
+            "story.enter_the_nether.description": [
+                "Build, light and enter a Nether Portal",
+                "Gather enough Obsidian and a Flint and Steel, then enter the Nether"
+            ]
+        },
+        "block": {
+            "minecraft.copper_trap": [
+                null,
+                "Copper Trap"
+            ],
+            "minecraft.exposed_copper_trap": [
+                null,
+                "Exposed Copper Trap"
+            ],
+            "minecraft.iron_trap": [
+                null,
+                "Iron Trap"
+            ],
+            "minecraft.oxidized_copper_trap": [
+                null,
+                "Oxidized Copper Trap"
+            ],
+            "minecraft.waxed_copper_trap": [
+                null,
+                "Waxed Copper Trap"
+            ],
+            "minecraft.waxed_exposed_copper_trap": [
+                null,
+                "Waxed Exposed Copper Trap"
+            ],
+            "minecraft.waxed_oxidized_copper_trap": [
+                null,
+                "Waxed Oxidized Copper Trap"
+            ],
+            "minecraft.waxed_weathered_copper_trap": [
+                null,
+                "Waxed Weathered Copper Trap"
+            ],
+            "minecraft.weathered_copper_trap": [
+                null,
+                "Weathered Copper Trap"
+            ]
+        },
+        "crafting": [
+            null,
+            {
+                "table.unable_to_place": "The crafting grid needs a 2x2 block wide level surface"
+            }
+        ],
+        "entity": {
+            "minecraft.crafting_action": [
+                null,
+                "Craft"
+            ],
+            "minecraft.crafting_grid": [
+                null,
+                "Crafting Grid"
+            ],
+            "minecraft.follow_action": [
+                null,
+                "Follow Me"
+            ],
+            "minecraft.hovering_item": [
+                null,
+                "Crafting Results"
+            ],
+            "minecraft.living_block": [
+                null,
+                "Living Block"
+            ],
+            "minecraft.living_block_command": [
+                null,
+                "Living Block Command"
+            ],
+            "minecraft.punch_action": [
+                null,
+                "Punch"
+            ]
+        },
+        "inventory": {
+            "place_grid": [
+                null,
+                "Use the Craft action to place a crafting grid"
+            ]
+        },
+        "item": {
+            "minecraft.attack_action": [
+                null,
+                "Attack / Mine"
+            ],
+            "minecraft.build_action": [
+                null,
+                "Build"
+            ],
+            "minecraft.crafting_action": [
+                null,
+                "Craft"
+            ],
+            "minecraft.follow_action": [
+                null,
+                "Follow Me"
+            ],
+            "minecraft.group_action": [
+                null,
+                "Group / Ungroup"
+            ],
+            "minecraft.highlight_action": [
+                null,
+                "Highlight"
+            ],
+            "minecraft.move_action": [
+                null,
+                "Move"
+            ],
+            "minecraft.punch_action": [
+                null,
+                "Punch"
+            ],
+            "minecraft.select_action": [
+                null,
+                "Select"
+            ],
+            "minecraft.select_group_action.details": [
+                null,
+                "Selected Group: %s"
+            ]
+        },
+        "living_blocks": [
+            null,
+            {
+                "group.all": "All",
+                "group.aqua": "Aqua",
+                "group.blue": "Blue",
+                "group.lime": "Lime",
+                "group.none": "None",
+                "group.purple": "Purple",
+                "group.red": "Red",
+                "group.yellow": "Yellow"
+            }
+        ]
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "block/builds_into_house": [
+            null,
+            {
+                "name": "builds_into_house",
+                "type": "block",
+                "values": [
+                    "minecraft:bamboo",
+                    "minecraft:bamboo_mosaic",
+                    "minecraft:brown_mushroom_block",
+                    "minecraft:red_mushroom_block",
+                    "minecraft:clay",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:podzol",
+                    "minecraft:mycelium",
+                    "minecraft:snow_block",
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil",
+                    "minecraft:rooted_dirt",
+                    "minecraft:mud",
+                    "minecraft:stone",
+                    "minecraft:granite",
+                    "minecraft:polished_granite",
+                    "minecraft:diorite",
+                    "minecraft:polished_diorite",
+                    "minecraft:andesite",
+                    "minecraft:polished_andesite",
+                    "minecraft:cobblestone",
+                    "minecraft:sandstone",
+                    "minecraft:chiseled_sandstone",
+                    "minecraft:cut_sandstone",
+                    "minecraft:bricks",
+                    "minecraft:mossy_cobblestone",
+                    "minecraft:netherrack",
+                    "minecraft:basalt",
+                    "minecraft:polished_basalt",
+                    "minecraft:stone_bricks",
+                    "minecraft:mossy_stone_bricks",
+                    "minecraft:cracked_stone_bricks",
+                    "minecraft:chiseled_stone_bricks",
+                    "minecraft:nether_bricks",
+                    "minecraft:end_stone",
+                    "minecraft:quartz_block",
+                    "minecraft:chiseled_quartz_block",
+                    "minecraft:quartz_pillar",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:prismarine",
+                    "minecraft:prismarine_bricks",
+                    "minecraft:dark_prismarine",
+                    "minecraft:terracotta",
+                    "minecraft:red_sandstone",
+                    "minecraft:chiseled_red_sandstone",
+                    "minecraft:cut_red_sandstone",
+                    "minecraft:smooth_stone",
+                    "minecraft:smooth_sandstone",
+                    "minecraft:smooth_quartz",
+                    "minecraft:smooth_red_sandstone",
+                    "minecraft:purpur_block",
+                    "minecraft:purpur_pillar",
+                    "minecraft:end_stone_bricks",
+                    "minecraft:red_nether_bricks",
+                    "minecraft:bone_block",
+                    "minecraft:white_glazed_terracotta",
+                    "minecraft:orange_glazed_terracotta",
+                    "minecraft:magenta_glazed_terracotta",
+                    "minecraft:light_blue_glazed_terracotta",
+                    "minecraft:yellow_glazed_terracotta",
+                    "minecraft:lime_glazed_terracotta",
+                    "minecraft:pink_glazed_terracotta",
+                    "minecraft:gray_glazed_terracotta",
+                    "minecraft:light_gray_glazed_terracotta",
+                    "minecraft:cyan_glazed_terracotta",
+                    "minecraft:purple_glazed_terracotta",
+                    "minecraft:blue_glazed_terracotta",
+                    "minecraft:brown_glazed_terracotta",
+                    "minecraft:green_glazed_terracotta",
+                    "minecraft:red_glazed_terracotta",
+                    "minecraft:black_glazed_terracotta",
+                    "minecraft:white_concrete",
+                    "minecraft:orange_concrete",
+                    "minecraft:magenta_concrete",
+                    "minecraft:light_blue_concrete",
+                    "minecraft:yellow_concrete",
+                    "minecraft:lime_concrete",
+                    "minecraft:pink_concrete",
+                    "minecraft:gray_concrete",
+                    "minecraft:light_gray_concrete",
+                    "minecraft:cyan_concrete",
+                    "minecraft:purple_concrete",
+                    "minecraft:blue_concrete",
+                    "minecraft:brown_concrete",
+                    "minecraft:green_concrete",
+                    "minecraft:red_concrete",
+                    "minecraft:black_concrete",
+                    "minecraft:warped_nylium",
+                    "minecraft:crimson_nylium",
+                    "minecraft:blackstone",
+                    "minecraft:polished_blackstone",
+                    "minecraft:polished_blackstone_bricks",
+                    "minecraft:cracked_polished_blackstone_bricks",
+                    "minecraft:chiseled_polished_blackstone",
+                    "minecraft:gilded_blackstone",
+                    "minecraft:chiseled_nether_bricks",
+                    "minecraft:cracked_nether_bricks",
+                    "minecraft:quartz_bricks",
+                    "minecraft:tuff",
+                    "minecraft:calcite",
+                    "minecraft:oxidized_copper",
+                    "minecraft:weathered_copper",
+                    "minecraft:exposed_copper",
+                    "minecraft:copper_block",
+                    "minecraft:oxidized_cut_copper",
+                    "minecraft:weathered_cut_copper",
+                    "minecraft:exposed_cut_copper",
+                    "minecraft:cut_copper",
+                    "minecraft:waxed_copper_block",
+                    "minecraft:waxed_weathered_copper",
+                    "minecraft:waxed_exposed_copper",
+                    "minecraft:waxed_oxidized_copper",
+                    "minecraft:waxed_oxidized_cut_copper",
+                    "minecraft:waxed_weathered_cut_copper",
+                    "minecraft:waxed_exposed_cut_copper",
+                    "minecraft:waxed_cut_copper",
+                    "minecraft:dripstone_block",
+                    "minecraft:deepslate",
+                    "minecraft:cobbled_deepslate",
+                    "minecraft:polished_deepslate",
+                    "minecraft:deepslate_tiles",
+                    "minecraft:deepslate_bricks",
+                    "minecraft:chiseled_deepslate",
+                    "minecraft:cracked_deepslate_bricks",
+                    "minecraft:cracked_deepslate_tiles",
+                    "minecraft:smooth_basalt",
+                    "minecraft:ice",
+                    "minecraft:packed_ice",
+                    "minecraft:blue_ice",
+                    "minecraft:amethyst_block",
+                    "minecraft:infested_cobblestone",
+                    "minecraft:infested_chiseled_stone_bricks",
+                    "minecraft:infested_cracked_stone_bricks",
+                    "minecraft:infested_deepslate",
+                    "minecraft:infested_stone",
+                    "minecraft:infested_mossy_stone_bricks",
+                    "minecraft:infested_stone_bricks",
+                    "minecraft:mud_bricks",
+                    "minecraft:packed_mud",
+                    "minecraft:chiseled_tuff",
+                    "minecraft:polished_tuff",
+                    "minecraft:tuff_bricks",
+                    "minecraft:chiseled_tuff_bricks",
+                    "minecraft:chiseled_copper",
+                    "minecraft:exposed_chiseled_copper",
+                    "minecraft:weathered_chiseled_copper",
+                    "minecraft:oxidized_chiseled_copper",
+                    "minecraft:waxed_chiseled_copper",
+                    "minecraft:waxed_exposed_chiseled_copper",
+                    "minecraft:waxed_weathered_chiseled_copper",
+                    "minecraft:waxed_oxidized_chiseled_copper",
+                    "minecraft:copper_grate",
+                    "minecraft:exposed_copper_grate",
+                    "minecraft:weathered_copper_grate",
+                    "minecraft:oxidized_copper_grate",
+                    "minecraft:waxed_copper_grate",
+                    "minecraft:waxed_exposed_copper_grate",
+                    "minecraft:waxed_weathered_copper_grate",
+                    "minecraft:waxed_oxidized_copper_grate",
+                    "minecraft:resin_bricks",
+                    "minecraft:resin_brick_wall",
+                    "minecraft:chiseled_resin_bricks",
+                    "minecraft:dark_oak_log",
+                    "minecraft:dark_oak_wood",
+                    "minecraft:stripped_dark_oak_log",
+                    "minecraft:stripped_dark_oak_wood",
+                    "minecraft:pale_oak_log",
+                    "minecraft:pale_oak_wood",
+                    "minecraft:stripped_pale_oak_log",
+                    "minecraft:stripped_pale_oak_wood",
+                    "minecraft:oak_log",
+                    "minecraft:oak_wood",
+                    "minecraft:stripped_oak_log",
+                    "minecraft:stripped_oak_wood",
+                    "minecraft:acacia_log",
+                    "minecraft:acacia_wood",
+                    "minecraft:stripped_acacia_log",
+                    "minecraft:stripped_acacia_wood",
+                    "minecraft:birch_log",
+                    "minecraft:birch_wood",
+                    "minecraft:stripped_birch_log",
+                    "minecraft:stripped_birch_wood",
+                    "minecraft:jungle_log",
+                    "minecraft:jungle_wood",
+                    "minecraft:stripped_jungle_log",
+                    "minecraft:stripped_jungle_wood",
+                    "minecraft:spruce_log",
+                    "minecraft:spruce_wood",
+                    "minecraft:stripped_spruce_log",
+                    "minecraft:stripped_spruce_wood",
+                    "minecraft:mangrove_log",
+                    "minecraft:mangrove_wood",
+                    "minecraft:stripped_mangrove_log",
+                    "minecraft:stripped_mangrove_wood",
+                    "minecraft:cherry_log",
+                    "minecraft:cherry_wood",
+                    "minecraft:stripped_cherry_log",
+                    "minecraft:stripped_cherry_wood",
+                    "minecraft:crimson_stem",
+                    "minecraft:stripped_crimson_stem",
+                    "minecraft:crimson_hyphae",
+                    "minecraft:stripped_crimson_hyphae",
+                    "minecraft:warped_stem",
+                    "minecraft:stripped_warped_stem",
+                    "minecraft:warped_hyphae",
+                    "minecraft:stripped_warped_hyphae",
+                    "minecraft:oak_planks",
+                    "minecraft:spruce_planks",
+                    "minecraft:birch_planks",
+                    "minecraft:jungle_planks",
+                    "minecraft:acacia_planks",
+                    "minecraft:dark_oak_planks",
+                    "minecraft:pale_oak_planks",
+                    "minecraft:crimson_planks",
+                    "minecraft:warped_planks",
+                    "minecraft:mangrove_planks",
+                    "minecraft:bamboo_planks",
+                    "minecraft:cherry_planks"
+                ]
+            }
+        ],
+        "block/cow_food": [
+            null,
+            {
+                "name": "cow_food",
+                "type": "block",
+                "values": [
+                    "minecraft:hay_block",
+                    "minecraft:wheat"
+                ]
+            }
+        ],
+        "block/living_block_takes_fall_damage": [
+            null,
+            {
+                "name": "living_block_takes_fall_damage",
+                "type": "block",
+                "values": [
+                    "minecraft:glass",
+                    "minecraft:glass_pane",
+                    "minecraft:white_stained_glass",
+                    "minecraft:orange_stained_glass",
+                    "minecraft:magenta_stained_glass",
+                    "minecraft:light_blue_stained_glass",
+                    "minecraft:yellow_stained_glass",
+                    "minecraft:lime_stained_glass",
+                    "minecraft:pink_stained_glass",
+                    "minecraft:gray_stained_glass",
+                    "minecraft:light_gray_stained_glass",
+                    "minecraft:cyan_stained_glass",
+                    "minecraft:purple_stained_glass",
+                    "minecraft:blue_stained_glass",
+                    "minecraft:brown_stained_glass",
+                    "minecraft:green_stained_glass",
+                    "minecraft:red_stained_glass",
+                    "minecraft:black_stained_glass",
+                    "minecraft:white_stained_glass_pane",
+                    "minecraft:orange_stained_glass_pane",
+                    "minecraft:magenta_stained_glass_pane",
+                    "minecraft:light_blue_stained_glass_pane",
+                    "minecraft:yellow_stained_glass_pane",
+                    "minecraft:lime_stained_glass_pane",
+                    "minecraft:pink_stained_glass_pane",
+                    "minecraft:gray_stained_glass_pane",
+                    "minecraft:light_gray_stained_glass_pane",
+                    "minecraft:cyan_stained_glass_pane",
+                    "minecraft:purple_stained_glass_pane",
+                    "minecraft:blue_stained_glass_pane",
+                    "minecraft:brown_stained_glass_pane",
+                    "minecraft:green_stained_glass_pane",
+                    "minecraft:red_stained_glass_pane",
+                    "minecraft:black_stained_glass_pane",
+                    "minecraft:tinted_glass"
+                ]
+            }
+        ],
+        "block/pig_food": [
+            null,
+            {
+                "name": "pig_food",
+                "type": "block",
+                "values": [
+                    "minecraft:carrots",
+                    "minecraft:beetroots",
+                    "minecraft:potatoes"
+                ]
+            }
+        ],
+        "block/sheep_food": [
+            null,
+            {
+                "name": "sheep_food",
+                "type": "block",
+                "values": [
+                    "minecraft:hay_block",
+                    "minecraft:wheat"
+                ]
+            }
+        ],
+        "item/block_placers": [
+            null,
+            {
+                "name": "block_placers",
+                "type": "item",
+                "values": [
+                    "minecraft:redstone",
+                    "minecraft:string",
+                    "minecraft:wheat_seeds",
+                    "minecraft:carrot",
+                    "minecraft:potato",
+                    "minecraft:beetroot_seeds",
+                    "minecraft:melon_seeds",
+                    "minecraft:pumpkin_seeds",
+                    "minecraft:nether_wart",
+                    "minecraft:torchflower_seeds",
+                    "minecraft:pitcher_pod",
+                    "minecraft:sweet_berries",
+                    "minecraft:glow_berries",
+                    "minecraft:resin_clump",
+                    "minecraft:powder_snow_bucket"
+                ]
+            }
+        ],
+        "item/cow_food": [
+            {
+                "name": "cow_food",
+                "type": "item",
+                "values": [
+                    "minecraft:wheat"
+                ]
+            },
+            {
+                "name": "cow_food",
+                "type": "item",
+                "values": [
+                    "minecraft:hay_block",
+                    "minecraft:wheat_seeds",
+                    "minecraft:wheat"
+                ]
+            }
+        ],
+        "item/pig_food": [
+            {
+                "name": "pig_food",
+                "type": "item",
+                "values": [
+                    "minecraft:carrot",
+                    "minecraft:potato",
+                    "minecraft:beetroot"
+                ]
+            },
+            {
+                "name": "pig_food",
+                "type": "item",
+                "values": [
+                    "minecraft:carrot",
+                    "minecraft:beetroot_seeds",
+                    "minecraft:potato",
+                    "minecraft:carrot",
+                    "minecraft:potato",
+                    "minecraft:beetroot"
+                ]
+            }
+        ],
+        "item/sheep_food": [
+            {
+                "name": "sheep_food",
+                "type": "item",
+                "values": [
+                    "minecraft:wheat"
+                ]
+            },
+            {
+                "name": "sheep_food",
+                "type": "item",
+                "values": [
+                    "minecraft:hay_block",
+                    "minecraft:wheat_seeds",
+                    "minecraft:wheat"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4788,
+            5000
+        ],
+        "id": [
+            "26.1.1",
+            "26w14a"
+        ],
+        "name": [
+            "26.1.1",
+            "26w14a"
+        ],
+        "protocol": [
+            775,
+            1073742129
+        ]
+    }
+}
