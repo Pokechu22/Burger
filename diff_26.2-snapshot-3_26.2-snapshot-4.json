@@ -1,0 +1,117 @@
+{
+    "achievements": {},
+    "language": {
+        "attribute": {
+            "name.below_name_distance": [
+                null,
+                "Nameplate Score Distance"
+            ],
+            "name.nameplate_distance": [
+                null,
+                "Nameplate Distance"
+            ]
+        },
+        "subtitles": {
+            "item.bucket.fill_sulfur_cube": [
+                null,
+                "Sulfur Cube scooped"
+            ]
+        },
+        "telemetry": {
+            "event.graphics_capabilities.description": [
+                null,
+                "This event informs us of the capabilities of the graphics device used to play the game."
+            ],
+            "event.graphics_capabilities.title": [
+                null,
+                "Graphics Capabilities"
+            ],
+            "property.backend_failure_message.title": [
+                null,
+                "Backend Creation Failure Message"
+            ],
+            "property.backend_failure_missing_capabilities.title": [
+                null,
+                "Backend Creation Failure Missing Capabilities"
+            ],
+            "property.backend_failure_reason.title": [
+                null,
+                "Backend Creation Failure Reason"
+            ],
+            "property.backend_name.title": [
+                null,
+                "Backend Name"
+            ]
+        }
+    },
+    "sounds": {
+        "item.bucket.empty_sulfur_cube": [
+            null,
+            {
+                "field": "BUCKET_EMPTY_SULFUR_CUBE",
+                "id": 228,
+                "name": "item.bucket.empty_sulfur_cube",
+                "sounds": [
+                    {
+                        "hash": "cf505363e5ae8beb10322facc0520f3479e485d6",
+                        "name": "item/bucket/emptysulfurcube1"
+                    },
+                    {
+                        "hash": "194c93629afcbf79bf6a978abea8b59f8105736d",
+                        "name": "item/bucket/emptysulfurcube2"
+                    },
+                    {
+                        "hash": "78f7911d0729f88737566308b0c025b343d50ff9",
+                        "name": "item/bucket/emptysulfurcube3"
+                    }
+                ],
+                "subtitle": "Bucket empties",
+                "subtitle_key": "subtitles.item.bucket.empty"
+            }
+        ],
+        "item.bucket.fill_sulfur_cube": [
+            null,
+            {
+                "field": "BUCKET_FILL_SULFUR_CUBE",
+                "id": 235,
+                "name": "item.bucket.fill_sulfur_cube",
+                "sounds": [
+                    {
+                        "hash": "cad150cd176d54868084f696e6be2186fbaf00e6",
+                        "name": "item/bucket/fillsulfurcube1"
+                    },
+                    {
+                        "hash": "409ecec0301cfe8593bd579cd86547909c5c3cbc",
+                        "name": "item/bucket/fillsulfurcube2"
+                    },
+                    {
+                        "hash": "12c0598292913db294803901abcf01253f8bcbf7",
+                        "name": "item/bucket/fillsulfurcube3"
+                    }
+                ],
+                "subtitle": "Sulfur Cube scooped",
+                "subtitle_key": "subtitles.item.bucket.fill_sulfur_cube"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4886,
+            4887
+        ],
+        "id": [
+            "26.2-snapshot-3",
+            "26.2-snapshot-4"
+        ],
+        "name": [
+            "26.2 Snapshot 3",
+            "26.2 Snapshot 4"
+        ],
+        "protocol": [
+            1073742133,
+            1073742134
+        ]
+    }
+}
