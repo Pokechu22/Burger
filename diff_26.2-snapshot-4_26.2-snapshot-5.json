@@ -1,0 +1,1204 @@
+{
+    "achievements": {},
+    "language": {
+        "attribute": {
+            "name.below_name_distance": [
+                "Nameplate Score Distance",
+                "Name Tag Score Distance"
+            ],
+            "name.nameplate_distance": [
+                "Nameplate Distance",
+                "Name Tag Distance"
+            ]
+        },
+        "commands": {
+            "team.option.color.clear.success": [
+                null,
+                "Cleared the color for team %s"
+            ]
+        },
+        "subtitles": {
+            "block.potent_sulfur.geyser_eruption": [
+                null,
+                "Sulfur spring bursts"
+            ]
+        }
+    },
+    "sounds": {
+        "block.potent_sulfur.geyser_eruption": [
+            null,
+            {
+                "field": "GEYSER_ERUPTION_START",
+                "id": 1832,
+                "name": "block.potent_sulfur.geyser_eruption",
+                "sounds": [
+                    {
+                        "hash": "7d31108c08f7f1012f96fca7bda53e6129f98900",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption1"
+                    },
+                    {
+                        "hash": "654e1cf19529395f3f34d6c227f319051db7aa3b",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption2"
+                    },
+                    {
+                        "hash": "8376a2b1e092abf2e4273452f75deec2c7203810",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption3"
+                    },
+                    {
+                        "hash": "234628683b367603f703baca9dda408c97ae82ca",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption4"
+                    },
+                    {
+                        "hash": "3a433ce52d20049a98d1d9290a2571faa499bfbb",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption5"
+                    },
+                    {
+                        "hash": "f59a97a2303e24bb703987d30245ea398e6e01d5",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption6"
+                    },
+                    {
+                        "hash": "3e0c3a72a20320654fc0e8a8d6942f2414332f4b",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption7"
+                    },
+                    {
+                        "hash": "83d6e3e1a4b5bf5794051f13c3e36cc13574224c",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption8"
+                    }
+                ],
+                "subtitle": "Sulfur spring bursts",
+                "subtitle_key": "subtitles.block.potent_sulfur.geyser_eruption"
+            }
+        ],
+        "block.potent_sulfur.geyser_eruption_active": [
+            null,
+            {
+                "field": "GEYSER_ERUPTION_ACTIVE",
+                "id": 1833,
+                "name": "block.potent_sulfur.geyser_eruption_active",
+                "sounds": [
+                    {
+                        "hash": "fbea000e90938e3b904edbf18ac83e656706c088",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption_active1"
+                    },
+                    {
+                        "hash": "8179ce6f6765b30a575f326a64487e3f48c2e1c2",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption_active2"
+                    },
+                    {
+                        "hash": "26cecea8226fbf67de37f2406f0b0cff617a69eb",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption_active3"
+                    },
+                    {
+                        "hash": "b71f6c5253d319059522cfe20281c0ab47d14e70",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption_active4"
+                    },
+                    {
+                        "hash": "491cfd39ede6798f1d280534965b636e3e545ec3",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption_active5"
+                    },
+                    {
+                        "hash": "0d72e8031de6d2bdf4a718d519f453f6fed62633",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption_active6"
+                    },
+                    {
+                        "hash": "b8fff8f53a4e26ee4c0faa7ef00a6bf723373754",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption_active7"
+                    },
+                    {
+                        "hash": "dc8dfbef64ddf64e6e34c8428c8233baa38e1162",
+                        "name": "block/potent_sulfur/sulfur_spring/eruption_active8"
+                    }
+                ]
+            }
+        ],
+        "block.sulfur_spike.break": [
+            null,
+            {
+                "field": "SULFUR_SPIKE_BREAK",
+                "id": 1560,
+                "name": "block.sulfur_spike.break",
+                "sounds": [
+                    {
+                        "hash": "c365d86e23e891136f345e3dd4029e26f0ca2ba0",
+                        "name": "block/sulfur/break1"
+                    },
+                    {
+                        "hash": "4b47574ccb504e6bbe4352005edff41b3a9068a2",
+                        "name": "block/sulfur/break2"
+                    },
+                    {
+                        "hash": "075de0938e907f8aff9c4bab7e76d689140b2077",
+                        "name": "block/sulfur/break3"
+                    },
+                    {
+                        "hash": "c519599c565e5f3639ac2cec3844e486df1644c3",
+                        "name": "block/sulfur/break4"
+                    },
+                    {
+                        "hash": "e2ecdf6e4d4de20d4f6cb4b73af35b2b8c668dd4",
+                        "name": "block/sulfur/break5"
+                    },
+                    {
+                        "hash": "bc9b64af3764a39a2c6ee35153663a8a8185f4db",
+                        "name": "block/sulfur/break6"
+                    },
+                    {
+                        "hash": "5826b12eeb79658d56eae80ef266b7bb74f10997",
+                        "name": "block/sulfur/break7"
+                    }
+                ],
+                "subtitle": "Block broken",
+                "subtitle_key": "subtitles.block.generic.break"
+            }
+        ],
+        "block.sulfur_spike.fall": [
+            null,
+            {
+                "field": "SULFUR_SPIKE_FALL",
+                "id": 1564,
+                "name": "block.sulfur_spike.fall",
+                "sounds": [
+                    {
+                        "hash": "9aeea4bb4634b9e9768245c653794146c0738cff",
+                        "name": "block/sulfur/hit1"
+                    },
+                    {
+                        "hash": "029f0fdee244ee667f539cc84387ab6f1fd97a43",
+                        "name": "block/sulfur/hit2"
+                    },
+                    {
+                        "hash": "87fabb8b65cfb2c4db19ccb777ad00fbaf9a5283",
+                        "name": "block/sulfur/hit3"
+                    },
+                    {
+                        "hash": "04c88cddf762e79143ed150d0ccbdf7d5e71e2e9",
+                        "name": "block/sulfur/hit4"
+                    },
+                    {
+                        "hash": "b3065b3eaf5860ae29ed4d12e2c14e0ba06b4627",
+                        "name": "block/sulfur/hit5"
+                    },
+                    {
+                        "hash": "18151e446f137b632579575372ec578c5dbd26ca",
+                        "name": "block/sulfur/hit6"
+                    },
+                    {
+                        "hash": "6c1c5e524f75efe440b2227f54a2a0f9c889e03d",
+                        "name": "block/sulfur/hit7"
+                    }
+                ],
+                "subtitle": "Something falls on a block",
+                "subtitle_key": "subtitles.block.generic.fall"
+            }
+        ],
+        "block.sulfur_spike.hit": [
+            null,
+            {
+                "field": "SULFUR_SPIKE_HIT",
+                "id": 1563,
+                "name": "block.sulfur_spike.hit",
+                "sounds": [
+                    {
+                        "hash": "9aeea4bb4634b9e9768245c653794146c0738cff",
+                        "name": "block/sulfur/hit1"
+                    },
+                    {
+                        "hash": "029f0fdee244ee667f539cc84387ab6f1fd97a43",
+                        "name": "block/sulfur/hit2"
+                    },
+                    {
+                        "hash": "87fabb8b65cfb2c4db19ccb777ad00fbaf9a5283",
+                        "name": "block/sulfur/hit3"
+                    },
+                    {
+                        "hash": "04c88cddf762e79143ed150d0ccbdf7d5e71e2e9",
+                        "name": "block/sulfur/hit4"
+                    },
+                    {
+                        "hash": "b3065b3eaf5860ae29ed4d12e2c14e0ba06b4627",
+                        "name": "block/sulfur/hit5"
+                    },
+                    {
+                        "hash": "18151e446f137b632579575372ec578c5dbd26ca",
+                        "name": "block/sulfur/hit6"
+                    },
+                    {
+                        "hash": "6c1c5e524f75efe440b2227f54a2a0f9c889e03d",
+                        "name": "block/sulfur/hit7"
+                    }
+                ],
+                "subtitle": "Block breaking",
+                "subtitle_key": "subtitles.block.generic.hit"
+            }
+        ],
+        "block.sulfur_spike.land": [
+            null,
+            {
+                "field": "SULFUR_SPIKE_LAND",
+                "id": 1565,
+                "name": "block.sulfur_spike.land",
+                "sounds": [
+                    {
+                        "hash": "caceb7f532faa35302ea3576c43b008bc3f51c13",
+                        "name": "block/sulfur_spike/land1"
+                    },
+                    {
+                        "hash": "7c43ce22e04e0772f2168facdd5101f87141186e",
+                        "name": "block/sulfur_spike/land2"
+                    },
+                    {
+                        "hash": "bb328a37ae1e7dd6046289761236d3523c60127d",
+                        "name": "block/sulfur_spike/land3"
+                    },
+                    {
+                        "hash": "b788155bbeffc4fcb02c5214b09bf9cee1dd5086",
+                        "name": "block/sulfur_spike/land4"
+                    },
+                    {
+                        "hash": "9d3dd032f268ebf8453b970180561877cc634581",
+                        "name": "block/sulfur_spike/land5"
+                    },
+                    {
+                        "hash": "26901c1c5c1e64079b724cab1fd0c1b8872c5c0b",
+                        "name": "block/sulfur_spike/land6"
+                    },
+                    {
+                        "hash": "77e8f9b3667c34a09e91e560fb17c36119990fc8",
+                        "name": "block/sulfur_spike/land7"
+                    }
+                ],
+                "subtitle": "Block broken",
+                "subtitle_key": "subtitles.block.generic.break"
+            }
+        ],
+        "block.sulfur_spike.place": [
+            null,
+            {
+                "field": "SULFUR_SPIKE_PLACE",
+                "id": 1562,
+                "name": "block.sulfur_spike.place",
+                "sounds": [
+                    {
+                        "hash": "8a8c77d209cf51cbba0c1dc1f7ad43544d8d82ed",
+                        "name": "block/sulfur/place1"
+                    },
+                    {
+                        "hash": "6de1b0613a138c63810beb8b5a7fbe71902510fd",
+                        "name": "block/sulfur/place2"
+                    },
+                    {
+                        "hash": "3360f545ef00e70cf70c73723b1cedb7b67c263e",
+                        "name": "block/sulfur/place3"
+                    },
+                    {
+                        "hash": "64815dedf8a61ca6070f873a746ec41c87e9dc94",
+                        "name": "block/sulfur/place4"
+                    },
+                    {
+                        "hash": "49539c2842098d94ae8301972bbaac48acf1d449",
+                        "name": "block/sulfur/place5"
+                    },
+                    {
+                        "hash": "dd4fbd71119d50f90e0ac3f597231cca58a22bc2",
+                        "name": "block/sulfur/place6"
+                    },
+                    {
+                        "hash": "80d80f5c245e5dacb1d1cef44fb5dd78f3e2acb7",
+                        "name": "block/sulfur/place7"
+                    },
+                    {
+                        "hash": "9cbb6b02b1ca2003d91cdd7b48209987d896afaa",
+                        "name": "block/sulfur/place8"
+                    }
+                ],
+                "subtitle": "Block placed",
+                "subtitle_key": "subtitles.block.generic.place"
+            }
+        ],
+        "block.sulfur_spike.step": [
+            null,
+            {
+                "field": "SULFUR_SPIKE_STEP",
+                "id": 1561,
+                "name": "block.sulfur_spike.step",
+                "sounds": [
+                    {
+                        "hash": "4b5b80a78bdd765bad23221bebbb45e0f74b1e30",
+                        "name": "block/sulfur/step1"
+                    },
+                    {
+                        "hash": "bf596e55d70bbcee04fb89676a85ef7c074ccf49",
+                        "name": "block/sulfur/step2"
+                    },
+                    {
+                        "hash": "7fe200b38a9699f942b6ace8129b848c635493c5",
+                        "name": "block/sulfur/step3"
+                    },
+                    {
+                        "hash": "f0d0200e261c2febf4a70ac0a9f5b7d677addeea",
+                        "name": "block/sulfur/step4"
+                    },
+                    {
+                        "hash": "c4396acb51e79d63a32983843e26f9f8fc438fe1",
+                        "name": "block/sulfur/step5"
+                    },
+                    {
+                        "hash": "2d9e3824b761f429077c47b69bdd88283c9dba98",
+                        "name": "block/sulfur/step6"
+                    },
+                    {
+                        "hash": "ea44b5e144b127e15189320f7c33bf5670e7b0d2",
+                        "name": "block/sulfur/step7"
+                    }
+                ],
+                "subtitle": "Footsteps",
+                "subtitle_key": "subtitles.block.generic.footsteps"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/default_immune_to": [
+            null,
+            {
+                "name": "default_immune_to",
+                "type": "block",
+                "values": []
+            }
+        ],
+        "block/fox_immune_to": [
+            null,
+            {
+                "name": "fox_immune_to",
+                "type": "block",
+                "values": [
+                    "minecraft:sweet_berry_bush"
+                ]
+            }
+        ],
+        "block/polar_bear_immune_to": [
+            null,
+            {
+                "name": "polar_bear_immune_to",
+                "type": "block",
+                "values": [
+                    "minecraft:powder_snow"
+                ]
+            }
+        ],
+        "block/snow_golem_immune_to": [
+            null,
+            {
+                "name": "snow_golem_immune_to",
+                "type": "block",
+                "values": [
+                    "minecraft:powder_snow"
+                ]
+            }
+        ],
+        "block/stray_immune_to": [
+            null,
+            {
+                "name": "stray_immune_to",
+                "type": "block",
+                "values": [
+                    "minecraft:powder_snow"
+                ]
+            }
+        ],
+        "block/wither_immune_to": [
+            null,
+            {
+                "name": "wither_immune_to",
+                "type": "block",
+                "values": [
+                    "minecraft:wither_rose"
+                ]
+            }
+        ],
+        "block/wither_skeleton_immune_to": [
+            null,
+            {
+                "name": "wither_skeleton_immune_to",
+                "type": "block",
+                "values": [
+                    "minecraft:wither_rose"
+                ]
+            }
+        ],
+        "damage_type/sulfur_cube_with_block_immune_to": [
+            {
+                "name": "sulfur_cube_with_block_immune_to",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:arrow",
+                    "minecraft:cactus",
+                    "minecraft:dry_out",
+                    "minecraft:fall",
+                    "minecraft:falling_anvil",
+                    "minecraft:falling_block",
+                    "minecraft:falling_stalactite",
+                    "minecraft:freeze",
+                    "minecraft:mace_smash",
+                    "minecraft:mob_attack",
+                    "minecraft:mob_attack_no_aggro",
+                    "minecraft:mob_projectile",
+                    "minecraft:player_attack",
+                    "minecraft:player_explosion",
+                    "minecraft:spear",
+                    "minecraft:spit",
+                    "minecraft:stalagmite",
+                    "minecraft:sting",
+                    "minecraft:sweet_berry_bush",
+                    "minecraft:thrown",
+                    "minecraft:trident",
+                    "minecraft:wind_charge"
+                ]
+            },
+            {
+                "name": "sulfur_cube_with_block_immune_to",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:arrow",
+                    "minecraft:cactus",
+                    "minecraft:dry_out",
+                    "minecraft:fall",
+                    "minecraft:falling_anvil",
+                    "minecraft:falling_block",
+                    "minecraft:falling_stalactite",
+                    "minecraft:freeze",
+                    "minecraft:mace_smash",
+                    "minecraft:mob_attack",
+                    "minecraft:mob_attack_no_aggro",
+                    "minecraft:mob_projectile",
+                    "minecraft:player_attack",
+                    "minecraft:spear",
+                    "minecraft:spit",
+                    "minecraft:stalagmite",
+                    "minecraft:sting",
+                    "minecraft:sweet_berry_bush",
+                    "minecraft:thrown",
+                    "minecraft:trident",
+                    "minecraft:wind_charge",
+                    "minecraft:fireworks",
+                    "minecraft:explosion",
+                    "minecraft:player_explosion",
+                    "minecraft:bad_respawn_point"
+                ]
+            }
+        ],
+        "item/sulfur_cube_archetype/explosive": [
+            null,
+            {
+                "name": "sulfur_cube_archetype/explosive",
+                "type": "item",
+                "values": [
+                    "minecraft:tnt"
+                ]
+            }
+        ],
+        "item/sulfur_cube_swallowable": [
+            {
+                "name": "sulfur_cube_swallowable",
+                "type": "item",
+                "values": [
+                    "minecraft:oak_planks",
+                    "minecraft:spruce_planks",
+                    "minecraft:birch_planks",
+                    "minecraft:jungle_planks",
+                    "minecraft:acacia_planks",
+                    "minecraft:dark_oak_planks",
+                    "minecraft:pale_oak_planks",
+                    "minecraft:crimson_planks",
+                    "minecraft:warped_planks",
+                    "minecraft:mangrove_planks",
+                    "minecraft:bamboo_planks",
+                    "minecraft:cherry_planks",
+                    "minecraft:bamboo_mosaic",
+                    "minecraft:dark_oak_log",
+                    "minecraft:dark_oak_wood",
+                    "minecraft:stripped_dark_oak_log",
+                    "minecraft:stripped_dark_oak_wood",
+                    "minecraft:pale_oak_log",
+                    "minecraft:pale_oak_wood",
+                    "minecraft:stripped_pale_oak_log",
+                    "minecraft:stripped_pale_oak_wood",
+                    "minecraft:oak_log",
+                    "minecraft:oak_wood",
+                    "minecraft:stripped_oak_log",
+                    "minecraft:stripped_oak_wood",
+                    "minecraft:acacia_log",
+                    "minecraft:acacia_wood",
+                    "minecraft:stripped_acacia_log",
+                    "minecraft:stripped_acacia_wood",
+                    "minecraft:birch_log",
+                    "minecraft:birch_wood",
+                    "minecraft:stripped_birch_log",
+                    "minecraft:stripped_birch_wood",
+                    "minecraft:jungle_log",
+                    "minecraft:jungle_wood",
+                    "minecraft:stripped_jungle_log",
+                    "minecraft:stripped_jungle_wood",
+                    "minecraft:spruce_log",
+                    "minecraft:spruce_wood",
+                    "minecraft:stripped_spruce_log",
+                    "minecraft:stripped_spruce_wood",
+                    "minecraft:mangrove_log",
+                    "minecraft:mangrove_wood",
+                    "minecraft:stripped_mangrove_log",
+                    "minecraft:stripped_mangrove_wood",
+                    "minecraft:cherry_log",
+                    "minecraft:cherry_wood",
+                    "minecraft:stripped_cherry_log",
+                    "minecraft:stripped_cherry_wood",
+                    "minecraft:crimson_stem",
+                    "minecraft:stripped_crimson_stem",
+                    "minecraft:crimson_hyphae",
+                    "minecraft:stripped_crimson_hyphae",
+                    "minecraft:warped_stem",
+                    "minecraft:stripped_warped_stem",
+                    "minecraft:warped_hyphae",
+                    "minecraft:stripped_warped_hyphae",
+                    "minecraft:bamboo_block",
+                    "minecraft:stripped_bamboo_block",
+                    "minecraft:deepslate",
+                    "minecraft:chiseled_deepslate",
+                    "minecraft:polished_deepslate",
+                    "minecraft:cobbled_deepslate",
+                    "minecraft:cracked_deepslate_bricks",
+                    "minecraft:cracked_deepslate_tiles",
+                    "minecraft:deepslate_bricks",
+                    "minecraft:deepslate_tiles",
+                    "minecraft:nether_bricks",
+                    "minecraft:red_nether_bricks",
+                    "minecraft:chiseled_nether_bricks",
+                    "minecraft:cracked_nether_bricks",
+                    "minecraft:blackstone",
+                    "minecraft:gilded_blackstone",
+                    "minecraft:polished_blackstone",
+                    "minecraft:chiseled_polished_blackstone",
+                    "minecraft:cracked_polished_blackstone_bricks",
+                    "minecraft:polished_blackstone_bricks",
+                    "minecraft:quartz_block",
+                    "minecraft:smooth_quartz",
+                    "minecraft:chiseled_quartz_block",
+                    "minecraft:quartz_bricks",
+                    "minecraft:quartz_pillar",
+                    "minecraft:sandstone",
+                    "minecraft:red_sandstone",
+                    "minecraft:chiseled_red_sandstone",
+                    "minecraft:chiseled_sandstone",
+                    "minecraft:cut_red_sandstone",
+                    "minecraft:cut_sandstone",
+                    "minecraft:smooth_red_sandstone",
+                    "minecraft:smooth_sandstone",
+                    "minecraft:stone",
+                    "minecraft:cobblestone",
+                    "minecraft:smooth_stone",
+                    "minecraft:mossy_cobblestone",
+                    "minecraft:mossy_stone_bricks",
+                    "minecraft:cracked_stone_bricks",
+                    "minecraft:stone_bricks",
+                    "minecraft:chiseled_stone_bricks",
+                    "minecraft:tuff",
+                    "minecraft:tuff_bricks",
+                    "minecraft:chiseled_tuff",
+                    "minecraft:chiseled_tuff_bricks",
+                    "minecraft:polished_tuff",
+                    "minecraft:cinnabar",
+                    "minecraft:chiseled_cinnabar",
+                    "minecraft:polished_cinnabar",
+                    "minecraft:cinnabar_bricks",
+                    "minecraft:sulfur",
+                    "minecraft:polished_sulfur",
+                    "minecraft:chiseled_sulfur",
+                    "minecraft:sulfur_bricks",
+                    "minecraft:basalt",
+                    "minecraft:polished_basalt",
+                    "minecraft:smooth_basalt",
+                    "minecraft:diorite",
+                    "minecraft:polished_diorite",
+                    "minecraft:granite",
+                    "minecraft:polished_granite",
+                    "minecraft:andesite",
+                    "minecraft:polished_andesite",
+                    "minecraft:calcite",
+                    "minecraft:dripstone_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:mud_bricks",
+                    "minecraft:packed_mud",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:white_glazed_terracotta",
+                    "minecraft:orange_glazed_terracotta",
+                    "minecraft:magenta_glazed_terracotta",
+                    "minecraft:light_blue_glazed_terracotta",
+                    "minecraft:yellow_glazed_terracotta",
+                    "minecraft:lime_glazed_terracotta",
+                    "minecraft:pink_glazed_terracotta",
+                    "minecraft:gray_glazed_terracotta",
+                    "minecraft:light_gray_glazed_terracotta",
+                    "minecraft:cyan_glazed_terracotta",
+                    "minecraft:purple_glazed_terracotta",
+                    "minecraft:blue_glazed_terracotta",
+                    "minecraft:brown_glazed_terracotta",
+                    "minecraft:green_glazed_terracotta",
+                    "minecraft:red_glazed_terracotta",
+                    "minecraft:black_glazed_terracotta",
+                    "minecraft:white_concrete",
+                    "minecraft:orange_concrete",
+                    "minecraft:magenta_concrete",
+                    "minecraft:light_blue_concrete",
+                    "minecraft:yellow_concrete",
+                    "minecraft:lime_concrete",
+                    "minecraft:pink_concrete",
+                    "minecraft:gray_concrete",
+                    "minecraft:light_gray_concrete",
+                    "minecraft:cyan_concrete",
+                    "minecraft:purple_concrete",
+                    "minecraft:blue_concrete",
+                    "minecraft:brown_concrete",
+                    "minecraft:green_concrete",
+                    "minecraft:red_concrete",
+                    "minecraft:black_concrete",
+                    "minecraft:white_concrete_powder",
+                    "minecraft:orange_concrete_powder",
+                    "minecraft:magenta_concrete_powder",
+                    "minecraft:light_blue_concrete_powder",
+                    "minecraft:yellow_concrete_powder",
+                    "minecraft:lime_concrete_powder",
+                    "minecraft:pink_concrete_powder",
+                    "minecraft:gray_concrete_powder",
+                    "minecraft:light_gray_concrete_powder",
+                    "minecraft:cyan_concrete_powder",
+                    "minecraft:purple_concrete_powder",
+                    "minecraft:blue_concrete_powder",
+                    "minecraft:brown_concrete_powder",
+                    "minecraft:green_concrete_powder",
+                    "minecraft:red_concrete_powder",
+                    "minecraft:black_concrete_powder",
+                    "minecraft:coal_ore",
+                    "minecraft:deepslate_coal_ore",
+                    "minecraft:lapis_ore",
+                    "minecraft:deepslate_lapis_ore",
+                    "minecraft:redstone_ore",
+                    "minecraft:deepslate_redstone_ore",
+                    "minecraft:diamond_ore",
+                    "minecraft:deepslate_diamond_ore",
+                    "minecraft:emerald_ore",
+                    "minecraft:deepslate_emerald_ore",
+                    "minecraft:coal_block",
+                    "minecraft:lapis_block",
+                    "minecraft:redstone_block",
+                    "minecraft:diamond_block",
+                    "minecraft:emerald_block",
+                    "minecraft:netherrack",
+                    "minecraft:nether_quartz_ore",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:glowstone",
+                    "minecraft:prismarine",
+                    "minecraft:prismarine_bricks",
+                    "minecraft:dark_prismarine",
+                    "minecraft:sea_lantern",
+                    "minecraft:end_stone",
+                    "minecraft:end_stone_bricks",
+                    "minecraft:purpur_block",
+                    "minecraft:purpur_pillar",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt",
+                    "minecraft:podzol",
+                    "minecraft:grass_block",
+                    "minecraft:clay",
+                    "minecraft:gravel",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:obsidian",
+                    "minecraft:crying_obsidian",
+                    "minecraft:bone_block",
+                    "minecraft:amethyst_block",
+                    "minecraft:bricks",
+                    "minecraft:magma_block",
+                    "minecraft:iron_block",
+                    "minecraft:gold_block",
+                    "minecraft:raw_copper_block",
+                    "minecraft:raw_gold_block",
+                    "minecraft:raw_iron_block",
+                    "minecraft:gold_ore",
+                    "minecraft:nether_gold_ore",
+                    "minecraft:deepslate_gold_ore",
+                    "minecraft:iron_ore",
+                    "minecraft:deepslate_iron_ore",
+                    "minecraft:copper_ore",
+                    "minecraft:deepslate_copper_ore",
+                    "minecraft:netherite_block",
+                    "minecraft:ancient_debris",
+                    "minecraft:copper_block",
+                    "minecraft:exposed_copper",
+                    "minecraft:weathered_copper",
+                    "minecraft:oxidized_copper",
+                    "minecraft:waxed_copper_block",
+                    "minecraft:waxed_exposed_copper",
+                    "minecraft:waxed_weathered_copper",
+                    "minecraft:waxed_oxidized_copper",
+                    "minecraft:copper_bulb",
+                    "minecraft:exposed_copper_bulb",
+                    "minecraft:weathered_copper_bulb",
+                    "minecraft:oxidized_copper_bulb",
+                    "minecraft:waxed_copper_bulb",
+                    "minecraft:waxed_exposed_copper_bulb",
+                    "minecraft:waxed_weathered_copper_bulb",
+                    "minecraft:waxed_oxidized_copper_bulb",
+                    "minecraft:cut_copper",
+                    "minecraft:exposed_cut_copper",
+                    "minecraft:weathered_cut_copper",
+                    "minecraft:oxidized_cut_copper",
+                    "minecraft:waxed_cut_copper",
+                    "minecraft:waxed_exposed_cut_copper",
+                    "minecraft:waxed_weathered_cut_copper",
+                    "minecraft:waxed_oxidized_cut_copper",
+                    "minecraft:chiseled_copper",
+                    "minecraft:exposed_chiseled_copper",
+                    "minecraft:weathered_chiseled_copper",
+                    "minecraft:oxidized_chiseled_copper",
+                    "minecraft:waxed_chiseled_copper",
+                    "minecraft:waxed_exposed_chiseled_copper",
+                    "minecraft:waxed_weathered_chiseled_copper",
+                    "minecraft:waxed_oxidized_chiseled_copper",
+                    "minecraft:tube_coral_block",
+                    "minecraft:brain_coral_block",
+                    "minecraft:bubble_coral_block",
+                    "minecraft:fire_coral_block",
+                    "minecraft:horn_coral_block",
+                    "minecraft:dead_tube_coral_block",
+                    "minecraft:dead_brain_coral_block",
+                    "minecraft:dead_bubble_coral_block",
+                    "minecraft:dead_fire_coral_block",
+                    "minecraft:dead_horn_coral_block",
+                    "minecraft:sponge",
+                    "minecraft:wet_sponge",
+                    "minecraft:dried_kelp_block",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:resin_block",
+                    "minecraft:resin_bricks",
+                    "minecraft:chiseled_resin_bricks",
+                    "minecraft:melon",
+                    "minecraft:hay_block",
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern",
+                    "minecraft:ochre_froglight",
+                    "minecraft:pearlescent_froglight",
+                    "minecraft:verdant_froglight",
+                    "minecraft:white_wool",
+                    "minecraft:orange_wool",
+                    "minecraft:magenta_wool",
+                    "minecraft:light_blue_wool",
+                    "minecraft:yellow_wool",
+                    "minecraft:lime_wool",
+                    "minecraft:pink_wool",
+                    "minecraft:gray_wool",
+                    "minecraft:light_gray_wool",
+                    "minecraft:cyan_wool",
+                    "minecraft:purple_wool",
+                    "minecraft:blue_wool",
+                    "minecraft:brown_wool",
+                    "minecraft:green_wool",
+                    "minecraft:red_wool",
+                    "minecraft:black_wool",
+                    "minecraft:blue_ice",
+                    "minecraft:packed_ice",
+                    "minecraft:snow_block",
+                    "minecraft:brown_mushroom_block",
+                    "minecraft:red_mushroom_block",
+                    "minecraft:mushroom_stem",
+                    "minecraft:mycelium",
+                    "minecraft:nether_wart_block",
+                    "minecraft:warped_wart_block",
+                    "minecraft:shroomlight",
+                    "minecraft:honeycomb_block",
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil"
+                ]
+            },
+            {
+                "name": "sulfur_cube_swallowable",
+                "type": "item",
+                "values": [
+                    "minecraft:oak_planks",
+                    "minecraft:spruce_planks",
+                    "minecraft:birch_planks",
+                    "minecraft:jungle_planks",
+                    "minecraft:acacia_planks",
+                    "minecraft:dark_oak_planks",
+                    "minecraft:pale_oak_planks",
+                    "minecraft:crimson_planks",
+                    "minecraft:warped_planks",
+                    "minecraft:mangrove_planks",
+                    "minecraft:bamboo_planks",
+                    "minecraft:cherry_planks",
+                    "minecraft:bamboo_mosaic",
+                    "minecraft:dark_oak_log",
+                    "minecraft:dark_oak_wood",
+                    "minecraft:stripped_dark_oak_log",
+                    "minecraft:stripped_dark_oak_wood",
+                    "minecraft:pale_oak_log",
+                    "minecraft:pale_oak_wood",
+                    "minecraft:stripped_pale_oak_log",
+                    "minecraft:stripped_pale_oak_wood",
+                    "minecraft:oak_log",
+                    "minecraft:oak_wood",
+                    "minecraft:stripped_oak_log",
+                    "minecraft:stripped_oak_wood",
+                    "minecraft:acacia_log",
+                    "minecraft:acacia_wood",
+                    "minecraft:stripped_acacia_log",
+                    "minecraft:stripped_acacia_wood",
+                    "minecraft:birch_log",
+                    "minecraft:birch_wood",
+                    "minecraft:stripped_birch_log",
+                    "minecraft:stripped_birch_wood",
+                    "minecraft:jungle_log",
+                    "minecraft:jungle_wood",
+                    "minecraft:stripped_jungle_log",
+                    "minecraft:stripped_jungle_wood",
+                    "minecraft:spruce_log",
+                    "minecraft:spruce_wood",
+                    "minecraft:stripped_spruce_log",
+                    "minecraft:stripped_spruce_wood",
+                    "minecraft:mangrove_log",
+                    "minecraft:mangrove_wood",
+                    "minecraft:stripped_mangrove_log",
+                    "minecraft:stripped_mangrove_wood",
+                    "minecraft:cherry_log",
+                    "minecraft:cherry_wood",
+                    "minecraft:stripped_cherry_log",
+                    "minecraft:stripped_cherry_wood",
+                    "minecraft:crimson_stem",
+                    "minecraft:stripped_crimson_stem",
+                    "minecraft:crimson_hyphae",
+                    "minecraft:stripped_crimson_hyphae",
+                    "minecraft:warped_stem",
+                    "minecraft:stripped_warped_stem",
+                    "minecraft:warped_hyphae",
+                    "minecraft:stripped_warped_hyphae",
+                    "minecraft:bamboo_block",
+                    "minecraft:stripped_bamboo_block",
+                    "minecraft:deepslate",
+                    "minecraft:chiseled_deepslate",
+                    "minecraft:polished_deepslate",
+                    "minecraft:cobbled_deepslate",
+                    "minecraft:cracked_deepslate_bricks",
+                    "minecraft:cracked_deepslate_tiles",
+                    "minecraft:deepslate_bricks",
+                    "minecraft:deepslate_tiles",
+                    "minecraft:nether_bricks",
+                    "minecraft:red_nether_bricks",
+                    "minecraft:chiseled_nether_bricks",
+                    "minecraft:cracked_nether_bricks",
+                    "minecraft:blackstone",
+                    "minecraft:gilded_blackstone",
+                    "minecraft:polished_blackstone",
+                    "minecraft:chiseled_polished_blackstone",
+                    "minecraft:cracked_polished_blackstone_bricks",
+                    "minecraft:polished_blackstone_bricks",
+                    "minecraft:quartz_block",
+                    "minecraft:smooth_quartz",
+                    "minecraft:chiseled_quartz_block",
+                    "minecraft:quartz_bricks",
+                    "minecraft:quartz_pillar",
+                    "minecraft:sandstone",
+                    "minecraft:red_sandstone",
+                    "minecraft:chiseled_red_sandstone",
+                    "minecraft:chiseled_sandstone",
+                    "minecraft:cut_red_sandstone",
+                    "minecraft:cut_sandstone",
+                    "minecraft:smooth_red_sandstone",
+                    "minecraft:smooth_sandstone",
+                    "minecraft:stone",
+                    "minecraft:cobblestone",
+                    "minecraft:smooth_stone",
+                    "minecraft:mossy_cobblestone",
+                    "minecraft:mossy_stone_bricks",
+                    "minecraft:cracked_stone_bricks",
+                    "minecraft:stone_bricks",
+                    "minecraft:chiseled_stone_bricks",
+                    "minecraft:tuff",
+                    "minecraft:tuff_bricks",
+                    "minecraft:chiseled_tuff",
+                    "minecraft:chiseled_tuff_bricks",
+                    "minecraft:polished_tuff",
+                    "minecraft:cinnabar",
+                    "minecraft:chiseled_cinnabar",
+                    "minecraft:polished_cinnabar",
+                    "minecraft:cinnabar_bricks",
+                    "minecraft:sulfur",
+                    "minecraft:polished_sulfur",
+                    "minecraft:chiseled_sulfur",
+                    "minecraft:sulfur_bricks",
+                    "minecraft:basalt",
+                    "minecraft:polished_basalt",
+                    "minecraft:smooth_basalt",
+                    "minecraft:diorite",
+                    "minecraft:polished_diorite",
+                    "minecraft:granite",
+                    "minecraft:polished_granite",
+                    "minecraft:andesite",
+                    "minecraft:polished_andesite",
+                    "minecraft:calcite",
+                    "minecraft:dripstone_block",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:mud_bricks",
+                    "minecraft:packed_mud",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta",
+                    "minecraft:white_glazed_terracotta",
+                    "minecraft:orange_glazed_terracotta",
+                    "minecraft:magenta_glazed_terracotta",
+                    "minecraft:light_blue_glazed_terracotta",
+                    "minecraft:yellow_glazed_terracotta",
+                    "minecraft:lime_glazed_terracotta",
+                    "minecraft:pink_glazed_terracotta",
+                    "minecraft:gray_glazed_terracotta",
+                    "minecraft:light_gray_glazed_terracotta",
+                    "minecraft:cyan_glazed_terracotta",
+                    "minecraft:purple_glazed_terracotta",
+                    "minecraft:blue_glazed_terracotta",
+                    "minecraft:brown_glazed_terracotta",
+                    "minecraft:green_glazed_terracotta",
+                    "minecraft:red_glazed_terracotta",
+                    "minecraft:black_glazed_terracotta",
+                    "minecraft:white_concrete",
+                    "minecraft:orange_concrete",
+                    "minecraft:magenta_concrete",
+                    "minecraft:light_blue_concrete",
+                    "minecraft:yellow_concrete",
+                    "minecraft:lime_concrete",
+                    "minecraft:pink_concrete",
+                    "minecraft:gray_concrete",
+                    "minecraft:light_gray_concrete",
+                    "minecraft:cyan_concrete",
+                    "minecraft:purple_concrete",
+                    "minecraft:blue_concrete",
+                    "minecraft:brown_concrete",
+                    "minecraft:green_concrete",
+                    "minecraft:red_concrete",
+                    "minecraft:black_concrete",
+                    "minecraft:white_concrete_powder",
+                    "minecraft:orange_concrete_powder",
+                    "minecraft:magenta_concrete_powder",
+                    "minecraft:light_blue_concrete_powder",
+                    "minecraft:yellow_concrete_powder",
+                    "minecraft:lime_concrete_powder",
+                    "minecraft:pink_concrete_powder",
+                    "minecraft:gray_concrete_powder",
+                    "minecraft:light_gray_concrete_powder",
+                    "minecraft:cyan_concrete_powder",
+                    "minecraft:purple_concrete_powder",
+                    "minecraft:blue_concrete_powder",
+                    "minecraft:brown_concrete_powder",
+                    "minecraft:green_concrete_powder",
+                    "minecraft:red_concrete_powder",
+                    "minecraft:black_concrete_powder",
+                    "minecraft:coal_ore",
+                    "minecraft:deepslate_coal_ore",
+                    "minecraft:lapis_ore",
+                    "minecraft:deepslate_lapis_ore",
+                    "minecraft:redstone_ore",
+                    "minecraft:deepslate_redstone_ore",
+                    "minecraft:diamond_ore",
+                    "minecraft:deepslate_diamond_ore",
+                    "minecraft:emerald_ore",
+                    "minecraft:deepslate_emerald_ore",
+                    "minecraft:coal_block",
+                    "minecraft:lapis_block",
+                    "minecraft:redstone_block",
+                    "minecraft:diamond_block",
+                    "minecraft:emerald_block",
+                    "minecraft:netherrack",
+                    "minecraft:nether_quartz_ore",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:glowstone",
+                    "minecraft:prismarine",
+                    "minecraft:prismarine_bricks",
+                    "minecraft:dark_prismarine",
+                    "minecraft:sea_lantern",
+                    "minecraft:end_stone",
+                    "minecraft:end_stone_bricks",
+                    "minecraft:purpur_block",
+                    "minecraft:purpur_pillar",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt",
+                    "minecraft:podzol",
+                    "minecraft:grass_block",
+                    "minecraft:clay",
+                    "minecraft:gravel",
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:obsidian",
+                    "minecraft:crying_obsidian",
+                    "minecraft:bone_block",
+                    "minecraft:amethyst_block",
+                    "minecraft:bricks",
+                    "minecraft:magma_block",
+                    "minecraft:iron_block",
+                    "minecraft:gold_block",
+                    "minecraft:raw_copper_block",
+                    "minecraft:raw_gold_block",
+                    "minecraft:raw_iron_block",
+                    "minecraft:gold_ore",
+                    "minecraft:nether_gold_ore",
+                    "minecraft:deepslate_gold_ore",
+                    "minecraft:iron_ore",
+                    "minecraft:deepslate_iron_ore",
+                    "minecraft:copper_ore",
+                    "minecraft:deepslate_copper_ore",
+                    "minecraft:netherite_block",
+                    "minecraft:ancient_debris",
+                    "minecraft:copper_block",
+                    "minecraft:exposed_copper",
+                    "minecraft:weathered_copper",
+                    "minecraft:oxidized_copper",
+                    "minecraft:waxed_copper_block",
+                    "minecraft:waxed_exposed_copper",
+                    "minecraft:waxed_weathered_copper",
+                    "minecraft:waxed_oxidized_copper",
+                    "minecraft:copper_bulb",
+                    "minecraft:exposed_copper_bulb",
+                    "minecraft:weathered_copper_bulb",
+                    "minecraft:oxidized_copper_bulb",
+                    "minecraft:waxed_copper_bulb",
+                    "minecraft:waxed_exposed_copper_bulb",
+                    "minecraft:waxed_weathered_copper_bulb",
+                    "minecraft:waxed_oxidized_copper_bulb",
+                    "minecraft:cut_copper",
+                    "minecraft:exposed_cut_copper",
+                    "minecraft:weathered_cut_copper",
+                    "minecraft:oxidized_cut_copper",
+                    "minecraft:waxed_cut_copper",
+                    "minecraft:waxed_exposed_cut_copper",
+                    "minecraft:waxed_weathered_cut_copper",
+                    "minecraft:waxed_oxidized_cut_copper",
+                    "minecraft:chiseled_copper",
+                    "minecraft:exposed_chiseled_copper",
+                    "minecraft:weathered_chiseled_copper",
+                    "minecraft:oxidized_chiseled_copper",
+                    "minecraft:waxed_chiseled_copper",
+                    "minecraft:waxed_exposed_chiseled_copper",
+                    "minecraft:waxed_weathered_chiseled_copper",
+                    "minecraft:waxed_oxidized_chiseled_copper",
+                    "minecraft:tube_coral_block",
+                    "minecraft:brain_coral_block",
+                    "minecraft:bubble_coral_block",
+                    "minecraft:fire_coral_block",
+                    "minecraft:horn_coral_block",
+                    "minecraft:dead_tube_coral_block",
+                    "minecraft:dead_brain_coral_block",
+                    "minecraft:dead_bubble_coral_block",
+                    "minecraft:dead_fire_coral_block",
+                    "minecraft:dead_horn_coral_block",
+                    "minecraft:sponge",
+                    "minecraft:wet_sponge",
+                    "minecraft:dried_kelp_block",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block",
+                    "minecraft:resin_block",
+                    "minecraft:resin_bricks",
+                    "minecraft:chiseled_resin_bricks",
+                    "minecraft:melon",
+                    "minecraft:hay_block",
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern",
+                    "minecraft:ochre_froglight",
+                    "minecraft:pearlescent_froglight",
+                    "minecraft:verdant_froglight",
+                    "minecraft:white_wool",
+                    "minecraft:orange_wool",
+                    "minecraft:magenta_wool",
+                    "minecraft:light_blue_wool",
+                    "minecraft:yellow_wool",
+                    "minecraft:lime_wool",
+                    "minecraft:pink_wool",
+                    "minecraft:gray_wool",
+                    "minecraft:light_gray_wool",
+                    "minecraft:cyan_wool",
+                    "minecraft:purple_wool",
+                    "minecraft:blue_wool",
+                    "minecraft:brown_wool",
+                    "minecraft:green_wool",
+                    "minecraft:red_wool",
+                    "minecraft:black_wool",
+                    "minecraft:blue_ice",
+                    "minecraft:packed_ice",
+                    "minecraft:snow_block",
+                    "minecraft:brown_mushroom_block",
+                    "minecraft:red_mushroom_block",
+                    "minecraft:mushroom_stem",
+                    "minecraft:mycelium",
+                    "minecraft:nether_wart_block",
+                    "minecraft:warped_wart_block",
+                    "minecraft:shroomlight",
+                    "minecraft:honeycomb_block",
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil",
+                    "minecraft:tnt"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4887,
+            4889
+        ],
+        "id": [
+            "26.2-snapshot-4",
+            "26.2-snapshot-5"
+        ],
+        "name": [
+            "26.2 Snapshot 4",
+            "26.2 Snapshot 5"
+        ],
+        "protocol": [
+            1073742134,
+            1073742135
+        ]
+    }
+}
