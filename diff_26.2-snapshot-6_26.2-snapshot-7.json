@@ -1,0 +1,821 @@
+{
+    "achievements": {},
+    "language": {
+        "accessibility": {
+            "onboarding.accessibility.button.narration": [
+                null,
+                "Accessibility Settings"
+            ]
+        },
+        "connect": {
+            "p2p.establishing": [
+                null,
+                "Establishing connection..."
+            ],
+            "p2p.failed.generic": [
+                null,
+                "Couldn't connect to player"
+            ],
+            "p2p.failed.signaling": [
+                null,
+                "It is not possible to connect right now.\nTry again later."
+            ],
+            "p2p.failed.timeout": [
+                null,
+                "Connection request timed out"
+            ],
+            "p2p.failed.unreachable": [
+                null,
+                "Player isn't reachable"
+            ]
+        },
+        "gui": {
+            "friends.accept": [
+                null,
+                "Accept"
+            ],
+            "friends.button.loading": [
+                null,
+                "Wait..."
+            ],
+            "friends.button.loading.join_request_pending": [
+                null,
+                "Waiting on confirmation from %s"
+            ],
+            "friends.cancel_request": [
+                null,
+                "Cancel request"
+            ],
+            "friends.confirm_title": [
+                null,
+                "Confirm"
+            ],
+            "friends.confirm_unfriend": [
+                null,
+                "Are you sure you want to remove this player from your Friends List?"
+            ],
+            "friends.copy_to_clipboard": [
+                null,
+                "Copy to Clipboard"
+            ],
+            "friends.decline": [
+                null,
+                "Decline"
+            ],
+            "friends.empty_nickname": [
+                null,
+                "Enter a valid profile name before sending a friend request"
+            ],
+            "friends.empty_state": [
+                null,
+                "Friends you add will be listed here.\n\nManage online safety with your %s."
+            ],
+            "friends.empty_state.link": [
+                null,
+                "Microsoft account"
+            ],
+            "friends.enter_nickname": [
+                null,
+                "Enter Profile Name"
+            ],
+            "friends.error.connection_issue": [
+                null,
+                "Friends List is not working right now.\n\nCheck your internet connection and try again."
+            ],
+            "friends.error.failed.message": [
+                null,
+                "Unable to send your friend request right now"
+            ],
+            "friends.error.forbidden.message": [
+                null,
+                "Failed to perform this friend action. It may be due to the account's privacy settings."
+            ],
+            "friends.error.generic": [
+                null,
+                "Something's wrong \u2014 with this feature, not your friends!\n\nTry again later."
+            ],
+            "friends.error.rateLimited.message": [
+                null,
+                "You're performing Friends List actions too quickly. Please wait a moment and try again."
+            ],
+            "friends.error.temporary_unavailable": [
+                null,
+                "Friends List is not working right now.\n\nTry again later."
+            ],
+            "friends.error.unavailable.message": [
+                null,
+                "The Friends List service is currently unavailable. Please check your connection and try again later."
+            ],
+            "friends.error.upgrade_needed": [
+                null,
+                "Update the game to access your Friends List."
+            ],
+            "friends.error.user_may_lack_active_profile": [
+                null,
+                "There is no player with this profile name"
+            ],
+            "friends.join": [
+                null,
+                "Join"
+            ],
+            "friends.loading_friends": [
+                null,
+                "Loading Friends List..."
+            ],
+            "friends.loading_requests": [
+                null,
+                "Loading requests..."
+            ],
+            "friends.manage_account_footer": [
+                null,
+                "Manage online safety with your %s"
+            ],
+            "friends.multiplayer.invite": [
+                null,
+                "Invite to world"
+            ],
+            "friends.multiplayer.invite_accept": [
+                null,
+                "Accept invite to join world"
+            ],
+            "friends.multiplayer.invite_reject": [
+                null,
+                "Reject invite to join world"
+            ],
+            "friends.multiplayer.join_request": [
+                null,
+                "Request to join world"
+            ],
+            "friends.multiplayer.join_request_accept": [
+                null,
+                "Accept request to join world"
+            ],
+            "friends.multiplayer.join_request_reject": [
+                null,
+                "Reject request to join world"
+            ],
+            "friends.my_profile_name": [
+                null,
+                "My profile name: "
+            ],
+            "friends.my_profile_name.narration": [
+                null,
+                "Copy profile name %s to clipboard"
+            ],
+            "friends.narration.button.accept": [
+                null,
+                "Press enter to accept friend request from %s"
+            ],
+            "friends.narration.button.cancel_request": [
+                null,
+                "Press enter to cancel friend request to %s"
+            ],
+            "friends.narration.button.decline": [
+                null,
+                "Press enter to decline friend request from %s"
+            ],
+            "friends.narration.button.unfriend": [
+                null,
+                "Press enter to remove %s from Friends List"
+            ],
+            "friends.narration.entry.friend": [
+                null,
+                "Friend %s"
+            ],
+            "friends.narration.entry.incoming": [
+                null,
+                "Incoming friend request from %s"
+            ],
+            "friends.narration.entry.outgoing": [
+                null,
+                "Outgoing friend request to %s"
+            ],
+            "friends.open": [
+                null,
+                "Friends"
+            ],
+            "friends.open.narration": [
+                null,
+                "Friends List"
+            ],
+            "friends.open.tooltip": [
+                null,
+                "Friends"
+            ],
+            "friends.pending.empty": [
+                null,
+                "No pending friend requests"
+            ],
+            "friends.pending.received": [
+                null,
+                "Received"
+            ],
+            "friends.pending.sent": [
+                null,
+                "Sent"
+            ],
+            "friends.presence.status.offline": [
+                null,
+                "Offline"
+            ],
+            "friends.presence.status.online": [
+                null,
+                "Online"
+            ],
+            "friends.presence.status.playing_hosted_server": [
+                null,
+                "In a joinable world"
+            ],
+            "friends.presence.status.playing_offline": [
+                null,
+                "In a world"
+            ],
+            "friends.presence.status.playing_realms": [
+                null,
+                "In a Realm"
+            ],
+            "friends.presence.status.playing_server": [
+                null,
+                "On a server"
+            ],
+            "friends.requests_count": [
+                null,
+                "Requests (%s)"
+            ],
+            "friends.send_request": [
+                null,
+                "Send friend request"
+            ],
+            "friends.tab_friends": [
+                null,
+                "Friends"
+            ],
+            "friends.toast.friend_added.message": [
+                null,
+                "%s accepted your friend request"
+            ],
+            "friends.toast.friend_invited.message": [
+                null,
+                "%s has been invited to join your world."
+            ],
+            "friends.toast.friend_removed.message": [
+                null,
+                "%s has been removed from your friends list"
+            ],
+            "friends.toast.generic_error": [
+                null,
+                "An unexpected error occurred while updating your Friends List. Please try again later."
+            ],
+            "friends.toast.host_invite_expired.message": [
+                null,
+                "Invitation to %s to join this world has expired."
+            ],
+            "friends.toast.invite_from_friend.message": [
+                null,
+                "%s invited you to join their world. Open the friends list by pressing \"%s\" to join"
+            ],
+            "friends.toast.join_invite_expired.message": [
+                null,
+                "Invitation to join %s's world has expired."
+            ],
+            "friends.toast.join_request.message": [
+                null,
+                "%s has requested to join your world. Open the friends list by pressing \"%s\" or access it through the game menu."
+            ],
+            "friends.toast.request_accepted.message": [
+                null,
+                "You are now friends with %s"
+            ],
+            "friends.toast.request_received.message": [
+                null,
+                "%s sent you a friend request"
+            ],
+            "friends.toast.request_sent.message": [
+                null,
+                "Friend request sent to %s"
+            ],
+            "friends.toast.request_to_join_friend.message": [
+                null,
+                "Request to join world has been sent to %s"
+            ],
+            "friends.toast.requests_accepted_multiple.message": [
+                null,
+                "%s friends accepted your friend requests"
+            ],
+            "friends.toast.requests_received_multiple.message": [
+                null,
+                "You have received %s friend requests"
+            ],
+            "friends.unfriend": [
+                null,
+                "Remove Friend"
+            ],
+            "privacy_link.message": [
+                null,
+                "Open this link to manage your privacy and online safety settings."
+            ],
+            "privacy_link.title": [
+                null,
+                "Changes to Xbox settings may take some time to apply.\n\nIf they don't update, restart the game."
+            ],
+            "remove": [
+                null,
+                "Remove"
+            ]
+        },
+        "item": {
+            "minecraft.music_disc_bounce": [
+                null,
+                "Music Disc"
+            ],
+            "minecraft.music_disc_bounce.desc": [
+                null,
+                "fingerspit - Bounce"
+            ]
+        },
+        "jukebox_song": {
+            "minecraft.bounce": [
+                null,
+                "fingerspit - Bounce"
+            ]
+        },
+        "key": {
+            "friends": [
+                null,
+                "Friends Screen"
+            ]
+        },
+        "menu": {
+            "multiplayerOptions.applyChanges": [
+                null,
+                "Apply Changes"
+            ],
+            "multiplayerOptions.button": [
+                null,
+                "Multiplayer..."
+            ],
+            "multiplayerOptions.network": [
+                null,
+                "Multiplayer"
+            ],
+            "multiplayerOptions.network.header": [
+                null,
+                "Network"
+            ],
+            "multiplayerOptions.network.lan": [
+                null,
+                "LAN"
+            ],
+            "multiplayerOptions.network.lan.tooltip": [
+                null,
+                "Players on the same network can join."
+            ],
+            "multiplayerOptions.network.off": [
+                null,
+                "OFF"
+            ],
+            "multiplayerOptions.network.off.tooltip": [
+                null,
+                "Nobody can join."
+            ],
+            "multiplayerOptions.network.online": [
+                null,
+                "Online"
+            ],
+            "multiplayerOptions.network.online.tooltip": [
+                null,
+                "Friends online can join."
+            ],
+            "multiplayerOptions.otherPlayers.header": [
+                null,
+                "Other Players"
+            ],
+            "multiplayerOptions.publish.started.lan": [
+                null,
+                "This world is now open to LAN. The port number is %s"
+            ],
+            "multiplayerOptions.publish.started.online": [
+                null,
+                "This world is now open to multiplayer. The port number is %s"
+            ],
+            "multiplayerOptions.publish.stopped": [
+                null,
+                "This world is no longer open to multiplayer"
+            ],
+            "multiplayerOptions.title": [
+                null,
+                "Multiplayer Options"
+            ],
+            "playerReporting.no_players": [
+                null,
+                "There are no players to report in this world"
+            ]
+        },
+        "music": {
+            "game.ebb": [
+                null,
+                "fingerspit - Ebb"
+            ],
+            "game.home": [
+                null,
+                "fingerspit - Home"
+            ],
+            "game.memories": [
+                null,
+                "fingerspit - Memories"
+            ],
+            "game.nightly": [
+                null,
+                "fingerspit - Nightly"
+            ],
+            "game.shores": [
+                null,
+                "fingerspit - Shores"
+            ]
+        },
+        "options": {
+            "accessibility.tooltip": [
+                null,
+                "Accessibility Settings"
+            ],
+            "allowFriendRequests": [
+                null,
+                "Allow Requests"
+            ],
+            "allowFriendRequests.tooltip": [
+                null,
+                "Allow other players to send you friend requests"
+            ],
+            "friendsList": [
+                null,
+                "Friends List"
+            ],
+            "friendsList.confirm.message": [
+                null,
+                "The Friends List controls who you can chat with when \"Can communicate outside Xbox\" is set to \"Friends\".\n\nManage this setting on your Microsoft account.\n\nWhen Friends List is ON, other players can send you friend requests. You can turn OFF friend invitations or the Friends List at any time."
+            ],
+            "friendsList.confirm.title": [
+                null,
+                "Turn ON Friends List?"
+            ],
+            "friendsList.confirm.turnOff": [
+                null,
+                "Turn OFF"
+            ],
+            "friendsList.confirm.turnOn": [
+                null,
+                "Turn ON"
+            ],
+            "graphicsApi.tooltip": [
+                "Which graphics API to use for rendering. Leave as Default unless you have a specific need to change this! Will take affect the next time you start the game.",
+                "Which graphics API to use for rendering. Leave as Default unless you have a specific need to change this!"
+            ],
+            "inGameNotification": [
+                null,
+                "In-game Notification"
+            ],
+            "inGameNotification.tooltip": [
+                null,
+                "Show Friend notifications in-game"
+            ],
+            "language.narration": [
+                null,
+                "Change Language"
+            ],
+            "language.tooltip": [
+                null,
+                "Change Language"
+            ],
+            "multiplayer.title": [
+                "Multiplayer Settings...",
+                "Multiplayer Options..."
+            ],
+            "needsRestart": [
+                "Option will be applied after restart.",
+                "Requires a game restart to take effect."
+            ],
+            "online.friends.header": [
+                null,
+                "Friends List"
+            ],
+            "online.realms.header": [
+                null,
+                "Realms"
+            ],
+            "online.xboxSettings": [
+                null,
+                "Xbox Settings..."
+            ],
+            "restartRequired": [
+                null,
+                "Some of your changes require a game restart to be applied."
+            ],
+            "sharePresence": [
+                null,
+                "Presence"
+            ],
+            "sharePresence.all": [
+                null,
+                "All"
+            ],
+            "sharePresence.all.tooltip": [
+                null,
+                "Presence is shared with your friends. Appearing as online and sharing what you are doing."
+            ],
+            "sharePresence.limited": [
+                null,
+                "Limited"
+            ],
+            "sharePresence.limited.tooltip": [
+                null,
+                "Sharing limited presence. Appearing as online, but not sharing what you are doing. You can still invite friends to your game."
+            ],
+            "sharePresence.none": [
+                null,
+                "None"
+            ],
+            "sharePresence.none.tooltip": [
+                null,
+                "Not sharing any presence. Appearing as offline."
+            ]
+        },
+        "telemetry": {
+            "event.p2p_connection.description": [
+                null,
+                "This event helps us understand the reliability and performance of peer-to-peer connections between players. It records whether the connection was successful, the type of Interactive Connectivity Establishment (ICE, the protocol we use to establish peer-to-peer connections) candidate used, and how long it took to establish the connection."
+            ],
+            "event.p2p_connection.title": [
+                null,
+                "Peer-to-peer Connection"
+            ],
+            "property.p2p_connection_failure_stage.title": [
+                null,
+                "Failure Stage"
+            ],
+            "property.p2p_connection_ice_connect_time_ms.title": [
+                null,
+                "Interactive Connectivity Establishment (ICE) Connect Time (Milliseconds)"
+            ],
+            "property.p2p_connection_ice_path.title": [
+                null,
+                "Interactive Connectivity Establishment (ICE) Path"
+            ],
+            "property.p2p_connection_local_candidate_type.title": [
+                null,
+                "Local Candidate Type"
+            ],
+            "property.p2p_connection_remote_candidate_type.title": [
+                null,
+                "Remote Candidate Type"
+            ],
+            "property.p2p_connection_signaling_time_ms.title": [
+                null,
+                "Signaling Connection Time (Milliseconds)"
+            ],
+            "property.p2p_connection_successful.title": [
+                null,
+                "Connection Successful"
+            ],
+            "property.p2p_connection_total_time_ms.title": [
+                null,
+                "Total Connection Time (Milliseconds)"
+            ]
+        },
+        "title": {
+            "multiplayer.online": [
+                null,
+                "Multiplayer (Online)"
+            ]
+        }
+    },
+    "sounds": {
+        "block.potent_sulfur.geyser_continuous_eruption": [
+            null,
+            {
+                "field": "GEYSER_CONTINUOUS_START",
+                "id": 1836,
+                "name": "block.potent_sulfur.geyser_continuous_eruption",
+                "sounds": [
+                    {
+                        "hash": "165d7f7d708386dc57f4cf59facb94beb5e74af5",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption1"
+                    },
+                    {
+                        "hash": "7887ce90eedf75cecbce68cbf3a473c3f95b4a90",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption2"
+                    },
+                    {
+                        "hash": "734a474448108f53818e572d520c8b07cea8f4a4",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption3"
+                    },
+                    {
+                        "hash": "f3dfdf60ee9afe7668185351d0439d73f9084526",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption4"
+                    },
+                    {
+                        "hash": "15de76eb7d7ad4185eb7cef31279c8e427a37a38",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption5"
+                    },
+                    {
+                        "hash": "5ac2dad26e20beeae0ef3c3580ceb425d6cf2319",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption6"
+                    }
+                ],
+                "subtitle": "Sulfur spring bursts",
+                "subtitle_key": "subtitles.block.potent_sulfur.geyser_eruption"
+            }
+        ],
+        "block.potent_sulfur.geyser_continuous_eruption_active": [
+            null,
+            {
+                "field": "GEYSER_CONTINUOUS_ACTIVE",
+                "id": 1837,
+                "name": "block.potent_sulfur.geyser_continuous_eruption_active",
+                "sounds": [
+                    {
+                        "hash": "d14d12b3ffcec835f91a3a8a6e1b80b17f95768b",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption_active1",
+                        "volume": 2.0
+                    },
+                    {
+                        "hash": "2e69e6fb35b8cfb179b2da811ccadfc5b82a45ae",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption_active2",
+                        "volume": 2.0
+                    },
+                    {
+                        "hash": "72c872c7dc1d1ce76f8325c9e6786c626ad04842",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption_active3",
+                        "volume": 2.0
+                    },
+                    {
+                        "hash": "c8687ef80e533dc1f47abb93705cedbfbbe1d817",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption_active4",
+                        "volume": 2.0
+                    },
+                    {
+                        "hash": "0d940b6588c92e26da0c5266c7760623d75ca6da",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption_active5",
+                        "volume": 2.0
+                    },
+                    {
+                        "hash": "a617a83419a88ba2b7c5159395dbc216079f41b1",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption_active6",
+                        "volume": 2.0
+                    },
+                    {
+                        "hash": "2104a9adecc0bb3c013a31c6f626188f99e3ec5b",
+                        "name": "block/potent_sulfur/geyser_continuous/eruption_active7",
+                        "volume": 2.0
+                    }
+                ]
+            }
+        ],
+        "music.overworld.sulfur_caves": [
+            null,
+            {
+                "field": "MUSIC_BIOME_SULFUR_CAVES",
+                "id": 1043,
+                "name": "music.overworld.sulfur_caves",
+                "sounds": [
+                    {
+                        "hash": "ac88b24961961f52fbaf8efc55ae7e260b6f4ad2",
+                        "name": "music/game/an_ordinary_day",
+                        "stream": true
+                    },
+                    {
+                        "hash": "603fd41ebe3eac0795ebfa0b31195be1866d1e9c",
+                        "name": "music/game/danny",
+                        "stream": true
+                    },
+                    {
+                        "hash": "8e901a9a5e4daee7e3cbff8a3529d0a4148f8406",
+                        "name": "music/game/deeper",
+                        "stream": true,
+                        "volume": 0.4
+                    },
+                    {
+                        "hash": "5e1288786fa59686f2c000ed90c2e3b89d125460",
+                        "name": "music/game/ebb",
+                        "stream": true,
+                        "volume": 0.4,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "1346ff09e77c8506476a017f63d9a820f25f0839",
+                        "name": "music/game/eld_unknown",
+                        "stream": true,
+                        "volume": 0.4
+                    },
+                    {
+                        "hash": "14221fedadd7431bc557f36be1af86582955f7c5",
+                        "name": "music/game/endless",
+                        "stream": true,
+                        "volume": 0.4
+                    },
+                    {
+                        "hash": "f6dd3e263823fbc2051f441e5b12a02b2258ae84",
+                        "name": "music/game/infinite_amethyst",
+                        "stream": true,
+                        "volume": 0.4
+                    },
+                    {
+                        "hash": "8ee9d608f0bbb2d0513af7bfc1b55e591ada05ea",
+                        "name": "music/game/key",
+                        "stream": true
+                    },
+                    {
+                        "hash": "aebe56d3016657dfeacfadb953424079c7e3d32c",
+                        "name": "music/game/nightly",
+                        "stream": true,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "b99889832d7f9abe35725506e4cd48075e25f957",
+                        "name": "music/game/oxygene",
+                        "stream": true
+                    },
+                    {
+                        "hash": "2142a00de645aa748b908c74fc275a3025b8bd90",
+                        "name": "music/game/pokopoko",
+                        "stream": true,
+                        "volume": 0.8
+                    },
+                    {
+                        "hash": "974c6083c8de0de74185e966d664bf0a5841bc22",
+                        "name": "music/game/shores",
+                        "stream": true,
+                        "volume": 0.4,
+                        "weight": 2
+                    },
+                    {
+                        "hash": "0dbcd56e6d8a931818f0913a0e23f784106d4ad8",
+                        "name": "music/game/subwoofer_lullaby",
+                        "stream": true
+                    },
+                    {
+                        "hash": "0cfa947f3d282bb02426b1c5e666b5dc28aff8a4",
+                        "name": "music/game/wending",
+                        "stream": true,
+                        "volume": 0.4
+                    }
+                ]
+            }
+        ],
+        "music_disc.bounce": [
+            null,
+            {
+                "field": "MUSIC_DISC_BOUNCE",
+                "id": 997,
+                "name": "music_disc.bounce",
+                "sounds": [
+                    {
+                        "hash": "e107e8f61f480575f3e8c18ffb3d42bf0f0ed7e5",
+                        "name": "records/bounce",
+                        "stream": true
+                    }
+                ]
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/causes_continuous_geyser_eruptions": [
+            null,
+            {
+                "name": "causes_continuous_geyser_eruptions",
+                "type": "block",
+                "values": [
+                    "minecraft:lava"
+                ]
+            }
+        ],
+        "block/causes_periodic_geyser_eruptions": [
+            null,
+            {
+                "name": "causes_periodic_geyser_eruptions",
+                "type": "block",
+                "values": [
+                    "minecraft:magma_block"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4890,
+            4891
+        ],
+        "id": [
+            "26.2-snapshot-6",
+            "26.2-snapshot-7"
+        ],
+        "name": [
+            "26.2 Snapshot 6",
+            "26.2 Snapshot 7"
+        ],
+        "protocol": [
+            1073742136,
+            1073742137
+        ]
+    }
+}
