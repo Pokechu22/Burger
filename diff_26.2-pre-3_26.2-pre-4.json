@@ -1,0 +1,95 @@
+{
+    "achievements": {},
+    "language": {
+        "gui": {
+            "friends.error.unauthorized": [
+                null,
+                "Invalid token supplied, restart your game and launcher and try again"
+            ],
+            "friends.presence.status.playing_hosted_server": [
+                "Online (World)",
+                "Online (LAN)"
+            ]
+        },
+        "menu": {
+            "multiplayerOptions.button": [
+                "Multiplayer...",
+                "Open to LAN"
+            ],
+            "multiplayerOptions.lan": [
+                null,
+                "LAN"
+            ],
+            "multiplayerOptions.otherPlayers.header": [
+                "Other Players",
+                "Settings for Other Players"
+            ],
+            "multiplayerOptions.title": [
+                "Multiplayer Options",
+                "LAN Options"
+            ]
+        },
+        "options": {
+            "multiplayer.title": [
+                "Multiplayer Options...",
+                "Open to LAN"
+            ],
+            "sharePresence": [
+                "Presence",
+                "Visibility"
+            ],
+            "sharePresence.all": [
+                "All",
+                "Full"
+            ],
+            "sharePresence.all.tooltip": [
+                "Presence is shared with your friends. Appearing as online and sharing what you are doing.",
+                "Friends can see what you're playing."
+            ],
+            "sharePresence.limited.tooltip": [
+                "Sharing limited presence. Appearing as online, but not sharing what you are doing.",
+                "Friends can see when you're online, but not what you're playing."
+            ],
+            "sharePresence.none": [
+                "None",
+                "Hidden"
+            ],
+            "sharePresence.none.tooltip": [
+                "Not sharing any presence. Appearing as offline.",
+                "Friends will always see you as offline."
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "entity_type/not_affected_by_geysers": [
+            null,
+            {
+                "name": "not_affected_by_geysers",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:ender_dragon"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            4896,
+            4897
+        ],
+        "id": [
+            "26.2-pre-3",
+            "26.2-pre-4"
+        ],
+        "name": [
+            "26.2 Pre-Release 3",
+            "26.2 Pre-Release 4"
+        ],
+        "protocol": [
+            1073742141,
+            1073742142
+        ]
+    }
+}
