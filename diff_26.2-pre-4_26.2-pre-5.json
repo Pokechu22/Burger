@@ -1,0 +1,52 @@
+{
+    "achievements": {},
+    "language": {
+        "editGamerule": {
+            "inGame.disabled.hardcore.tooltip": [
+                null,
+                "Cannot change game rules in a hardcore world."
+            ]
+        },
+        "gui": {
+            "friends.error.unauthorized": [
+                "Invalid token supplied, restart your game and launcher and try again",
+                "Invalid token supplied. Restart your game and launcher, then try again"
+            ]
+        },
+        "options": {
+            "worldOptions.allow_commands.disabled.tooltip": [
+                null,
+                "Cannot allow commands in a hardcore world."
+            ],
+            "worldOptions.game_mode.disabled.operator.tooltip": [
+                null,
+                "Changing the game mode requires operator permissions."
+            ],
+            "worldOptions.game_mode.disabled.tooltip": [
+                null,
+                "Cannot change the game mode in a hardcore world."
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            4897,
+            4898
+        ],
+        "id": [
+            "26.2-pre-4",
+            "26.2-pre-5"
+        ],
+        "name": [
+            "26.2 Pre-Release 4",
+            "26.2 Pre-Release 5"
+        ],
+        "protocol": [
+            1073742142,
+            1073742143
+        ]
+    }
+}
