@@ -1,0 +1,36 @@
+{
+    "achievements": {},
+    "language": {
+        "item": {
+            "minecraft.firework_rocket.flight": [
+                "Flight Duration: %s",
+                "Flight Duration:"
+            ],
+            "minecraft.firework_rocket.flight_duration": [
+                null,
+                "Flight Duration: %s"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            5003,
+            5004
+        ],
+        "id": [
+            "26.3-snapshot-4",
+            "26.3-snapshot-5"
+        ],
+        "name": [
+            "26.3 Snapshot 4",
+            "26.3 Snapshot 5"
+        ],
+        "protocol": [
+            1073742150,
+            1073742151
+        ]
+    }
+}
