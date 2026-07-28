@@ -1,0 +1,76 @@
+{
+    "achievements": {},
+    "language": {
+        "options": {
+            "quitShortcuts": [
+                null,
+                "Quit Shortcuts"
+            ],
+            "quitShortcuts.tooltip": [
+                null,
+                "Whether keyboard shortcuts can close the game. When off, Alt + F4 on Windows and Linux, and Cmd + Q and Cmd + W on macOS, will no longer quit the game."
+            ],
+            "worldOptions.allow_commands.disabled.demo.tooltip": [
+                null,
+                "Cannot allow commands in a demo world."
+            ],
+            "worldOptions.difficulty.disabled.hardcore.tooltip": [
+                null,
+                "Cannot change the difficulty in a hardcore world."
+            ],
+            "worldOptions.difficulty.disabled.locked.tooltip": [
+                null,
+                "Difficulty is locked."
+            ],
+            "worldOptions.difficulty.disabled.operator.tooltip": [
+                null,
+                "Changing the difficulty requires operator permissions."
+            ],
+            "worldOptions.general.title": [
+                null,
+                "General"
+            ],
+            "worldOptions.guest.command_access": [
+                null,
+                "Command Access"
+            ],
+            "worldOptions.guest.command_access.disabled.commands.tooltip": [
+                null,
+                "Cannot change the command access of players joining your world when commands are not allowed."
+            ],
+            "worldOptions.guest.command_access.disabled.scope.tooltip": [
+                null,
+                "Cannot change the command access of players joining your world when the world's multiplayer scope is set to \"Off\"."
+            ],
+            "worldOptions.guest.command_access.tooltip": [
+                null,
+                "Controls whether players that join your world can use commands or not."
+            ],
+            "worldOptions.multiplayer.title": [
+                null,
+                "Multiplayer"
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            5004,
+            5005
+        ],
+        "id": [
+            "26.3-snapshot-5",
+            "26.3-snapshot-6"
+        ],
+        "name": [
+            "26.3 Snapshot 5",
+            "26.3 Snapshot 6"
+        ],
+        "protocol": [
+            1073742151,
+            1073742152
+        ]
+    }
+}
