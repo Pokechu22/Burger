@@ -1,0 +1,406 @@
+{
+    "achievements": {},
+    "language": {
+        "filled_map": {
+            "bamboo_camp_map": [
+                null,
+                "Bamboo Camp Map"
+            ],
+            "bamboo_jungle_abandoned_camp": [
+                "Bamboo Jungle Abandoned Camp Map",
+                null
+            ],
+            "birch_forest_abandoned_camp": [
+                "Birch Forest Abandoned Camp Map",
+                null
+            ],
+            "birch_forest_camp_map": [
+                null,
+                "Birch Forest Camp Map"
+            ],
+            "cherry_grove_abandoned_camp": [
+                "Cherry Grove Abandoned Camp Map",
+                null
+            ],
+            "cherry_grove_camp_map": [
+                null,
+                "Cherry Grove Camp Map"
+            ],
+            "dappled_forest_abandoned_camp": [
+                "Dappled Forest Abandoned Camp Map",
+                null
+            ],
+            "dappled_forest_camp_map": [
+                null,
+                "Dappled Forest Camp Map"
+            ],
+            "flower_forest_abandoned_camp": [
+                "Flower Forest Abandoned Camp Map",
+                null
+            ],
+            "flower_forest_camp_map": [
+                null,
+                "Flower Forest Camp Map"
+            ],
+            "pale_garden_abandoned_camp": [
+                "Pale Garden Abandoned Camp Map",
+                null
+            ],
+            "pale_garden_camp_map": [
+                null,
+                "Pale Garden Camp Map"
+            ],
+            "swamp_abandoned_camp": [
+                "Swamp Abandoned Camp Map",
+                null
+            ],
+            "swamp_camp_map": [
+                null,
+                "Swamp Camp Map"
+            ],
+            "windswept_forest_abandoned_camp": [
+                "Windswept Forest Abandoned Camp Map",
+                null
+            ],
+            "windswept_forest_camp_map": [
+                null,
+                "Windswept Forest Camp Map"
+            ]
+        },
+        "item": {
+            "minecraft.abandoned_camp_map": [
+                null,
+                "Abandoned Camp Map"
+            ],
+            "minecraft.abandoned_campsite_map": [
+                "Abandoned Campsite Map",
+                null
+            ],
+            "minecraft.ancient_city_map": [
+                "Ancient City Map",
+                null
+            ],
+            "minecraft.buried_ancient_city_map": [
+                null,
+                "Buried Ancient City Map"
+            ],
+            "minecraft.buried_mineshaft_map": [
+                null,
+                "Buried Mineshaft Map"
+            ],
+            "minecraft.jungle_explorer_map": [
+                "Jungle Pyramid Explorer Map",
+                "Jungle Explorer Map"
+            ],
+            "minecraft.mineshaft_map": [
+                "Mineshaft Map",
+                null
+            ],
+            "minecraft.ocean_explorer_map": [
+                "Ocean Monument Explorer Map",
+                "Ocean Explorer Map"
+            ],
+            "minecraft.swamp_explorer_map": [
+                "Swamp Hut Explorer Map",
+                "Swamp Explorer Map"
+            ],
+            "minecraft.trial_explorer_map": [
+                "Trial Chambers Explorer Map",
+                "Trial Explorer Map"
+            ],
+            "minecraft.woodland_explorer_map": [
+                "Woodland Mansion Explorer Map",
+                "Woodland Explorer Map"
+            ]
+        },
+        "mco": {
+            "configure.world.buttons.invite_codes": [
+                null,
+                "Invite Codes"
+            ],
+            "configure.world.invite_codes.copy": [
+                null,
+                "Copy"
+            ],
+            "configure.world.invite_codes.create": [
+                null,
+                "Create Invite Code"
+            ],
+            "configure.world.invite_codes.delete": [
+                null,
+                "Delete"
+            ],
+            "configure.world.invite_codes.edit": [
+                null,
+                "Edit"
+            ],
+            "configure.world.invite_codes.edit.active": [
+                null,
+                "Active"
+            ],
+            "configure.world.invite_codes.edit.expiration_date": [
+                null,
+                "Expiration Date"
+            ],
+            "configure.world.invite_codes.edit.expires": [
+                null,
+                "Expires: %s"
+            ],
+            "configure.world.invite_codes.edit.title": [
+                null,
+                "Edit Invite Code"
+            ],
+            "configure.world.invite_codes.expiration.12_hours": [
+                null,
+                "12 hours"
+            ],
+            "configure.world.invite_codes.expiration.1_day": [
+                null,
+                "1 day"
+            ],
+            "configure.world.invite_codes.expiration.1_hour": [
+                null,
+                "1 hour"
+            ],
+            "configure.world.invite_codes.expiration.30_minutes": [
+                null,
+                "30 minutes"
+            ],
+            "configure.world.invite_codes.expiration.6_hours": [
+                null,
+                "6 hours"
+            ],
+            "configure.world.invite_codes.expiration.7_days": [
+                null,
+                "7 days"
+            ],
+            "configure.world.invite_codes.expiration.never": [
+                null,
+                "Never"
+            ],
+            "configure.world.invite_codes.loading": [
+                null,
+                "Loading invite codes"
+            ],
+            "configure.world.invite_codes.subtitle": [
+                null,
+                "You can add up to %s invite codes and share them so people can join your Realm"
+            ],
+            "configure.world.invite_codes.title": [
+                null,
+                "Invite Codes (%s/%s)"
+            ],
+            "selectServer.joinCode": [
+                null,
+                "Join Code"
+            ],
+            "selectServer.joinCode.hint": [
+                null,
+                "Enter join code"
+            ],
+            "selectServer.joinCode.invalid": [
+                null,
+                "The code you entered is invalid."
+            ],
+            "selectServer.joinCode.title": [
+                null,
+                "Enter Join Code"
+            ],
+            "selectServer.joinCode.validating": [
+                null,
+                "Validating code"
+            ],
+            "selectServer.joinRealm": [
+                null,
+                "Join Realm"
+            ]
+        },
+        "options": {
+            "worldOptions.allow_commands.tooltip": [
+                null,
+                "Allows the use of commands in this world."
+            ],
+            "worldOptions.game_mode": [
+                null,
+                "Default Game Mode"
+            ],
+            "worldOptions.game_mode.tooltip": [
+                null,
+                "Changes the default game mode of the world."
+            ],
+            "worldOptions.guest.force_game_mode": [
+                null,
+                "Force Game Mode"
+            ],
+            "worldOptions.guest.force_game_mode.off.commands.tooltip": [
+                null,
+                "Other players can set their own game mode through commands."
+            ],
+            "worldOptions.guest.force_game_mode.off.tooltip": [
+                null,
+                "Other players will retain their current game mode regardless of the world's default game mode."
+            ],
+            "worldOptions.guest.force_game_mode.on.tooltip": [
+                null,
+                "Other players will be forced to play the world's default game mode."
+            ],
+            "worldOptions.personal_game_mode": [
+                null,
+                "Personal Game Mode"
+            ],
+            "worldOptions.personal_game_mode.tooltip": [
+                null,
+                "Changes your game mode in this world."
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "block/mineable/hoe": [
+            {
+                "name": "mineable/hoe",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:red_poplar_leaves",
+                    "minecraft:orange_poplar_leaves",
+                    "minecraft:yellow_poplar_leaves",
+                    "minecraft:nether_wart_block",
+                    "minecraft:warped_wart_block",
+                    "minecraft:hay_block",
+                    "minecraft:dried_kelp_block",
+                    "minecraft:target",
+                    "minecraft:shroomlight",
+                    "minecraft:sponge",
+                    "minecraft:wet_sponge",
+                    "minecraft:sculk_sensor",
+                    "minecraft:calibrated_sculk_sensor",
+                    "minecraft:moss_block",
+                    "minecraft:moss_carpet",
+                    "minecraft:pale_moss_block",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:sculk",
+                    "minecraft:sculk_catalyst",
+                    "minecraft:sculk_vein",
+                    "minecraft:sculk_shrieker"
+                ]
+            },
+            {
+                "name": "mineable/hoe",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:red_poplar_leaves",
+                    "minecraft:orange_poplar_leaves",
+                    "minecraft:yellow_poplar_leaves",
+                    "minecraft:nether_wart_block",
+                    "minecraft:warped_wart_block",
+                    "minecraft:hay_block",
+                    "minecraft:dried_kelp_block",
+                    "minecraft:target",
+                    "minecraft:shroomlight",
+                    "minecraft:sponge",
+                    "minecraft:wet_sponge",
+                    "minecraft:sculk_sensor",
+                    "minecraft:calibrated_sculk_sensor",
+                    "minecraft:moss_block",
+                    "minecraft:moss_carpet",
+                    "minecraft:pale_moss_block",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:sculk",
+                    "minecraft:sculk_catalyst",
+                    "minecraft:sculk_vein",
+                    "minecraft:sculk_shrieker",
+                    "minecraft:straw_bed"
+                ]
+            }
+        ],
+        "item/clonable_maps": [
+            {
+                "name": "clonable_maps",
+                "type": "item",
+                "values": [
+                    "minecraft:filled_map",
+                    "minecraft:ocean_explorer_map",
+                    "minecraft:woodland_explorer_map",
+                    "minecraft:trial_explorer_map",
+                    "minecraft:jungle_explorer_map",
+                    "minecraft:swamp_explorer_map",
+                    "minecraft:desert_village_map",
+                    "minecraft:plains_village_map",
+                    "minecraft:savanna_village_map",
+                    "minecraft:snowy_village_map",
+                    "minecraft:taiga_village_map",
+                    "minecraft:buried_treasure_map",
+                    "minecraft:ancient_city_map",
+                    "minecraft:mineshaft_map",
+                    "minecraft:desert_pyramid_map",
+                    "minecraft:abandoned_campsite_map",
+                    "minecraft:warm_ocean_ruins_map"
+                ]
+            },
+            {
+                "name": "clonable_maps",
+                "type": "item",
+                "values": [
+                    "minecraft:filled_map",
+                    "minecraft:ocean_explorer_map",
+                    "minecraft:woodland_explorer_map",
+                    "minecraft:trial_explorer_map",
+                    "minecraft:jungle_explorer_map",
+                    "minecraft:swamp_explorer_map",
+                    "minecraft:desert_village_map",
+                    "minecraft:plains_village_map",
+                    "minecraft:savanna_village_map",
+                    "minecraft:snowy_village_map",
+                    "minecraft:taiga_village_map",
+                    "minecraft:buried_treasure_map",
+                    "minecraft:buried_ancient_city_map",
+                    "minecraft:buried_mineshaft_map",
+                    "minecraft:desert_pyramid_map",
+                    "minecraft:abandoned_camp_map",
+                    "minecraft:warm_ocean_ruins_map"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            5009,
+            5010
+        ],
+        "id": [
+            "26.3-snapshot-7",
+            "26.3-snapshot-8"
+        ],
+        "name": [
+            "26.3 Snapshot 7",
+            "26.3 Snapshot 8"
+        ],
+        "protocol": [
+            1073742153,
+            1073742154
+        ]
+    }
+}
