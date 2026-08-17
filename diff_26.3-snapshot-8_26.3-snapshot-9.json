@@ -1,0 +1,725 @@
+{
+    "achievements": {},
+    "language": {
+        "commands": {
+            "perf.started": [
+                "Started 10-second performance profiling run (use '/perf stop' to stop early)",
+                "Started a 10-second performance profiling run (use '/perf stop' to stop early)"
+            ],
+            "worldborder.set.grow": [
+                "Growing the world border to %s blocks wide over %s second(s)",
+                "Growing the world border to %s block(s) wide over %s second(s)"
+            ]
+        },
+        "filled_map": {
+            "bamboo_jungle_abandoned_camp": [
+                null,
+                "Bamboo Jungle Abandoned Camp Map"
+            ],
+            "birch_forest_abandoned_camp": [
+                null,
+                "Birch Forest Abandoned Camp Map"
+            ],
+            "cherry_grove_abandoned_camp": [
+                null,
+                "Cherry Grove Abandoned Camp Map"
+            ],
+            "dappled_forest_abandoned_camp": [
+                null,
+                "Dappled Forest Abandoned Camp Map"
+            ],
+            "flower_forest_abandoned_camp": [
+                null,
+                "Flower Forest Abandoned Camp Map"
+            ],
+            "pale_garden_abandoned_camp": [
+                null,
+                "Pale Garden Abandoned Camp Map"
+            ],
+            "swamp_abandoned_camp": [
+                null,
+                "Swamp Abandoned Camp Map"
+            ],
+            "windswept_forest_abandoned_camp": [
+                null,
+                "Windswept Forest Abandoned Camp Map"
+            ]
+        },
+        "item": {
+            "minecraft.abandoned_campsite_map": [
+                null,
+                "Abandoned Campsite Map"
+            ],
+            "minecraft.ancient_city_map": [
+                null,
+                "Ancient City Map"
+            ],
+            "minecraft.mineshaft_map": [
+                null,
+                "Mineshaft Map"
+            ]
+        },
+        "key": {
+            "keyboard.ac.back": [
+                null,
+                "AC Back"
+            ],
+            "keyboard.ac.bookmarks": [
+                null,
+                "AC Favorites"
+            ],
+            "keyboard.ac.close": [
+                null,
+                "AC Close"
+            ],
+            "keyboard.ac.exit": [
+                null,
+                "AC Exit"
+            ],
+            "keyboard.ac.forward": [
+                null,
+                "AC Forward"
+            ],
+            "keyboard.ac.home": [
+                null,
+                "AC Home"
+            ],
+            "keyboard.ac.new": [
+                null,
+                "AC New"
+            ],
+            "keyboard.ac.open": [
+                null,
+                "AC Open"
+            ],
+            "keyboard.ac.print": [
+                null,
+                "AC Print"
+            ],
+            "keyboard.ac.properties": [
+                null,
+                "AC Properties"
+            ],
+            "keyboard.ac.refresh": [
+                null,
+                "AC Refresh"
+            ],
+            "keyboard.ac.save": [
+                null,
+                "AC Save"
+            ],
+            "keyboard.ac.search": [
+                null,
+                "AC Search"
+            ],
+            "keyboard.ac.stop": [
+                null,
+                "AC Stop"
+            ],
+            "keyboard.alternate.erase": [
+                null,
+                "Alternate Erase"
+            ],
+            "keyboard.application": [
+                "Menu",
+                "Application"
+            ],
+            "keyboard.call": [
+                null,
+                "Call"
+            ],
+            "keyboard.cancel": [
+                null,
+                "Cancel"
+            ],
+            "keyboard.channel.down": [
+                null,
+                "Channel Down"
+            ],
+            "keyboard.channel.up": [
+                null,
+                "Channel Up"
+            ],
+            "keyboard.clear": [
+                null,
+                "Clear"
+            ],
+            "keyboard.clear.again": [
+                null,
+                "Clear Again"
+            ],
+            "keyboard.crsel": [
+                null,
+                "CrSel"
+            ],
+            "keyboard.currency.subunit": [
+                null,
+                "Currency Subunit"
+            ],
+            "keyboard.currency.unit": [
+                null,
+                "Currency Unit"
+            ],
+            "keyboard.decimal.separator": [
+                null,
+                "Decimal Separator"
+            ],
+            "keyboard.end.call": [
+                null,
+                "End Call"
+            ],
+            "keyboard.enter2": [
+                null,
+                "Enter 2"
+            ],
+            "keyboard.execute": [
+                null,
+                "Execute"
+            ],
+            "keyboard.exsel": [
+                null,
+                "ExSel"
+            ],
+            "keyboard.international1": [
+                null,
+                "International 1"
+            ],
+            "keyboard.international2": [
+                null,
+                "International 2"
+            ],
+            "keyboard.international3": [
+                null,
+                "International 3"
+            ],
+            "keyboard.international4": [
+                null,
+                "International 4"
+            ],
+            "keyboard.international5": [
+                null,
+                "International 5"
+            ],
+            "keyboard.international6": [
+                null,
+                "International 6"
+            ],
+            "keyboard.international7": [
+                null,
+                "International 7"
+            ],
+            "keyboard.international8": [
+                null,
+                "International 8"
+            ],
+            "keyboard.international9": [
+                null,
+                "International 9"
+            ],
+            "keyboard.keypad.00": [
+                null,
+                "Keypad 00"
+            ],
+            "keyboard.keypad.000": [
+                null,
+                "Keypad 000"
+            ],
+            "keyboard.keypad.a": [
+                null,
+                "Keypad A"
+            ],
+            "keyboard.keypad.ampersand": [
+                null,
+                "Keypad &"
+            ],
+            "keyboard.keypad.at": [
+                null,
+                "Keypad @"
+            ],
+            "keyboard.keypad.b": [
+                null,
+                "Keypad B"
+            ],
+            "keyboard.keypad.backspace": [
+                null,
+                "Keypad Backspace"
+            ],
+            "keyboard.keypad.binary": [
+                null,
+                "Keypad Binary"
+            ],
+            "keyboard.keypad.c": [
+                null,
+                "Keypad C"
+            ],
+            "keyboard.keypad.clear": [
+                null,
+                "Keypad Clear"
+            ],
+            "keyboard.keypad.clear.entry": [
+                null,
+                "Keypad Clear Entry"
+            ],
+            "keyboard.keypad.colon": [
+                null,
+                "Keypad :"
+            ],
+            "keyboard.keypad.d": [
+                null,
+                "Keypad D"
+            ],
+            "keyboard.keypad.double.ampersand": [
+                null,
+                "Keypad &&"
+            ],
+            "keyboard.keypad.double.vertical.bar": [
+                null,
+                "Keypad ||"
+            ],
+            "keyboard.keypad.e": [
+                null,
+                "Keypad E"
+            ],
+            "keyboard.keypad.equals.as400": [
+                null,
+                "Keypad = (AS400)"
+            ],
+            "keyboard.keypad.exclamation": [
+                null,
+                "Keypad !"
+            ],
+            "keyboard.keypad.f": [
+                null,
+                "Keypad F"
+            ],
+            "keyboard.keypad.greater": [
+                null,
+                "Keypad >"
+            ],
+            "keyboard.keypad.hash": [
+                null,
+                "Keypad #"
+            ],
+            "keyboard.keypad.hexadecimal": [
+                null,
+                "Keypad Hexadecimal"
+            ],
+            "keyboard.keypad.left.brace": [
+                null,
+                "Keypad {"
+            ],
+            "keyboard.keypad.less": [
+                null,
+                "Keypad <"
+            ],
+            "keyboard.keypad.memory.add": [
+                null,
+                "Keypad M+"
+            ],
+            "keyboard.keypad.memory.clear": [
+                null,
+                "Keypad MC"
+            ],
+            "keyboard.keypad.memory.divide": [
+                null,
+                "Keypad M/"
+            ],
+            "keyboard.keypad.memory.multiply": [
+                null,
+                "Keypad M*"
+            ],
+            "keyboard.keypad.memory.recall": [
+                null,
+                "Keypad MR"
+            ],
+            "keyboard.keypad.memory.store": [
+                null,
+                "Keypad MS"
+            ],
+            "keyboard.keypad.memory.subtract": [
+                null,
+                "Keypad M-"
+            ],
+            "keyboard.keypad.octal": [
+                null,
+                "Keypad Octal"
+            ],
+            "keyboard.keypad.percent": [
+                null,
+                "Keypad %"
+            ],
+            "keyboard.keypad.power": [
+                null,
+                "Keypad ^"
+            ],
+            "keyboard.keypad.right.brace": [
+                null,
+                "Keypad }"
+            ],
+            "keyboard.keypad.space": [
+                null,
+                "Keypad Space"
+            ],
+            "keyboard.keypad.tab": [
+                null,
+                "Keypad Tab"
+            ],
+            "keyboard.keypad.vertical.bar": [
+                null,
+                "Keypad |"
+            ],
+            "keyboard.keypad.xor": [
+                null,
+                "Keypad XOR"
+            ],
+            "keyboard.lang1": [
+                null,
+                "Language 1"
+            ],
+            "keyboard.lang2": [
+                null,
+                "Language 2"
+            ],
+            "keyboard.lang3": [
+                null,
+                "Language 3"
+            ],
+            "keyboard.lang4": [
+                null,
+                "Language 4"
+            ],
+            "keyboard.lang5": [
+                null,
+                "Language 5"
+            ],
+            "keyboard.lang6": [
+                null,
+                "Language 6"
+            ],
+            "keyboard.lang7": [
+                null,
+                "Language 7"
+            ],
+            "keyboard.lang8": [
+                null,
+                "Language 8"
+            ],
+            "keyboard.lang9": [
+                null,
+                "Language 9"
+            ],
+            "keyboard.left.meta": [
+                null,
+                "Left Meta"
+            ],
+            "keyboard.left.win": [
+                "Left Meta",
+                "Left Win"
+            ],
+            "keyboard.left.windows": [
+                "Left Win",
+                "Left Windows"
+            ],
+            "keyboard.media.eject": [
+                null,
+                "Eject"
+            ],
+            "keyboard.media.fast.forward": [
+                null,
+                "Fast Forward"
+            ],
+            "keyboard.media.next.track": [
+                null,
+                "Next Track"
+            ],
+            "keyboard.media.pause": [
+                null,
+                "Media Pause"
+            ],
+            "keyboard.media.play": [
+                null,
+                "Media Play"
+            ],
+            "keyboard.media.previous.track": [
+                null,
+                "Previous Track"
+            ],
+            "keyboard.media.record": [
+                null,
+                "Record"
+            ],
+            "keyboard.media.rewind": [
+                null,
+                "Rewind"
+            ],
+            "keyboard.media.select": [
+                null,
+                "Media Select"
+            ],
+            "keyboard.media.stop": [
+                null,
+                "Media Stop"
+            ],
+            "keyboard.mode": [
+                null,
+                "Mode"
+            ],
+            "keyboard.oper": [
+                null,
+                "Oper"
+            ],
+            "keyboard.out": [
+                null,
+                "Out"
+            ],
+            "keyboard.power": [
+                null,
+                "Power"
+            ],
+            "keyboard.prior": [
+                null,
+                "Prior"
+            ],
+            "keyboard.right.meta": [
+                null,
+                "Right Meta"
+            ],
+            "keyboard.right.win": [
+                "Right Meta",
+                "Right Win"
+            ],
+            "keyboard.right.windows": [
+                "Right Win",
+                "Right Windows"
+            ],
+            "keyboard.select": [
+                null,
+                "Select"
+            ],
+            "keyboard.separator": [
+                null,
+                "Separator"
+            ],
+            "keyboard.sleep": [
+                null,
+                "Sleep"
+            ],
+            "keyboard.soft.left": [
+                null,
+                "Soft Left"
+            ],
+            "keyboard.soft.right": [
+                null,
+                "Soft Right"
+            ],
+            "keyboard.sys.req": [
+                null,
+                "SysRq"
+            ],
+            "keyboard.thousands.separator": [
+                null,
+                "Thousands Separator"
+            ],
+            "keyboard.wake": [
+                null,
+                "Wake"
+            ]
+        },
+        "mco": {
+            "configure.world.renderDistance": [
+                null,
+                "Render Distance Limit"
+            ],
+            "configure.world.renderDistance.tooltip": [
+                null,
+                "The maximum distance visible to Realm members. Higher values may impact performance."
+            ],
+            "configure.world.simulationDistance": [
+                null,
+                "Simulation Distance"
+            ],
+            "configure.world.simulationDistance.tooltip": [
+                null,
+                "The range around players where the game loads and applies changes."
+            ]
+        },
+        "options": {
+            "ctrlClickEmulatesRightClick": [
+                null,
+                "Right Click Emulation"
+            ],
+            "ctrlClickEmulatesRightClick.tooltip": [
+                null,
+                "When enabled, Control + left-click is treated as a right-click. Only applies on macOS."
+            ],
+            "fullscreen.exclusive.mode.tooltip": [
+                null,
+                "This setting only takes effect when Exclusive Fullscreen is enabled."
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "block/cat_does_not_teleport_to": [
+            null,
+            {
+                "name": "cat_does_not_teleport_to",
+                "type": "block",
+                "values": [
+                    "minecraft:fire",
+                    "minecraft:soul_fire",
+                    "minecraft:lava_cauldron",
+                    "minecraft:campfire",
+                    "minecraft:soul_campfire",
+                    "minecraft:cactus",
+                    "minecraft:magma_block",
+                    "minecraft:sweet_berry_bush",
+                    "minecraft:wither_rose",
+                    "minecraft:pointed_dripstone",
+                    "minecraft:powder_snow"
+                ]
+            }
+        ],
+        "block/dangerous_for_teleportation": [
+            null,
+            {
+                "name": "dangerous_for_teleportation",
+                "type": "block",
+                "values": [
+                    "minecraft:fire",
+                    "minecraft:soul_fire",
+                    "minecraft:lava_cauldron",
+                    "minecraft:campfire",
+                    "minecraft:soul_campfire",
+                    "minecraft:cactus",
+                    "minecraft:magma_block",
+                    "minecraft:sweet_berry_bush",
+                    "minecraft:wither_rose",
+                    "minecraft:pointed_dripstone",
+                    "minecraft:powder_snow"
+                ]
+            }
+        ],
+        "block/enderman_does_not_teleport_to": [
+            null,
+            {
+                "name": "enderman_does_not_teleport_to",
+                "type": "block",
+                "values": [
+                    "minecraft:fire",
+                    "minecraft:soul_fire",
+                    "minecraft:lava_cauldron",
+                    "minecraft:campfire",
+                    "minecraft:soul_campfire",
+                    "minecraft:cactus",
+                    "minecraft:magma_block",
+                    "minecraft:sweet_berry_bush",
+                    "minecraft:wither_rose",
+                    "minecraft:pointed_dripstone",
+                    "minecraft:powder_snow",
+                    "minecraft:bedrock"
+                ]
+            }
+        ],
+        "block/shulker_does_not_teleport_to": [
+            null,
+            {
+                "name": "shulker_does_not_teleport_to",
+                "type": "block",
+                "values": [
+                    "minecraft:bedrock"
+                ]
+            }
+        ],
+        "block/uncarvable": [
+            null,
+            {
+                "name": "uncarvable",
+                "type": "block",
+                "values": [
+                    "minecraft:bedrock"
+                ]
+            }
+        ],
+        "damage_type/bypasses_cooldown": [
+            null,
+            {
+                "name": "bypasses_cooldown",
+                "type": "damage_type",
+                "values": []
+            }
+        ],
+        "item/brewing_potion_inputs": [
+            null,
+            {
+                "name": "brewing_potion_inputs",
+                "type": "item",
+                "values": [
+                    "minecraft:potion",
+                    "minecraft:splash_potion",
+                    "minecraft:lingering_potion",
+                    "minecraft:glass_bottle"
+                ]
+            }
+        ],
+        "potion/douses_fire": [
+            null,
+            {
+                "name": "douses_fire",
+                "type": "potion",
+                "values": [
+                    "minecraft:water"
+                ]
+            }
+        ],
+        "potion/extinguishes_entities": [
+            null,
+            {
+                "name": "extinguishes_entities",
+                "type": "potion",
+                "values": [
+                    "minecraft:water"
+                ]
+            }
+        ],
+        "potion/hurts_water_sensitive_entities": [
+            null,
+            {
+                "name": "hurts_water_sensitive_entities",
+                "type": "potion",
+                "values": [
+                    "minecraft:water"
+                ]
+            }
+        ],
+        "potion/rehydrates_axolotls": [
+            null,
+            {
+                "name": "rehydrates_axolotls",
+                "type": "potion",
+                "values": [
+                    "minecraft:water"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            5010,
+            5011
+        ],
+        "id": [
+            "26.3-snapshot-8",
+            "26.3-snapshot-9"
+        ],
+        "name": [
+            "26.3 Snapshot 8",
+            "26.3 Snapshot 9"
+        ],
+        "protocol": [
+            1073742154,
+            1073742155
+        ]
+    }
+}
