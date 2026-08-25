@@ -1,0 +1,631 @@
+{
+    "achievements": {},
+    "language": {
+        "argument": {
+            "pos.mixed": [
+                "Cannot mix world & local coordinates (everything must either use ^ or not)",
+                "Cannot mix world and local coordinates (everything must either use ^ or not)"
+            ]
+        },
+        "command": {
+            "compute.result.named.exact": [
+                null,
+                "%s returned value %s"
+            ],
+            "compute.result.named.rounded": [
+                null,
+                "%s returned value %s (rounded to %s)"
+            ],
+            "compute.result.unnamed.exact": [
+                null,
+                "Number provider returned value %s"
+            ],
+            "compute.result.unnamed.rounded": [
+                null,
+                "Number provider returned value %s (rounded to %s)"
+            ]
+        },
+        "commands": {
+            "bossbar.get.visible.visible": [
+                "Custom bossbar %s is currently shown",
+                "Custom bossbar %s is currently visible"
+            ],
+            "bossbar.set.max.unchanged": [
+                "Nothing changed. That's already the max of this bossbar",
+                "Nothing changed. That's already the maximum of this bossbar"
+            ],
+            "setworldspawn.failure.not_overworld": [
+                "Can only set the world spawn for overworld",
+                "Can only set the world spawn for the Overworld"
+            ],
+            "tag.list.multiple.success": [
+                "The %s entities have %s total tags: %s",
+                "The %s entities have %s total tag(s): %s"
+            ],
+            "tag.list.single.success": [
+                "%s has %s tags: %s",
+                "%s has %s tag(s): %s"
+            ],
+            "weather.set.thunder": [
+                "Set the weather to rain & thunder",
+                "Set the weather to rain and thunder"
+            ]
+        },
+        "debug": {
+            "options.notAllowed.tooltip": [
+                "Not visible when debug info is reduced",
+                "Not visible when debug info is reduced."
+            ]
+        },
+        "gamerule": {
+            "spawnChunkRadius.description": [
+                "The amount of chunks that stay loaded around the overworld spawn position.",
+                "The amount of chunks that stay loaded around the Overworld spawn position."
+            ]
+        },
+        "item": {
+            "minecraft.buried_trial_chambers_map": [
+                null,
+                "Buried Trial Chambers Map"
+            ],
+            "minecraft.jungle_pyramid_map": [
+                null,
+                "Jungle Pyramid Map"
+            ],
+            "minecraft.ocean_monument_map": [
+                null,
+                "Ocean Monument Map"
+            ],
+            "minecraft.swamp_hut_map": [
+                null,
+                "Swamp Hut Map"
+            ],
+            "minecraft.woodland_mansion_map": [
+                null,
+                "Woodland Mansion Map"
+            ]
+        },
+        "mco": {
+            "download.percent": [
+                "%s %%",
+                "%s%%"
+            ],
+            "pdp.friends.description": [
+                null,
+                "Your invited friends can play in your Realm for free, anytime - even when you're not online. Play with up to 10 at once!"
+            ],
+            "pdp.friends.title": [
+                null,
+                "A better way to play together"
+            ],
+            "pdp.minigames.description": [
+                null,
+                "Explore the rotating library of minigames, adventure maps and more."
+            ],
+            "pdp.minigames.title": [
+                null,
+                "Minigames - Free creator content"
+            ],
+            "pdp.private.backups": [
+                null,
+                "\u2022 Automatic backups"
+            ],
+            "pdp.private.easyToManage": [
+                null,
+                "\u2022 Easy to set up, easy to manage"
+            ],
+            "pdp.private.secure": [
+                null,
+                "\u2022 Private and secure"
+            ],
+            "pdp.private.title": [
+                null,
+                "Personal server"
+            ],
+            "pdp.private.worldSlots": [
+                null,
+                "\u2022 Three world slots"
+            ],
+            "pdp.trial.description": [
+                null,
+                "Free 30-day trial!"
+            ],
+            "pdp.trial.title": [
+                null,
+                "Your own server, always online"
+            ],
+            "pdp.tryForFree": [
+                null,
+                "Try for free"
+            ],
+            "selectServer.freeTrial": [
+                null,
+                "Free trial"
+            ],
+            "upload.percent": [
+                "%s %%",
+                "%s%%"
+            ]
+        },
+        "options": {
+            "languageWarning": [
+                "Language translations may not be 100%% accurate",
+                "Language translations may not be 100%% accurate."
+            ],
+            "prioritizeChunkUpdates.byPlayer.tooltip": [
+                "Some actions within a chunk will recompile the chunk immediately. This includes block placing & destroying.",
+                "Some actions within a chunk will recompile the chunk immediately. This includes block placing and destroying."
+            ],
+            "worldOptions.guest.force_game_mode.off.hardcore.tooltip": [
+                null,
+                "Cannot change this setting in a hardcore world."
+            ],
+            "worldOptions.guest.force_game_mode.off.scope.tooltip": [
+                null,
+                "Cannot change this setting when the world's multiplayer scope is set to \"Off\"."
+            ]
+        },
+        "selectWorld": {
+            "conversion.tooltip": [
+                "This world must be opened in an older version (like 1.6.4) to be safely converted",
+                "This world must be opened in an older version (like 1.6.4) to be safely converted."
+            ]
+        },
+        "subtitles": {
+            "entity.happy_ghast.riding": [
+                null,
+                "Wind rushes past"
+            ],
+            "entity.nautilus.riding": [
+                null,
+                "Nautilus bubbles"
+            ]
+        },
+        "test_instance": {
+            "description.dimension": [
+                null,
+                "Dimension: %s"
+            ]
+        },
+        "upgradeWorld": {
+            "aborted.file_already_exists": [
+                null,
+                "The world folder seems to already contain some upgraded files. The game is unable to correctly upgrade your world."
+            ]
+        }
+    },
+    "sounds": {
+        "entity.happy_ghast.riding": [
+            {
+                "field": "HAPPY_GHAST_RIDING",
+                "id": 763,
+                "name": "entity.happy_ghast.riding",
+                "sounds": [
+                    {
+                        "hash": "094de0bb266f3ad92fa4523e82f3492d45ffe31f",
+                        "name": "mob/happy_ghast/ghast_ride"
+                    }
+                ]
+            },
+            {
+                "field": "HAPPY_GHAST_RIDING",
+                "id": 763,
+                "name": "entity.happy_ghast.riding",
+                "sounds": [
+                    {
+                        "hash": "094de0bb266f3ad92fa4523e82f3492d45ffe31f",
+                        "name": "mob/happy_ghast/ghast_ride"
+                    }
+                ],
+                "subtitle": "Wind rushes past",
+                "subtitle_key": "subtitles.entity.happy_ghast.riding"
+            }
+        ],
+        "entity.nautilus.riding": [
+            {
+                "field": "NAUTILUS_RIDING",
+                "id": 115,
+                "name": "entity.nautilus.riding",
+                "sounds": [
+                    {
+                        "hash": "a11aff04b1141ed73a7ab8cc499115a674def07e",
+                        "name": "mob/nautilus/ride"
+                    }
+                ]
+            },
+            {
+                "field": "NAUTILUS_RIDING",
+                "id": 115,
+                "name": "entity.nautilus.riding",
+                "sounds": [
+                    {
+                        "hash": "a11aff04b1141ed73a7ab8cc499115a674def07e",
+                        "name": "mob/nautilus/ride"
+                    }
+                ],
+                "subtitle": "Nautilus bubbles",
+                "subtitle_key": "subtitles.entity.nautilus.riding"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/conduit_effect_block": [
+            null,
+            {
+                "name": "conduit_effect_block",
+                "type": "block",
+                "values": [
+                    "minecraft:prismarine",
+                    "minecraft:prismarine_bricks",
+                    "minecraft:sea_lantern",
+                    "minecraft:dark_prismarine"
+                ]
+            }
+        ],
+        "block/nether_portal_frame": [
+            null,
+            {
+                "name": "nether_portal_frame",
+                "type": "block",
+                "values": [
+                    "minecraft:obsidian"
+                ]
+            }
+        ],
+        "block/replaceable_by_trees": [
+            {
+                "name": "replaceable_by_trees",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:red_poplar_leaves",
+                    "minecraft:orange_poplar_leaves",
+                    "minecraft:yellow_poplar_leaves",
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:golden_dandelion",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:water",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:bush",
+                    "minecraft:firefly_bush",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:leaf_litter",
+                    "minecraft:short_dry_grass",
+                    "minecraft:tall_dry_grass"
+                ]
+            },
+            {
+                "name": "replaceable_by_trees",
+                "type": "block",
+                "values": [
+                    "minecraft:jungle_leaves",
+                    "minecraft:oak_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:pale_oak_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:azalea_leaves",
+                    "minecraft:flowering_azalea_leaves",
+                    "minecraft:mangrove_leaves",
+                    "minecraft:cherry_leaves",
+                    "minecraft:red_poplar_leaves",
+                    "minecraft:orange_poplar_leaves",
+                    "minecraft:yellow_poplar_leaves",
+                    "minecraft:dandelion",
+                    "minecraft:open_eyeblossom",
+                    "minecraft:poppy",
+                    "minecraft:blue_orchid",
+                    "minecraft:allium",
+                    "minecraft:azure_bluet",
+                    "minecraft:red_tulip",
+                    "minecraft:orange_tulip",
+                    "minecraft:white_tulip",
+                    "minecraft:pink_tulip",
+                    "minecraft:oxeye_daisy",
+                    "minecraft:cornflower",
+                    "minecraft:lily_of_the_valley",
+                    "minecraft:wither_rose",
+                    "minecraft:torchflower",
+                    "minecraft:closed_eyeblossom",
+                    "minecraft:golden_dandelion",
+                    "minecraft:pale_moss_carpet",
+                    "minecraft:short_grass",
+                    "minecraft:fern",
+                    "minecraft:dead_bush",
+                    "minecraft:vine",
+                    "minecraft:glow_lichen",
+                    "minecraft:sunflower",
+                    "minecraft:lilac",
+                    "minecraft:rose_bush",
+                    "minecraft:peony",
+                    "minecraft:tall_grass",
+                    "minecraft:large_fern",
+                    "minecraft:hanging_roots",
+                    "minecraft:pitcher_plant",
+                    "minecraft:water",
+                    "minecraft:seagrass",
+                    "minecraft:tall_seagrass",
+                    "minecraft:bush",
+                    "minecraft:firefly_bush",
+                    "minecraft:warped_roots",
+                    "minecraft:nether_sprouts",
+                    "minecraft:crimson_roots",
+                    "minecraft:leaf_litter",
+                    "minecraft:short_dry_grass",
+                    "minecraft:tall_dry_grass",
+                    "minecraft:shelf_mushroom"
+                ]
+            }
+        ],
+        "fluid/axolotl_tries_to_find": [
+            null,
+            {
+                "name": "axolotl_tries_to_find",
+                "type": "fluid",
+                "values": [
+                    "minecraft:water"
+                ]
+            }
+        ],
+        "fluid/dolphin_tries_to_find": [
+            null,
+            {
+                "name": "dolphin_tries_to_find",
+                "type": "fluid",
+                "values": [
+                    "minecraft:water"
+                ]
+            }
+        ],
+        "fluid/entity_floatable": [
+            null,
+            {
+                "name": "entity_floatable",
+                "type": "fluid",
+                "values": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                ]
+            }
+        ],
+        "fluid/frog_tries_to_find_land_near": [
+            null,
+            {
+                "name": "frog_tries_to_find_land_near",
+                "type": "fluid",
+                "values": [
+                    "minecraft:water"
+                ]
+            }
+        ],
+        "item/clonable_maps": [
+            {
+                "name": "clonable_maps",
+                "type": "item",
+                "values": [
+                    "minecraft:filled_map",
+                    "minecraft:ocean_explorer_map",
+                    "minecraft:woodland_explorer_map",
+                    "minecraft:trial_explorer_map",
+                    "minecraft:jungle_explorer_map",
+                    "minecraft:swamp_explorer_map",
+                    "minecraft:desert_village_map",
+                    "minecraft:plains_village_map",
+                    "minecraft:savanna_village_map",
+                    "minecraft:snowy_village_map",
+                    "minecraft:taiga_village_map",
+                    "minecraft:buried_treasure_map",
+                    "minecraft:buried_ancient_city_map",
+                    "minecraft:buried_mineshaft_map",
+                    "minecraft:desert_pyramid_map",
+                    "minecraft:abandoned_camp_map",
+                    "minecraft:warm_ocean_ruins_map"
+                ]
+            },
+            {
+                "name": "clonable_maps",
+                "type": "item",
+                "values": [
+                    "minecraft:filled_map",
+                    "minecraft:ocean_monument_map",
+                    "minecraft:woodland_mansion_map",
+                    "minecraft:buried_trial_chambers_map",
+                    "minecraft:jungle_pyramid_map",
+                    "minecraft:swamp_hut_map",
+                    "minecraft:desert_village_map",
+                    "minecraft:plains_village_map",
+                    "minecraft:savanna_village_map",
+                    "minecraft:snowy_village_map",
+                    "minecraft:taiga_village_map",
+                    "minecraft:buried_treasure_map",
+                    "minecraft:buried_ancient_city_map",
+                    "minecraft:buried_mineshaft_map",
+                    "minecraft:desert_pyramid_map",
+                    "minecraft:abandoned_camp_map",
+                    "minecraft:warm_ocean_ruins_map"
+                ]
+            }
+        ],
+        "villager_trade/cartographer/level_3": [
+            {
+                "name": "cartographer/level_3",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:cartographer/3/compass_emerald",
+                    "minecraft:cartographer/3/emerald_and_compass_ocean_explorer_map",
+                    "minecraft:cartographer/3/emerald_and_compass_trial_chamber_map"
+                ]
+            },
+            {
+                "name": "cartographer/level_3",
+                "type": "villager_trade",
+                "values": [
+                    "minecraft:cartographer/3/compass_emerald",
+                    "minecraft:cartographer/3/emerald_and_compass_ocean_monument_map",
+                    "minecraft:cartographer/3/emerald_and_compass_buried_trial_chambers_map"
+                ]
+            }
+        ],
+        "worldgen/structure/on_buried_trial_chambers_maps": [
+            null,
+            {
+                "name": "structure/on_buried_trial_chambers_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:trial_chambers"
+                ]
+            }
+        ],
+        "worldgen/structure/on_jungle_explorer_maps": [
+            {
+                "name": "structure/on_jungle_explorer_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:jungle_pyramid"
+                ]
+            },
+            null
+        ],
+        "worldgen/structure/on_jungle_pyramid_maps": [
+            null,
+            {
+                "name": "structure/on_jungle_pyramid_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:jungle_pyramid"
+                ]
+            }
+        ],
+        "worldgen/structure/on_ocean_explorer_maps": [
+            {
+                "name": "structure/on_ocean_explorer_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:monument"
+                ]
+            },
+            null
+        ],
+        "worldgen/structure/on_ocean_monument_maps": [
+            null,
+            {
+                "name": "structure/on_ocean_monument_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:monument"
+                ]
+            }
+        ],
+        "worldgen/structure/on_swamp_explorer_maps": [
+            {
+                "name": "structure/on_swamp_explorer_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:swamp_hut"
+                ]
+            },
+            null
+        ],
+        "worldgen/structure/on_swamp_hut_maps": [
+            null,
+            {
+                "name": "structure/on_swamp_hut_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:swamp_hut"
+                ]
+            }
+        ],
+        "worldgen/structure/on_trial_chambers_maps": [
+            {
+                "name": "structure/on_trial_chambers_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:trial_chambers"
+                ]
+            },
+            null
+        ],
+        "worldgen/structure/on_woodland_explorer_maps": [
+            {
+                "name": "structure/on_woodland_explorer_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:mansion"
+                ]
+            },
+            null
+        ],
+        "worldgen/structure/on_woodland_mansion_maps": [
+            null,
+            {
+                "name": "structure/on_woodland_mansion_maps",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:mansion"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            5011,
+            5015
+        ],
+        "id": [
+            "26.3-snapshot-9",
+            "26.3-snapshot-10"
+        ],
+        "name": [
+            "26.3 Snapshot 9",
+            "26.3 Snapshot 10"
+        ],
+        "protocol": [
+            1073742155,
+            1073742156
+        ]
+    }
+}
