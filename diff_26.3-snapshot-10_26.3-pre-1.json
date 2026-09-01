@@ -1,0 +1,64 @@
+{
+    "achievements": {},
+    "language": {
+        "command": {
+            "compute.result.named.invalid": [
+                null,
+                "%s returned invalid value (%s)"
+            ],
+            "compute.result.unnamed.invalid": [
+                null,
+                "Number provider returned invalid value (%s)"
+            ]
+        },
+        "mco": {
+            "selectServer.joinCode.select": [
+                null,
+                "Join Realm"
+            ]
+        },
+        "options": {
+            "macFullscreenMenuVisibility": [
+                null,
+                "Menu/Dock Visibility"
+            ],
+            "macFullscreenMenuVisibility.tooltip": [
+                null,
+                "Whether the macOS Menu bar and Dock can be revealed by moving the mouse to the edge of the screen while in non-exclusive fullscreen."
+            ]
+        }
+    },
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "item/furnace_fuel_bottom_takeable": [
+            null,
+            {
+                "name": "furnace_fuel_bottom_takeable",
+                "type": "item",
+                "values": [
+                    "minecraft:water_bucket",
+                    "minecraft:bucket"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            5015,
+            5017
+        ],
+        "id": [
+            "26.3-snapshot-10",
+            "26.3-pre-1"
+        ],
+        "name": [
+            "26.3 Snapshot 10",
+            "26.3 Pre-Release 1"
+        ],
+        "protocol": [
+            1073742156,
+            1073742157
+        ]
+    }
+}
