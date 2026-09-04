@@ -1,0 +1,46 @@
+{
+    "achievements": {},
+    "language": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {
+        "worldgen/structure/on_abandoned_camp_windswept": [
+            {
+                "name": "structure/on_abandoned_camp_windswept",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:abandoned_camp_windswept_forest"
+                ]
+            },
+            null
+        ],
+        "worldgen/structure/on_abandoned_camp_windswept_forest": [
+            null,
+            {
+                "name": "structure/on_abandoned_camp_windswept_forest",
+                "type": "worldgen",
+                "values": [
+                    "minecraft:abandoned_camp_windswept_forest"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            5017,
+            5018
+        ],
+        "id": [
+            "26.3-pre-1",
+            "26.3-pre-2"
+        ],
+        "name": [
+            "26.3 Pre-Release 1",
+            "26.3 Pre-Release 2"
+        ],
+        "protocol": [
+            1073742157,
+            1073742158
+        ]
+    }
+}
