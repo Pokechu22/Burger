@@ -1,0 +1,25 @@
+{
+    "achievements": {},
+    "language": {},
+    "sounds": {},
+    "stats": {},
+    "tags": {},
+    "version": {
+        "data": [
+            5022,
+            5023
+        ],
+        "id": [
+            "26.3-rc-3",
+            "26.3"
+        ],
+        "name": [
+            "26.3 Release Candidate 3",
+            "26.3"
+        ],
+        "protocol": [
+            1073742162,
+            777
+        ]
+    }
+}
