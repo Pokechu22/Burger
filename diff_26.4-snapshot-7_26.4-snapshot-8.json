@@ -1,0 +1,221 @@
+{
+    "achievements": {},
+    "language": {
+        "argument": {
+            "pattern.not_matched": [
+                null,
+                "Failed to match pattern argument"
+            ],
+            "resource.validation_failed": [
+                null,
+                "Argument validation failed, see log file for details"
+            ]
+        },
+        "commands": {
+            "effect.no_effects": [
+                null,
+                "No effects were provided"
+            ],
+            "function.error.validation": [
+                null,
+                "While instantiating macro %s: Some commands failed validation: %s"
+            ]
+        },
+        "gui": {
+            "player_interactions.narration.entry": [
+                null,
+                "Player %s"
+            ]
+        },
+        "item": {
+            "minecraft.music_disc_bounce.desc": [
+                "fingerspit - Bounce",
+                null
+            ],
+            "minecraft.music_disc_flurry.desc": [
+                "Hyper Potions - flurry",
+                null
+            ],
+            "minecraft.music_disc_lava_chicken.desc": [
+                "Hyper Potions - Lava Chicken",
+                null
+            ],
+            "minecraft.music_disc_tears.desc": [
+                "Amos Roddy - Tears",
+                null
+            ]
+        },
+        "jukebox_song": {
+            "minecraft.flurry": [
+                "Hyper Potions - flurry",
+                "Hyper Potions - Flurry"
+            ]
+        },
+        "key": {
+            "debug.environmentAttributeOptions": [
+                null,
+                "Open Environment Attribute Options"
+            ]
+        },
+        "mco": {
+            "backup.restoring": [
+                "Restoring your Realm",
+                "Restoring Your Realm"
+            ],
+            "configure.world.closing": [
+                "Temporarily closing the Realm...",
+                "Temporarily Closing the Realm..."
+            ],
+            "create.world.reset.title": [
+                "Creating world...",
+                "Creating World..."
+            ],
+            "download.preparing": [
+                "Preparing download",
+                "Preparing Download"
+            ],
+            "reset.world.resetting.screen.title": [
+                "Resetting world...",
+                "Resetting World..."
+            ]
+        },
+        "subtitles": {
+            "entity.frostbite.throw": [
+                null,
+                "Frostbite throws"
+            ],
+            "entity.snow_golem.shoot": [
+                null,
+                "Snow Golem throws"
+            ]
+        }
+    },
+    "sounds": {
+        "entity.frostbite.throw": [
+            null,
+            {
+                "field": "FROSTBITE_THROW",
+                "id": 1343,
+                "name": "entity.frostbite.throw",
+                "sounds": [
+                    {
+                        "hash": "4a6c47aa4f8c2cfe3237b250ed19b8714d611fd2",
+                        "name": "random/bow"
+                    }
+                ],
+                "subtitle": "Frostbite throws",
+                "subtitle_key": "subtitles.entity.frostbite.throw"
+            }
+        ],
+        "entity.snow_golem.shoot": [
+            {
+                "field": "SNOW_GOLEM_SHOOT",
+                "id": 1054,
+                "name": "entity.snow_golem.shoot",
+                "sounds": [
+                    {
+                        "hash": "4a6c47aa4f8c2cfe3237b250ed19b8714d611fd2",
+                        "name": "random/bow"
+                    }
+                ],
+                "subtitle_key": "subtitles.entity.snow_golem.shoot"
+            },
+            {
+                "field": "SNOW_GOLEM_SHOOT",
+                "id": 1054,
+                "name": "entity.snow_golem.shoot",
+                "sounds": [
+                    {
+                        "hash": "4a6c47aa4f8c2cfe3237b250ed19b8714d611fd2",
+                        "name": "random/bow"
+                    }
+                ],
+                "subtitle": "Snow Golem throws",
+                "subtitle_key": "subtitles.entity.snow_golem.shoot"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "block/triggers_ambient_ice_block_sounds": [
+            null,
+            {
+                "name": "triggers_ambient_ice_block_sounds",
+                "type": "block",
+                "values": [
+                    "minecraft:ice"
+                ]
+            }
+        ],
+        "block/triggers_ambient_ice_crystal_sounds": [
+            null,
+            {
+                "name": "triggers_ambient_ice_crystal_sounds",
+                "type": "block",
+                "values": [
+                    "minecraft:packed_ice"
+                ]
+            }
+        ],
+        "entity_type/immune_to_freezing": [
+            {
+                "name": "immune_to_freezing",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:stray",
+                    "minecraft:polar_bear",
+                    "minecraft:snow_golem",
+                    "minecraft:wither",
+                    "minecraft:frostbite",
+                    "minecraft:zombie",
+                    "minecraft:drowned",
+                    "minecraft:husk"
+                ]
+            },
+            {
+                "name": "immune_to_freezing",
+                "type": "entity_type",
+                "values": [
+                    "minecraft:polar_bear",
+                    "minecraft:snow_golem",
+                    "minecraft:skeleton",
+                    "minecraft:stray",
+                    "minecraft:wither_skeleton",
+                    "minecraft:skeleton_horse",
+                    "minecraft:bogged",
+                    "minecraft:parched",
+                    "minecraft:zombie_horse",
+                    "minecraft:camel_husk",
+                    "minecraft:zombie",
+                    "minecraft:zombie_villager",
+                    "minecraft:zombified_piglin",
+                    "minecraft:zoglin",
+                    "minecraft:drowned",
+                    "minecraft:husk",
+                    "minecraft:zombie_nautilus",
+                    "minecraft:frostbite",
+                    "minecraft:wither",
+                    "minecraft:phantom"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            5127,
+            5128
+        ],
+        "id": [
+            "26.4-snapshot-7",
+            "26.4-snapshot-8"
+        ],
+        "name": [
+            "26.4 Snapshot 7",
+            "26.4 Snapshot 8"
+        ],
+        "protocol": [
+            1073742169,
+            1073742170
+        ]
+    }
+}
