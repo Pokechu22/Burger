@@ -1,0 +1,1154 @@
+{
+    "achievements": {},
+    "language": {
+        "chat": {
+            "queue.tooltip": [
+                "Click to display next message",
+                "Click to display the next message"
+            ]
+        },
+        "command": {
+            "trailing_data": [
+                "Trailing data found: %s",
+                "Trailing data found '%s'"
+            ]
+        },
+        "commands": {
+            "data.modify.invalid_substring": [
+                "Invalid substring indices: %s to %s",
+                "Invalid substring indices '%s' to '%s'"
+            ],
+            "scoreboard.objectives.modify.objectiveFormat.clear": [
+                "Cleared default number format of objective %s",
+                "Cleared the default number format of objective %s"
+            ],
+            "scoreboard.objectives.modify.objectiveFormat.set": [
+                "Changed default number format of objective %s",
+                "Changed the default number format of objective %s"
+            ],
+            "scoreboard.players.display.name.clear.success.multiple": [
+                "Cleared display name for %s entities in %s",
+                "Cleared the display name for %s entities in %s"
+            ],
+            "scoreboard.players.display.name.clear.success.single": [
+                "Cleared display name for %s in %s",
+                "Cleared the display name for %s in %s"
+            ],
+            "scoreboard.players.display.name.set.success.multiple": [
+                "Changed display name to %s for %s entities in %s",
+                "Changed the display name to %s for %s entities in %s"
+            ],
+            "scoreboard.players.display.name.set.success.single": [
+                "Changed display name to %s for %s in %s",
+                "Changed the display name to %s for %s in %s"
+            ],
+            "scoreboard.players.display.numberFormat.clear.success.multiple": [
+                "Cleared number format for %s entities in %s",
+                "Cleared the number format for %s entities in %s"
+            ],
+            "scoreboard.players.display.numberFormat.clear.success.single": [
+                "Cleared number format for %s in %s",
+                "Cleared the number format for %s in %s"
+            ],
+            "scoreboard.players.display.numberFormat.set.success.multiple": [
+                "Changed number format for %s entities in %s",
+                "Changed the number format for %s entities in %s"
+            ],
+            "scoreboard.players.display.numberFormat.set.success.single": [
+                "Changed number format for %s in %s",
+                "Changed the number format for %s in %s"
+            ]
+        },
+        "container": {
+            "creative_inventory": [
+                null,
+                "Creative Inventory"
+            ]
+        },
+        "gui": {
+            "abuseReport.send.json_error": [
+                "Encountered malformed payload while sending your report.",
+                "Encountered a malformed payload while sending your report."
+            ],
+            "friends.empty_nickname": [
+                "Enter a valid profile name before sending a friend request",
+                "Enter a valid profile name before sending a friend request."
+            ],
+            "friends.error.failed.message": [
+                "Unable to send your friend request right now",
+                "Unable to send your friend request right now."
+            ],
+            "friends.error.user_may_lack_active_profile": [
+                "There is no player with this profile name",
+                "There is no player with this profile name."
+            ],
+            "friends.narration.button.accept": [
+                "Press enter to accept friend request from %s",
+                "Press enter to accept the friend request from %s"
+            ],
+            "friends.narration.button.cancel_request": [
+                "Press enter to cancel friend request to %s",
+                "Press enter to cancel the friend request to %s"
+            ],
+            "friends.narration.button.decline": [
+                "Press enter to decline friend request from %s",
+                "Press enter to decline the friend request from %s"
+            ],
+            "friends.narration.button.unfriend": [
+                "Press enter to remove %s from Friends List",
+                "Press enter to remove %s from your Friends List"
+            ],
+            "recipebook.filter": [
+                null,
+                "Recipe filter"
+            ],
+            "recipebook.moreRecipes.keyboard": [
+                null,
+                "Control + Enter for More"
+            ],
+            "recipebook.search_box": [
+                null,
+                "Search recipes"
+            ],
+            "recipebook.tab.all": [
+                null,
+                "All Recipes"
+            ]
+        },
+        "jigsaw_block": {
+            "placement_priority.tooltip": [
+                "When this Jigsaw block connects to a piece, this is the order in which that piece is processed for connections in the wider structure.\n\nPieces will be processed in descending priority with insertion order breaking ties.",
+                "When this Jigsaw Block connects to a piece, this is the order in which that piece is processed for connections in the wider structure.\n\nPieces will be processed in descending priority with insertion order breaking ties."
+            ],
+            "selection_priority.tooltip": [
+                "When the parent piece is being processed for connections, this is the order in which this Jigsaw block attempts to connect to its target piece.\n\nJigsaws will be processed in descending priority with random ordering breaking ties.",
+                "When the parent piece is being processed for connections, this is the order in which this Jigsaw Block attempts to connect to its target piece.\n\nJigsaws will be processed in descending priority with random ordering breaking ties."
+            ]
+        },
+        "key": {
+            "repeatRecipeOrTrade": [
+                null,
+                "Repeat Recipe/Trade"
+            ]
+        },
+        "menu": {
+            "custom_screen_info.input.tooltip": [
+                null,
+                "Warning: It looks like you might be entering personal information like account information. Never enter login details into an in-game form."
+            ],
+            "playerReporting.no_players": [
+                "There are no players to report in this world",
+                "There are no players to report in this world."
+            ]
+        },
+        "multiplayer": {
+            "status.unrequested": [
+                "Received unrequested status",
+                "Received an unrequested status"
+            ]
+        },
+        "narration": {
+            "creative_item": [
+                null,
+                "%s, %s"
+            ],
+            "creative_item.located": [
+                null,
+                "%s, %s, %s"
+            ],
+            "recipe.usage.close": [
+                null,
+                "Press Escape to close"
+            ],
+            "recipe.usage.more.keyboard": [
+                null,
+                "Press Control + Enter to show more recipes"
+            ],
+            "recipe_book.current_page": [
+                null,
+                "Current page %1$s of %2$s"
+            ],
+            "slot.usage.focused.destroy": [
+                null,
+                "Press Enter to destroy %s"
+            ],
+            "slot.usage.hovered.destroy": [
+                null,
+                "Left-click to destroy %s"
+            ],
+            "tab_navigation.bottom": [
+                null,
+                "bottom row"
+            ],
+            "tab_navigation.top": [
+                null,
+                "top row"
+            ]
+        },
+        "narrator": {
+            "position.tab.index": [
+                null,
+                "%s out of %s"
+            ],
+            "position.tab.named": [
+                null,
+                "Selected %1$s tab %2$s"
+            ]
+        },
+        "options": {
+            "improvedFog": [
+                null,
+                "Improved Fog"
+            ],
+            "improvedFog.tooltip": [
+                null,
+                "Blends the sky background with render distance-based fog to make the boundary between the terrain and the sky less visible. When disabled, the fog is a solid color.\nIf Improved Transparency is also enabled, the clouds will be blended with the fog as well."
+            ],
+            "improvedTransparency.oitWithCloudsInFog.tooltip": [
+                null,
+                "An experimental approach that uses an order-independent transparency algorithm to avoid graphical issues normally present when looking through multiple layers of translucent objects.\nIf Improved Fog is also enabled, the clouds will be blended with render distance-based fog as well.\nThis will impact performance."
+            ]
+        },
+        "recipe_book_category": [
+            null,
+            {
+                "minecraft.blast_furnace_blocks": "Blocks",
+                "minecraft.blast_furnace_misc": "Miscellaneous",
+                "minecraft.crafting_building_blocks": "Building Blocks",
+                "minecraft.crafting_equipment": "Equipment",
+                "minecraft.crafting_misc": "Miscellaneous",
+                "minecraft.crafting_redstone": "Redstone",
+                "minecraft.furnace_blocks": "Blocks",
+                "minecraft.furnace_food": "Food",
+                "minecraft.furnace_misc": "Miscellaneous",
+                "minecraft.smoker_food": "Food"
+            }
+        ],
+        "snbt": {
+            "parser.invalid_codepoint": [
+                "Invalid Unicode character value: %s",
+                "Invalid Unicode character value '%s'"
+            ],
+            "parser.no_such_operation": [
+                "No such operation: %s",
+                "No such operation '%s'"
+            ],
+            "parser.number_parse_failure": [
+                "Failed to parse number: %s",
+                "Failed to parse number '%s'"
+            ]
+        },
+        "subtitles": {
+            "entity.generic.burn": [
+                "Burning",
+                "Something burns"
+            ],
+            "entity.generic.death": [
+                "Dying",
+                "Something dies"
+            ],
+            "entity.generic.drink": [
+                "Sipping",
+                "Something sips"
+            ],
+            "entity.generic.eat": [
+                "Eating",
+                "Something eats"
+            ],
+            "entity.generic.explode": [
+                "Explosion",
+                "Something explodes"
+            ],
+            "entity.generic.splash": [
+                "Splashing",
+                "Something splashes"
+            ],
+            "entity.generic.swim": [
+                "Swimming",
+                "Something swims"
+            ],
+            "item.lead.tied": [
+                "Lead tied",
+                "Lead is tied"
+            ],
+            "item.lead.untied": [
+                "Lead untied",
+                "Lead is untied"
+            ]
+        },
+        "test": {
+            "error.invalid_block_type": [
+                "Unexpected block type found: %s",
+                "Unexpected block type found '%s'"
+            ],
+            "error.wrong_block_entity": [
+                "Wrong block entity type: %s",
+                "Wrong block entity type '%s'"
+            ]
+        },
+        "upgradeWorld": {
+            "progress.type.region": [
+                "Upgrading regions",
+                null
+            ],
+            "progress.type.regions": [
+                null,
+                "Upgrading regions"
+            ]
+        }
+    },
+    "sounds": {
+        "block.end_gateway.spawn": [
+            {
+                "field": "END_GATEWAY_SPAWN",
+                "id": 420,
+                "name": "block.end_gateway.spawn",
+                "sounds": [
+                    {
+                        "hash": "fa85b9e7e54c36c9f9d0249ca739444b5e3bb66c",
+                        "name": "random/explode1"
+                    },
+                    {
+                        "hash": "e55daa373e577f611565d57ec53cd28dcf472f99",
+                        "name": "random/explode2"
+                    },
+                    {
+                        "hash": "3a92d0fd263265719532041f6f2ea44c7ba2f2e2",
+                        "name": "random/explode3"
+                    },
+                    {
+                        "hash": "09835e0c3138faf6047506a2b6f1da087c082d2e",
+                        "name": "random/explode4"
+                    }
+                ],
+                "subtitle": "Explosion",
+                "subtitle_key": "subtitles.entity.generic.explode"
+            },
+            {
+                "field": "END_GATEWAY_SPAWN",
+                "id": 419,
+                "name": "block.end_gateway.spawn",
+                "sounds": [
+                    {
+                        "hash": "fa85b9e7e54c36c9f9d0249ca739444b5e3bb66c",
+                        "name": "random/explode1"
+                    },
+                    {
+                        "hash": "e55daa373e577f611565d57ec53cd28dcf472f99",
+                        "name": "random/explode2"
+                    },
+                    {
+                        "hash": "3a92d0fd263265719532041f6f2ea44c7ba2f2e2",
+                        "name": "random/explode3"
+                    },
+                    {
+                        "hash": "09835e0c3138faf6047506a2b6f1da087c082d2e",
+                        "name": "random/explode4"
+                    }
+                ],
+                "subtitle": "Something explodes",
+                "subtitle_key": "subtitles.entity.generic.explode"
+            }
+        ],
+        "entity.dragon_fireball.explode": [
+            {
+                "field": "DRAGON_FIREBALL_EXPLODE",
+                "id": 402,
+                "name": "entity.dragon_fireball.explode",
+                "sounds": [
+                    {
+                        "hash": "fa85b9e7e54c36c9f9d0249ca739444b5e3bb66c",
+                        "name": "random/explode1"
+                    },
+                    {
+                        "hash": "e55daa373e577f611565d57ec53cd28dcf472f99",
+                        "name": "random/explode2"
+                    },
+                    {
+                        "hash": "3a92d0fd263265719532041f6f2ea44c7ba2f2e2",
+                        "name": "random/explode3"
+                    },
+                    {
+                        "hash": "09835e0c3138faf6047506a2b6f1da087c082d2e",
+                        "name": "random/explode4"
+                    }
+                ],
+                "subtitle": "Explosion",
+                "subtitle_key": "subtitles.entity.generic.explode"
+            },
+            {
+                "field": "DRAGON_FIREBALL_EXPLODE",
+                "id": 401,
+                "name": "entity.dragon_fireball.explode",
+                "sounds": [
+                    {
+                        "hash": "fa85b9e7e54c36c9f9d0249ca739444b5e3bb66c",
+                        "name": "random/explode1"
+                    },
+                    {
+                        "hash": "e55daa373e577f611565d57ec53cd28dcf472f99",
+                        "name": "random/explode2"
+                    },
+                    {
+                        "hash": "3a92d0fd263265719532041f6f2ea44c7ba2f2e2",
+                        "name": "random/explode3"
+                    },
+                    {
+                        "hash": "09835e0c3138faf6047506a2b6f1da087c082d2e",
+                        "name": "random/explode4"
+                    }
+                ],
+                "subtitle": "Something explodes",
+                "subtitle_key": "subtitles.entity.generic.explode"
+            }
+        ],
+        "entity.generic.burn": [
+            {
+                "field": "GENERIC_BURN",
+                "id": 480,
+                "name": "entity.generic.burn",
+                "sounds": [
+                    {
+                        "hash": "bd76df5c882dc4b65925a8b25c0e7dbebef9bb2e",
+                        "name": "random/fizz"
+                    }
+                ],
+                "subtitle": "Burning",
+                "subtitle_key": "subtitles.entity.generic.burn"
+            },
+            {
+                "field": "GENERIC_BURN",
+                "id": 479,
+                "name": "entity.generic.burn",
+                "sounds": [
+                    {
+                        "hash": "bd76df5c882dc4b65925a8b25c0e7dbebef9bb2e",
+                        "name": "random/fizz"
+                    }
+                ],
+                "subtitle": "Something burns",
+                "subtitle_key": "subtitles.entity.generic.burn"
+            }
+        ],
+        "entity.generic.death": [
+            {
+                "field": "GENERIC_DEATH",
+                "id": 481,
+                "name": "entity.generic.death",
+                "sounds": [
+                    {
+                        "hash": "c43077ac1f9ceda7e9e1c152f839baf207833aa8",
+                        "name": "damage/hit1"
+                    },
+                    {
+                        "hash": "65bf3f80ca720c55b99925ba3a515d2f932b15b1",
+                        "name": "damage/hit2"
+                    },
+                    {
+                        "hash": "b334c8ab1abc3ffa233bd612074bc8032c9b160f",
+                        "name": "damage/hit3"
+                    }
+                ],
+                "subtitle": "Dying",
+                "subtitle_key": "subtitles.entity.generic.death"
+            },
+            {
+                "field": "GENERIC_DEATH",
+                "id": 480,
+                "name": "entity.generic.death",
+                "sounds": [
+                    {
+                        "hash": "c43077ac1f9ceda7e9e1c152f839baf207833aa8",
+                        "name": "damage/hit1"
+                    },
+                    {
+                        "hash": "65bf3f80ca720c55b99925ba3a515d2f932b15b1",
+                        "name": "damage/hit2"
+                    },
+                    {
+                        "hash": "b334c8ab1abc3ffa233bd612074bc8032c9b160f",
+                        "name": "damage/hit3"
+                    }
+                ],
+                "subtitle": "Something dies",
+                "subtitle_key": "subtitles.entity.generic.death"
+            }
+        ],
+        "entity.generic.drink": [
+            {
+                "field": "GENERIC_DRINK",
+                "id": 482,
+                "name": "entity.generic.drink",
+                "sounds": [
+                    {
+                        "hash": "ed402bb1c240a70fa9eb05fe5eec436c248598f2",
+                        "name": "random/drink"
+                    }
+                ],
+                "subtitle": "Sipping",
+                "subtitle_key": "subtitles.entity.generic.drink"
+            },
+            {
+                "field": "GENERIC_DRINK",
+                "id": 481,
+                "name": "entity.generic.drink",
+                "sounds": [
+                    {
+                        "hash": "ed402bb1c240a70fa9eb05fe5eec436c248598f2",
+                        "name": "random/drink"
+                    }
+                ],
+                "subtitle": "Something sips",
+                "subtitle_key": "subtitles.entity.generic.drink"
+            }
+        ],
+        "entity.generic.eat": [
+            {
+                "field": "GENERIC_EAT",
+                "id": 483,
+                "name": "entity.generic.eat",
+                "sounds": [
+                    {
+                        "hash": "ebf6fcfa3dd26d6f684fd90388221d4ee4a1af1d",
+                        "name": "random/eat1"
+                    },
+                    {
+                        "hash": "608792c62e053a9ddf9fc3bd493a6da1437ad36a",
+                        "name": "random/eat2"
+                    },
+                    {
+                        "hash": "d8a23d7672a2e277c8a0c08e131fded629fb5db7",
+                        "name": "random/eat3"
+                    }
+                ],
+                "subtitle": "Eating",
+                "subtitle_key": "subtitles.entity.generic.eat"
+            },
+            {
+                "field": "GENERIC_EAT",
+                "id": 482,
+                "name": "entity.generic.eat",
+                "sounds": [
+                    {
+                        "hash": "ebf6fcfa3dd26d6f684fd90388221d4ee4a1af1d",
+                        "name": "random/eat1"
+                    },
+                    {
+                        "hash": "608792c62e053a9ddf9fc3bd493a6da1437ad36a",
+                        "name": "random/eat2"
+                    },
+                    {
+                        "hash": "d8a23d7672a2e277c8a0c08e131fded629fb5db7",
+                        "name": "random/eat3"
+                    }
+                ],
+                "subtitle": "Something eats",
+                "subtitle_key": "subtitles.entity.generic.eat"
+            }
+        ],
+        "entity.generic.explode": [
+            {
+                "field": "GENERIC_EXPLODE",
+                "id": 484,
+                "name": "entity.generic.explode",
+                "sounds": [
+                    {
+                        "hash": "fa85b9e7e54c36c9f9d0249ca739444b5e3bb66c",
+                        "name": "random/explode1"
+                    },
+                    {
+                        "hash": "e55daa373e577f611565d57ec53cd28dcf472f99",
+                        "name": "random/explode2"
+                    },
+                    {
+                        "hash": "3a92d0fd263265719532041f6f2ea44c7ba2f2e2",
+                        "name": "random/explode3"
+                    },
+                    {
+                        "hash": "09835e0c3138faf6047506a2b6f1da087c082d2e",
+                        "name": "random/explode4"
+                    }
+                ],
+                "subtitle": "Explosion",
+                "subtitle_key": "subtitles.entity.generic.explode"
+            },
+            {
+                "field": "GENERIC_EXPLODE",
+                "id": 483,
+                "name": "entity.generic.explode",
+                "sounds": [
+                    {
+                        "hash": "fa85b9e7e54c36c9f9d0249ca739444b5e3bb66c",
+                        "name": "random/explode1"
+                    },
+                    {
+                        "hash": "e55daa373e577f611565d57ec53cd28dcf472f99",
+                        "name": "random/explode2"
+                    },
+                    {
+                        "hash": "3a92d0fd263265719532041f6f2ea44c7ba2f2e2",
+                        "name": "random/explode3"
+                    },
+                    {
+                        "hash": "09835e0c3138faf6047506a2b6f1da087c082d2e",
+                        "name": "random/explode4"
+                    }
+                ],
+                "subtitle": "Something explodes",
+                "subtitle_key": "subtitles.entity.generic.explode"
+            }
+        ],
+        "entity.generic.splash": [
+            {
+                "field": "GENERIC_SPLASH",
+                "id": 488,
+                "name": "entity.generic.splash",
+                "sounds": [
+                    {
+                        "hash": "264ae650cce4cea0cd4cb1757624a9d51653499b",
+                        "name": "liquid/splash"
+                    },
+                    {
+                        "hash": "338e0b08a21e73dd5e7888c9c7e67e9a1a119dc1",
+                        "name": "liquid/splash2"
+                    }
+                ],
+                "subtitle": "Splashing",
+                "subtitle_key": "subtitles.entity.generic.splash"
+            },
+            {
+                "field": "GENERIC_SPLASH",
+                "id": 487,
+                "name": "entity.generic.splash",
+                "sounds": [
+                    {
+                        "hash": "264ae650cce4cea0cd4cb1757624a9d51653499b",
+                        "name": "liquid/splash"
+                    },
+                    {
+                        "hash": "338e0b08a21e73dd5e7888c9c7e67e9a1a119dc1",
+                        "name": "liquid/splash2"
+                    }
+                ],
+                "subtitle": "Something splashes",
+                "subtitle_key": "subtitles.entity.generic.splash"
+            }
+        ],
+        "entity.generic.swim": [
+            {
+                "field": "GENERIC_SWIM",
+                "id": 489,
+                "name": "entity.generic.swim",
+                "sounds": [
+                    {
+                        "hash": "547abbf1fa7de9dee7f2d78c3a55c1d15a4614ab",
+                        "name": "liquid/swim1"
+                    },
+                    {
+                        "hash": "b054ede6e4d3fc188301b15dc0053f01d36ee38e",
+                        "name": "liquid/swim2"
+                    },
+                    {
+                        "hash": "42d71c0b4b894b091e6924068a7624788e03b92e",
+                        "name": "liquid/swim3"
+                    },
+                    {
+                        "hash": "d53da5fdbf67c4bb4597ed0e212a252920692459",
+                        "name": "liquid/swim4"
+                    }
+                ],
+                "subtitle": "Swimming",
+                "subtitle_key": "subtitles.entity.generic.swim"
+            },
+            {
+                "field": "GENERIC_SWIM",
+                "id": 488,
+                "name": "entity.generic.swim",
+                "sounds": [
+                    {
+                        "hash": "547abbf1fa7de9dee7f2d78c3a55c1d15a4614ab",
+                        "name": "liquid/swim1"
+                    },
+                    {
+                        "hash": "b054ede6e4d3fc188301b15dc0053f01d36ee38e",
+                        "name": "liquid/swim2"
+                    },
+                    {
+                        "hash": "42d71c0b4b894b091e6924068a7624788e03b92e",
+                        "name": "liquid/swim3"
+                    },
+                    {
+                        "hash": "d53da5fdbf67c4bb4597ed0e212a252920692459",
+                        "name": "liquid/swim4"
+                    }
+                ],
+                "subtitle": "Something swims",
+                "subtitle_key": "subtitles.entity.generic.swim"
+            }
+        ],
+        "entity.hostile.death": [
+            {
+                "field": "HOSTILE_DEATH",
+                "id": 595,
+                "name": "entity.hostile.death",
+                "sounds": [
+                    {
+                        "hash": "c43077ac1f9ceda7e9e1c152f839baf207833aa8",
+                        "name": "damage/hit1"
+                    },
+                    {
+                        "hash": "65bf3f80ca720c55b99925ba3a515d2f932b15b1",
+                        "name": "damage/hit2"
+                    },
+                    {
+                        "hash": "b334c8ab1abc3ffa233bd612074bc8032c9b160f",
+                        "name": "damage/hit3"
+                    }
+                ],
+                "subtitle": "Dying",
+                "subtitle_key": "subtitles.entity.generic.death"
+            },
+            {
+                "field": "HOSTILE_DEATH",
+                "id": 595,
+                "name": "entity.hostile.death",
+                "sounds": [
+                    {
+                        "hash": "c43077ac1f9ceda7e9e1c152f839baf207833aa8",
+                        "name": "damage/hit1"
+                    },
+                    {
+                        "hash": "65bf3f80ca720c55b99925ba3a515d2f932b15b1",
+                        "name": "damage/hit2"
+                    },
+                    {
+                        "hash": "b334c8ab1abc3ffa233bd612074bc8032c9b160f",
+                        "name": "damage/hit3"
+                    }
+                ],
+                "subtitle": "Something dies",
+                "subtitle_key": "subtitles.entity.generic.death"
+            }
+        ],
+        "entity.hostile.splash": [
+            {
+                "field": "HOSTILE_SPLASH",
+                "id": 598,
+                "name": "entity.hostile.splash",
+                "sounds": [
+                    {
+                        "hash": "264ae650cce4cea0cd4cb1757624a9d51653499b",
+                        "name": "liquid/splash"
+                    },
+                    {
+                        "hash": "338e0b08a21e73dd5e7888c9c7e67e9a1a119dc1",
+                        "name": "liquid/splash2"
+                    }
+                ],
+                "subtitle": "Splashing",
+                "subtitle_key": "subtitles.entity.generic.splash"
+            },
+            {
+                "field": "HOSTILE_SPLASH",
+                "id": 598,
+                "name": "entity.hostile.splash",
+                "sounds": [
+                    {
+                        "hash": "264ae650cce4cea0cd4cb1757624a9d51653499b",
+                        "name": "liquid/splash"
+                    },
+                    {
+                        "hash": "338e0b08a21e73dd5e7888c9c7e67e9a1a119dc1",
+                        "name": "liquid/splash2"
+                    }
+                ],
+                "subtitle": "Something splashes",
+                "subtitle_key": "subtitles.entity.generic.splash"
+            }
+        ],
+        "entity.hostile.swim": [
+            {
+                "field": "HOSTILE_SWIM",
+                "id": 599,
+                "name": "entity.hostile.swim",
+                "sounds": [
+                    {
+                        "hash": "547abbf1fa7de9dee7f2d78c3a55c1d15a4614ab",
+                        "name": "liquid/swim1"
+                    },
+                    {
+                        "hash": "b054ede6e4d3fc188301b15dc0053f01d36ee38e",
+                        "name": "liquid/swim2"
+                    },
+                    {
+                        "hash": "42d71c0b4b894b091e6924068a7624788e03b92e",
+                        "name": "liquid/swim3"
+                    },
+                    {
+                        "hash": "d53da5fdbf67c4bb4597ed0e212a252920692459",
+                        "name": "liquid/swim4"
+                    }
+                ],
+                "subtitle": "Swimming",
+                "subtitle_key": "subtitles.entity.generic.swim"
+            },
+            {
+                "field": "HOSTILE_SWIM",
+                "id": 599,
+                "name": "entity.hostile.swim",
+                "sounds": [
+                    {
+                        "hash": "547abbf1fa7de9dee7f2d78c3a55c1d15a4614ab",
+                        "name": "liquid/swim1"
+                    },
+                    {
+                        "hash": "b054ede6e4d3fc188301b15dc0053f01d36ee38e",
+                        "name": "liquid/swim2"
+                    },
+                    {
+                        "hash": "42d71c0b4b894b091e6924068a7624788e03b92e",
+                        "name": "liquid/swim3"
+                    },
+                    {
+                        "hash": "d53da5fdbf67c4bb4597ed0e212a252920692459",
+                        "name": "liquid/swim4"
+                    }
+                ],
+                "subtitle": "Something swims",
+                "subtitle_key": "subtitles.entity.generic.swim"
+            }
+        ],
+        "entity.player.splash": [
+            {
+                "field": "PLAYER_SPLASH",
+                "id": 913,
+                "name": "entity.player.splash",
+                "sounds": [
+                    {
+                        "hash": "264ae650cce4cea0cd4cb1757624a9d51653499b",
+                        "name": "liquid/splash"
+                    },
+                    {
+                        "hash": "338e0b08a21e73dd5e7888c9c7e67e9a1a119dc1",
+                        "name": "liquid/splash2"
+                    }
+                ],
+                "subtitle": "Splashing",
+                "subtitle_key": "subtitles.entity.generic.splash"
+            },
+            {
+                "field": "PLAYER_SPLASH",
+                "id": 913,
+                "name": "entity.player.splash",
+                "sounds": [
+                    {
+                        "hash": "264ae650cce4cea0cd4cb1757624a9d51653499b",
+                        "name": "liquid/splash"
+                    },
+                    {
+                        "hash": "338e0b08a21e73dd5e7888c9c7e67e9a1a119dc1",
+                        "name": "liquid/splash2"
+                    }
+                ],
+                "subtitle": "Something splashes",
+                "subtitle_key": "subtitles.entity.generic.splash"
+            }
+        ],
+        "entity.player.splash.high_speed": [
+            {
+                "field": "PLAYER_SPLASH_HIGH_SPEED",
+                "id": 914,
+                "name": "entity.player.splash.high_speed",
+                "sounds": [
+                    {
+                        "hash": "c8c992df46642c5c27a8c713c6078a08da1693e2",
+                        "name": "liquid/heavy_splash"
+                    }
+                ],
+                "subtitle": "Splashing",
+                "subtitle_key": "subtitles.entity.generic.splash"
+            },
+            {
+                "field": "PLAYER_SPLASH_HIGH_SPEED",
+                "id": 914,
+                "name": "entity.player.splash.high_speed",
+                "sounds": [
+                    {
+                        "hash": "c8c992df46642c5c27a8c713c6078a08da1693e2",
+                        "name": "liquid/heavy_splash"
+                    }
+                ],
+                "subtitle": "Something splashes",
+                "subtitle_key": "subtitles.entity.generic.splash"
+            }
+        ],
+        "entity.player.swim": [
+            {
+                "field": "PLAYER_SWIM",
+                "id": 915,
+                "name": "entity.player.swim",
+                "sounds": [
+                    {
+                        "hash": "7d467b1a379b73ebf64453402b46a4430a42657a",
+                        "name": "liquid/swim5"
+                    },
+                    {
+                        "hash": "11e7c4b42ab89941ee148bc84f10dfeee42c0925",
+                        "name": "liquid/swim6"
+                    },
+                    {
+                        "hash": "fa138f9ab5a15dd9507b033c5948b1de357ed1f8",
+                        "name": "liquid/swim7"
+                    },
+                    {
+                        "hash": "5fbcb419f46e58e1f5079abfa6099646a6f035e6",
+                        "name": "liquid/swim8"
+                    },
+                    {
+                        "hash": "f03d18b2bce2a3c51e6e831747cd8b944f5771f6",
+                        "name": "liquid/swim9"
+                    },
+                    {
+                        "hash": "3c83854d50456a6cc9a4dde52975e71960da1688",
+                        "name": "liquid/swim10"
+                    },
+                    {
+                        "hash": "30a600a9e2cfef0400bbab062cbbd0be2755b5a0",
+                        "name": "liquid/swim11"
+                    },
+                    {
+                        "hash": "f9500ef831484ce2c2e69bbb02fe9ec23af93d9b",
+                        "name": "liquid/swim12"
+                    },
+                    {
+                        "hash": "ef6e9421377a64e4b25d8f60da356a60a39c16a4",
+                        "name": "liquid/swim13"
+                    },
+                    {
+                        "hash": "fd8953047707f4ab8fef40ed4e55bf07b2217df9",
+                        "name": "liquid/swim14"
+                    },
+                    {
+                        "hash": "80156c24f24360716ea24497c857fbba853ca5dd",
+                        "name": "liquid/swim15"
+                    },
+                    {
+                        "hash": "c8c78d167a008f5320cb7112e00345adf6eb39eb",
+                        "name": "liquid/swim16"
+                    },
+                    {
+                        "hash": "7d33a0653252f7f8b0ca57688c6eaf9e200ab37c",
+                        "name": "liquid/swim17"
+                    },
+                    {
+                        "hash": "b511c74ca73f54d9e698f560fdf7762f9af92f16",
+                        "name": "liquid/swim18"
+                    }
+                ],
+                "subtitle": "Swimming",
+                "subtitle_key": "subtitles.entity.generic.swim"
+            },
+            {
+                "field": "PLAYER_SWIM",
+                "id": 915,
+                "name": "entity.player.swim",
+                "sounds": [
+                    {
+                        "hash": "7d467b1a379b73ebf64453402b46a4430a42657a",
+                        "name": "liquid/swim5"
+                    },
+                    {
+                        "hash": "11e7c4b42ab89941ee148bc84f10dfeee42c0925",
+                        "name": "liquid/swim6"
+                    },
+                    {
+                        "hash": "fa138f9ab5a15dd9507b033c5948b1de357ed1f8",
+                        "name": "liquid/swim7"
+                    },
+                    {
+                        "hash": "5fbcb419f46e58e1f5079abfa6099646a6f035e6",
+                        "name": "liquid/swim8"
+                    },
+                    {
+                        "hash": "f03d18b2bce2a3c51e6e831747cd8b944f5771f6",
+                        "name": "liquid/swim9"
+                    },
+                    {
+                        "hash": "3c83854d50456a6cc9a4dde52975e71960da1688",
+                        "name": "liquid/swim10"
+                    },
+                    {
+                        "hash": "30a600a9e2cfef0400bbab062cbbd0be2755b5a0",
+                        "name": "liquid/swim11"
+                    },
+                    {
+                        "hash": "f9500ef831484ce2c2e69bbb02fe9ec23af93d9b",
+                        "name": "liquid/swim12"
+                    },
+                    {
+                        "hash": "ef6e9421377a64e4b25d8f60da356a60a39c16a4",
+                        "name": "liquid/swim13"
+                    },
+                    {
+                        "hash": "fd8953047707f4ab8fef40ed4e55bf07b2217df9",
+                        "name": "liquid/swim14"
+                    },
+                    {
+                        "hash": "80156c24f24360716ea24497c857fbba853ca5dd",
+                        "name": "liquid/swim15"
+                    },
+                    {
+                        "hash": "c8c78d167a008f5320cb7112e00345adf6eb39eb",
+                        "name": "liquid/swim16"
+                    },
+                    {
+                        "hash": "7d33a0653252f7f8b0ca57688c6eaf9e200ab37c",
+                        "name": "liquid/swim17"
+                    },
+                    {
+                        "hash": "b511c74ca73f54d9e698f560fdf7762f9af92f16",
+                        "name": "liquid/swim18"
+                    }
+                ],
+                "subtitle": "Something swims",
+                "subtitle_key": "subtitles.entity.generic.swim"
+            }
+        ],
+        "item.lead.tied": [
+            {
+                "field": "LEAD_TIED",
+                "id": 634,
+                "name": "item.lead.tied",
+                "sounds": [
+                    {
+                        "hash": "d3471594990759e65b92d9d325c839cf1599598f",
+                        "name": "entity/leashknot/leash1"
+                    },
+                    {
+                        "hash": "3cf0610c73617c572dc079fd3d42759fae11546f",
+                        "name": "entity/leashknot/leash2"
+                    },
+                    {
+                        "hash": "1d0f4d6fcd3329385e035f810e66da970cd35ef3",
+                        "name": "entity/leashknot/leash3"
+                    }
+                ],
+                "subtitle": "Lead tied",
+                "subtitle_key": "subtitles.item.lead.tied"
+            },
+            {
+                "field": "LEAD_TIED",
+                "id": 634,
+                "name": "item.lead.tied",
+                "sounds": [
+                    {
+                        "hash": "d3471594990759e65b92d9d325c839cf1599598f",
+                        "name": "entity/leashknot/leash1"
+                    },
+                    {
+                        "hash": "3cf0610c73617c572dc079fd3d42759fae11546f",
+                        "name": "entity/leashknot/leash2"
+                    },
+                    {
+                        "hash": "1d0f4d6fcd3329385e035f810e66da970cd35ef3",
+                        "name": "entity/leashknot/leash3"
+                    }
+                ],
+                "subtitle": "Lead is tied",
+                "subtitle_key": "subtitles.item.lead.tied"
+            }
+        ],
+        "item.lead.untied": [
+            {
+                "field": "LEAD_UNTIED",
+                "id": 633,
+                "name": "item.lead.untied",
+                "sounds": [
+                    {
+                        "hash": "8021a5503ec3e492aac6fc5da859091cf905d4cd",
+                        "name": "entity/leashknot/unleash1"
+                    },
+                    {
+                        "hash": "3e1c63a265eb5d14c4b76e342455370cd4b428a3",
+                        "name": "entity/leashknot/unleash2"
+                    },
+                    {
+                        "hash": "40791b42d490bbf7aba949dbccdc29cf2389922b",
+                        "name": "entity/leashknot/unleash3"
+                    }
+                ],
+                "subtitle": "Lead untied",
+                "subtitle_key": "subtitles.item.lead.untied"
+            },
+            {
+                "field": "LEAD_UNTIED",
+                "id": 633,
+                "name": "item.lead.untied",
+                "sounds": [
+                    {
+                        "hash": "8021a5503ec3e492aac6fc5da859091cf905d4cd",
+                        "name": "entity/leashknot/unleash1"
+                    },
+                    {
+                        "hash": "3e1c63a265eb5d14c4b76e342455370cd4b428a3",
+                        "name": "entity/leashknot/unleash2"
+                    },
+                    {
+                        "hash": "40791b42d490bbf7aba949dbccdc29cf2389922b",
+                        "name": "entity/leashknot/unleash3"
+                    }
+                ],
+                "subtitle": "Lead is untied",
+                "subtitle_key": "subtitles.item.lead.untied"
+            }
+        ]
+    },
+    "stats": {},
+    "tags": {
+        "damage_type/bypasses_cooldown": [
+            {
+                "name": "bypasses_cooldown",
+                "type": "damage_type",
+                "values": []
+            },
+            {
+                "name": "bypasses_cooldown",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:generic_kill"
+                ]
+            }
+        ],
+        "damage_type/cannot_hurt_perching_ender_dragon": [
+            null,
+            {
+                "name": "cannot_hurt_perching_ender_dragon",
+                "type": "damage_type",
+                "values": [
+                    "minecraft:arrow",
+                    "minecraft:thrown",
+                    "minecraft:trident",
+                    "minecraft:wind_charge"
+                ]
+            }
+        ]
+    },
+    "version": {
+        "data": [
+            5128,
+            5129
+        ],
+        "id": [
+            "26.4-snapshot-8",
+            "26.4-snapshot-9"
+        ],
+        "name": [
+            "26.4 Snapshot 8",
+            "26.4 Snapshot 9"
+        ],
+        "protocol": [
+            1073742170,
+            1073742171
+        ]
+    }
+}
